@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Rna-seq | rna-seq.at]]></title>
   <link href="http://mtw.github.io/blog/categories/rna-seq/atom.xml" rel="self"/>
   <link href="http://mtw.github.io/"/>
-  <updated>2015-12-07T15:09:35+01:00</updated>
+  <updated>2015-12-07T15:59:59+01:00</updated>
   <id>http://mtw.github.io/</id>
   <author>
     <name><![CDATA[Michael T. Wolfinger]]></name>
@@ -103,6 +103,79 @@ and very easy to use: Just provide it the output of a bedtols multicov run
 on your data as well as the read length used for sequencing your samples
 and get back a normalized multicov file of your samples in terms of
 TPM. That&rsquo;s all &hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[TSSAR: TSS Annotation Regime for dRNA-seq Data]]></title>
+    <link href="http://mtw.github.io/blog/2014/04/13/tssar-tss-annotation-regime-for-drna-seq-data/"/>
+    <updated>2014-04-13T22:22:41+02:00</updated>
+    <id>http://mtw.github.io/blog/2014/04/13/tssar-tss-annotation-regime-for-drna-seq-data</id>
+    <content type="html"><![CDATA[<p>In silico identification of bacterial transcription start sites (TSS) has
+been a major challenge for the last years. To address this issue, we have
+developped <a href="http://rna.tbi.univie.ac.at/TSSAR">TSSAR</a>, a statistical method
+for analyzing dRNA-seq data, together with colleagues from the
+Bioinformatics department at the University of Leipzig.</p>
+
+<p>The TSSAR method paper is now out:</p>
+
+<p><a href="http://www.biomedcentral.com/1471-2105/15/89"><strong>TSSAR: TSS annotation regime for dRNA-seq
+data</strong></a> <br/>
+<em>Fabian Amman, Michael T Wolfinger, Ronny Lorenz, Ivo L Hofacker, Peter F
+Stadler, Sven Findeiß</em><br/>
+BMC Bioinformatics 2014, 15:89<br/>
+<a href="http://dx.doi.org/10.1186/1471-2105-15-89">DOI: 10.1186/1471-2105-15-89</a></p>
+
+<h2>Abstract</h2>
+
+<blockquote><p>Background</p>
+
+<p>Differential RNA sequencing dRNA-seq is a high-throughput screening
+technique designed to examine the architecture of bacterial operons in
+general and the precise position of transcription start sites (TSS) in
+particular. Hitherto, dRNA-seq data were analyzed by visualizing the
+sequencing reads mapped to the reference genome and manually annotating
+reliable positions. This is very labor intensive and, due to the
+subjectivity, biased.</p>
+
+<p>Results</p>
+
+<p>Here, we present <strong>TSSAR</strong>, a tool for automated <em>de-novo</em> TSS annotation
+from dRNA-seq data that respects the statistics of dRNA-seq
+libraries. <strong>TSSAR</strong> uses the premise that the number of sequencing reads
+starting at a certain genomic position within a transcriptional active
+region follows a Poisson distribution with a parameter that depends on the
+local strength of expression. The differences of two dRNA-seq library
+counts thus follow a Skellam distribution. This provides a statistical
+basis to identify significantly enriched primary transcripts.</p>
+
+<p>We assessed the performance by analyzing a publicly available dRNA-seq
+  data set using <strong>TSSAR</strong> and two simple approaches that utilize
+  user-defined score cutoffs. We evaluated the power of reproducing the
+  manual TSS annotation. Furthermore, the same data set was used to
+  reproduce 74 experimentally validated TSS in <em>H. pylori</em> from reliable
+  techniques such as RACE or primer extension. Both analyses showed that
+  <strong>TSSAR</strong> outperforms the static cutoff-dependent approaches.</p>
+
+<p>Conclusions</p>
+
+<p>Having an automated and efficient tool for analyzing dRNA-seq data
+  facilitates the use of the dRNA-seq technique and promotes its
+  application to more sophisticated analysis. For instance, monitoring the
+  plasticity and dynamics of the transcriptomal architecture triggered by
+  different stimuli and growth conditions becomes possible.</p>
+
+<p>The main asset of a novel tool for dRNA-seq analysis that reaches out to
+a broad user community is usability. As such, we provide <strong>TSSAR</strong> both as
+intuitive RESTful Web service [<a href="http://rna.tbi.univie.ac.at/TSSAR">http://rna.tbi.univie.ac.at/TSSAR</a>] together
+with a set of post-processing and analysis tools, as well as a
+stand-alone version for use in high-throughput dRNA-seq data analysis
+pipelines.</p>
+
+<p>Keywords</p>
+
+<p>Differential RNA sequencing, dRNA-seq, TSS, Transcription start site
+annotation, Transcriptome, RESTful Web service, Next generation sequencing</p></blockquote>
 ]]></content>
   </entry>
   
