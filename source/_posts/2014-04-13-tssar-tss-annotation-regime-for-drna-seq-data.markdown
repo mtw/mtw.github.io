@@ -3,7 +3,7 @@ layout: post
 title: "TSSAR: TSS annotation regime for dRNA-seq data"
 date: 2014-04-13 22:22:41 +0200
 comments: true
-categories: publications
+categories: [publications, rna-seq]
 ---
 
 In silico identification of bacterial transcription start sites (TSS) has
@@ -12,12 +12,17 @@ developped [TSSAR](http://rna.tbi.univie.ac.at/TSSAR), a statistical method
 for analyzing dRNA-seq data, together with colleagues from the
 Bioinformatics department at the University of Leipzig.
 
-The TSSAR method paper is now out: [TSSAR: TSS annotation regime for dRNA-seq
-data](http://dx.doi.org/10.1186/1471-2105-15-89) _BMC Bioinformatics_ 2014
-**15**:89
+The TSSAR method paper is now out: 
 
+[__TSSAR: TSS annotation regime for dRNA-seq
+data__](http://www.biomedcentral.com/1471-2105/15/89)   
+*Fabian Amman, Michael T Wolfinger, Ronny Lorenz, Ivo L Hofacker, Peter F
+Stadler, Sven Findeiß*  
+BMC Bioinformatics 2014, 15:89  
+[DOI: 10.1186/1471-2105-15-89](http://dx.doi.org/10.1186/1471-2105-15-89)
 
-> #### Abstract
+## Abstract
+
 > Background
 
 > Differential RNA sequencing dRNA-seq is a high-throughput screening
