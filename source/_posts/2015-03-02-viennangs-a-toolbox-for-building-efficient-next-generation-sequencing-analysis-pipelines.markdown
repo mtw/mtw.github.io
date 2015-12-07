@@ -3,7 +3,7 @@ layout: post
 title: "ViennaNGS: A toolbox for building efficient next-generation sequencing analysis pipelines"
 date: 2015-03-02 21:58:01 +0100
 comments: true
-categories: [rna-seq, ViennaNGS]
+categories: [rna-seq, ViennaNGS, publications]
 ---
 __ViennaNGS__  is a Perl distribution for building efficient NGS data and
 analysis pipelines, integrating high-level routines and wrapper functions for
