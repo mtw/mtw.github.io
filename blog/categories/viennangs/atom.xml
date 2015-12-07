@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Viennangs | rna-seq.at]]></title>
+  <link href="http://mtw.github.io/blog/categories/viennangs/atom.xml" rel="self"/>
+  <link href="http://mtw.github.io/"/>
+  <updated>2015-12-07T15:09:35+01:00</updated>
+  <id>http://mtw.github.io/</id>
+  <author>
+    <name><![CDATA[Michael T. Wolfinger]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[ViennaNGS Installation HOWTO]]></title>
+    <link href="http://mtw.github.io/blog/2015/03/03/viennangs-installation-howto/"/>
+    <updated>2015-03-03T11:45:50+01:00</updated>
+    <id>http://mtw.github.io/blog/2015/03/03/viennangs-installation-howto</id>
+    <content type="html"><![CDATA[<p><a href="http://search.cpan.org/dist/Bio-ViennaNGS">ViennaNGS</a> is a Perl distribution
+for rapid development of next-generation sequencing analysis pipelines. It comes
+with a set of modules and <a href="http://moose.iinteractive.com/en/">Moose-based</a>
+classes for accomplishing standard and non-standard tasks in NGS processing.
+ViennaNGS' feature-richness, however, comes at some cost: dependencies on third
+party Perl modules and external tools and libraries, which can be tedious to
+install. I have therefore compiled this little <strong>ViennaNGS Installation HOWTO</strong>
+to help prospective users getting the software up and running quickly on their
+systems.</p>
+
+<p>Let&rsquo;s get started. The installation process provided here has been prepared for
+Linux systems, however the steps should be reproducible on MacOS X given that
+you have the common GNU tools and  Perl 5.10.0 or higher available, e.g. via
+<a href="https://www.macports.org">MacPorts</a>.</p>
+
+<h3>First things first: third party dependencies</h3>
+
+<p><em>ViennaNGS</em> depends on set of third party bioinf tools and libraries, which are
+required either for specific filtering and file format conversion tasks or for
+building internally used Perl modules. Before continuing with the <em>ViennaNGS</em>
+installation, you will need to download and install the following software and
+ensure that all executables are accessible to the Perl interpreter:</p>
+
+<ul>
+<li>A recent version of <a href="https://github.com/arq5x/bedtools2">bedtools2</a> (latest version as of writing was v2.23)</li>
+<li>The <em>bedGraphToBigWig</em> and <em>fetchChromSizes</em> <a href="http://hgdownload.cse.ucsc.edu/admin/exe/">UCSC Genome Browser application binaries</a></li>
+<li>The <a href="http://www.r-project.org/">R Statistics Package</a></li>
+<li><a href="https://github.com/samtools/samtools/releases/tag/0.1.19">samtools &lt;= v0.1.19</a>. More recent HTSlib-based versions will <strong>not work</strong> with <a href="http://search.cpan.org/~lds/Bio-SamTools/lib/Bio/DB/Sam.pm">Bio::DB::Sam</a></li>
+</ul>
+
+
+<p>The last dependency is in fact a bit peculiar. <em>Bio::DB::Sam</em> up to version
+1.41, which we use for all kind of direct BAM manipulation within <em>ViennaNGS</em>,
+for some reason will not compile with recent, HTSlib-based versions of
+<em>samtools</em>. <em>samtools 0.1.19</em> seems to be the last version that is compatible
+with current versions of <em>Bio::DB::Sam</em>. So let&rsquo;s download <em>samtools 0.1.19</em> to
+a local folder, say <code>/scratch/software</code>, uncompress the tarball and compile the
+samtools library:
+<code>
+mkdir -p /scratch/software
+cd /scratch/software
+wget https://github.com/samtools/samtools/archive/0.1.19.tar.gz
+tar xvf 0.1.19.tar.gz
+cd samtools-0.1.19
+make CFLAGS="-g -O2 -Wall -Wno-unused -Wno-unused-result -fPIC"
+</code>
+The extra <code>-Wno*</code> CFLAGS options prevent some unused variable warnings with
+recent versions of <em>gcc</em>, whereas the <code>-fPIC</code> CFLAGS option prohibits a
+relocation error on x64_64 architectures (see also the <a href="http://cpansearch.perl.org/src/LDS/Bio-SamTools-1.41/README">Bio::DB::Sam
+README</a>). If
+everything works out fine,  <em>samtools</em> is now compiled, and a static library
+file <code>libbam.a</code> will be created in the current working directory. Remember the
+absolute path to <code>libbabm.a</code> (in our example this is
+<code>/scratch/software/samtools-0.1.19</code>), since we will need this later for
+compiling <em>Bio::DB::Sam</em>.</p>
+
+<h3>Setting up a local Perl module directory with cpanminus</h3>
+
+<p>Once all thrid-party dependencies are installed, we can now focus on the Perl
+dependencies of <em>ViennaNGS</em>, e.g. the <em>BioPerl</em> suite, the <em>Moose</em> object
+framework and many more. Fortunately, installation of custom Perl modules (i.e.
+those that are not considered Perl core modules or shipped with a Linux
+distribution) is a fairly trivial task these days, thanks to a tool called
+<a href="https://cpanmin.us">cpanminus</a>. <em>cpanminus</em> renders installation of a custom
+Perl module as easy as typing <code>cpanm</code> and the module&rsquo;s name on the command line.
+Moreover, it provides automatic dependency resolution, which comes in handy when
+you&rsquo;re installing Perl modules or distributions that depend on other modules,
+which again depend on a bunch of modules etc. Forget about the <em>CPAN shell</em> or
+<em>cpanplus</em>, use <em>cpanminus</em>.</p>
+
+<p>Before starting with <em>cpanminus</em> we&rsquo;ll need to set a few environment variables
+that tell <em>cpanm</em> and the Perl interpreter where to keep and look for locally
+installed Perl modules. We&rsquo;ll keep up with the <em>cpanminus</em> default location,
+<code>${HOME}/perl5</code> and add the following lines to the end of <code>.bashrc</code>:
+<code>
+export PERL_MM_OPT="INSTALL_BASE=${HOME}/perl5"
+export PERL_MB_OPT="--install_base ${HOME}/perl5"
+export PERL5LIB=${HOME}/perl5/lib/perl5:${PERL5LIB}
+</code>
+We will also modify our <code>PATH</code> variable to include <code>${HOME}/perl5/bin</code>, where
+executable scripts that are shipped with custom Perl modules will be installed:
+<code>
+export PATH=${HOME}/perl5/bin:${PATH}
+</code>
+We can now install <em>cpanminus</em>, either the version shipped with our Linux
+distribution (example given for Debian/Ubuntu must be executed with root
+privileges)
+<code>
+apt-get install cpanminus
+</code>
+or directly from <a href="https://cpanmin.us">https://cpanmin.us</a>
+<code>
+curl -L https://cpanmin.us | perl - App::cpanminus
+</code></p>
+
+<h3>Installing the ViennaNGS Perl dependencies</h3>
+
+<p>After all we are now ready to install the <em>ViennaNGS</em> Perl dependencies. Let&rsquo;s start with <em>Bio::DB::Sam</em>
+<code>
+cpanm Bio::DB::Sam
+</code>
+Depending on your system setup, <em>cpanm</em> will now start to download and install
+all dependencies of <em>Bio::DB::Sam</em> and will then ask for the location of the
+static <code>libbam.a</code> library:
+<code>
+Configuring Bio-SamTools-1.41 ... Please enter the location of the bam.h and compiled libbam.a files:
+</code>
+Our <em>samtools</em> folder is <code>/scratch/software/samtools-0.1.19</code> (see above), so let&rsquo;s enter this here:
+<code>
+/scratch/software/samtools-0.1.19
+</code>
+This was basically the only module that we had to install manually due to the
+<em>samtools</em> location constraint. Actually, we could have installed
+<em>Bio::ViennaNGS</em> directly and <em>cpanm</em> would have asked for the <em>samtools</em>
+location, but I thought this was a good chance to demonstrate <em>cpanm</em> usage for
+didactic reasons.</p>
+
+<h3>Installing Bio::ViennaNGS</h3>
+
+<p>Here comes the easiest part. Since we&rsquo;ve got <code>cpanm</code> up and running on our
+system, all we need to type is
+<code>
+cpanm Bio::ViennaNGS
+</code>
+and wait for <em>cpanm</em> to install all dependencies and finish. Beware that
+<em>ViennaNGS</em> depends on
+<a href="http://search.cpan.org/~fangly/Statistics-R/lib/Statistics/R.pm">Statistics::R</a>,
+which requires a running installation of the <a href="http://www.r-project.org/">R Statistics
+Package</a> on your system. If for any reason <em>cpanm</em>
+fails (e.g. R is not available), it will stop and report an error. You can then
+install the missing component and call the above command again. Moreover,
+whenever there is a new <em>ViennaNGS</em> release available on CPAN, just type <code>cpanm
+Bio::ViennaNGS</code> and you&rsquo;ll get the latest version in just a couple of seconds.</p>
+
+<p>Congratulations! You now have a running installation of <em>Bio::ViennaNGS</em>. If you
+sticked with the paths in our example, the modules/classes are located in
+<code>${HOME}/perl5/lib/perl5/Bio/ViennaNGS/lib</code> and the <em>ViennaNGS utilities</em> can be
+found in <code>${HOME}/perl5/bin</code>.</p>
+
+<p>The <em>ViennaNGS</em> authors are looking forward to getting your feedback. Please use
+the <a href="https://github.com/mtw/Bio-ViennaNGS/issues">ViennaNGS GitHub Issue
+Tracker</a> for reporting bugs.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ViennaNGS: A Toolbox for Building Efficient Next-generation Sequencing Analysis Pipelines]]></title>
+    <link href="http://mtw.github.io/blog/2015/03/02/viennangs-a-toolbox-for-building-efficient-next-generation-sequencing-analysis-pipelines/"/>
+    <updated>2015-03-02T21:58:01+01:00</updated>
+    <id>http://mtw.github.io/blog/2015/03/02/viennangs-a-toolbox-for-building-efficient-next-generation-sequencing-analysis-pipelines</id>
+    <content type="html"><![CDATA[<p><strong>ViennaNGS</strong>  is a Perl distribution for building efficient NGS data and
+analysis pipelines, integrating high-level routines and wrapper functions for
+common NGS processing tasks. While ViennaNGS is not an established pipeline per
+se, it provides tools and functionality for the development of custom NGS
+pipelines in Perl. ViennaNGS comes with a set of utility scripts that serve as
+reference implementation for most library functions and can readily be applied
+for specific tasks or integrated as-is into custom pipelines.</p>
+
+<p>ViennaNGS covers a broad range of NGS data processing tasks, including
+functionality for extracting and converting features from common NGS file
+formats, computation and evaluation of read mapping statistics, quantification
+and normalization of read count data, identification and characterization of
+splice junctions from RNA-seq data, parsing and condensing sequence motif data,
+automated construction of Assembly and Track Hubs for the UCSC genome browser
+and wrapper routines for a set of commonly used NGS command line tools.</p>
+
+<p>We have recently published the <strong>ViennaNGS</strong> paper at F1000Research:</p>
+
+<p><a href="http://f1000research.com/articles/4-50"><strong>ViennaNGS: A toolbox for building efficient next-generation sequencing
+analysis pipelines</strong></a><br/>
+<em>Michael T. Wolfinger, Jörg Fallmann, Florian Eggenhofer, Fabian Amman</em><br/>
+F1000Research 2015,4:50<br/>
+<a href="http://dx.doi.org/10.12688/f1000research.6157.1">DOI: 10.12688/f1000research.6157.1</a></p>
+
+<p>The ViennaNGS suite is available through Github
+(<a href="https://github.com/mtw/Bio-ViennaNGS">https://github.com/mtw/Bio-ViennaNGS</a>) and CPAN
+(<a href="http://search.cpan.org/dist/Bio-ViennaNGS">http://search.cpan.org/dist/Bio-ViennaNGS</a>).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to Compute Normalized RNA-seq Expression From Multicov Files]]></title>
+    <link href="http://mtw.github.io/blog/2014/04/15/how-to-compute-normalized-rna-seq-expression-from-multicov-files/"/>
+    <updated>2014-04-15T00:29:51+02:00</updated>
+    <id>http://mtw.github.io/blog/2014/04/15/how-to-compute-normalized-rna-seq-expression-from-multicov-files</id>
+    <content type="html"><![CDATA[<p>Whenever it comes to analyzing RNA-seq experiments, there is a need for
+comparing expression data at a quantitative level. Consider a scenario
+where samples were taken from different conditions and subjected to
+Illumina sequencing. Whether those samples were multiplexed or sequenced on
+a single lane each, one generally gets a different number of raw reads from
+each sample, refelcting experimental and technical biases inherent in the
+RNA-seq protocols. Various measures for normalization of RNA-seq samples
+have been proposed, the most widely used being RPKM (reads per kilobase per
+million). While RPKM tries to account for different sequencing depth by
+normalizing by the number of reads sequenced in a specific sample, divided
+by 10<sup>6</sup>, this very step causes a systematic bias, as has been shown
+recently (see <a href="http://dx.doi.org/10.1007/s12064-012-0162-3">Wagner et al.,Theory Biosci
+(2012);131(4):281-5.</a> and <a href="http://dx.doi.org/10.1093/bioinformatics/btp692">Li
+et al.,Bioinformatics
+(2010);26(4):493-500</a>).</p>
+
+<p>The central point of these papers is to work out an alternative measure for
+RNA-seq expression abundance that resembles as closely as possible the
+<em>relative molar concentraction</em> (rmc) of each RNA species present in a
+sample. It is easy to see that the average rmc across genes has to be a
+constant that only depends on the number of genes mapped in an RNA-seq
+experiment.</p>
+
+<p>One example of measures that fulfills the invariant average criterion is
+<em>Transcript per million</em> (TPM), being defined as
+ <img class="center" src="/images/TPM_1.png">
+where t_g is a proxy for the number of transcripts that can be explained by
+a certain number of mapped reads and T is the sum of all t_g over all
+genes. If one is interested in mRNA abundance, the  average TPM - and thus
+the average rmc is inversely proportional to the number of features
+present in a reference annotation.</p>
+
+<p>Practically, TPM values for individual genes can be computed from read
+count tables, ie. tables that give the number of reads overlapping a
+specific gene. Typical programs for obtaining read count tables are
+<a href="http://www-huber.embl.de/users/anders/HTSeq/doc/count.html">htseq-count</a>
+or
+<a href="http://bedtools.readthedocs.org/en/latest/content/tools/multicov.html">multiBamCov</a>
+(<a href="http://bedtools.readthedocs.org/en/latest/index.html">bedtools</a>
+multicov).</p>
+
+<p>I have recently implemented
+<a href="https://github.com/mtw/ViennaNGS/blob/master/scripts/normalize_multicov.pl">normalize_multicov.pl</a>,
+a tool for computing normalized RNA-seq expression in terms of TPM from
+multicov files. It is part of the
+<a href="https://github.com/mtw/ViennaNGS">ViennaNGS</a> Perl Modules for NGS analysis
+and very easy to use: Just provide it the output of a bedtols multicov run
+on your data as well as the read length used for sequencing your samples
+and get back a normalized multicov file of your samples in terms of
+TPM. That&rsquo;s all &hellip;</p>
+]]></content>
+  </entry>
+  
+</feed>
