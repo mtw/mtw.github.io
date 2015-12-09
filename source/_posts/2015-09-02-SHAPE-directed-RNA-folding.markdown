@@ -13,7 +13,7 @@ this line, the computational structure prediction is guided by in vitro or
 even in vivo probing data.
 
 We have recently implemented three previously published methods for
-incorporation of SHAPE probing data into the *Vienna RNA Package* and
+incorporation of SHAPE probing data into the *ViennaRNA Package* and
 benchmarked prediction results with a set of RNAs with known reference
 structures.
 
