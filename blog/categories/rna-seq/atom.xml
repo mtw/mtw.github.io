@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Rna-seq | rna-seq.at]]></title>
+  <link href="http://rna-seq.at/blog/categories/rna-seq/atom.xml" rel="self"/>
+  <link href="http://rna-seq.at/"/>
+  <updated>2015-12-09T18:08:29+01:00</updated>
+  <id>http://rna-seq.at/</id>
+  <author>
+    <name><![CDATA[Michael T. Wolfinger]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[General and miRNA-mediated mRNA Degradation Occurs on Ribosome Complexes in Drosophila Cells]]></title>
+    <link href="http://rna-seq.at/blog/2015/07/30/general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells/"/>
+    <updated>2015-07-30T14:03:32+02:00</updated>
+    <id>http://rna-seq.at/blog/2015/07/30/general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells</id>
+    <content type="html"><![CDATA[<p>mRNA degradation and translation are two processes crucial for
+posttranscriptional gene regulation. While the strong interconnection of
+mRNA degradation and translation has been noted for many years, it has led
+to the hypothesis that mRNAs could be degraded on the ribosome.</p>
+
+<p>We have recently published a study that strongly supports the hypothesis
+that the ribosome is a very general site not only for general 5' to 3'
+mRNA degradation in <em>Drosophila</em> but also for the miRNA-mediated mRNA
+degradation pathway:</p>
+
+<p><a href="http://mcb.asm.org/content/35/13/2309"><strong>General and miRNA-mediated mRNA degradation occurs on ribosome complexes
+in Drosophila cells</strong></a><br/>
+<em>Sanja Antic, Michael T. Wolfinger, Anna Skucha, Stefanie Hosiner and Silke
+Dorner</em> <br/>
+Mol. Cell. Biol. 2015 vol. 35 no. 13 2309-2320 <br/>
+<a href="http://dx.doi.org/10.1128/MCB.01346-14">DOI: 10.1128/MCB.01346-14</a></p>
+
+<h2>Abstract</h2>
+
+<blockquote><p>The translation and degradation of mRNAs are two key steps in gene
+expression that are highly regulated and targeted by many factors,
+including microRNAs (miRNAs). While it is well established that translation
+and mRNA degradation are tightly coupled, it is still not entirely clear
+where in the cell mRNA degradation takes place. In this study, we
+investigated the possibility of mRNA degradation on the ribosome in
+Drosophila cells. Using polysome profiles and ribosome affinity
+purification, we could demonstrate the copurification of various
+deadenylation and decapping factors with ribosome complexes. Also, AGO1 and
+GW182, two key factors in the miRNA-mediated mRNA degradation pathway, were
+associated with ribosome complexes. Their copurification was dependent on
+intact mRNAs, suggesting the association of these factors with the mRNA
+rather than the ribosome itself. Furthermore, we isolated decapped mRNA
+degradation intermediates from ribosome complexes and performed
+high-throughput sequencing analysis. Interestingly, 93% of the decapped
+mRNA fragments (approximately 12,000) could be detected at the same
+relative abundance on ribosome complexes and in cell lysates. In summary,
+our findings strongly indicate the association of the majority of bulk
+mRNAs as well as mRNAs targeted by miRNAs with the ribosome during their
+degradation.</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ViennaNGS: A Toolbox for Building Efficient Next-generation Sequencing Analysis Pipelines]]></title>
+    <link href="http://rna-seq.at/blog/2015/03/02/viennangs-a-toolbox-for-building-efficient-next-generation-sequencing-analysis-pipelines/"/>
+    <updated>2015-03-02T21:58:01+01:00</updated>
+    <id>http://rna-seq.at/blog/2015/03/02/viennangs-a-toolbox-for-building-efficient-next-generation-sequencing-analysis-pipelines</id>
+    <content type="html"><![CDATA[<p><strong>ViennaNGS</strong>  is a Perl distribution for building efficient NGS data and
+analysis pipelines, integrating high-level routines and wrapper functions for
+common NGS processing tasks. While ViennaNGS is not an established pipeline per
+se, it provides tools and functionality for the development of custom NGS
+pipelines in Perl. ViennaNGS comes with a set of utility scripts that serve as
+reference implementation for most library functions and can readily be applied
+for specific tasks or integrated as-is into custom pipelines.</p>
+
+<p>ViennaNGS covers a broad range of NGS data processing tasks, including
+functionality for extracting and converting features from common NGS file
+formats, computation and evaluation of read mapping statistics, quantification
+and normalization of read count data, identification and characterization of
+splice junctions from RNA-seq data, parsing and condensing sequence motif data,
+automated construction of Assembly and Track Hubs for the UCSC genome browser
+and wrapper routines for a set of commonly used NGS command line tools.</p>
+
+<p>We have recently published the <strong>ViennaNGS</strong> paper at F1000Research:</p>
+
+<p><a href="http://f1000research.com/articles/4-50"><strong>ViennaNGS: A toolbox for building efficient next-generation sequencing
+analysis pipelines</strong></a><br/>
+<em>Michael T. Wolfinger, Jörg Fallmann, Florian Eggenhofer, Fabian Amman</em><br/>
+F1000Research 2015,4:50<br/>
+<a href="http://dx.doi.org/10.12688/f1000research.6157.1">DOI: 10.12688/f1000research.6157.1</a></p>
+
+<p>The ViennaNGS suite is available through Github
+(<a href="https://github.com/mtw/Bio-ViennaNGS">https://github.com/mtw/Bio-ViennaNGS</a>) and CPAN
+(<a href="http://search.cpan.org/dist/Bio-ViennaNGS">http://search.cpan.org/dist/Bio-ViennaNGS</a>).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to Compute Normalized RNA-seq Expression From Multicov Files]]></title>
+    <link href="http://rna-seq.at/blog/2014/04/15/how-to-compute-normalized-rna-seq-expression-from-multicov-files/"/>
+    <updated>2014-04-15T00:29:51+02:00</updated>
+    <id>http://rna-seq.at/blog/2014/04/15/how-to-compute-normalized-rna-seq-expression-from-multicov-files</id>
+    <content type="html"><![CDATA[<p>Whenever it comes to analyzing RNA-seq experiments, there is a need for
+comparing expression data at a quantitative level. Consider a scenario
+where samples were taken from different conditions and subjected to
+Illumina sequencing. Whether those samples were multiplexed or sequenced on
+a single lane each, one generally gets a different number of raw reads from
+each sample, refelcting experimental and technical biases inherent in the
+RNA-seq protocols. Various measures for normalization of RNA-seq samples
+have been proposed, the most widely used being RPKM (reads per kilobase per
+million). While RPKM tries to account for different sequencing depth by
+normalizing by the number of reads sequenced in a specific sample, divided
+by 10<sup>6</sup>, this very step causes a systematic bias, as has been shown
+recently (see <a href="http://dx.doi.org/10.1007/s12064-012-0162-3">Wagner et al.,Theory Biosci
+(2012);131(4):281-5.</a> and <a href="http://dx.doi.org/10.1093/bioinformatics/btp692">Li
+et al.,Bioinformatics
+(2010);26(4):493-500</a>).</p>
+
+<p>The central point of these papers is to work out an alternative measure for
+RNA-seq expression abundance that resembles as closely as possible the
+<em>relative molar concentraction</em> (rmc) of each RNA species present in a
+sample. It is easy to see that the average rmc across genes has to be a
+constant that only depends on the number of genes mapped in an RNA-seq
+experiment.</p>
+
+<p>One example of measures that fulfills the invariant average criterion is
+<em>Transcript per million</em> (TPM), being defined as
+ <img class="center" src="/images/TPM_1.png">
+where t_g is a proxy for the number of transcripts that can be explained by
+a certain number of mapped reads and T is the sum of all t_g over all
+genes. If one is interested in mRNA abundance, the  average TPM - and thus
+the average rmc is inversely proportional to the number of features
+present in a reference annotation.</p>
+
+<p>Practically, TPM values for individual genes can be computed from read
+count tables, ie. tables that give the number of reads overlapping a
+specific gene. Typical programs for obtaining read count tables are
+<a href="http://www-huber.embl.de/users/anders/HTSeq/doc/count.html">htseq-count</a>
+or
+<a href="http://bedtools.readthedocs.org/en/latest/content/tools/multicov.html">multiBamCov</a>
+(<a href="http://bedtools.readthedocs.org/en/latest/index.html">bedtools</a>
+multicov).</p>
+
+<p>I have recently implemented
+<a href="https://github.com/mtw/ViennaNGS/blob/master/scripts/normalize_multicov.pl">normalize_multicov.pl</a>,
+a tool for computing normalized RNA-seq expression in terms of TPM from
+multicov files. It is part of the
+<a href="https://github.com/mtw/ViennaNGS">ViennaNGS</a> Perl Modules for NGS analysis
+and very easy to use: Just provide it the output of a bedtols multicov run
+on your data as well as the read length used for sequencing your samples
+and get back a normalized multicov file of your samples in terms of
+TPM. That&rsquo;s all &hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[TSSAR: TSS Annotation Regime for dRNA-seq Data]]></title>
+    <link href="http://rna-seq.at/blog/2014/04/13/tssar-tss-annotation-regime-for-drna-seq-data/"/>
+    <updated>2014-04-13T22:22:41+02:00</updated>
+    <id>http://rna-seq.at/blog/2014/04/13/tssar-tss-annotation-regime-for-drna-seq-data</id>
+    <content type="html"><![CDATA[<p>In silico identification of bacterial transcription start sites (TSS) has
+been a major challenge for the last years. To address this issue, we have
+developped <a href="http://rna.tbi.univie.ac.at/TSSAR">TSSAR</a>, a statistical method
+for analyzing dRNA-seq data, together with colleagues from the
+Bioinformatics department at the University of Leipzig.</p>
+
+<p>The TSSAR method paper is now out:</p>
+
+<p><a href="http://www.biomedcentral.com/1471-2105/15/89"><strong>TSSAR: TSS annotation regime for dRNA-seq
+data</strong></a> <br/>
+<em>Fabian Amman, Michael T Wolfinger, Ronny Lorenz, Ivo L Hofacker, Peter F
+Stadler, Sven Findeiß</em><br/>
+BMC Bioinformatics 2014, 15:89<br/>
+<a href="http://dx.doi.org/10.1186/1471-2105-15-89">DOI: 10.1186/1471-2105-15-89</a></p>
+
+<h2>Abstract</h2>
+
+<blockquote><p>Background</p>
+
+<p>Differential RNA sequencing dRNA-seq is a high-throughput screening
+technique designed to examine the architecture of bacterial operons in
+general and the precise position of transcription start sites (TSS) in
+particular. Hitherto, dRNA-seq data were analyzed by visualizing the
+sequencing reads mapped to the reference genome and manually annotating
+reliable positions. This is very labor intensive and, due to the
+subjectivity, biased.</p>
+
+<p>Results</p>
+
+<p>Here, we present <strong>TSSAR</strong>, a tool for automated <em>de-novo</em> TSS annotation
+from dRNA-seq data that respects the statistics of dRNA-seq
+libraries. <strong>TSSAR</strong> uses the premise that the number of sequencing reads
+starting at a certain genomic position within a transcriptional active
+region follows a Poisson distribution with a parameter that depends on the
+local strength of expression. The differences of two dRNA-seq library
+counts thus follow a Skellam distribution. This provides a statistical
+basis to identify significantly enriched primary transcripts.</p>
+
+<p>We assessed the performance by analyzing a publicly available dRNA-seq
+  data set using <strong>TSSAR</strong> and two simple approaches that utilize
+  user-defined score cutoffs. We evaluated the power of reproducing the
+  manual TSS annotation. Furthermore, the same data set was used to
+  reproduce 74 experimentally validated TSS in <em>H. pylori</em> from reliable
+  techniques such as RACE or primer extension. Both analyses showed that
+  <strong>TSSAR</strong> outperforms the static cutoff-dependent approaches.</p>
+
+<p>Conclusions</p>
+
+<p>Having an automated and efficient tool for analyzing dRNA-seq data
+  facilitates the use of the dRNA-seq technique and promotes its
+  application to more sophisticated analysis. For instance, monitoring the
+  plasticity and dynamics of the transcriptomal architecture triggered by
+  different stimuli and growth conditions becomes possible.</p>
+
+<p>The main asset of a novel tool for dRNA-seq analysis that reaches out to
+a broad user community is usability. As such, we provide <strong>TSSAR</strong> both as
+intuitive RESTful Web service [<a href="http://rna.tbi.univie.ac.at/TSSAR">http://rna.tbi.univie.ac.at/TSSAR</a>] together
+with a set of post-processing and analysis tools, as well as a
+stand-alone version for use in high-throughput dRNA-seq data analysis
+pipelines.</p>
+
+<p>Keywords</p>
+
+<p>Differential RNA sequencing, dRNA-seq, TSS, Transcription start site
+annotation, Transcriptome, RESTful Web service, Next generation sequencing</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Convert Raw NGS Data to Fastq Format and Trim Adapters With Cutadapt]]></title>
+    <link href="http://rna-seq.at/blog/2013/12/16/convert-raw-ngs-data-to-fastq-format-and-trim-adapters-with-cutadapt/"/>
+    <updated>2013-12-16T22:46:06+01:00</updated>
+    <id>http://rna-seq.at/blog/2013/12/16/convert-raw-ngs-data-to-fastq-format-and-trim-adapters-with-cutadapt</id>
+    <content type="html"><![CDATA[<p>Raw next-generation-sequencing (NGS) data is often shipped in unaligned BAM format, whereas most mappers expect input data in FASTQ format. I&rsquo;ve written a little bash script that does the preprocessing job for paired-end data: Convert raw reads to FASTQ with <a href="http://www.hudsonalpha.org/gsl/information/software/bam2fastq">bam2fastq</a>, trim adapters with <a href="http://code.google.com/p/cutadapt/">cutadapt</a> and perform quality control checks with <a href="http://www.bioinformatics.babraham.ac.uk/projects/fastqc/">FastQC</a>.</p>
+
+<p><div><script src='https://gist.github.com/7989028.js?file=bam2fastq_cutadapt.sh'></script>
+<noscript><pre><code>#!/bin/bash
+
+cutadapt=`which cutadapt`
+fastqc=`which fastqc`
+bam2fastq=`which bam2fastq`
+gzip=`which gzip`
+origdir=&quot;.&quot;
+results=&quot;cutadapt&quot;
+fastqcdir=&quot;${results}/FastQC&quot;
+adapter5=&quot;CTACACTCTTTCCCTACACGACGCTCTTCCGATCT&quot;
+adapter3=&quot;GATCGGAAGAGCACACGTCTGAACTCCAGTCAC&quot;
+inprefix=&quot;C&quot;
+outprefix=&quot;D&quot;
+samples=6
+froms=5
+replicates=3
+threads=4
+
+if ! [ -d &quot;$results&quot; ];
+then
+        mkdir -p $results
+fi
+
+if ! [ -d &quot;$fastqcdir&quot; ];
+then
+        mkdir -p $fastqcdir
+fi
+
+for s in $(seq $froms $samples)
+do
+        for r in $(seq 1 $replicates)
+        do
+        sample=${inprefix}${s}_R${r}
+        outsample=${outprefix}${s}_R${r}
+        echo &quot;processing $sample&quot;
+
+        # process original BAM file; convert to FASTQ and do QC 
+        $bam2fastq -q ${sample}.bam -o ${origdir}/${sample}\#.fastq
+        for i  in 1 2
+        do
+                $fastqc --quiet --noextract -o $fastqcdir -t $threads ${origdir}/${sample}_${i}.fastq &amp;&amp; $gzip -c ${origdir}/${sample}_${i}.fastq &gt; ${origdir}/${sample}_${i}.fq.gz &amp;
+        done
+        # end procesing original files
+
+        rd1=&quot;${origdir}/${sample}_1.fastq&quot;
+        rd2=&quot;${origdir}/${sample}_2.fastq&quot;
+        outrd1=&quot;${results}/${outsample}_1.fastq&quot;
+        outrd2=&quot;${results}/${outsample}_2.fastq&quot;
+        echo &quot;infiles $rd1 &amp;&amp; $rd2&quot;
+        echo &quot;outfiles $outrd1 &amp;&amp; $outrd2&quot;
+        if ! [ -f &quot;$rd1&quot; ];
+        then
+                echo &quot;ERROR: $rd1 not available&quot;
+        fi
+        if ! [ -f &quot;$rd2&quot; ];
+        then
+                echo &quot;ERROR: $rd2 not available&quot;
+        fi
+        set -x
+        # run cutadapt in paired-end mode
+        $cutadapt -q 30 -m 25 -g $adapter5 -a $adapter3 --paired-output tmp.2.fastq -o tmp.1.fastq $rd1 $rd2 1&gt; cutadapt_${sample}.run1.out 2&gt; cutadapt_${sample}.run1.err
+        $cutadapt -q 30 -m 25 -g $adapter5 -a $adapter3 --paired-output $outrd1 -o $outrd2 tmp.2.fastq tmp.1.fastq 1&gt; cutadapt_${sample}.run2.out 2&gt; cutadapt_${sample}.run2.err
+        # remove temp files
+        rm tmp.1.fastq tmp.2.fastq
+        # remove original (non-adapter-clipped) FASTQ files
+        rm $rd1 $rd2
+        # run FastQC and gzip output
+        $fastqc --quiet --noextract -o $fastqcdir -t $threads $outrd1 &amp;&amp; $gzip $outrd1 &amp;
+        $fastqc --quiet --noextract -o $fastqcdir -t $threads $outrd2 &amp;&amp; $gzip $outrd2 &amp;
+        # gzip output
+        #$gzip $outrd1 &amp;
+        #$gzip $outrd2 &amp;
+
+        set +x
+        done
+done</code></pre></noscript></div>
+</p>
+]]></content>
+  </entry>
+  
+</feed>

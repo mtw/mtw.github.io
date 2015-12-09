@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Convert Raw NGS Data to Fastq Format and Trim Adapters With Cutadapt - rna-seq.at</title>
+  <meta name="author" content="Michael T. Wolfinger">
+
+  
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://rna-seq.at/blog/2013/12/16/convert-raw-ngs-data-to-fastq-format-and-trim-adapters-with-cutadapt/">
+  <link href="/favicon.png" type="image/png" rel="icon">
+  <link href="/atom.xml" rel="alternate" title="rna-seq.at" type="application/atom+xml">
+
+  <!-- http://opengraphprotocol.org/ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://rna-seq.at/blog/2013/12/16/convert-raw-ngs-data-to-fastq-format-and-trim-adapters-with-cutadapt/">
+  <meta property="og:title" content="Convert Raw NGS Data to Fastq Format and Trim Adapters With Cutadapt - rna-seq.at">
+  
+
+  <script src="/javascripts/libs/jquery/jquery-2.1.3.min.js"></script>
+
+<link href="/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/assets/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+
+
+  
+  <link href="/stylesheets/screen.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+
+  
+   <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-15287216-3', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+
+</head>
+
+  <body   >
+    <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+    <div id="wrap">
+      <header role="banner">
+        <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" title="toggle navbar" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">rna-seq.at</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a rel="index" href="/">Blog</a>
+                </li>
+                <li >
+                    <a href="/blog/archives">Archives</a>
+                </li>
+                <li >
+                    <a href="/about">About</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS">
+                        <span class="visible-xs">RSS</span>
+                        <img class="hidden-xs" src="/images/rss.png" alt="RSS">
+                    </a>
+                </li>
+                
+            </ul>
+            
+                <form class="navbar-form navbar-right" action="https://www.google.com/search" method="GET">
+                    <input type="hidden" name="sitesearch" value="rna-seq.at">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="q" placeholder="Search">
+                    </div>
+                </form>
+            
+        </div>
+    </div>
+</nav>
+
+
+      </header>
+      <div id="main" role="main" class="container">
+        <div id="content">
+          <div class="row">
+  <div class="page-content col-md-9" itemscope itemtype="http://schema.org/Blog">
+    <meta itemprop="name" content="rna-seq.at" />
+    <meta itemprop="description" content="Stuff that matters in open source RNA bioinformatics" />
+    <meta itemprop="url" content="http://rna-seq.at" />
+    <article class="hentry" role="article" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+      
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-12-16T22:46:06+01:00"  data-updated="true" itemprop="datePublished dateCreated">2013-12-16</time>
+        
+      </p>
+    
+    
+    <h1 class="entry-title" itemprop="name headline">
+        Convert Raw NGS Data to Fastq Format and Trim Adapters With Cutadapt
+        
+    </h1>
+    
+  </header>
+
+
+<div class="entry-content clearfix" itemprop="articleBody description"><p>Raw next-generation-sequencing (NGS) data is often shipped in unaligned BAM format, whereas most mappers expect input data in FASTQ format. I&rsquo;ve written a little bash script that does the preprocessing job for paired-end data: Convert raw reads to FASTQ with <a href="http://www.hudsonalpha.org/gsl/information/software/bam2fastq">bam2fastq</a>, trim adapters with <a href="http://code.google.com/p/cutadapt/">cutadapt</a> and perform quality control checks with <a href="http://www.bioinformatics.babraham.ac.uk/projects/fastqc/">FastQC</a>.</p>
+
+<div><script src='https://gist.github.com/7989028.js?file=bam2fastq_cutadapt.sh'></script>
+<noscript><pre><code>#!/bin/bash
+
+cutadapt=`which cutadapt`
+fastqc=`which fastqc`
+bam2fastq=`which bam2fastq`
+gzip=`which gzip`
+origdir=&quot;.&quot;
+results=&quot;cutadapt&quot;
+fastqcdir=&quot;${results}/FastQC&quot;
+adapter5=&quot;CTACACTCTTTCCCTACACGACGCTCTTCCGATCT&quot;
+adapter3=&quot;GATCGGAAGAGCACACGTCTGAACTCCAGTCAC&quot;
+inprefix=&quot;C&quot;
+outprefix=&quot;D&quot;
+samples=6
+froms=5
+replicates=3
+threads=4
+
+if ! [ -d &quot;$results&quot; ];
+then
+        mkdir -p $results
+fi
+
+if ! [ -d &quot;$fastqcdir&quot; ];
+then
+        mkdir -p $fastqcdir
+fi
+
+for s in $(seq $froms $samples)
+do
+        for r in $(seq 1 $replicates)
+        do
+        sample=${inprefix}${s}_R${r}
+        outsample=${outprefix}${s}_R${r}
+        echo &quot;processing $sample&quot;
+
+        # process original BAM file; convert to FASTQ and do QC 
+        $bam2fastq -q ${sample}.bam -o ${origdir}/${sample}\#.fastq
+        for i  in 1 2
+        do
+                $fastqc --quiet --noextract -o $fastqcdir -t $threads ${origdir}/${sample}_${i}.fastq &amp;&amp; $gzip -c ${origdir}/${sample}_${i}.fastq &gt; ${origdir}/${sample}_${i}.fq.gz &amp;
+        done
+        # end procesing original files
+
+        rd1=&quot;${origdir}/${sample}_1.fastq&quot;
+        rd2=&quot;${origdir}/${sample}_2.fastq&quot;
+        outrd1=&quot;${results}/${outsample}_1.fastq&quot;
+        outrd2=&quot;${results}/${outsample}_2.fastq&quot;
+        echo &quot;infiles $rd1 &amp;&amp; $rd2&quot;
+        echo &quot;outfiles $outrd1 &amp;&amp; $outrd2&quot;
+        if ! [ -f &quot;$rd1&quot; ];
+        then
+                echo &quot;ERROR: $rd1 not available&quot;
+        fi
+        if ! [ -f &quot;$rd2&quot; ];
+        then
+                echo &quot;ERROR: $rd2 not available&quot;
+        fi
+        set -x
+        # run cutadapt in paired-end mode
+        $cutadapt -q 30 -m 25 -g $adapter5 -a $adapter3 --paired-output tmp.2.fastq -o tmp.1.fastq $rd1 $rd2 1&gt; cutadapt_${sample}.run1.out 2&gt; cutadapt_${sample}.run1.err
+        $cutadapt -q 30 -m 25 -g $adapter5 -a $adapter3 --paired-output $outrd1 -o $outrd2 tmp.2.fastq tmp.1.fastq 1&gt; cutadapt_${sample}.run2.out 2&gt; cutadapt_${sample}.run2.err
+        # remove temp files
+        rm tmp.1.fastq tmp.2.fastq
+        # remove original (non-adapter-clipped) FASTQ files
+        rm $rd1 $rd2
+        # run FastQC and gzip output
+        $fastqc --quiet --noextract -o $fastqcdir -t $threads $outrd1 &amp;&amp; $gzip $outrd1 &amp;
+        $fastqc --quiet --noextract -o $fastqcdir -t $threads $outrd2 &amp;&amp; $gzip $outrd2 &amp;
+        # gzip output
+        #$gzip $outrd1 &amp;
+        #$gzip $outrd2 &amp;
+
+        set +x
+        done
+done</code></pre></noscript></div>
+
+
+
+</div>
+
+
+      <footer>
+        <p class="meta text-muted">
+          
+  
+
+<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Posted by <span class="fn" itemprop="name">Michael T. Wolfinger</span></span>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-12-16T22:46:06+01:00"  data-updated="true" itemprop="datePublished dateCreated">2013-12-16</time>
+          
+
+<span class="glyphicon glyphicon-tags"></span>&nbsp;
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/rna-seq/'>rna-seq</a>
+  
+</span>
+
+
+        </p>
+        
+          <div class="sharing">
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+        
+        
+          <ul class="meta text-muted pager">
+            
+            
+            <li class="next"><a href="/blog/2013/12/18/tivoli-storage-manager-under-debian-7-wheezy/" title="Next Post: Tivoli Storage Manager under Debian 7 wheezy">Tivoli Storage Manager under Debian 7 wheezy &raquo;</a></li>
+            
+          </ul>
+        
+      </footer>
+    </article>
+    
+  </div>
+
+  
+  <aside class="sidebar col-md-3">
+    
+      <section class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Recent Posts</h3>
+  </div>
+  
+  <div id="recent_posts" class="list-group">
+    
+    <a class="list-group-item " href="/blog/2015/09/02/SHAPE-directed-RNA-folding/">SHAPE Directed RNA Folding</a>
+    
+    <a class="list-group-item " href="/blog/2015/07/30/general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells/">General and miRNA-mediated mRNA Degradation Occurs on Ribosome Complexes in Drosophila Cells</a>
+    
+    <a class="list-group-item " href="/blog/2015/03/03/viennangs-installation-howto/">ViennaNGS Installation HOWTO</a>
+    
+    <a class="list-group-item " href="/blog/2015/03/02/viennangs-a-toolbox-for-building-efficient-next-generation-sequencing-analysis-pipelines/">ViennaNGS: A Toolbox for Building Efficient Next-generation Sequencing Analysis Pipelines</a>
+    
+    <a class="list-group-item " href="/blog/2014/06/12/memory-efficient-RNA-energy-landscape-exploration/">Memory-efficient RNA Energy Landscape Exploration</a>
+    
+  </div>
+</section>
+
+<section class="twitterOct">
+  <a class="twitter-timeline"
+	 data-dnt="true" href="https://twitter.com/mtwolfinger" 
+     data-widget-id="412878550417420288">
+     
+     Tweets by @mtwolfinger
+  </a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</section>
+
+
+    
+  </aside>
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+    <footer role="contentinfo"><div class="container">
+    <p class="text-muted credits">
+  Copyright &copy; 2015 - Michael T. Wolfinger<br>
+  <small>
+      <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>,
+      <span class="credit">customized with <a href="https://github.com/kAworu/octostrap3">octostrap3</a></span>.
+  </small>
+</p>
+
+</div>
+</footer>
+    
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+
+<script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/javascripts/modernizr.js"></script>
+
+
+  </body>
+</html>

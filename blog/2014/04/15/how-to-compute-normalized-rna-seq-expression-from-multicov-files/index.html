@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>How to Compute Normalized RNA-seq Expression From Multicov Files - rna-seq.at</title>
+  <meta name="author" content="Michael T. Wolfinger">
+
+  
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://rna-seq.at/blog/2014/04/15/how-to-compute-normalized-rna-seq-expression-from-multicov-files/">
+  <link href="/favicon.png" type="image/png" rel="icon">
+  <link href="/atom.xml" rel="alternate" title="rna-seq.at" type="application/atom+xml">
+
+  <!-- http://opengraphprotocol.org/ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://rna-seq.at/blog/2014/04/15/how-to-compute-normalized-rna-seq-expression-from-multicov-files/">
+  <meta property="og:title" content="How to Compute Normalized RNA-seq Expression From Multicov Files - rna-seq.at">
+  
+
+  <script src="/javascripts/libs/jquery/jquery-2.1.3.min.js"></script>
+
+<link href="/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/assets/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+
+
+  
+  <link href="/stylesheets/screen.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+
+  
+   <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-15287216-3', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+
+</head>
+
+  <body   >
+    <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+    <div id="wrap">
+      <header role="banner">
+        <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" title="toggle navbar" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">rna-seq.at</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a rel="index" href="/">Blog</a>
+                </li>
+                <li >
+                    <a href="/blog/archives">Archives</a>
+                </li>
+                <li >
+                    <a href="/about">About</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS">
+                        <span class="visible-xs">RSS</span>
+                        <img class="hidden-xs" src="/images/rss.png" alt="RSS">
+                    </a>
+                </li>
+                
+            </ul>
+            
+                <form class="navbar-form navbar-right" action="https://www.google.com/search" method="GET">
+                    <input type="hidden" name="sitesearch" value="rna-seq.at">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="q" placeholder="Search">
+                    </div>
+                </form>
+            
+        </div>
+    </div>
+</nav>
+
+
+      </header>
+      <div id="main" role="main" class="container">
+        <div id="content">
+          <div class="row">
+  <div class="page-content col-md-9" itemscope itemtype="http://schema.org/Blog">
+    <meta itemprop="name" content="rna-seq.at" />
+    <meta itemprop="description" content="Stuff that matters in open source RNA bioinformatics" />
+    <meta itemprop="url" content="http://rna-seq.at" />
+    <article class="hentry" role="article" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+      
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-04-15T00:29:51+02:00"  data-updated="true" itemprop="datePublished dateCreated">2014-04-15</time>
+        
+      </p>
+    
+    
+    <h1 class="entry-title" itemprop="name headline">
+        How to Compute Normalized RNA-seq Expression From Multicov Files
+        
+    </h1>
+    
+  </header>
+
+
+<div class="entry-content clearfix" itemprop="articleBody description"><p>Whenever it comes to analyzing RNA-seq experiments, there is a need for
+comparing expression data at a quantitative level. Consider a scenario
+where samples were taken from different conditions and subjected to
+Illumina sequencing. Whether those samples were multiplexed or sequenced on
+a single lane each, one generally gets a different number of raw reads from
+each sample, refelcting experimental and technical biases inherent in the
+RNA-seq protocols. Various measures for normalization of RNA-seq samples
+have been proposed, the most widely used being RPKM (reads per kilobase per
+million). While RPKM tries to account for different sequencing depth by
+normalizing by the number of reads sequenced in a specific sample, divided
+by 10<sup>6</sup>, this very step causes a systematic bias, as has been shown
+recently (see <a href="http://dx.doi.org/10.1007/s12064-012-0162-3">Wagner et al.,Theory Biosci
+(2012);131(4):281-5.</a> and <a href="http://dx.doi.org/10.1093/bioinformatics/btp692">Li
+et al.,Bioinformatics
+(2010);26(4):493-500</a>).</p>
+
+<p>The central point of these papers is to work out an alternative measure for
+RNA-seq expression abundance that resembles as closely as possible the
+<em>relative molar concentraction</em> (rmc) of each RNA species present in a
+sample. It is easy to see that the average rmc across genes has to be a
+constant that only depends on the number of genes mapped in an RNA-seq
+experiment.</p>
+
+<p>One example of measures that fulfills the invariant average criterion is
+<em>Transcript per million</em> (TPM), being defined as
+ <img class="center" src="/images/TPM_1.png">
+where t_g is a proxy for the number of transcripts that can be explained by
+a certain number of mapped reads and T is the sum of all t_g over all
+genes. If one is interested in mRNA abundance, the  average TPM - and thus
+the average rmc is inversely proportional to the number of features
+present in a reference annotation.</p>
+
+<p>Practically, TPM values for individual genes can be computed from read
+count tables, ie. tables that give the number of reads overlapping a
+specific gene. Typical programs for obtaining read count tables are
+<a href="http://www-huber.embl.de/users/anders/HTSeq/doc/count.html">htseq-count</a>
+or
+<a href="http://bedtools.readthedocs.org/en/latest/content/tools/multicov.html">multiBamCov</a>
+(<a href="http://bedtools.readthedocs.org/en/latest/index.html">bedtools</a>
+multicov).</p>
+
+<p>I have recently implemented
+<a href="https://github.com/mtw/ViennaNGS/blob/master/scripts/normalize_multicov.pl">normalize_multicov.pl</a>,
+a tool for computing normalized RNA-seq expression in terms of TPM from
+multicov files. It is part of the
+<a href="https://github.com/mtw/ViennaNGS">ViennaNGS</a> Perl Modules for NGS analysis
+and very easy to use: Just provide it the output of a bedtols multicov run
+on your data as well as the read length used for sequencing your samples
+and get back a normalized multicov file of your samples in terms of
+TPM. That&rsquo;s all &hellip;</p>
+</div>
+
+
+      <footer>
+        <p class="meta text-muted">
+          
+  
+
+<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Posted by <span class="fn" itemprop="name">Michael T. Wolfinger</span></span>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-04-15T00:29:51+02:00"  data-updated="true" itemprop="datePublished dateCreated">2014-04-15</time>
+          
+
+<span class="glyphicon glyphicon-tags"></span>&nbsp;
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/rna-seq/'>rna-seq</a>, <a class='category' href='/blog/categories/viennangs/'>viennangs</a>
+  
+</span>
+
+
+        </p>
+        
+          <div class="sharing">
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+        
+        
+          <ul class="meta text-muted pager">
+            
+            <li class="previous"><a href="/blog/2014/04/13/tssar-tss-annotation-regime-for-drna-seq-data/" title="Previous Post: TSSAR: TSS annotation regime for dRNA-seq data">&laquo; TSSAR: TSS annotation regime for dRNA-seq data</a></li>
+            
+            
+            <li class="next"><a href="/blog/2014/06/12/memory-efficient-RNA-energy-landscape-exploration/" title="Next Post: Memory-efficient RNA energy landscape exploration">Memory-efficient RNA energy landscape exploration &raquo;</a></li>
+            
+          </ul>
+        
+      </footer>
+    </article>
+    
+  </div>
+
+  
+  <aside class="sidebar col-md-3">
+    
+      <section class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Recent Posts</h3>
+  </div>
+  
+  <div id="recent_posts" class="list-group">
+    
+    <a class="list-group-item " href="/blog/2015/09/02/SHAPE-directed-RNA-folding/">SHAPE Directed RNA Folding</a>
+    
+    <a class="list-group-item " href="/blog/2015/07/30/general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells/">General and miRNA-mediated mRNA Degradation Occurs on Ribosome Complexes in Drosophila Cells</a>
+    
+    <a class="list-group-item " href="/blog/2015/03/03/viennangs-installation-howto/">ViennaNGS Installation HOWTO</a>
+    
+    <a class="list-group-item " href="/blog/2015/03/02/viennangs-a-toolbox-for-building-efficient-next-generation-sequencing-analysis-pipelines/">ViennaNGS: A Toolbox for Building Efficient Next-generation Sequencing Analysis Pipelines</a>
+    
+    <a class="list-group-item " href="/blog/2014/06/12/memory-efficient-RNA-energy-landscape-exploration/">Memory-efficient RNA Energy Landscape Exploration</a>
+    
+  </div>
+</section>
+
+<section class="twitterOct">
+  <a class="twitter-timeline"
+	 data-dnt="true" href="https://twitter.com/mtwolfinger" 
+     data-widget-id="412878550417420288">
+     
+     Tweets by @mtwolfinger
+  </a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</section>
+
+
+    
+  </aside>
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+    <footer role="contentinfo"><div class="container">
+    <p class="text-muted credits">
+  Copyright &copy; 2015 - Michael T. Wolfinger<br>
+  <small>
+      <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>,
+      <span class="credit">customized with <a href="https://github.com/kAworu/octostrap3">octostrap3</a></span>.
+  </small>
+</p>
+
+</div>
+</footer>
+    
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+
+<script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/javascripts/modernizr.js"></script>
+
+
+  </body>
+</html>
