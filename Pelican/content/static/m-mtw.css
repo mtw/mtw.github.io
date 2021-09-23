@@ -1,0 +1,21 @@
+
+.m-landing-intro  {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6em;
+  line-height:1.3;
+  font-weight:300;
+  display:block;
+  color: var(--header-color);
+}
+
+.m-landing-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height:1.6
+}
+
+.transparent {
+  color:transparent
+  text-color:transparent;
+}
