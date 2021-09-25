@@ -33,10 +33,11 @@ Home
         .. raw:: html
 
           <span class="m-landing-text">
-          <p>My passion about <strong>theoretical aspects of virology</strong> has led me to specialize in <strong>virus bioinformatics</strong>, particularly <strong>RNA viruses</strong>. More generally, my research agenda includes<p>
+          <p>My passion about <strong>theoretical aspects of virology</strong> has led me to specialize in <strong>virus bioinformatics</strong>, particularly <strong>RNA viruses</strong>. On a broader scale, I am interested in<p>
 
           <ul>
           <li> RNA structure prediction in 2D and 3D </li>
+          <li> RNA structure probing </li>
           <li> RNA-protein interactions </li>
           <li> Co-transcriptional RNA folding dynamics </li>
           <li> <em>In silico</em> design of riboswitches for synthetic biology applications</li>
