@@ -1,5 +1,6 @@
 Pelican/content/output/**
 Pelican/__pycache__/**
+Pelican/output/**
 archives/*
 authors/*
 categories/*
