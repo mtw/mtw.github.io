@@ -1,0 +1,8 @@
+Pelican/content/output/**
+Pelican/__pycache__/**
+archives/*
+authors/*
+categories/*
+output/*
+tags/*
+teaching/*
