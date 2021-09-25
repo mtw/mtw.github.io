@@ -51,7 +51,7 @@ M_LINKS_NAVBAR1 = [('Publications', '/publications', 'publications', [
                         ('Presentations', 'publications/presentations', 'publications/presentations'),
                         ('Posters', 'publications/posters', 'publications/posters'),
                         ]),
-                   ('Teaching', 'https://ufind.univie.ac.at/en/person.html?id=24136', 'teaching', []),
+                   ('Teaching', 'teaching/', 'teaching', []),
                    ('Contact', '/contact', 'contact', [])]
 
 #M_LINKS_NAVBAR2 = [('Blog', 'blog/', '[blog]', [
@@ -59,7 +59,7 @@ M_LINKS_NAVBAR1 = [('Publications', '/publications', 'publications', [
 #                        ('Archive', 'blog/archive/', '')]),
 
 M_LINKS_FOOTER1 = [('Home', '/'),
-                    ('Teaching', 'https://ufind.univie.ac.at/en/person.html?id=24136'),
+                    ('Teaching', '/teaching'),
                     ('Contact', '/contact')
                         ]
 
