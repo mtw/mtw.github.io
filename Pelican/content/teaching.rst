@@ -4,7 +4,9 @@ Teaching
 
 :breadcrumb: / Home
 
-I am teaching bioinformatics and chemistry classes. This is a list of current and past courses that I gave over the last years at the `University of Vienna <http://www.univie.ac.at>`_ and the `FH Campus Wien <http://fh-campuswien.ac.at>`_ (FHCW - University of Applied Sciences).
+.. frame::
+
+    I am teaching bioinformatics and chemistry classes. This is a list of current and past courses that I gave over the last years at the `University of Vienna <http://www.univie.ac.at>`_ and the `FH Campus Wien <http://fh-campuswien.ac.at>`_ (FHCW - University of Applied Sciences).
 
 `2021W`_
 --------

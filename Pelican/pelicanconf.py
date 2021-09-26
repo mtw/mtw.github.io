@@ -28,8 +28,8 @@ FORMATTED_FIELDS = ['summary', 'landing', 'header', 'footer', 'description', 'ba
 #M_THEME_COLOR = '#22272e'
 
 M_CSS_FILES = ['https://fonts.googleapis.com/css?family=Roboto:300;400|Source+Code+Pro:200:300,400|Source+Sans+Pro:300,400',
-               'static/m-light.css',
-               'static/academicons.min.css',
+               'static/m-light.compiled.css',
+               'static/css/academicons.min.css',
                'static/m-mtw.css']
 M_THEME_COLOR = '#EAEAEA'
 
