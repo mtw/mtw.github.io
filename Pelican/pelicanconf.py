@@ -36,9 +36,23 @@ M_THEME_COLOR = '#EAEAEA'
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['m.htmlsanity',
            'm.components',
-           'm.link']
+           'm.link',
+           'sitemap']
 
-
+SITEMAP = {
+    "format": "xml",
+    "priorities": {
+        "articles": 0.5,
+        "indexes": 0.5,
+        "pages": 0.5
+    },
+    "changefreqs": {
+        "articles": "always",
+        "indexes": "always",
+        "pages": "always"
+    },
+    "exclude": ["tags/", "archives/", "authors/", "categories/", "index"]
+}
 
 GITHUB_URL = "https://github.com/mtw/mtw.github.io"
 
@@ -81,12 +95,13 @@ M_LINKS_FOOTER4 = [('Social', ''),
                     ('Linkedin', 'https://www.linkedin.com/in/michaelwolfinger/')
                     ]
 
-
-
 M_FINE_PRINT =  None
 
-STATIC_PATHS = ['static', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+STATIC_PATHS = ['static', 'extra/CNAME', 'extra/robots.txt']
+EXTRA_PATH_METADATA = {
+                        'extra/CNAME': {'path': 'CNAME'},
+                        'extra/robots.txt': {'path': 'robots.txt'}
+                        }
 
 DISPLAY_PAGES_ON_MENU = True
 SLUGIFY_SOURCE = 'basename'
