@@ -144,7 +144,7 @@ M_BLOG_NAME = "michaelwolfinger.com"
 M_BLOG_URL = 'https://michaelwolfinger.com/'
 M_BLOG_DESCRIPTION = "michaelwolfinger.com | virus bioinformatics"
 
-M_SOCIAL_TWITTER_SITE = '@ymtwolfinger'
+M_SOCIAL_TWITTER_SITE = '@mtwolfinger'
 M_SOCIAL_TWITTER_SITE_ID = 15105886
 #M_SOCIAL_IMAGE = 'https://your.brand/static/site.png'
 M_SOCIAL_BLOG_SUMMARY = "Stuff that matters in virus bioinformatics"
