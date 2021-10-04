@@ -23,6 +23,8 @@ M_CSS_FILES = ['https://fonts.googleapis.com/css?family=Roboto:300;400|Source+Co
 
 DELETE_OUTPUT_DIRECTORY = True
 
+GOOGLE_ANALYTICS = 'G-T2RW3VW55N'
+
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
