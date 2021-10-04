@@ -3,6 +3,7 @@ Papers
 :summary: Papers by Michael Thomas Wolfinger
 
 :breadcrumb: / Home
+             /publications/ Publications
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -30,7 +31,7 @@ Peer-reviewed journal articles and book chapters
 
 .. container:: refs-2021
 
-  | **Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses**
+  | :link-flat-strong:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <{filename}/publications/papers/Functional_RNA_Structures_in_the_3UTR_of_Mosquito-Borne_Flaviviruses.rst>`
   | :ul:`Michael T. Wolfinger`, Roman Ochsenreiter, Ivo L. Hofacker
   | In *Virus Bioinformatics*, edited by Dmitrij Frishman and Manja Marz, pp65–100. Chapman and Hall/CRC Press (2021) | :doi:`doi:10.1201/9781003097679-5 <https://doi.org/10.1201/9781003097679-5>`
 
