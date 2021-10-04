@@ -98,7 +98,8 @@ M_FINE_PRINT =  None
 STATIC_PATHS = ['static', 'extra/CNAME', 'extra/robots.txt']
 EXTRA_PATH_METADATA = {
                         'extra/CNAME': {'path': 'CNAME'},
-                        'extra/robots.txt': {'path': 'robots.txt'}
+                        'extra/robots.txt': {'path': 'robots.txt'},
+                        'static/academicons.min.css': {'path': 'static/academicons.min.css'}
                         }
 
 DISPLAY_PAGES_ON_MENU = True
