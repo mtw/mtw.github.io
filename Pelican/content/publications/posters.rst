@@ -16,6 +16,11 @@ Selected Posters
 .. role:: raw-html(raw)
    :format: html
 
+| :strong:`Small Regulatory RNAs contributing to antibiotic susceptibility in Pseudomonas aeruginosa`
+| Anastasia Cianciulli Sesso, :ul:`Michael T. Wolfinger`, Udo Bläsi
+| Presented at the *RNA Biology forever - Vienna RNA Meeting 2021*
+| Vienna, Austria, September 2021
+
 | :strong:`Towards Understanding Flaviviral Genome Cyclization`
 | Sean Park, Tyler Mrozowich, :ul:`Michael T. Wolfinger`, Trushar R. Patel
 | Presented at the *Li Ka Shing Institute of Virology/Gairdner Virtual Symposium: Zooming in on COVID-19*
