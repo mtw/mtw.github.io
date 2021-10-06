@@ -8,6 +8,9 @@ Papers
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
 
+.. role:: link-flat(link)
+  :class: m-flat m-text
+
 .. role:: ul
   :class: m-text m-ul
 
@@ -21,7 +24,7 @@ Preprints
 
   | **Insights into the secondary and tertiary structure of the Bovine Viral Diarrhea Virus Internal Ribosome Entry Site**
   | Devadatta Gosavi, Iwona Wower, Irene K Beckmann, Ivo L Hofacker, Jacek Wower, :ul:`Michael T Wolfinger`, Joanna Sztuba-Solinska
-  | *bioRxiv* 2021.05.13.444024 | :doi:`doi:10.1101/2021.05.13.444024 <https://doi.org/10.1101/2021.05.13.444024>`
+  | *bioRxiv* 2021.05.13.444024 | :doi:`doi:10.1101/2021.05.13.444024 <https://doi.org/10.1101/2021.05.13.444024>` | :link-flat:`Preprint PDF <{static}/files/papers/Gosavi-2021__PREPRINT.pdf>`
 
 Peer-reviewed journal articles and book chapters
 ================================================
@@ -33,19 +36,19 @@ Peer-reviewed journal articles and book chapters
 
   | :link-flat-strong:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <{filename}/publications/papers/Functional_RNA_Structures_in_the_3UTR_of_Mosquito-Borne_Flaviviruses.rst>`
   | :ul:`Michael T. Wolfinger`, Roman Ochsenreiter, Ivo L. Hofacker
-  | In *Virus Bioinformatics*, edited by Dmitrij Frishman and Manja Marz, pp65–100. Chapman and Hall/CRC Press (2021) | :doi:`doi:10.1201/9781003097679-5 <https://doi.org/10.1201/9781003097679-5>`
+  | In *Virus Bioinformatics*, edited by Dmitrij Frishman and Manja Marz, pp65–100. Chapman and Hall/CRC Press (2021) | :doi:`doi:10.1201/9781003097679-5 <https://doi.org/10.1201/9781003097679-5>` | :link-flat:`Preprint PDF <{static}/files/papers/Wolfinger-2021.pdf>`
 
   | **Gene Expression Profiling of Pseudomonas Aeruginosa Upon Exposure to Colistin and Tobramycin**
   | Anastasia Cianciulli Sesso, Branislav Lilić, Fabian Amman, :ul:`Michael T. Wolfinger`, Elisabeth Sonnleitner, Udo Bläsi
-  | *Front. Microbiol.* 12:937 (2021) | :doi:`doi:10.3389/fmicb.2021.626715 <https://doi.org/10.3389/fmicb.2021.626715>`
+  | *Front. Microbiol.* 12:937 (2021) | :doi:`doi:10.3389/fmicb.2021.626715 <https://doi.org/10.3389/fmicb.2021.626715>` | :link-flat:`PDF <{static}/files/papers/Sesso-2021.pdf>`
 
   | **An African Tick Flavivirus Forming an Independent Clade Exhibits Unique Exoribonuclease-Resistant RNA Structures in the Genomic 3’-Untranslated Region**
   | Hayato Harima, Yasuko Orba, Shiho Torii, Yongjin Qiu, Masahiro Kajihara, Yoshiki Eto, Naoya Matsuta, Bernard M. Hang’ombe, Yuki Eshita, Kentaro Uemura, Keita Matsuno, Michihito Sasaki, Kentaro Yoshii, Ryo Nakao, William W. Hall, Ayato Takada, Takashi Abe, :ul:`Michael T. Wolfinger`, Martin Simuunza, Hirofumi Sawa
-  | *Sci. Rep.* 11:4883 (2021) | :doi:`doi: 10.1038/s41598-021-84365-9 <https://doi.org/10.1038/s41598-021-84365-9>`
+  | *Sci. Rep.* 11:4883 (2021) | :doi:`doi: 10.1038/s41598-021-84365-9 <https://doi.org/10.1038/s41598-021-84365-9>` | :link-flat:`PDF <{static}/files/papers/Harima-2021.pdf>`
 
   | **Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Variants That Alter RNA Structure in Chikungunya Virus**
   | Thomas Spicher, Markus Delitz, Adriano de Bernardi Schneider, :ul:`Michael T. Wolfinger`
-  | *Genes* 12 (2):239 (2021) | :doi:`doi:10.3390/genes12020239 <https://doi.org/10.3390/genes12020239>`
+  | *Genes* 12 (2):239 (2021) | :doi:`doi:10.3390/genes12020239 <https://doi.org/10.3390/genes12020239>` | :link-flat:`PDF <{static}/files/papers/Spicher-2021.pdf>`
 
 
 `2020`_
@@ -55,7 +58,7 @@ Peer-reviewed journal articles and book chapters
 
   | **Bi-Alignments as Models of Incongruent Evolution of RNA Sequence and Secondary Structure**
   | Maria Waldl, Sebatsian Will, :ul:`Michael T. Wolfinger`, Ivo L. Hofacker, Peter F. Stadler
-  | In *Computational Intelligence Methods for Bioinformatics and Biostatistics*, pp159–70. Springer International Publishing (2020) | :doi:`doi:10.1007/978-3-030-63061-4_15 <https://doi.org/10.1007/978-3-030-63061-4_15>`
+  | In *Computational Intelligence Methods for Bioinformatics and Biostatistics*, pp159–70. Springer International Publishing (2020) | :doi:`doi:10.1007/978-3-030-63061-4_15 <https://doi.org/10.1007/978-3-030-63061-4_15>` | :link-flat:`Preprint PDF <{static}/files/papers/Waldl-2020__PREPRINT.pdf>`
 
   | **Genomic Epidemiology of Superspreading Events in Austria Reveals Mutational Dynamics and Transmission Properties of SARS-CoV-2**
   | Alexandra Popa, Jakob-Wendelin Genger, Michael D. Nicholson, Thomas Penz, Daniela Schmid, Stephan W Aberle, Benedikt Agerer, Alexander Lercher, Lukas Endler, Henrique Colaco, Mark Smyth, Michael Schuster, Miguel L. Grau, Francisco Martínez-Jiménez, Oriol Pich, Wegene Borena, Erich Pawelka, Zsofia Keszei, Mar- tin Senekowitsch, Jan Laine, Judith H Aberle, Monika Redlberger-Fritz, Mario Karolyi, Alexander Zoufaly, Sabine Maritschnik, Martin Borkovec, Peter Hufnagl, Manfred Nairz, Günter Weiss, :ul:`Michael T. Wolfinger`, Dorothee von Laer, Giulio Superti-Furga, Nuria Lopez-Bigas, Elisabeth Puchhammer-Stöckl, Franz Allerberger, Franziska Michor, Christoph Bock, Andreas Bergthaler
@@ -63,11 +66,11 @@ Peer-reviewed journal articles and book chapters
 
   | **Discoveries of Exoribonuclease-Resistant Structures of Insect-Specific Flaviviruses Isolated in Zambia**
   | Christida E. Wastika, Hayato Harima, Michihito Sasakai, Bernard M. Hang’ombe, Yuki Eshita, Qiu Yongjin, William W. Hall, :ul:`Michael T. Wolfinger`, Hirofumi Sawa, Yasuko Orba
-  | *Viruses* 12:1017 (2020)| :doi:`doi:10.3390/v12091017 <https://doi.org/10.3390/v12091017>`
+  | *Viruses* 12:1017 (2020)| :doi:`doi:10.3390/v12091017 <https://doi.org/10.3390/v12091017>` | :link-flat:`PDF <{static}/files/papers/Wastika-2020.pdf>`
 
   | **Distinctive Regulation of Carbapenem Susceptibility in Pseudomonas Aeruginosa by Hfq**
   | Elisabeth Sonnleitner, Petra Pusic, :ul:`Michael T. Wolfinger`, Udo Bläsi
-  | *Front. Microbiol.* 11:1001 (2020) | :doi:`doi:10.3389/fmicb.2020.01001 <https://doi.org/10.3389/fmicb.2020.01001>`
+  | *Front. Microbiol.* 11:1001 (2020) | :doi:`doi:10.3389/fmicb.2020.01001 <https://doi.org/10.3389/fmicb.2020.01001>` | :link-flat:`PDF <{static}/files/papers/Sonnleitner-2020.pdf>`
 
 
 `2019`_
@@ -77,19 +80,19 @@ Peer-reviewed journal articles and book chapters
 
   | **Updated Phylogeny of Chikungunya Virus Suggests Lineage-Specific RNA Architecture**
   | Adriano de Bernardi Schneider, Roman Ochsenreiter, Reilly Hostager, Ivo L. Hofacker, Daniel Janies, :ul:`Michael T. Wolfinger`
-  | *Viruses* 11:798 (2019) | :doi:`doi:10.3390/v11090798 <https://doi.org/10.3390/v11090798>`
+  | *Viruses* 11:798 (2019) | :doi:`doi:10.3390/v11090798 <https://doi.org/10.3390/v11090798>` | :link-flat:`PDF <{static}/files/papers/deBernardiSchneider-2019b.pdf>`
 
   | **Musashi Binding Elements in Zika and Related Flavivirus 3’UTRs: A Comparative Study in Silico**
   | Adriano de Bernardi Schneider, :ul:`Michael T. Wolfinger`
-  | *Sci. Rep.* 9(1):6911 (2019) | :doi:`doi:10.1038/s41598-019-43390-5 <https://doi.org/10.1038/s41598-019-43390-5>`
+  | *Sci. Rep.* 9(1):6911 (2019) | :doi:`doi:10.1038/s41598-019-43390-5 <https://doi.org/10.1038/s41598-019-43390-5>` | :link-flat:`PDF <{static}/files/papers/deBernardiSchneider-2019a.pdf>`
 
   | **Indications for a Moonlighting Function of Translation Factor aIF5A in the Crenarchaeum Sulfolobus Solfataricus**
   | Flavia Bassani, Isabelle Anna Zink, Thomas Pribasnig, :ul:`Michael T. Wolfinger`, Alice Romagnoli, Armin Resch, Christa Schleper, Udo Bläsi, Anna La Teana
-  | *RNA Biol.* 16 (5):675–85 (2019) | :doi:`doi:10.1080/15476286.2019.1582953 <https://doi.org/10.1080/15476286.2019.1582953>`
+  | *RNA Biol.* 16 (5):675–85 (2019) | :doi:`doi:10.1080/15476286.2019.1582953 <https://doi.org/10.1080/15476286.2019.1582953>` | :link-flat:`PDF <{static}/files/papers/Bassani-2019.pdf>`
 
   | **Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No Known Vector Flaviviruses**
   | Ochsenreiter, Roman, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`.
-  | *Viruses* 11:298 (2019) | :doi:`doi:10.3390/v11030298 <https://doi.org/10.3390/v11030298>`
+  | *Viruses* 11:298 (2019) | :doi:`doi:10.3390/v11030298 <https://doi.org/10.3390/v11030298>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2019.pdf>`
 
 `2018`_
 -------
@@ -98,15 +101,15 @@ Peer-reviewed journal articles and book chapters
 
   | **Harnessing Metabolic Regulation to Increase Hfq-Dependent Antibiotic Susceptibility in Pseudomonas Aeruginosa**
   | Petra Pusic, Elisabeth Sonnleitner, Beatrice Krennmayr, Dorothea Agnes Heitzinger, :ul:`Michael T. Wolfinger`, Armin Resch, Udo Bläsi
-  | *Front. Microbiol.* 9:2709 (2018) | :doi:`doi:10.3389/fmicb.2018.02709 <https://doi.org/10.3389/fmicb.2018.02709>`
+  | *Front. Microbiol.* 9:2709 (2018) | :doi:`doi:10.3389/fmicb.2018.02709 <https://doi.org/10.3389/fmicb.2018.02709>` | :link-flat:`PDF <{static}/files/papers/Pusic-2018.pdf>`
 
   | **TERribly Difficult: Searching for Telomerase RNAs in Saccharomycetes**
   | Maria Waldl, Bernhard C. Thiel, Roman Ochsenreiter, Alexander Holzenleiter, João Victor de Araujo Oliveira, Maria Emília M.T. Walter, :ul:`Michael T. Wolfinger`, Peter F. Stadler
-  | *Genes* 9 (8), 372 (2018) | :doi:`doi:10.3390/genes9080372 <https://doi.org/10.3390/genes9080372>`
+  | *Genes* 9 (8), 372 (2018) | :doi:`doi:10.3390/genes9080372 <https://doi.org/10.3390/genes9080372>` | :link-flat:`PDF <{static}/files/papers/Waldl-2018.pdf>`
 
   | **Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics**
   | :ul:`Michael T. Wolfinger`, Christoph Flamm, Ivo L. Hofacker
-  | *Methods* 143:70–76 (2018) | :doi:`doi:10.1016/j.ymeth.2018.04.036 <https://doi.org/10.1016/j.ymeth.2018.04.036>`
+  | *Methods* 143:70–76 (2018) | :doi:`doi:10.1016/j.ymeth.2018.04.036 <https://doi.org/10.1016/j.ymeth.2018.04.036>` | :link-flat:`Preprint PDF <{static}/files/papers/Wolfinger-2018__PREPRINT.pdf>`
 
   | **In Silico Design of Ligand Triggered RNA Switches**
   | Sven Findeiß, Stefan Hammer, :ul:`Michael T. Wolfinger`, Felix Kühnl, Christoph Flamm, Ivo L. Hofacker
@@ -114,7 +117,7 @@ Peer-reviewed journal articles and book chapters
 
   | **Interplay Between the Catabolite Repression Control Protein Crc, Hfq and RNA in Hfq-Dependent Translational Regulation in Pseudomonas Aeruginosa**
   | Elisabeth Sonnleitner, Alexander Wulf, Sébastien Campagne, Xue-Yuan Pei, :ul:`Michael T. Wolfinger`, Giada Forlani, Konstantin Prindl, Laetitia Abdou, Armin Resch, Frederic Allain, Ben Luisi, Henning Urlaub, Udo Bläsi
-  | *Nucleic Acids Res.* 46:1470–85 (2018) | :doi:`10.1093/nar/gkx1245 <https://doi.org/10.1093/nar/gkx1245>`
+  | *Nucleic Acids Res.* 46:1470–85 (2018) | :doi:`doi:10.1093/nar/gkx1245 <https://doi.org/10.1093/nar/gkx1245>` | :link-flat:`PDF <{static}/files/papers/Sonnleitner-2018.pdf>`
 
 `2017`_
 -------
