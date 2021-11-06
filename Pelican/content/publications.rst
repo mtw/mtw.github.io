@@ -56,19 +56,19 @@ Peer-reviewed journal articles and book chapters
 
 .. container:: refs-2020
 
-  | **Bi-Alignments as Models of Incongruent Evolution of RNA Sequence and Secondary Structure**
-  | Maria Waldl, Sebatsian Will, :ul:`Michael T. Wolfinger`, Ivo L. Hofacker, Peter F. Stadler
+  | :link-flat-strong:`Bi-Alignments as Models of Incongruent Evolution of RNA Sequence and Secondary Structure <{filename}/publications/papers/Bi-Alignments_as_Models_of_Incongruent_Evolution_of_RNA_Sequence_and_Secondary_Structure.rst>`
+  | Maria Waldl, Sebastian Will, :ul:`Michael T. Wolfinger`, Ivo L. Hofacker, Peter F. Stadler
   | In *Computational Intelligence Methods for Bioinformatics and Biostatistics*, pp159–70. Springer International Publishing (2020) | :doi:`doi:10.1007/978-3-030-63061-4_15 <https://doi.org/10.1007/978-3-030-63061-4_15>` | :link-flat:`Preprint PDF <{static}/files/papers/Waldl-2020__PREPRINT.pdf>`
 
-  | **Genomic Epidemiology of Superspreading Events in Austria Reveals Mutational Dynamics and Transmission Properties of SARS-CoV-2**
+  | :link-flat-strong:`Genomic Epidemiology of Superspreading Events in Austria Reveals Mutational Dynamics and Transmission Properties of SARS-CoV-2 <{filename}/publications/papers/Genomic_Epidemiology_of_Superspreading_Events_in_Austria_Reveals_Mutational_Dynamics_and_Transmission_Properties_of_SARS-CoV-2.rst>``
   | Alexandra Popa, Jakob-Wendelin Genger, Michael D. Nicholson, Thomas Penz, Daniela Schmid, Stephan W Aberle, Benedikt Agerer, Alexander Lercher, Lukas Endler, Henrique Colaco, Mark Smyth, Michael Schuster, Miguel L. Grau, Francisco Martínez-Jiménez, Oriol Pich, Wegene Borena, Erich Pawelka, Zsofia Keszei, Mar- tin Senekowitsch, Jan Laine, Judith H Aberle, Monika Redlberger-Fritz, Mario Karolyi, Alexander Zoufaly, Sabine Maritschnik, Martin Borkovec, Peter Hufnagl, Manfred Nairz, Günter Weiss, :ul:`Michael T. Wolfinger`, Dorothee von Laer, Giulio Superti-Furga, Nuria Lopez-Bigas, Elisabeth Puchhammer-Stöckl, Franz Allerberger, Franziska Michor, Christoph Bock, Andreas Bergthaler
   | *Sci. Transl. Med.* 12 (573):eabe2555 (2020) | :doi:`doi:10.1126/scitranslmed.abe2555 <https://doi.org/10.1126/scitranslmed.abe2555>`
 
-  | **Discoveries of Exoribonuclease-Resistant Structures of Insect-Specific Flaviviruses Isolated in Zambia**
+  | :link-flat-strong:`Discoveries of Exoribonuclease-Resistant Structures of Insect-Specific Flaviviruses Isolated in Zambia <{filename}/publications/papers/Discoveries_of_Exoribonuclease-Resistant_Structures_of_Insect-Specific_Flaviviruses_Isolated_in_Zambia.rst>`
   | Christida E. Wastika, Hayato Harima, Michihito Sasakai, Bernard M. Hang’ombe, Yuki Eshita, Qiu Yongjin, William W. Hall, :ul:`Michael T. Wolfinger`, Hirofumi Sawa, Yasuko Orba
   | *Viruses* 12:1017 (2020)| :doi:`doi:10.3390/v12091017 <https://doi.org/10.3390/v12091017>` | :link-flat:`PDF <{static}/files/papers/Wastika-2020.pdf>`
 
-  | **Distinctive Regulation of Carbapenem Susceptibility in Pseudomonas Aeruginosa by Hfq**
+  | :link-flat-strong:`Distinctive Regulation of Carbapenem Susceptibility in Pseudomonas Aeruginosa by Hfq <{filename}/publications/papers/Distinctive_Regulation_of_Carbapenem_Susceptibility_in_Pseudomonas_Aeruginosa_by_Hfq.rst>`
   | Elisabeth Sonnleitner, Petra Pusic, :ul:`Michael T. Wolfinger`, Udo Bläsi
   | *Front. Microbiol.* 11:1001 (2020) | :doi:`doi:10.3389/fmicb.2020.01001 <https://doi.org/10.3389/fmicb.2020.01001>` | :link-flat:`PDF <{static}/files/papers/Sonnleitner-2020.pdf>`
 
