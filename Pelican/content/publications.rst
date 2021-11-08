@@ -78,20 +78,20 @@ Peer-reviewed journal articles and book chapters
 
 .. container:: refs-2019
 
-  | **Updated Phylogeny of Chikungunya Virus Suggests Lineage-Specific RNA Architecture**
+  | :link-flat-strong:`Updated Phylogeny of Chikungunya Virus Suggests Lineage-Specific RNA Architecture <{filename}/publications/papers/Updated_Phylogeny_of_Chikungunya_Virus_Suggests_Lineage_Specific_RNA_Architecture.rst>`
   | Adriano de Bernardi Schneider, Roman Ochsenreiter, Reilly Hostager, Ivo L. Hofacker, Daniel Janies, :ul:`Michael T. Wolfinger`
   | *Viruses* 11:798 (2019) | :doi:`doi:10.3390/v11090798 <https://doi.org/10.3390/v11090798>` | :link-flat:`PDF <{static}/files/papers/deBernardiSchneider-2019b.pdf>`
 
-  | **Musashi Binding Elements in Zika and Related Flavivirus 3’UTRs: A Comparative Study in Silico**
+  | :link-flat-strong:`Musashi Binding Elements in Zika and Related Flavivirus 3’UTRs: A Comparative Study in Silico <{filename}/publications/papers/Musashi_Binding_Elements_in_Zika_and_Related_Flavivirus_3UTRs_A_Comparative_Study_in_Silico.rst>`
   | Adriano de Bernardi Schneider, :ul:`Michael T. Wolfinger`
   | *Sci. Rep.* 9(1):6911 (2019) | :doi:`doi:10.1038/s41598-019-43390-5 <https://doi.org/10.1038/s41598-019-43390-5>` | :link-flat:`PDF <{static}/files/papers/deBernardiSchneider-2019a.pdf>`
 
-  | **Indications for a Moonlighting Function of Translation Factor aIF5A in the Crenarchaeum Sulfolobus Solfataricus**
+  | :link-flat-strong:`Indications for a Moonlighting Function of Translation Factor aIF5A in the Crenarchaeum Sulfolobus Solfataricus <{filename}/publications/papers/Indications_for_a_Moonlighting_Function_of_Translation_Factor_aIF5A_in_the_Crenarchaeum_Sulfolobus_Solfataricus.rst>`
   | Flavia Bassani, Isabelle Anna Zink, Thomas Pribasnig, :ul:`Michael T. Wolfinger`, Alice Romagnoli, Armin Resch, Christa Schleper, Udo Bläsi, Anna La Teana
   | *RNA Biol.* 16 (5):675–85 (2019) | :doi:`doi:10.1080/15476286.2019.1582953 <https://doi.org/10.1080/15476286.2019.1582953>` | :link-flat:`PDF <{static}/files/papers/Bassani-2019.pdf>`
 
-  | **Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No Known Vector Flaviviruses**
-  | Ochsenreiter, Roman, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`.
+  | :link-flat-strong:`Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No Known Vector Flaviviruses <{filename}/publications/papers/Functional_RNA_Structures_in_the_3UTR_of_Tick-Borne_Insect-Specific_and_No_Known_Vector_Flaviviruses.rst>`
+  | Roman Ochsenreiter, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`
   | *Viruses* 11:298 (2019) | :doi:`doi:10.3390/v11030298 <https://doi.org/10.3390/v11030298>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2019.pdf>`
 
 `2018`_
