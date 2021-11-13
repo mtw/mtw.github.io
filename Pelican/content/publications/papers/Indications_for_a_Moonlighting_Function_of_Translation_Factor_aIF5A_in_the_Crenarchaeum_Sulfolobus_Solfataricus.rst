@@ -12,15 +12,23 @@ Indications for a Moonlighting Function of Translation Factor aIF5A in the Crena
 .. role:: doi(link)
  :class: doi
 
-Flavia Bassani, Isabelle Anna Zink, Thomas Pribasnig, :ul:`Michael T. Wolfinger`, Alice Romagnoli, Armin Resch, Christa Schleper, Udo Bläsi, Anna La Teana
+.. container:: m-row
 
-*RNA Biol.* 16 (5):675–85 (2019)
+    .. container:: m-col-l-9 m-container-inflatable
 
-doi: :doi:`10.1080/15476286.2019.1582953  <https://doi.org/10.1080/15476286.2019.1582953 >`
+        Flavia Bassani, Isabelle Anna Zink, Thomas Pribasnig, :ul:`Michael T. Wolfinger`, Alice Romagnoli, Armin Resch, Christa Schleper, Udo Bläsi, Anna La Teana
 
-:link-flat-strong:`PDF <{static}/files/papers/Bassani-2019.pdf>`
+        *RNA Biol.* 16 (5):675–85 (2019) | doi: :doi:`10.1080/15476286.2019.1582953  <https://doi.org/10.1080/15476286.2019.1582953 >`
+
+        Download: :link-flat-strong:`PDF <{static}/files/papers/Bassani-2019.pdf>`
+
+    .. container:: m-col-l-3 m-container-inflatable
+
+        .. raw:: html
+
+          <span class="__dimensions_badge_embed__" data-doi="10.1080/15476286.2019.1582953" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 Abstract
 ========
 
-  Translation factor a/eIF5A is highly conserved in Eukarya and Archaea. The eukaryal eIF5A protein is required for transit of ribosomes across consecutive proline codons, whereas the function of the archaeal orthologue remains unknown. Here, we provide a first hint for an involvement of Sulfolobus solfataricus (Sso) aIF5A in translation. CRISPR-mediated knock down of the aif5A gene resulted in strong growth retardation, underlining a pivotal function. Moreover, in vitro studies revealed that Sso aIF5A is endowed with endoribonucleolytic activity. Thus, aIF5A appears to be a moonlighting protein that might be involved in protein synthesis as well as in RNA metabolism.
+Translation factor a/eIF5A is highly conserved in Eukarya and Archaea. The eukaryal eIF5A protein is required for transit of ribosomes across consecutive proline codons, whereas the function of the archaeal orthologue remains unknown. Here, we provide a first hint for an involvement of Sulfolobus solfataricus (Sso) aIF5A in translation. CRISPR-mediated knock down of the aif5A gene resulted in strong growth retardation, underlining a pivotal function. Moreover, in vitro studies revealed that Sso aIF5A is endowed with endoribonucleolytic activity. Thus, aIF5A appears to be a moonlighting protein that might be involved in protein synthesis as well as in RNA metabolism.

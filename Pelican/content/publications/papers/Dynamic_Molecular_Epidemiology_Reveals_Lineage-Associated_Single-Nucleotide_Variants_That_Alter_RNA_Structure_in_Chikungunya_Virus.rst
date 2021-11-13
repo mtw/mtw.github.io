@@ -12,15 +12,23 @@ Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Vari
 .. role:: doi(link)
  :class: doi
 
-Thomas Spicher, Markus Delitz, Adriano de Bernardi Schneider, :ul:`Michael T. Wolfinger`
+.. container:: m-row
 
-*Genes* 12 (2):239 (2021) 
+    .. container:: m-col-l-9 m-container-inflatable
 
-doi: :doi:`10.3390/genes12020239 <https://doi.org/10.3390/genes12020239>`
+        Thomas Spicher, Markus Delitz, Adriano de Bernardi Schneider, :ul:`Michael T. Wolfinger`
 
-:link-flat-strong:`PDF <{static}/files/papers/Spicher-2021.pdf>`
+        *Genes* 12 (2):239 (2021) | doi: :doi:`10.3390/genes12020239 <https://doi.org/10.3390/genes12020239>`
+
+        Download: :link-flat-strong:`PDF <{static}/files/papers/Spicher-2021.pdf>`
+
+    .. container:: m-col-l-3 m-container-inflatable
+
+       .. raw:: html
+
+         <span class="__dimensions_badge_embed__" data-doi="10.3390/genes12020239" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
 
 Abstract
 ========
-
-  Chikungunya virus (CHIKV) is an emerging Alphavirus which causes millions of human infections every year. Outbreaks have been reported in Africa and Asia since the early 1950s, from three CHIKV lineages: West African, East Central South African, and Asian Urban. As new outbreaks occurred in the Americas, individual strains from the known lineages have evolved, creating new monophyletic groups that generated novel geographic-based lineages. Building on a recently updated phylogeny of CHIKV, we report here the availability of an interactive CHIKV phylodynamics dataset, which is based on more than 900 publicly available CHIKV genomes. We provide an interactive view of CHIKV molecular epidemiology built on Nextstrain, a web-based visualization framework for real-time tracking of pathogen evolution. CHIKV molecular epidemiology reveals single nucleotide variants that change the stability and fold of locally stable RNA structures. We propose alternative RNA structure formation in different CHIKV lineages by predicting more than a dozen RNA elements that are subject to perturbation of the structure ensemble upon variation of a single nucleotide.
+Chikungunya virus (CHIKV) is an emerging Alphavirus which causes millions of human infections every year. Outbreaks have been reported in Africa and Asia since the early 1950s, from three CHIKV lineages: West African, East Central South African, and Asian Urban. As new outbreaks occurred in the Americas, individual strains from the known lineages have evolved, creating new monophyletic groups that generated novel geographic-based lineages. Building on a recently updated phylogeny of CHIKV, we report here the availability of an interactive CHIKV phylodynamics dataset, which is based on more than 900 publicly available CHIKV genomes. We provide an interactive view of CHIKV molecular epidemiology built on Nextstrain, a web-based visualization framework for real-time tracking of pathogen evolution. CHIKV molecular epidemiology reveals single nucleotide variants that change the stability and fold of locally stable RNA structures. We propose alternative RNA structure formation in different CHIKV lineages by predicting more than a dozen RNA elements that are subject to perturbation of the structure ensemble upon variation of a single nucleotide.
