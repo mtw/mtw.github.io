@@ -409,14 +409,14 @@ abbr {
   text-decoration: underline dotted;
 }
 a {
-  color: #892800;
+  color: #2a64a3;
   text-decoration: none;
 }
 a.m-flat {
   text-decoration: none;
 }
 a:hover, a:focus, a:active {
-  color: #892800;
+  color: #2a64a3;
 }
 a img { border: 0; }
 svg a { cursor: pointer; }
@@ -1181,7 +1181,7 @@ div.m-button a svg.m-math { fill: #ffffff; }
 div.m-button.m-flat a svg.m-math { fill: #000000; }
 div.m-button.m-flat a:hover svg.m-math, div.m-button.m-default a:focus svg.m-math,
 div.m-button.m-default a:active svg.m-math {
-  fill: #892800;
+  fill: #2a64a3;
 }
 .m-graph { font-size: 16px; }
 div.m-plot svg, div.m-graph svg {
@@ -1226,7 +1226,7 @@ figure.m-figure:not(.m-flat) > svg.m-graph:first-child {
   color: #000000;
 }
 .m-block.m-default h3 a, .m-block.m-default h4 a, .m-block.m-default h5 a, .m-block.m-default h6 a {
-  color: #892800;
+  color: #2a64a3;
 }
 .m-block.m-primary { border-left-color: #cb4b16; }
 .m-block.m-primary h3, .m-block.m-primary h4, .m-block.m-primary h5, .m-block.m-primary h6,
@@ -1310,7 +1310,7 @@ figure.m-figure:not(.m-flat) > svg.m-graph:first-child {
 div.m-button a, .m-label { color: #ffffff; }
 div.m-button.m-flat a { color: #000000; }
 div.m-button.m-flat a:hover, div.m-button.m-default a:focus, div.m-button.m-default a:active {
-  color: #892800;
+  color: #2a64a3;
 }
 div.m-button.m-default a, .m-label:not(.m-flat).m-default { background-color: #000000; }
 div.m-button.m-primary a, .m-label:not(.m-flat).m-primary { background-color: #cb4b16; }
