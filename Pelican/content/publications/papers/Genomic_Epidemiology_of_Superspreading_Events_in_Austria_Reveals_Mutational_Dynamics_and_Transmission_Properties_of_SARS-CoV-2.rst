@@ -14,17 +14,25 @@ Genomic Epidemiology of Superspreading Events in Austria Reveals Mutational Dyna
 
 .. container:: m-row
 
-     .. container:: m-col-l-9 m-container-inflatable
+     .. container:: m-col-l-9 m-col-m-9 m-container-inflatable
 
         Alexandra Popa, Jakob-Wendelin Genger, Michael D. Nicholson, Thomas Penz, Daniela Schmid, Stephan W Aberle, Benedikt Agerer, Alexander Lercher, Lukas Endler, Henrique Colaco, Mark Smyth, Michael Schuster, Miguel L. Grau, Francisco Martínez-Jiménez, Oriol Pich, Wegene Borena, Erich Pawelka, Zsofia Keszei, Mar- tin Senekowitsch, Jan Laine, Judith H Aberle, Monika Redlberger-Fritz, Mario Karolyi, Alexander Zoufaly, Sabine Maritschnik, Martin Borkovec, Peter Hufnagl, Manfred Nairz, Günter Weiss, :ul:`Michael T. Wolfinger`, Dorothee von Laer, Giulio Superti-Furga, Nuria Lopez-Bigas, Elisabeth Puchhammer-Stöckl, Franz Allerberger, Franziska Michor, Christoph Bock, Andreas Bergthaler
 
         *Sci. Transl. Med.* 12 (573):eabe2555 (2020) | doi: :doi:`10.1126/scitranslmed.abe2555 <https://doi.org/10.1126/scitranslmed.abe2555>`
 
-     .. container:: m-col-l-3 m-container-inflatable
+     .. container:: m-col-l-3 m-col-m-3 m-container-inflatable
 
-        .. raw:: html
+       .. container:: m-label
+
+         .. raw:: html
 
            <span class="__dimensions_badge_embed__" data-doi="10.1126/scitranslmed.abe2555" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+       .. container:: m-label
+
+         .. raw:: html
+
+           <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1126/scitranslmed.abe2555"></div>
 
 
 Abstract
