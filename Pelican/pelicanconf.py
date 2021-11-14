@@ -93,7 +93,11 @@ M_LINKS_FOOTER4 = [('Social', ''),
                     ('Linkedin', 'https://www.linkedin.com/in/michaelwolfinger/')
                     ]
 
-M_FINE_PRINT =  None
+M_FINE_PRINT =  """
+| michaelwolfinger.com. Copyright © Michael T. Wolfinger, 2021. Site
+  powered by `Pelican <https://getpelican.com>`_ and m.css.
+| Code and content is `available on GitHub <https://github.com/mtw/mtw.github.io>`_.
+"""
 
 STATIC_PATHS = ['static', 'extra/CNAME', 'extra/robots.txt']
 EXTRA_PATH_METADATA = {
