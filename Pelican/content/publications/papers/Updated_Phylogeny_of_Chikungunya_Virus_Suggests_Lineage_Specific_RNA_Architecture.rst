@@ -14,7 +14,7 @@ Updated Phylogeny of Chikungunya Virus Suggests Lineage-Specific RNA Architectur
 
 .. container:: m-row
 
-     .. container:: m-col-l-9 m-container-inflatable
+     .. container:: m-col-l-9 m-col-m-9 m-container-inflatable
 
           Adriano de Bernardi Schneider, Roman Ochsenreiter, Reilly Hostager, Ivo L. Hofacker, Daniel Janies, :ul:`Michael T. Wolfinger`
 
@@ -22,11 +22,19 @@ Updated Phylogeny of Chikungunya Virus Suggests Lineage-Specific RNA Architectur
 
           Download: :link-flat-strong:`PDF <{static}/files/papers/deBernardiSchneider-2019b.pdf>`
 
-     .. container:: m-col-l-3 m-container-inflatable
+     .. container:: m-col-l-3 m-col-m-3 m-container-inflatable
 
-        .. raw:: html
+       .. container:: m-label
 
-          <span class="__dimensions_badge_embed__" data-doi="10.3390/v11090798" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+          .. raw:: html
+
+            <span class="__dimensions_badge_embed__" data-doi="10.3390/v11090798" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+       .. container:: m-label
+
+         .. raw:: html
+
+           <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.3390/v11090798"></div>
 
 
 Abstract

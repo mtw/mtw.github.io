@@ -24,9 +24,18 @@ Bi-Alignments as Models of Incongruent Evolution of RNA Sequence and Secondary S
 
     .. container:: m-col-l-3 m-container-inflatable
 
-       .. raw:: html
+      .. container:: m-label
 
-         <span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-030-63061-4_15" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+         .. raw:: html
+
+           <span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-030-63061-4_15" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+      .. container:: m-label
+
+         .. .. raw:: html
+
+         ..  <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1007/978-3-030-63061-4_15"></div>
+
 
 
 Abstract
