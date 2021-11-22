@@ -20,6 +20,10 @@ Presentations
 Selected oral presentations and invited talks
 =============================================
 
+| :link-flat-strong:`Deciphering viral RNA structure with ViennaRNA <{static}/files/presentations/2021-11-22-EVBC.pdf>`
+| Presented at the *Euopean Virus Bioinformatics Center 'viruses in silico' lecture series*
+| Online. 22 November 2021 | :doi:`doi:10.13140/RG.2.2.26042.31684 <https://doi.org/10.13140/RG.2.2.26042.31684>`
+
 | :link-flat-strong:`Molecular epidemiology of Chikungunya virus in its endemic regions <{static}/files/presentations/2020-09-15-GCB.pdf>`
 | Presented at the *German Conference on Bioinformatics (GCB)*
 | Online. 15 September 2020 | :doi:`doi:10.13140/RG.2.2.36069.83687 <https://doi.org/10.13140/RG.2.2.36069.83687>`

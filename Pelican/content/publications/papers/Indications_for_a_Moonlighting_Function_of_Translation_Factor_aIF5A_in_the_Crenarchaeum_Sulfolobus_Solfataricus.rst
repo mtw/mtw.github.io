@@ -6,15 +6,18 @@ Indications for a Moonlighting Function of Translation Factor aIF5A in the Crena
 :breadcrumb: / Home
              /publications/ Papers
 
+.. role:: link-flat-strong(link)
+  :class: m-flat m-text m-strong
+
 .. role:: ul
- :class: m-text m-ul
+  :class: m-text m-ul
 
 .. role:: doi(link)
- :class: doi
+  :class: doi
 
 .. container:: m-row
 
-    .. container:: m-col-l-9 m-col-m-9 m-container-inflatable
+   .. container:: m-col-l-9 m-col-m-9 m-container-inflatable
 
         Flavia Bassani, Isabelle Anna Zink, Thomas Pribasnig, :ul:`Michael T. Wolfinger`, Alice Romagnoli, Armin Resch, Christa Schleper, Udo Bläsi, Anna La Teana
 
@@ -22,19 +25,19 @@ Indications for a Moonlighting Function of Translation Factor aIF5A in the Crena
 
         Download: :link-flat-strong:`PDF <{static}/files/papers/Bassani-2019.pdf>`
 
-    .. container:: m-col-l-3 m-col-m-3 m-container-inflatable
+   .. container:: m-col-l-3 m-col-m-3 m-container-inflatable
 
-      .. container:: m-label
+     .. container:: m-label
 
-        .. raw:: html
+       .. raw:: html
 
-          <span class="__dimensions_badge_embed__" data-doi="10.1080/15476286.2019.1582953" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+         <span class="__dimensions_badge_embed__" data-doi="10.1080/15476286.2019.1582953" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-      .. container:: m-label
+     .. container:: m-label
 
-        .. raw:: html
+       .. raw:: html
 
-          <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1080/15476286.2019.1582953"></div>
+         <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1080/15476286.2019.1582953"></div>
 
 
 Abstract

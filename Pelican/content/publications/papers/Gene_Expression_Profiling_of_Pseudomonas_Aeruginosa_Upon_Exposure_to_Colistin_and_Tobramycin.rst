@@ -6,11 +6,14 @@ Gene Expression Profiling of Pseudomonas Aeruginosa Upon Exposure to Colistin an
 :breadcrumb: / Home
              /publications/ Papers
 
+.. role:: link-flat-strong(link)
+  :class: m-flat m-text m-strong
+
 .. role:: ul
- :class: m-text m-ul
+  :class: m-text m-ul
 
 .. role:: doi(link)
- :class: doi
+  :class: doi
 
 .. container:: m-row
 
