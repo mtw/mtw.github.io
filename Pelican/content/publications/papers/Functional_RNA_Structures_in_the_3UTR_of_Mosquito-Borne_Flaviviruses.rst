@@ -6,15 +6,18 @@ Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses
 :breadcrumb: / Home
              /publications/ Book Chapters
 
+.. role:: link-flat-strong(link)
+  :class: m-flat m-text m-strong
+
 .. role:: ul
- :class: m-text m-ul
+  :class: m-text m-ul
 
 .. role:: doi(link)
- :class: doi
+  :class: doi
 
 .. container:: m-row
 
-  .. container:: m-col-l-9 m-container-inflatable
+   .. container:: m-col-l-9 m-col-m-9 m-container-inflatable
 
         :ul:`Michael T. Wolfinger`, Roman Ochsenreiter, Ivo L. Hofacker
 
@@ -22,7 +25,7 @@ Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses
 
         Download: :link-flat-strong:`Preprint PDF <{static}/files/papers/Wolfinger-2021.pdf>`
 
-  .. container:: m-col-l-3 m-col-m-3 m-container-inflatable
+   .. container:: m-col-l-3 m-col-m-3 m-container-inflatable
 
         .. container:: m-label
 

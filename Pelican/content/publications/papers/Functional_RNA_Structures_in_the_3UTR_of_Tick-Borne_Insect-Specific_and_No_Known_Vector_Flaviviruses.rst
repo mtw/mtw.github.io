@@ -6,11 +6,14 @@ Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No K
 :breadcrumb: / Home
              /publications/ Papers
 
+.. role:: link-flat-strong(link)
+  :class: m-flat m-text m-strong
+
 .. role:: ul
- :class: m-text m-ul
+  :class: m-text m-ul
 
 .. role:: doi(link)
- :class: doi
+  :class: doi
 
 .. container:: m-row
 
