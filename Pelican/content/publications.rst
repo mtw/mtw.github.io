@@ -126,11 +126,11 @@ Peer-reviewed journal articles and book chapters
 
   | **The Anaerobically Induced sRNA PaiI Affects Denitrification in Pseudomonas Aeruginosa PA14**
   | Muralidhar Tata, Fabian Amman, Vinay Pawar, :ul:`Michael T. Wolfinger`, Siegfried Weiss, Susanne Häussler, Udo Bläsi
-  | *Front. Microbiol.* 8:2312 (2017) | :doi:`doi:10.3389/fmicb.2017.02312 <https://doi.org/10.3389/fmicb.2017.02312>`
+  | *Front. Microbiol.* 8:2312 (2017) | :doi:`doi:10.3389/fmicb.2017.02312 <https://doi.org/10.3389/fmicb.2017.02312>` | :link-flat:`PDF <{static}/files/papers/Tata-2017.pdf>`
 
   | **The SmAP1/2 Proteins of the Crenarchaeon Sulfolobus Solfataricus Interact with the Exosome and Stimulate A-Rich Tailing of Transcripts**
   | Birgit Märtens, Linlin Hou, Fabian Amman, :ul:`Michael T. Wolfinger`, Elena Evguenieva-Hackenberg, Udo Bläsi
-  | *Nucleic Acids Res.* 45: 7938–49 (2017) | :doi:`doi:10.1093/nar/gkx437 <https://doi.org/10.1093/nar/gkx437>`
+  | *Nucleic Acids Res.* 45: 7938–49 (2017) | :doi:`doi:10.1093/nar/gkx437 <https://doi.org/10.1093/nar/gkx437>` | :link-flat:`PDF <{static}/files/papers/Maertens-2017.pdf>`
 
   | **NMR Structural Profiling of Transcriptional Intermediates Reveals Riboswitch Regulation by Metastable RNA Conformations**
   | Christina Helmling, Anna Wacker, :ul:`Michael T. Wolfinger`, Ivo L. Hofacker, Martin Hengsbach, Boris Fürtig, Harald Schwalbe
@@ -143,31 +143,31 @@ Peer-reviewed journal articles and book chapters
 
   | **Cross-Regulation by CrcZ RNA Controls Anoxic Biofilm Formation in Pseudomonas Aeruginosa**
   | Petra Pusic, Muralidhar Tata, :ul:`Michael T. Wolfinger`, Elisabeth Sonnleitner, Susanne Häussler, Udo Bläsi
-  | *Sci. Rep.* 6 (39621) (2016) | :doi:`doi:10.1038/srep39621 <https://doi.org/10.1038/srep39621>`
+  | *Sci. Rep.* 6 (39621) (2016) | :doi:`doi:10.1038/srep39621 <https://doi.org/10.1038/srep39621>` | :link-flat:`PDF <{static}/files/papers/Pusic-2016.pdf>`
 
   | **Transcriptome-Wide Effects of Inverted SINEs on Gene Expression and Their Impact on RNA Polymerase II Activity**
   | Mansoured Tajadodd, Andrea Tanzer, Konstantin Licht, :ul:`Michael T. Wolfinger`, Stefan Badelt, Florian Huber, Oliver Pusch, Sandy Schopoff, Ivo L. Hofacker, Michael F. Jantsch
-  | *Genome Biol.* 17:220 (2016) | :doi:`doi:10.1186/s13059-016-1083-0 <https://doi.org/10.1186/s13059-016-1083-0>`
+  | *Genome Biol.* 17:220 (2016) | :doi:`doi:10.1186/s13059-016-1083-0 <https://doi.org/10.1186/s13059-016-1083-0>` | :link-flat:`PDF <{static}/files/papers/Tajaddod-2016.pdf>`
 
   | **Differential Transcriptional Responses to Ebola and Marburg Virus Infection in Bat and Human Cells**
   | Martin Hölzer, Verena Krähling, Fabian Amman, Emanuel Barth, Stephan H. Bernhart, Victor Carmelo, Maximilian Collatz, Gero Doose, Florian Eggenhofer, Jan Ewald, Jörg Fallmann, Lasse M. Feldhahn, Markus Fricke, Juliane Gebauer, Andreas J. Gruber, Franziska Hufsky, Henrike Indrischek, Sabina Kanton, Jörg Linde, Nelly Mostajo, Roman Ochsenreiter, Konstantin Riege, Lorena Rivarola-Duarte, Abdullah H. Sahyoun, Sita J. Saunders, Stefan E. Seemann, Andrea Tanzer, Bertram Vogel, Stefanie Wehner, :ul:`Michael T. Wolfinger`, Rolf Backofen, Jan Gorodkin, Ivo Grosse, Ivo L. Hofacker, Steve Hoffmann, Christoph Kaleta, Peter F. Stadler, Stephan Becker, Manja Marz
-  | *Sci. Rep.* 6 (34589) (2016) | :doi:`doi:10.1038/srep34589 <https://doi.org/10.1038/srep34589>`
+  | *Sci. Rep.* 6 (34589) (2016) | :doi:`doi:10.1038/srep34589 <https://doi.org/10.1038/srep34589>` | :link-flat:`PDF <{static}/files/papers/Holzer-2016.pdf>`
 
   | **The MazF-Regulon: A Toolbox for the Post-Transcriptional Stress Response in Escherichia Coli**
   | Martina Sauert, :ul:`Michael T. Wolfinger`, Oliver Vesper, Christian Müller, Konstantin Byrgazov, Isabella Moll
-  | *Nucleic Acids Res.* 44 (14):6660–75 (2016) | :doi:`doi:10.1093/nar/gkw115 <https://doi.org/10.1093/nar/gkw115>`
+  | *Nucleic Acids Res.* 44 (14):6660–75 (2016) | :doi:`doi:10.1093/nar/gkw115 <https://doi.org/10.1093/nar/gkw115>` | :link-flat:`PDF <{static}/files/papers/Sauert-2016.pdf>`
 
   | **Predicting RNA Structures from Sequence and Probing Data**
   | Ronny Lorenz, :ul:`Michael T. Wolfinger`, Andrea Tanzer, Ivo L. Hofacker
-  | *Methods* 103:86–98 (2016) | :doi:`doi:10.1016/j.ymeth.2016.04.004 <https://doi.org/10.1016/j.ymeth.2016.04.004>`
+  | *Methods* 103:86–98 (2016) | :doi:`doi:10.1016/j.ymeth.2016.04.004 <https://doi.org/10.1016/j.ymeth.2016.04.004>` | :link-flat:`Preprint PDF <{static}/files/papers/Lorenz-2016b__PREPRINT.pdf>`
 
   | **RNA-Seq Based Transcriptional Profiling of Pseudomonas Aeruginosa Pa14 After Short- and Long-Term Anoxic Cultivation in Synthetic Cystic Fibrosis Sputum Medium**
   | Muralidhar Tata, :ul:`Michael T. Wolfinger`, Fabian Amman, Nicole Roschanski, Andreas Dötsch, Elisabeth Sonnleitner, Susanne Häussler, Udo Bläsi
-  | *PLoS ONE* 11 (1): e0147811 (2016) | :doi:`doi:10.1371/journal.pone.0147811 <https://doi.org/10.1371/journal.pone.0147811>`
+  | *PLoS ONE* 11 (1): e0147811 (2016) | :doi:`doi:10.1371/journal.pone.0147811 <https://doi.org/10.1371/journal.pone.0147811>` | :link-flat:`PDF <{static}/files/papers/Tata-2016.pdf>`
 
   | **SHAPE Directed RNA Folding**
   | Ronny Lorenz, Dominik Luntzer, Ivo L. Hofacker, Peter F. Stadler, :ul:`Michael T. Wolfinger`
-  | *Bioinformatics* 32: 145–47 (2016) | :doi:`doi:10.1093/bioinformatics/btv523 <https://doi.org/10.1093/bioinformatics/btv523>`
+  | *Bioinformatics* 32: 145–47 (2016) | :doi:`doi:10.1093/bioinformatics/btv523 <https://doi.org/10.1093/bioinformatics/btv523>` | :link-flat:`PDF <{static}/files/papers/Lorenz-2016a.pdf>`
 
 `2015`_
 -------
@@ -176,11 +176,11 @@ Peer-reviewed journal articles and book chapters
 
   | **General and miRNA-Mediated mRNA Degradation Occurs on Ribosome Complexes in Drosophila Cells**
   | Sanja Antic, :ul:`Michael T. Wolfinger`, Anna Skucha, Stefanie Hosiner, Silke Dorner
-  | *Mol. Cell. Biol.* MCB–01346 (2015) | :doi:`doi:10.1128/MCB.01346-14 <https://doi.org/10.1128/MCB.01346-14>`
+  | *Mol. Cell. Biol.* MCB–01346 (2015) | :doi:`doi:10.1128/MCB.01346-14 <https://doi.org/10.1128/MCB.01346-14>` | :link-flat:`PDF <{static}/files/papers/Antic-2015.pdf>`
 
   | **ViennaNGS: A Toolbox for Building Efficient Next-Generation Sequencing Analysis Pipelines**
   | :ul:`Michael T. Wolfinger`, Jörg Fallmann, Florian Eggenhofer, Fabian Amman
-  | *F1000Research* 4:50 (2015) | :doi:`doi:10.12688/f1000research.6157.2 <https://doi.org/10.12688/f1000research.6157.2>`
+  | *F1000Research* 4:50 (2015) | :doi:`doi:10.12688/f1000research.6157.2 <https://doi.org/10.12688/f1000research.6157.2>` | :link-flat:`PDF <{static}/files/papers/Wolfinger-2015.pdf>`
 
 `2014`_
 -------
@@ -189,11 +189,11 @@ Peer-reviewed journal articles and book chapters
 
   | **Memory Efficient RNA Energy Landscape Exploration**
   | Martin Mann, Marcel Kucharík, Christoph Flamm, :ul:`Michael T. Wolfinger`
-  | *Bioinformatics* 30: 2584–91 (2014) | :doi:`doi:10.1093/bioinformatics/btu337 <https://doi.org/10.1093/bioinformatics/btu337>`
+  | *Bioinformatics* 30: 2584–91 (2014) | :doi:`doi:10.1093/bioinformatics/btu337 <https://doi.org/10.1093/bioinformatics/btu337>` | :link-flat:`PDF <{static}/files/papers/Mann-2014.pdf>`
 
   | **TSSAR: TSS Annotation Regime for dRNA-Seq Data**
   | Fabian Amman, :ul:`Michael T. Wolfinger`, Ronny. Lorenz, Ivo L. Hofacker, Peter F. Stadler, Sven Findeiß
-  | *BMC Bioinformatics* 15 (1) (2014) | :doi:`doi:10.1186/1471-2105-15-89 <https://doi.org/10.1186/1471-2105-15-89>`
+  | *BMC Bioinformatics* 15 (1) (2014) | :doi:`doi:10.1186/1471-2105-15-89 <https://doi.org/10.1186/1471-2105-15-89>` | :link-flat:`PDF <{static}/files/papers/Amman-2014.pdf>`
 
 `2010`_
 -------
@@ -202,7 +202,7 @@ Peer-reviewed journal articles and book chapters
 
   | **BarMap: RNA Folding on Dynamic Energy Landscapes**
   | Ivo L. Hofacker, Christoph Flamm, Michael Heine, :ul:`Michael T. Wolfinger`, Gerik Scheuermann, Peter F. Stadler
-  | *RNA* 16:1308–16 (2010) | :doi:`doi:10.1261/rna.2093310 <https://doi.org/10.1261/rna.2093310>`
+  | *RNA* 16:1308–16 (2010) | :doi:`doi:10.1261/rna.2093310 <https://doi.org/10.1261/rna.2093310>` | :link-flat:`PDF <{static}/files/papers/Hofacker-2010.pdf>`
 
 `2008`_
 -------
@@ -211,7 +211,7 @@ Peer-reviewed journal articles and book chapters
 
   | **Folding Kinetics of Large RNAs**
   | Michael Geis, Christoph Flamm, :ul:`Michael T. Wolfinger`, Andrea Tanzer, Ivo L. Hofacker, Martin Middendorf, Christian Mandl, Peter F. Stadler, Caroline Thurner
-  | *J. Mol. Biol.* 379 (1): 160–73 (2008) | :doi:`doi:10.1016/j.jmb.2008.02.064 <https://doi.org/10.1016/j.jmb.2008.02.064>`
+  | *J. Mol. Biol.* 379 (1): 160–73 (2008) | :doi:`doi:10.1016/j.jmb.2008.02.064 <https://doi.org/10.1016/j.jmb.2008.02.064>` | :link-flat:`Preprint PDF <{static}/files/papers/Geis-2008__PREPRINT.pdf>`
 
 `2006`_
 -------
@@ -220,7 +220,7 @@ Peer-reviewed journal articles and book chapters
 
   | **Exploring the Lower Part of Discrete Polymer Model Energy Landscapes**
   | :ul:`Michael T. Wolfinger`, Sebastian Will, Ivo L. Hofacker, Rolf Backofen, Peter F. Stadler
-  | *Europhys. Lett.* 74(4): 726–32 (2006) | :doi:`doi:10.1209/epl/i2005-10577-0 <https://doi.org/10.1209/epl/i2005-10577-0>`
+  | *Europhys. Lett.* 74(4): 726–32 (2006) | :doi:`doi:10.1209/epl/i2005-10577-0 <https://doi.org/10.1209/epl/i2005-10577-0>` | :link-flat:`Preprint PDF <{static}/files/papers/Wolfinger-2006__PREPRINT.pdf>`
 
   | **Visualization of Lattice-Based Protein Folding Simulations**
   | Sebastian Pötzsch, Gerik Scheuermann, Peter F. Stadler, :ul:`Michael T. Wolfinger`, Christoph Flamm
@@ -234,7 +234,7 @@ Peer-reviewed journal articles and book chapters
 
   | **Efficient Computation of RNA Folding Dynamics**
   | :ul:`Michael T. Wolfinger`, W. Andreas Svrcek-Seiler, Christoph Flamm, Ivo L. Hofacker, Peter F. Stadler
-  | *J. Phys. A: Math. Gen.* 37(17): 4731–41 (2004) | :doi:`doi:10.1088/0305-4470/37/17/005 <https://doi.org/10.1088/0305-4470/37/17/005>`
+  | *J. Phys. A: Math. Gen.* 37(17): 4731–41 (2004) | :doi:`doi:10.1088/0305-4470/37/17/005 <https://doi.org/10.1088/0305-4470/37/17/005>` | :link-flat:`PDF <{static}/files/papers/Wolfinger-2004.pdf>`
 
 `2002`_
 -------
@@ -243,7 +243,7 @@ Peer-reviewed journal articles and book chapters
 
   | **Barrier Trees of Degenerate Landscapes**
   | Christoph Flamm, Ivo L. Hofacker, Peter F. Stadler, :ul:`Michael T. Wolfinger`
-  | *Z. Phys. Chem.* 216: 155–73 (2002) | :doi:`doi:10.1524/zpch.2002.216.2.155 <https://doi.org/10.1524/zpch.2002.216.2.155>`
+  | *Z. Phys. Chem.* 216: 155–73 (2002) | :doi:`doi:10.1524/zpch.2002.216.2.155 <https://doi.org/10.1524/zpch.2002.216.2.155>` | :link-flat:`Preprint PDF <{static}/files/papers/Flamm-2002__PRPERINT.pdf>`
 
 
 .. raw:: html
