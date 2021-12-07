@@ -64,6 +64,7 @@ M_LINKS_NAVBAR1 = [('Publications', '/publications', 'publications', [
                         ('Posters', 'publications/posters', 'publications/posters'),
                         ]),
                    ('Teaching', '/teaching', 'teaching', []),
+                   ('Consulting', '/consulting', 'consulting', []),
                    ('Contact', '/contact', 'contact', [])]
 
 #M_LINKS_NAVBAR2 = [('Blog', 'blog/', '[blog]', [
@@ -72,6 +73,7 @@ M_LINKS_NAVBAR1 = [('Publications', '/publications', 'publications', [
 
 M_LINKS_FOOTER1 = [('Home', '/'),
                     ('Teaching', '/teaching'),
+                    ('Consulting', '/consulting'),
                     ('Contact', '/contact')
                         ]
 
