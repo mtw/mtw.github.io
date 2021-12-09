@@ -22,6 +22,11 @@ Preprints
 
 .. container:: preprints
 
+  | **Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Inverted Repeats**
+  | Michael H. D’Souza, Tyler Mrozowich, Maulik D. Badmalia, Mitchell Geeraert, Angela Frederickson, Amy Henrickson, Borries Demeler, :ul:`Michael T. Wolfinger`, and Trushar R. Patel
+  | *bioRxiv* 2021.12.08.471813 | :doi:`doi:10.1101/2021.12.08.471813 <https://doi.org/10.1101/2021.12.08.471813>` | :link-flat:`Preprint PDF <{static}/files/papers/DSouza-2022__PREPRINT.pdf>`
+
+
   | **Insights into the secondary and tertiary structure of the Bovine Viral Diarrhea Virus Internal Ribosome Entry Site**
   | Devadatta Gosavi, Iwona Wower, Irene K Beckmann, Ivo L Hofacker, Jacek Wower, :ul:`Michael T Wolfinger`, Joanna Sztuba-Solinska
   | *bioRxiv* 2021.05.13.444024 | :doi:`doi:10.1101/2021.05.13.444024 <https://doi.org/10.1101/2021.05.13.444024>` | :link-flat:`Preprint PDF <{static}/files/papers/Gosavi-2021__PREPRINT.pdf>`
