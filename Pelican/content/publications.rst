@@ -24,6 +24,7 @@ Preprints
 
   | **Cyclization studies of Japanese encephalitis virus non-coding RNA terminal regions**
   | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Corey Nelson, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
+  | *bioRxiv* 2022.02.01.478553 | :doi:`doi:10.1101/2022.02.01.478553 <https://doi.org/10.1101/2022.02.01.478553>` | :link-flat:`Preprint PDF <{static}/files/papers/Mrozovich-2022__PREPRINT.pdf>`
 
   | **Evolutionary traits of Tick-borne encephalitis virus: Pervasive non-coding RNA structure conservation and molecular epidemiology**
   | Lena S. Kutschera, :ul:`Michael T. Wolfinger`
