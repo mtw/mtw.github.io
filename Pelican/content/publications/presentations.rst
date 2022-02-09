@@ -46,7 +46,7 @@ Selected oral presentations and invited talks
 
 | :link-flat-strong:`Characterization of Flavivirus 5'UTR elements <{static}/files/presentations/2017-02-16-Bled.pdf>`
 | Presented at the :raw-html:`<em>32<sup>nd</sup> TBI Winter Seminar</em>`
-| Bled, Slovenia. 16 February 2017
+| Bled, Slovenia. 16 February 2017 | :doi:`doi:10.13140/RG.2.2.28432.07686 <https://doi.org/10.13140/RG.2.2.28432.07686>`
 
 | :link-flat-strong:`Rewriting the history of Zika sfRNA evolution <{static}/files/presentations/2016-02-17-Ljubljana.pdf>`
 | Presented at the :raw-html:`<em>31<sup>st</sup> TBI Winter Seminar</em>`
@@ -54,11 +54,11 @@ Selected oral presentations and invited talks
 
 | :link-flat-strong:`Building efficient NGS analysis pipelines with ViennaNGS <{static}/files/presentations/2015-02-19-ViennaNGS.pdf>`
 | Workshop held at the :raw-html:`<em>30<sup>th</sup> TBI Winter Seminar</em>`
-| Bled, Slovenia. 19 February 2015
+| Bled, Slovenia. 19 February 2015 | :doi:`doi:10.13140/2.1.3308.3686 <https://doi.org/10.13140/2.1.3308.3686>`
 
 | :link-flat-strong:`RESTful RNA Folding <{static}/files/presentations/2013-02-16-Bled.pdf>`
 | Presented at the :raw-html:`<em>28<sup>th</sup> TBI Winter Seminar</em>`
-| Bled, Slovenia. 16 February 2013
+| Bled, Slovenia. 16 February 2013 | :doi:`doi:10.13140/RG.2.2.35142.96321 <https://doi.org/10.13140/RG.2.2.35142.96321>`
 
 | :strong:`The RNA-REG Genome Browser`
 | Presented at the *RNA-REG Retreat*
