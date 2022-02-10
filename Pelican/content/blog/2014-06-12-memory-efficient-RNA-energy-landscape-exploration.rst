@@ -2,11 +2,11 @@ Memory-efficient-RNA-energy-landscape-exploration
 #################################################
 
 :date: 2014-06-12
-:modified: 2022-02-09
+:modified: 2022-02-11
 :tags: RNA
 :category: publications
-:slug: Memory-efficient-RNA-energy-landscape-exploration.
-:authors: mtw
+:slug: Memory-efficient-RNA-energy-landscape-exploration
+:author: mtw
 :summary: A efficient approach for local flooding of the lower portion of an RNA energy landscape
 
 .. role:: link-flat-strong(link)
@@ -62,4 +62,18 @@ method in *Bioinformatics*.
 
   | :link-flat-strong:`Memory-efficient RNA energy landscape exploration <http://bioinformatics.oxfordjournals.org/content/30/18/2584>`
   | Martin Mann, Marcel Kucharík, Christoph Flamm, Michael T. Wolfinger
-  | *Bioinformatics* 30(18):2584-2591 (2014) | :doi:`doi:10.1093/bioinformatics/btu337 <https://doi.org/10.1093/bioinformatics/btu337>` | :link-flat:`PDF <{static}/files/papers/Mann-2014.pdf>`
+  | *Bioinformatics* 30(18):2584-2591 (2014) | :doi:`doi: 10.1093/bioinformatics/btu337 <https://doi.org/10.1093/bioinformatics/btu337>` | :link-flat:`PDF <{static}/files/papers/Mann-2014.pdf>`
+
+.. block-info:: Citations
+
+  .. container:: m-label
+
+      .. raw:: html
+
+        <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btu337" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+  .. container:: m-label
+
+      .. raw:: html
+
+        <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1093/bioinformatics/btu337"></div>

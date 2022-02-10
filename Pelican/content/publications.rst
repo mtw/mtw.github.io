@@ -50,7 +50,7 @@ Peer-reviewed journal articles and book chapters
 
 .. container:: refs-2021
 
-  | :link-flat-strong:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <{filename}/publications/papers/Functional_RNA_Structures_in_the_3UTR_of_Mosquito-Borne_Flaviviruses.rst>`
+  | :link-flat-strong:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <{filename}blog/2021-09-06-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`
   | :ul:`Michael T. Wolfinger`, Roman Ochsenreiter, Ivo L. Hofacker
   | In *Virus Bioinformatics*, edited by Dmitrij Frishman and Manja Marz, pp65–100. Chapman and Hall/CRC Press (2021) | :doi:`doi:10.1201/9781003097679-5 <https://doi.org/10.1201/9781003097679-5>` | :link-flat:`Preprint PDF <{static}/files/papers/Wolfinger-2021.pdf>`
 
@@ -181,7 +181,7 @@ Peer-reviewed journal articles and book chapters
   | Muralidhar Tata, :ul:`Michael T. Wolfinger`, Fabian Amman, Nicole Roschanski, Andreas Dötsch, Elisabeth Sonnleitner, Susanne Häussler, Udo Bläsi
   | *PLoS ONE* 11 (1): e0147811 (2016) | :doi:`doi:10.1371/journal.pone.0147811 <https://doi.org/10.1371/journal.pone.0147811>` | :link-flat:`PDF <{static}/files/papers/Tata-2016.pdf>`
 
-  | **SHAPE Directed RNA Folding**
+  | :link-flat-strong:`SHAPE Directed RNA Folding <{filename}blog/2015-09-02-SHAPE-directed-RNA-folding.rst>`
   | Ronny Lorenz, Dominik Luntzer, Ivo L. Hofacker, Peter F. Stadler, :ul:`Michael T. Wolfinger`
   | *Bioinformatics* 32: 145–47 (2016) | :doi:`doi:10.1093/bioinformatics/btv523 <https://doi.org/10.1093/bioinformatics/btv523>` | :link-flat:`PDF <{static}/files/papers/Lorenz-2016a.pdf>`
 
@@ -190,11 +190,11 @@ Peer-reviewed journal articles and book chapters
 
 .. container:: refs-2015
 
-  | **General and miRNA-Mediated mRNA Degradation Occurs on Ribosome Complexes in Drosophila Cells**
+  | :link-flat-strong:`General and miRNA-Mediated mRNA Degradation Occurs on Ribosome Complexes in Drosophila Cells <{filename}blog/2015-08-12-general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells.rst>`
   | Sanja Antic, :ul:`Michael T. Wolfinger`, Anna Skucha, Stefanie Hosiner, Silke Dorner
   | *Mol. Cell. Biol.* MCB–01346 (2015) | :doi:`doi:10.1128/MCB.01346-14 <https://doi.org/10.1128/MCB.01346-14>` | :link-flat:`PDF <{static}/files/papers/Antic-2015.pdf>`
 
-  | **ViennaNGS: A Toolbox for Building Efficient Next-Generation Sequencing Analysis Pipelines**
+  | :link-flat-strong:`ViennaNGS: A Toolbox for Building Efficient Next-Generation Sequencing Analysis Pipelines <{filename}blog/2015-03-02-viennangs-a-toolbox-for-building-efficient-next-generation-sequencing-analysis-pipelines.rst>`
   | :ul:`Michael T. Wolfinger`, Jörg Fallmann, Florian Eggenhofer, Fabian Amman
   | *F1000Research* 4:50 (2015) | :doi:`doi:10.12688/f1000research.6157.2 <https://doi.org/10.12688/f1000research.6157.2>` | :link-flat:`PDF <{static}/files/papers/Wolfinger-2015.pdf>`
 
@@ -203,11 +203,11 @@ Peer-reviewed journal articles and book chapters
 
 .. container:: refs-2014
 
-  | **Memory Efficient RNA Energy Landscape Exploration**
+  | :link-flat-strong:`Memory Efficient RNA Energy Landscape Exploration <{filename}blog/2014-06-12-memory-efficient-RNA-energy-landscape-exploration.rst>`
   | Martin Mann, Marcel Kucharík, Christoph Flamm, :ul:`Michael T. Wolfinger`
   | *Bioinformatics* 30: 2584–91 (2014) | :doi:`doi:10.1093/bioinformatics/btu337 <https://doi.org/10.1093/bioinformatics/btu337>` | :link-flat:`PDF <{static}/files/papers/Mann-2014.pdf>`
 
-  | **TSSAR: TSS Annotation Regime for dRNA-Seq Data**
+  | :link-flat-strong:`TSSAR: TSS Annotation Regime for dRNA-Seq Data <{filename}blog/2014-04-13-tssar-tss-annotation-regime-for-drna-seq-data.rst>`
   | Fabian Amman, :ul:`Michael T. Wolfinger`, Ronny. Lorenz, Ivo L. Hofacker, Peter F. Stadler, Sven Findeiß
   | *BMC Bioinformatics* 15 (1) (2014) | :doi:`doi:10.1186/1471-2105-15-89 <https://doi.org/10.1186/1471-2105-15-89>` | :link-flat:`PDF <{static}/files/papers/Amman-2014.pdf>`
 

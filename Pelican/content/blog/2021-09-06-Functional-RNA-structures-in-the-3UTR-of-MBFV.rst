@@ -29,12 +29,6 @@ Mechanistically, these are regulated by evolutionarily conserved RNA elements in
 
 To get a better picture and understanding of RNA structure conservation in MBFVs, we report in this book chapter the results of a comparative genomics screen in the 3'UTR of all known Mosquito-Borne Flaviviruses.
 
-..
-  .. figure:: {static}/files/papers/Figures/Wolfinger-2021/USUV3UTR.png
-    :alt: Usutu virus annotated 3'UTR
-
-    3’UTR organization of mosquito-borne flaviviruses, exemplarily shown for Usutu virus, a member of the Japanese encephalitis group. The three structurally and functionally independent domains contain duplicated stem-loop (SL) and dumbbell (DB) elements as well as a terminal 3’stem-loop (3’SL) structure.
-
 
 .. block-default:: Abstract
 
@@ -44,4 +38,18 @@ To get a better picture and understanding of RNA structure conservation in MBFVs
 
   | :link-flat-strong:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <https://www.taylorfrancis.com/chapters/edit/10.1201/9781003097679-5/functional-rna-structures-3%E2%80%B2-utr-mosquito-borne-flaviviruses-michael-wolfinger-roman-ochsenreiter-ivo-hofacker>`
   | Michael T. Wolfinger, Roman Ochsenreiter, Ivo L. Hofacker
-  | In *Virus Bioinformatics*, edited by Dmitrij Frishman and Manja Marz, pp65–100. Chapman and Hall/CRC Press (2021) | :doi:`doi:10.1201/9781003097679-5 <https://doi.org/10.1201/9781003097679-5>` | :link-flat:`PDF <{static}/files/papers/Wolfinger-2021.pdf>`
+  | In *Virus Bioinformatics*, edited by Dmitrij Frishman and Manja Marz, pp65–100. Chapman and Hall/CRC Press (2021) | :doi:`doi: 10.1201/9781003097679-5 <https://doi.org/10.1201/9781003097679-5>` | :link-flat:`PDF <{static}/files/papers/Wolfinger-2021.pdf>`
+
+.. block-info:: Citations
+
+    .. container:: m-label
+
+      .. raw:: html
+
+        <span class="__dimensions_badge_embed__" data-doi="10.1201/9781003097679-5" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+    .. container:: m-label
+
+      .. raw:: html
+
+        <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1201/9781003097679-5"></div>
