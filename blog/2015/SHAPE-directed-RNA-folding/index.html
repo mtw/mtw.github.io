@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8" />
+  <title>SHAPE directed RNA folding | michaelwolfinger.com</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300;400|Source+Code+Pro:200:300,400|Source+Sans+Pro:300,400" />
+  <link rel="stylesheet" href="https://michaelwolfinger.com/static/m-light.compiled.css" />
+  <link rel="stylesheet" href="https://michaelwolfinger.com/static/academicons.min.css" />
+  <link rel="stylesheet" href="https://michaelwolfinger.com/static/m-mtw.css" />
+  <link rel="canonical" href="https://michaelwolfinger.com/blog/2015/SHAPE-directed-RNA-folding/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#EAEAEA" />
+  <meta name="twitter:site" content="@mtwolfinger" />
+  <meta name="twitter:site:id" content="15105886" />
+  <meta property="og:site_name" content="michaelwolfinger.com" />
+  <meta property="og:title" content="SHAPE directed RNA folding" />
+  <meta name="twitter:title" content="SHAPE directed RNA folding" />
+  <meta property="og:url" content="https://michaelwolfinger.com/blog/2015/SHAPE-directed-RNA-folding/" />
+  <meta property="og:description" content="Three approaches for SHAPE-guided RNA structur predcition with ViennaRNA" />
+  <meta name="twitter:description" content="Three approaches for SHAPE-guided RNA structur predcition with ViennaRNA" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:type" content="article" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2RW3VW55N"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T2RW3VW55N');
+  </script>
+</head>
+<body>
+<header><nav id="navigation">
+  <div class="m-container">
+    <div class="m-row">
+      <a href="../../../" id="m-navbar-brand" class="m-col-t-9 m-col-m-none m-left-m">Michael T. Wolfinger</a>
+      <a id="m-navbar-show" href="#navigation" title="Show navigation" class="m-col-t-3 m-hide-m m-text-right"></a>
+      <a id="m-navbar-hide" href="#" title="Hide navigation" class="m-col-t-3 m-hide-m m-text-right"></a>
+      <div id="m-navbar-collapse" class="m-col-t-12 m-show-m m-col-m-none m-right-m">
+        <div class="m-row">
+          <ol class="m-col-t-12 m-col-m-none">
+            <li>
+              <a href="https://michaelwolfinger.com/publications">Publications</a>
+              <ol>
+                <li><a href="https://michaelwolfinger.com/publications">Papers</a></li>
+                <li><a href="https://michaelwolfinger.com/publications/presentations">Presentations</a></li>
+                <li><a href="https://michaelwolfinger.com/publications/posters">Posters</a></li>
+              </ol>
+            </li>
+            <li><a href="https://michaelwolfinger.com/teaching">Teaching</a></li>
+            <li><a href="https://michaelwolfinger.com/consulting">Consulting</a></li>
+            <li><a href="https://michaelwolfinger.com/blog/" id="m-navbar-current">Blog</a></li>
+            <li><a href="https://michaelwolfinger.com/contact">Contact</a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav></header>
+<main>
+<div class="m-container">
+  <div class="m-row">
+    <article class="m-col-m-10 m-nopadb">
+      <header>
+        <h1><a href="https://michaelwolfinger.com/blog/2015/SHAPE-directed-RNA-folding/" rel="bookmark" title="Permalink to SHAPE directed RNA folding">
+          <time class="m-date" datetime="2015-09-02T00:00:00+02:00">
+            Sep <span class="m-date-day">02</span> 2015
+          </time>
+          SHAPE directed RNA folding
+        </a></h1>
+        <p>Three approaches for SHAPE-guided RNA structur predcition with ViennaRNA</p>
+      </header>
+      <div class="m-clearfix-l"></div>
+<!-- content -->
+<p>With the advent of efficient strategies for experimental RNA structure
+validation, especially combination of chemical probing with next-generation
+sequencing technologies, came demand to couple experimental data,
+e.g. SHAPE reactivities, with <em>in silico</em> RNA structure prediction tools. In
+this line, the computational structure prediction is guided by <em>in vitro</em> or
+even <em>in vivo</em> probing data.</p>
+<p>We have recently implemented three previously published methods for
+incorporation of SHAPE probing data into the <em>ViennaRNA Package</em> and
+benchmarked prediction results with a set of RNAs with known reference
+structures.</p>
+<p>Don't miss the <a href="http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523/suppl/DC1">Supplementary Data</a>
+since it contains extensive coverage of the applied benchmark strategies
+and lots of background information.</p>
+<aside class="m-block m-default">
+<h3>Abstract</h3>
+<p><strong>Summary:</strong> Chemical mapping experiments allow for nucleotide resolution
+assessment of RNA structure. We demonstrate that different strategies of
+integrating probing data with thermodynamics-based RNA secondary
+structure prediction algorithms can be implemented by means of soft
+constraints. This amounts to incorporating suitable pseudo-energies into
+the standard energy model for RNA secondary structures. As a showcase
+application for this new feature of the ViennaRNA Package we compare
+three distinct, previously published strategies to utilize SHAPE
+reactivities for structure prediction. The new tool is benchmarked on a
+set of RNAs with known reference structure.</p>
+<p><strong>Availability and implementation:</strong> The capability for SHAPE directed RNA
+folding is part of the upcoming release of the ViennaRNA Package 2.2, for
+which a preliminary release is already freely available at
+&lt;<a class="m-link-wrap" href="http://www.tbi.univie.ac.at/RNA">http://www.tbi.univie.ac.at/RNA</a>&gt;.</p>
+</aside>
+<aside class="m-block m-info">
+<h3>Reference</h3>
+<p>
+<a class="m-flat m-text m-strong" href="http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523.abstract">SHAPE directed RNA folding</a><br />
+Ronny Lorenz, Dominik Luntzer, Ivo L. Hofacker, Peter F. Stadler, Michael T. Wolfinger<br />
+<em>Bioinformatics</em> 32: 145–47 (2016) | <a class="doi" href="https://doi.org/10.1093/bioinformatics/btv523">doi:10.1093/bioinformatics/btv523</a> | <a class="m-flat m-text" href="../../../files/papers/Lorenz-2016a.pdf">PDF</a><br />
+</p>
+</aside>
+<!-- /content -->
+      <footer>
+        <p>Posted by <a href="https://michaelwolfinger.com/blog/author/mtw/">mtw</a> on <time datetime="2015-09-02T00:00:00+02:00">Wed 02 September 2015</time> in <a href="https://michaelwolfinger.com/blog/category/publications/">publications</a>. <span class="m-label m-success">updated <time datetime="2022-02-07T00:00:00+01:00">Mon 07 February 2022</time></span> Tags: <a href="https://michaelwolfinger.com/blog/tag/viennarna.html">ViennaRNA</a>, <a href="https://michaelwolfinger.com/blog/tag/rna.html">RNA</a>.</p>
+      </footer>
+    </article>
+    <nav class="m-navpanel m-col-m-2">
+      <h3>Categories</h3>
+      <ol class="m-block-bar-m">
+        <li><a href="https://michaelwolfinger.com/blog/category/howto/">HOWTO</a></li>
+        <li><a href="https://michaelwolfinger.com/blog/category/publications/">publications</a></li>
+      </ol>
+      <h3>Tag cloud</h3>
+      <ul class="m-tagcloud">
+        <li class="m-tag-4"><a href="https://michaelwolfinger.com/blog/tag/ngs.html">NGS</a></li>
+        <li class="m-tag-5"><a href="https://michaelwolfinger.com/blog/tag/rna.html">RNA</a></li>
+        <li class="m-tag-2"><a href="https://michaelwolfinger.com/blog/tag/viennarna.html">ViennaRNA</a></li>
+        <li class="m-tag-2"><a href="https://michaelwolfinger.com/blog/tag/viruses.html">viruses</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+</main>
+<footer><nav>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-s-3 m-col-t-6">
+        <h3><a href="https://michaelwolfinger.com/">Home</a></h3>
+        <ul>
+          <li><a href="https://michaelwolfinger.com/teaching">Teaching</a></li>
+          <li><a href="https://michaelwolfinger.com/consulting">Consulting</a></li>
+          <li><a href="https://michaelwolfinger.com/blog">Blog</a></li>
+          <li><a href="https://michaelwolfinger.com/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="m-col-s-3 m-col-t-6">
+        <h3><a href="https://michaelwolfinger.com/publications">Publications</a></h3>
+        <ul>
+          <li><a href="https://michaelwolfinger.com/publications/presentations">Presentations</a></li>
+          <li><a href="https://michaelwolfinger.com/publications/posters">Posters</a></li>
+        </ul>
+      </div>
+      <div class="m-clearfix-t"></div>
+      <div class="m-col-s-3 m-col-t-6">
+        <h3>My Profiles</h3>
+        <ul>
+          <li><a href="https://scholar.google.at/citations?user=w0PHGnEAAAAJ&amp;hl=en">Google Scholar</a></li>
+          <li><a href="https://publons.com/researcher/2466680/michael-thomas-wolfinger/">Publons</a></li>
+          <li><a href="https://github.com/mtw">GitHub</a></li>
+          <li><a href="https://orcid.org/0000-0003-0925-5205">ORCID</a></li>
+        </ul>
+      </div>
+      <div class="m-col-s-3 m-col-t-6">
+        <h3>Social</h3>
+        <ul>
+          <li><a href="https://www.researchgate.net/profile/Michael-Wolfinger">ResearchGate</a></li>
+          <li><a href="https://twitter.com/mtwolfinger">Twitter</a></li>
+          <li><a href="https://www.linkedin.com/in/michaelwolfinger/">Linkedin</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <p>
+        michaelwolfinger.com - Copyright © Michael T. Wolfinger, 2021-2022<br />
+        Site powered by <a href="https://getpelican.com">Pelican</a> and m.css. Code and content is <a href="https://github.com/mtw/mtw.github.io">available on GitHub</a>.<br />
+        </p>
+      </div>
+    </div>
+  </div>
+</nav></footer>
+</body>
+</html>
