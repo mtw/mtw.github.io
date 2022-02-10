@@ -7,7 +7,7 @@ Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses
 :category: publications
 :slug: Functional-RNA-Structures-in-the-3UTR-of-Mosquito-Borne-Flaviviruses
 :authors: mtw
-:summary: You might have heard of Zika virus, Dengue virus, West Nile virus, or Japanese encephalitis virus.
+:summary: You might have heard of Zika virus, Dengue virus, West Nile virus, or Japanese encephalitis virus
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
