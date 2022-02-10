@@ -15,9 +15,17 @@ Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses
 .. role:: doi(link)
   :class: doi
 
+Abstract
+========
+Recent experimental evidence revealed a thorough understanding of the involvement of functional RNA elements in the 3’ untranslated regions (UTRs) of flaviviruses with virus tropism. Comparative genomics and thermodynamic modelling allow for the prediction and functional characterization of homologous structures in phylogenetically related viruses. We provide here a comprehensive overview of evolutionarily conserved RNAs in the 3’UTRs of mosquito-borne flaviviruses.
+
+
+
 .. container:: m-row
 
    .. container:: m-col-l-9 m-col-m-9 m-container-inflatable
+
+     .. block-info:: Reference
 
         :ul:`Michael T. Wolfinger`, Roman Ochsenreiter, Ivo L. Hofacker
 
@@ -39,7 +47,6 @@ Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses
 
             ..   <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1201/9781003097679-5"></div>
 
+.. button-info:: ../../../blog/2021/Functional-RNA-Structures-in-the-3UTR-of-Mosquito-Borne-Flaviviruses/
 
-Abstract
-========
-Recent experimental evidence revealed a thorough understanding of the involvement of functional RNA elements in the 3’ untranslated regions (UTRs) of flaviviruses with virus tropism. Comparative genomics and thermodynamic modelling allow for the prediction and functional characterization of homologous structures in phylogenetically related viruses. We provide here a comprehensive overview of evolutionarily conserved RNAs in the 3’UTRs of mosquito-borne flaviviruses.
+  See blog post for this article
