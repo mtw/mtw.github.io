@@ -8,6 +8,8 @@ SITEURL = ''
 STATIC_URL = '{path}'
 
 PATH = 'content'
+ARTICLE_PATHS = ['blog']
+ARTICLE_EXCLUDES = ['blog/authors','blog/category','blog/tags']
 PAGE_PATHS = ['']
 
 TIMEZONE = 'Europe/Vienna'
@@ -17,13 +19,9 @@ DEFAULT_LANG = 'en'
 
 THEME = 'pelican-theme'
 THEME_STATIC_DIR = 'static'
-DIRECT_TEMPLATES = ['index']
+DIRECT_TEMPLATES = ['index', 'archives']
 
 FORMATTED_FIELDS = ['summary', 'landing', 'header', 'footer', 'description', 'badge']
-
-#M_CSS_FILES = ['https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600',
-#               '/static/m-dark.css']
-#M_THEME_COLOR = '#22272e'
 
 M_CSS_FILES = ['https://fonts.googleapis.com/css?family=Roboto:300;400|Source+Code+Pro:200:300,400|Source+Sans+Pro:300,400',
                'static/m-light.compiled.css',
@@ -49,7 +47,7 @@ SITEMAP = {
         "indexes": "always",
         "pages": "always"
     },
-    "exclude": ["tags/", "archives/", "authors/", "categories/", "index"]
+    "exclude": ["tags/", "archives/", "authors/", "category/", "index"]
 }
 
 GITHUB_URL = "https://github.com/mtw/mtw.github.io"
@@ -65,15 +63,15 @@ M_LINKS_NAVBAR1 = [('Publications', '/publications', 'publications', [
                         ]),
                    ('Teaching', '/teaching', 'teaching', []),
                    ('Consulting', '/consulting', 'consulting', []),
+                   ('Blog', 'blog/', '[blog]',[]),
                    ('Contact', '/contact', 'contact', [])]
 
-#M_LINKS_NAVBAR2 = [('Blog', 'blog/', '[blog]', [
-#                        ('News', 'blog/news/', ''),
-#                        ('Archive', 'blog/archive/', '')]),
+#M_LINKS_NAVBAR2 = [('Blog', 'blog/', '[blog]',[])]
 
 M_LINKS_FOOTER1 = [('Home', '/'),
                     ('Teaching', '/teaching'),
                     ('Consulting', '/consulting'),
+                    ('Blog', '/blog'),
                     ('Contact', '/contact')
                         ]
 
@@ -96,9 +94,8 @@ M_LINKS_FOOTER4 = [('Social', ''),
                     ]
 
 M_FINE_PRINT =  """
-| michaelwolfinger.com. Copyright © Michael T. Wolfinger, 2021. Site
-  powered by `Pelican <https://getpelican.com>`_ and m.css.
-| Code and content is `available on GitHub <https://github.com/mtw/mtw.github.io>`_.
+| michaelwolfinger.com - Copyright © Michael T. Wolfinger, 2021-2022
+| Site powered by `Pelican <https://getpelican.com>`_ and m.css. Code and content is `available on GitHub <https://github.com/mtw/mtw.github.io>`_.
 """
 
 STATIC_PATHS = ['static', 'extra/CNAME', 'extra/robots.txt']
@@ -109,27 +106,8 @@ EXTRA_PATH_METADATA = {
                         }
 
 DISPLAY_PAGES_ON_MENU = True
-SLUGIFY_SOURCE = 'basename'
 
 #DIRECT_TEMPLATES = ['archives']
-
-PAGE_URL = '{slug}/'
-PAGE_SAVE_AS = '{slug}/index.html'
-#ARCHIVES_URL = 'examples/'
-#ARCHIVES_SAVE_AS = 'examples/index.html'
-ARTICLE_URL = '{slug}/' # category is part of the slug (i.e., examples)
-#ARTICLE_SAVE_AS = '{slug}/index.html'
-#AUTHOR_URL = 'author/{slug}/'
-#AUTHOR_SAVE_AS = 'author/{slug}/index.html'
-#CATEGORY_URL = 'category/{slug}/'
-#CATEGORY_SAVE_AS = 'category/{slug}/index.html'
-TAG_URL = ''
-TAG_SAVE_AS = ''
-
-AUTHORS_SAVE_AS = '' # Not used
-CATEGORIES_SAVE_AS = '' # Not used
-TAGS_SAVE_AS = '' # Not used
-
 
 PATH_METADATA = '(?P<slug>.+).rst'
 
@@ -148,10 +126,33 @@ AUTHOR_FEED_RSS = None
 TWITTER_USERNAME = 'mtwolfinger'
 
 M_BLOG_NAME = "michaelwolfinger.com"
-M_BLOG_URL = 'https://michaelwolfinger.com/'
+M_BLOG_URL = 'https://michaelwolfinger.com/blog'
 M_BLOG_DESCRIPTION = "michaelwolfinger.com | virus bioinformatics"
 
 M_SOCIAL_TWITTER_SITE = '@mtwolfinger'
 M_SOCIAL_TWITTER_SITE_ID = 15105886
 #M_SOCIAL_IMAGE = 'https://your.brand/static/site.png'
 M_SOCIAL_BLOG_SUMMARY = "Stuff that matters in virus bioinformatics"
+
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
+ARCHIVES_URL = 'blog/archive/'
+ARCHIVES_SAVE_AS = 'blog/archive/index.html'
+ARTICLE_URL = 'blog/{date:%Y}/{slug}/'
+ARTICLE_SAVE_AS = 'blog/{date:%Y}/{slug}/index.html'
+AUTHOR_URL = 'blog/author/{slug}/'
+AUTHOR_SAVE_AS = 'blog/author/{slug}/index.html'
+CATEGORY_URL = 'blog/category/{slug}/'
+CATEGORY_SAVE_AS = 'blog/category/{slug}/index.html'
+TAG_URL = 'blog/tag/{slug}.html'
+TAG_SAVE_AS = 'blog/tag/{slug}.html'
+INDEX_SAVE_AS = 'blog/index.html'
+
+AUTHORS_SAVE_AS = None # Not used
+CATEGORIES_SAVE_AS = None # Not used
+TAGS_SAVE_AS = None # Not used
+
+SLUGIFY_SOURCE = 'basename'
+PATH_METADATA = '(?P<slug>.+).rst'
+
+DEFAULT_PAGINATION = 5
