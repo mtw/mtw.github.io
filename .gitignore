@@ -1,6 +1,6 @@
 **/.DS_Store
 Pelican/content/output/**
-Pelican/__pycache__/**
+**/__pycache__/
 Pelican/output/**
 archives/*
 authors/*
