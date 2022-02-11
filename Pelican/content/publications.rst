@@ -22,7 +22,7 @@ Preprints
 
 .. container:: preprints
 
-  | **Cyclization studies of Japanese encephalitis virus non-coding RNA terminal regions**
+  | :link-flat-strong:`Cyclization studies of Japanese encephalitis virus non-coding RNA terminal regions <{filename}blog/2022-02-03-Cyclization-studies-of-Japanese-encephalitis-virus-non-coding-RNA-terminal-regions.rst>`
   | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Corey Nelson, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
   | *bioRxiv* 2022.02.01.478553 | :doi:`doi:10.1101/2022.02.01.478553 <https://doi.org/10.1101/2022.02.01.478553>` | :link-flat:`Preprint PDF <{static}/files/papers/Mrozovich-2022__PREPRINT.pdf>`
 
