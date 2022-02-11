@@ -3,10 +3,10 @@ How to compute normalized RNA-seq expression from multicov files
 
 :date: 2014-04-15
 :modified: 2022-02-09
-:tags: ngs
+:tags: NGS
 :category: HOWTO
 :slug: How-to-compute-normalized-RNA-seq-expression-from-multicov-files
-:authors: mtw
+:author: mtw
 :summary: Why you should use TPM rather than RPKM
 
 .. role:: link-flat-strong(link)

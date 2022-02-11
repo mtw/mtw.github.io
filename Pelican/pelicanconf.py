@@ -98,10 +98,11 @@ M_FINE_PRINT =  """
 | Site powered by `Pelican <https://getpelican.com>`_ and m.css. Code and content is `available on GitHub <https://github.com/mtw/mtw.github.io>`_.
 """
 
-STATIC_PATHS = ['static', 'extra/CNAME', 'extra/robots.txt']
+STATIC_PATHS = ['static', 'extra/CNAME', 'extra/robots.txt', 'extra/favicon.ico']
 EXTRA_PATH_METADATA = {
                         'extra/CNAME': {'path': 'CNAME'},
                         'extra/robots.txt': {'path': 'robots.txt'},
+                        'extra/favicon.ico': {'path': 'favicon.ico'},
                         'static/academicons.min.css': {'path': 'static/academicons.min.css'}
                         }
 

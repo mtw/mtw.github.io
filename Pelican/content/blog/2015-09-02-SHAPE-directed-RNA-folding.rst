@@ -3,10 +3,10 @@ SHAPE directed RNA folding
 
 :date: 2015-09-02
 :modified: 2022-02-07
-:tags: ViennaRNA; RNA;
+:tags: ViennaRNA; SHAPE
 :category: publications
 :slug: SHAPE-directed-RNA-folding
-:authors: mtw
+:author: mtw
 :summary: Three approaches for SHAPE-guided RNA structur predcition with ViennaRNA
 
 .. role:: link-flat-strong(link)

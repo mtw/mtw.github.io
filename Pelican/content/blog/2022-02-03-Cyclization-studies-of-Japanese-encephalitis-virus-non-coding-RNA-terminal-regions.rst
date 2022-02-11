@@ -3,10 +3,10 @@ Cyclization studies of Japanese encephalitis virus non-coding RNA terminal regio
 
 :date: 2022-02-03
 :modified: 2022-02-11
-:tags: RNA; viruses
+:tags: viruses
 :category: publications
 :slug: Cyclization-studies-of-Japanese-encephalitis-virus-non-coding-RNA-terminal-regions
-:authors: mtw
+:author: mtw
 :summary: Japanese encephalitis virus genome cyclization is kinetically driven (PREPRINT)
 
 .. role:: link-flat-strong(link)
