@@ -26,19 +26,19 @@ Preprints
   | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Corey Nelson, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
   | *bioRxiv* 2022.02.01.478553 | :doi:`doi:10.1101/2022.02.01.478553 <https://doi.org/10.1101/2022.02.01.478553>` | :link-flat:`Preprint PDF <{static}/files/papers/Mrozovich-2022__PREPRINT.pdf>`
 
-  | **Evolutionary traits of Tick-borne encephalitis virus: Pervasive non-coding RNA structure conservation and molecular epidemiology**
+  | :link-flat-strong:`Evolutionary traits of Tick-borne encephalitis virus: Pervasive non-coding RNA structure conservation and molecular epidemiology <{filename}blog/2021-12-17-Evolutionary-traits-of-Tick-borne-encephalitis-virus-Pervasive-non-coding-RNA-structure-conservation-and-molecular-epidemiology.rst>`
   | Lena S. Kutschera, :ul:`Michael T. Wolfinger`
   | *bioRxiv* 2021.12.16.473019 | :doi:`doi:10.1101/2021.12.16.473019 <https://doi.org/10.1101/2021.12.16.473019>` | :link-flat:`Preprint PDF <{static}/files/papers/Kutschera-2022__PREPRINT.pdf>`
 
-  | **Caveats to deep learning approaches to RNA secondary structure prediction**
-  | Christoph Flamm , Julia Wielach, :ul:`Michael T. Wolfinger` , Stefan Badelt , Ivo L. Hofacker
+  | :link-flat-strong:`Caveats to deep learning approaches to RNA secondary structure prediction <{filename}blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>`
+  | Christoph Flamm, Julia Wielach, :ul:`Michael T. Wolfinger`, Stefan Badelt, Ivo L. Hofacker
   | *bioRxiv* 2021.12.14.472648 | :doi:`doi:10.1101/2021.12.14.472648 <https://doi.org/10.1101/2021.12.14.472648>` | :link-flat:`Preprint PDF <{static}/files/papers/Flamm-2022__PREPRINT.pdf>`
 
-  | **Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Inverted Repeats**
+  | :link-flat-strong:`Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Inverted Repeats <{filename}blog/2022-01-20-Biophysical-Characterisation-of-Human-LincRNA-p21-Sense-and-Antisense-Alu-Inverted-Repeats.rst>`
   | Michael H. D’Souza, Tyler Mrozowich, Maulik D. Badmalia, Mitchell Geeraert, Angela Frederickson, Amy Henrickson, Borries Demeler, :ul:`Michael T. Wolfinger`, and Trushar R. Patel
   | *bioRxiv* 2021.12.08.471813 | :doi:`doi:10.1101/2021.12.08.471813 <https://doi.org/10.1101/2021.12.08.471813>` | :link-flat:`Preprint PDF <{static}/files/papers/DSouza-2022__PREPRINT.pdf>`
 
-  | **Insights into the secondary and tertiary structure of the Bovine Viral Diarrhea Virus Internal Ribosome Entry Site**
+  | :link-flat-strong:`Insights into the secondary and tertiary structure of the Bovine Viral Diarrhea Virus Internal Ribosome Entry Site <{filename}blog/2021-05-15-Insights-into-the-secondary-and-tertiary-structure-of-the-Bovine-Viral-Diarrhea-Virus-Internal-Ribosome-Entry-Site.rst>`
   | Devadatta Gosavi, Iwona Wower, Irene K Beckmann, Ivo L Hofacker, Jacek Wower, :ul:`Michael T Wolfinger`, Joanna Sztuba-Solinska
   | *bioRxiv* 2021.05.13.444024 | :doi:`doi:10.1101/2021.05.13.444024 <https://doi.org/10.1101/2021.05.13.444024>` | :link-flat:`Preprint PDF <{static}/files/papers/Gosavi-2021__PREPRINT.pdf>`
 
