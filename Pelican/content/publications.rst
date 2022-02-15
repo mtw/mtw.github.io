@@ -123,7 +123,7 @@ Peer-reviewed journal articles and book chapters
   | Maria Waldl, Bernhard C. Thiel, Roman Ochsenreiter, Alexander Holzenleiter, João Victor de Araujo Oliveira, Maria Emília M.T. Walter, :ul:`Michael T. Wolfinger`, Peter F. Stadler
   | *Genes* 9 (8), 372 (2018) | :doi:`doi:10.3390/genes9080372 <https://doi.org/10.3390/genes9080372>` | :link-flat:`PDF <{static}/files/papers/Waldl-2018.pdf>`
 
-  | **Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics**
+  | :link-flat-strong:`Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics <{filename}blog/2018-07-01-Efficient_Computation_of_Cotranscriptional_RNA-Ligand_Interaction_Dynamics.rst>`
   | :ul:`Michael T. Wolfinger`, Christoph Flamm, Ivo L. Hofacker
   | *Methods* 143:70–76 (2018) | :doi:`doi:10.1016/j.ymeth.2018.04.036 <https://doi.org/10.1016/j.ymeth.2018.04.036>` | :link-flat:`Preprint PDF <{static}/files/papers/Wolfinger-2018__PREPRINT.pdf>`
 

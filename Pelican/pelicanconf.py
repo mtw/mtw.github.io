@@ -33,6 +33,7 @@ PLUGIN_PATHS = ['plugins']
 PLUGINS = ['m.htmlsanity',
            'm.components',
            'm.link',
+           'm.pelican_redirect',
            'sitemap']
 
 SITEMAP = {
@@ -137,6 +138,7 @@ M_SOCIAL_BLOG_SUMMARY = "Stuff that matters in virus bioinformatics"
 
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
+REDIRECT_SAVE_AS = PAGE_SAVE_AS
 ARCHIVES_URL = 'blog/archive/'
 ARCHIVES_SAVE_AS = 'blog/archive/index.html'
 ARTICLE_URL = 'blog/{date:%Y}/{slug}/'
