@@ -19,7 +19,7 @@ DEFAULT_LANG = 'en'
 
 THEME = 'pelican-theme'
 THEME_STATIC_DIR = 'static'
-DIRECT_TEMPLATES = ['index', 'archives']
+DIRECT_TEMPLATES = ['index']
 
 FORMATTED_FIELDS = ['summary', 'landing', 'header', 'footer', 'description', 'badge']
 
@@ -48,7 +48,7 @@ SITEMAP = {
         "indexes": "always",
         "pages": "always"
     },
-    "exclude": ["tags/", "archives/", "authors/", "category/", "index"]
+    "exclude": ["blog/tags/", "blog/archives/", "blog/authors/", "blog/categories/", "index"]
 }
 
 GITHUB_URL = "https://github.com/mtw/mtw.github.io"
@@ -109,8 +109,6 @@ EXTRA_PATH_METADATA = {
 
 DISPLAY_PAGES_ON_MENU = True
 
-#DIRECT_TEMPLATES = ['archives']
-
 PATH_METADATA = '(?P<slug>.+).rst'
 
 #M_HTML_HEADER = '<link rel="stylesheet" href="extra/css/extra.css"'
@@ -144,16 +142,23 @@ ARCHIVES_SAVE_AS = 'blog/archive/index.html'
 ARTICLE_URL = 'blog/{date:%Y}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{slug}/index.html'
 AUTHOR_URL = 'blog/author/{slug}/'
-AUTHOR_SAVE_AS = 'blog/author/{slug}/index.html'
+#AUTHOR_SAVE_AS = 'blog/author/{slug}/index.html'
+AUTHOR_SAVE_AS = ''
 CATEGORY_URL = 'blog/category/{slug}/'
 CATEGORY_SAVE_AS = 'blog/category/{slug}/index.html'
-TAG_URL = 'blog/tag/{slug}.html'
+#CATEGORY_SAVE_AS = ''
+TAG_URL = 'blog/tag/{slug}/'
 TAG_SAVE_AS = 'blog/tag/{slug}.html'
+#TAG_SAVE_AS = ''
 INDEX_SAVE_AS = 'blog/index.html'
 
-AUTHORS_SAVE_AS = None # Not used
-CATEGORIES_SAVE_AS = None # Not used
-TAGS_SAVE_AS = None # Not used
+AUTHORS_SAVE_AS = ''
+CATEGORIES_SAVE_AS = ''
+TAGS_SAVE_AS = ''
+
+YEAR_ARCHIVE_URL = 'blog/{date:%Y}/{slug}/'
+#YEAR_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/index.html'
+YEAR_ARCHIVE_SAVE_AS = ''
 
 SLUGIFY_SOURCE = 'basename'
 PATH_METADATA = '(?P<slug>.+).rst'
