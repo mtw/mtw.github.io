@@ -5,6 +5,7 @@ Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics
 :modified: 2022-02-15
 :tags: energy landscapes; RNA kinetics
 :category: publications
+:slug: Efficient-Computation-of-Cotranscriptional-RNA-Ligand-Interaction-Dynamics
 :author: mtw
 :summary: Co-transcriptional RNA-ligand interaction dynamics are simulated for riboswitches under kinetic control
 
