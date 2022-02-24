@@ -148,7 +148,7 @@ CATEGORY_URL = 'blog/category/{slug}/'
 CATEGORY_SAVE_AS = 'blog/category/{slug}/index.html'
 #CATEGORY_SAVE_AS = ''
 TAG_URL = 'blog/tag/{slug}/'
-TAG_SAVE_AS = 'blog/tag/{slug}.html'
+TAG_SAVE_AS = 'blog/tag/{slug}/index.html'
 #TAG_SAVE_AS = ''
 INDEX_SAVE_AS = 'blog/index.html'
 
