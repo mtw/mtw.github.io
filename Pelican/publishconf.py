@@ -18,6 +18,8 @@ M_CSS_FILES = ['https://fonts.googleapis.com/css?family=Roboto:300;400|Source+Co
                'static/academicons.min.css',
                'static/m-mtw.css']
 
+FEED_DOMAIN = SITEURL
+FEED_ATOM = 'feeds/all.atom.xml'
 #FEED_ALL_ATOM = 'feeds/all.atom.xml'
 #CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
