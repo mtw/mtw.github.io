@@ -3,7 +3,7 @@ Cyclization studies of Japanese encephalitis virus non-coding RNA terminal regio
 
 :date: 2022-02-03
 :modified: 2022-02-11
-:tags: viruses
+:tags: viruses; non-coding RNA
 :category: publications
 :slug: Cyclization-studies-of-Japanese-encephalitis-virus-non-coding-RNA-terminal-regions
 :author: mtw

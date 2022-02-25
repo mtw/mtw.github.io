@@ -3,7 +3,7 @@ Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Invert
 
 :date: 2022-01-20
 :modified: 2022-02-11
-:tags: 3D
+:tags: 3D; non-coding RNA
 :category: publications
 :slug: Biophysical-Characterisation-of-Human-LincRNA-p21-Sense-and-Antisense-Alu-Inverted-Repeats
 :author: mtw

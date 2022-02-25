@@ -3,7 +3,7 @@ Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses
 
 :date: 2021-09-02
 :modified: 2022-02-10
-:tags: viruses
+:tags: viruses; non-coding RNA
 :category: publications
 :slug: Functional-RNA-Structures-in-the-3UTR-of-Mosquito-Borne-Flaviviruses
 :author: mtw

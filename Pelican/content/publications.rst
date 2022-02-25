@@ -22,6 +22,10 @@ Preprints
 
 .. container:: preprints
 
+  | :link-flat-strong:`Musashi 1 RNA–binding protein in complex with RNA: A theoretical study <{filename}publications.rst>`
+  | Nitchakan Darai, Panupong Mahalapbutr, Peter Wolschann, Vannajan Sanghiran Lee, :ul:`Michael T. Wolﬁnger`, Thanyada Rungrotmongkol
+  | *Manuscript submitted* 2022
+
   | :link-flat-strong:`Cyclization studies of Japanese encephalitis virus non-coding RNA terminal regions <{filename}blog/2022-02-03-Cyclization-studies-of-Japanese-encephalitis-virus-non-coding-RNA-terminal-regions.rst>`
   | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Corey Nelson, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
   | *bioRxiv* 2022.02.01.478553 | :doi:`doi:10.1101/2022.02.01.478553 <https://doi.org/10.1101/2022.02.01.478553>` | :link-flat:`Preprint PDF <{static}/files/papers/Mrozovich-2022__PREPRINT.pdf>`
@@ -119,7 +123,7 @@ Peer-reviewed journal articles and book chapters
   | Petra Pusic, Elisabeth Sonnleitner, Beatrice Krennmayr, Dorothea Agnes Heitzinger, :ul:`Michael T. Wolfinger`, Armin Resch, Udo Bläsi
   | *Front. Microbiol.* 9:2709 (2018) | :doi:`doi:10.3389/fmicb.2018.02709 <https://doi.org/10.3389/fmicb.2018.02709>` | :link-flat:`PDF <{static}/files/papers/Pusic-2018.pdf>`
 
-  | **TERribly Difficult: Searching for Telomerase RNAs in Saccharomycetes**
+  | :link-flat-strong:`TERribly Difficult: Searching for Telomerase RNAs in Saccharomycetes <{filename}blog/2018-07-26-TERribly-Difficult-Searching-for-Telomerase-RNAs-in-Saccharomycetes.rst>`
   | Maria Waldl, Bernhard C. Thiel, Roman Ochsenreiter, Alexander Holzenleiter, João Victor de Araujo Oliveira, Maria Emília M.T. Walter, :ul:`Michael T. Wolfinger`, Peter F. Stadler
   | *Genes* 9 (8), 372 (2018) | :doi:`doi:10.3390/genes9080372 <https://doi.org/10.3390/genes9080372>` | :link-flat:`PDF <{static}/files/papers/Waldl-2018.pdf>`
 
