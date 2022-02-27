@@ -1,6 +1,9 @@
 User-agent: *
 Disallow: /blog/tag/*
 Disallow: /blog/category/*
+Disallow: /blog/archive/*
+Disallow: /blog/category/*
+
 
 
 Sitemap: https://michaelwolfinger.com/sitemap.xml
