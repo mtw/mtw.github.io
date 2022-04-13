@@ -52,7 +52,7 @@ Peer-reviewed journal articles and book chapters
 
   | :link-flat-strong:`Insights into the secondary and tertiary structure of the Bovine Viral Diarrhea Virus Internal Ribosome Entry Site <{filename}blog/2021-05-15-Insights-into-the-secondary-and-tertiary-structure-of-the-Bovine-Viral-Diarrhea-Virus-Internal-Ribosome-Entry-Site.rst>`
   | Devadatta Gosavi, Iwona Wower, Irene K Beckmann, Ivo L Hofacker, Jacek Wower, :ul:`Michael T Wolfinger`, Joanna Sztuba-Solinska
-  | *RNA Biol.* (2022) | :doi:`Preprint doi:10.1101/2021.05.13.444024 <https://doi.org/10.1101/2021.05.13.444024>` | :link-flat:`Preprint PDF <{static}/files/papers/Gosavi-2021__PREPRINT.pdf>`
+  | *RNA Biol.* 19(1) 496-506 (2022) | :doi:`doi:10.1080/15476286.2022.2058818 <https://doi.org/10.1080/15476286.2022.2058818>` | :link-flat:`PDF <{static}/files/papers/Gosavi-2022.pdf>`
 
 
 `2021`_
