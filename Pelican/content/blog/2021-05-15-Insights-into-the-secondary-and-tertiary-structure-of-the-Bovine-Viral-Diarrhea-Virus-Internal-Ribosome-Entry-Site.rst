@@ -2,12 +2,12 @@ Insights into the secondary and tertiary structure of the BVDV Internal Ribosome
 ##################################################################################################################
 
 :date: 2021-05-15
-:modified: 2022-02-11
+:modified: 2022-04-13
 :tags: 3D; SHAPE; viruses; non-coding RNA
 :category: publications
 :slug: Insights-into-the-secondary-and-tertiary-structure-of-the-Bovine-Viral-Diarrhea-Virus-Internal-Ribosome-Entry-Site
 :author: mtw
-:summary: Characterization of a pseudoknot in the 5'UTR of Bovine Viral Diarrhea Virus (PREPRINT)
+:summary: Characterization of a pseudoknot in the 5'UTR of Bovine Viral Diarrhea Virus (BVDV) IRES region
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -27,6 +27,20 @@ Insights into the secondary and tertiary structure of the BVDV Internal Ribosome
 
 .. block-info:: Reference
 
-  | :link-flat-strong:`Insights into the secondary and tertiary structure of the Bovine Viral Diarrhea Virus Internal Ribosome Entry Site <https://doi.org/10.1101/2021.12.08.471813>`
-  |  Michael H. D’Souza, Tyler Mrozowich, Maulik D. Badmalia, Mitchell Geeraert, Angela Frederickson, Amy Henrickson, Borries Demeler, Michael T. Wolfinger, Trushar R. Patel
-  | *bioRxiv* 2021.05.13.444024 (2021) | :doi:`doi: 10.1101/2021.05.13.444024 <https://doi.org/10.1101/2021.05.13.444024>` | :link-flat:`Preprint PDF <{static}/files/papers/Gosavi-2021__PREPRINT.pdf>`
+  | :link-flat-strong:`Insights into the secondary and tertiary structure of the Bovine Viral Diarrhea Virus Internal Ribosome Entry Site <https://doi.org/10.1080/15476286.2022.2058818>`
+  | Devadatta Gosavi, Iwona Wower, Irene K Beckmann, Ivo L Hofacker, Jacek Wower, :ul:`Michael T Wolfinger`, Joanna Sztuba-Solinska
+  | *RNA Biol.* 19(1) 496-506 (2022) | :doi:`doi:10.1080/15476286.2022.2058818 <https://doi.org/10.1080/15476286.2022.2058818>` | :link-flat:`PDF <{static}/files/papers/Gosavi-2022.pdf>`
+
+.. block-info:: Citations
+
+  .. container:: m-label
+
+    .. raw:: html
+
+      <span class="__dimensions_badge_embed__" data-doi="10.1080/15476286.2022.2058818" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+  .. container:: m-label
+
+    .. raw:: html
+
+      <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1080/15476286.2022.2058818"></div>
