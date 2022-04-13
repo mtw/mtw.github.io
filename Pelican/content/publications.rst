@@ -22,6 +22,10 @@ Preprints
 
 .. container:: preprints
 
+  | :link-flat-strong:`Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reveals an Indirect Regulation of the MexGHI-OpmD Efflux Pump by Hfq <{filename}publications.rst>`
+  | Marlena Rozner, Ella Nukarinen, :ul:`Michael T. Wolfinger`, Fabian Amman, Wolfram Weckwerth, Udo Blaesi, Elisabeth Sonnleitner
+  | *Manuscript submitted* 2022
+
   | :link-flat-strong:`Musashi 1 RNA–binding protein in complex with RNA: A theoretical study <{filename}publications.rst>`
   | Nitchakan Darai, Panupong Mahalapbutr, Peter Wolschann, Vannajan Sanghiran Lee, :ul:`Michael T. Wolﬁnger`, Thanyada Rungrotmongkol
   | *Manuscript submitted* 2022
@@ -35,7 +39,7 @@ Preprints
   | *bioRxiv* 2021.12.16.473019 | :doi:`doi:10.1101/2021.12.16.473019 <https://doi.org/10.1101/2021.12.16.473019>` | :link-flat:`Preprint PDF <{static}/files/papers/Kutschera-2022__PREPRINT.pdf>`
 
   | :link-flat-strong:`Caveats to deep learning approaches to RNA secondary structure prediction <{filename}blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>`
-  | Christoph Flamm, Julia Wielach, :ul:`Michael T. Wolfinger`, Stefan Badelt, Ivo L. Hofacker
+  | Christoph Flamm, Julia Wielach, :ul:`Michael T. Wolfinger`, Stefan Badelt, Ronny Lorenz, Ivo L. Hofacker
   | *bioRxiv* 2021.12.14.472648 | :doi:`doi:10.1101/2021.12.14.472648 <https://doi.org/10.1101/2021.12.14.472648>` | :link-flat:`Preprint PDF <{static}/files/papers/Flamm-2022__PREPRINT.pdf>`
 
   | :link-flat-strong:`Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Inverted Repeats <{filename}blog/2022-01-20-Biophysical-Characterisation-of-Human-LincRNA-p21-Sense-and-Antisense-Alu-Inverted-Repeats.rst>`
