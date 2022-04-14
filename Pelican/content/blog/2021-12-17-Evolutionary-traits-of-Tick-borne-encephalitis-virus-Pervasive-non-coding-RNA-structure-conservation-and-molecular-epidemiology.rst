@@ -31,4 +31,4 @@ Pervasive non-coding RNA structure conservation and molecular epidemiology of TB
 
   | :link-flat-strong:`Evolutionary traits of Tick-borne encephalitis virus: Pervasive non-coding RNA structure conservation and molecular epidemiology <https://doi.org/10.1101/2021.12.16.473019>`
   |  Lena S. Kutschera, Michael T. Wolfinger
-  | *bioRxiv* 2021.12.16.473019 (2021) | :doi:`doi: 10.1101/2021.12.16.473019 <https://doi.org/10.1101/2021.12.16.473019>` | :link-flat:`Preprint PDF <{static}/files/papers/Kutschera-2022__PREPRINT.pdf>`
+  | *bioRxiv* 2021.12.16.473019 (2021) | :doi:`doi: 10.1101/2021.12.16.473019 <https://doi.org/10.1101/2021.12.16.473019>` | :link-flat:`Preprint PDF <{static}/files/papers/Kutschera-2022__PREPRINT.pdf>` |  :link-flat:`Supplementary data <{static}/files/papers/Kutschera-2022__SupplementaryData.pdf>`
