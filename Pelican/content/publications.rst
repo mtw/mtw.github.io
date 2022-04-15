@@ -141,9 +141,9 @@ Peer-reviewed journal articles and book chapters
   | :ul:`Michael T. Wolfinger`, Christoph Flamm, Ivo L. Hofacker
   | *Methods* 143:70–76 (2018) | :doi:`doi:10.1016/j.ymeth.2018.04.036 <https://doi.org/10.1016/j.ymeth.2018.04.036>` | :link-flat:`Preprint PDF <{static}/files/papers/Wolfinger-2018__PREPRINT.pdf>`
 
-  | **In Silico Design of Ligand Triggered RNA Switches**
+  | :link-flat-strong:`In Silico Design of Ligand Triggered RNA Switches <{filename}blog/2018-07-01-In-Silico-Design-of-Ligand-Triggered-RNA-Switches.rst>`
   | Sven Findeiß, Stefan Hammer, :ul:`Michael T. Wolfinger`, Felix Kühnl, Christoph Flamm, Ivo L. Hofacker
-  | *Methods* 143:90–101 (2018) | :doi:`doi:10.1016/j.ymeth.2018.04.003 <https://doi.org/10.1016/j.ymeth.2018.04.003>`
+  | *Methods* 143:90–101 (2018) | :doi:`doi:10.1016/j.ymeth.2018.04.003 <https://doi.org/10.1016/j.ymeth.2018.04.003>` | :link-flat:`Preprint PDF <{static}/files/papers/Findeiss-2018__PREPRINT.pdf>`
 
   | **Interplay Between the Catabolite Repression Control Protein Crc, Hfq and RNA in Hfq-Dependent Translational Regulation in Pseudomonas Aeruginosa**
   | Elisabeth Sonnleitner, Alexander Wulf, Sébastien Campagne, Xue-Yuan Pei, :ul:`Michael T. Wolfinger`, Giada Forlani, Konstantin Prindl, Laetitia Abdou, Armin Resch, Frederic Allain, Ben Luisi, Henning Urlaub, Udo Bläsi
