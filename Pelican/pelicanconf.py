@@ -33,8 +33,8 @@ PLUGIN_PATHS = ['plugins']
 PLUGINS = ['m.htmlsanity',
            'm.components',
            'm.link',
-           'pelican_redirect',
-           'sitemap']
+           'm.pelican_redirect',
+           'm.sitemap']
 
 SITEMAP = {
     "format": "xml",

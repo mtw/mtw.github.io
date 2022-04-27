@@ -42,9 +42,6 @@ Preprints
   | Christoph Flamm, Julia Wielach, :ul:`Michael T. Wolfinger`, Stefan Badelt, Ronny Lorenz, Ivo L. Hofacker
   | *bioRxiv* 2021.12.14.472648 | :doi:`doi:10.1101/2021.12.14.472648 <https://doi.org/10.1101/2021.12.14.472648>` | :link-flat:`Preprint PDF <{static}/files/papers/Flamm-2022__PREPRINT.pdf>`
 
-  | :link-flat-strong:`Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Inverted Repeats <{filename}blog/2022-01-20-Biophysical-Characterisation-of-Human-LincRNA-p21-Sense-and-Antisense-Alu-Inverted-Repeats.rst>`
-  | Michael H. D’Souza, Tyler Mrozowich, Maulik D. Badmalia, Mitchell Geeraert, Angela Frederickson, Amy Henrickson, Borries Demeler, :ul:`Michael T. Wolfinger`, and Trushar R. Patel
-  | *bioRxiv* 2021.12.08.471813 | :doi:`doi:10.1101/2021.12.08.471813 <https://doi.org/10.1101/2021.12.08.471813>` | :link-flat:`Preprint PDF <{static}/files/papers/DSouza-2022__PREPRINT.pdf>`
 
 Peer-reviewed journal articles and book chapters
 ================================================
@@ -53,6 +50,10 @@ Peer-reviewed journal articles and book chapters
 -------
 
 .. container:: refs-2022
+
+  | :link-flat-strong:`Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Inverted Repeats <{filename}blog/2022-01-20-Biophysical-Characterisation-of-Human-LincRNA-p21-Sense-and-Antisense-Alu-Inverted-Repeats.rst>`
+  | Michael H. D’Souza, Tyler Mrozowich, Maulik D. Badmalia, Mitchell Geeraert, Angela Frederickson, Amy Henrickson, Borries Demeler, :ul:`Michael T. Wolfinger`, and Trushar R. Patel
+  | *Manuscript accepted* | Preprint: *bioRxiv* 2021.12.08.471813 | :doi:`doi:10.1101/2021.12.08.471813 <https://doi.org/10.1101/2021.12.08.471813>` | :link-flat:`Preprint PDF <{static}/files/papers/DSouza-2022__PREPRINT.pdf>`
 
   | :link-flat-strong:`Insights into the secondary and tertiary structure of the Bovine Viral Diarrhea Virus Internal Ribosome Entry Site <{filename}blog/2021-05-15-Insights-into-the-secondary-and-tertiary-structure-of-the-Bovine-Viral-Diarrhea-Virus-Internal-Ribosome-Entry-Site.rst>`
   | Devadatta Gosavi, Iwona Wower, Irene K Beckmann, Ivo L Hofacker, Jacek Wower, :ul:`Michael T Wolfinger`, Joanna Sztuba-Solinska
