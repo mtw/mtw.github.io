@@ -48,7 +48,7 @@ SITEMAP = {
         "indexes": "always",
         "pages": "always"
     },
-    "exclude": ["blog/archive/", "blog/author/", "blog/category/", "index"]
+    "exclude": ["blog/archive/", "blog/author/", "blog/category/", "blog/tag/", "index"]
 }
 
 GITHUB_URL = "https://github.com/mtw/mtw.github.io"
