@@ -2,12 +2,12 @@ Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Invert
 ##########################################################################################
 
 :date: 2022-01-20
-:modified: 2022-02-11
+:modified: 2022-05-26
 :tags: 3D; non-coding RNA
 :category: publications
 :slug: Biophysical-Characterisation-of-Human-LincRNA-p21-Sense-and-Antisense-Alu-Inverted-Repeats
 :author: mtw
-:summary: LincRNA-p21 structure determined with biophysical and computational approaches (PREPRINT)
+:summary: LincRNA-p21 structure determined with biophysical and computational approaches
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -27,6 +27,7 @@ Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Invert
 
 .. block-info:: Reference
 
-  | :link-flat-strong:`Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Inverted Repeats <https://doi.org/10.1101/2021.12.08.471813>`
+  | :link-flat-strong:`Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Inverted Repeats <https://doi.org/10.1093/nar/gkac414>`
   |  Michael H. D’Souza, Tyler Mrozowich, Maulik D. Badmalia, Mitchell Geeraert, Angela Frederickson, Amy Henrickson, Borries Demeler, Michael T. Wolfinger, Trushar R. Patel
-  | *bioRxiv* 2021.12.08.471813 (2021) | :doi:`doi: 10.1101/2021.12.08.471813 <https://doi.org/10.1101/2021.12.08.471813>` | :link-flat:`Preprint PDF <{static}/files/papers/DSouza-2022__PREPRINT.pdf>`
+
+  |  *Nucleic Acids Res.* gkac414 (2022) | :doi:`doi:10.1093/nar/gkac414 <https://doi.org/10.1093/nar/gkac414>` | :link-flat:`PDF <{static}/files/papers/DSouza-2022.pdf>`
