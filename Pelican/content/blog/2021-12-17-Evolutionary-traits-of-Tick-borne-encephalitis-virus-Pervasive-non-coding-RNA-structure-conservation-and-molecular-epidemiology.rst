@@ -2,7 +2,7 @@ Pervasive non-coding RNA structure conservation and molecular epidemiology of TB
 ##################################################################################
 
 :date: 2021-12-17
-:modified: 2022-02-11
+:modified: 2022-06-09
 :tags: viruses; non-coding RNA
 :category: publications
 :slug: Evolutionary-traits-of-Tick-borne-encephalitis-virus-Pervasive-non-coding-RNA-structure-conservation-and-molecular-epidemiology
@@ -29,6 +29,20 @@ Pervasive non-coding RNA structure conservation and molecular epidemiology of TB
 
 .. block-info:: Reference
 
-  | :link-flat-strong:`Evolutionary traits of Tick-borne encephalitis virus: Pervasive non-coding RNA structure conservation and molecular epidemiology <https://doi.org/10.1101/2021.12.16.473019>`
+  | :link-flat-strong:`Evolutionary traits of Tick-borne encephalitis virus: Pervasive non-coding RNA structure conservation and molecular epidemiology <https://doi.org/10.1093/ve/veac051>`
   |  Lena S. Kutschera, Michael T. Wolfinger
-  | *bioRxiv* 2021.12.16.473019 (2021) | :doi:`doi: 10.1101/2021.12.16.473019 <https://doi.org/10.1101/2021.12.16.473019>` | :link-flat:`Preprint PDF <{static}/files/papers/Kutschera-2022__PREPRINT.pdf>` |  :link-flat:`Supplementary data <{static}/files/papers/Kutschera-2022__SupplementaryData.pdf>`
+  |  *Virus Evol.* (2022) in press | :doi:`doi: 10.1093/ve/veac051 <https://doi.org/10.1093/ve/veac051>` | :link-flat:`Preprint PDF <{static}/files/papers/Kutschera-2022__PREPRINT.pdf>` |  :link-flat:`Supplementary data <{static}/files/papers/Kutschera-2022__SupplementaryData.pdf>`
+
+.. block-info:: Citations
+
+    .. container:: m-label
+
+        .. raw:: html
+
+          <span class="__dimensions_badge_embed__" data-doi="10.1093/ve/veac051" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+    .. container:: m-label
+
+        .. raw:: html
+
+          <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1093/ve/veac051"></div>
