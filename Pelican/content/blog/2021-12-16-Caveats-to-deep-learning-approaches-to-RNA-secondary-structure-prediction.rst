@@ -2,12 +2,12 @@ Caveats to deep learning approaches to RNA secondary structure prediction
 #########################################################################
 
 :date: 2021-12-16
-:modified: 2022-02-11
+:modified: 2022-06-09
 :tags: ViennaRNA
 :category: publications
 :slug: Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction
 :author: mtw
-:summary: How good are modern machine learning approaches in predicting the pairing potential of RNA (PREPRINT)
+:summary: How good are modern machine learning approaches in predicting the pairing potential of RNA
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -27,6 +27,20 @@ Caveats to deep learning approaches to RNA secondary structure prediction
 
 .. block-info:: Reference
 
-  | :link-flat-strong:`Caveats to deep learning approaches to RNA secondary structure prediction <https://doi.org/10.1101/2021.12.14.472648>`
-  |  Christoph Flamm, Julia Wielach, Michael T. Wolfinger, Stefan Badelt, Ivo L. Hofacker
-  | *bioRxiv* 2021.12.14.472648 (2021) | :doi:`doi: 10.1101/2021.12.14.472648 <https://doi.org/10.1101/2021.12.14.472648>` | :link-flat:`Preprint PDF <{static}/files/papers/Flamm-2022__PREPRINT.pdf>`
+  | :link-flat-strong:`Caveats to deep learning approaches to RNA secondary structure prediction <https://doi.org/10.3389/fbinf.2022.835422>`
+  | Christoph Flamm, Julia Wielach, :ul:`Michael T. Wolfinger`, Stefan Badelt, Ronny Lorenz, Ivo L. Hofacker
+  | Front. Bioinform. (2022) in press | :doi:`doi:10.3389/fbinf.2022.835422 <https://doi.org/10.3389/fbinf.2022.835422>` | :link-flat:`Preprint PDF <{static}/files/papers/Flamm-2022__PREPRINT.pdf>`
+
+.. block-info:: Citations
+
+    .. container:: m-label
+
+        .. raw:: html
+
+          <span class="__dimensions_badge_embed__" data-doi="10.3389/fbinf.2022.835422" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+    .. container:: m-label
+
+        .. raw:: html
+
+          <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.3389/fbinf.2022.835422"></div>
