@@ -2,7 +2,7 @@ Pervasive non-coding RNA structure conservation and molecular epidemiology of TB
 ##################################################################################
 
 :date: 2021-12-17
-:modified: 2022-06-09
+:modified: 2022-07-05
 :tags: viruses; non-coding RNA
 :category: publications
 :slug: Evolutionary-traits-of-Tick-borne-encephalitis-virus-Pervasive-non-coding-RNA-structure-conservation-and-molecular-epidemiology
@@ -31,7 +31,7 @@ Pervasive non-coding RNA structure conservation and molecular epidemiology of TB
 
   | :link-flat-strong:`Evolutionary traits of Tick-borne encephalitis virus: Pervasive non-coding RNA structure conservation and molecular epidemiology <https://doi.org/10.1093/ve/veac051>`
   |  Lena S. Kutschera, Michael T. Wolfinger
-  |  *Virus Evol.* (2022) in press | :doi:`doi: 10.1093/ve/veac051 <https://doi.org/10.1093/ve/veac051>` | :link-flat:`Preprint PDF <{static}/files/papers/Kutschera-2022__PREPRINT.pdf>` |  :link-flat:`Supplementary data <{static}/files/papers/Kutschera-2022__SupplementaryData.pdf>`
+  |  *Virus Evol.* (8):1 veac051 (2022) | :doi:`doi: 10.1093/ve/veac051 <https://doi.org/10.1093/ve/veac051>` | :link-flat:`PDF <{static}/files/papers/Kutschera-2022.pdf>` |  :link-flat:`Supplementary data <{static}/files/papers/Kutschera-2022__SupplementaryData.pdf>`
 
 .. block-info:: Citations
 

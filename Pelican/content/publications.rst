@@ -55,7 +55,7 @@ Peer-reviewed journal articles and book chapters
 
   | 40. :link-flat-strong:`Evolutionary traits of Tick-borne encephalitis virus: Pervasive non-coding RNA structure conservation and molecular epidemiology <{filename}blog/2021-12-17-Evolutionary-traits-of-Tick-borne-encephalitis-virus-Pervasive-non-coding-RNA-structure-conservation-and-molecular-epidemiology.rst>`
   | Lena S. Kutschera, :ul:`Michael T. Wolfinger`
-  | *Virus Evol.* (2022) in press | :doi:`doi:10.1093/ve/veac051 <https://doi.org/10.1093/ve/veac051>` | :link-flat:`Preprint PDF <{static}/files/papers/Kutschera-2022__PREPRINT.pdf>`
+  | *Virus Evol.* (8):1 veac051 (2022) | :doi:`doi:10.1093/ve/veac051 <https://doi.org/10.1093/ve/veac051>` | :link-flat:`PDF <{static}/files/papers/Kutschera-2022.pdf>`
 
   | 39. :link-flat-strong:`Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Inverted Repeats <{filename}blog/2022-01-20-Biophysical-Characterisation-of-Human-LincRNA-p21-Sense-and-Antisense-Alu-Inverted-Repeats.rst>`
   | Michael H. D’Souza, Tyler Mrozowich, Maulik D. Badmalia, Mitchell Geeraert, Angela Frederickson, Amy Henrickson, Borries Demeler, :ul:`Michael T. Wolfinger`, and Trushar R. Patel
