@@ -21,17 +21,19 @@ How to compute normalized RNA-seq expression from multicov files
 .. role:: doi(link)
   :class: doi
 
-Whenever it comes to analyzing RNA-seq experiments, there is a need for
-comparing expression data at a quantitative level. Consider a scenario
-where samples were taken from different conditions and subjected to
-Illumina sequencing. Whether those samples were multiplexed or sequenced on
-a single lane each, one generally gets a different number of raw reads from
-each sample, refelcting experimental and technical biases inherent in the
-RNA-seq protocols. Various measures for normalization of RNA-seq samples
-have been proposed, the most widely used being RPKM (reads per kilobase per
-million). While RPKM tries to account for different sequencing depth by
-normalizing by the number of reads sequenced in a specific sample, divided
-by 10^6, this very step causes a systematic bias, as has been shown here:
+.. block-default:: Abstract
+
+    Whenever it comes to analyzing RNA-seq experiments, there is a need for
+    comparing expression data at a quantitative level. Consider a scenario
+    where samples were taken from different conditions and subjected to
+    Illumina sequencing. Whether those samples were multiplexed or sequenced on
+    a single lane each, one generally gets a different number of raw reads from
+    each sample, refelcting experimental and technical biases inherent in the
+    RNA-seq protocols. Various measures for normalization of RNA-seq samples
+    have been proposed, the most widely used being RPKM (reads per kilobase per
+    million). While RPKM tries to account for different sequencing depth by
+    normalizing by the number of reads sequenced in a specific sample, divided
+    by 10^6, this very step causes a systematic bias, as has been shown here:
 
 .. block-info:: Reference
 
