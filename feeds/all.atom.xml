@@ -380,7 +380,9 @@ Martin Mann, Marcel Kucharík, Christoph Flamm, Michael T. Wolfinger&lt;br /&gt;
 &lt;script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"&gt;&lt;/script&gt;&lt;div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1093/bioinformatics/btu337"&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;/aside&gt;
 </content><category term="publications"></category><category term="energy landscapes"></category></entry><entry><title>How to compute normalized RNA-seq expression from multicov files</title><link href="https://michaelwolfinger.com/blog/2014/How-to-compute-normalized-RNA-seq-expression-from-multicov-files/" rel="alternate"></link><published>2014-04-15T00:00:00+02:00</published><updated>2022-02-09T00:00:00+01:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2014-04-15:/blog/2014/How-to-compute-normalized-RNA-seq-expression-from-multicov-files/</id><summary type="html">&lt;p&gt;Why you should use TPM rather than RPKM&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;Whenever it comes to analyzing RNA-seq experiments, there is a need for
+</summary><content type="html">&lt;aside class="m-block m-default"&gt;
+&lt;h3&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Whenever it comes to analyzing RNA-seq experiments, there is a need for
 comparing expression data at a quantitative level. Consider a scenario
 where samples were taken from different conditions and subjected to
 Illumina sequencing. Whether those samples were multiplexed or sequenced on
@@ -391,6 +393,7 @@ have been proposed, the most widely used being RPKM (reads per kilobase per
 million). While RPKM tries to account for different sequencing depth by
 normalizing by the number of reads sequenced in a specific sample, divided
 by 10^6, this very step causes a systematic bias, as has been shown here:&lt;/p&gt;
+&lt;/aside&gt;
 &lt;aside class="m-block m-info"&gt;
 &lt;h3&gt;Reference&lt;/h3&gt;
 &lt;p&gt;
