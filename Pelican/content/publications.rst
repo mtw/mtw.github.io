@@ -19,7 +19,7 @@ Papers
 
 .. frame::
 
-    Download the full :link-flat:`list of publications by Michael T. Wolfinger <{static}/files/MTW_PublicationList.pdf>`  as PDF.
+    Download the full :link-flat:`list of publications by Michael T. Wolfinger <{static}/files/MTW_PublicationList.pdf>` as PDF.
 
 Preprints
 =========
@@ -38,13 +38,13 @@ Peer-reviewed journal articles and book chapters
 
 .. container:: refs-2022
 
-  | 43. :link-flat-strong:`Theoretical studies on RNA recognition by Musashi 1 RNA–binding protein <{filename}publications.rst>`
+  | 43. :link-flat-strong:`Theoretical studies on RNA recognition by Musashi 1 RNA–binding protein <{filename}blog/2022-07-26-Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA–binding-protein.rst>`
   | Nitchakan Darai, Panupong Mahalapbutr, Peter Wolschann, Vannajan Sanghiran Lee, :ul:`Michael T. Wolﬁnger`, Thanyada Rungrotmongkol
-  | *Sci. Rep.* in press (2022)
+  | *Sci. Rep.* 12:12137 (2022) | :doi:`doi:10.1038/s41598-022-16252-w <https://doi.org/10.1038/s41598-022-16252-w>` | :link-flat:`PDF <{static}/files/papers/Darai-2022.pdf>`
 
   | 42. :link-flat-strong:`Caveats to deep learning approaches to RNA secondary structure prediction <{filename}blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>`
   | Christoph Flamm, Julia Wielach, :ul:`Michael T. Wolfinger`, Stefan Badelt, Ronny Lorenz, Ivo L. Hofacker
-  | *Front. Bioinform.* in press (2022) | :doi:`doi:10.3389/fbinf.2022.835422 <https://doi.org/10.3389/fbinf.2022.835422>` | :link-flat:`Preprint PDF <{static}/files/papers/Flamm-2022__PREPRINT.pdf>`
+  | *Front. Bioinform.* 2:835422 (2022) | :doi:`doi:10.3389/fbinf.2022.835422 <https://doi.org/10.3389/fbinf.2022.835422>` | :link-flat:`PDF <{static}/files/papers/Flamm-2022.pdf>`
 
   | 41. :link-flat-strong:`Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reveals an Indirect Regulation of the MexGHI-OpmD Efflux Pump by Hfq <{filename}blog/2022-06-23-Rewiring-of-Gene-Expression-in-Pseudomonas-aeruginosa-During-Diauxic-Growth-Reveals-an-Indirect-Regulation-of-the-MexGHI-OpmD-Efflux-Pump-by-Hfq.rst>`
   | Marlena Rozner, Ella Nukarinen, :ul:`Michael T. Wolfinger`, Fabian Amman, Wolfram Weckwerth, Udo Blaesi, Elisabeth Sonnleitner

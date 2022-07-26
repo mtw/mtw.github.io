@@ -2,7 +2,7 @@ Caveats to deep learning approaches to RNA secondary structure prediction
 #########################################################################
 
 :date: 2021-12-16
-:modified: 2022-06-09
+:modified: 2022-07-26
 :tags: ViennaRNA
 :category: publications
 :slug: Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction
@@ -29,7 +29,7 @@ Caveats to deep learning approaches to RNA secondary structure prediction
 
   | :link-flat-strong:`Caveats to deep learning approaches to RNA secondary structure prediction <https://doi.org/10.3389/fbinf.2022.835422>`
   | Christoph Flamm, Julia Wielach, :ul:`Michael T. Wolfinger`, Stefan Badelt, Ronny Lorenz, Ivo L. Hofacker
-  | Front. Bioinform. (2022) in press | :doi:`doi:10.3389/fbinf.2022.835422 <https://doi.org/10.3389/fbinf.2022.835422>` | :link-flat:`Preprint PDF <{static}/files/papers/Flamm-2022__PREPRINT.pdf>`
+  | *Front. Bioinform.* 2:835422 (2022) | :doi:`doi:10.3389/fbinf.2022.835422 <https://doi.org/10.3389/fbinf.2022.835422>` | :link-flat:`PDF <{static}/files/papers/Flamm-2022.pdf>`
 
 .. block-info:: Citations
 
