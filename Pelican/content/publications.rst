@@ -26,6 +26,10 @@ Preprints
 
 .. container:: preprints
 
+  | 45. :link-flat-strong:`Pan-flavivirus analysis reveals that the insect-specific Kamiti River virus produces a new subgenomic RNA and high amounts of 3' UTR-derived siRNAs <https://doi.org/10.1101/2022.08.18.504478>`
+  | Benoit Besson, Gijs J. Overheul, :ul:`Michael T. Wolfinger`, Sandra Junglen, Ronald P. van Rij
+  | *bioRxiv* 2022.08.18.504478 | :doi:`10.1101/2022.08.18.504478 <https://doi.org/10.1101/2022.08.18.504478>` | :link-flat:`Preprint PDF <{static}/files/papers/Besson-2022__PREPRINT.pdf>`
+
   | 44. :link-flat-strong:`Cyclization studies of Japanese encephalitis virus non-coding RNA terminal regions <{filename}blog/2022-02-03-Cyclization-studies-of-Japanese-encephalitis-virus-non-coding-RNA-terminal-regions.rst>`
   | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Corey Nelson, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
   | *bioRxiv* 2022.02.01.478553 | :doi:`doi:10.1101/2022.02.01.478553 <https://doi.org/10.1101/2022.02.01.478553>` | :link-flat:`Preprint PDF <{static}/files/papers/Mrozovich-2022__PREPRINT.pdf>`
