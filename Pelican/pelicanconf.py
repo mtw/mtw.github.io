@@ -25,7 +25,6 @@ FORMATTED_FIELDS = ['summary', 'landing', 'header', 'footer', 'description', 'ba
 
 M_CSS_FILES = ['https://fonts.googleapis.com/css?family=Roboto:300;400|Source+Code+Pro:200:300,400|Source+Sans+Pro:300,400',
                'static/m-light.compiled.css',
-               'static/academicons.min.css',
                'static/m-mtw.css']
 M_THEME_COLOR = '#EAEAEA'
 
@@ -48,7 +47,7 @@ SITEMAP = {
         "indexes": "always",
         "pages": "always"
     },
-    "exclude": ["blog/archive/", "blog/author/", "blog/category/", "blog/tag/", "index"]
+    "exclude": ["blog/archive/", "blog/author/", "blog/category/", "blog/tag/", "archives", "authors", "categories", "tags", "index"]
 }
 
 GITHUB_URL = "https://github.com/mtw/mtw.github.io"
@@ -96,7 +95,6 @@ M_LINKS_FOOTER4 = [('Social', ''),
 
 M_FINE_PRINT =  """
 | michaelwolfinger.com - Copyright © Michael T. Wolfinger, 2021-2022
-| Site powered by `Pelican <https://getpelican.com>`_ and m.css. Code and content is `available on GitHub <https://github.com/mtw/mtw.github.io>`_.
 """
 
 STATIC_PATHS = ['static', 'extra/CNAME', 'extra/robots.txt', 'extra/favicon.ico']
