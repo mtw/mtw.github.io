@@ -1,6 +1,8 @@
 Updated Phylogeny of Chikungunya Virus Suggests Lineage-Specific RNA Architecture
 #################################################################################
-:summary: An updated phylogeny of chikungunya virus and detailed characterization of lineage-specific 3'UTR architectures
+:summary: Based on more than 1000 Chikungunya virus isolates this study proposes a novel phylogeny and evolutionarily conserved lineage-specific 3'UTR architectures
+:title: Chikungunya virus: Updated phylogeny and lineage specific RNA architecture
+:description: Based on more than 1000 Chikungunya virus isolates this study proposes a novel phylogeny and evolutionarily conserved 3'UTR architectures that are lineage-specific
 
 
 :breadcrumb: / Home
