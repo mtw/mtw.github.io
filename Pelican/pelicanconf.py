@@ -33,8 +33,8 @@ PLUGINS = ['m.htmlsanity',
            'm.components',
            'm.link',
            'm.pelican_redirect',
-           'm.sitemap',
-           'm.html_minify']
+           'm.sitemap']
+#           'm.html_minify']
 
 SITEMAP = {
     "format": "xml",
