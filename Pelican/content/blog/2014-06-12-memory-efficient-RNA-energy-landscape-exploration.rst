@@ -2,12 +2,14 @@ Memory-efficient-RNA-energy-landscape-exploration
 #################################################
 
 :date: 2014-06-12
-:modified: 2022-02-11
+:modified: 2022-09-27
 :tags: energy landscapes
 :category: publications
 :slug: Memory-efficient-RNA-energy-landscape-exploration
 :author: mtw
-:summary: An efficient approach for local flooding of the lower portion of an RNA energy landscape
+:summary: In this study we propose a memory-efficient approach for local flooding of the lower portion of an RNA folding landscape
+:description: A memory efficient approach for exploring the low-energy portion of RNA energy landscapes at the level of secondary structures
+:title: How to efficiently explore the lower portion of RNA energy landscapes
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
