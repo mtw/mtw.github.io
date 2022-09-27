@@ -2,12 +2,14 @@ TSSAR: TSS annotation regime for dRNA-seq data
 ##############################################
 
 :date: 2014-04-13
-:modified: 2022-02-09
-:tags: NGS
+:modified: 2022-09-27
+:tags: NGS; bacteria
 :category: publications
 :slug: TSSAR-tss-annotation-regime-for-drna-seq-data
 :author: mtw
-:summary: A web service for for predicting bacterial Transcription Start Sites from dRNA-seq data.
+:summary: A RESTful web service and standalone application for automated de-novo annotation of bacterial transcription start sites from dRNA-seq data
+:description: TSSAR: A RESTful web service for automated de-novo annotation of bacterial transcription start sites from differential RNA-sequencing (dRNA-seq) data
+:title: TSSAR: Bacterial transcription start site annotation from dRNA-seq data
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
