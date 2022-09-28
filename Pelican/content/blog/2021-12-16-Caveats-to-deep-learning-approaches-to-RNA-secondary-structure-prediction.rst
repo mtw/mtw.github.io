@@ -7,7 +7,7 @@ Caveats to deep learning approaches to RNA secondary structure prediction
 :category: publications
 :slug: Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction
 :author: mtw
-:title: Current deep learning approaches cannot correctly predict RNA secondary structures
+:title: Current deep learning approaches cannot predict RNA secondary structures
 :description: Published AI approaches for RNA structure prediction suffer from massively biased training sets, resulting in severely degraded prediction quality on arbitrary RNAs
 :summary: Machine learning of RNA structure is more challenging than you might think. Using synthetic data from ViennaRNA's RNAfold to study the capabilities and shortcomings of neural networks for RNA secondary structure prediction in a controlled setting, we argue that shortcomings in the artificial setting will translate to real data.
 
