@@ -1,6 +1,7 @@
 An African Tick Flavivirus Forming an Independent Clade Exhibits Unique Exoribonuclease-Resistant RNA Structures in the Genomic 3’-Untranslated Region
 ######################################################################################################################################################
 :summary: A novel tick-borne flavivirus from Africa that exhibits unique structural traits in the 3'UTR
+:title: Characterization of Mpulungu virus, a novel African tick-borne flavivirus
 
 
 :breadcrumb: / Home

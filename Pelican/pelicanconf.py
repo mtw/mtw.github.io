@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = 'Michael T. Wolfinger'
-SITENAME = "Michael T. Wolfinger"
+SITENAME = "Michael T. Wolfinger Bioinformatics"
 SITEURL = ''
 
 STATIC_URL = '{path}'
@@ -124,7 +124,7 @@ AUTHOR_FEED_RSS = None
 
 TWITTER_USERNAME = 'mtwolfinger'
 
-M_BLOG_NAME = "michaelwolfinger.com"
+M_BLOG_NAME = "michaelwolfinger.com Bioinformatics"
 M_BLOG_URL = 'https://michaelwolfinger.com/blog'
 M_BLOG_DESCRIPTION = "michaelwolfinger.com | virus bioinformatics"
 

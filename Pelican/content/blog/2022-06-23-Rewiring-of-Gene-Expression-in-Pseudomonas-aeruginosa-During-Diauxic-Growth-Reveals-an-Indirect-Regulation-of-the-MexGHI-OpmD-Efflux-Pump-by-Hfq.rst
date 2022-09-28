@@ -2,12 +2,15 @@ Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reve
 ################################################################################################################################################
 
 :date: 2022-06-23
-:modified: 2022-06-23
+:modified: 2022-09-28
 :tags: bacteria; NGS
 :category: publications
 :slug: Rewiring-of-Gene-Expression-in-Pseudomonas-aeruginosa
 :author: mtw
-:summary: Studying carbon catabolite repression (CCR) in Pseudomonas aeruginosa
+:summary: Here we study carbon catabolite repression (CCR) and its impact on antibiotic susceptibility in Pseudomonas aeruginosa
+:title: Rewiring of gene expression in Pseudomonas aeruginosa during diauxic growth
+:description: Here we study carbon catabolite repression and its impact on antibiotic susceptibility in the opportunistic pathogen Pseudomonas aeruginosa
+
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong

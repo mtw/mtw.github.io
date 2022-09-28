@@ -9,7 +9,7 @@ Pervasive non-coding RNA structure conservation and molecular epidemiology of TB
 :author: mtw
 :summary: In this paper, we study the molecular epidemiology and RNA structureome diversity of tick-borne encephalitis virus (TBEV). Moreover, we propose a unified picture of pervasive non-coding RNA structure conservation across all known TBEV subtypes
 :description: In this study we propose a unified picture of pervasive ncRNA structure conservation across all known TBEV subtypes
-:title: Molecular epidemiology and RNA structure conservation in Tick-borne encephalitis virus
+:title: RNA secondary structure conservation and molecular epidemiology of TBEV
 
 We show that the TBEV 3′ architectural diversity is realized by a combination of a restricted pool of eight structural and one non-structural element, suggesting that the observed 3′UTR variability is driven by structural, rather than sequence conservation.
 

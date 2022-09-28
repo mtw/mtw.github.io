@@ -1,7 +1,8 @@
 Genomic Epidemiology of Superspreading Events in Austria Reveals Mutational Dynamics and Transmission Properties of SARS-CoV-2
 ##############################################################################################################################
 :summary: A high-resolution view of the SARS-CoV-2 mutational dynamics within and from Austria during the first wave in spring 2020
-
+:title: Genomic epidemiology of SARS-CoV-2 superspreading events in Austria
+:description: Phylogenetic-epidemiological analysis of SARS-CoV-2 superspreading events during the first wave of infections in Austria, spring 2020.
 
 :breadcrumb: / Home
              /publications/ Papers
