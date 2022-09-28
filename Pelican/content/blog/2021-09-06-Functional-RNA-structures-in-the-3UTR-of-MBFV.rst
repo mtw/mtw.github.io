@@ -2,12 +2,14 @@ Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses
 #####################################################################
 
 :date: 2021-09-02
-:modified: 2022-02-10
+:modified: 2022-09-28
 :tags: viruses; non-coding RNA
 :category: publications
 :slug: Functional-RNA-Structures-in-the-3UTR-of-Mosquito-Borne-Flaviviruses
 :author: mtw
-:summary: You might have heard of Zika virus, Dengue virus, West Nile virus, or Japanese encephalitis virus
+:summary: The 3'UTR of Mosquito-Borne Flaviviruses (MBFVs) contain evolutionarily conserved functional elements, such as exoribonuclease-resistant RNAs (xrRNAs), dumbbell elements or terminal stem-loops. Here we describe, annotate, and compare these elements within different serological groups of MBFVs.
+:title: Functional RNA Structures in the 3'UTR of Mosquito-Borne Flaviviruses
+:description: This book chapter describes and compares evolutionarily conserved functional RNAs in Mosquito-Borne Flaviviruses
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -21,7 +23,7 @@ Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses
 .. role:: doi(link)
   :class: doi
 
-These are Mosquito-Borne Flaviviruses (MBFVs), referring to their phylogenetic association with the genus Flavivirus, and their predominant transmission vector, mosquitoes. There are dozens of other MBFVs, that cause millions of infections in humans and animals every year, rendering MBFVs a major public health threat.
+Mosquito-Borne Flaviviruses cause millions of infections in humans and animals every year, rendering MBFVs a major public health threat.
 
 Flaviviruses are enveloped, non-segmented single-stranded (+)-sense RNA viruses and consist of a single 5’-capped, non-polyadenylated RNA of approximately 10-12 kilobases in length, referred to as gRNA. The gRNA encodes a single open reading frame (ORF), which is flanked by highly structured untranslated regions (UTRs). The flavivirus UTRs are crucially involved in the regulation of the viral life cycle, and mediate processes such as genome cyclization, replication, and immune escape.
 
