@@ -2,10 +2,6 @@
 {% extends "base.html" %}
 
 {% block title %}
-{% if page.breadcrumb %}
-{% set breadcrumbs = page.breadcrumb.strip().split('\n') %}
-{% for i in breadcrumbs %}{% set url, _, title = i.strip().partition(' ') %}{{ title|e }} &raquo; {% endfor %}
-{% endif %}
 {% if page.title == SITENAME|e %}
 {{ page.title -}}
 {% else %}
