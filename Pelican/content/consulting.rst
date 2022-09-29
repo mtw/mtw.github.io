@@ -20,9 +20,14 @@ RNA Bioinformatics Consulting Services
           <br/>
           </span>
 
-          <span class="m-landing-intro">I provide <strong>RNA bioinformatics support</strong> and <strong>consulting services</strong> in <strong>computational and structural RNA biology</strong> for the biotech and pharma industries. If the answer to any of the above questions is yes, feel free to get in touch at <a href="mailto:services@michaelwolfinger.com?subject=Consultancy inquiry">services@michaelwolfinger.com</a></span>
+
+        .. frame::
+
+              .. raw:: html
+
+                  <span class="m-landing-intro">I provide <strong>RNA bioinformatics support</strong> and <strong>consulting services</strong> in <strong>computational and structural RNA biology</strong> for the biotech and pharma industries. <br><br>If the answer to any of the above questions is yes, reach out at <a href="mailto:services@michaelwolfinger.com?subject=Consultancy inquiry">services@michaelwolfinger.com</a></span>
 
 
         ..
-            <li> Do you have a particular question or problem related to <strong>computational RNA biology</strong>? </li>
-            <li> Does your research require external input in <strong>RNA structural biology</strong>? </li>
+                    <li> Do you have a particular question or problem related to <strong>computational RNA biology</strong>? </li>
+                    <li> Does your research require external input in <strong>RNA structural biology</strong>? </li>
