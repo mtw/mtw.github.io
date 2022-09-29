@@ -1,9 +1,11 @@
 Papers
 ######
-:summary: Papers by Michael Thomas Wolfinger
+:summary: Publications by Michael T. Wolfinger
+:title: Publications by Michael T. Wolfinger
+:description: Journal publications, book chapters and preprints by Michael T. Wolfinger
+
 
 :breadcrumb: / Home
-             /publications/ Publications
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong

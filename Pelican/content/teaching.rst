@@ -1,12 +1,20 @@
 Teaching
 ########
 :summary: Teaching by Michael Thomas Wolfinger
+:title: Lecture and course directory
+:description: Summary of current and past courses I have given over the past few years at the University of Vienna
 
 :breadcrumb: / Home
 
 .. frame::
 
-    I am teaching bioinformatics and chemistry classes. This is a list of current and past courses that I gave over the last years at the `University of Vienna <http://www.univie.ac.at>`_ and the `FH Campus Wien <http://fh-campuswien.ac.at>`_ (FHCW - University of Applied Sciences).
+    I am teaching bioinformatics and chemistry classes. This is a list of current and past courses I have given over the past few years at the `University of Vienna <http://www.univie.ac.at>`_ and the `FH Campus Wien <http://fh-campuswien.ac.at>`_ (FHCW - University of Applied Sciences).
+
+
+`2022W`_
+--------
+
+- 270159 VU `Structure and Dynamics of Biopolymers (2022W) <https://ufind.univie.ac.at/en/course.html?lv=270159&semester=2022W>`_
 
 `2022S`_
 --------
@@ -17,7 +25,7 @@ Teaching
 `2021W`_
 --------
 
-- 270159 VU `Laboratory Course Structure and Dynamics of Biopolymers (2021W) <https://ufind.univie.ac.at/en/course.html?lv=270159&semester=2021W>`_
+- 270159 VU `Structure and Dynamics of Biopolymers (2021W) <https://ufind.univie.ac.at/en/course.html?lv=270159&semester=2021W>`_
 - 053531 PR `Software development project in Bioinformatics (2021W) <https://ufind.univie.ac.at/en/course.html?lv=053531&semester=2021W>`_
 
 `2021S`_

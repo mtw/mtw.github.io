@@ -1,21 +1,54 @@
 Contact
 #######
 :summary: Contact Michael Thomas Wolfinger
+:title: Contact Michael T. Wolfinger Bioinformatics
+:description: Contact details for Michael T. Wolfinger Bioinformatics | Get in touch
 
 :breadcrumb: / Home
 
-| Michael T. Wolfinger (michael.wolfinger@univie.ac.at)
-| University of Vienna
+.. role:: link-flat(link)
+  :class: m-flat m-text
+
+.. container:: m-row
+
+    .. container:: m-col-l-8 m-container-inflatable
+
+      .. block-default:: Michael T. Wolfinger
+
+          .. raw:: html
+
+              Bioinformatics and Computational Biology <br/>
+              Faculty of Computer Science <br/>
+              University of Vienna <br/>
+              Währinger Strasse 29 <br/>
+              1090 Vienna, Austria <br/>
+              <br/>
+              and <br/>
+              </br/>
+              Theoretical Biochemistry Group (TBI) <br/>
+              Department of Theoretical Chemistry <br/>
+              University of Vienna <br/>
+              Währinger Strasse 17 <br/>
+              1090 Vienna, Austria <br/>
+              <br/>
+              <a href="mailto:michael.wolfinger@univie.ac.at">Email</a> <br/>
 
 
-| Research Group Bioinformatics and Computational Biology
-| Faculty of Computer Science
-| Währinger Strasse 29
-| 1090 Vienna, Austria
+    .. container:: m-col-l-4 m-container-inflatable
 
-and
+      .. block-default:: Social
 
-| Theoretical Biochemistry Group (TBI)
-| Department of Theoretical Chemistry
-| Währinger Strasse 17
-| 1090 Vienna, Austria
+          .. raw:: html
+
+            <ul>
+              <li><a href="https://www.linkedin.com/in/michaelwolfinger/">LinkedIn</a></li>
+              <li><a href="https://twitter.com/mtwolfinger">Twitter</a></li>
+              <li><a href="https://www.researchgate.net/profile/Michael-Wolfinger">Researchgate</a></li>
+              <li><a href="https://scholar.google.at/citations?user=w0PHGnEAAAAJ">Google Scholar</a></li>
+              <li><a href="https://www.webofscience.com/wos/author/record/N-9538-2014">Web of Science</a></li>
+              <li><a href="https://www.scopus.com/authid/detail.uri?authorId=6508361997">Scopus</a></li>
+              <li><a href="https://loop.frontiersin.org/people/485709/overview">Loop</a>
+              <li><a href="https://orcid.org/0000-0003-0925-5205">ORCID</a></li>
+              <li><a href="https://github.com/mtw">Github</a></li>
+
+            </ul>
