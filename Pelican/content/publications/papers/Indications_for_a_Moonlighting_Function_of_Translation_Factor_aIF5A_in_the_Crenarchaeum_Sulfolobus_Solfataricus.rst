@@ -1,6 +1,8 @@
 Indications for a Moonlighting Function of Translation Factor aIF5A in the Crenarchaeum Sulfolobus Solfataricus
 ###############################################################################################################
 :summary: Indications for a Moonlighting Function of Translation Factor aIF5A in the Crenarchaeum Sulfolobus Solfataricus
+:title: A novel function of translation factor aIF5A in Sulfolobus solfataricus
+:description: Translation factor a/eIF5A, which is highly conserved in Eukarya and Archaea, appears to be a moonlighting protein that might be involved in protein synthesis as well as in RNA metabolism.
 
 
 :breadcrumb: / Home
@@ -42,4 +44,4 @@ Indications for a Moonlighting Function of Translation Factor aIF5A in the Crena
 
 Abstract
 ========
-Translation factor a/eIF5A is highly conserved in Eukarya and Archaea. The eukaryal eIF5A protein is required for transit of ribosomes across consecutive proline codons, whereas the function of the archaeal orthologue remains unknown. Here, we provide a first hint for an involvement of Sulfolobus solfataricus (Sso) aIF5A in translation. CRISPR-mediated knock down of the aif5A gene resulted in strong growth retardation, underlining a pivotal function. Moreover, in vitro studies revealed that Sso aIF5A is endowed with endoribonucleolytic activity. Thus, aIF5A appears to be a moonlighting protein that might be involved in protein synthesis as well as in RNA metabolism.
+Translation factor a/eIF5A is highly conserved in Eukarya and Archaea. The eukaryal eIF5A protein is required for transit of ribosomes across consecutive proline codons, whereas the function of the archaeal orthologue remains unknown. Here, we provide a first hint for an involvement of Sulfolobus solfataricus (Sso) aIF5A in translation. CRISPR-mediated knock down of the aIF5A gene resulted in strong growth retardation, underlining a pivotal function. Moreover, in vitro studies revealed that SSO aIF5A is endowed with endoribonucleolytic activity. Thus, aIF5A appears to be a moonlighting protein that might be involved in protein synthesis as well as in RNA metabolism.

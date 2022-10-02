@@ -1,6 +1,8 @@
 Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Variants That Alter RNA Structure in Chikungunya Virus
 ##################################################################################################################################
 :summary: Lineage-specific RNA structures in Chikungunya virus coding sequences displayed in a molecular epidemiology framework
+:title: Evidence for lineage-specific RNA structure formation in Chikungunya virus
+:description: In this paper we propose alternative RNA structure formation mediated by lineage-associated single nucleotide variants in Chikungunya virus.
 
 
 :breadcrumb: / Home

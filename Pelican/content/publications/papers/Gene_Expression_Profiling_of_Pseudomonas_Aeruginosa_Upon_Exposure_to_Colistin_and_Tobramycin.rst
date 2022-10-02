@@ -1,6 +1,8 @@
 Gene Expression Profiling of Pseudomonas Aeruginosa Upon Exposure to Colistin and Tobramycin
 ############################################################################################
-:summary: Gene Expression Profiling of Pseudomonas Aeruginosa Upon Exposure to Colistin and Tobramycin
+:summary: Gene Expression Profiling of Pseudomonas aeruginosa Upon Exposure to Colistin and Tobramycin
+:title: Gene response of Pseudomonas aeruginosa to last resort antibiotics
+:description:  Here, we have performed for the first time parallel transcriptome analyses and ribosome profiling in Pseudomonas aeruginosa, strain PA14, grown in synthetic cystic fibrosis medium upon exposure to polymyxin E (colistin) and tobramycin.
 
 
 :breadcrumb: / Home
