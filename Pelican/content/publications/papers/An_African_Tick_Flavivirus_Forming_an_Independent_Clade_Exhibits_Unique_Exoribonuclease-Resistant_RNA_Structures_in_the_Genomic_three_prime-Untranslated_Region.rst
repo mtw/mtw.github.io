@@ -2,6 +2,7 @@ An African Tick Flavivirus Forming an Independent Clade Exhibits Unique Exoribon
 ######################################################################################################################################################
 :summary: A novel tick-borne flavivirus from Africa that exhibits unique structural traits in the 3'UTR
 :title: Characterization of Mpulungu virus, a novel African tick-borne flavivirus
+:description: This study describes Mpulungu virus (MPFV), a novel tick-borne flavivirus discovered in a Rhipicephalus muhsamae tick in Zambia. 
 
 
 :breadcrumb: / Home

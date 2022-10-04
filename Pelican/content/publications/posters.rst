@@ -1,6 +1,8 @@
 Selected Posters
 ################
 :summary: Posters by Michael Thomas Wolfinger
+:title: Selected posters by Michael T. Wolfinger
+:description: Conference posters authored / co-authored by Michael T. Wolfinger
 
 :breadcrumb: / Home
 

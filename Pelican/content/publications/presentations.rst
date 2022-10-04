@@ -1,6 +1,8 @@
 Presentations
 #############
 :summary: Oral presentation and invited talks by Michael Thomas Wolfinger
+:title: Invited talks and oral presentation by Michael T. Wolfinger
+:description: Invited talks and oral presentation by Michael T. Wolfinger
 
 :breadcrumb: / Home
 

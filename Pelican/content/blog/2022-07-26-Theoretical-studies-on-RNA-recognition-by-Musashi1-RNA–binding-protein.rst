@@ -7,7 +7,8 @@ Theoretical studies on RNA recognition by Musashi 1 RNA-binding protein
 :category: publications
 :slug: Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein
 :author: mtw
-:summary: Here we studied the association complexes of Musashi1 with different RNA motifs, using molecular dynamics simulations
+:summary: In this contribution we study the association complexes of the RNA-binding protein Musashi 1 (MSI1) with different RNA motifs, using molecular dynamics simulations
+:description: Molecular Dynamics simulations of association complexes between the RNA-binding protein Musashi 1 (MSI1) and different RNA motifs 
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
