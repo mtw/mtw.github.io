@@ -2,14 +2,14 @@ Caveats to deep learning approaches to RNA secondary structure prediction
 #########################################################################
 
 :date: 2021-12-16
-:modified: 2022-09-27
+:modified: 2022-10-09
 :tags: ViennaRNA
 :category: publications
 :slug: Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction
 :author: mtw
 :title: Current deep learning approaches cannot predict RNA secondary structures
 :description: Published AI approaches for RNA structure prediction suffer from massively biased training sets, resulting in severely degraded prediction quality on arbitrary RNAs
-:summary: Machine learning of RNA structure is more challenging than you might think. Using synthetic data from ViennaRNA's RNAfold to study the capabilities and shortcomings of neural networks for RNA secondary structure prediction in a controlled setting, we argue that shortcomings in the artificial setting will translate to real data.
+:summary: Machine learning of RNA structure is more challenging than you might think. Using synthetic data from ViennaRNA's RNAfold to study the capabilities and shortcomings of neural networks for RNA secondary structure prediction in a controlled setting, we argue that shortcomings in the artificial setting will translate to real data
 
 Published AI approaches for RNA structure prediction suffer from massively biased training sets, resulting in severely degraded prediction quality on arbitrary RNAs. Using inverse RNA folding, i.e. generating sequences that are compatible with a given structure, we generate synthetic data with the same bias as published deep learning approaches. A network trained on this set performs well on sequences that have no sequence similarity but fold into structures contained in the training set. On sequences with unrelated structures performance falls drastically. Thus, the network generalizes well to new sequences, but not to new structures.
 
@@ -29,26 +29,29 @@ Read the full story in our article 'Caveats to Deep Learning Approaches to RNA S
 .. role:: doi(link)
   :class: doi
 
-.. block-default:: Abstract
+Abstract
+========
 
    Machine learning (ML) and in particular deep learning techniques have gained popularity for predicting structures from biopolymer sequences. An interesting case is the prediction of RNA secondary structures, where well established biophysics based methods exist. These methods even yield exact solutions under certain simplifying assumptions. Nevertheless, the accuracy of these classical methods is limited and has seen little improvement over the last decade. This makes it an attractive target for machine learning and consequently several deep learning models have been proposed in recent years. In this contribution we discuss limitations of current approaches, in particular due to biases in the training data. Furthermore, we propose to study capabilities and limitations of ML models by first applying them on synthetic data that can not only be generated in arbitrary amounts, but are also guaranteed to be free of biases. We apply this idea by testing several ML models of varying complexity. Finally, we show that the best models are capable of capturing many, but not all, properties of RNA secondary structures. Most severely, the number of predicted base pairs scales quadratically with sequence length, even though a secondary structure can only accommodate a linear number of pairs.
 
-.. block-info:: Reference
+Citation
+========
 
   | :link-flat-strong:`Caveats to deep learning approaches to RNA secondary structure prediction <https://doi.org/10.3389/fbinf.2022.835422>`
   | Christoph Flamm, Julia Wielach, :ul:`Michael T. Wolfinger`, Stefan Badelt, Ronny Lorenz, Ivo L. Hofacker
   | *Front. Bioinform.* 2:835422 (2022) | :doi:`doi:10.3389/fbinf.2022.835422 <https://doi.org/10.3389/fbinf.2022.835422>` | :link-flat:`PDF <{static}/files/papers/Flamm-2022.pdf>`
 
-.. block-info:: Citations
+..
+  .. block-info:: Citations
 
-    .. container:: m-label
+      .. container:: m-label
 
-        .. raw:: html
+          .. raw:: html
 
-          <span class="__dimensions_badge_embed__" data-doi="10.3389/fbinf.2022.835422" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+            <span class="__dimensions_badge_embed__" data-doi="10.3389/fbinf.2022.835422" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-    .. container:: m-label
+      .. container:: m-label
 
-        .. raw:: html
+          .. raw:: html
 
-          <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.3389/fbinf.2022.835422"></div>
+            <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.3389/fbinf.2022.835422"></div>

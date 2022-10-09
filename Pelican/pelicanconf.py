@@ -19,6 +19,8 @@ DEFAULT_LANG = 'en'
 
 THEME = 'pelican-theme'
 THEME_STATIC_DIR = 'static'
+THEME_STATIC_PATHS = ['static']
+
 DIRECT_TEMPLATES = ['index']
 
 FORMATTED_FIELDS = ['summary', 'landing', 'header', 'footer', 'description', 'badge']
@@ -33,8 +35,8 @@ PLUGINS = ['m.htmlsanity',
            'm.components',
            'm.link',
            'm.pelican_redirect',
-           'm.sitemap']
-#           'm.html_minify']
+           'm.sitemap',
+           'm.images']
 
 SITEMAP = {
     "format": "xml",
