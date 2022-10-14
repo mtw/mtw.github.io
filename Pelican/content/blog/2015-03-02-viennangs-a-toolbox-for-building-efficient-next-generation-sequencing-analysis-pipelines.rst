@@ -2,7 +2,7 @@ ViennaNGS: A toolbox for building efficient next-generation sequencing analysis 
 #########################################################################################
 
 :date: 2015-03-02
-:modified: 2022-10-01
+:modified: 2022-10-14
 :tags: NGS
 :category: publications
 :slug: ViennaNGS-a-toolbox-for-building-efficient-next-generation-sequencing-analysis-pipelines
@@ -37,30 +37,34 @@ splice junctions from RNA-seq data, parsing and condensing sequence motif data,
 automated construction of Assembly and Track Hubs for the UCSC genome browser
 and wrapper routines for a set of commonly used NGS command line tools.
 
+The ViennaNGS suite is available through :link-flat:`Github <https://github.com/mtw/Bio-ViennaNGS>` and :link-flat:`CPAN <https://metacpan.org/dist/Bio-ViennaNGS>`.
 
-The ViennaNGS suite is available through Github (https://github.com/mtw/Bio-ViennaNGS) and CPAN (http://search.cpan.org/dist/Bio-ViennaNGS).
+.. button-primary:: {static}/files/papers/Wolfinger-2015.pdf
 
+    Download PDF
 
-.. block-default:: Abstract
+.. frame:: Abstract
 
   Recent achievements in next-generation sequencing (NGS) technologies lead to a high demand for reuseable software components to easily compile customized analysis workflows for big genomics data. We present ViennaNGS, an integrated collection of Perl modules focused on building efficient pipelines for NGS data processing. It comes with functionality for extracting and converting features from common NGS file formats, computation and evaluation of read mapping statistics, as well as normalization of RNA abundance. Moreover, ViennaNGS provides software components for identification and characterization of splice junctions from RNA-seq data, parsing and condensing sequence motif data, automated construction of Assembly and Track Hubs for the UCSC genome browser, as well as wrapper routines for a set of commonly used NGS command line tools.
 
-.. block-info:: Reference
+Citation
+========
 
   | :link-flat-strong:`ViennaNGS: A toolbox for building efficient next-generation sequencing analysis pipelines <https://doi.org/10.12688/f1000research.6157.2>`
   | Michael T. Wolfinger, Jörg Fallmann, Florian Eggenhofer, Fabian Amman
   | *F1000Research* 4:50 (2015) | :doi:`doi: 10.12688/f1000research.6157.2 <https://doi.org/10.12688/f1000research.6157.2>` | :link-flat:`PDF <{static}/files/papers/Wolfinger-2015.pdf>`
 
-.. block-info:: Citations
+..
+  .. block-info:: Citations
 
-    .. container:: m-label
+      .. container:: m-label
 
-        .. raw:: html
+          .. raw:: html
 
-          <span class="__dimensions_badge_embed__" data-doi="10.12688/f1000research.6157.2" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+            <span class="__dimensions_badge_embed__" data-doi="10.12688/f1000research.6157.2" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-    .. container:: m-label
+      .. container:: m-label
 
-        .. raw:: html
+          .. raw:: html
 
-          <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.12688/f1000research.6157.2"></div>
+            <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.12688/f1000research.6157.2"></div>

@@ -26,10 +26,9 @@ We show that the TBEV 3′ architectural diversity is realized by a combination 
 .. role:: doi(link)
   :class: doi
 
-Abstract
-========
+.. button-primary:: {static}/files/papers/Kutschera-2022.pdf
 
-    Tick-borne encephalitis virus (TBEV) is the etiological agent of tick-borne encephalitis, an infectious disease of the central nervous system that is often associated with severe sequelae in humans. While TBEV is typically classified into three subtypes, recent evidence suggests a more varied range of TBEV subtypes and lineages that differ substantially in their 3’UTR architecture. Building on comparative genomics approaches and thermodynamic modelling, we characterize the TBEV 3’UTR structureome diversity and propose a unified picture of pervasive non-coding RNA (ncRNA) structure conservation. Moreover, we provide an updated phylogeny of TBEV, building on more than 220 publicly available complete genomes, and investigate the molecular epidemiology and phylodynamics with Nextstrain, a web-based visualization framework for real-time pathogen evolution.
+    Download PDF
 
 
 Figures and Data
@@ -39,12 +38,18 @@ Figures and Data
   :alt: Figures of the study
 
 
+.. frame:: Abstract
+
+    Tick-borne encephalitis virus (TBEV) is the etiological agent of tick-borne encephalitis, an infectious disease of the central nervous system that is often associated with severe sequelae in humans. While TBEV is typically classified into three subtypes, recent evidence suggests a more varied range of TBEV subtypes and lineages that differ substantially in their 3’UTR architecture. Building on comparative genomics approaches and thermodynamic modelling, we characterize the TBEV 3’UTR structureome diversity and propose a unified picture of pervasive non-coding RNA (ncRNA) structure conservation. Moreover, we provide an updated phylogeny of TBEV, building on more than 220 publicly available complete genomes, and investigate the molecular epidemiology and phylodynamics with Nextstrain, a web-based visualization framework for real-time pathogen evolution.
+
+
+
 Citation
 ========
 
   | :link-flat-strong:`Evolutionary traits of Tick-borne encephalitis virus: Pervasive non-coding RNA structure conservation and molecular epidemiology <https://doi.org/10.1093/ve/veac051>`
-  |  Lena S. Kutschera, Michael T. Wolfinger
-  |  *Virus Evol.* (8):1 veac051 (2022) | :doi:`doi: 10.1093/ve/veac051 <https://doi.org/10.1093/ve/veac051>` | :link-flat:`PDF <{static}/files/papers/Kutschera-2022.pdf>` |  :link-flat:`Supplementary data <{static}/files/papers/Kutschera-2022__SupplementaryData.pdf>`
+  | Lena S. Kutschera, Michael T. Wolfinger
+  | *Virus Evol.* (8):1 veac051 (2022) | :doi:`doi: 10.1093/ve/veac051 <https://doi.org/10.1093/ve/veac051>` | :link-flat:`PDF <{static}/files/papers/Kutschera-2022.pdf>` |  :link-flat:`Supplementary data <{static}/files/papers/Kutschera-2022__SupplementaryData.pdf>`
 
 ..
   .. block-info:: Citations

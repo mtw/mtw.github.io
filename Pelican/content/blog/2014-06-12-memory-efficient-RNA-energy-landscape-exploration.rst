@@ -2,7 +2,7 @@ Memory-efficient-RNA-energy-landscape-exploration
 #################################################
 
 :date: 2014-06-12
-:modified: 2022-09-27
+:modified: 2022-10-14
 :tags: energy landscapes
 :category: publications
 :slug: Memory-efficient-RNA-energy-landscape-exploration
@@ -39,7 +39,12 @@ We have recently extended previous work on global flooding by a local
 flooding approach that minimizes memory consumption and published the
 method in *Bioinformatics*.
 
-.. block-default:: Abstract
+.. button-primary:: {static}/files/papers/Mann-2014.pdf
+
+    Download PDF
+
+
+.. frame:: Abstract
 
     **Motivation:** Energy landscapes provide a valuable means for studying the
     folding dynamics of short RNA molecules in detail by modeling all
@@ -60,22 +65,24 @@ method in *Bioinformatics*.
     Landscape Library available at http://www.bioinf.uni-freiburg.de/Software/.
 
 
-.. block-info:: Reference
+Citation
+========
 
   | :link-flat-strong:`Memory-efficient RNA energy landscape exploration <http://bioinformatics.oxfordjournals.org/content/30/18/2584>`
   | Martin Mann, Marcel Kucharík, Christoph Flamm, Michael T. Wolfinger
   | *Bioinformatics* 30(18):2584-2591 (2014) | :doi:`doi: 10.1093/bioinformatics/btu337 <https://doi.org/10.1093/bioinformatics/btu337>` | :link-flat:`PDF <{static}/files/papers/Mann-2014.pdf>`
 
-.. block-info:: Citations
+..
+  .. block-info:: Citations
 
-  .. container:: m-label
+    .. container:: m-label
 
-      .. raw:: html
+        .. raw:: html
 
-        <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btu337" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+          <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btu337" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-  .. container:: m-label
+    .. container:: m-label
 
-      .. raw:: html
+        .. raw:: html
 
-        <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1093/bioinformatics/btu337"></div>
+          <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1093/bioinformatics/btu337"></div>

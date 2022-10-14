@@ -2,7 +2,7 @@ Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reve
 ################################################################################################################################################
 
 :date: 2022-06-23
-:modified: 2022-10-09
+:modified: 2022-10-14
 :tags: bacteria; NGS
 :category: publications
 :slug: Rewiring-of-Gene-Expression-in-Pseudomonas-aeruginosa
@@ -24,8 +24,11 @@ Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reve
 .. role:: doi(link)
   :class: doi
 
-Abstract
-========
+.. button-primary:: {static}/files/papers/Rozner-2022.pdf
+
+    Download PDF
+
+.. frame:: Abstract
 
     In Pseudomonas aeruginosa, the RNA chaperone Hfq and the catabolite repression protein Crc act in concert to regulate numerous genes during carbon catabolite repression (CCR). After alleviation of CCR, the RNA CrcZ sequesters Hfq/Crc, which leads to a rewiring of gene expression to ensure the consumption of less preferred carbon and nitrogen sources. Here, we performed a multiomics approach by assessing the transcriptome, translatome, and proteome in parallel in P. aeruginosa strain O1 during and after relief of CCR. As Hfq function is impeded by the RNA CrcZ upon relief of CCR, and Hfq is known to impact antibiotic susceptibility in P. aeruginosa, emphasis was laid on links between CCR and antibiotic susceptibility. To this end, we show that the mexGHI-opmD operon encoding an efflux pump for the antibiotic norfloxacin and the virulence factor 5-Methyl-phenazine is upregulated after alleviation of CCR, resulting in a decreased susceptibility to the antibiotic norfloxacin. A model for indirect regulation of the mexGHI-opmD operon by Hfq is presented.
 

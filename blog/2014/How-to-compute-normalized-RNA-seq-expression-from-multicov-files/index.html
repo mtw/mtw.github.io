@@ -72,36 +72,19 @@
       </header>
       <div class="m-clearfix-l"></div>
 <!-- content -->
-<aside class="m-block m-default">
-<h3>Abstract</h3>
-<p>Whenever it comes to analyzing RNA-seq experiments, there is a need for
-comparing expression data at a quantitative level. Consider a scenario
-where samples were taken from different conditions and subjected to
-Illumina sequencing. Whether those samples were multiplexed or sequenced on
-a single lane each, one generally gets a different number of raw reads from
-each sample, refelcting experimental and technical biases inherent in the
-RNA-seq protocols. Various measures for normalization of RNA-seq samples
-have been proposed, the most widely used being RPKM (reads per kilobase per
-million). While RPKM tries to account for different sequencing depth by
-normalizing by the number of reads sequenced in a specific sample, divided
-by 10^6, this very step causes a systematic bias, as has been shown here:</p>
-</aside>
-<aside class="m-block m-info">
-<h3>Reference</h3>
+<p>Whenever it comes to analyzing RNA-seq experiments, there is a need for comparing expression data at a quantitative level. Consider a scenario where samples were taken from different conditions and subjected to Illumina sequencing. Whether those samples were multiplexed or sequenced on a single lane each, one generally gets a different number of raw reads from each sample, refelcting experimental and technical biases inherent in the RNA-seq protocols. Various measures for normalization of RNA-seq samples have been proposed, the most widely used being RPKM (reads per kilobase per million). While RPKM tries to account for different sequencing depth by normalizing by the number of reads sequenced in a specific sample, divided by 10^6. This very step causes a systematic bias, as has been shown here:</p>
+<blockquote>
 <p>
 <a class="m-flat m-text m-strong" href="http://doi.org/10.1007/s12064-012-0162-3">Measurement of mRNA abundance using RNA-seq data: RPKM measure is inconsistent among samples</a><br />
 Günter P. Wagner, Koryu Kin, Vincent J. Lynch<br />
 <em>Theory Biosci.</em> 131, 281-285 (2012) | <a class="doi" href="https://doi.org/10.1007/s12064-012-0162-3">doi:10.1007/s12064-012-0162-3</a><br />
 </p>
-</aside>
-<aside class="m-block m-info">
-<h3>Reference</h3>
 <p>
 <a class="m-flat m-text m-strong" href="http://doi.org/10.1093/bioinformatics/btp692">RNA-Seq gene expression estimation with read mapping uncertainty</a><br />
 Bo Li, Victor Ruotti, Ron M. Stewart, James A. Thomson, Colin N. Dewey<br />
 <em>Bioinformatics</em> 6(4), 493-500. (2009) | <a class="doi" href="https://doi.org/10.1093/bioinformatics/btp692">doi:10.1093/bioinformatics/btp692</a><br />
 </p>
-</aside>
+</blockquote>
 <p>The central point of these papers is to work out an alternative measure for
 RNA-seq expression abundance that resembles as closely as possible the
 <em>relative molar concentration</em> (rmc) of each RNA species present in a
@@ -169,7 +152,7 @@ and get back a normalized multicov file of your samples in terms of
 TPM. That's all ...</p>
 <!-- /content -->
       <footer>
-        <p>Posted by Michael T. Wolfinger on <time datetime="2014-04-15T00:00:00+02:00">Tue 15 April 2014</time>. <span class="m-label m-success">updated <time datetime="2022-10-02T00:00:00+02:00">Sun 02 October 2022</time></span>
+        <p>Posted by Michael T. Wolfinger on <time datetime="2014-04-15T00:00:00+02:00">Tue 15 April 2014</time>. <span class="m-label m-success">updated <time datetime="2022-10-14T00:00:00+02:00">Fri 14 October 2022</time></span>
       </footer>
     </article>
     <nav class="m-navpanel m-col-m-2">

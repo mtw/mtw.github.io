@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Michael T. Wolfinger Bioinformatics</title><link href="https://michaelwolfinger.com/" rel="alternate"></link><link href="https://michaelwolfinger.com/feeds/all.atom.xml" rel="self"></link><id>https://michaelwolfinger.com/</id><updated>2022-10-14T00:00:00+02:00</updated><entry><title>Theoretical studies on RNA recognition by Musashi 1 RNA-binding protein</title><link href="https://michaelwolfinger.com/blog/2022/Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein/" rel="alternate"></link><published>2022-07-26T00:00:00+02:00</published><updated>2022-10-09T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2022-07-26:/blog/2022/Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein/</id><summary type="html">&lt;p&gt;In this contribution we study the association complexes of the RNA-binding protein Musashi 1 (MSI1) with different RNA motifs, using molecular dynamics simulations&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Michael T. Wolfinger Bioinformatics</title><link href="https://michaelwolfinger.com/" rel="alternate"></link><link href="https://michaelwolfinger.com/feeds/all.atom.xml" rel="self"></link><id>https://michaelwolfinger.com/</id><updated>2022-10-14T00:00:00+02:00</updated><entry><title>Theoretical studies on RNA recognition by Musashi 1 RNA-binding protein</title><link href="https://michaelwolfinger.com/blog/2022/Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein/" rel="alternate"></link><published>2022-07-26T00:00:00+02:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2022-07-26:/blog/2022/Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein/</id><summary type="html">&lt;p&gt;In this contribution we study the association complexes of the RNA-binding protein Musashi 1 (MSI1) with different RNA motifs, using molecular dynamics simulations&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;The RNA-binding protein Musashi1 (MSI1) is involved in the maintenance and self-renewal of neuronal progenitor and stem cells. Alongside its endogenous role, it has been shown to enhance the replication of Zika virus (ZIKV), suggesting a crucial role of MSI1:RNA complexes in ZIKV-induced neurotropism.&lt;/p&gt;
-&lt;p&gt;This paper uses computational modeling to study association complexes of the RNA-binding protein Musashi 1 (MSI1) with different target RNAs. MSI1 has two RNA-binding domains that exhibit different affinities to bind single-stranded #RNA molecules. Here, we investigate MSI1:RNA complexes using different RNA pentamer motifs, employing molecular dynamics simulations with binding free energy calculations.&lt;/p&gt;
-&lt;p&gt;Understanding these RNA-protein complexes is important to explain MSI1-mediated congenital neuropathology, such as microcephaly.&lt;/p&gt;
+&lt;p&gt;This paper uses computational modeling to study association complexes of the RNA-binding protein Musashi 1 (MSI1) with different target RNAs. MSI1 has two RNA-binding domains that exhibit different affinities to bind single-stranded #RNA molecules. Here, we investigate MSI1:RNA complexes using different RNA pentamer motifs, employing molecular dynamics simulations with binding free energy calculations. Understanding these RNA-protein complexes is important to explain MSI1-mediated congenital neuropathology, such as microcephaly.&lt;/p&gt;
 &lt;p&gt;Joint work with Thanyada Rungrotmongkol and Nitchakan Darai (Chulalongkorn University), as well as Peter Wolschann (Universität Wien)&lt;/p&gt;
-&lt;section id="abstract"&gt;
-&lt;h2&gt;Abstract&lt;/h2&gt;
-&lt;blockquote&gt;
-The Musashi (MSI) family of RNA-binding proteins, comprising the two homologs Musashi-1 (MSI1) and Musashi-2 (MSI2), typically regulates translation and is involved in cell proliferation and tumorigenesis. MSI proteins contain two ribonucleoprotein-like RNA-binding domains, RBD1 and RBD2, that bind single-stranded RNA motifs with a central UAG trinucleotide with high affinity and specificity. The finding that MSI also promotes the replication of Zika virus, a neurotropic Flavivirus, has triggered further investigations of the biochemical principles behind MSI–RNA interactions. However, a detailed molecular understanding of the specificity of MSI RBD1/2 interaction with RNA is still missing. Here, we performed computational studies of MSI1–RNA association complexes, investigating different RNA pentamer motifs using molecular dynamics simulations with binding free energy calculations based on the solvated interaction energy method. Simulations with Alphafold2 suggest that predicted MSI protein structures are highly similar to experimentally determined structures. The binding free energies show that two out of four RNA pentamers exhibit a considerably higher binding affinity to MSI1 RBD1 and RBD2, respectively. The obtained structural information on MSI1 RBD1 and RBD2 will be useful for a detailed functional and mechanistic understanding of this type of RNA–protein interactions.&lt;/blockquote&gt;
-&lt;/section&gt;
+&lt;div class="m-button m-primary"&gt;
+&lt;a href="https://michaelwolfinger.com/files/papers/Darai-2022.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
 &lt;section id="figures-and-data"&gt;
 &lt;h2&gt;Figures and Data&lt;/h2&gt;
 &lt;img alt="Figures of the study" class="m-image" src="https://michaelwolfinger.com/files/QuickSlide/QuickSlide__Darai-2022.gif" /&gt;
+&lt;aside class="m-frame"&gt;
+&lt;h3&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;The Musashi (MSI) family of RNA-binding proteins, comprising the two homologs Musashi-1 (MSI1) and Musashi-2 (MSI2), typically regulates translation and is involved in cell proliferation and tumorigenesis. MSI proteins contain two ribonucleoprotein-like RNA-binding domains, RBD1 and RBD2, that bind single-stranded RNA motifs with a central UAG trinucleotide with high affinity and specificity. The finding that MSI also promotes the replication of Zika virus, a neurotropic Flavivirus, has triggered further investigations of the biochemical principles behind MSI–RNA interactions. However, a detailed molecular understanding of the specificity of MSI RBD1/2 interaction with RNA is still missing. Here, we performed computational studies of MSI1–RNA association complexes, investigating different RNA pentamer motifs using molecular dynamics simulations with binding free energy calculations based on the solvated interaction energy method. Simulations with Alphafold2 suggest that predicted MSI protein structures are highly similar to experimentally determined structures. The binding free energies show that two out of four RNA pentamers exhibit a considerably higher binding affinity to MSI1 RBD1 and RBD2, respectively. The obtained structural information on MSI1 RBD1 and RBD2 will be useful for a detailed functional and mechanistic understanding of this type of RNA–protein interactions.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;/section&gt;
 &lt;section id="citation"&gt;
 &lt;h2&gt;Citation&lt;/h2&gt;
@@ -23,12 +24,14 @@ Nitchakan Darai, Panupong Mahalapbutr, Peter Wolschann, Vannajan Sanghiran Lee, 
 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/section&gt;
-</content><category term="publications"></category><category term="3D"></category></entry><entry><title>Rewiring of gene expression in Pseudomonas aeruginosa during diauxic growth</title><link href="https://michaelwolfinger.com/blog/2022/Rewiring-of-Gene-Expression-in-Pseudomonas-aeruginosa/" rel="alternate"></link><published>2022-06-23T00:00:00+02:00</published><updated>2022-10-09T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2022-06-23:/blog/2022/Rewiring-of-Gene-Expression-in-Pseudomonas-aeruginosa/</id><summary type="html">&lt;p&gt;Here we study carbon catabolite repression (CCR) and its impact on antibiotic susceptibility in Pseudomonas aeruginosa&lt;/p&gt;
-</summary><content type="html">&lt;section id="abstract"&gt;
-&lt;h2&gt;Abstract&lt;/h2&gt;
-&lt;blockquote&gt;
-In Pseudomonas aeruginosa, the RNA chaperone Hfq and the catabolite repression protein Crc act in concert to regulate numerous genes during carbon catabolite repression (CCR). After alleviation of CCR, the RNA CrcZ sequesters Hfq/Crc, which leads to a rewiring of gene expression to ensure the consumption of less preferred carbon and nitrogen sources. Here, we performed a multiomics approach by assessing the transcriptome, translatome, and proteome in parallel in P. aeruginosa strain O1 during and after relief of CCR. As Hfq function is impeded by the RNA CrcZ upon relief of CCR, and Hfq is known to impact antibiotic susceptibility in P. aeruginosa, emphasis was laid on links between CCR and antibiotic susceptibility. To this end, we show that the mexGHI-opmD operon encoding an efflux pump for the antibiotic norfloxacin and the virulence factor 5-Methyl-phenazine is upregulated after alleviation of CCR, resulting in a decreased susceptibility to the antibiotic norfloxacin. A model for indirect regulation of the mexGHI-opmD operon by Hfq is presented.&lt;/blockquote&gt;
-&lt;/section&gt;
+</content><category term="publications"></category><category term="3D"></category></entry><entry><title>Rewiring of gene expression in Pseudomonas aeruginosa during diauxic growth</title><link href="https://michaelwolfinger.com/blog/2022/Rewiring-of-Gene-Expression-in-Pseudomonas-aeruginosa/" rel="alternate"></link><published>2022-06-23T00:00:00+02:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2022-06-23:/blog/2022/Rewiring-of-Gene-Expression-in-Pseudomonas-aeruginosa/</id><summary type="html">&lt;p&gt;Here we study carbon catabolite repression (CCR) and its impact on antibiotic susceptibility in Pseudomonas aeruginosa&lt;/p&gt;
+</summary><content type="html">&lt;div class="m-button m-primary"&gt;
+&lt;a href="https://michaelwolfinger.com/files/papers/Rozner-2022.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;aside class="m-frame"&gt;
+&lt;h3&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;In Pseudomonas aeruginosa, the RNA chaperone Hfq and the catabolite repression protein Crc act in concert to regulate numerous genes during carbon catabolite repression (CCR). After alleviation of CCR, the RNA CrcZ sequesters Hfq/Crc, which leads to a rewiring of gene expression to ensure the consumption of less preferred carbon and nitrogen sources. Here, we performed a multiomics approach by assessing the transcriptome, translatome, and proteome in parallel in P. aeruginosa strain O1 during and after relief of CCR. As Hfq function is impeded by the RNA CrcZ upon relief of CCR, and Hfq is known to impact antibiotic susceptibility in P. aeruginosa, emphasis was laid on links between CCR and antibiotic susceptibility. To this end, we show that the mexGHI-opmD operon encoding an efflux pump for the antibiotic norfloxacin and the virulence factor 5-Methyl-phenazine is upregulated after alleviation of CCR, resulting in a decreased susceptibility to the antibiotic norfloxacin. A model for indirect regulation of the mexGHI-opmD operon by Hfq is presented.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;section id="citation"&gt;
 &lt;h2&gt;Citation&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -39,30 +42,32 @@ Marlena Rozner, Ella Nukarinen, &lt;span class="m-text m-ul"&gt;Michael T. Wolfi
 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/section&gt;
-</content><category term="publications"></category><category term="bacteria"></category><category term="NGS"></category></entry><entry><title>Japanese encephalitis virus genome cyclization is kinetically driven</title><link href="https://michaelwolfinger.com/blog/2022/Cyclization-studies-of-Japanese-encephalitis-virus-non-coding-RNA-terminal-regions/" rel="alternate"></link><published>2022-02-03T00:00:00+01:00</published><updated>2022-10-09T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2022-02-03:/blog/2022/Cyclization-studies-of-Japanese-encephalitis-virus-non-coding-RNA-terminal-regions/</id><summary type="html">&lt;p&gt;This study uses biophysical and bioinformatics methods to assess the long-range RNA-RNA interaction between terminal regions of Japanese encephalitis virus&lt;/p&gt;
-</summary><content type="html">&lt;section id="abstract"&gt;
-&lt;h2&gt;Abstract&lt;/h2&gt;
-&lt;blockquote&gt;
-Many flaviviruses such as Dengue and West Nile virus undergo essential long-range interactions of their 5’ and 3’ terminal regions (TRs), mediated by a conserved complementary cyclization sequence. However, we lack insights into such long-range interactions for the Japanese Encephalitis virus (JEV). Here, we utilized an extensive, multi-faceted approach involving computational and biophysical tools. We performed multi-angle light scattering (SEC-MALS) to determine absolute molecular weights of JEV TRs, and their complex concluding they form a 1:1 complex and corroborated this interaction using analytical ultracentrifugation (AUC). The microscale thermophoresis (MST) experiments demonstrated that the 5’ and 3’ TR of JEV interact with nM affinity, which is significantly reduced without the conserved cyclization sequence. To our knowledge, this is the first study representing the application of three key biophysical methods (AUC, MST and SEC-MALS) to study RNA-RNA interactions. Furthermore, we performed computational kinetic analyses corroborating our MST studies showing the essential role of the cyclization sequence in the RNA-RNA interaction. The binding affinity of this biologically critical event is a vital pharmacological feature that can influence potential competitive inhibition by therapeutics. This evidence can also influence pharmaceutical interventions aimed at inhibiting the conserved flavivirus cyclization, thus, interrupting replication across the flavivirus family.&lt;/blockquote&gt;
-&lt;/section&gt;
+</content><category term="publications"></category><category term="bacteria"></category><category term="NGS"></category></entry><entry><title>Japanese encephalitis virus genome cyclization is kinetically driven</title><link href="https://michaelwolfinger.com/blog/2022/Cyclization-studies-of-Japanese-encephalitis-virus-non-coding-RNA-terminal-regions/" rel="alternate"></link><published>2022-02-03T00:00:00+01:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2022-02-03:/blog/2022/Cyclization-studies-of-Japanese-encephalitis-virus-non-coding-RNA-terminal-regions/</id><summary type="html">&lt;p&gt;This study uses biophysical and bioinformatics methods to assess the long-range RNA-RNA interaction between terminal regions of Japanese encephalitis virus&lt;/p&gt;
+</summary><content type="html">&lt;div class="m-button m-primary"&gt;
+&lt;a href="https://michaelwolfinger.com/files/papers/Mrozovich-2022__PREPRINT.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;aside class="m-frame"&gt;
+&lt;h3&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Many flaviviruses such as Dengue and West Nile virus undergo essential long-range interactions of their 5’ and 3’ terminal regions (TRs), mediated by a conserved complementary cyclization sequence. However, we lack insights into such long-range interactions for the Japanese Encephalitis virus (JEV). Here, we utilized an extensive, multi-faceted approach involving computational and biophysical tools. We performed multi-angle light scattering (SEC-MALS) to determine absolute molecular weights of JEV TRs, and their complex concluding they form a 1:1 complex and corroborated this interaction using analytical ultracentrifugation (AUC). The microscale thermophoresis (MST) experiments demonstrated that the 5’ and 3’ TR of JEV interact with nM affinity, which is significantly reduced without the conserved cyclization sequence. To our knowledge, this is the first study representing the application of three key biophysical methods (AUC, MST and SEC-MALS) to study RNA-RNA interactions. Furthermore, we performed computational kinetic analyses corroborating our MST studies showing the essential role of the cyclization sequence in the RNA-RNA interaction. The binding affinity of this biologically critical event is a vital pharmacological feature that can influence potential competitive inhibition by therapeutics. This evidence can also influence pharmaceutical interventions aimed at inhibiting the conserved flavivirus cyclization, thus, interrupting replication across the flavivirus family.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;section id="citation"&gt;
 &lt;h2&gt;Citation&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;
 &lt;a class="m-flat m-text m-strong" href="https://doi.org/10.1101/2022.02.01.478553"&gt;Cyclization studies of Japanese encephalitis virus non-coding RNA terminal regions&lt;/a&gt;&lt;br /&gt;
-&lt;p&gt;
 Tyler Mrozowich,  Sean M. Park,  Maria Waldl,  Amy Henrickson,  Corey R. Nelson,  Borries Demeler,  Ivo L. Hofacker,  Michael T. Wolfinger, Trushar R. Patel&lt;br /&gt;
-&lt;/p&gt;
 &lt;em&gt;bioRxiv&lt;/em&gt; 2022.02.01.478553 (2022) | &lt;a class="doi" href="https://doi.org/10.1101/2022.02.01.478553"&gt;doi: 10.1101/2022.02.01.478553&lt;/a&gt; | &lt;a class="m-flat m-text" href="https://michaelwolfinger.com/files/papers/Mrozovich-2022__PREPRINT.pdf"&gt;Preprint PDF&lt;/a&gt;&lt;br /&gt;
 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/section&gt;
-</content><category term="publications"></category><category term="viruses"></category><category term="non-coding RNA"></category></entry><entry><title>Biophysical Characterisation of Human LincRNA-p21 Alu Inverted Repeats</title><link href="https://michaelwolfinger.com/blog/2022/Biophysical-Characterisation-of-Human-LincRNA-p21-Sense-and-Antisense-Alu-Inverted-Repeats/" rel="alternate"></link><published>2022-01-20T00:00:00+01:00</published><updated>2022-10-09T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2022-01-20:/blog/2022/Biophysical-Characterisation-of-Human-LincRNA-p21-Sense-and-Antisense-Alu-Inverted-Repeats/</id><summary type="html">&lt;p&gt;In this study we determine the tertiary structure of human LincRNA-p21 Alu Inverted Repeats with biophysical and computational approaches&lt;/p&gt;
-</summary><content type="html">&lt;section id="abstract"&gt;
-&lt;h2&gt;Abstract&lt;/h2&gt;
-&lt;blockquote&gt;
-Human Long Intergenic Noncoding RNA-p21 (LincRNA-p21) is a regulatory noncoding RNA that plays an important role in promoting apoptosis. LincRNA-p21 is also critical in down-regulating many p53 target genes through its interaction with a p53 repressive complex. The interaction between LincRNA-p21 and the repressive complex is likely dependent on the RNA tertiary structure. Previous studies have determined the two-dimensional secondary structures of the sense and antisense human LincRNA-p21 AluSx1 IRs using SHAPE. However, there were no insights into its three-dimensional structure. Therefore, we in vitro transcribed the sense and antisense regions of LincRNA-p21 AluSx1 Inverted Repeats (IRs) and performed analytical ultracentrifugation, size exclusion chromatography, light scattering, and small angle X-ray scattering (SAXS) studies. Based on these studies, we determined low-resolution, three-dimensional structures of sense and antisense LincRNA-p21. By adapting previously known two-dimensional information, we calculated their sense and antisense high-resolution models and determined that they agree with the low-resolution structures determined using SAXS. Thus, our integrated approach provides insights into the structure of LincRNA-p21 Alu IRs. Our study also offers a viable pipeline for combining the secondary structure information with biophysical and computational studies to obtain high-resolution atomistic models for long noncoding RNAs.&lt;/blockquote&gt;
-&lt;/section&gt;
+</content><category term="publications"></category><category term="viruses"></category><category term="non-coding RNA"></category></entry><entry><title>Biophysical characterisation of human lincRNA-p21 Alu inverted repeats</title><link href="https://michaelwolfinger.com/blog/2022/Biophysical-Characterisation-of-Human-LincRNA-p21-Sense-and-Antisense-Alu-Inverted-Repeats/" rel="alternate"></link><published>2022-01-20T00:00:00+01:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2022-01-20:/blog/2022/Biophysical-Characterisation-of-Human-LincRNA-p21-Sense-and-Antisense-Alu-Inverted-Repeats/</id><summary type="html">&lt;p&gt;In this study we determine the tertiary structure of human LincRNA-p21 Alu Inverted Repeats with biophysical and computational approaches&lt;/p&gt;
+</summary><content type="html">&lt;div class="m-button m-primary"&gt;
+&lt;a href="https://michaelwolfinger.com/files/papers/DSouza-2022.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;aside class="m-frame"&gt;
+&lt;h3&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Human Long Intergenic Noncoding RNA-p21 (LincRNA-p21) is a regulatory noncoding RNA that plays an important role in promoting apoptosis. LincRNA-p21 is also critical in down-regulating many p53 target genes through its interaction with a p53 repressive complex. The interaction between LincRNA-p21 and the repressive complex is likely dependent on the RNA tertiary structure. Previous studies have determined the two-dimensional secondary structures of the sense and antisense human LincRNA-p21 AluSx1 IRs using SHAPE. However, there were no insights into its three-dimensional structure. Therefore, we in vitro transcribed the sense and antisense regions of LincRNA-p21 AluSx1 Inverted Repeats (IRs) and performed analytical ultracentrifugation, size exclusion chromatography, light scattering, and small angle X-ray scattering (SAXS) studies. Based on these studies, we determined low-resolution, three-dimensional structures of sense and antisense LincRNA-p21. By adapting previously known two-dimensional information, we calculated their sense and antisense high-resolution models and determined that they agree with the low-resolution structures determined using SAXS. Thus, our integrated approach provides insights into the structure of LincRNA-p21 Alu IRs. Our study also offers a viable pipeline for combining the secondary structure information with biophysical and computational studies to obtain high-resolution atomistic models for long noncoding RNAs.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;section id="citation"&gt;
 &lt;h2&gt;Citation&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -77,36 +82,38 @@ Michael H. D’Souza, Tyler Mrozowich, Maulik D. Badmalia, Mitchell Geeraert, An
 &lt;/section&gt;
 </content><category term="publications"></category><category term="3D"></category><category term="non-coding RNA"></category></entry><entry><title>RNA secondary structure conservation and molecular epidemiology of TBEV</title><link href="https://michaelwolfinger.com/blog/2021/Evolutionary-traits-of-Tick-borne-encephalitis-virus-Pervasive-non-coding-RNA-structure-conservation-and-molecular-epidemiology/" rel="alternate"></link><published>2021-12-17T00:00:00+01:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2021-12-17:/blog/2021/Evolutionary-traits-of-Tick-borne-encephalitis-virus-Pervasive-non-coding-RNA-structure-conservation-and-molecular-epidemiology/</id><summary type="html">&lt;p&gt;In this paper, we study the molecular epidemiology and RNA structureome diversity of tick-borne encephalitis virus (TBEV). Moreover, we propose a unified picture of pervasive non-coding RNA structure conservation across all known TBEV subtypes&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;We show that the TBEV 3′ architectural diversity is realized by a combination of a restricted pool of eight structural and one non-structural element, suggesting that the observed 3′UTR variability is driven by structural, rather than sequence conservation.&lt;/p&gt;
-&lt;section id="abstract"&gt;
-&lt;h2&gt;Abstract&lt;/h2&gt;
-&lt;blockquote&gt;
-Tick-borne encephalitis virus (TBEV) is the etiological agent of tick-borne encephalitis, an infectious disease of the central nervous system that is often associated with severe sequelae in humans. While TBEV is typically classified into three subtypes, recent evidence suggests a more varied range of TBEV subtypes and lineages that differ substantially in their 3’UTR architecture. Building on comparative genomics approaches and thermodynamic modelling, we characterize the TBEV 3’UTR structureome diversity and propose a unified picture of pervasive non-coding RNA (ncRNA) structure conservation. Moreover, we provide an updated phylogeny of TBEV, building on more than 220 publicly available complete genomes, and investigate the molecular epidemiology and phylodynamics with Nextstrain, a web-based visualization framework for real-time pathogen evolution.&lt;/blockquote&gt;
-&lt;/section&gt;
+&lt;div class="m-button m-primary"&gt;
+&lt;a href="https://michaelwolfinger.com/files/papers/Kutschera-2022.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
 &lt;section id="figures-and-data"&gt;
 &lt;h2&gt;Figures and Data&lt;/h2&gt;
 &lt;img alt="Figures of the study" class="m-image" src="https://michaelwolfinger.com/files/QuickSlide/QuickSlide__Kutschera-2022__large.gif" /&gt;
+&lt;aside class="m-frame"&gt;
+&lt;h3&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Tick-borne encephalitis virus (TBEV) is the etiological agent of tick-borne encephalitis, an infectious disease of the central nervous system that is often associated with severe sequelae in humans. While TBEV is typically classified into three subtypes, recent evidence suggests a more varied range of TBEV subtypes and lineages that differ substantially in their 3’UTR architecture. Building on comparative genomics approaches and thermodynamic modelling, we characterize the TBEV 3’UTR structureome diversity and propose a unified picture of pervasive non-coding RNA (ncRNA) structure conservation. Moreover, we provide an updated phylogeny of TBEV, building on more than 220 publicly available complete genomes, and investigate the molecular epidemiology and phylodynamics with Nextstrain, a web-based visualization framework for real-time pathogen evolution.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;/section&gt;
 &lt;section id="citation"&gt;
 &lt;h2&gt;Citation&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;
 &lt;a class="m-flat m-text m-strong" href="https://doi.org/10.1093/ve/veac051"&gt;Evolutionary traits of Tick-borne encephalitis virus: Pervasive non-coding RNA structure conservation and molecular epidemiology&lt;/a&gt;&lt;br /&gt;
-&lt;p&gt;
 Lena S. Kutschera, Michael T. Wolfinger&lt;br /&gt;
 &lt;em&gt;Virus Evol.&lt;/em&gt; (8):1 veac051 (2022) | &lt;a class="doi" href="https://doi.org/10.1093/ve/veac051"&gt;doi: 10.1093/ve/veac051&lt;/a&gt; | &lt;a class="m-flat m-text" href="https://michaelwolfinger.com/files/papers/Kutschera-2022.pdf"&gt;PDF&lt;/a&gt; |  &lt;a class="m-flat m-text" href="https://michaelwolfinger.com/files/papers/Kutschera-2022__SupplementaryData.pdf"&gt;Supplementary data&lt;/a&gt;&lt;br /&gt;
 &lt;/p&gt;
-&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/section&gt;
-</content><category term="publications"></category><category term="viruses"></category><category term="non-coding RNA"></category></entry><entry><title>Current deep learning approaches cannot predict RNA secondary structures</title><link href="https://michaelwolfinger.com/blog/2021/Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction/" rel="alternate"></link><published>2021-12-16T00:00:00+01:00</published><updated>2022-10-09T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2021-12-16:/blog/2021/Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction/</id><summary type="html">&lt;p&gt;Machine learning of RNA structure is more challenging than you might think. Using synthetic data from ViennaRNA's RNAfold to study the capabilities and shortcomings of neural networks for RNA secondary structure prediction in a controlled setting, we argue that shortcomings in the artificial setting will translate to real data&lt;/p&gt;
+</content><category term="publications"></category><category term="viruses"></category><category term="non-coding RNA"></category></entry><entry><title>Current deep learning methods unable to predict RNA secondary structures</title><link href="https://michaelwolfinger.com/blog/2021/Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction/" rel="alternate"></link><published>2021-12-16T00:00:00+01:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2021-12-16:/blog/2021/Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction/</id><summary type="html">&lt;p&gt;Machine learning of RNA structure is more challenging than you might think. Using synthetic data from ViennaRNA's RNAfold to study the capabilities and shortcomings of neural networks for RNA secondary structure prediction in a controlled setting, we argue that shortcomings in the artificial setting will translate to real data&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;Published AI approaches for RNA structure prediction suffer from massively biased training sets, resulting in severely degraded prediction quality on arbitrary RNAs. Using inverse RNA folding, i.e. generating sequences that are compatible with a given structure, we generate synthetic data with the same bias as published deep learning approaches. A network trained on this set performs well on sequences that have no sequence similarity but fold into structures contained in the training set. On sequences with unrelated structures performance falls drastically. Thus, the network generalizes well to new sequences, but not to new structures.&lt;/p&gt;
 &lt;p&gt;Intriguingly, published deep learning methods on unbiased sets are not even capable of predicting correct RNA base pairing, a problem that is much simpler than the RNA folding problem. On top of that, BLSTMs predict pseudoknots and base triplets, although they do not occur in the ViennaRNA RNAfold ground truth.&lt;/p&gt;
 &lt;p&gt;Read the full story in our article 'Caveats to Deep Learning Approaches to RNA Secondary Structure Prediction', published in 'Frontiers in Bioinformatics'.&lt;/p&gt;
-&lt;section id="abstract"&gt;
-&lt;h2&gt;Abstract&lt;/h2&gt;
-&lt;blockquote&gt;
-Machine learning (ML) and in particular deep learning techniques have gained popularity for predicting structures from biopolymer sequences. An interesting case is the prediction of RNA secondary structures, where well established biophysics based methods exist. These methods even yield exact solutions under certain simplifying assumptions. Nevertheless, the accuracy of these classical methods is limited and has seen little improvement over the last decade. This makes it an attractive target for machine learning and consequently several deep learning models have been proposed in recent years. In this contribution we discuss limitations of current approaches, in particular due to biases in the training data. Furthermore, we propose to study capabilities and limitations of ML models by first applying them on synthetic data that can not only be generated in arbitrary amounts, but are also guaranteed to be free of biases. We apply this idea by testing several ML models of varying complexity. Finally, we show that the best models are capable of capturing many, but not all, properties of RNA secondary structures. Most severely, the number of predicted base pairs scales quadratically with sequence length, even though a secondary structure can only accommodate a linear number of pairs.&lt;/blockquote&gt;
-&lt;/section&gt;
+&lt;div class="m-button m-primary"&gt;
+&lt;a href="https://michaelwolfinger.com/files/papers/Flamm-2022.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;aside class="m-frame"&gt;
+&lt;h3&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Machine learning (ML) and in particular deep learning techniques have gained popularity for predicting structures from biopolymer sequences. An interesting case is the prediction of RNA secondary structures, where well established biophysics based methods exist. These methods even yield exact solutions under certain simplifying assumptions. Nevertheless, the accuracy of these classical methods is limited and has seen little improvement over the last decade. This makes it an attractive target for machine learning and consequently several deep learning models have been proposed in recent years. In this contribution we discuss limitations of current approaches, in particular due to biases in the training data. Furthermore, we propose to study capabilities and limitations of ML models by first applying them on synthetic data that can not only be generated in arbitrary amounts, but are also guaranteed to be free of biases. We apply this idea by testing several ML models of varying complexity. Finally, we show that the best models are capable of capturing many, but not all, properties of RNA secondary structures. Most severely, the number of predicted base pairs scales quadratically with sequence length, even though a secondary structure can only accommodate a linear number of pairs.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;section id="citation"&gt;
 &lt;h2&gt;Citation&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -117,36 +124,35 @@ Christoph Flamm, Julia Wielach, &lt;span class="m-text m-ul"&gt;Michael T. Wolfi
 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/section&gt;
-</content><category term="publications"></category><category term="ViennaRNA"></category></entry><entry><title>Functional RNA Structures in the 3'UTR of Mosquito-Borne Flaviviruses</title><link href="https://michaelwolfinger.com/blog/2021/Functional-RNA-Structures-in-the-3UTR-of-Mosquito-Borne-Flaviviruses/" rel="alternate"></link><published>2021-09-02T00:00:00+02:00</published><updated>2022-09-28T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2021-09-02:/blog/2021/Functional-RNA-Structures-in-the-3UTR-of-Mosquito-Borne-Flaviviruses/</id><summary type="html">&lt;p&gt;The 3'UTR of Mosquito-Borne Flaviviruses (MBFVs) contain evolutionarily conserved functional elements, such as exoribonuclease-resistant RNAs (xrRNAs), dumbbell elements or terminal stem-loops. Here we describe, annotate, and compare these elements within different serological groups of MBFVs.&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;Mosquito-Borne Flaviviruses cause millions of infections in humans and animals every year, rendering MBFVs a major public health threat.&lt;/p&gt;
-&lt;p&gt;Flaviviruses are enveloped, non-segmented single-stranded (+)-sense RNA viruses and consist of a single 5’-capped, non-polyadenylated RNA of approximately 10-12 kilobases in length, referred to as gRNA. The gRNA encodes a single open reading frame (ORF), which is flanked by highly structured untranslated regions (UTRs). The flavivirus UTRs are crucially involved in the regulation of the viral life cycle, and mediate processes such as genome cyclization, replication, and immune escape.&lt;/p&gt;
+</content><category term="publications"></category><category term="ViennaRNA"></category></entry><entry><title>Functional RNA structures in the 3'UTR of Mosquito-Borne Flaviviruses</title><link href="https://michaelwolfinger.com/blog/2021/Functional-RNA-Structures-in-the-3UTR-of-Mosquito-Borne-Flaviviruses/" rel="alternate"></link><published>2021-09-02T00:00:00+02:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2021-09-02:/blog/2021/Functional-RNA-Structures-in-the-3UTR-of-Mosquito-Borne-Flaviviruses/</id><summary type="html">&lt;p&gt;The 3'UTR of Mosquito-Borne Flaviviruses (MBFVs) contain evolutionarily conserved functional elements, such as exoribonuclease-resistant RNAs (xrRNAs), dumbbell elements or terminal stem-loops. In this contribution we describe, annotate, and compare these elements within different serological groups of MBFVs&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Mosquito-Borne Flaviviruses cause millions of infections in humans and animals every year, rendering MBFVs a major public health threat. Flaviviruses are enveloped, non-segmented single-stranded (+)-sense RNA viruses and consist of a single 5’-capped, non-polyadenylated RNA of approximately 10-12 kilobases in length, referred to as gRNA. The gRNA encodes a single open reading frame (ORF), which is flanked by highly structured untranslated regions (UTRs). The flavivirus UTRs are crucially involved in the regulation of the viral life cycle, and mediate processes such as genome cyclization, replication, and immune escape.&lt;/p&gt;
 &lt;p&gt;Mechanistically, these are regulated by evolutionarily conserved RNA elements in the flavivirus UTRs. An example are exoribonuclease-resistant RNAs (xrRNAs), that stall endogenous host exoribonucleases like Xrn1, thereby prohibiting further Xrn1 progression towards the viral 3’ end and thus conferring quantitative protection of downstream nucleotides. While xrRNAs are among the best studied viral non-coding RNAs (ncRNAs), MBFVs harbor many conserved RNAs of unknown function in their UTRs.&lt;/p&gt;
-&lt;p&gt;To get a better picture and understanding of RNA structure conservation in MBFVs, we report in this book chapter the results of a comparative genomics screen in the 3'UTR of all known Mosquito-Borne Flaviviruses.&lt;/p&gt;
-&lt;aside class="m-block m-default"&gt;
+&lt;p&gt;To get a better picture and understanding of RNA structure conservation in MBFVs, we report here the results of a comparative genomics screen in the 3'UTR of all known Mosquito-Borne Flaviviruses.&lt;/p&gt;
+&lt;div class="m-button m-primary"&gt;
+&lt;a href="https://michaelwolfinger.com/files/papers/Wolfinger-2021.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;aside class="m-frame"&gt;
 &lt;h3&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Recent experimental evidence revealed a thorough understanding of the involvement of functional RNA elements in the 3’ untranslated regions (UTRs) of flaviviruses with virus tropism. Comparative genomics and thermodynamic modelling allow for the prediction and functional characterization of homologous structures in phylogenetically related viruses. We provide here a comprehensive overview of evolutionarily conserved RNAs in the 3’UTRs of mosquito-borne flaviviruses.&lt;/p&gt;
 &lt;/aside&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Reference&lt;/h3&gt;
+&lt;section id="citation"&gt;
+&lt;h2&gt;Citation&lt;/h2&gt;
+&lt;blockquote&gt;
 &lt;p&gt;
 &lt;a class="m-flat m-text m-strong" href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003097679-5/functional-rna-structures-3%E2%80%B2-utr-mosquito-borne-flaviviruses-michael-wolfinger-roman-ochsenreiter-ivo-hofacker"&gt;Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses&lt;/a&gt;&lt;br /&gt;
 Michael T. Wolfinger, Roman Ochsenreiter, Ivo L. Hofacker&lt;br /&gt;
 In &lt;em&gt;Virus Bioinformatics&lt;/em&gt;, edited by Dmitrij Frishman and Manja Marz, pp65–100. Chapman and Hall/CRC Press (2021) | &lt;a class="doi" href="https://doi.org/10.1201/9781003097679-5"&gt;doi: 10.1201/9781003097679-5&lt;/a&gt; | &lt;a class="m-flat m-text" href="https://michaelwolfinger.com/files/papers/Wolfinger-2021.pdf"&gt;PDF&lt;/a&gt;&lt;br /&gt;
 &lt;/p&gt;
-&lt;/aside&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Citations&lt;/h3&gt;
-&lt;div class="m-label"&gt;
-&lt;span class="__dimensions_badge_embed__" data-doi="10.1201/9781003097679-5" data-style="small_rectangle"&gt;&lt;/span&gt;&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/div&gt;
-&lt;div class="m-label"&gt;
-&lt;script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"&gt;&lt;/script&gt;&lt;div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1201/9781003097679-5"&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;/aside&gt;
-</content><category term="publications"></category><category term="viruses"></category><category term="non-coding RNA"></category></entry><entry><title>Secondary and tertiary structure of the BVDV Internal Ribosome Entry Site</title><link href="https://michaelwolfinger.com/blog/2021/Insights-into-the-secondary-and-tertiary-structure-of-the-Bovine-Viral-Diarrhea-Virus-Internal-Ribosome-Entry-Site/" rel="alternate"></link><published>2021-05-15T00:00:00+02:00</published><updated>2022-10-09T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2021-05-15:/blog/2021/Insights-into-the-secondary-and-tertiary-structure-of-the-Bovine-Viral-Diarrhea-Virus-Internal-Ribosome-Entry-Site/</id><summary type="html">&lt;p&gt;Here we characterize a pseudoknot in the 5'UTR Internal Ribosome Entry Site (IRES) of Bovine Viral Diarrhea Virus (BVDV) using SHAPE-guided RNA structure probing and computational modelling of secondary and tertiary structures&lt;/p&gt;
-</summary><content type="html">&lt;section id="abstract"&gt;
-&lt;h2&gt;Abstract&lt;/h2&gt;
-&lt;blockquote&gt;
-The Internal Ribosome Entry Site (IRES) RNA of Bovine viral diarrhea virus (BVDV), an economically significant Pestivirus, is required for the cap-independent translation of viral genomic RNA. Thus, it is essential for viral replication and pathogenesis. We applied a combination of high-throughput biochemical RNA structure probing (SHAPE-MaP) and in silico modeling approaches to gain insight into the secondary and tertiary structures of BVDV IRES RNA. Our study demonstrated that BVDV IRES RNA forms in solution a modular architecture composed of three distinct structural domains (I-III). Two regions within domain III are engaged in tertiary interactions to form an H-type pseudoknot. Computational modeling of the pseudoknot motif provided a fine-grained picture of the tertiary structure and local arrangement of helices in the BVDV IRES. Furthermore, comparative genomics and consensus structure predictions revealed that the pseudoknot is evolutionarily conserved among many Pestivirus species. These studies provide detailed insight into the structural arrangement of BVDV IRES RNA H-type pseudoknot and encompassing motifs that likely contribute to the optimal functionality of viral cap-independent translation element.&lt;/blockquote&gt;
+&lt;/blockquote&gt;
 &lt;/section&gt;
+</content><category term="publications"></category><category term="viruses"></category><category term="non-coding RNA"></category></entry><entry><title>Secondary and tertiary structure of the BVDV Internal Ribosome Entry Site</title><link href="https://michaelwolfinger.com/blog/2021/Insights-into-the-secondary-and-tertiary-structure-of-the-Bovine-Viral-Diarrhea-Virus-Internal-Ribosome-Entry-Site/" rel="alternate"></link><published>2021-05-15T00:00:00+02:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2021-05-15:/blog/2021/Insights-into-the-secondary-and-tertiary-structure-of-the-Bovine-Viral-Diarrhea-Virus-Internal-Ribosome-Entry-Site/</id><summary type="html">&lt;p&gt;Here we characterize a pseudoknot in the 5'UTR Internal Ribosome Entry Site (IRES) of Bovine Viral Diarrhea Virus (BVDV) using SHAPE-guided RNA structure probing and computational modelling of secondary and tertiary structures&lt;/p&gt;
+</summary><content type="html">&lt;div class="m-button m-primary"&gt;
+&lt;a href="https://michaelwolfinger.com/files/papers/Gosavi-2022.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;aside class="m-frame"&gt;
+&lt;h3&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;The Internal Ribosome Entry Site (IRES) RNA of Bovine viral diarrhea virus (BVDV), an economically significant Pestivirus, is required for the cap-independent translation of viral genomic RNA. Thus, it is essential for viral replication and pathogenesis. We applied a combination of high-throughput biochemical RNA structure probing (SHAPE-MaP) and in silico modeling approaches to gain insight into the secondary and tertiary structures of BVDV IRES RNA. Our study demonstrated that BVDV IRES RNA forms in solution a modular architecture composed of three distinct structural domains (I-III). Two regions within domain III are engaged in tertiary interactions to form an H-type pseudoknot. Computational modeling of the pseudoknot motif provided a fine-grained picture of the tertiary structure and local arrangement of helices in the BVDV IRES. Furthermore, comparative genomics and consensus structure predictions revealed that the pseudoknot is evolutionarily conserved among many Pestivirus species. These studies provide detailed insight into the structural arrangement of BVDV IRES RNA H-type pseudoknot and encompassing motifs that likely contribute to the optimal functionality of viral cap-independent translation element.&lt;/p&gt;
+&lt;/aside&gt;
 &lt;section id="citation"&gt;
 &lt;h2&gt;Citation&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -157,68 +163,62 @@ Devadatta Gosavi, Iwona Wower, Irene K Beckmann, Ivo L Hofacker, Jacek Wower, &l
 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/section&gt;
-</content><category term="publications"></category><category term="3D"></category><category term="SHAPE"></category><category term="viruses"></category><category term="non-coding RNA"></category></entry><entry><title>Searching for Telomerase RNAs in Saccharomycetes is TERribly Difficult</title><link href="https://michaelwolfinger.com/blog/2018/TERribly-Difficult-Searching-for-Telomerase-RNAs-in-Saccharomycetes/" rel="alternate"></link><published>2018-07-26T00:00:00+02:00</published><updated>2022-09-27T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2018-07-26:/blog/2018/TERribly-Difficult-Searching-for-Telomerase-RNAs-in-Saccharomycetes/</id><summary type="html">&lt;p&gt;Telomerase RNAs are intrinsically difficult to find by homology search methods, even within phylogenetically related groups. This study reports our efforts in annotating telomerase RNAs in the Saccharomycetacea subgroup of yeasts, using the ViennaRNA Package and related tools&lt;/p&gt;
-</summary><content type="html">&lt;aside class="m-block m-default"&gt;
+</content><category term="publications"></category><category term="3D"></category><category term="SHAPE"></category><category term="viruses"></category><category term="non-coding RNA"></category></entry><entry><title>Searching for Telomerase RNAs in Saccharomycetes is TERribly difficult</title><link href="https://michaelwolfinger.com/blog/2018/TERribly-Difficult-Searching-for-Telomerase-RNAs-in-Saccharomycetes/" rel="alternate"></link><published>2018-07-26T00:00:00+02:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2018-07-26:/blog/2018/TERribly-Difficult-Searching-for-Telomerase-RNAs-in-Saccharomycetes/</id><summary type="html">&lt;p&gt;Telomerase RNAs are intrinsically difficult to find by homology search methods, even within phylogenetically related groups. This study reports our efforts in annotating telomerase RNAs in the Saccharomycetacea subgroup of yeasts, using the ViennaRNA Package and related tools&lt;/p&gt;
+</summary><content type="html">&lt;div class="m-button m-primary"&gt;
+&lt;a href="https://michaelwolfinger.com/files/papers/Waldl-2018.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;aside class="m-frame"&gt;
 &lt;h3&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;The telomerase RNA in yeasts is large, usually &amp;gt;1000 nt, and contains functional elements that have been extensively studied experimentally in several disparate species. Nevertheless, they are very difficult to detect by homology-based methods and so far have escaped annotation in the majority of the genomes of Saccharomycotina. This is a consequence of sequences that evolve rapidly at nucleotide level, are subject to large variations in size, and are highly plastic with respect to their secondary structures. Here, we report on a survey that was aimed at closing this gap in RNA annotation. Despite considerable efforts and the combination of a variety of different methods, it was only partially successful. While 27 new telomerase RNAs were identified, we had to restrict our efforts to the subgroup Saccharomycetacea because even this narrow subgroup was diverse enough to require different search models for different phylogenetic subgroups. More distant branches of the Saccharomycotina remain without annotated telomerase RNA.&lt;/p&gt;
 &lt;/aside&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Reference&lt;/h3&gt;
+&lt;section id="citation"&gt;
+&lt;h2&gt;Citation&lt;/h2&gt;
+&lt;blockquote&gt;
 &lt;p&gt;
 &lt;a class="m-flat m-text m-strong" href="https://doi.org/10.3390/genes9080372"&gt;TERribly Difficult: Searching for Telomerase RNAs in Saccharomycetes&lt;/a&gt;&lt;br /&gt;
 Maria Waldl, Bernhard C. Thiel, Roman Ochsenreiter, Alexander Holzenleiter, João Victor de Araujo Oliveira, Maria Emília M.T. Walter, Michael T. Wolfinger, Peter F. Stadler&lt;br /&gt;
 &lt;em&gt;Genes&lt;/em&gt; 9(8),372 (2018) | &lt;a class="doi" href="https://doi.org/10.3390/genes9080372"&gt;doi: 10.3390/genes9080372&lt;/a&gt; | &lt;a class="m-flat m-text" href="https://michaelwolfinger.com/files/papers/Waldl-2018.pdf"&gt;PDF&lt;/a&gt;&lt;br /&gt;
 &lt;/p&gt;
-&lt;/aside&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Citations&lt;/h3&gt;
-&lt;div class="m-label"&gt;
-&lt;span class="__dimensions_badge_embed__" data-doi="10.3390/genes9080372" data-style="small_rectangle"&gt;&lt;/span&gt;&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/div&gt;
-&lt;div class="m-label"&gt;
-&lt;script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"&gt;&lt;/script&gt;&lt;div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.3390/genes9080372"&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;/aside&gt;
-</content><category term="publications"></category><category term="non-coding RNA"></category></entry><entry><title>Modeling co-transcriptional riboswitch folding under kinetic control</title><link href="https://michaelwolfinger.com/blog/2018/Efficient-Computation-of-Cotranscriptional-RNA-Ligand-Interaction-Dynamics/" rel="alternate"></link><published>2018-07-01T00:00:00+02:00</published><updated>2022-09-25T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2018-07-01:/blog/2018/Efficient-Computation-of-Cotranscriptional-RNA-Ligand-Interaction-Dynamics/</id><summary type="html">&lt;p&gt;Using the 2'dG riboswitch as an example this study explains how co-transcriptional folding under kinetic control can be efficiently modeled with ViennaRNA tools&lt;/p&gt;
-</summary><content type="html">&lt;aside class="m-block m-default"&gt;
+&lt;/blockquote&gt;
+&lt;/section&gt;
+</content><category term="publications"></category><category term="non-coding RNA"></category></entry><entry><title>Co-transcriptional riboswitch modleing with ViennaRNA</title><link href="https://michaelwolfinger.com/blog/2018/Efficient-Computation-of-Cotranscriptional-RNA-Ligand-Interaction-Dynamics/" rel="alternate"></link><published>2018-07-01T00:00:00+02:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2018-07-01:/blog/2018/Efficient-Computation-of-Cotranscriptional-RNA-Ligand-Interaction-Dynamics/</id><summary type="html">&lt;p&gt;Using the 2'dG riboswitch as an example this study explains how co-transcriptional folding under kinetic control can be efficiently modeled with ViennaRNA tools&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;This article focuses on the design rules for de-novo or re-design of riboswitches in synthetic biology applications. We present an efficient approach for the computational prediction of co-transcriptional RNA riboswitch folding in the presence of a ligand. Using the I-A 2’-deoxyguanosine (2’dG)-sensing riboswitch from Mesoplasma florum, which has recently been studied by NMR spectroscopy, as an example we show that our results are in good agreement with experimental data. Computational predictions yield substantial mechanistic insight, allowing us not only to understand natural riboswitches on a mechanistic level but also to perform systematic in silico screening and analysis of novel designs before expensive experimental validation.&lt;/p&gt;
+&lt;div class="m-button m-primary"&gt;
+&lt;a href="https://michaelwolfinger.com/files/papers/Wolfinger-2018__PREPRINT.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;aside class="m-frame"&gt;
 &lt;h3&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Riboswitches form an abundant class of cis-regulatory RNA elements that mediate gene expression by binding a small metabolite. For synthetic biology applications, they are becoming cheap and accessible systems for selectively triggering transcription or translation of downstream genes. Many riboswitches are kinetically controlled, hence knowledge of their co-transcriptional mechanisms is essential. We present here an efficient implementation for analyzing co-transcriptional RNA-ligand interaction dynamics. This approach allows for the first time to model concentration-dependent metabolite binding/unbinding kinetics. We exemplify this novel approach by means of the recently studied I-A 2′-deoxyguanosine (2′dG)-sensing riboswitch from Mesoplasma florum.&lt;/p&gt;
 &lt;/aside&gt;
-&lt;p&gt;This article focuses on the design rules for de-novo or re-design of riboswitches in synthetic biology applications. We present an efficient approach for the computational prediction of co-transcriptional RNA riboswitch folding in the presence of a ligand. Using the I-A 2’-deoxyguanosine (2’dG)-sensing riboswitch from Mesoplasma florum, which has recently been studied by NMR spectroscopy, as an example we show that our results are in good agreement with experimental data. Computational predictions yield substantial mechanistic insight, allowing us not only to understand natural riboswitches on a mechanistic level but also to perform systematic in silico screening and analysis of novel designs before expensive experimental validation.&lt;/p&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Reference&lt;/h3&gt;
+&lt;section id="citation"&gt;
+&lt;h2&gt;Citation&lt;/h2&gt;
+&lt;blockquote&gt;
 &lt;p&gt;
 &lt;a class="m-flat m-text m-strong" href="https://doi.org/10.1016/j.ymeth.2018.04.036"&gt;Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics&lt;/a&gt;&lt;br /&gt;
 Michael T. Wolfinger, Christoph Flamm, Ivo L. Hofacker&lt;br /&gt;
 &lt;em&gt;Methods&lt;/em&gt; 143:70–76 (2018) | &lt;a class="doi" href="https://doi.org/10.1016/j.ymeth.2018.04.036"&gt;doi: 10.1016/j.ymeth.2018.04.036&lt;/a&gt; | &lt;a class="m-flat m-text" href="https://michaelwolfinger.com/files/papers/Wolfinger-2018__PREPRINT.pdf"&gt;PDF&lt;/a&gt;&lt;br /&gt;
 &lt;/p&gt;
-&lt;/aside&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Citations&lt;/h3&gt;
-&lt;div class="m-label"&gt;
-&lt;span class="__dimensions_badge_embed__" data-doi="10.1016/j.ymeth.2018.04.036" data-style="small_rectangle"&gt;&lt;/span&gt;&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/div&gt;
-&lt;div class="m-label"&gt;
-&lt;script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"&gt;&lt;/script&gt;&lt;div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1016/j.ymeth.2018.04.036"&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;/aside&gt;
-</content><category term="publications"></category><category term="energy landscapes"></category><category term="RNA kinetics"></category><category term="bacteria"></category><category term="ViennaRNA"></category></entry><entry><title>In Silico Design of Ligand Triggered RNA Switches</title><link href="https://michaelwolfinger.com/blog/2018/In-Silico-Design-of-Ligand-Triggered-RNA-Switches/" rel="alternate"></link><published>2018-07-01T00:00:00+02:00</published><updated>2022-10-04T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2018-07-01:/blog/2018/In-Silico-Design-of-Ligand-Triggered-RNA-Switches/</id><summary type="html">&lt;p&gt;A step-by-step guide to designing ligand-inducible RNA switches&lt;/p&gt;
-</summary><content type="html">&lt;aside class="m-block m-default"&gt;
+&lt;/blockquote&gt;
+&lt;/section&gt;
+</content><category term="publications"></category><category term="energy landscapes"></category><category term="RNA kinetics"></category><category term="bacteria"></category><category term="ViennaRNA"></category></entry><entry><title>In silico design of ligand triggered RNA switches</title><link href="https://michaelwolfinger.com/blog/2018/In-Silico-Design-of-Ligand-Triggered-RNA-Switches/" rel="alternate"></link><published>2018-07-01T00:00:00+02:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2018-07-01:/blog/2018/In-Silico-Design-of-Ligand-Triggered-RNA-Switches/</id><summary type="html">&lt;p&gt;A step-by-step guide to designing ligand-inducible RNA switches&lt;/p&gt;
+</summary><content type="html">&lt;div class="m-button m-primary"&gt;
+&lt;a href="https://michaelwolfinger.com/files/papers/Findeiss-2018__PREPRINT.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;aside class="m-frame"&gt;
 &lt;h3&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;This contribution sketches a work flow to design an RNA switch that is able to adapt two structural conformations in a ligand-dependent way. A well characterized RNA aptamer, i.e., knowing its Kd and adaptive structural features, is an essential ingredient of the described design process. We exemplify the principles using the well-known theophylline aptamer throughout this work. The aptamer in its ligand-binding competent structure represents one structural conformation of the switch while an alternative fold that disrupts the binding-competent structure forms the other conformation. To keep it simple we do not incorporate any regulatory mechanism to control transcription or translation. We elucidate a commonly used design process by explicitly dissecting and explaining the necessary steps in detail. We developed a novel objective function which specifies the mechanistics of this simple, ligand-triggered riboswitch and describe an extensive in silico analysis pipeline to evaluate important kinetic properties of the designed sequences. This protocol and the developed software can be easily extended or adapted to fit novel design scenarios and thus can serve as a template for future needs.&lt;/p&gt;
 &lt;/aside&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Reference&lt;/h3&gt;
+&lt;section id="citation"&gt;
+&lt;h2&gt;Citation&lt;/h2&gt;
+&lt;blockquote&gt;
 &lt;p&gt;
 &lt;a class="m-flat m-text m-strong" href="https://doi.org/10.1016/j.ymeth.2018.04.003"&gt;In silico design of ligand triggered RNA switches&lt;/a&gt;&lt;br /&gt;
 Sven Findeiß, Stefan Hammer, Michael T. Wolfinger, Felix Kühnl, Christoph Flamm, Ivo L.Hofacker&lt;br /&gt;
 &lt;em&gt;Methods&lt;/em&gt; 143:90-101 (2018) | &lt;a class="doi" href="https://doi.org/10.1016/j.ymeth.2018.04.003"&gt;doi: 10.1016/j.ymeth.2018.04.003&lt;/a&gt; | &lt;a class="m-flat m-text" href="https://michaelwolfinger.com/files/papers/Findeiss-2018__PREPRINT.pdf"&gt;Preprint PDF&lt;/a&gt;&lt;br /&gt;
 &lt;/p&gt;
-&lt;/aside&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Citations&lt;/h3&gt;
-&lt;div class="m-label"&gt;
-&lt;span class="__dimensions_badge_embed__" data-doi="10.1016/j.ymeth.2018.04.003" data-style="small_rectangle"&gt;&lt;/span&gt;&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/div&gt;
-&lt;div class="m-label"&gt;
-&lt;script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"&gt;&lt;/script&gt;&lt;div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1016/j.ymeth.2018.04.003"&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;/aside&gt;
-</content><category term="publications"></category><category term="energy landscapes"></category><category term="RNA kinetics"></category><category term="RNA design"></category></entry><entry><title>SHAPE directed RNA folding with the ViennaRNA Package</title><link href="https://michaelwolfinger.com/blog/2015/SHAPE-directed-RNA-folding/" rel="alternate"></link><published>2015-09-02T00:00:00+02:00</published><updated>2022-09-27T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2015-09-02:/blog/2015/SHAPE-directed-RNA-folding/</id><summary type="html">&lt;p&gt;The ViennaRNA Package supports three published approaches for SHAPE-guided RNA structure prediction. Here we evaluate and compare the methods by Deigan, Zarringhalam, and Washietl.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/section&gt;
+</content><category term="publications"></category><category term="energy landscapes"></category><category term="RNA kinetics"></category><category term="RNA design"></category></entry><entry><title>SHAPE directed RNA folding with the ViennaRNA Package</title><link href="https://michaelwolfinger.com/blog/2015/SHAPE-directed-RNA-folding/" rel="alternate"></link><published>2015-09-02T00:00:00+02:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2015-09-02:/blog/2015/SHAPE-directed-RNA-folding/</id><summary type="html">&lt;p&gt;The ViennaRNA Package supports three published approaches for SHAPE-guided RNA structure prediction. Here we evaluate and compare the methods by Deigan, Zarringhalam, and Washietl&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;With the advent of efficient strategies for experimental RNA structure
 validation, especially combination of chemical probing with next-generation
 sequencing technologies, came demand to couple experimental data,
@@ -232,9 +232,12 @@ structures.&lt;/p&gt;
 &lt;p&gt;Don't miss the &lt;a href="http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523/suppl/DC1"&gt;Supplementary Data&lt;/a&gt;
 since it contains extensive coverage of the applied benchmark strategies
 and lots of background information.&lt;/p&gt;
-&lt;aside class="m-block m-default"&gt;
+&lt;div class="m-button m-primary"&gt;
+&lt;a href="https://michaelwolfinger.com/files/papers/Lorenz-2016a.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;aside class="m-frame"&gt;
 &lt;h3&gt;Abstract&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; Chemical mapping experiments allow for nucleotide resolution
+&lt;p&gt;Chemical mapping experiments allow for nucleotide resolution
 assessment of RNA structure. We demonstrate that different strategies of
 integrating probing data with thermodynamics-based RNA secondary
 structure prediction algorithms can be implemented by means of soft
@@ -244,36 +247,31 @@ application for this new feature of the ViennaRNA Package we compare
 three distinct, previously published strategies to utilize SHAPE
 reactivities for structure prediction. The new tool is benchmarked on a
 set of RNAs with known reference structure.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Availability and implementation:&lt;/strong&gt; The capability for SHAPE directed RNA
+&lt;p&gt;The capability for SHAPE directed RNA
 folding is part of the upcoming release of the ViennaRNA Package 2.2, for
 which a preliminary release is already freely available at
-&amp;lt;&lt;a class="m-link-wrap" href="http://www.tbi.univie.ac.at/RNA"&gt;http://www.tbi.univie.ac.at/RNA&lt;/a&gt;&amp;gt;.&lt;/p&gt;
+&lt;a class="m-link-wrap" href="http://www.tbi.univie.ac.at/RNA"&gt;http://www.tbi.univie.ac.at/RNA&lt;/a&gt;.&lt;/p&gt;
 &lt;/aside&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Reference&lt;/h3&gt;
+&lt;section id="citation"&gt;
+&lt;h2&gt;Citation&lt;/h2&gt;
+&lt;blockquote&gt;
 &lt;p&gt;
 &lt;a class="m-flat m-text m-strong" href="http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523.abstract"&gt;SHAPE directed RNA folding&lt;/a&gt;&lt;br /&gt;
 Ronny Lorenz, Dominik Luntzer, Ivo L. Hofacker, Peter F. Stadler, Michael T. Wolfinger&lt;br /&gt;
 &lt;em&gt;Bioinformatics&lt;/em&gt; 32: 145–47 (2016) | &lt;a class="doi" href="https://doi.org/10.1093/bioinformatics/btv523"&gt;doi:10.1093/bioinformatics/btv523&lt;/a&gt; | &lt;a class="m-flat m-text" href="https://michaelwolfinger.com/files/papers/Lorenz-2016a.pdf"&gt;PDF&lt;/a&gt;&lt;br /&gt;
 &lt;/p&gt;
-&lt;/aside&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Citations&lt;/h3&gt;
-&lt;div class="m-label"&gt;
-&lt;span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btv523" data-style="small_rectangle"&gt;&lt;/span&gt;&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/div&gt;
-&lt;div class="m-label"&gt;
-&lt;script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"&gt;&lt;/script&gt;&lt;div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1093/bioinformatics/btv523"&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;/aside&gt;
-</content><category term="publications"></category><category term="ViennaRNA"></category><category term="SHAPE"></category></entry><entry><title>mRNA degradation occurs on ribosome complexes in Drosophila cells</title><link href="https://michaelwolfinger.com/blog/2015/general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells/" rel="alternate"></link><published>2015-08-12T00:00:00+02:00</published><updated>2022-09-27T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2015-08-12:/blog/2015/general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells/</id><summary type="html">&lt;p&gt;mRNA degradation in Drosophila cells&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/section&gt;
+</content><category term="publications"></category><category term="ViennaRNA"></category><category term="SHAPE"></category></entry><entry><title>mRNA degradation occurs on ribosome complexes in Drosophila cells</title><link href="https://michaelwolfinger.com/blog/2015/general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells/" rel="alternate"></link><published>2015-08-12T00:00:00+02:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2015-08-12:/blog/2015/general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells/</id><summary type="html">&lt;p&gt;In this study we show that mRNA degradation occurs on ribosome complexes in Drosophila cells&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;mRNA degradation and translation are two processes crucial for
 posttranscriptional gene regulation. While the strong interconnection of
 mRNA degradation and translation has been noted for many years, it has led
 to the hypothesis that mRNAs could be degraded on the ribosome.&lt;/p&gt;
-&lt;p&gt;We have recently published a study that strongly supports the hypothesis
-that the ribosome is a very general site not only for general 5' to 3'
-mRNA degradation in &lt;em&gt;Drosophila&lt;/em&gt; but also for the miRNA-mediated mRNA
-degradation pathway:&lt;/p&gt;
-&lt;aside class="m-block m-default"&gt;
+&lt;p&gt;In the present study we provide evidence that the ribosome is a universal site not only for general 5' to 3' mRNA degradation in &lt;em&gt;Drosophila&lt;/em&gt; but also for the miRNA-mediated mRNA degradation pathway.&lt;/p&gt;
+&lt;div class="m-button m-primary"&gt;
+&lt;a href="https://michaelwolfinger.com/files/papers/Antic-2015.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;aside class="m-frame"&gt;
 &lt;h3&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;The translation and degradation of mRNAs are two key steps in gene
 expression that are highly regulated and targeted by many factors,
@@ -296,22 +294,17 @@ our findings strongly indicate the association of the majority of bulk
 mRNAs as well as mRNAs targeted by miRNAs with the ribosome during their
 degradation.&lt;/p&gt;
 &lt;/aside&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Reference&lt;/h3&gt;
+&lt;section id="citation"&gt;
+&lt;h2&gt;Citation&lt;/h2&gt;
+&lt;blockquote&gt;
 &lt;p&gt;
 &lt;a class="m-flat m-text m-strong" href="http://mcb.asm.org/content/35/13/2309"&gt;General and miRNA-mediated mRNA degradation occurs on ribosome complexes in Drosophila cells&lt;/a&gt;&lt;br /&gt;
 Sanja Antic, Michael T. Wolfinger, Anna Skucha, Stefanie Hosiner and Silke Dorner&lt;br /&gt;
 &lt;em&gt;Mol. Cell. Biol.&lt;/em&gt; 35(13), 2309-2320 (2015) | &lt;a class="doi" href="https://doi.org/10.1128/MCB.01346-14"&gt;doi:10.1128/MCB.01346-14&lt;/a&gt; | &lt;a class="m-flat m-text" href="https://michaelwolfinger.com/files/papers/Antic-2015.pdf"&gt;PDF&lt;/a&gt;&lt;br /&gt;
 &lt;/p&gt;
-&lt;/aside&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Citations&lt;/h3&gt;
-&lt;div class="m-label"&gt;
-&lt;span class="__dimensions_badge_embed__" data-doi="10.1128/MCB.01346-14" data-style="small_rectangle"&gt;&lt;/span&gt;&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/div&gt;
-&lt;div class="m-label"&gt;
-&lt;script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"&gt;&lt;/script&gt;&lt;div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1128/MCB.01346-14"&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;/aside&gt;
-</content><category term="publications"></category><category term="NGS"></category></entry><entry><title>Building efficient NGS analysis pipelines with ViennaNGS</title><link href="https://michaelwolfinger.com/blog/2015/ViennaNGS-a-toolbox-for-building-efficient-next-generation-sequencing-analysis-pipelines/" rel="alternate"></link><published>2015-03-02T00:00:00+01:00</published><updated>2022-10-01T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2015-03-02:/blog/2015/ViennaNGS-a-toolbox-for-building-efficient-next-generation-sequencing-analysis-pipelines/</id><summary type="html">&lt;p&gt;ViennaNGS is a workflow system for building efficient NGS data analysis pipelines, integrating high-level routines and wrapper functions for common NGS processing tasks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/section&gt;
+</content><category term="publications"></category><category term="NGS"></category></entry><entry><title>Building efficient NGS analysis pipelines with ViennaNGS</title><link href="https://michaelwolfinger.com/blog/2015/ViennaNGS-a-toolbox-for-building-efficient-next-generation-sequencing-analysis-pipelines/" rel="alternate"></link><published>2015-03-02T00:00:00+01:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2015-03-02:/blog/2015/ViennaNGS-a-toolbox-for-building-efficient-next-generation-sequencing-analysis-pipelines/</id><summary type="html">&lt;p&gt;ViennaNGS is a workflow system for building efficient NGS data analysis pipelines, integrating high-level routines and wrapper functions for common NGS processing tasks&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;While &lt;em&gt;ViennaNGS&lt;/em&gt; is not an established pipeline per
 se, it provides tools and functionality for the development of custom NGS
 pipelines in Perl. &lt;em&gt;ViennaNGS&lt;/em&gt; comes with a set of utility scripts that serve as
@@ -324,27 +317,25 @@ and normalization of read count data, identification and characterization of
 splice junctions from RNA-seq data, parsing and condensing sequence motif data,
 automated construction of Assembly and Track Hubs for the UCSC genome browser
 and wrapper routines for a set of commonly used NGS command line tools.&lt;/p&gt;
-&lt;p&gt;The ViennaNGS suite is available through Github (&lt;a class="m-link-wrap" href="https://github.com/mtw/Bio-ViennaNGS"&gt;https://github.com/mtw/Bio-ViennaNGS&lt;/a&gt;) and CPAN (&lt;a class="m-link-wrap" href="http://search.cpan.org/dist/Bio-ViennaNGS"&gt;http://search.cpan.org/dist/Bio-ViennaNGS&lt;/a&gt;).&lt;/p&gt;
-&lt;aside class="m-block m-default"&gt;
+&lt;p&gt;The ViennaNGS suite is available through &lt;a class="m-flat m-text" href="https://github.com/mtw/Bio-ViennaNGS"&gt;Github&lt;/a&gt; and &lt;a class="m-flat m-text" href="https://metacpan.org/dist/Bio-ViennaNGS"&gt;CPAN&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="m-button m-primary"&gt;
+&lt;a href="https://michaelwolfinger.com/files/papers/Wolfinger-2015.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;aside class="m-frame"&gt;
 &lt;h3&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Recent achievements in next-generation sequencing (NGS) technologies lead to a high demand for reuseable software components to easily compile customized analysis workflows for big genomics data. We present ViennaNGS, an integrated collection of Perl modules focused on building efficient pipelines for NGS data processing. It comes with functionality for extracting and converting features from common NGS file formats, computation and evaluation of read mapping statistics, as well as normalization of RNA abundance. Moreover, ViennaNGS provides software components for identification and characterization of splice junctions from RNA-seq data, parsing and condensing sequence motif data, automated construction of Assembly and Track Hubs for the UCSC genome browser, as well as wrapper routines for a set of commonly used NGS command line tools.&lt;/p&gt;
 &lt;/aside&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Reference&lt;/h3&gt;
+&lt;section id="citation"&gt;
+&lt;h2&gt;Citation&lt;/h2&gt;
+&lt;blockquote&gt;
 &lt;p&gt;
 &lt;a class="m-flat m-text m-strong" href="https://doi.org/10.12688/f1000research.6157.2"&gt;ViennaNGS: A toolbox for building efficient next-generation sequencing analysis pipelines&lt;/a&gt;&lt;br /&gt;
 Michael T. Wolfinger, Jörg Fallmann, Florian Eggenhofer, Fabian Amman&lt;br /&gt;
 &lt;em&gt;F1000Research&lt;/em&gt; 4:50 (2015) | &lt;a class="doi" href="https://doi.org/10.12688/f1000research.6157.2"&gt;doi: 10.12688/f1000research.6157.2&lt;/a&gt; | &lt;a class="m-flat m-text" href="https://michaelwolfinger.com/files/papers/Wolfinger-2015.pdf"&gt;PDF&lt;/a&gt;&lt;br /&gt;
 &lt;/p&gt;
-&lt;/aside&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Citations&lt;/h3&gt;
-&lt;div class="m-label"&gt;
-&lt;span class="__dimensions_badge_embed__" data-doi="10.12688/f1000research.6157.2" data-style="small_rectangle"&gt;&lt;/span&gt;&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/div&gt;
-&lt;div class="m-label"&gt;
-&lt;script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"&gt;&lt;/script&gt;&lt;div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.12688/f1000research.6157.2"&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;/aside&gt;
-</content><category term="publications"></category><category term="NGS"></category></entry><entry><title>How to efficiently explore the lower portion of RNA energy landscapes</title><link href="https://michaelwolfinger.com/blog/2014/Memory-efficient-RNA-energy-landscape-exploration/" rel="alternate"></link><published>2014-06-12T00:00:00+02:00</published><updated>2022-09-27T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2014-06-12:/blog/2014/Memory-efficient-RNA-energy-landscape-exploration/</id><summary type="html">&lt;p&gt;In this study we propose a memory-efficient approach for local flooding of the lower portion of an RNA folding landscape&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/section&gt;
+</content><category term="publications"></category><category term="NGS"></category></entry><entry><title>How to efficiently explore the lower portion of RNA energy landscapes</title><link href="https://michaelwolfinger.com/blog/2014/Memory-efficient-RNA-energy-landscape-exploration/" rel="alternate"></link><published>2014-06-12T00:00:00+02:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2014-06-12:/blog/2014/Memory-efficient-RNA-energy-landscape-exploration/</id><summary type="html">&lt;p&gt;In this study we propose a memory-efficient approach for local flooding of the lower portion of an RNA folding landscape&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;Discrete energy landscapes provide a valuable means for analyzing
 non-equilibrium properties of biopolymers. RNA folding dynamics, for
 example, can be described by a continuous-time Markov process at the level
@@ -358,7 +349,10 @@ the last years.&lt;/p&gt;
 &lt;p&gt;We have recently extended previous work on global flooding by a local
 flooding approach that minimizes memory consumption and published the
 method in &lt;em&gt;Bioinformatics&lt;/em&gt;.&lt;/p&gt;
-&lt;aside class="m-block m-default"&gt;
+&lt;div class="m-button m-primary"&gt;
+&lt;a href="https://michaelwolfinger.com/files/papers/Mann-2014.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;aside class="m-frame"&gt;
 &lt;h3&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Motivation:&lt;/strong&gt; Energy landscapes provide a valuable means for studying the
 folding dynamics of short RNA molecules in detail by modeling all
@@ -376,52 +370,30 @@ investigation of gradient basins in RNA energy landscapes.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Availability and implementation:&lt;/strong&gt; Source code is part of the C++ Energy
 Landscape Library available at &lt;a class="m-link-wrap" href="http://www.bioinf.uni-freiburg.de/Software/"&gt;http://www.bioinf.uni-freiburg.de/Software/&lt;/a&gt;.&lt;/p&gt;
 &lt;/aside&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Reference&lt;/h3&gt;
+&lt;section id="citation"&gt;
+&lt;h2&gt;Citation&lt;/h2&gt;
+&lt;blockquote&gt;
 &lt;p&gt;
 &lt;a class="m-flat m-text m-strong" href="http://bioinformatics.oxfordjournals.org/content/30/18/2584"&gt;Memory-efficient RNA energy landscape exploration&lt;/a&gt;&lt;br /&gt;
 Martin Mann, Marcel Kucharík, Christoph Flamm, Michael T. Wolfinger&lt;br /&gt;
 &lt;em&gt;Bioinformatics&lt;/em&gt; 30(18):2584-2591 (2014) | &lt;a class="doi" href="https://doi.org/10.1093/bioinformatics/btu337"&gt;doi: 10.1093/bioinformatics/btu337&lt;/a&gt; | &lt;a class="m-flat m-text" href="https://michaelwolfinger.com/files/papers/Mann-2014.pdf"&gt;PDF&lt;/a&gt;&lt;br /&gt;
 &lt;/p&gt;
-&lt;/aside&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Citations&lt;/h3&gt;
-&lt;div class="m-label"&gt;
-&lt;span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btu337" data-style="small_rectangle"&gt;&lt;/span&gt;&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/div&gt;
-&lt;div class="m-label"&gt;
-&lt;script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"&gt;&lt;/script&gt;&lt;div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1093/bioinformatics/btu337"&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;/aside&gt;
-</content><category term="publications"></category><category term="energy landscapes"></category></entry><entry><title>How to compute normalized RNA-seq expression from multicov files</title><link href="https://michaelwolfinger.com/blog/2014/How-to-compute-normalized-RNA-seq-expression-from-multicov-files/" rel="alternate"></link><published>2014-04-15T00:00:00+02:00</published><updated>2022-10-02T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2014-04-15:/blog/2014/How-to-compute-normalized-RNA-seq-expression-from-multicov-files/</id><summary type="html">&lt;p&gt;Why you should use TPM rather than RPKM&lt;/p&gt;
-</summary><content type="html">&lt;aside class="m-block m-default"&gt;
-&lt;h3&gt;Abstract&lt;/h3&gt;
-&lt;p&gt;Whenever it comes to analyzing RNA-seq experiments, there is a need for
-comparing expression data at a quantitative level. Consider a scenario
-where samples were taken from different conditions and subjected to
-Illumina sequencing. Whether those samples were multiplexed or sequenced on
-a single lane each, one generally gets a different number of raw reads from
-each sample, refelcting experimental and technical biases inherent in the
-RNA-seq protocols. Various measures for normalization of RNA-seq samples
-have been proposed, the most widely used being RPKM (reads per kilobase per
-million). While RPKM tries to account for different sequencing depth by
-normalizing by the number of reads sequenced in a specific sample, divided
-by 10^6, this very step causes a systematic bias, as has been shown here:&lt;/p&gt;
-&lt;/aside&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Reference&lt;/h3&gt;
+&lt;/blockquote&gt;
+&lt;/section&gt;
+</content><category term="publications"></category><category term="energy landscapes"></category></entry><entry><title>How to compute normalized RNA-seq expression from multicov files</title><link href="https://michaelwolfinger.com/blog/2014/How-to-compute-normalized-RNA-seq-expression-from-multicov-files/" rel="alternate"></link><published>2014-04-15T00:00:00+02:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2014-04-15:/blog/2014/How-to-compute-normalized-RNA-seq-expression-from-multicov-files/</id><summary type="html">&lt;p&gt;Why you should use TPM rather than RPKM&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Whenever it comes to analyzing RNA-seq experiments, there is a need for comparing expression data at a quantitative level. Consider a scenario where samples were taken from different conditions and subjected to Illumina sequencing. Whether those samples were multiplexed or sequenced on a single lane each, one generally gets a different number of raw reads from each sample, refelcting experimental and technical biases inherent in the RNA-seq protocols. Various measures for normalization of RNA-seq samples have been proposed, the most widely used being RPKM (reads per kilobase per million). While RPKM tries to account for different sequencing depth by normalizing by the number of reads sequenced in a specific sample, divided by 10^6. This very step causes a systematic bias, as has been shown here:&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;
 &lt;a class="m-flat m-text m-strong" href="http://doi.org/10.1007/s12064-012-0162-3"&gt;Measurement of mRNA abundance using RNA-seq data: RPKM measure is inconsistent among samples&lt;/a&gt;&lt;br /&gt;
 Günter P. Wagner, Koryu Kin, Vincent J. Lynch&lt;br /&gt;
 &lt;em&gt;Theory Biosci.&lt;/em&gt; 131, 281-285 (2012) | &lt;a class="doi" href="https://doi.org/10.1007/s12064-012-0162-3"&gt;doi:10.1007/s12064-012-0162-3&lt;/a&gt;&lt;br /&gt;
 &lt;/p&gt;
-&lt;/aside&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Reference&lt;/h3&gt;
 &lt;p&gt;
 &lt;a class="m-flat m-text m-strong" href="http://doi.org/10.1093/bioinformatics/btp692"&gt;RNA-Seq gene expression estimation with read mapping uncertainty&lt;/a&gt;&lt;br /&gt;
 Bo Li, Victor Ruotti, Ron M. Stewart, James A. Thomson, Colin N. Dewey&lt;br /&gt;
 &lt;em&gt;Bioinformatics&lt;/em&gt; 6(4), 493-500. (2009) | &lt;a class="doi" href="https://doi.org/10.1093/bioinformatics/btp692"&gt;doi:10.1093/bioinformatics/btp692&lt;/a&gt;&lt;br /&gt;
 &lt;/p&gt;
-&lt;/aside&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;The central point of these papers is to work out an alternative measure for
 RNA-seq expression abundance that resembles as closely as possible the
 &lt;em&gt;relative molar concentration&lt;/em&gt; (rmc) of each RNA species present in a
@@ -493,7 +465,10 @@ been a major challenge for the last years. To address this issue, we have
 developped &lt;a href="http://rna.tbi.univie.ac.at/TSSAR"&gt;TSSAR&lt;/a&gt;, a statistical method
 for analyzing dRNA-seq data, together with colleagues from the
 Bioinformatics department at the University of Leipzig.&lt;/p&gt;
-&lt;aside class="m-block m-default"&gt;
+&lt;div class="m-button m-primary"&gt;
+&lt;a href="https://michaelwolfinger.com/files/papers/Amman-2014.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;aside class="m-frame"&gt;
 &lt;h3&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Background:&lt;/strong&gt; Differential RNA sequencing dRNA-seq is a high-throughput screening
 technique designed to examine the architecture of bacterial operons in
@@ -529,19 +504,14 @@ with a set of post-processing and analysis tools, as well as a
 stand-alone version for use in high-throughput dRNA-seq data analysis
 pipelines.&lt;/p&gt;
 &lt;/aside&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Reference&lt;/h3&gt;
+&lt;section id="citation"&gt;
+&lt;h2&gt;Citation&lt;/h2&gt;
+&lt;blockquote&gt;
 &lt;p&gt;
 &lt;a class="m-flat m-text m-strong" href="http://www.biomedcentral.com/1471-2105/15/89"&gt;TSSAR: TSS annotation regime for dRNA-seq data&lt;/a&gt;&lt;br /&gt;
 Fabian Amman, Michael T. Wolfinger, Ronny Lorenz, Ivo L. Hofacker, Peter F. Stadler, Sven Findeiß&lt;br /&gt;
 &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 15:89 (2014) | &lt;a class="doi" href="https://doi.org/10.1186/1471-2105-15-89"&gt;doi: 10.1186/1471-2105-15-89&lt;/a&gt; | &lt;a class="m-flat m-text" href="https://michaelwolfinger.com/files/papers/Amman-2014.pdf"&gt;PDF&lt;/a&gt;&lt;br /&gt;
 &lt;/p&gt;
-&lt;/aside&gt;
-&lt;aside class="m-block m-info"&gt;
-&lt;h3&gt;Citations&lt;/h3&gt;
-&lt;div class="m-label"&gt;
-&lt;span class="__dimensions_badge_embed__" data-doi="10.1186/1471-2105-15-89" data-style="small_rectangle"&gt;&lt;/span&gt;&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/div&gt;
-&lt;div class="m-label"&gt;
-&lt;script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"&gt;&lt;/script&gt;&lt;div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1186/1471-2105-15-89"&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;/aside&gt;
+&lt;/blockquote&gt;
+&lt;/section&gt;
 </content><category term="publications"></category><category term="NGS"></category><category term="bacteria"></category></entry></feed>

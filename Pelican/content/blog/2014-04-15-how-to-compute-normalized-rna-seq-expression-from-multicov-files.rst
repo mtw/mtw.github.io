@@ -2,7 +2,7 @@ How to compute normalized RNA-seq expression from multicov files
 ################################################################
 
 :date: 2014-04-15
-:modified: 2022-10-02
+:modified: 2022-10-14
 :tags: NGS
 :category: HOWTO
 :slug: How-to-compute-normalized-RNA-seq-expression-from-multicov-files
@@ -23,27 +23,13 @@ How to compute normalized RNA-seq expression from multicov files
 .. role:: doi(link)
   :class: doi
 
-.. block-default:: Abstract
 
-    Whenever it comes to analyzing RNA-seq experiments, there is a need for
-    comparing expression data at a quantitative level. Consider a scenario
-    where samples were taken from different conditions and subjected to
-    Illumina sequencing. Whether those samples were multiplexed or sequenced on
-    a single lane each, one generally gets a different number of raw reads from
-    each sample, refelcting experimental and technical biases inherent in the
-    RNA-seq protocols. Various measures for normalization of RNA-seq samples
-    have been proposed, the most widely used being RPKM (reads per kilobase per
-    million). While RPKM tries to account for different sequencing depth by
-    normalizing by the number of reads sequenced in a specific sample, divided
-    by 10^6, this very step causes a systematic bias, as has been shown here:
-
-.. block-info:: Reference
+Whenever it comes to analyzing RNA-seq experiments, there is a need for comparing expression data at a quantitative level. Consider a scenario where samples were taken from different conditions and subjected to Illumina sequencing. Whether those samples were multiplexed or sequenced on a single lane each, one generally gets a different number of raw reads from each sample, refelcting experimental and technical biases inherent in the RNA-seq protocols. Various measures for normalization of RNA-seq samples have been proposed, the most widely used being RPKM (reads per kilobase per million). While RPKM tries to account for different sequencing depth by normalizing by the number of reads sequenced in a specific sample, divided by 10^6. This very step causes a systematic bias, as has been shown here:
 
   | :link-flat-strong:`Measurement of mRNA abundance using RNA-seq data: RPKM measure is inconsistent among samples <http://doi.org/10.1007/s12064-012-0162-3>`
   | Günter P. Wagner, Koryu Kin, Vincent J. Lynch
   | *Theory Biosci.* 131, 281-285 (2012) | :doi:`doi:10.1007/s12064-012-0162-3 <https://doi.org/10.1007/s12064-012-0162-3>`
 
-.. block-info:: Reference
 
   | :link-flat-strong:`RNA-Seq gene expression estimation with read mapping uncertainty <http://doi.org/10.1093/bioinformatics/btp692>`
   | Bo Li, Victor Ruotti, Ron M. Stewart, James A. Thomson, Colin N. Dewey
