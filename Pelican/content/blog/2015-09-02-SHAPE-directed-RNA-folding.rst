@@ -2,12 +2,12 @@ SHAPE directed RNA folding
 ##########################
 
 :date: 2015-09-02
-:modified: 2022-9-27
+:modified: 2022-10-14
 :tags: ViennaRNA; SHAPE
 :category: publications
 :slug: SHAPE-directed-RNA-folding
 :author: mtw
-:summary: The ViennaRNA Package supports three published approaches for SHAPE-guided RNA structure prediction. Here we evaluate and compare the methods by Deigan, Zarringhalam, and Washietl.
+:summary: The ViennaRNA Package supports three published approaches for SHAPE-guided RNA structure prediction. Here we evaluate and compare the methods by Deigan, Zarringhalam, and Washietl
 :title: SHAPE directed RNA folding with the ViennaRNA Package
 :description: In this study we evaluate three published approaches for including SHAPE RNA probing data with the ViennaRNA Package
 
@@ -22,6 +22,8 @@ SHAPE directed RNA folding
 
 .. role:: doi(link)
   :class: doi
+
+
 
 With the advent of efficient strategies for experimental RNA structure
 validation, especially combination of chemical probing with next-generation
@@ -39,9 +41,13 @@ Don't miss the `Supplementary Data <http://bioinformatics.oxfordjournals.org/con
 since it contains extensive coverage of the applied benchmark strategies
 and lots of background information.
 
-.. block-default:: Abstract
+.. button-primary:: {static}/files/papers/Lorenz-2016a.pdf
 
-  **Summary:** Chemical mapping experiments allow for nucleotide resolution
+    Download PDF
+
+.. frame:: Abstract
+
+  Chemical mapping experiments allow for nucleotide resolution
   assessment of RNA structure. We demonstrate that different strategies of
   integrating probing data with thermodynamics-based RNA secondary
   structure prediction algorithms can be implemented by means of soft
@@ -52,30 +58,30 @@ and lots of background information.
   reactivities for structure prediction. The new tool is benchmarked on a
   set of RNAs with known reference structure.
 
-  **Availability and implementation:** The capability for SHAPE directed RNA
+  The capability for SHAPE directed RNA
   folding is part of the upcoming release of the ViennaRNA Package 2.2, for
   which a preliminary release is already freely available at
-  <http://www.tbi.univie.ac.at/RNA>.
+  http://www.tbi.univie.ac.at/RNA.
 
 
-
-.. block-info:: Reference
+Citation
+========
 
     | :link-flat-strong:`SHAPE directed RNA folding <http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523.abstract>`
     | Ronny Lorenz, Dominik Luntzer, Ivo L. Hofacker, Peter F. Stadler, Michael T. Wolfinger
     | *Bioinformatics* 32: 145–47 (2016) | :doi:`doi:10.1093/bioinformatics/btv523 <https://doi.org/10.1093/bioinformatics/btv523>` | :link-flat:`PDF <{static}/files/papers/Lorenz-2016a.pdf>`
 
+..
+  .. block-info:: Citations
 
-.. block-info:: Citations
+      .. container:: m-label
 
-    .. container:: m-label
+          .. raw:: html
 
-        .. raw:: html
+            <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btv523" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-          <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btv523" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+      .. container:: m-label
 
-    .. container:: m-label
+          .. raw:: html
 
-        .. raw:: html
-
-          <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1093/bioinformatics/btv523"></div>
+            <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1093/bioinformatics/btv523"></div>

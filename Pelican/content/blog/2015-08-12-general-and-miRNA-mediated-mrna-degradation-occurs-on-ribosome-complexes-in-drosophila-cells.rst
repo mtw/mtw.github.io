@@ -2,12 +2,12 @@ General and miRNA-mediated mRNA degradation occurs on ribosome complexes in Dros
 ############################################################################################
 
 :date: 2015-08-12
-:modified: 2022-09-27
+:modified: 2022-10-14
 :tags: NGS
 :category: publications
 :slug: general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells
 :author: mtw
-:summary: mRNA degradation in Drosophila cells
+:summary: In this study we show that mRNA degradation occurs on ribosome complexes in Drosophila cells
 :title: mRNA degradation occurs on ribosome complexes in Drosophila cells
 :description: In this study we show that mRNA degradation occurs on ribosome complexes in Drosophila cells
 
@@ -28,13 +28,15 @@ posttranscriptional gene regulation. While the strong interconnection of
 mRNA degradation and translation has been noted for many years, it has led
 to the hypothesis that mRNAs could be degraded on the ribosome.
 
-We have recently published a study that strongly supports the hypothesis
-that the ribosome is a very general site not only for general 5' to 3'
-mRNA degradation in *Drosophila* but also for the miRNA-mediated mRNA
-degradation pathway:
+In the present study we provide evidence that the ribosome is a universal site not only for general 5' to 3' mRNA degradation in *Drosophila* but also for the miRNA-mediated mRNA degradation pathway.
 
 
-.. block-default:: Abstract
+.. button-primary:: {static}/files/papers/Antic-2015.pdf
+
+    Download PDF
+
+
+.. frame:: Abstract
 
   The translation and degradation of mRNAs are two key steps in gene
   expression that are highly regulated and targeted by many factors,
@@ -57,22 +59,24 @@ degradation pathway:
   mRNAs as well as mRNAs targeted by miRNAs with the ribosome during their
   degradation.
 
-.. block-info:: Reference
+Citation
+========
 
   | :link-flat-strong:`General and miRNA-mediated mRNA degradation occurs on ribosome complexes in Drosophila cells <http://mcb.asm.org/content/35/13/2309>`
   | Sanja Antic, Michael T. Wolfinger, Anna Skucha, Stefanie Hosiner and Silke Dorner
   | *Mol. Cell. Biol.* 35(13), 2309-2320 (2015) | :doi:`doi:10.1128/MCB.01346-14 <https://doi.org/10.1128/MCB.01346-14>` | :link-flat:`PDF <{static}/files/papers/Antic-2015.pdf>`
 
-.. block-info:: Citations
+..
+  .. block-info:: Citations
 
-    .. container:: m-label
+      .. container:: m-label
 
-      .. raw:: html
+        .. raw:: html
 
-        <span class="__dimensions_badge_embed__" data-doi="10.1128/MCB.01346-14" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+          <span class="__dimensions_badge_embed__" data-doi="10.1128/MCB.01346-14" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-    .. container:: m-label
+      .. container:: m-label
 
-      .. raw:: html
+        .. raw:: html
 
-        <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1128/MCB.01346-14"></div>
+          <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1128/MCB.01346-14"></div>

@@ -2,7 +2,7 @@
 <html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
   <meta charset="UTF-8" />
-  <title>Current deep learning approaches cannot predict RNA secondary structures</title>
+  <title>Current deep learning methods unable to predict RNA secondary structures</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300;400|Source+Code+Pro:200:300,400|Source+Sans+Pro:300,400" />
   <link rel="stylesheet" href="https://michaelwolfinger.com/static/m-light.compiled.min.css" />
   <link rel="stylesheet" href="https://michaelwolfinger.com/static/m-mtw.min.css" />
@@ -13,8 +13,8 @@
   <meta name="twitter:site" content="@mtwolfinger" />
   <meta name="twitter:site:id" content="15105886" />
   <meta property="og:site_name" content="michaelwolfinger.com Bioinformatics" />
-  <meta property="og:title" content="Current deep learning approaches cannot predict RNA secondary structures" />
-  <meta name="twitter:title" content="Current deep learning approaches cannot predict RNA secondary structures" />
+  <meta property="og:title" content="Current deep learning methods unable to predict RNA secondary structures" />
+  <meta name="twitter:title" content="Current deep learning methods unable to predict RNA secondary structures" />
   <meta property="og:url" content="https://michaelwolfinger.com/blog/2021/Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction/" />
   <meta property="og:description" content="Machine learning of RNA structure is more challenging than you might think. Using synthetic data from ViennaRNA&#39;s RNAfold to study the capabilities and shortcomings of neural networks for RNA secondary structure prediction in a controlled setting, we argue that shortcomings in the artificial setting will translate to real data" />
   <meta name="twitter:description" content="Machine learning of RNA structure is more challenging than you might think. Using synthetic data from ViennaRNA&#39;s RNAfold to study the capabilities and shortcomings of neural networks for RNA secondary structure prediction in a controlled setting, we argue that shortcomings in the artificial setting will translate to real data" />
@@ -62,11 +62,11 @@
   <div class="m-row">
     <article class="m-col-m-10 m-nopadb">
       <header>
-        <h1><a href="https://michaelwolfinger.com/blog/2021/Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction/" rel="bookmark" title="Permalink to Current deep learning approaches cannot predict RNA secondary structures">
+        <h1><a href="https://michaelwolfinger.com/blog/2021/Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction/" rel="bookmark" title="Permalink to Current deep learning methods unable to predict RNA secondary structures">
           <time class="m-date" datetime="2021-12-16T00:00:00+01:00">
             Dec <span class="m-date-day">16</span> 2021
           </time>
-          Current deep learning approaches cannot predict RNA secondary structures
+          Current deep learning methods unable to predict RNA secondary structures
         </a></h1>
         <p>Machine learning of RNA structure is more challenging than you might think. Using synthetic data from ViennaRNA's RNAfold to study the capabilities and shortcomings of neural networks for RNA secondary structure prediction in a controlled setting, we argue that shortcomings in the artificial setting will translate to real data</p>
       </header>
@@ -75,11 +75,13 @@
 <p>Published AI approaches for RNA structure prediction suffer from massively biased training sets, resulting in severely degraded prediction quality on arbitrary RNAs. Using inverse RNA folding, i.e. generating sequences that are compatible with a given structure, we generate synthetic data with the same bias as published deep learning approaches. A network trained on this set performs well on sequences that have no sequence similarity but fold into structures contained in the training set. On sequences with unrelated structures performance falls drastically. Thus, the network generalizes well to new sequences, but not to new structures.</p>
 <p>Intriguingly, published deep learning methods on unbiased sets are not even capable of predicting correct RNA base pairing, a problem that is much simpler than the RNA folding problem. On top of that, BLSTMs predict pseudoknots and base triplets, although they do not occur in the ViennaRNA RNAfold ground truth.</p>
 <p>Read the full story in our article 'Caveats to Deep Learning Approaches to RNA Secondary Structure Prediction', published in 'Frontiers in Bioinformatics'.</p>
-<section id="abstract">
-<h2>Abstract</h2>
-<blockquote>
-Machine learning (ML) and in particular deep learning techniques have gained popularity for predicting structures from biopolymer sequences. An interesting case is the prediction of RNA secondary structures, where well established biophysics based methods exist. These methods even yield exact solutions under certain simplifying assumptions. Nevertheless, the accuracy of these classical methods is limited and has seen little improvement over the last decade. This makes it an attractive target for machine learning and consequently several deep learning models have been proposed in recent years. In this contribution we discuss limitations of current approaches, in particular due to biases in the training data. Furthermore, we propose to study capabilities and limitations of ML models by first applying them on synthetic data that can not only be generated in arbitrary amounts, but are also guaranteed to be free of biases. We apply this idea by testing several ML models of varying complexity. Finally, we show that the best models are capable of capturing many, but not all, properties of RNA secondary structures. Most severely, the number of predicted base pairs scales quadratically with sequence length, even though a secondary structure can only accommodate a linear number of pairs.</blockquote>
-</section>
+<div class="m-button m-primary">
+<a href="../../../files/papers/Flamm-2022.pdf"><span>Download PDF</span></a>
+</div>
+<aside class="m-frame">
+<h3>Abstract</h3>
+<p>Machine learning (ML) and in particular deep learning techniques have gained popularity for predicting structures from biopolymer sequences. An interesting case is the prediction of RNA secondary structures, where well established biophysics based methods exist. These methods even yield exact solutions under certain simplifying assumptions. Nevertheless, the accuracy of these classical methods is limited and has seen little improvement over the last decade. This makes it an attractive target for machine learning and consequently several deep learning models have been proposed in recent years. In this contribution we discuss limitations of current approaches, in particular due to biases in the training data. Furthermore, we propose to study capabilities and limitations of ML models by first applying them on synthetic data that can not only be generated in arbitrary amounts, but are also guaranteed to be free of biases. We apply this idea by testing several ML models of varying complexity. Finally, we show that the best models are capable of capturing many, but not all, properties of RNA secondary structures. Most severely, the number of predicted base pairs scales quadratically with sequence length, even though a secondary structure can only accommodate a linear number of pairs.</p>
+</aside>
 <section id="citation">
 <h2>Citation</h2>
 <blockquote>
@@ -92,7 +94,7 @@ Christoph Flamm, Julia Wielach, <span class="m-text m-ul">Michael T. Wolfinger</
 </section>
 <!-- /content -->
       <footer>
-        <p>Posted by Michael T. Wolfinger on <time datetime="2021-12-16T00:00:00+01:00">Thu 16 December 2021</time>. <span class="m-label m-success">updated <time datetime="2022-10-09T00:00:00+02:00">Sun 09 October 2022</time></span>
+        <p>Posted by Michael T. Wolfinger on <time datetime="2021-12-16T00:00:00+01:00">Thu 16 December 2021</time>. <span class="m-label m-success">updated <time datetime="2022-10-14T00:00:00+02:00">Fri 14 October 2022</time></span>
       </footer>
     </article>
     <nav class="m-navpanel m-col-m-2">
