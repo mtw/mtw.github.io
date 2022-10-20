@@ -33,6 +33,11 @@ Read the full story in our article 'Caveats to Deep Learning Approaches to RNA S
 
     Download PDF
 
+Figures and Data
+================
+
+.. image:: {static}/files/QuickSlide/QuickSlide__Flamm-2022__l.gif
+  :alt: Figures of the study
 
 .. frame:: Abstract
 
