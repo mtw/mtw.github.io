@@ -19,7 +19,11 @@
   {% if M_FAVICON %}
   <link rel="icon" href="{{ M_FAVICON[0]|format_siteurl|e }}" type="{{ M_FAVICON[1]|e }}" />
   {% endif %}
-  <link rel="canonical" href="{{ page.url|format_siteurl|e }}" />
+  {% if page.canonical_url %}
+    <link rel="canonical" href="{{ page.canonical_url }}">
+  {% else %}
+    <link rel="canonical" href="{{ page.url|format_siteurl|e }}" />
+  {% endif %}
 {% endblock %}
 
 {% block meta %}
