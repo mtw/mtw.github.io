@@ -28,6 +28,10 @@ Preprints
 
 .. container:: preprints
 
+  | 46. :link-flat-strong:`The 3’ terminal region of Zika virus RNA contains a conserved G-quadruplex and is unfolded by human DDX17 <publications>`
+  | Darren Gemmill, Corey Nelson, Maulik Badmalia, Higor Pereira, :ul:`Michael T. Wolfinger`, and Trushar Patel
+  | *Manuscript submitted* (2022)
+
   | 45. :link-flat-strong:`Pan-flavivirus analysis reveals that the insect-specific Kamiti River virus produces a new subgenomic RNA and high amounts of 3' UTR-derived siRNAs <https://doi.org/10.1101/2022.08.18.504478>`
   | Benoit Besson, Gijs J. Overheul, :ul:`Michael T. Wolfinger`, Sandra Junglen, Ronald P. van Rij
   | *bioRxiv* 2022.08.18.504478 | :doi:`10.1101/2022.08.18.504478 <https://doi.org/10.1101/2022.08.18.504478>` | :link-flat:`Preprint PDF <{static}/files/papers/Besson-2022__PREPRINT.pdf>`
@@ -49,11 +53,11 @@ Peer-reviewed journal articles and book chapters
 
   | 43. :link-flat-strong:`Theoretical studies on RNA recognition by Musashi 1 RNA–binding protein <{filename}blog/2022-07-26-Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA–binding-protein.rst>`
   | Nitchakan Darai, Panupong Mahalapbutr, Peter Wolschann, Vannajan Sanghiran Lee, :ul:`Michael T. Wolﬁnger`, Thanyada Rungrotmongkol
-  | *Sci. Rep.* 12:12137 (2022) | :doi:`doi:10.1038/s41598-022-16252-w <https://doi.org/10.1038/s41598-022-16252-w>` | :link-flat:`PDF <{static}/files/papers/Darai-2022.pdf>`
+  | *Sci. Rep.* 12:12137 (2022) | :doi:`doi:10.1038/s41598-022-16252-w <https://doi.org/10.1038/s41598-022-16252-w>` | :link-flat:`PDF <{static}/files/papers/Darai-2022.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Darai-2022.pdf>`
 
   | 42. :link-flat-strong:`Caveats to deep learning approaches to RNA secondary structure prediction <{filename}blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>`
   | Christoph Flamm, Julia Wielach, :ul:`Michael T. Wolfinger`, Stefan Badelt, Ronny Lorenz, Ivo L. Hofacker
-  | *Front. Bioinform.* 2:835422 (2022) | :doi:`doi:10.3389/fbinf.2022.835422 <https://doi.org/10.3389/fbinf.2022.835422>` | :link-flat:`PDF <{static}/files/papers/Flamm-2022.pdf>`
+  | *Front. Bioinform.* 2:835422 (2022) | :doi:`doi:10.3389/fbinf.2022.835422 <https://doi.org/10.3389/fbinf.2022.835422>` | :link-flat:`PDF <{static}/files/papers/Flamm-2022.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Flamm-2022.pdf>`
 
   | 41. :link-flat-strong:`Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reveals an Indirect Regulation of the MexGHI-OpmD Efflux Pump by Hfq <{filename}blog/2022-06-23-Rewiring-of-Gene-Expression-in-Pseudomonas-aeruginosa-During-Diauxic-Growth-Reveals-an-Indirect-Regulation-of-the-MexGHI-OpmD-Efflux-Pump-by-Hfq.rst>`
   | Marlena Rozner, Ella Nukarinen, :ul:`Michael T. Wolfinger`, Fabian Amman, Wolfram Weckwerth, Udo Blaesi, Elisabeth Sonnleitner
@@ -61,7 +65,7 @@ Peer-reviewed journal articles and book chapters
 
   | 40. :link-flat-strong:`Evolutionary traits of Tick-borne encephalitis virus: Pervasive non-coding RNA structure conservation and molecular epidemiology <{filename}blog/2021-12-17-Evolutionary-traits-of-Tick-borne-encephalitis-virus-Pervasive-non-coding-RNA-structure-conservation-and-molecular-epidemiology.rst>`
   | Lena S. Kutschera, :ul:`Michael T. Wolfinger`
-  | *Virus Evol.* (8):1 veac051 (2022) | :doi:`doi:10.1093/ve/veac051 <https://doi.org/10.1093/ve/veac051>` | :link-flat:`PDF <{static}/files/papers/Kutschera-2022.pdf>`
+  | *Virus Evol.* (8):1 veac051 (2022) | :doi:`doi:10.1093/ve/veac051 <https://doi.org/10.1093/ve/veac051>` | :link-flat:`PDF <{static}/files/papers/Kutschera-2022.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Kutschera-2022.pdf>`
 
   | 39. :link-flat-strong:`Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Inverted Repeats <{filename}blog/2022-01-20-Biophysical-Characterisation-of-Human-LincRNA-p21-Sense-and-Antisense-Alu-Inverted-Repeats.rst>`
   | Michael H. D’Souza, Tyler Mrozowich, Maulik D. Badmalia, Mitchell Geeraert, Angela Frederickson, Amy Henrickson, Borries Demeler, :ul:`Michael T. Wolfinger`, and Trushar R. Patel
@@ -89,9 +93,9 @@ Peer-reviewed journal articles and book chapters
   | Hayato Harima, Yasuko Orba, Shiho Torii, Yongjin Qiu, Masahiro Kajihara, Yoshiki Eto, Naoya Matsuta, Bernard M. Hang’ombe, Yuki Eshita, Kentaro Uemura, Keita Matsuno, Michihito Sasaki, Kentaro Yoshii, Ryo Nakao, William W. Hall, Ayato Takada, Takashi Abe, :ul:`Michael T. Wolfinger`, Martin Simuunza, Hirofumi Sawa
   | *Sci. Rep.* 11:4883 (2021) | :doi:`doi: 10.1038/s41598-021-84365-9 <https://doi.org/10.1038/s41598-021-84365-9>` | :link-flat:`PDF <{static}/files/papers/Harima-2021.pdf>`
 
-  | 34. :link-flat-strong:`Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Variants That Alter RNA Structure in Chikungunya Virus  <{filename}/publications/papers/Dynamic_Molecular_Epidemiology_Reveals_Lineage-Associated_Single-Nucleotide_Variants_That_Alter_RNA_Structure_in_Chikungunya_Virus.rst>`
+  | 34. :link-flat-strong:`Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Variants That Alter RNA Structure in Chikungunya Virus  <{filename}/blog/2021-02-08-Dynamic_Molecular_Epidemiology_Reveals_Lineage-Associated_Single-Nucleotide_Variants_That_Alter_RNA_Structure_in_Chikungunya_Virus.rst>`
   | Thomas Spicher, Markus Delitz, Adriano de Bernardi Schneider, :ul:`Michael T. Wolfinger`
-  | *Genes* 12 (2):239 (2021) | :doi:`doi:10.3390/genes12020239 <https://doi.org/10.3390/genes12020239>` | :link-flat:`PDF <{static}/files/papers/Spicher-2021.pdf>`
+  | *Genes* 12 (2):239 (2021) | :doi:`doi:10.3390/genes12020239 <https://doi.org/10.3390/genes12020239>` | :link-flat:`PDF <{static}/files/papers/Spicher-2021.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Spicher-2021.pdf>`
 
 
 `2020`_
