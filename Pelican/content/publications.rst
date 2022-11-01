@@ -83,7 +83,7 @@ Peer-reviewed journal articles and book chapters
 
   | 37. :link-flat-strong:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <{filename}blog/2021-09-06-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`
   | :ul:`Michael T. Wolfinger`, Roman Ochsenreiter, Ivo L. Hofacker
-  | In *Virus Bioinformatics*, edited by Dmitrij Frishman and Manja Marz, pp65–100. Chapman and Hall/CRC Press (2021) | :doi:`doi:10.1201/9781003097679-5 <https://doi.org/10.1201/9781003097679-5>` | :link-flat:`Preprint PDF <{static}/files/papers/Wolfinger-2021.pdf>`
+  | In *Virus Bioinformatics*, edited by Dmitrij Frishman and Manja Marz, pp65–100. Chapman and Hall/CRC Press (2021) | :doi:`doi:10.1201/9781003097679-5 <https://doi.org/10.1201/9781003097679-5>` | :link-flat:`Preprint PDF <{static}/files/papers/Wolfinger-2021.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Wolfinger-2021.pdf>`
 
   | 36. :link-flat-strong:`Gene Expression Profiling of Pseudomonas Aeruginosa Upon Exposure to Colistin and Tobramycin  <{filename}/publications/papers/Gene_Expression_Profiling_of_Pseudomonas_Aeruginosa_Upon_Exposure_to_Colistin_and_Tobramycin.rst>`
   | Anastasia Cianciulli Sesso, Branislav Lilić, Fabian Amman, :ul:`Michael T. Wolfinger`, Elisabeth Sonnleitner, Udo Bläsi

@@ -2,7 +2,7 @@ Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses
 #####################################################################
 
 :date: 2021-09-02
-:modified: 2022-10-14
+:modified: 2022-11-01
 :tags: viruses; non-coding RNA
 :category: publications
 :slug: Functional-RNA-Structures-in-the-3UTR-of-Mosquito-Borne-Flaviviruses
@@ -33,12 +33,37 @@ To get a better picture and understanding of RNA structure conservation in MBFVs
 
 .. button-primary:: {static}/files/papers/Wolfinger-2021.pdf
 
-    Download PDF
+    Download Preprint PDF
 
 
 .. frame:: Abstract
 
   Recent experimental evidence revealed a thorough understanding of the involvement of functional RNA elements in the 3’ untranslated regions (UTRs) of flaviviruses with virus tropism. Comparative genomics and thermodynamic modelling allow for the prediction and functional characterization of homologous structures in phylogenetically related viruses. We provide here a comprehensive overview of evolutionarily conserved RNAs in the 3’UTRs of mosquito-borne flaviviruses.
+
+Figures and Data
+================
+
+.. image-grid ::
+
+  {static}/files/QuickSlide/QuickSlide__Wolfinger-2021/QuickSlide__Wolfinger-2021.001.png
+
+  {static}/files/QuickSlide/QuickSlide__Wolfinger-2021/QuickSlide__Wolfinger-2021.002.png
+  {static}/files/QuickSlide/QuickSlide__Wolfinger-2021/QuickSlide__Wolfinger-2021.003.png
+
+  {static}/files/QuickSlide/QuickSlide__Wolfinger-2021/QuickSlide__Wolfinger-2021.004.png
+  {static}/files/QuickSlide/QuickSlide__Wolfinger-2021/QuickSlide__Wolfinger-2021.005.png
+
+  {static}/files/QuickSlide/QuickSlide__Wolfinger-2021/QuickSlide__Wolfinger-2021.006.png
+  {static}/files/QuickSlide/QuickSlide__Wolfinger-2021/QuickSlide__Wolfinger-2021.007.png
+
+  {static}/files/QuickSlide/QuickSlide__Wolfinger-2021/QuickSlide__Wolfinger-2021.008.png
+  {static}/files/QuickSlide/QuickSlide__Wolfinger-2021/QuickSlide__Wolfinger-2021.009.png
+
+  {static}/files/QuickSlide/QuickSlide__Wolfinger-2021/QuickSlide__Wolfinger-2021.010.png
+  {static}/files/QuickSlide/QuickSlide__Wolfinger-2021/QuickSlide__Wolfinger-2021.011.png
+
+  {static}/files/QuickSlide/QuickSlide__Wolfinger-2021/QuickSlide__Wolfinger-2021.012.png
+
 
 Citation
 ========
