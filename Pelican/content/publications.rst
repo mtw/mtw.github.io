@@ -127,7 +127,7 @@ Peer-reviewed journal articles and book chapters
 
   | 29. :link-flat-strong:`Updated Phylogeny of Chikungunya Virus Suggests Lineage-Specific RNA Architecture <{filename}/publications/papers/Updated_Phylogeny_of_Chikungunya_Virus_Suggests_Lineage_Specific_RNA_Architecture.rst>`
   | Adriano de Bernardi Schneider, Roman Ochsenreiter, Reilly Hostager, Ivo L. Hofacker, Daniel Janies, :ul:`Michael T. Wolfinger`
-  | *Viruses* 11:798 (2019) | :doi:`doi:10.3390/v11090798 <https://doi.org/10.3390/v11090798>` | :link-flat:`PDF <{static}/files/papers/deBernardiSchneider-2019b.pdf>`
+  | *Viruses* 11:798 (2019) | :doi:`doi:10.3390/v11090798 <https://doi.org/10.3390/v11090798>` | :link-flat:`PDF <{static}/files/papers/deBernardiSchneider-2019b.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__deBernardiSchneider-2019b.pdf>`
 
   | 28. :link-flat-strong:`Musashi Binding Elements in Zika and Related Flavivirus 3’UTRs: A Comparative Study in Silico <{filename}/publications/papers/Musashi_Binding_Elements_in_Zika_and_Related_Flavivirus_3UTRs_A_Comparative_Study_in_Silico.rst>`
   | Adriano de Bernardi Schneider, :ul:`Michael T. Wolfinger`
