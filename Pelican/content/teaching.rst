@@ -10,6 +10,11 @@ Teaching
 
     I am teaching bioinformatics and chemistry classes. This is a list of current and past courses I have given over the past few years at the `University of Vienna <http://www.univie.ac.at>`_ and the `FH Campus Wien <http://fh-campuswien.ac.at>`_ (FHCW - University of Applied Sciences).
 
+`2023S`_
+--------
+
+- 270056 PR `Algorithms and Development of Programmes for Biological Chemistry (2023S) <https://ufind.univie.ac.at/en/course.html?lv=270056&semester=2023S>`_
+- 270034 PR `Practical Course Bioinformatics of Nucleic Acids (2023S) <https://ufind.univie.ac.at/en/course.html?lv=270034&semester=2023S>`_
 
 `2022W`_
 --------
@@ -20,7 +25,6 @@ Teaching
 --------
 
 - 270056 UE `Algorithms and Development of Programmes for Biological Chemistry (2022S) <https://ufind.univie.ac.at/en/course.html?lv=270056&semester=2022S>`_
-
 
 `2021W`_
 --------

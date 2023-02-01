@@ -100,7 +100,7 @@ M_LINKS_FOOTER4 = [('Social', ''),
                     ]
 
 M_FINE_PRINT =  """
-| michaelwolfinger.com - Copyright © Michael T. Wolfinger, 2021-2022
+| michaelwolfinger.com - Copyright © Michael T. Wolfinger, 2021-2023
 """
 
 STATIC_PATHS = ['static', 'extra/CNAME', 'extra/robots.txt', 'extra/favicon.ico']
