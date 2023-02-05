@@ -62,5 +62,5 @@ Home
         .. raw:: html
 
           <span class="m-landing-text">
-          My primary affiliation is with the <a href="https://bcb.cs.univie.ac.at/"> Research Group Bioinformatics and Computational Biology (BCB) </a> and the <a href="http://www.tbi.univie.ac.at/"> Theoretical Biochemistry group (TBI)</a> at the Department of Theoretical Chemistry, University of Vienna. Our Institute is the home of the <a href="http://www.tbi.univie.ac.at/RNA"> ViennaRNA Package</a>.
+          My primary academic affiliation is with the <a href="https://bcb.cs.univie.ac.at/"> Research Group Bioinformatics and Computational Biology (BCB) </a> and the <a href="http://www.tbi.univie.ac.at/"> Theoretical Biochemistry Group (TBI)</a> at the Department of Theoretical Chemistry, University of Vienna. Our Institute is renowned as the home of the <a href="http://www.tbi.univie.ac.at/RNA"> ViennaRNA Package</a>, a widely used tool for <strong>RNA bioinformatics</strong>. I am the founder of <a href="https://rnaforecast.com">RNA Forecast</a>, an enterprise with a vision to bring the full potential of RNA structure to the forefront of the pharma and biotech industries.
           </span>

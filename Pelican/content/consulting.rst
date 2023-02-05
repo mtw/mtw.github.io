@@ -2,7 +2,7 @@ RNA Bioinformatics Consulting Services
 ######################################
 :summary: Consulting Services by Michael Thomas Wolfinger
 :title: RNA Bioinformatics consultancy Michael T. Wolfinger
-:description: We provide RNA Bioinformatics consulting and trainings on how to use the Vienna RNA Package for effective RNA structure prediction 
+:description: We provide RNA Bioinformatics consulting and trainings on how to use the Vienna RNA Package for effective RNA structure prediction
 
 :breadcrumb: / Home
 
@@ -27,7 +27,7 @@ RNA Bioinformatics Consulting Services
 
               .. raw:: html
 
-                  <span class="m-landing-intro">I provide <strong>RNA bioinformatics support</strong> and <strong>consulting services</strong> in <strong>computational and structural RNA biology</strong> for the biotech and pharma industries. <br><br>If the answer to any of the above questions is yes, reach out at <a href="mailto:services@michaelwolfinger.com?subject=Consultancy inquiry">services@michaelwolfinger.com</a></span>
+                  <span class="m-landing-intro">I provide <strong>RNA bioinformatics support</strong> and <strong>consulting services</strong> in <strong>computational and structural RNA biology</strong> for the biotech and pharma industries through my company <a href="https://rnaforecast.com">RNA Forecast e.U.</a><br><br>If the answer to any of the above questions is yes, reach out at <a href="mailto:hello@rnaforecast.com?subject=Consultancy inquiry">hello@rnaforecast.com</a></span>
 
 
         ..
