@@ -28,6 +28,10 @@ Preprints
 
 .. container:: preprints
 
+  | 48. :link-flat-strong:`Strukturierte RNAs in Viren <https://doi.org/10.5281/zenodo.7636987>` (in German)
+  | Roman Ochsenreiter and :ul:`Michael T. Wolfinger`
+  | *Zenodo* 2023| :doi:`10.5281/zenodo.7636987 <https://doi.org/10.5281/zenodo.7636987>` | :link-flat:`Preprint PDF <{static}/files/papers/Ochsenreiter-2023__PREPRINT.pdf>`
+
   | 47. :link-flat-strong:`Automated Agnostic Designation of Pathogen Lineages <https://doi.org/10.1101/2023.02.03.527052>`
   | Jakob McBroome, Adriano de Bernardi Schneider, Cornelius Roemer, :ul:`Michael T. Wolfinger`, Angie S Hinrichs, Aine N O’Toole, Chris Ruis, Yatish Turakhia, Andrew Rambaut, and Russell Corbett-Detig
   | *bioRxiv* 2023.02.03.527052 | :doi:`10.1101/2023.02.03.527052 <https://doi.org/10.1101/2023.02.03.527052>` | :link-flat:`Preprint PDF <{static}/files/papers/McBroome-2023__PREPRINT.pdf>`
