@@ -3,8 +3,7 @@ Disallow: /blog/tag/*
 Disallow: /blog/category/*
 Disallow: /blog/archive/*
 Disallow: /blog/category/*
-
-
+Disallow: /legal
 
 Sitemap: https://michaelwolfinger.com/sitemap.xml
 
