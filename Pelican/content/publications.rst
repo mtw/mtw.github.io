@@ -28,6 +28,10 @@ Preprints
 
 .. container:: preprints
 
+  | 49. :link-flat-strong:`A Structural Refinement Technique for Protein-RNA Complexes Based on a Combination of AI-based Modeling and Flexible Docking <publications>`
+  | Nitchakan Darai, Kowit Hengphasatporn, Peter Wolschann, :ul:`Michael T. Wolfinger`, Yasuteru Shigeta, Thanyada Rungrotmongkol, and Ryuhei Harada
+  | *Manuscript submitted* (2023)
+
   | 48. :link-flat-strong:`Strukturierte RNAs in Viren <https://doi.org/10.5281/zenodo.7636987>` (in German)
   | Roman Ochsenreiter and :ul:`Michael T. Wolfinger`
   | *Zenodo* 2023| :doi:`10.5281/zenodo.7636987 <https://doi.org/10.5281/zenodo.7636987>` | :link-flat:`Preprint PDF <{static}/files/papers/Ochsenreiter-2023__PREPRINT.pdf>`
