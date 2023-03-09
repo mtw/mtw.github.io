@@ -2,7 +2,7 @@ Papers
 ######
 :summary: Publications by Michael T. Wolfinger
 :title: Publications by Michael T. Wolfinger
-:description: Journal publications, book chapters and preprints by Michael T. Wolfinger
+:description: Explore diverse topics and gain valuable insights with Michael T. Wolfinger's journal publications, book chapters, and preprints.
 
 
 :breadcrumb: / Home
