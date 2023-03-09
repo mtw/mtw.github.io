@@ -2,7 +2,7 @@ Presentations
 #############
 :summary: Oral presentation and invited talks by Michael Thomas Wolfinger
 :title: Invited talks and oral presentation by Michael T. Wolfinger
-:description: Invited talks and oral presentation by Michael T. Wolfinger
+:description: Explore insightful invited talks and oral presentations by Michael T. Wolfinger. Gain valuable knowledge on a variety of topics from an expert in the field.
 
 :breadcrumb: / Home
 
