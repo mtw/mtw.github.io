@@ -37,7 +37,7 @@ Preprints
   | *Zenodo* 2023| :doi:`10.5281/zenodo.7636987 <https://doi.org/10.5281/zenodo.7636987>` | :link-flat:`Preprint PDF <{static}/files/papers/Ochsenreiter-2023__PREPRINT.pdf>`
 
   | 47. :link-flat-strong:`Automated Agnostic Designation of Pathogen Lineages <https://doi.org/10.1101/2023.02.03.527052>`
-  | Jakob McBroome, Adriano de Bernardi Schneider, Cornelius Roemer, :ul:`Michael T. Wolfinger`, Angie S Hinrichs, Aine N O’Toole, Chris Ruis, Yatish Turakhia, Andrew Rambaut, and Russell Corbett-Detig
+  | Jakob McBroome, Adriano de Bernardi Schneider, Cornelius Roemer, :ul:`Michael T. Wolfinger`, Angie S. Hinrichs, Aine N. O’Toole, Chris Ruis, Yatish Turakhia, Andrew Rambaut, and Russell Corbett-Detig
   | *bioRxiv* 2023.02.03.527052 | :doi:`10.1101/2023.02.03.527052 <https://doi.org/10.1101/2023.02.03.527052>` | :link-flat:`Preprint PDF <{static}/files/papers/McBroome-2023__PREPRINT.pdf>`
 
   | 46. :link-flat-strong:`The 3’ terminal region of Zika virus RNA contains a conserved G-quadruplex and is unfolded by human DDX17 <publications>`
@@ -48,15 +48,22 @@ Preprints
   | Benoit Besson, Gijs J. Overheul, :ul:`Michael T. Wolfinger`, Sandra Junglen, Ronald P. van Rij
   | *bioRxiv* 2022.08.18.504478 | :doi:`10.1101/2022.08.18.504478 <https://doi.org/10.1101/2022.08.18.504478>` | :link-flat:`Preprint PDF <{static}/files/papers/Besson-2022__PREPRINT.pdf>`
 
-  | 44. :link-flat-strong:`Cyclization studies of Japanese encephalitis virus non-coding RNA terminal regions <{filename}blog/2022-02-03-Cyclization-studies-of-Japanese-encephalitis-virus-non-coding-RNA-terminal-regions.rst>`
-  | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Corey Nelson, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
-  | *bioRxiv* 2022.02.01.478553 | :doi:`doi:10.1101/2022.02.01.478553 <https://doi.org/10.1101/2022.02.01.478553>` | :link-flat:`Preprint PDF <{static}/files/papers/Mrozovich-2022__PREPRINT.pdf>`
+
 
 .. transition::  - - -
 
 
 Peer-reviewed journal articles and book chapters
 ================================================
+
+`2023`_
+-------
+
+.. container:: refs-2023
+
+  | 44. :link-flat-strong:`Investigating RMA-RNA interactiona through computational and biophysical analysis <publications>`
+  | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke Deklerk, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
+  | *Nucleic Acids Res.*  | :doi:`doi:10.1093/nar/gkad223 <https://doi.org/10.1093/nar/gkad223>` | :link-flat:`Preprint PDF <{static}/files/papers/Mrozovich-2022__PREPRINT.pdf>`
 
 `2022`_
 -------
