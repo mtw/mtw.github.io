@@ -32,23 +32,17 @@ Preprints
   | Nitchakan Darai, Kowit Hengphasatporn, Peter Wolschann, :ul:`Michael T. Wolfinger`, Yasuteru Shigeta, Thanyada Rungrotmongkol, and Ryuhei Harada
   | *Manuscript submitted* (2023)
 
-  | 48. :link-flat-strong:`Strukturierte RNAs in Viren <https://doi.org/10.5281/zenodo.7636987>` (in German)
-  | Roman Ochsenreiter and :ul:`Michael T. Wolfinger`
-  | *Zenodo* 2023| :doi:`10.5281/zenodo.7636987 <https://doi.org/10.5281/zenodo.7636987>` | :link-flat:`Preprint PDF <{static}/files/papers/Ochsenreiter-2023__PREPRINT.pdf>`
-
-  | 47. :link-flat-strong:`Automated Agnostic Designation of Pathogen Lineages <https://doi.org/10.1101/2023.02.03.527052>`
+  | 48. :link-flat-strong:`Automated Agnostic Designation of Pathogen Lineages <https://doi.org/10.1101/2023.02.03.527052>`
   | Jakob McBroome, Adriano de Bernardi Schneider, Cornelius Roemer, :ul:`Michael T. Wolfinger`, Angie S. Hinrichs, Aine N. O’Toole, Chris Ruis, Yatish Turakhia, Andrew Rambaut, and Russell Corbett-Detig
   | *bioRxiv* 2023.02.03.527052 | :doi:`10.1101/2023.02.03.527052 <https://doi.org/10.1101/2023.02.03.527052>` | :link-flat:`Preprint PDF <{static}/files/papers/McBroome-2023__PREPRINT.pdf>`
 
-  | 46. :link-flat-strong:`The 3’ terminal region of Zika virus RNA contains a conserved G-quadruplex and is unfolded by human DDX17 <publications>`
+  | 47. :link-flat-strong:`The 3’ terminal region of Zika virus RNA contains a conserved G-quadruplex and is unfolded by human DDX17 <publications>`
   | Darren Gemmill, Corey Nelson, Maulik Badmalia, Higor Pereira, :ul:`Michael T. Wolfinger`, and Trushar Patel
   | *Manuscript submitted* (2022)
 
-  | 45. :link-flat-strong:`Pan-flavivirus analysis reveals that the insect-specific Kamiti River virus produces a new subgenomic RNA and high amounts of 3' UTR-derived siRNAs <https://doi.org/10.1101/2022.08.18.504478>`
+  | 46. :link-flat-strong:`Pan-flavivirus analysis reveals that the insect-specific Kamiti River virus produces a new subgenomic RNA and high amounts of 3' UTR-derived siRNAs <https://doi.org/10.1101/2022.08.18.504478>`
   | Benoit Besson, Gijs J. Overheul, :ul:`Michael T. Wolfinger`, Sandra Junglen, Ronald P. van Rij
   | *bioRxiv* 2022.08.18.504478 | :doi:`10.1101/2022.08.18.504478 <https://doi.org/10.1101/2022.08.18.504478>` | :link-flat:`Preprint PDF <{static}/files/papers/Besson-2022__PREPRINT.pdf>`
-
-
 
 .. transition::  - - -
 
@@ -61,9 +55,13 @@ Peer-reviewed journal articles and book chapters
 
 .. container:: refs-2023
 
+  | 45. :link-flat-strong:`Strukturierte RNAs in Viren <publications>` (in German)
+  | Roman Ochsenreiter and :ul:`Michael T. Wolfinger`
+  | *BIOspektrum* 02.23:156 (2023) | :doi:`doi:10.1007/s12268-023-1907-x <https://doi.org/10.1007/s12268-023-1907-x>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2023.pdf>`
+
   | 44. :link-flat-strong:`Investigating RMA-RNA interactiona through computational and biophysical analysis <publications>`
   | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke Deklerk, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
-  | *Nucleic Acids Res.*  | :doi:`doi:10.1093/nar/gkad223 <https://doi.org/10.1093/nar/gkad223>` | :link-flat:`Preprint PDF <{static}/files/papers/Mrozovich-2022__PREPRINT.pdf>`
+  | *Nucleic Acids Res.* (2023) | :doi:`doi:10.1093/nar/gkad223 <https://doi.org/10.1093/nar/gkad223>` | :link-flat:`Preprint PDF <{static}/files/papers/Mrozovich-2022__PREPRINT.pdf>`
 
 `2022`_
 -------
