@@ -42,7 +42,7 @@ Preprints
 
   | 46. :link-flat-strong:`Pan-flavivirus analysis reveals that the insect-specific Kamiti River virus produces a new subgenomic RNA and high amounts of 3' UTR-derived siRNAs <https://doi.org/10.1101/2022.08.18.504478>`
   | Benoit Besson, Gijs J. Overheul, :ul:`Michael T. Wolfinger`, Sandra Junglen, Ronald P. van Rij
-  | *bioRxiv* 2022.08.18.504478 | :doi:`10.1101/2022.08.18.504478 <https://doi.org/10.1101/2022.08.18.504478>` | :link-flat:`Preprint PDF <{static}/files/papers/Besson-2022__PREPRINT.pdf>`
+  | *bioRxiv* 2022.08.18.504478 | :doi:`10.1101/2022.08.18.504478 <https://doi.org/10.1101/2022.08.18.504478>` | :link-flat:`PDF <{static}/files/papers/Besson-2022__PREPRINT.pdf>`
 
 .. transition::  - - -
 
@@ -55,13 +55,13 @@ Peer-reviewed journal articles and book chapters
 
 .. container:: refs-2023
 
-  | 45. :link-flat-strong:`Strukturierte RNAs in Viren <publications>` (in German)
-  | Roman Ochsenreiter and :ul:`Michael T. Wolfinger`
-  | *BIOspektrum* 02.23:156 (2023) | :doi:`doi:10.1007/s12268-023-1907-x <https://doi.org/10.1007/s12268-023-1907-x>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2023.pdf>`
-
-  | 44. :link-flat-strong:`Investigating RMA-RNA interactiona through computational and biophysical analysis <publications>`
+  | 45. :link-flat-strong:`Investigating RMA-RNA interactions through computational and biophysical analysis <publications>`
   | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke Deklerk, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
-  | *Nucleic Acids Res.* (2023) | :doi:`doi:10.1093/nar/gkad223 <https://doi.org/10.1093/nar/gkad223>` | :link-flat:`Preprint PDF <{static}/files/papers/Mrozovich-2022__PREPRINT.pdf>`
+  | *Nucleic Acids Res.* gkad223 (2023) | :doi:`doi:10.1093/nar/gkad223 <https://doi.org/10.1093/nar/gkad223>` | :link-flat:`PDF <{static}/files/papers/Mrozowich-2023.pdf>`
+
+  | 44. :link-flat-strong:`Strukturierte RNAs in Viren <publications>` (in German)
+  | Roman Ochsenreiter, :ul:`Michael T. Wolfinger`
+  | *BIOspektrum* 02.23:156 (2023) | :doi:`doi:10.1007/s12268-023-1907-x <https://www.biospektrum.de/magazinartikel/strukturierte-rnas-viren>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2023.pdf>`
 
 `2022`_
 -------
