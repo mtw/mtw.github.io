@@ -21,7 +21,7 @@ Papers
 
 .. frame::
 
-    Download the full :link-flat:`list of publications by Michael T. Wolfinger <{static}/files/MTW_PublicationList.pdf>` as PDF.
+    Download :link-flat:`Michael T. Wolfinger's publication list <{static}/files/MTW_PublicationList.pdf>` as PDF.
 
 Preprints
 =========
@@ -59,7 +59,7 @@ Peer-reviewed journal articles and book chapters
   | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke Deklerk, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
   | *Nucleic Acids Res.* gkad223 (2023) | :doi:`doi:10.1093/nar/gkad223 <https://doi.org/10.1093/nar/gkad223>` | :link-flat:`PDF <{static}/files/papers/Mrozowich-2023.pdf>`
 
-  | 44. :link-flat-strong:`Strukturierte RNAs in Viren <publications>` (in German)
+  | 44. :link-flat-strong:`Strukturierte RNAs in Viren <{filename}blog/2023-03-23-Strukturierte-RNAs-in-Viren.rst>` (in German)
   | Roman Ochsenreiter, :ul:`Michael T. Wolfinger`
   | *BIOspektrum* 02.23:156 (2023) | :doi:`doi:10.1007/s12268-023-1907-x <https://www.biospektrum.de/magazinartikel/strukturierte-rnas-viren>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2023.pdf>`
 
