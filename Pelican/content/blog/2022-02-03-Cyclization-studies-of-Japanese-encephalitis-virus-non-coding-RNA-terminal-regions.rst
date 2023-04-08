@@ -2,8 +2,8 @@ Cyclization studies of Japanese encephalitis virus non-coding RNA terminal regio
 ##################################################################################
 
 :date: 2022-02-03
-:modified: 2022-10-14
-:tags: viruses; non-coding RNA
+:modified: 2023-04-09
+:tags: RNA-RNA interaction; non-coding RNA; viruses; 3D
 :category: publications
 :slug: Cyclization-studies-of-Japanese-encephalitis-virus-non-coding-RNA-terminal-regions
 :author: mtw
@@ -23,9 +23,12 @@ Cyclization studies of Japanese encephalitis virus non-coding RNA terminal regio
 .. role:: doi(link)
   :class: doi
 
-.. button-primary:: {static}/files/papers/Mrozovich-2022__PREPRINT.pdf
+.. frame:: Now published in Nucleic Acids Research:
 
-    Download PDF
+  | :link-flat-strong:`Investigating RNA-RNA interactions through computational and biophysical analysis <{filename}/blog/2023-03-31-Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis.rst>`
+  | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke De Klerk, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
+  | *Nucleic Acids Res.* gkad223 (2023) | :doi:`doi:10.1093/nar/gkad223 <https://doi.org/10.1093/nar/gkad223>` | :link-flat:`PDF <{static}/files/papers/Mrozowich-2023.pdf>` |  :link-flat:`Supplement <{static}/files/papers/Mrozowich-2023__SUPPLEMENT.pdf>`
+
 
 .. frame:: Abstract
 
