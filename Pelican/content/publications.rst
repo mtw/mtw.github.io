@@ -55,13 +55,13 @@ Peer-reviewed journal articles and book chapters
 
 .. container:: refs-2023
 
-  | 45. :link-flat-strong:`Investigating RMA-RNA interactions through computational and biophysical analysis <publications>`
-  | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke Deklerk, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
-  | *Nucleic Acids Res.* gkad223 (2023) | :doi:`doi:10.1093/nar/gkad223 <https://doi.org/10.1093/nar/gkad223>` | :link-flat:`PDF <{static}/files/papers/Mrozowich-2023.pdf>`
+  | 45. :link-flat-strong:`Investigating RNA-RNA interactions through computational and biophysical analysis <{filename}/blog/2023-03-31-Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis.rst>`
+  | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke De Klerk, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
+  | *Nucleic Acids Res.* gkad223 (2023) | :doi:`doi:10.1093/nar/gkad223 <https://doi.org/10.1093/nar/gkad223>` | :link-flat:`PDF <{static}/files/papers/Mrozowich-2023.pdf>` | :link-flat:`Supplement <{static}/files/papers/Mrozowich-2023__SUPPLEMENT.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Mrozowich-2023.pdf>`
 
   | 44. :link-flat-strong:`Strukturierte RNAs in Viren <{filename}blog/2023-03-23-Strukturierte-RNAs-in-Viren.rst>` (in German)
   | Roman Ochsenreiter, :ul:`Michael T. Wolfinger`
-  | *BIOspektrum* 02.23:156 (2023) | :doi:`doi:10.1007/s12268-023-1907-x <https://www.biospektrum.de/magazinartikel/strukturierte-rnas-viren>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2023.pdf>`
+  | *BIOspektrum* 02.23:156 (2023) | :doi:`doi:10.1007/s12268-023-1907-x <https://www.biospektrum.de/magazinartikel/strukturierte-rnas-viren>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2023.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Ochsenreiter-2023.pdf>`
 
 `2022`_
 -------
