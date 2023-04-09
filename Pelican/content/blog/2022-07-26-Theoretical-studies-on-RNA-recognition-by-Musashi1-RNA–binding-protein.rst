@@ -2,7 +2,7 @@ Theoretical studies on RNA recognition by Musashi 1 RNA-binding protein
 #######################################################################
 
 :date: 2022-07-26
-:modified: 2022-10-29
+:modified: 2023-04-09
 :tags: 3D;
 :category: publications
 :slug: Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein
@@ -60,17 +60,9 @@ Citation
   | Nitchakan Darai, Panupong Mahalapbutr, Peter Wolschann, Vannajan Sanghiran Lee, :ul:`Michael T. Wolﬁnger`, Thanyada Rungrotmongkol
   | *Sci. Rep.* 12:12137 (2022) | :doi:`doi:10.1038/s41598-022-16252-w <https://doi.org/10.1038/s41598-022-16252-w>` | :link-flat:`PDF <{static}/files/papers/Darai-2022.pdf>`
 
-..
-    .. block-info:: Citations
+See Also
+========
 
-        .. container:: m-label
-
-            .. raw:: html
-
-              <span class="__dimensions_badge_embed__" data-doi="10.1038/s41598-022-16252-w" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-        .. container:: m-label
-
-            .. raw:: html
-
-              <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1038/s41598-022-16252-w"></div>
+  | :link-flat-strong:`Musashi Binding Elements in Zika and Related Flavivirus 3’UTRs: A Comparative Study in Silico <{filename}/blog/2019-05-06-Musashi-Binding-Elements-in-Zika-and-Related-Flavivirus-3UTRs-A-Comparative-Study-in-Silico.rst>`
+  | Adriano de Bernardi Schneider, :ul:`Michael T. Wolfinger`
+  | *Sci. Rep.* 9(1):6911 (2019) | :doi:`doi:10.1038/s41598-019-43390-5 <https://doi.org/10.1038/s41598-019-43390-5>` | :link-flat:`PDF <{static}/files/papers/deBernardiSchneider-2019a.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__deBernardiSchneider-2019a.pdf>`
