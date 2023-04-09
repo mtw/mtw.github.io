@@ -146,9 +146,9 @@ Peer-reviewed journal articles and book chapters
   | Adriano de Bernardi Schneider, Roman Ochsenreiter, Reilly Hostager, Ivo L. Hofacker, Daniel Janies, :ul:`Michael T. Wolfinger`
   | *Viruses* 11:798 (2019) | :doi:`doi:10.3390/v11090798 <https://doi.org/10.3390/v11090798>` | :link-flat:`PDF <{static}/files/papers/deBernardiSchneider-2019b.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__deBernardiSchneider-2019b.pdf>`
 
-  | 28. :link-flat-strong:`Musashi Binding Elements in Zika and Related Flavivirus 3’UTRs: A Comparative Study in Silico <{filename}/publications/papers/Musashi_Binding_Elements_in_Zika_and_Related_Flavivirus_3UTRs_A_Comparative_Study_in_Silico.rst>`
+  | 28. :link-flat-strong:`Musashi Binding Elements in Zika and Related Flavivirus 3’UTRs: A Comparative Study in Silico <{filename}/blog/2019-05-06-Musashi-Binding-Elements-in-Zika-and-Related-Flavivirus-3UTRs-A-Comparative-Study-in-Silico.rst>`
   | Adriano de Bernardi Schneider, :ul:`Michael T. Wolfinger`
-  | *Sci. Rep.* 9(1):6911 (2019) | :doi:`doi:10.1038/s41598-019-43390-5 <https://doi.org/10.1038/s41598-019-43390-5>` | :link-flat:`PDF <{static}/files/papers/deBernardiSchneider-2019a.pdf>`
+  | *Sci. Rep.* 9(1):6911 (2019) | :doi:`doi:10.1038/s41598-019-43390-5 <https://doi.org/10.1038/s41598-019-43390-5>` | :link-flat:`PDF <{static}/files/papers/deBernardiSchneider-2019a.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__deBernardiSchneider-2019a.pdf>`
 
   | 27. :link-flat-strong:`Indications for a Moonlighting Function of Translation Factor aIF5A in the Crenarchaeum Sulfolobus Solfataricus <{filename}/publications/papers/Indications_for_a_Moonlighting_Function_of_Translation_Factor_aIF5A_in_the_Crenarchaeum_Sulfolobus_Solfataricus.rst>`
   | Flavia Bassani, Isabelle Anna Zink, Thomas Pribasnig, :ul:`Michael T. Wolfinger`, Alice Romagnoli, Armin Resch, Christa Schleper, Udo Bläsi, Anna La Teana
