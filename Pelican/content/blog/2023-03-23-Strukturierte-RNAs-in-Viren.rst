@@ -55,4 +55,4 @@ Citation
 
   | :link-flat-strong:`Strukturierte RNAs in Viren <https://www.biospektrum.de/magazinartikel/strukturierte-rnas-viren>` (in German)
   | Roman Ochsenreiter, :ul:`Michael T. Wolfinger`
-  | *BIOspektrum* 02.23:156 (2023) | :doi:`doi:10.1007/s12268-023-1907-x <https://www.biospektrum.de/magazinartikel/strukturierte-rnas-viren>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2023.pdf>`
+  | *Biospektrum* 29(2):156-158 (2023) | | :doi:`doi:10.1007/s12268-023-1907-x <https://www.biospektrum.de/magazinartikel/strukturierte-rnas-viren>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2023.pdf>`
