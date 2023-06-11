@@ -8,7 +8,7 @@ Strukturierte RNAs in Viren (in German)
 :slug: Strukturierte-RNAs-in-Viren
 :author: mtw
 :summary: In this mini-review we discuss the concept of RNA structure conservation in viruses, using exoribonuclease-resistant RNAs from flaviviruses as prominent examples
-:description: Conserved exoribonuclease-resistant elements in viral RNA regulation: potential targets for synthetic biology and mRNA vaccines.
+:description: Conserved elements in viral RNA: targets for synthetic biology & mRNA vaccines.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
