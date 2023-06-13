@@ -52,9 +52,9 @@ Peer-reviewed journal articles and book chapters
 
 .. container:: refs-2023
 
-  | 46. :link-flat-strong:`A Structural Refinement Technique for Protein-RNA Complexes Using a Combination of AI-based Modeling and Flexible Docking: A Study of Musashi-1 Protein <{filename}publications.rst>`
+  | 46. :link-flat-strong:`A Structural Refinement Technique for Protein-RNA Complexes Using a Combination of AI-based Modeling and Flexible Docking: A Study of Musashi-1 Protein <{filename}/blog/2023-06-09-A-Structural-Refinement-Technique-for-Protein-RNA-Complexes-Using-Combination-of-AI-based-Modeling-and-Flexible-Docking-A-Study-of-Musashi-1-Protein.rst>`
   | Nitchakan Darai, Kowit Hengphasatporn, Peter Wolschann, :ul:`Michael T. Wolfinger`, Yasuteru Shigeta, Thanyada Rungrotmongkol, Ryuhei Harada
-  | *B. Chem. Soc. Jpn.* (2023)
+  | *B. Chem. Soc. Jpn.* (2023) | :doi:`doi:10.1246/bcsj.20230092 <https://doi.org/10.1246/bcsj.20230092>` | :link-flat:`PDF <{static}/files/papers/Darai-2023.pdf>` 
 
   | 45. :link-flat-strong:`Investigating RNA-RNA interactions through computational and biophysical analysis <{filename}/blog/2023-03-31-Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis.rst>`
   | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke De Klerk, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel

@@ -7,7 +7,7 @@ RNA-Protein Complex Refinement using AI Modeling and Docking
 :category: publications
 :slug:
 :author: mtw
-:summary:
+:summary: This study presents an efficient technique for refining protein-RNA complexes using AI-based modeling and flexible docking. The method, utilizing parallel cascade selection molecular dynamics (PaCS-MD), accelerates conformational sampling of flexible RNA regions and produces high-quality complex models. Experimental validation demonstrates its superiority over template-based modeling, suggesting its potential for constructing complexes with non-canonical RNA-protein interactions.
 :description: Conserved elements in viral RNA: targets for synthetic biology & mRNA vaccines.
 
 .. role:: link-flat-strong(link)
@@ -22,10 +22,9 @@ RNA-Protein Complex Refinement using AI Modeling and Docking
 .. role:: doi(link)
   :class: doi
 
-Exoribonuclease-resistant RNAs are a type of RNA molecule that possess unique properties in the 3' untranslated region (3'UTR) of flaviviruses, a family of RNA viruses that includes notorious pathogens such as dengue virus and Zika virus. The 3'UTR is a non-coding region of the viral RNA genome that plays crucial roles in viral replication and immune evasion. Exoribonucleases are cellular enzymes that degrade RNA molecules, including viral RNA, as part of the host's antiviral defense mechanism. However, some flaviviruses have evolved to contain specific sequences in their 3'UTR that confer resistance to exoribonuclease degradation.
 
 
-.. button-primary:: {static}/files/papers/Ochsenreiter-2023.pdf
+.. button-primary:: {static}/files/papers/Darai-2023.pdf
 
     Download PDF
 
@@ -36,10 +35,6 @@ Exoribonuclease-resistant RNAs are a type of RNA molecule that possess unique pr
 Citation
 ========
 
-  | :link-flat-strong:`A Structural Refinement Technique for Protein-RNA Complexes Using a Combination of AI-based Modeling and Flexible Docking: A Study of Musashi-1 Protein <{filename}publications.rst>`
+  | :link-flat-strong:`A Structural Refinement Technique for Protein-RNA Complexes Using a Combination of AI-based Modeling and Flexible Docking: A Study of Musashi-1 Protein <https://doi.org/10.1246/bcsj.20230092>`
   | Nitchakan Darai, Kowit Hengphasatporn, Peter Wolschann, :ul:`Michael T. Wolfinger`, Yasuteru Shigeta, Thanyada Rungrotmongkol, Ryuhei Harada
   | *B. Chem. Soc. Jpn.* (2023)
-
-  | :link-flat-strong:`Strukturierte RNAs in Viren <https://www.biospektrum.de/magazinartikel/strukturierte-rnas-viren>` (in German)
-  | Roman Ochsenreiter, :ul:`Michael T. Wolfinger`
-  | *Biospektrum* 29(2):156-158 (2023) | | :doi:`doi:10.1007/s12268-023-1907-x <https://www.biospektrum.de/magazinartikel/strukturierte-rnas-viren>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2023.pdf>`
