@@ -23,7 +23,7 @@ Selected Posters
 | Presented at the *RNA Biology forever - Vienna RNA Meeting 2021*
 | Vienna, Austria, September 2021
 
-| :strong:`Towards Understanding Flaviviral Genome Cyclization`
+| :link-flat-strong:`Towards Understanding Flaviviral Genome Cyclization <{static}/files/posters/2021-06-23-UofA_FV_cyclization.pdf>`
 | Sean Park, Tyler Mrozowich, :ul:`Michael T. Wolfinger`, Trushar R. Patel
 | Presented at the *Li Ka Shing Institute of Virology/Gairdner Virtual Symposium: Zooming in on COVID-19*
 | Edmonton, Canada, June 2021
@@ -112,6 +112,11 @@ Selected Posters
 | Stefan Hammer, :ul:`Michael T. Wolfinger`, Ivo L. Hofacker, Christoph Flamm
 | Presented at the *RNA-REG Retreat 2013*
 | Krumbach, Austria. April 2013 | `doi:10.13140/2.1.1738.3366 <https://doi.org/10.13140/2.1.1738.3366>`_
+
+| :link-flat-strong:`Parallelization of RNA Folding Algorithms for Multi Core Processors <{static}/files/posters/2009_hooker.pdf>`
+| Daniel Hooker, :ul:`Michael T. Wolfinger`, Ivo L. Hofacker
+| Presented at the *Vienna University of Natural Resources and Life Sciences (BOKU)*
+| Vienna, Austria. January 2009 | `doi:10.13140/RG.2.2.28441.19043 <https://doi.org/10.13140/RG.2.2.28441.19043>`_
 
 | :link-flat-strong:`Energy Landscapes and Dynamics of Biopolymers <{static}/files/posters/mtw_poster_EBSV06.pdf>`
 | :ul:`Michael T. Wolfinger`, W. Andreas Svrcek-Seiler, Christoph Flamm, Ivo L. Hofacker, Peter F. Stadler
