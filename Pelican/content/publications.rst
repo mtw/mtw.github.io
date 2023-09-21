@@ -50,15 +50,15 @@ Peer-reviewed journal articles and book chapters
 
   | 47. :link-flat-strong:`The 3’ terminal region of Zika virus RNA contains a conserved G-quadruplex and is unfolded by human DDX17 <publications>`
   | Darren Gemmill, Corey Nelson, Maulik Badmalia, Higor Pereira, :ul:`Michael T. Wolfinger`, and Trushar Patel
-  | *Accepted Manuscript* (2023)
+  | *Biochem. Cell Biol* (2023)
 
   | 46. :link-flat-strong:`A Structural Refinement Technique for Protein-RNA Complexes Using a Combination of AI-based Modeling and Flexible Docking: A Study of Musashi-1 Protein <{filename}/blog/2023-06-09-A-Structural-Refinement-Technique-for-Protein-RNA-Complexes-Using-Combination-of-AI-based-Modeling-and-Flexible-Docking-A-Study-of-Musashi-1-Protein.rst>`
   | Nitchakan Darai, Kowit Hengphasatporn, Peter Wolschann, :ul:`Michael T. Wolfinger`, Yasuteru Shigeta, Thanyada Rungrotmongkol, Ryuhei Harada
-  | *B. Chem. Soc. Jpn.* (2023) | :doi:`doi:10.1246/bcsj.20230092 <https://doi.org/10.1246/bcsj.20230092>` | :link-flat:`PDF <{static}/files/papers/Darai-2023.pdf>` 
+  | *B. Chem. Soc. Jpn.* 96(7):677–685 (2023) | :doi:`doi:10.1246/bcsj.20230092 <https://doi.org/10.1246/bcsj.20230092>` | :link-flat:`PDF <{static}/files/papers/Darai-2023.pdf>`
 
   | 45. :link-flat-strong:`Investigating RNA-RNA interactions through computational and biophysical analysis <{filename}/blog/2023-03-31-Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis.rst>`
   | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke De Klerk, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
-  | *Nucleic Acids Res.* gkad223 (2023) | :doi:`doi:10.1093/nar/gkad223 <https://doi.org/10.1093/nar/gkad223>` | :link-flat:`PDF <{static}/files/papers/Mrozowich-2023.pdf>` | :link-flat:`Supplement <{static}/files/papers/Mrozowich-2023__SUPPLEMENT.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Mrozowich-2023.pdf>`
+  | *Nucleic Acids Res.* 51(9):4588–4601 (2023) | :doi:`doi:10.1093/nar/gkad223 <https://doi.org/10.1093/nar/gkad223>` | :link-flat:`PDF <{static}/files/papers/Mrozowich-2023.pdf>` | :link-flat:`Supplement <{static}/files/papers/Mrozowich-2023__SUPPLEMENT.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Mrozowich-2023.pdf>`
 
   | 44. :link-flat-strong:`Strukturierte RNAs in Viren <{filename}blog/2023-03-23-Strukturierte-RNAs-in-Viren.rst>` (in German)
   | Roman Ochsenreiter, :ul:`Michael T. Wolfinger`
@@ -87,7 +87,7 @@ Peer-reviewed journal articles and book chapters
 
   | 39. :link-flat-strong:`Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Inverted Repeats <{filename}blog/2022-01-20-Biophysical-Characterisation-of-Human-LincRNA-p21-Sense-and-Antisense-Alu-Inverted-Repeats.rst>`
   | Michael H. D’Souza, Tyler Mrozowich, Maulik D. Badmalia, Mitchell Geeraert, Angela Frederickson, Amy Henrickson, Borries Demeler, :ul:`Michael T. Wolfinger`, and Trushar R. Patel
-  | *Nucleic Acids Res.* gkac414 (2022) | :doi:`doi:10.1093/nar/gkac414 <https://doi.org/10.1093/nar/gkac414>` | :link-flat:`PDF <{static}/files/papers/DSouza-2022.pdf>`
+  | *Nucleic Acids Res.* 50(10):5881–5898 (2022) | :doi:`doi:10.1093/nar/gkac414 <https://doi.org/10.1093/nar/gkac414>` | :link-flat:`PDF <{static}/files/papers/DSouza-2022.pdf>`
 
   | 38. :link-flat-strong:`Insights into the secondary and tertiary structure of the Bovine Viral Diarrhea Virus Internal Ribosome Entry Site <{filename}blog/2021-05-15-Insights-into-the-secondary-and-tertiary-structure-of-the-Bovine-Viral-Diarrhea-Virus-Internal-Ribosome-Entry-Site.rst>`
   | Devadatta Gosavi, Iwona Wower, Irene K. Beckmann, Ivo L. Hofacker, Jacek Wower, :ul:`Michael T. Wolfinger`, Joanna Sztuba-Solinska
