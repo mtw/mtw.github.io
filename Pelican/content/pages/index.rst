@@ -47,7 +47,7 @@ Home
           <li> Microbial genotype-phenotype associations </li>
           </ul>
 
-          <p> I am also interested in <strong>RNA folding kinetics</strong> and the <strong>dynamics of RNA folding pathways</strong>. Here, I am studying <strong>discrete energy landscapes</strong>, equilibrium and non-equilibrium properties of complex disordered systems, and efficient sampling strategies.</p>
+          <p> My research interests extend to the realm of <strong>RNA folding kinetics</strong> and the <strong>dynamics of RNA folding pathways</strong>. Here, I am studying <strong>discrete energy landscapes</strong>, equilibrium and non-equilibrium properties of complex disordered systems, and efficient sampling strategies.</p>
           </span>
 
       .. container:: m-col-l-4  m-col-m-5 m-push-m-0 m-col-s-7 m-push-s-3 m-col-t-10 m-push-t-1
@@ -62,5 +62,9 @@ Home
         .. raw:: html
 
           <span class="m-landing-text">
-          My primary academic affiliation is with the <a href="https://bcb.cs.univie.ac.at/"> Research Group Bioinformatics and Computational Biology (BCB) </a> and the <a href="http://www.tbi.univie.ac.at/"> Theoretical Biochemistry Group (TBI)</a> at the Department of Theoretical Chemistry, University of Vienna. Our Institute is renowned as the home of the <a href="http://www.tbi.univie.ac.at/RNA"> ViennaRNA Package</a>, a widely used tool for <strong>RNA bioinformatics</strong>. I am the founder of <a href="https://rnaforecast.com">RNA Forecast</a>, an enterprise with a vision to bring the full potential of RNA structure to the forefront of the pharma and biotech industries.
+          I presently hold the position of a visiting professor at the <a href="http://www.bioinf.uni-freiburg.de/team.html"> University of Freiburg Bioinformatics Group</a>. In adition, I maintain affiliations with the <a href="https://bcb.cs.univie.ac.at/"> Research Group Bioinformatics and Computational Biology (BCB) </a> and the <a href="http://www.tbi.univie.ac.at/"> Theoretical Biochemistry Group (TBI)</a> at the Department of Theoretical Chemistry, University of Vienna. These academic groups are renowned for their contributions to the development of the <a href="http://www.tbi.univie.ac.at/RNA"> ViennaRNA Package</a>, a widely used resource in the field of <strong>RNA bioinformatics</strong>.
+          <br/>
+          <br/>
+          Beyond my academic endeavors, I have established <a href="https://rnaforecast.com">RNA Forecast</a>, a venture with a mission to emphasize the significance of RNA structure within the pharmaceutical and biotechnology sectors.
+
           </span>
