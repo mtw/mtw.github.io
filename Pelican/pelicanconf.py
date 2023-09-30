@@ -61,14 +61,14 @@ DEFAULT_PAGINATION = 10
 
 #M_SITE_LOGO_TEXT = 'Your Brand'
 
-M_LINKS_NAVBAR1 = [ 
+M_LINKS_NAVBAR1 = [
                     ('Publications', '/publications', 'publications', [
                         ('Papers', '/publications', 'papers'),
                         ('Presentations', 'publications/presentations', 'publications/presentations'),
                         ('Posters', 'publications/posters', 'publications/posters'),
                         ]),
                     ('Teaching', '/teaching', 'teaching', []),
-                    ('Consulting', '/consulting', 'consulting', []),
+                    ('Consultancy', '/consulting', 'consulting', []),
                     ('Contact', '/contact', 'contact', []),
                     ('Blog', 'blog/', '[blog]',[])]
 

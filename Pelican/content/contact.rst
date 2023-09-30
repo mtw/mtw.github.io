@@ -1,7 +1,7 @@
 Contact
 #######
 :summary: Contact Michael Thomas Wolfinger
-:title: Contact Michael T. Wolfinger Bioinformatics
+:title: Reach out to Michael T. Wolfinger
 :description: Connect with Michael T. Wolfinger in Bioinformatics. Get in touch for expert insights and knowledge. Contact details available on our website.
 
 :breadcrumb: / Home
