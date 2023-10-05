@@ -24,8 +24,11 @@ Lecture and course directory
 `2023W`_
 --------
 
-- UFR 11LE13V-1309 `Bioinformatics I (2023W) <https://campus.uni-freiburg.de:443/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=3353&periodId=2481&navigationPosition=studiesOffered,searchCourses>`_
-- UFR 11LE13V-1318 `RNA Bioinformatics (2023W) <https://campus.uni-freiburg.de:443/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=3659&periodId=2481&navigationPosition=studiesOffered,searchCourses>`_
+- UFR 11LE13V-1309 `Bioinformatics I (Lecture) <https://campus.uni-freiburg.de:443/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=3353&periodId=2481&navigationPosition=studiesOffered,searchCourses>`_
+- UFR 11LE13Ü-1309 `Bioinformatics I (Practical course) <https://campus.uni-freiburg.de:443/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=3354&periodId=2481&navigationPosition=studiesOffered,searchCourses>`_
+- UFR 11LE13V-1318 `RNA Bioinformatics (Lecture) <https://campus.uni-freiburg.de:443/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=3659&periodId=2481&navigationPosition=studiesOffered,searchCourses>`_
+- UFR 11LE13Ü-1318 `RNA Bioinformatics (Practical course) <https://campus.uni-freiburg.de:443/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=3660&periodId=2481>`_
+- UFR 11LE13S-510-23 `Introduction to data analysis in bioinformatics (Seminar) <https://campus.uni-freiburg.de:443/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=116852&periodId=2481&navigationPosition=studiesOffered,searchCourses>`_
 
 `2023S`_
 --------
