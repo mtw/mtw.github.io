@@ -84,6 +84,7 @@ M_LINKS_FOOTER1 = [('Home', '/'),
 M_LINKS_FOOTER2 = [('Services', ''),
                     ('Bioinformatics Consulting', '/consulting'),
                     ('RNA Forecast', 'https://rnaforecast.com'),
+		    ('xrRNA.bio', 'https://xrrna.bio'),
                     ('Legal Note','/legal')
                         ]
 
