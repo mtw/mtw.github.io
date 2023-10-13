@@ -2,7 +2,7 @@ Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No K
 ######################################################################################################
 :summary: Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No Known Vector Flaviviruses
 :title: Functional RNA structures in ecologically varied Flaviviruses
-:description: A comparative genomics screen in the 3'UTR of Flaviviruses from different ecological groups, revealing pervasive evolutionary conservation of function RNA elements and reporting for the first time the presence of up to five copies of exoribonuclease-resistant RNAs in classic insect-specific flaviviruses.
+:description: A comparative genomics screen in the 3'UTR of Flaviviruses reveals pervasive evolutionary conservation of function RNA elements
 
 
 :breadcrumb:

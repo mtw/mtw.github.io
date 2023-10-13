@@ -9,7 +9,7 @@ In Silico Design of Ligand Triggered RNA Switches
 :author: mtw
 :summary: A step-by-step guide to designing ligand-inducible RNA switches
 :title: In silico design of ligand triggered RNA switches
-:description: In this paper we propose a computational workflow for the design of ligand-triggered riboswitches and describe an extensive in silico analysis pipeline to evaluate important kinetic properties of the designed sequences.
+:description: Designing ligand-triggered riboswitches: Computational workflow and in silico analysis for studying the RNA folding kinetics of rationally designed sequences
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong

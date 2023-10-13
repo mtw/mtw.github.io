@@ -22,4 +22,4 @@ RNA Bioinformatics Consulting Services
           If this sounds like the expertise and support your project needs, we invite you to reach out to us at <a href="mailto:hello@rnaforecast.com?subject=Consultancy inquiry">hello@rnaforecast.com</a></span>.<br/><br/>
           </span>
 
-          RNA Forecast e.U. is owned and operated by Michael T. Wolfinger, who serves as the Chief Executive Officer (CEO) of the company. For any inquiries or questions related to our consultancy services, please do not hesitate to <a href="mailto:hello@rnaforecast.com?subject=Consultancy inquiry">contact us</a. We're here to help you advance your RNA-focused endeavors with precision and expertise.
+          RNA Forecast e.U. is owned and operated by Michael T. Wolfinger, who serves as the Chief Executive Officer (CEO) of the company. For any inquiries or questions related to our consultancy services, please do not hesitate to <a href="mailto:hello@rnaforecast.com?subject=Consultancy inquiry">contact us</a>. We're here to help you advance your RNA-focused endeavors with precision and expertise.

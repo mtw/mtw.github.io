@@ -1,5 +1,5 @@
-Investigating RNA–RNA interactions through computational and biophysical analysis
-#################################################################################
+RNA–RNA interaction analysis of Japanese encephalitis virus
+###########################################################
 
 :date: 2023-03-31
 :modified: 2023-04-09
