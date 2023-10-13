@@ -2,7 +2,7 @@ Musashi Binding Elements in Zika and Related Flavivirus 3’UTRs: A Comparative 
 #############################################################################################
 :summary: A theoretical model of RNA-protein interaction exemplified by the Musashi family of proteins and Flavivirus RNAs
 :title: Musashi Binding Elements in the 3'UTR of Zika and related Flaviviruses
-:description: A comparative study of Musashi binding elements in the 3'UTR of flaviviruses, employing the ViennaRNA Package for thermodynamic modeling of RNA structure formation
+:description: Exploring Musashi binding elements in flavivirus 3'UTRs through thermodynamic RNA structure modeling with the ViennaRNA Package
 
 
 :breadcrumb: / Home

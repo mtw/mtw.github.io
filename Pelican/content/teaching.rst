@@ -2,7 +2,7 @@ Teaching
 ########
 :summary: Teaching by Michael Thomas Wolfinger
 :title: Michael Thomas Wolfinger's Teaching
-:description: Summary lectures and courses given by Michael T. Wolfinger
+:description: Discover an extensive selection of university courses and lectures by Michael T. Wolfinger on this dedicated Teaching page
 
 :breadcrumb: / Home
 

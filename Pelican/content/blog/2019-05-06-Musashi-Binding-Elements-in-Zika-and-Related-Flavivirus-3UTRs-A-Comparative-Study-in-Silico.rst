@@ -1,5 +1,5 @@
-Musashi Binding Elements in the 3'UTR of Zika Virus and Related Flaviviruses
-############################################################################
+Musashi Binding Elements in Zika Virus 3'UTR
+############################################
 
 :date: 2019-05-06
 :modified: 2023-04-09

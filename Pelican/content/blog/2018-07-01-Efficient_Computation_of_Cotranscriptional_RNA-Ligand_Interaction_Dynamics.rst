@@ -8,7 +8,7 @@ Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics
 :slug: Efficient-Computation-of-Cotranscriptional-RNA-Ligand-Interaction-Dynamics
 :author: mtw
 :summary: Using the 2'dG riboswitch as an example this study explains how co-transcriptional folding under kinetic control can be efficiently modeled with ViennaRNA tools
-:description: Using the 2'dG riboswitch as an example this study explains how co-transcriptional folding under kinetic control can be efficiently modeled with computational biology approaches
+:description: Co-transcriptional RNAfolding under kinetic control can be efficiently modeled with computational biology approaches for the 2'dG riboswitch 
 :title: Co-transcriptional riboswitch modleing with ViennaRNA
 
 .. role:: link-flat-strong(link)
