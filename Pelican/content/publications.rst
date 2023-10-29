@@ -23,10 +23,14 @@ Papers
 
     Download :link-flat:`Michael T. Wolfinger's publication list <{static}/files/MTW_PublicationList.pdf>` as PDF.
 
-Preprints
-=========
+Submitted Manuscripts / Preprints
+=================================
 
 .. container:: preprints
+
+  | 50. :link-flat-strong:`Xinyang flavivirus, identified from Haemaphysalis flava ticks in Henan province, China, exhibits transovarial transmission and is likely a tick-only flavivirus <{filename}/publications.rst>`
+  | Lan-Lan Wang, Qia Cheng, :ul:`Michael T. Wolfinger`, Natalee D. Newton, Andrii Slonchak, Alexander A. Khromykh, Tian-Yin Cheng, Rhys H. Parry
+  | *Submitted manuscript* (2023)
 
 
   | 49. :link-flat-strong:`Automated Agnostic Designation of Pathogen Lineages <https://doi.org/10.1101/2023.02.03.527052>`
@@ -35,7 +39,7 @@ Preprints
 
   | 48. :link-flat-strong:`Pan-flavivirus analysis reveals that the insect-specific Kamiti River virus produces a new subgenomic RNA and high amounts of 3' UTR-derived siRNAs <https://doi.org/10.1101/2022.08.18.504478>`
   | Benoit Besson, Gijs J. Overheul, :ul:`Michael T. Wolfinger`, Sandra Junglen, Ronald P. van Rij
-  | *bioRxiv* 2022.08.18.504478 | :doi:`doi:10.1101/2022.08.18.504478 <https://doi.org/10.1101/2022.08.18.504478>` | :link-flat:`PDF <{static}/files/papers/Besson-2022__PREPRINT.pdf>`
+  | *bioRxiv* 2022.08.18.504478 | :doi:`doi:10.1101/2022.08.18.504478 <https://doi.org/10.1101/2022.08.18.504478>` | :link-flat:`Preprint PDF <{static}/files/papers/Besson-2022__PREPRINT.pdf>`
 
 .. transition::  - - -
 
