@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = 'Michael T. Wolfinger'
-SITENAME = "Michael T. Wolfinger Bioinformatics"
+SITENAME = "Michael T. Wolfinger"
 SITEURL = ''
 
 STATIC_URL = '{path}'
@@ -173,3 +173,6 @@ SLUGIFY_SOURCE = 'basename'
 PATH_METADATA = '(?P<slug>.+).rst'
 
 DEFAULT_PAGINATION = 5
+
+CSS_MIN = True
+HTML_MIN = True
