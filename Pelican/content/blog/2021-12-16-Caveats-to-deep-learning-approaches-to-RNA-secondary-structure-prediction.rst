@@ -3,7 +3,7 @@ Caveats to deep learning approaches to RNA secondary structure prediction
 
 :date: 2021-12-16
 :modified: 2022-10-29
-:tags: ViennaRNA
+:tags: ViennaRNA; AI
 :category: publications
 :slug: Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction
 :author: mtw

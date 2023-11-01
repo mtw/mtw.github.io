@@ -3,7 +3,7 @@ Strukturierte RNAs in Viren (in German)
 
 :date: 2023-03-23
 :modified: 2023-04-07
-:tags: non-coding RNA; viruses; RNA design
+:tags: non-coding RNA; viruses; RNA design; One Health
 :category: publications
 :slug: Strukturierte-RNAs-in-Viren
 :author: mtw
@@ -27,6 +27,8 @@ Exoribonuclease-resistant RNAs are a type of RNA molecule that possess unique pr
 These exoribonuclease-resistant RNAs (xrRNAs) in the 3'UTR of flaviviruses have gained attention as potential therapeutic targets for RNA-based antiviral strategies. By utilizing the unique properties of xrRNAs, we can design RNA molecules that mimic the viral sequences in a synthetic biology context. Utilizing the distinctive features of exoribonuclease-resistant RNAs represents a novel approach in the development of antiviral RNA therapeutics, and may serve as a regulatory tool for future mRNA vaccines.
 
 In this mini-review, we delve into the biophysical principles underlying exoribonuclease-resistant RNAs, and elucidate their potential applications in innovative RNA therapeutics.
+
+This work relevant for a One Health systemic view as it underscores the interconnectedness of human, animal, and environmental health. The study delves into the conservation of RNA structures in viruses like dengue and Zika, which are transmitted by mosquitoes. By exploring the potential of xrRNAs as therapeutic targets, the research paves the way for the development of novel, broad-spectrum antiviral strategies that can address disease control and prevention across multiple levels of the ecosystem. Ultimately, this aligns with the One Health approach by acknowledging and addressing the intricate relationships between different facets of health within our ecosystem.
 
 
 .. button-primary:: {static}/files/papers/Ochsenreiter-2023.pdf
