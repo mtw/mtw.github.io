@@ -3,7 +3,7 @@ RNA–RNA interaction analysis of Japanese encephalitis virus
 
 :date: 2023-03-31
 :modified: 2023-04-09
-:tags: RNA-RNA interaction; non-coding RNA; viruses; 3D
+:tags: RNA-RNA interaction; non-coding RNA; viruses; 3D; One Health
 :category: publications
 :slug: Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis
 :author: mtw
@@ -25,6 +25,8 @@ RNA–RNA interaction analysis of Japanese encephalitis virus
 In this study, we have utilized a unique combination of computational and biophysical techniques to investigate RNA-RNA interactions in Japanese encephalitis virus (JEV). We identified a specific JEV isolate with a hypothesized high-affinity interaction, and then employed various biophysical characterization methods to validate and characterize this interaction. Through size-exclusion chromatography coupled with multi-angle light scattering (SEC-MALS) and analytical ultracentrifugation (AUC), we demonstrated the direct interaction between the 5' and 3' terminal regions (TRs) of JEV with nanomolar affinity and 1:1 stoichiometry.
 
 Our computational analysis supported a kinetic favorability of the cyclization sequence interaction and its competitive advantage over potential homo-dimer RNA interactions. This provides valuable insights into the replication pathway/mechanism of flavivirus NS5 in replicating the viral genome. Our study also presents a low-resolution ab initio model that offers a potential architectural arrangement of this RNA-RNA interaction in solution. These findings lay a solid foundation for the development of pharmaceutical therapies targeting viral replication through interruption of the cyclization sequence, and also shed light on the fundamental understanding of RNA-RNA interactions in flaviviruses and other viral systems.
+
+The study's insights into RNA-RNA interactions in Japanese encephalitis virus align with the One Health approach, highlighting the potential for antiviral therapies to benefit both human and animal health while considering the broader ecosystem.
 
 .. button-primary:: {static}/files/papers/Mrozowich-2023.pdf
 

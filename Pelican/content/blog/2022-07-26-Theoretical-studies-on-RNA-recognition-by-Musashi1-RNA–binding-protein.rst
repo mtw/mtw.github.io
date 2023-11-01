@@ -3,7 +3,7 @@ Theoretical studies on RNA recognition by Musashi 1 RNA-binding protein
 
 :date: 2022-07-26
 :modified: 2023-04-09
-:tags: 3D;
+:tags: 3D; RNA-Protein interaction; AI
 :category: publications
 :slug: Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein
 :author: mtw
