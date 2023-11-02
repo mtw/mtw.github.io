@@ -111,7 +111,7 @@ Peer-reviewed journal articles and book chapters
   | Anastasia Cianciulli Sesso, Branislav Lilić, Fabian Amman, :ul:`Michael T. Wolfinger`, Elisabeth Sonnleitner, Udo Bläsi
   | *Front. Microbiol.* 12:937 (2021) | :doi:`doi:10.3389/fmicb.2021.626715 <https://doi.org/10.3389/fmicb.2021.626715>` | :link-flat:`PDF <{static}/files/papers/Sesso-2021.pdf>`
 
-  | 35. :link-flat-strong:`An African Tick Flavivirus Forming an Independent Clade Exhibits Unique Exoribonuclease-Resistant RNA Structures in the Genomic 3’-Untranslated Region <{filename}/publications/papers/An_African_Tick_Flavivirus_Forming_an_Independent_Clade_Exhibits_Unique_Exoribonuclease-Resistant_RNA_Structures_in_the_Genomic_three_prime-Untranslated_Region.rst>`
+  | 35. :link-flat-strong:`An African Tick Flavivirus Forming an Independent Clade Exhibits Unique Exoribonuclease-Resistant RNA Structures in the Genomic 3’-Untranslated Region <{filename}/blog/2021-03-01-An_African_Tick_Flavivirus_Forming_an_Independent_Clade_Exhibits_Unique_Exoribonuclease-Resistant_RNA_Structures_in_the_Genomic_three_prime-Untranslated_Region.rst>`
   | Hayato Harima, Yasuko Orba, Shiho Torii, Yongjin Qiu, Masahiro Kajihara, Yoshiki Eto, Naoya Matsuta, Bernard M. Hang’ombe, Yuki Eshita, Kentaro Uemura, Keita Matsuno, Michihito Sasaki, Kentaro Yoshii, Ryo Nakao, William W. Hall, Ayato Takada, Takashi Abe, :ul:`Michael T. Wolfinger`, Martin Simuunza, Hirofumi Sawa
   | *Sci. Rep.* 11:4883 (2021) | :doi:`doi: 10.1038/s41598-021-84365-9 <https://doi.org/10.1038/s41598-021-84365-9>` | :link-flat:`PDF <{static}/files/papers/Harima-2021.pdf>`
 

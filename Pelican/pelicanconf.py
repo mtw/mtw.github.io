@@ -36,7 +36,6 @@ PLUGIN_PATHS = ['plugins']
 PLUGINS = ['m.htmlsanity',
            'm.components',
            'm.link',
-           'm.pelican_redirect',
            'm.sitemap',
            'm.images']
 
