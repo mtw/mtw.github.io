@@ -3,12 +3,12 @@ Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Vari
 
 :date: 2021-02-08
 :modified: 2022-10-28
-:tags: viruses
+:tags: viruses; One Health
 :category: publications
 :slug: Lineage-specific-RNA-structures-in-Chikungunya-virus
 :title: Lineage-specific RNA structures in Chikungunya virus
 :author: mtw
-:summary: Changing a single nucleotide of an RNA may completely disrupt its structure
+:summary: The combination of molecular epidemiology data with RNA structure prediction provides insights into unresolved aspects of genotype-phenotype associations in Chikungunya virus
 :description: Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Variants That Alter RNA Structure in Chikungunya Virus
 
 .. role:: link-flat-strong(link)
@@ -23,8 +23,13 @@ Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Vari
 .. role:: doi(link)
   :class: doi
 
-Here we studied this effect in Chikungunya virus, which causes millions of human infections every year. Using molecular epidemiology data, we found single nucleotide variants that change the stability and fold of locally stable RNA structures throughout the viral genome.
+Chikungunya virus (CHIKV), an emerging Alphavirus, causes millions of human infections annually and has witnessed outbreaks in Africa and Asia since the 1950s. The research presented here delves into the molecular epidemiology of CHIKV, revealing how single nucleotide variants can impact the virus's RNA structures. Utilizing more than 1000 publicly available CHIKV genomes, the study provides an interactive phylodynamics dataset using Nextstrain, a tool for real-time tracking of pathogen evolution. The data set, publicly available through `CHIKVnext <https://nextstrain.org/groups/ViennaRNA/CHIKVnext>`_, enables the tracking of spatiotemporal and epidemiological aspects of the CHIKV global spread.
 
+The study addresses genotype/phenotype associations in CHIKV by employing comparative approaches, molecular epidemiology concepts, phylogeny reconstruction, and computational RNA biology. The nucleotide divergence within CHIKV lineages is found to be relatively low, often due to geographical constraints and a limited collection period for newer lineages. However, the divergence between different lineages can be considerable, with the West African lineage showing the highest divergence compared to others.
+
+This publication questions the current nomenclature of CHIKV lineages, and suggests that a new system, independent of geography, might be more coherent and beneficial for drug and vaccine development. Despite the low divergence in some established lineages, mutations like A226V in E1 can significantly impact the virus's capacity to replicate. The study further highlights the importance of increased surveillance to identify the virus at the time of introduction rather than during a pandemic.
+
+This research exemplifies the importance of a holistic, interdisciplinary approach in understanding and combating infectious diseases such as CHIKV. The findings, which combine molecular epidemiology and RNA structure prediction, not only pave the way for better diagnostic and treatment methods but also underscore the necessity of a timely response to prevent outbreaks. The One Health approach is particularly pertinent here. By adopting a unified perspective, scientists, healthcare professionals, and policymakers can work together to address the multifaceted challenges posed by CHIKV and similar infectious diseases, ultimately contributing to the well-being of our global ecosystem.
 
 .. button-primary:: {static}/files/papers/Spicher-2021.pdf
 
