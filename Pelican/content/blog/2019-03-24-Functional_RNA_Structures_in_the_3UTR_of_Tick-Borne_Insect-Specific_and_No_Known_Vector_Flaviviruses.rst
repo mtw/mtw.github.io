@@ -67,12 +67,20 @@ Figures and Data
  {static}/files/QuickSlide/QuickSlide__Ochsenreiter-2019/QuickSlide__Ochsenreiter-2019.012.png
  {static}/files/QuickSlide/QuickSlide__Ochsenreiter-2019/QuickSlide__Ochsenreiter-2019.013.png
 
-
-
-
 Citation
 ========
 
   | :link-flat-strong:`Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No Known Vector Flaviviruses <https://doi.org/10.3390/v11030298>`
   | Roman Ochsenreiter, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`
-  | *Viruses* 11:298 (2019) | :doi:`doi:10.3390/v11030298 <https://doi.org/10.3390/v11030298>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2019.pdf>`
+  | *Viruses* 11:298 (2019) | :doi:`doi:10.3390/v11030298 <https://doi.org/10.3390/v11030298>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2019.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Ochsenreiter-2019.pdf>`
+  
+See Also
+========
+
+  | :link-flat-strong:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <{filename}/blog/2021-09-06-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`
+  | :ul:`Michael T. Wolfinger`, Roman Ochsenreiter, Ivo L. Hofacker
+  | In *Virus Bioinformatics*, edited by Dmitrij Frishman and Manja Marz, pp65–100. Chapman and Hall/CRC Press (2021) | :doi:`doi:10.1201/9781003097679-5 <https://doi.org/10.1201/9781003097679-5>` | :link-flat:`Preprint PDF <{static}/files/papers/Wolfinger-2021.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Wolfinger-2021.pdf>`
+
+  | :link-flat-strong:`Evolutionary traits of Tick-borne encephalitis virus: Pervasive non-coding RNA structure conservation and molecular epidemiology <{filename}/blog/2021-12-17-Evolutionary-traits-of-Tick-borne-encephalitis-virus-Pervasive-non-coding-RNA-structure-conservation-and-molecular-epidemiology.rst>`
+  | Lena S. Kutschera, :ul:`Michael T. Wolfinger`
+  | *Virus Evol.* (8):1 veac051 (2022) | :doi:`doi:10.1093/ve/veac051 <https://doi.org/10.1093/ve/veac051>` | :link-flat:`PDF <{static}/files/papers/Kutschera-2022.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Kutschera-2022.pdf>`
