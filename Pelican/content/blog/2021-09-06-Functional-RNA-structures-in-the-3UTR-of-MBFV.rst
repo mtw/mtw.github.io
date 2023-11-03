@@ -70,19 +70,15 @@ Citation
 
   | :link-flat-strong:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <https://www.taylorfrancis.com/chapters/edit/10.1201/9781003097679-5/functional-rna-structures-3%E2%80%B2-utr-mosquito-borne-flaviviruses-michael-wolfinger-roman-ochsenreiter-ivo-hofacker>`
   | Michael T. Wolfinger, Roman Ochsenreiter, Ivo L. Hofacker
-  | In *Virus Bioinformatics*, edited by Dmitrij Frishman and Manja Marz, pp65–100. Chapman and Hall/CRC Press (2021) | :doi:`doi: 10.1201/9781003097679-5 <https://doi.org/10.1201/9781003097679-5>` | :link-flat:`PDF <{static}/files/papers/Wolfinger-2021.pdf>`
+  | In *Virus Bioinformatics*, edited by Dmitrij Frishman and Manja Marz, pp65–100. Chapman and Hall/CRC Press (2021) | :doi:`doi: 10.1201/9781003097679-5 <https://doi.org/10.1201/9781003097679-5>` | :link-flat:`PDF <{static}/files/papers/Wolfinger-2021.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Wolfinger-2021.pdf>`
 
-..
-  .. block-info:: Citations
+See Also
+========
 
-      .. container:: m-label
+  | :link-flat-strong:`Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No Known Vector Flaviviruses <{filename}/blog/2019-03-24-Functional_RNA_Structures_in_the_3UTR_of_Tick-Borne_Insect-Specific_and_No_Known_Vector_Flaviviruses.rst>`
+  | Roman Ochsenreiter, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`
+  | *Viruses* 11:298 (2019) | :doi:`doi:10.3390/v11030298 <https://doi.org/10.3390/v11030298>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2019.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Ochsenreiter-2019.pdf>`
 
-        .. raw:: html
-
-          <span class="__dimensions_badge_embed__" data-doi="10.1201/9781003097679-5" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-      .. container:: m-label
-
-        .. raw:: html
-
-          <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1201/9781003097679-5"></div>
+  | :link-flat-strong:`Evolutionary traits of Tick-borne encephalitis virus: Pervasive non-coding RNA structure conservation and molecular epidemiology <{filename}/blog/2021-12-17-Evolutionary-traits-of-Tick-borne-encephalitis-virus-Pervasive-non-coding-RNA-structure-conservation-and-molecular-epidemiology.rst>`
+  | Lena S. Kutschera, :ul:`Michael T. Wolfinger`
+  | *Virus Evol.* (8):1 veac051 (2022) | :doi:`doi:10.1093/ve/veac051 <https://doi.org/10.1093/ve/veac051>` | :link-flat:`PDF <{static}/files/papers/Kutschera-2022.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Kutschera-2022.pdf>`
