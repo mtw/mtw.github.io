@@ -1,0 +1,51 @@
+Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No Known Vector Flaviviruses
+######################################################################################################
+
+:date: 2019-03-25
+:modified: 2023-11-03
+:tags: viruses; One Health; xrRNA
+:category: publications
+:slug: Functional_RNA_Structures_in_the_three_prime_UTR_of_Flaviviruses
+:author: mtw
+:title: Unraveling the Secrets of Flaviviruses: UTRs, xrRNAs, and the Path to One Health
+:summary: This study highlights the crucial role of untranslated regions (UTRs) in flaviviruses and the discovery of exoribonuclease resistant RNAs (xrRNAs). These findings showcase the importance of virus bioinformatic studies in advancing our understanding of infectious diseases and their relevance to broader health goals like the One Health approach.
+:description: Discover the significance of UTRs in flaviviruses and their role in virus survival. Explore the One Health connection
+
+
+.. role:: link-flat-strong(link)
+  :class: m-flat m-text m-strong
+
+.. role:: link-flat(link)
+  :class: m-flat m-text
+
+.. role:: ul
+  :class: m-text m-ul
+
+.. role:: doi(link)
+  :class: doi
+
+In this publication, we shed light on the significance of untranslated regions (UTRs) within flavivirus, a diverse group of RNA viruses responsible for pathology in human and animals.
+
+Within the UTRs of flaviviruses lies a wealth of RNA structural elements crucial for mediating various aspects of the viral life cycle, including genome circularization, replication, and encapsidation. These elements are far from genetic filler; they are essential components that determine the virus's ability to thrive within its host.
+
+This paper presents findings from a comparative genomics approach that aimed to identify evolutionarily conserved RNAs within the 3' UTR of different flaviviruses. Notably, the research supports the presence of exoribonuclease resistant RNAs (xrRNAs) in tick-borne and no-known-vector flaviviruses. These xrRNAs play a pivotal role in safeguarding viral RNA from degradation, ensuring the virus's persistence within the host.
+
+Interestingly, the study also unravels a cascade of duplicated RNA structures within insect-specific flaviviruses, highlighting the remarkable adaptability of these viruses in evolving novel xrRNAs. This evolutionary flexibility enables them to effectively evade host immune responses.
+
+This work highlights the importance of virus bioinformatic studies like ours in the pursuit of broader health goals. By gaining a deeper understanding of the molecular intricacies of viruses and their interactions with hosts, we pave the way for more effective strategies to combat infectious diseases. This knowledge contributes to the overarching One Health approach, which seeks to safeguard the health of humans, animals, and the environment as interconnected components of a shared ecosystem. As we continue to unravel the secrets of viruses through research like this, we take significant steps toward achieving the goals of One Health, ultimately promoting the well-being of all living beings on our planet.
+
+.. button-primary:: {static}/files/papers/Ochsenreiter-2019.pdf
+
+    Download PDF
+
+.. frame:: Abstract
+
+   Untranslated regions (UTRs) of flaviviruses contain a large number of RNA structural elements involved in mediating the viral life cycle, including cyclisation, replication, and encapsidation. Here we report on a comparative genomics approach to characterize evolutionarily conserved RNAs in the 3'UTR of tick-borne, insect-specific and no-known-vector flaviviruses in silico. Our data support the wide distribution of previously experimentally characterized exoribonuclease resistant RNAs (xrRNAs) within tick-borne and no-known-vector flaviviruses and provide evidence for the existence of a cascade of duplicated RNA structures within insect-specific flaviviruses. On a broader scale, our findings indicate that viral 3'UTRs represent a flexible scaffold for evolution to come up with novel xrRNAs.
+
+
+Citation
+========
+
+  | :link-flat-strong:`Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No Known Vector Flaviviruses <https://doi.org/10.3390/v11030298>`
+  | Roman Ochsenreiter, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`
+  | *Viruses* 11:298 (2019) | :doi:`doi:10.3390/v11030298 <https://doi.org/10.3390/v11030298>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2019.pdf>`
