@@ -42,6 +42,33 @@ This work highlights the importance of virus bioinformatic studies like ours in 
 
    Untranslated regions (UTRs) of flaviviruses contain a large number of RNA structural elements involved in mediating the viral life cycle, including cyclisation, replication, and encapsidation. Here we report on a comparative genomics approach to characterize evolutionarily conserved RNAs in the 3'UTR of tick-borne, insect-specific and no-known-vector flaviviruses in silico. Our data support the wide distribution of previously experimentally characterized exoribonuclease resistant RNAs (xrRNAs) within tick-borne and no-known-vector flaviviruses and provide evidence for the existence of a cascade of duplicated RNA structures within insect-specific flaviviruses. On a broader scale, our findings indicate that viral 3'UTRs represent a flexible scaffold for evolution to come up with novel xrRNAs.
 
+Figures and Data
+================
+
+.. image-grid::
+
+ {static}/files/QuickSlide/QuickSlide__Ochsenreiter-2019/QuickSlide__Ochsenreiter-2019.001.png
+
+ {static}/files/QuickSlide/QuickSlide__Ochsenreiter-2019/QuickSlide__Ochsenreiter-2019.002.png
+ {static}/files/QuickSlide/QuickSlide__Ochsenreiter-2019/QuickSlide__Ochsenreiter-2019.003.png
+
+ {static}/files/QuickSlide/QuickSlide__Ochsenreiter-2019/QuickSlide__Ochsenreiter-2019.004.png
+ {static}/files/QuickSlide/QuickSlide__Ochsenreiter-2019/QuickSlide__Ochsenreiter-2019.005.png
+
+ {static}/files/QuickSlide/QuickSlide__Ochsenreiter-2019/QuickSlide__Ochsenreiter-2019.006.png
+ {static}/files/QuickSlide/QuickSlide__Ochsenreiter-2019/QuickSlide__Ochsenreiter-2019.007.png
+
+ {static}/files/QuickSlide/QuickSlide__Ochsenreiter-2019/QuickSlide__Ochsenreiter-2019.008.png
+ {static}/files/QuickSlide/QuickSlide__Ochsenreiter-2019/QuickSlide__Ochsenreiter-2019.009.png
+
+ {static}/files/QuickSlide/QuickSlide__Ochsenreiter-2019/QuickSlide__Ochsenreiter-2019.010.png
+ {static}/files/QuickSlide/QuickSlide__Ochsenreiter-2019/QuickSlide__Ochsenreiter-2019.011.png
+
+ {static}/files/QuickSlide/QuickSlide__Ochsenreiter-2019/QuickSlide__Ochsenreiter-2019.012.png
+ {static}/files/QuickSlide/QuickSlide__Ochsenreiter-2019/QuickSlide__Ochsenreiter-2019.013.png
+
+
+
 
 Citation
 ========
