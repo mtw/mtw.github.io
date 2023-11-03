@@ -22,6 +22,32 @@ RNA-Protein Complex Refinement using AI Modeling and Docking
 .. role:: doi(link)
   :class: doi
 
+Understanding the intimate dance between proteins and RNA is essential for unraveling the mysteries of cellular functions. In a recent study, we proposed an innovative and efficient technique to accurately model the interactions between proteins and RNA, leading to insights that have the potential to advance the fields of structural biology and drug design.
+
+The Challenge: Building Complex Structures
+------------------------------------------
+
+When a protein interacts with RNA, it forms what is known as a protein-RNA complex. Constructing accurate models of these complexes is a formidable challenge. Traditional methods, such as template-based modeling, involve creating the overall conformation and then manually connecting RNA with a protein’s RNA-binding domains (RBDs). However, this doesn't always lead to natural or biologically plausible complexes.
+
+A Leap Forward: AI and Flexible Docking
+---------------------------------------
+
+As we were particularly interested in the RNA-binding protein Musashi-1 (MSI1) and its interaction with RNA through RNA-binding domains (MSI1-RBDs), we proposed a two-step approach: first, we utilized the AI-based modeling technique Alphafold2 to predict a 3D structure of the MSI1-RBDs based on the amino-acid sequences in humans. Following this, we used a flexible docking technique called PaCS-MD to construct the protein-RNA complexes. Unlike traditional methods that manually ligate RNA to the protein, PaCS-MD automatically constructs the complexes, providing a more natural interaction.
+
+Validation and Insights
+-----------------------
+
+To ensure the validity of the constructed complexes, we evaluated their structural stability using the SIE (Solvation Interaction Energy) method. The results confirmed previous studies, showing that a core set of three nucleotides in MSI1-RBDs plays a significant role in the interaction with the target RNA. Moreover, we identified crucial residues for RNA-binding that aligned well with previous findings.
+
+Advantages and Limitations
+--------------------------
+
+Our method offers a significant advantage over conventional techniques. Unlike traditional homology modeling methods, such as Phyre2, our technique captures the essential transitions required for forming protein-RNA complexes. However, we acknowledge that the technique relies on having initial structural information from NMR (Nuclear Magnetic Resonance) coordinates. Without this data, achieving accurate flexible docking can be challenging.
+
+Future Prospects
+----------------
+
+The study provides a compelling demonstration of constructing plausible protein-RNA complexes using a combination of AI-based modeling and flexible docking. This research takes us one step closer to deciphering the complex interactions between proteins and RNA, paving the way for advancements in personalized medicine and drug discovery.
 
 
 .. button-primary:: {static}/files/papers/Darai-2023.pdf
@@ -38,3 +64,14 @@ Citation
   | :link-flat-strong:`A Structural Refinement Technique for Protein-RNA Complexes Using a Combination of AI-based Modeling and Flexible Docking: A Study of Musashi-1 Protein <https://doi.org/10.1246/bcsj.20230092>`
   | Nitchakan Darai, Kowit Hengphasatporn, Peter Wolschann, :ul:`Michael T. Wolfinger`, Yasuteru Shigeta, Thanyada Rungrotmongkol, Ryuhei Harada
   | *B. Chem. Soc. Jpn.* (2023)
+
+See Also
+========
+
+  | :link-flat-strong:`Theoretical studies on RNA recognition by Musashi 1 RNA–binding protein <{filename}/blog/2022-07-26-Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA–binding-protein.rst>`
+  | Nitchakan Darai, Panupong Mahalapbutr, Peter Wolschann, Vannajan Sanghiran Lee, :ul:`Michael T. Wolﬁnger`, Thanyada Rungrotmongkol
+  | *Sci. Rep.* 12:12137 (2022) | :doi:`doi:10.1038/s41598-022-16252-w <https://doi.org/10.1038/s41598-022-16252-w>` | :link-flat:`PDF <{static}/files/papers/Darai-2022.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Darai-2022.pdf>`
+
+  | :link-flat-strong:`Musashi Binding Elements in Zika and Related Flavivirus 3’UTRs: A Comparative Study in Silico <{filename}/blog/2019-05-06-Musashi-Binding-Elements-in-Zika-and-Related-Flavivirus-3UTRs-A-Comparative-Study-in-Silico.rst>`
+  | Adriano de Bernardi Schneider, :ul:`Michael T. Wolfinger`
+  | *Sci. Rep.* 9(1):6911 (2019) | :doi:`doi:10.1038/s41598-019-43390-5 <https://doi.org/10.1038/s41598-019-43390-5>` | :link-flat:`PDF <{static}/files/papers/deBernardiSchneider-2019a.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__deBernardiSchneider-2019a.pdf>`
