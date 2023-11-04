@@ -8,7 +8,7 @@ Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reve
 :slug: Rewiring-of-Gene-Expression-in-Pseudomonas-aeruginosa
 :author: mtw
 :summary: Here we study carbon catabolite repression (CCR) and its impact on antibiotic susceptibility in Pseudomonas aeruginosa
-:title: Rewiring of gene expression in Pseudomonas aeruginosa during diauxic growth
+:title: Hfq, Crc, and Antibiotic Resistance in P. aeruginosa
 :description: Here we study carbon catabolite repression and its impact on antibiotic susceptibility in the opportunistic pathogen Pseudomonas aeruginosa
 
 This study on Pseudomonas aeruginosa underscores the interplay between microbial metabolism and antibiotic resistance, which has implications for human, animal, and environmental health. The observed link between carbon catabolite repression (CCR) and antibiotic susceptibility suggests that the microbial response to environmental nutrients can impact the efficacy of antibiotics. This insight is crucial as antibiotic-resistant strains can pose threats to both human healthcare and animal husbandry. Understanding such regulatory mechanisms can guide the development of targeted interventions, aligning with the One Health approach that seeks to optimize health outcomes across different domains of the ecosystem.

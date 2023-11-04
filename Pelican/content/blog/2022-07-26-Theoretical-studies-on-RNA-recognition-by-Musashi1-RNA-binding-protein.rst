@@ -7,8 +7,9 @@ Theoretical studies on RNA recognition by Musashi 1 RNA-binding protein
 :category: publications
 :slug: Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein
 :author: mtw
-:summary: In this contribution we study the association complexes of the RNA-binding protein Musashi 1 (MSI1) with different RNA motifs, using molecular dynamics simulations
-:description: Molecular Dynamics simulations of association complexes between the RNA-binding protein Musashi 1 (MSI1) and different RNA motifs
+:summary: In this contribution we study the association complexes of the RNA-binding protein Musashi-1 with different RNA motifs, using molecular dynamics simulations
+:title: Musashi-1 RNA-Binding Protein's Role in RNA Recognition
+:description: RNA-protein complexes are crucial yet often understudied components in molecular biology. Among these, the Musashi (MSI) family of RNA-binding proteins has recently gained attention for its involvement in cell processes and its interaction with Zika virus RNA. In this study, we delve into the intricate details of how MSI1, a member of the Musashi family, binds to different RNA motifs, shedding light on the selectivity of these interactions
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -23,11 +24,11 @@ Theoretical studies on RNA recognition by Musashi 1 RNA-binding protein
   :class: doi
 
 
-The RNA-binding protein Musashi1 (MSI1) is involved in the maintenance and self-renewal of neuronal progenitor and stem cells. Alongside its endogenous role, it has been shown to enhance the replication of Zika virus (ZIKV), suggesting a crucial role of MSI1:RNA complexes in ZIKV-induced neurotropism.
+Musashi-1 (MSI1), an RNA-binding protein, plays a pivotal role in maintaining and self-renewal of neural progenitor and stem cells. Intriguingly, it has been demonstrated to enhance Zika virus (ZIKV) replication, emphasizing the significance of MSI1:RNA complexes in ZIKV-induced neurotropism.
 
-This paper uses computational modeling to study association complexes of the RNA-binding protein Musashi 1 (MSI1) with different target RNAs. MSI1 has two RNA-binding domains that exhibit different affinities to bind single-stranded #RNA molecules. Here, we investigate MSI1:RNA complexes using different RNA pentamer motifs, employing molecular dynamics simulations with binding free energy calculations. Understanding these RNA-protein complexes is important to explain MSI1-mediated congenital neuropathology, such as microcephaly.
+In this study, we employ computational modeling to assess the association complexes formed between the RNA-binding protein MSI1 and various target RNAs. MSI1 has two RNA-binding domains, each displaying distinct affinities for binding single-stranded RNA molecules. Utilizing molecular dynamics simulations alongside binding free energy calculations, we delve into the intricacies of MSI1:RNA complexes. This investigation holds the key to unraveling MSI1's role in congenital neuropathology, notably microcephaly.
 
-Joint work with Thanyada Rungrotmongkol and Nitchakan Darai (Chulalongkorn University), as well as Peter Wolschann (Universität Wien)
+Collaborating with esteemed researchers Thanyada Rungrotmongkol and Nitchakan Darai from Chulalongkorn University, as well as Peter Wolschann from Universität Wien, this study advances our understanding of RNA-protein interactions with profound implications for both biology and disease.
 
 .. button-primary:: {static}/files/papers/Darai-2022.pdf
 
@@ -66,3 +67,7 @@ See Also
   | :link-flat-strong:`Musashi Binding Elements in Zika and Related Flavivirus 3’UTRs: A Comparative Study in Silico <{filename}/blog/2019-05-06-Musashi-Binding-Elements-in-Zika-and-Related-Flavivirus-3UTRs-A-Comparative-Study-in-Silico.rst>`
   | Adriano de Bernardi Schneider, :ul:`Michael T. Wolfinger`
   | *Sci. Rep.* 9(1):6911 (2019) | :doi:`doi:10.1038/s41598-019-43390-5 <https://doi.org/10.1038/s41598-019-43390-5>` | :link-flat:`PDF <{static}/files/papers/deBernardiSchneider-2019a.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__deBernardiSchneider-2019a.pdf>`
+
+  | :link-flat-strong:`A Structural Refinement Technique for Protein-RNA Complexes Using a Combination of AI-based Modeling and Flexible Docking: A Study of Musashi-1 Protein <{filename}/blog/2023-06-09-A-Structural-Refinement-Technique-for-Protein-RNA-Complexes-Using-Combination-of-AI-based-Modeling-and-Flexible-Docking-A-Study-of-Musashi-1-Protein.rst>`
+  | Nitchakan Darai, Kowit Hengphasatporn, Peter Wolschann, :ul:`Michael T. Wolfinger`, Yasuteru Shigeta, Thanyada Rungrotmongkol, Ryuhei Harada
+  | *B. Chem. Soc. Jpn.* 96(7):677–685 (2023) | :doi:`doi:10.1246/bcsj.20230092 <https://doi.org/10.1246/bcsj.20230092>` | :link-flat:`PDF <{static}/files/papers/Darai-2023.pdf>`

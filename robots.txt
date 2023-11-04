@@ -1,6 +1,4 @@
 User-agent: *
-Disallow: /blog/tag/*
-Disallow: /blog/category/*
 Disallow: /blog/archive/*
 Disallow: /blog/category/*
 Disallow: /legal
