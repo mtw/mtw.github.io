@@ -29,7 +29,7 @@ Home
 
           .. raw:: html
 
-            <span class="m-landing-intro">``<em>I am a theoretical biochemist specializing in <strong>structural and computational RNA biology</strong>. My research focuses on algorithmic bioinformatics and computational genomics. But what truly ignites my passion is the <strong>One Health</strong> approach, a holistic strategy that recognizes the interconnectedness of human, animal, and environmental health. In this context, I emphasize and advocate for the pivotal role of <strong>virus bioinformatics</strong>.</em>''</span>
+            <span class="m-landing-intro">``<em>I am a theoretical biochemist specializing in <strong>structural and computational RNA biology</strong>. My research focuses on algorithmic bioinformatics and computational genomics. But what truly ignites my passion is the <strong>One Health</strong> approach, a holistic strategy that recognizes the interconnectedness of human, animal, and environmental health. In this context, I emphasize and advocate for the pivotal role of <a href="blog/2023/Virus-Bioinformatics-Paving-the-Way-for-One-Health/">virus bioinformatics</a>.</em>''</span>
 
       .. container:: m-col-l-4  m-col-m-4 m-push-m-0 m-col-s-7 m-push-s-3 m-col-t-10 m-push-t-1
 
