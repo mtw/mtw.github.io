@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8" />
+  <title>Zika Virus: Unlocking Cures with G-quadruplex Structures</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300;400|Source+Code+Pro:200:300,400|Source+Sans+Pro:300,400" />
+  <link rel="stylesheet" href="https://michaelwolfinger.com/static/m-light.compiled.min.css" />
+  <link rel="stylesheet" href="https://michaelwolfinger.com/static/m-mtw.min.css" />
+  <link rel="canonical" href="https://michaelwolfinger.com/blog/2023/blog/2023-10-23-The-3-prime-terminal-region-of-Zika-virus-RNA-contains-a-conserved-G-quadruplex-and-is-unfolded-by-human-DDX17/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#EAEAEA" />
+  <meta name="description" content="G-quadruplex in Zika 3&#39; UTR &amp; human helicases: A novel avenue for anti-viral efforts." />
+  <meta name="twitter:site" content="@mtwolfinger" />
+  <meta name="twitter:site:id" content="15105886" />
+  <meta property="og:site_name" content="michaelwolfinger.com Bioinformatics" />
+  <meta property="og:title" content="Zika Virus: Unlocking Cures with G-quadruplex Structures" />
+  <meta name="twitter:title" content="Zika Virus: Unlocking Cures with G-quadruplex Structures" />
+  <meta property="og:url" content="https://michaelwolfinger.com/blog/2023/blog/2023-10-23-The-3-prime-terminal-region-of-Zika-virus-RNA-contains-a-conserved-G-quadruplex-and-is-unfolded-by-human-DDX17/" />
+  <meta property="og:description" content="We identified a conserved G-quadruplex structure in the Zika virus&#39;s 3&#39; terminal region, which interacts with human DEAD-box helicases, DDX3X and DDX17. These findings suggest new potential therapeutic targets for the development of treatments against the virus" />
+  <meta name="twitter:description" content="We identified a conserved G-quadruplex structure in the Zika virus&#39;s 3&#39; terminal region, which interacts with human DEAD-box helicases, DDX3X and DDX17. These findings suggest new potential therapeutic targets for the development of treatments against the virus" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:type" content="article" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2RW3VW55N"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T2RW3VW55N');
+  </script>
+</head>
+<body>
+<header><nav id="navigation">
+  <div class="m-container">
+    <div class="m-row">
+      <a href="../../../../" id="m-navbar-brand" class="m-col-t-9 m-col-m-none m-left-m">Michael T. Wolfinger</a>
+      <a id="m-navbar-show" href="#navigation" title="Show navigation" class="m-col-t-3 m-hide-m m-text-right"></a>
+      <a id="m-navbar-hide" href="#" title="Hide navigation" class="m-col-t-3 m-hide-m m-text-right"></a>
+      <div id="m-navbar-collapse" class="m-col-t-12 m-show-m m-col-m-none m-right-m">
+        <div class="m-row">
+          <ol class="m-col-t-12 m-col-m-none">
+            <li>
+              <a href="https://michaelwolfinger.com/publications">Publications</a>
+              <ol>
+                <li><a href="https://michaelwolfinger.com/publications">Papers</a></li>
+                <li><a href="https://michaelwolfinger.com/publications/presentations">Presentations</a></li>
+                <li><a href="https://michaelwolfinger.com/publications/posters">Posters</a></li>
+              </ol>
+            </li>
+            <li><a href="https://michaelwolfinger.com/teaching">Teaching</a></li>
+            <li><a href="https://michaelwolfinger.com/consulting">Consultancy</a></li>
+            <li><a href="https://michaelwolfinger.com/contact">Contact</a></li>
+            <li><a href="https://michaelwolfinger.com/blog/" id="m-navbar-current">Blog</a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav></header>
+<main>
+<div class="m-container">
+  <div class="m-row">
+    <article class="m-col-m-10 m-nopadb">
+      <header>
+        <h1><a href="https://michaelwolfinger.com/blog/2023/blog/2023-10-23-The-3-prime-terminal-region-of-Zika-virus-RNA-contains-a-conserved-G-quadruplex-and-is-unfolded-by-human-DDX17/" rel="bookmark" title="Permalink to Zika Virus: Unlocking Cures with G-quadruplex Structures">
+          <time class="m-date" datetime="2023-10-23T00:00:00+02:00">
+            Oct <span class="m-date-day">23</span> 2023
+          </time>
+          Zika Virus: Unlocking Cures with G-quadruplex Structures
+        </a></h1>
+        <p>We identified a conserved G-quadruplex structure in the Zika virus's 3' terminal region, which interacts with human DEAD-box helicases, DDX3X and DDX17. These findings suggest new potential therapeutic targets for the development of treatments against the virus</p>
+      </header>
+      <div class="m-clearfix-l"></div>
+<!-- content -->
+<p>Zika virus (ZIKV) has stirred global concern, leaving in its wake a desperate need for effective treatments. With 86 countries designated as ZIKV risk areas and a substantial impact on fetal development, innovative approaches to combat the virus are crucial. In our recent paper, we delved into the intricate world of ZIKV RNA structures and human protein interactions, shining light on a potential therapeutic avenue.</p>
+<section id="g-quadruplexes-a-unique-rna-structure">
+<h2>G-quadruplexes: A Unique RNA Structure</h2>
+<p>G-quadruplexes (G4s) are peculiar RNA structures that play various roles in viruses and all domains of life. These structures can regulate transcription, translation, and even maintain genome stability. In ZIKV, a potential G-quadruplex sequence was located in the 3' terminal region (TR) using a quadruplex-forming G-rich sequences Mapper, but its conservation and role in larger ZIKV RNA transcripts remained unexplored.</p>
+</section>
+<section id="exploring-zikv-g4-findings-from-our-study">
+<h2>Exploring ZIKV G4: Findings from Our Study</h2>
+<p>Our research establishes that the ZIKV 3' TR G4 is conserved across all ZIKV isolates and retains its structure in a 3' TR full-length transcript. This G4 formation was confirmed using pyridostatin and the BG4 G4-recognizing antibody binding assays.</p>
+<p>Crucially, we found that human DEAD-box helicases, DDX3X132-607 and DDX17135-555, bind to the 3' TR, and that DDX17135-555 unfolds the G4 in the 3' TR. This unraveling of the G4 structure presents an opportunity for therapeutic targeting.</p>
+</section>
+<section id="significance-in-a-one-health-context">
+<h2>Significance in a One Health Context</h2>
+<p>Understanding the ZIKV G4 structure and its interactions with human proteins is essential for a comprehensive One Health approach, which recognizes the interconnectedness of human, animal, and environmental health.</p>
+<p>ZIKV, transmitted primarily by Aedes mosquitoes, not only leads to congenital disabilities in utero but can also cause debilitating symptoms in adults. A nuanced understanding of the virus's replication mechanisms through our study can facilitate the development of targeted treatments, reducing the disease burden on vulnerable populations.</p>
+</section>
+<section id="therapeutic-potential-a-new-horizon">
+<h2>Therapeutic Potential: A New Horizon</h2>
+<p>Our discovery allows us to contemplate potential treatments using G4 binding molecules or other molecules that disrupt human DDX17–3' SL interaction. Though more research is needed to understand the function of the 3' SL G4 during viral replication, our study lays the groundwork for innovative therapeutics against ZIKV.</p>
+</section>
+<section id="conclusion-the-way-forward">
+<h2>Conclusion: The Way Forward</h2>
+<p>In the absence of ZIKV treatments or vaccines, our research sheds light on the potential of targeting specific RNA structures and their interactions with human proteins. By understanding and leveraging these interactions, we may open new doors in the fight against ZIKV, contributing to a holistic One Health strategy.</p>
+<p>Stay tuned for more insights into the world of RNA structures and their roles in viral replication, as we continue our quest to unveil novel therapeutic possibilities against Zika virus.</p>
+<div class="m-button m-primary">
+<a href="../../../../files/papers/Gemmill-2023.pdf"><span>Download PDF</span></a>
+</div>
+<aside class="m-frame">
+<h3>Abstract</h3>
+<p>Zika virus (ZIKV) infection remains a worldwide concern, and currently no effective treatments or vaccines are available. Novel therapeutics are an avenue of interest that could probe viral RNA-human protein communication to stop viral replication. One specific RNA structure, G-quadruplexes (G4s), possess various roles in viruses and all domains of life, including transcription and translation regulation and genome stability, and serves as nucleation points for RNA liquid-liquid phase separation. Previous G4 studies on ZIKV using a quadruplex forming G-rich sequences Mapper located a potential G-quadruplex sequence in the 3′ terminal region (TR) and was validated structurally using a 25-mer oligo. It is currently unknown if this structure is conserved and maintained in a large ZIKV RNA transcript and its specific roles in viral replication. Using bioinformatic analysis and biochemical assays, we demonstrate that the ZIKV 3′ TR G4 is conserved across all ZIKV isolates and maintains its structure in a 3′ TR full-length transcript. We further established the G4 formation using pyridostatin and the BG4 G4-recognizing antibody binding assays. Our study also demonstrates that the human DEAD-box helicases, DDX3X132-607 and DDX17135-555, bind to the 3′ TR and that DDX17135-555 unfolds the G4 present in the 3′ TR. These findings provide a path forward in potential therapeutic targeting of DDX3X or DDX17’s binding to the 3′ TR G4 region for novel treatments against ZIKV.</p>
+</aside>
+<section id="citation">
+<h3>Citation</h3>
+<blockquote>
+<p>
+<a class="m-flat m-text m-strong" href="https://doi.org/10.1139/bcb-2023-0036">The 3’ terminal region of Zika virus RNA contains a conserved G-quadruplex and is unfolded by human DDX17</a><br />
+Darren Gemmill, Corey Nelson, Maulik Badmalia, Higor Pereira, <span class="m-text m-ul">Michael T. Wolfinger</span>, and Trushar Patel<br />
+<em>Biochem. Cell Biol</em> (2023) | <a class="doi" href="https://doi.org/10.1139/bcb-2023-0036">doi:10.1139/bcb-2023-0036</a><br />
+</p>
+</blockquote>
+</section>
+</section>
+<!-- /content -->
+      <footer>
+        <p>Posted by Michael T. Wolfinger on <time datetime="2023-10-23T00:00:00+02:00">Mon 23 October 2023</time>. <span class="m-label m-success">updated <time datetime="2023-11-05T00:00:00+01:00">Sun 05 November 2023</time></span>
+      </footer>
+    </article>
+    <nav class="m-navpanel m-col-m-2">
+      <h3>Categories</h3>
+      <ol class="m-block-bar-m">
+        <li><a href="https://michaelwolfinger.com/blog/category/howto/">HOWTO</a></li>
+        <li><a href="https://michaelwolfinger.com/blog/category/outreach/">outreach</a></li>
+        <li><a href="https://michaelwolfinger.com/blog/category/publications/">publications</a></li>
+      </ol>
+      <h3>Tag cloud</h3>
+      <ul class="m-tagcloud">
+        <li class="m-tag-3"><a href="https://michaelwolfinger.com/blog/tag/3d/">3D</a></li>
+        <li class="m-tag-2"><a href="https://michaelwolfinger.com/blog/tag/ai/">AI</a></li>
+        <li class="m-tag-2"><a href="https://michaelwolfinger.com/blog/tag/bacteria/">bacteria</a></li>
+        <li class="m-tag-2"><a href="https://michaelwolfinger.com/blog/tag/energy-landscapes/">energy landscapes</a></li>
+        <li class="m-tag-3"><a href="https://michaelwolfinger.com/blog/tag/ngs/">NGS</a></li>
+        <li class="m-tag-5"><a href="https://michaelwolfinger.com/blog/tag/non-coding-rna/">non-coding RNA</a></li>
+        <li class="m-tag-5"><a href="https://michaelwolfinger.com/blog/tag/one-health/">One Health</a></li>
+        <li class="m-tag-2"><a href="https://michaelwolfinger.com/blog/tag/rna-design/">RNA design</a></li>
+        <li class="m-tag-1"><a href="https://michaelwolfinger.com/blog/tag/rna-kinetics/">RNA kinetics</a></li>
+        <li class="m-tag-2"><a href="https://michaelwolfinger.com/blog/tag/rna-protein-interaction/">RNA-Protein interaction</a></li>
+        <li class="m-tag-1"><a href="https://michaelwolfinger.com/blog/tag/rna-rna-interaction/">RNA-RNA interaction</a></li>
+        <li class="m-tag-1"><a href="https://michaelwolfinger.com/blog/tag/shape/">SHAPE</a></li>
+        <li class="m-tag-2"><a href="https://michaelwolfinger.com/blog/tag/viennarna/">ViennaRNA</a></li>
+        <li class="m-tag-1"><a href="https://michaelwolfinger.com/blog/tag/virus/">virus</a></li>
+        <li class="m-tag-5"><a href="https://michaelwolfinger.com/blog/tag/viruses/">viruses</a></li>
+        <li class="m-tag-3"><a href="https://michaelwolfinger.com/blog/tag/xrrna/">xrRNA</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+</main>
+<footer><nav>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-s-3 m-col-t-6">
+        <h3><a href="https://michaelwolfinger.com/">Home</a></h3>
+        <ul>
+          <li><a href="https://michaelwolfinger.com/publications">Publications</a></li>
+          <li><a href="https://michaelwolfinger.com/teaching">Teaching</a></li>
+          <li><a href="https://michaelwolfinger.com/contact">Contact</a></li>
+          <li><a href="https://michaelwolfinger.com/blog">Blog</a></li>
+        </ul>
+      </div>
+      <div class="m-col-s-3 m-col-t-6">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="https://michaelwolfinger.com/consulting">Bioinformatics Consulting</a></li>
+          <li><a href="https://rnaforecast.com">RNA Forecast</a></li>
+          <li><a href="https://xrrna.bio">xrRNA.bio</a></li>
+          <li><a href="https://michaelwolfinger.com/legal">Legal Note</a></li>
+        </ul>
+      </div>
+      <div class="m-clearfix-t"></div>
+      <div class="m-col-s-3 m-col-t-6">
+        <h3>My Profiles</h3>
+        <ul>
+          <li><a href="https://scholar.google.at/citations?user=w0PHGnEAAAAJ&amp;hl=en">Google Scholar</a></li>
+          <li><a href="https://www.webofscience.com/wos/author/record/N-9538-2014">Web of Science</a></li>
+          <li><a href="https://www.researchgate.net/profile/Michael-Wolfinger">ResearchGate</a></li>
+          <li><a href="https://www.scopus.com/authid/detail.uri?authorId=6508361997">Scopus</a></li>
+        </ul>
+      </div>
+      <div class="m-col-s-3 m-col-t-6">
+        <h3>Social</h3>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/michaelwolfinger/">Linkedin</a></li>
+          <li><a href="https://twitter.com/mtwolfinger">Twitter</a></li>
+          <li><a href="https://github.com/mtw">GitHub</a></li>
+          <li><a href="https://orcid.org/0000-0003-0925-5205">ORCID</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <p>
+        michaelwolfinger.com - Copyright © Michael T. Wolfinger, 2021-2023<br />
+        </p>
+      </div>
+    </div>
+  </div>
+</nav></footer>
+</body>
+</html>
