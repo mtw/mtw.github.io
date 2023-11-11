@@ -1,3 +1,3 @@
 #!/bin/sh
-pelican content -o .. -s pelicanconf.py
-pelican content -o .. -s publishconf.py
+pelican content -D -v -v -o .. -s pelicanconf.py
+pelican content -D -v -v -o .. -s publishconf.py
