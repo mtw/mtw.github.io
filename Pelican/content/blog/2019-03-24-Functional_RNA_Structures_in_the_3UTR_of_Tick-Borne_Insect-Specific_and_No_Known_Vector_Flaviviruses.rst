@@ -7,7 +7,7 @@ Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No K
 :category: publications
 :slug: Functional_RNA_Structures_in_the_three_prime_UTR_of_Flaviviruses
 :author: mtw
-:title: Unraveling Flavivirus UTRs and xrRNAs The Path to One Health
+:title: Unraveling Flavivirus UTRs: xrRNAs and the Path to One Health
 :summary: This study highlights the crucial role of untranslated regions (UTRs) in flaviviruses and the discovery of exoribonuclease resistant RNAs (xrRNAs). These findings showcase the importance of virus bioinformatic studies in advancing our understanding of infectious diseases and their relevance to broader health goals like the One Health approach.
 :description: Discover the significance of UTRs in flaviviruses and their role in virus survival. Explore the One Health connection
 
