@@ -51,7 +51,7 @@ SITEMAP = {
         "indexes": "always",
         "pages": "always"
     },
-    "exclude": ["blog/archive/", "blog/author/", "blog/category/", "blog/tag/", "archives", "authors", "categories", "tag", "index", "legal"]
+    "exclude": ["blog/archive/", "blog/author/", "authors", "index", "legal"]
 }
 
 GITHUB_URL = "https://github.com/mtw/mtw.github.io"
@@ -122,7 +122,7 @@ PATH_METADATA = '(?P<slug>.+).rst'
 #M_HTML_HEADER = '<link rel="stylesheet" href="extra/css/extra.css"'
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+RELATIVE_URLS = False
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -144,24 +144,20 @@ M_SOCIAL_BLOG_SUMMARY = "Stuff that matters in virus bioinformatics"
 
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
-ARCHIVES_URL = 'blog/archives/'
-ARCHIVES_SAVE_AS = 'archives.html'
+#ARCHIVES_URL = 'blog/archives/archives.html'
+#ARCHIVES_SAVE_AS = 'blog/archives/archives.html'
 ARTICLE_URL = 'blog/{date:%Y}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{slug}/index.html'
 AUTHOR_URL = 'blog/author/{slug}/'
 AUTHOR_SAVE_AS = ''
-CATEGORY_URL = 'blog/category/{slug}/'
-CATEGORY_SAVE_AS = 'blog/category/{slug}/index.html'
-TAG_URL = 'blog/tag/{slug}/'
+CATEGORY_URL = 'blog/category/{slug}.html'
+CATEGORY_SAVE_AS = 'blog/category/{slug}.html'
+TAG_URL = 'blog/tag/{slug}.html'
+TAG_SAVE_AS = 'blog/tag/{slug}.html'
 INDEX_SAVE_AS = 'blog/index.html'
 
-AUTHORS_SAVE_AS = ''
-CATEGORIES_SAVE_AS = ''
-TAG_SAVE_AS = ''
-
-YEAR_ARCHIVE_URL = 'blog/{date:%Y}/'
-#YEAR_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/index.html'
-YEAR_ARCHIVE_SAVE_AS = ''
+#YEAR_ARCHIVE_URL = 'blog/archives/{date:%Y}.html'
+#YEAR_ARCHIVE_SAVE_AS = 'blog/archives/{date:%Y}.html'
 
 SLUGIFY_SOURCE = 'basename'
 PATH_METADATA = '(?P<slug>.+).rst'
