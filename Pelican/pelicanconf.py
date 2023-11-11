@@ -9,7 +9,7 @@ STATIC_URL = '{path}'
 
 PATH = 'content'
 ARTICLE_PATHS = ['blog']
-ARTICLE_EXCLUDES = ['blog/authors','blog/category','blog/tags']
+ARTICLE_EXCLUDES = ['blog/authors','blog/category','blog/tag']
 PAGE_PATHS = ['']
 
 TIMEZONE = 'Europe/Vienna'
@@ -51,7 +51,7 @@ SITEMAP = {
         "indexes": "always",
         "pages": "always"
     },
-    "exclude": ["blog/archive/", "blog/author/", "blog/category/", "blog/tag/", "archives", "authors", "categories", "tags", "index", "legal"]
+    "exclude": ["blog/archive/", "blog/author/", "blog/category/", "blog/tag/", "archives", "authors", "categories", "tag", "index", "legal"]
 }
 
 GITHUB_URL = "https://github.com/mtw/mtw.github.io"
@@ -144,27 +144,22 @@ M_SOCIAL_BLOG_SUMMARY = "Stuff that matters in virus bioinformatics"
 
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
-REDIRECT_SAVE_AS = PAGE_SAVE_AS
-ARCHIVES_URL = 'blog/archive/'
-ARCHIVES_SAVE_AS = 'blog/archive/index.html'
+ARCHIVES_URL = 'blog/archives/'
+ARCHIVES_SAVE_AS = 'archives.html'
 ARTICLE_URL = 'blog/{date:%Y}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{slug}/index.html'
 AUTHOR_URL = 'blog/author/{slug}/'
-#AUTHOR_SAVE_AS = 'blog/author/{slug}/index.html'
 AUTHOR_SAVE_AS = ''
 CATEGORY_URL = 'blog/category/{slug}/'
 CATEGORY_SAVE_AS = 'blog/category/{slug}/index.html'
-#CATEGORY_SAVE_AS = ''
 TAG_URL = 'blog/tag/{slug}/'
-TAG_SAVE_AS = 'blog/tag/{slug}/index.html'
-#TAG_SAVE_AS = ''
 INDEX_SAVE_AS = 'blog/index.html'
 
 AUTHORS_SAVE_AS = ''
 CATEGORIES_SAVE_AS = ''
-TAGS_SAVE_AS = ''
+TAG_SAVE_AS = ''
 
-YEAR_ARCHIVE_URL = 'blog/{date:%Y}/{slug}/'
+YEAR_ARCHIVE_URL = 'blog/{date:%Y}/'
 #YEAR_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/index.html'
 YEAR_ARCHIVE_SAVE_AS = ''
 

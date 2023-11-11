@@ -8,10 +8,8 @@ Virus Bioinformatics: A Crucial Tool for a Healthier World
 :slug: Virus-Bioinformatics-Paving-the-Way-for-One-Health
 :author: mtw
 :title: The Pivotal Role of Virus Bioinformatics in Global Health
-:summary: On One Health Day, we recognize the intricate links between human, animal, and environmental health, underscored by the emergence of novel viruses like SARS-CoV-2. This post, crafted for a lay audience, delves into the critical contributions of virus bioinformatics in understanding and combating infectious diseases. It emphasizes the importance of predicting RNA structures for understanding RNA viruses and discusses the role of genomic epidemiology in tracking viral spread and evolution. 
+:summary: On One Health Day, we recognize the intricate links between human, animal, and environmental health, underscored by the emergence of novel viruses like SARS-CoV-2. This post, crafted for a lay audience, delves into the critical contributions of virus bioinformatics in understanding and combating infectious diseases. It emphasizes the importance of predicting RNA structures for understanding RNA viruses and discusses the role of genomic epidemiology in tracking viral spread and evolution.
 :description: Discover the transformative role of virus bioinformatics in One Health, from RNA structure prediction to genomic epidemiology
-
-:description:
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
