@@ -18,6 +18,12 @@ Selected Posters
 .. role:: raw-html(raw)
    :format: html
 
+
+| :link-flat-strong:`Exoribonuclease-resistant RNAs in tick-borne flaviviruses <{static}/files/posters/2024-03-GfV2024.pdf>`
+| Leonhard Sidl, Denis Skibinski, Hua-Ting Yao,  :ul:`Michael T. Wolfinger`
+| Presented at the *33rd Meeting of the Society for Virology GfV2024*
+| Vienna, Austria, March 2024 | `doi:10.6084/m9.figshare.25492783 <https://doi.org/10.6084/m9.figshare.25492783>`_
+
 | :strong:`Small Regulatory RNAs contributing to antibiotic susceptibility in Pseudomonas aeruginosa`
 | Anastasia Cianciulli Sesso, :ul:`Michael T. Wolfinger`, Udo Bläsi
 | Presented at the *RNA Biology forever - Vienna RNA Meeting 2021*
