@@ -29,7 +29,7 @@ Home
 
           .. raw:: html
 
-            <span class="m-landing-intro">As a theoretical biochemist specializing in structural and <strong>computational RNA biology</strong>, my work spans algorithmic <strong>bioinformatics</strong> and computational genomics. I am most passionate about <a href="blog/2023/Virus-Bioinformatics-Paving-the-Way-for-One-Health/">virus bioinformatics</a>, recognizing its essential role within the <strong>One Health</strong> system, an integrative framework linking the health of humans, animals, and the environment.</span>
+            <span class="m-landing-intro">As a theoretical biochemist with a deep passion for <em>computational RNA biology</em>, I am  fascinated by the potential of <strong>synthetic biology</strong> to revolutionize our world. My work bridges the gap between theoretical understanding and the <em>design of novel biological systems</em>. This includes leveraging computational approaches to explore new frontiers, particularly within the exciting field of <strong>virus bioinformatics</strong>.</span>
 
       .. container:: m-col-l-4  m-col-m-4 m-push-m-0 m-col-s-7 m-push-s-3 m-col-t-10 m-push-t-1
 
@@ -43,15 +43,15 @@ Home
         .. raw:: html
 
           <span class="m-landing-text">
-          <p>In our increasingly interconnected world, the study of RNA viruses is more crucial than ever. My work primarily revolves around RNA viruses, where I explore various dimensions of RNA biology:<p>
+          <p>The study of RNA viruses holds particular significance for <em>synthetic biology</em>. My research on RNA viruses provides a deep understanding of their complex interplay between structure and function, which is crucial for designing novel biological systems. This includes:</p>
 
           <ul>
           <li> Predicting the intricate structures of RNA molecules in 2D and 3D</li>
+          <li> Designing molecular devices like riboswitches for synthetic biology applications</li>
           <li> Uncovering RNA's hidden complexities through RNA structure probing</strong>
           <li> Advancing RNA structure prediction with artificial intelligence</li>
           <li> Investigating the fascinating world of RNA-protein interactions</li>
           <li> Revealing co-transcriptional RNA folding dynamics</li>
-          <li> Designing riboswitches <em>in silico</em> for synthetic biology applications</li>
           <li> Exploring multifaceted RNA folding dynamics and energy landscapes</li>
           </ul>
           </span>
@@ -61,8 +61,9 @@ Home
         .. raw:: html
 
           <span class="m-landing-text">
-          <p>These research areas collectively fuel my commitment to advancing our understanding of <strong>RNA biology</strong> and its broader significance in the fields of biology and biotechnology.</p>
-          Currently, I hold the position of a visiting professor at the <a href="http://www.bioinf.uni-freiburg.de/team.html"> University of Freiburg Bioinformatics Group</a>. In addition, I maintain affiliations with the <a href="https://bcb.cs.univie.ac.at/"> Research Group Bioinformatics and Computational Biology (BCB) </a> and the <a href="http://www.tbi.univie.ac.at/"> Theoretical Biochemistry Group (TBI)</a> at the Department of Theoretical Chemistry, University of Vienna. These academic groups are renowned for their contributions to the development of the <a href="http://www.tbi.univie.ac.at/RNA"> ViennaRNA Package</a>, a widely used resource in the field of <strong>RNA bioinformatics</strong>.
+          <p>These research areas collectively fuel my commitment to advancing our understanding of <strong>RNA</strong> and its broader significance in the realm of synthetic biology, biotechnology, and healthcare.</p>
+          I currently lead research as a Principal Investigator at the University of Vienna. Previously, I held a visiting professor position at the <a href="http://www.bioinf.uni-freiburg.de/team.html"> University of Freiburg Bioinformatics Group</a>.
+          I maintain affiliations with the <a href="https://bcb.cs.univie.ac.at/"> Research Group Bioinformatics and Computational Biology (BCB) </a> and the <a href="http://www.tbi.univie.ac.at/"> Theoretical Biochemistry Group (TBI)</a> at the Department of Theoretical Chemistry, University of Vienna. These academic groups are renowned for their contributions to the development of the <a href="http://www.tbi.univie.ac.at/RNA"> ViennaRNA Package</a>, a widely used resource in the field of <strong>RNA bioinformatics</strong>.
           <br/>
           <br/>
           Beyond my academic endeavors, I have established <a href="https://rnaforecast.com">RNA Forecast</a>, a venture with a mission to emphasize the significance of RNA structure within the pharmaceutical and biotechnology sectors. Together, we strive to integrate the <strong>One Health</strong> approach with the power of virus bioinformatics to tackle the complex challenges posed by RNA viruses, safeguarding the health of all living organisms on our planet.
