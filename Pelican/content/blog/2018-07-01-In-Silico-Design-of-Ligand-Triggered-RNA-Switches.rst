@@ -3,7 +3,7 @@ In Silico Design of Ligand Triggered RNA Switches
 
 :date: 2018-07-01
 :modified: 2022-10-14
-:tags: energy landscapes; RNA kinetics; RNA design
+:tags: energy landscapes; RNA kinetics; RNA design; synthetic biology
 :category: publications
 :slug: In-Silico-Design-of-Ligand-Triggered-RNA-Switches
 :author: mtw

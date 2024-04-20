@@ -47,19 +47,19 @@ Peer-reviewed journal articles and book chapters
 
 .. container:: refs-2024
 
-  | 48. :link-flat-strong:`Automated Agnostic Designation of Pathogen Lineages <https://doi.org/10.1101/2023.02.03.527052>`
+  | 48. :link-flat-strong:`A framework for automated scalable designation of viral pathogen lineages from genomic data <https://doi.org/doi:10.1038/s41564-023-01587-5>`
   | Jakob McBroome, Adriano de Bernardi Schneider, Cornelius Roemer, :ul:`Michael T. Wolfinger`, Angie S. Hinrichs, Aine N. O’Toole, Chris Ruis, Yatish Turakhia, Andrew Rambaut, and Russell Corbett-Detig
-  | *Nature Microbiol.* 2024 | Accepted manuscript | :link-flat:`Preprint PDF <{static}/files/papers/McBroome-2023__PREPRINT.pdf>`
+  | *Nature Microbiol.*  9:550–560 (2024) | :doi:`doi:10.1038/s41564-023-01587-5 <https://doi.org/doi:10.1038/s41564-023-01587-5>` | :link-flat:`PDF <{static}/files/papers/McBroome-2024.pdf>`
+
+  | 47. :link-flat-strong:`The 3’ terminal region of Zika virus RNA contains a conserved G-quadruplex and is unfolded by human DDX17 <{filename}/blog/2023-10-23-The-3-prime-terminal-region-of-Zika-virus-RNA-contains-a-conserved-G-quadruplex-and-is-unfolded-by-human-DDX17.rst>`
+  | Danielle L. Gemmill, Corey R. Nelson, Maulik D. Badmalia, Higor S. Pereira, :ul:`Michael T. Wolfinger`, and Trushar Patel
+  | *Biochem. Cell Biol.* 102(1):96–105 (2024) | :doi:`doi:10.1139/bcb-2023-0036 <https://doi.org/10.1139/bcb-2023-0036>` | :link-flat:`PDF <{static}/files/papers/Gemmill-2024.pdf>`
 
 
 `2023`_
 -------
 
 .. container:: refs-2023
-
-  | 47. :link-flat-strong:`The 3’ terminal region of Zika virus RNA contains a conserved G-quadruplex and is unfolded by human DDX17 <{filename}/blog/2023-10-23-The-3-prime-terminal-region-of-Zika-virus-RNA-contains-a-conserved-G-quadruplex-and-is-unfolded-by-human-DDX17.rst>`
-  | Darren Gemmill, Corey Nelson, Maulik Badmalia, Higor Pereira, :ul:`Michael T. Wolfinger`, and Trushar Patel
-  | *Biochem. Cell Biol.* (2023) | :doi:`doi:10.1139/bcb-2023-0036 <https://doi.org/10.1139/bcb-2023-0036>`
 
   | 46. :link-flat-strong:`A Structural Refinement Technique for Protein-RNA Complexes Using a Combination of AI-based Modeling and Flexible Docking: A Study of Musashi-1 Protein <{filename}/blog/2023-06-09-A-Structural-Refinement-Technique-for-Protein-RNA-Complexes-Using-Combination-of-AI-based-Modeling-and-Flexible-Docking-A-Study-of-Musashi-1-Protein.rst>`
   | Nitchakan Darai, Kowit Hengphasatporn, Peter Wolschann, :ul:`Michael T. Wolfinger`, Yasuteru Shigeta, Thanyada Rungrotmongkol, Ryuhei Harada

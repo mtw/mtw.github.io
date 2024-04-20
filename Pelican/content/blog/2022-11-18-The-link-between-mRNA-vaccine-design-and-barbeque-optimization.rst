@@ -3,8 +3,8 @@ The link between mRNA vaccine design and barbeque optimization
 
 :date: 2022-11-18
 :modified: 2022-11-28
-:tags: RNA design;
-:category: publications
+:tags: RNA design; synthetic biology
+:category: outreach
 :slug: The-link-between-mRNA-vaccine-design-and-barbeque-optimization
 :author: mtw
 :summary: The rational design of vaccine mRNAs and barbeque share common traits: Both require extensive optimization and benefit from experience.
