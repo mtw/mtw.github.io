@@ -2,8 +2,8 @@ The 3′ terminal region of Zika virus RNA contains a conserved G-quadruplex and
 #########################################################################################################
 
 :date: 2023-10-23
-:modified: 2023-11-05
-:tags: virus; RNA-Protein interaction; non-coding RNA; One Health
+:modified: 2024-04-20
+:tags: viruses; RNA-Protein interaction; non-coding RNA;
 :category: publications
 :slug:
 :author: mtw
@@ -57,7 +57,7 @@ In the absence of ZIKV treatments or vaccines, our research sheds light on the p
 
 Stay tuned for more insights into the world of RNA structures and their roles in viral replication, as we continue our quest to unveil novel therapeutic possibilities against Zika virus.
 
-.. button-primary:: {static}/files/papers/Gemmill-2023.pdf
+.. button-primary:: {static}/files/papers/Gemmill-2024.pdf
 
     Download PDF
 
@@ -68,6 +68,6 @@ Stay tuned for more insights into the world of RNA structures and their roles in
 Citation
 ========
 
-  | :link-flat-strong:`The 3’ terminal region of Zika virus RNA contains a conserved G-quadruplex and is unfolded by human DDX17 <https://doi.org/10.1139/bcb-2023-0036>`
-  | Darren Gemmill, Corey Nelson, Maulik Badmalia, Higor Pereira, :ul:`Michael T. Wolfinger`, and Trushar Patel
-  | *Biochem. Cell Biol* (2023) | :doi:`doi:10.1139/bcb-2023-0036 <https://doi.org/10.1139/bcb-2023-0036>`
+  | :link-flat-strong:`The 3’ terminal region of Zika virus RNA contains a conserved G-quadruplex and is unfolded by human DDX17 <{filename}/blog/2023-10-23-The-3-prime-terminal-region-of-Zika-virus-RNA-contains-a-conserved-G-quadruplex-and-is-unfolded-by-human-DDX17.rst>`
+  | Danielle L. Gemmill, Corey R. Nelson, Maulik D. Badmalia, Higor S. Pereira, :ul:`Michael T. Wolfinger`, and Trushar Patel
+  | *Biochem. Cell Biol.* 102(1):96–105 (2024) | :doi:`doi:10.1139/bcb-2023-0036 <https://doi.org/10.1139/bcb-2023-0036>` | :link-flat:`PDF <{static}/files/papers/Gemmill-2024.pdf>`

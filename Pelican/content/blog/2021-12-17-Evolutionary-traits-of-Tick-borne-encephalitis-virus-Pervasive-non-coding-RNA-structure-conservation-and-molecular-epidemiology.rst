@@ -3,7 +3,7 @@ Pervasive non-coding RNA structure conservation and molecular epidemiology of TB
 
 :date: 2021-12-17
 :modified: 2022-10-29
-:tags: viruses; non-coding RNA; One Health; xrRNA
+:tags: viruses; non-coding RNA; One Health; xrRNA; molecular epidemiology; synthetic biology
 :category: publications
 :slug: Evolutionary-traits-of-Tick-borne-encephalitis-virus-Pervasive-non-coding-RNA-structure-conservation-and-molecular-epidemiology
 :author: mtw

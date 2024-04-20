@@ -3,12 +3,12 @@ Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics
 
 :date: 2018-07-01
 :modified: 2022-10-14
-:tags: energy landscapes; RNA kinetics; bacteria; ViennaRNA
+:tags: energy landscapes; RNA kinetics; bacteria; ViennaRNA; synthetic biology
 :category: publications
 :slug: Efficient-Computation-of-Cotranscriptional-RNA-Ligand-Interaction-Dynamics
 :author: mtw
 :summary: Using the 2'dG riboswitch as an example this study explains how co-transcriptional folding under kinetic control can be efficiently modeled with ViennaRNA tools
-:description: Co-transcriptional RNAfolding under kinetic control can be efficiently modeled with computational biology approaches for the 2'dG riboswitch 
+:description: Co-transcriptional RNAfolding under kinetic control can be efficiently modeled with computational biology approaches for the 2'dG riboswitch
 :title: Co-transcriptional riboswitch modleing with ViennaRNA
 
 .. role:: link-flat-strong(link)

@@ -17,12 +17,6 @@ Contact
 
           .. raw:: html
 
-              Bioinformatics Group <br/>
-              Department of Computer Science <br/>
-              Albert-Ludwigs-Universität Freiburg <br/>
-              Georges-Köhler-Allee 106 <br/>
-              79110 Freiburg, Germany <br/>
-              <br/>
               Bioinformatics and Computational Biology <br/>
               Faculty of Computer Science <br/>
               University of Vienna <br/>

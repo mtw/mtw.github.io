@@ -3,7 +3,7 @@ RNA–RNA interaction analysis of Japanese encephalitis virus
 
 :date: 2023-03-31
 :modified: 2023-04-09
-:tags: RNA-RNA interaction; non-coding RNA; viruses; 3D; One Health
+:tags: RNA-RNA interaction; non-coding RNA; viruses; 3D
 :category: publications
 :slug: Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis
 :author: mtw
