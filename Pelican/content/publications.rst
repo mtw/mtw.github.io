@@ -47,7 +47,7 @@ Peer-reviewed journal articles and book chapters
 
 .. container:: refs-2024
 
-  | 48. :link-flat-strong:`A framework for automated scalable designation of viral pathogen lineages from genomic data <https://doi.org/doi:10.1038/s41564-023-01587-5>`
+  | 48. :link-flat-strong:`A framework for automated scalable designation of viral pathogen lineages from genomic data <{filename}/blog/2024-02-12-A-framework-for-automated-scalable-designation-of-viral-pathogen-lineages-from-genomic-data.rst>`
   | Jakob McBroome, Adriano de Bernardi Schneider, Cornelius Roemer, :ul:`Michael T. Wolfinger`, Angie S. Hinrichs, Aine N. O’Toole, Chris Ruis, Yatish Turakhia, Andrew Rambaut, and Russell Corbett-Detig
   | *Nature Microbiol.*  9:550–560 (2024) | :doi:`doi:10.1038/s41564-023-01587-5 <https://doi.org/doi:10.1038/s41564-023-01587-5>` | :link-flat:`PDF <{static}/files/papers/McBroome-2024.pdf>`
 
@@ -134,9 +134,9 @@ Peer-reviewed journal articles and book chapters
   | Maria Waldl, Sebastian Will, :ul:`Michael T. Wolfinger`, Ivo L. Hofacker, Peter F. Stadler
   | In *Computational Intelligence Methods for Bioinformatics and Biostatistics*, pp159–70. Springer International Publishing (2020) | :doi:`doi:10.1007/978-3-030-63061-4_15 <https://doi.org/10.1007/978-3-030-63061-4_15>` | :link-flat:`Preprint PDF <{static}/files/papers/Waldl-2020__PREPRINT.pdf>`
 
-  | 32. :link-flat-strong:`Genomic Epidemiology of Superspreading Events in Austria Reveals Mutational Dynamics and Transmission Properties of SARS-CoV-2 <{filename}/publications/papers/Genomic_Epidemiology_of_Superspreading_Events_in_Austria_Reveals_Mutational_Dynamics_and_Transmission_Properties_of_SARS-CoV-2.rst>``
+  | 32. :link-flat-strong:`Genomic Epidemiology of Superspreading Events in Austria Reveals Mutational Dynamics and Transmission Properties of SARS-CoV-2 <{filename}/blog/2020-12-10-Genomic-Epidemiology-of-Superspreading-Events-in-Austria-Reveals-Mutational-Dynamics-and-Transmission-Properties-of-SARS-CoV-2.rst>`
   | Alexandra Popa, Jakob-Wendelin Genger, Michael D. Nicholson, Thomas Penz, Daniela Schmid, Stephan W Aberle, Benedikt Agerer, Alexander Lercher, Lukas Endler, Henrique Colaco, Mark Smyth, Michael Schuster, Miguel L. Grau, Francisco Martínez-Jiménez, Oriol Pich, Wegene Borena, Erich Pawelka, Zsofia Keszei, Martin Senekowitsch, Jan Laine, Judith H Aberle, Monika Redlberger-Fritz, Mario Karolyi, Alexander Zoufaly, Sabine Maritschnik, Martin Borkovec, Peter Hufnagl, Manfred Nairz, Günter Weiss, :ul:`Michael T. Wolfinger`, Dorothee von Laer, Giulio Superti-Furga, Nuria Lopez-Bigas, Elisabeth Puchhammer-Stöckl, Franz Allerberger, Franziska Michor, Christoph Bock, Andreas Bergthaler
-  | *Sci. Transl. Med.* 12 (573):eabe2555 (2020) | :doi:`doi:10.1126/scitranslmed.abe2555 <https://doi.org/10.1126/scitranslmed.abe2555>`
+  | *Sci. Transl. Med.* 12 (573):eabe2555 (2020) | :doi:`doi:10.1126/scitranslmed.abe2555 <https://doi.org/10.1126/scitranslmed.abe2555>` | :link-flat:`PDF <{static}/files/papers/Popa-2020.pdf>`
 
   | 31. :link-flat-strong:`Discoveries of Exoribonuclease-Resistant Structures of Insect-Specific Flaviviruses Isolated in Zambia <{filename}/publications/papers/Discoveries_of_Exoribonuclease-Resistant_Structures_of_Insect-Specific_Flaviviruses_Isolated_in_Zambia.rst>`
   | Christida E. Wastika, Hayato Harima, Michihito Sasakai, Bernard M. Hang’ombe, Yuki Eshita, Qiu Yongjin, William W. Hall, :ul:`Michael T. Wolfinger`, Hirofumi Sawa, Yasuko Orba
@@ -177,11 +177,11 @@ Peer-reviewed journal articles and book chapters
   | Petra Pusic, Elisabeth Sonnleitner, Beatrice Krennmayr, Dorothea Agnes Heitzinger, :ul:`Michael T. Wolfinger`, Armin Resch, Udo Bläsi
   | *Front. Microbiol.* 9:2709 (2018) | :doi:`doi:10.3389/fmicb.2018.02709 <https://doi.org/10.3389/fmicb.2018.02709>` | :link-flat:`PDF <{static}/files/papers/Pusic-2018.pdf>`
 
-  | 24. :link-flat-strong:`TERribly Difficult: Searching for Telomerase RNAs in Saccharomycetes <{filename}blog/2018-07-26-TERribly-Difficult-Searching-for-Telomerase-RNAs-in-Saccharomycetes.rst>`
+  | 24. :link-flat-strong:`TERribly Difficult: Searching for Telomerase RNAs in Saccharomycetes <{filename}/blog/2018-07-26-TERribly-Difficult-Searching-for-Telomerase-RNAs-in-Saccharomycetes.rst>`
   | Maria Waldl, Bernhard C. Thiel, Roman Ochsenreiter, Alexander Holzenleiter, João Victor de Araujo Oliveira, Maria Emília M.T. Walter, :ul:`Michael T. Wolfinger`, Peter F. Stadler
   | *Genes* 9 (8), 372 (2018) | :doi:`doi:10.3390/genes9080372 <https://doi.org/10.3390/genes9080372>` | :link-flat:`PDF <{static}/files/papers/Waldl-2018.pdf>`
 
-  | 23. :link-flat-strong:`Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics <{filename}blog/2018-07-01-Efficient_Computation_of_Cotranscriptional_RNA-Ligand_Interaction_Dynamics.rst>`
+  | 23. :link-flat-strong:`Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics <{filename}/blog/2018-07-01-Efficient_Computation_of_Cotranscriptional_RNA-Ligand_Interaction_Dynamics.rst>`
   | :ul:`Michael T. Wolfinger`, Christoph Flamm, Ivo L. Hofacker
   | *Methods* 143:70–76 (2018) | :doi:`doi:10.1016/j.ymeth.2018.04.036 <https://doi.org/10.1016/j.ymeth.2018.04.036>` | :link-flat:`Preprint PDF <{static}/files/papers/Wolfinger-2018__PREPRINT.pdf>`
 
@@ -206,7 +206,7 @@ Peer-reviewed journal articles and book chapters
   | Birgit Märtens, Linlin Hou, Fabian Amman, :ul:`Michael T. Wolfinger`, Elena Evguenieva-Hackenberg, Udo Bläsi
   | *Nucleic Acids Res.* 45: 7938–49 (2017) | :doi:`doi:10.1093/nar/gkx437 <https://doi.org/10.1093/nar/gkx437>` | :link-flat:`PDF <{static}/files/papers/Maertens-2017.pdf>`
 
-  | 18. **NMR Structural Profiling of Transcriptional Intermediates Reveals Riboswitch Regulation by Metastable RNA Conformations**
+  | 18. :link-flat-strong:`NMR Structural Profiling of Transcriptional Intermediates Reveals Riboswitch Regulation by Metastable RNA Conformations <{filename}/blog/2017-01-31-NMR-Structural-Profiling-of-Transcriptional-Intermediates-Reveals-Riboswitch-Regulation-by-Metastable-RNA-Conformations.rst>`
   | Christina Helmling, Anna Wacker, :ul:`Michael T. Wolfinger`, Ivo L. Hofacker, Martin Hengsbach, Boris Fürtig, Harald Schwalbe
   | *J. Am. Chem. Soc.* 139 (7):2647–56 (2017) | :doi:`doi:10.1021/jacs.6b10429 <https://doi.org/10.1021/jacs.6b10429>`
 

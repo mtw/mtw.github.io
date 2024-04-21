@@ -3,11 +3,11 @@ In Silico Design of Ligand Triggered RNA Switches
 
 :date: 2018-07-01
 :modified: 2022-10-14
-:tags: energy landscapes; RNA kinetics; RNA design; synthetic biology
+:tags: energy landscapes; RNA kinetics; RNA design; ViennaRNA; synthetic biology
 :category: publications
 :slug: In-Silico-Design-of-Ligand-Triggered-RNA-Switches
 :author: mtw
-:summary: A step-by-step guide to designing ligand-inducible RNA switches
+:summary: In the world of synthetic biology, the design of RNA switches holds immense promise for various applications, ranging from diagnostics to therapeutics. This paper presents a comprehensive workflow for designing RNA switches that can dynamically alter their structural conformations in response to specific ligands
 :title: In silico design of ligand triggered RNA switches
 :description: Designing ligand-triggered riboswitches: Computational workflow and in silico analysis for studying the RNA folding kinetics of rationally designed sequences
 
@@ -22,6 +22,14 @@ In Silico Design of Ligand Triggered RNA Switches
 
 .. role:: doi(link)
   :class: doi
+
+The research paper outlines a step-by-step RNA design process, shedding light on each crucial stage with intricate detail. From selecting a well-characterized RNA aptamer, such as the theophylline aptamer, to delineating the structural features essential for ligand binding, every aspect of the design process is elucidated.
+
+We introduce a novel, probability-based objective function which allows researchers to quantitatively assess the performance of their designed RNA switches, making it easier to identify the most effective candidates for their specific application.
+
+Building on these advancements, we establish key criteria to ensure robust analysis of RNA switch behavior. This focus on rigorous methodology strengthens the foundation for reliable results in the design process.
+
+Finally, we present a method to visualize the kinetic properties of RNA switch sequences. This visualization tool provides valuable insights into the speed of structural changes within the switch, enabling researchers to efficiently rank and filter designed sequences and pinpoint the optimal candidates for further investigation.
 
 .. button-primary:: {static}/files/papers/Findeiss-2018__PREPRINT.pdf
 

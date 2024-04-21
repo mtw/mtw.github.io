@@ -13,12 +13,18 @@ Teaching
       .. raw:: html
 
           <span class="m-landing-text">
-          I'm passionate about sharing knowledge in the fields of bioinformatics and chemistry. Here is a compilation of the courses that I have given over the past years at renowned academic institutions like the <a  href="http://uni-freiburg.de">Albert-Ludwigs-University Freiburg</a> (UFR), <a href="http://www.univie.ac.at">University of Vienna</a> (UNIVIE), and <a href="http://fh-campuswien.ac.at">University of Applied Sciences Vienna - Fachhochschule Campus Wien</a> (FHCW).
+          I'm passionate about sharing knowledge in the fields of bioinformatics and chemistry. Here is a compilation of the courses that I have given over the past years at renowned academic institutions like the <a href="http://www.univie.ac.at">University of Vienna</a> (UNIVIE), <a  href="http://uni-freiburg.de">Albert-Ludwigs-University Freiburg</a> (UFR), and <a href="http://fh-campuswien.ac.at">University of Applied Sciences Vienna - Fachhochschule Campus Wien</a> (FHCW).
           </span>
 
 
 Lecture and course directory
 ============================
+
+`2024S`_
+--------
+
+- UNIVIE 270056 PR `Algorithms and Development of Programmes for Biological Chemistry (2024S) <https://ufind.univie.ac.at/en/course.html?lv=270056&semester=2024S>`_
+- UNIVIE 301600 UE `Bioinformatics-Practicum II (2024S) <https://ufind.univie.ac.at/en/course.html?lv=301600&semester=2024S>`_
 
 
 `2023W`_

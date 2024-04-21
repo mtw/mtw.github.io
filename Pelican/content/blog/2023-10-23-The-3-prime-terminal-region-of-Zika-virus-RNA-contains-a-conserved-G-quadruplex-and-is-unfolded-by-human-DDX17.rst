@@ -3,13 +3,13 @@ The 3′ terminal region of Zika virus RNA contains a conserved G-quadruplex and
 
 :date: 2023-10-23
 :modified: 2024-04-20
-:tags: viruses; RNA-Protein interaction; non-coding RNA;
+:tags: virus bioinformatics; RNA-Protein interaction; non-coding RNA;
 :category: publications
 :slug:
 :author: mtw
 :summary: We identified a conserved G-quadruplex structure in the Zika virus's 3' terminal region, which interacts with human DEAD-box helicases, DDX3X and DDX17. These findings suggest new potential therapeutic targets for the development of treatments against the virus
 :description: G-quadruplex in Zika 3' UTR & human helicases: A novel avenue for anti-viral efforts.
-:title: Zika Virus: Unlocking Cures with G-quadruplex Structures
+:title: Zika virus: Unlocking cures with G-quadruplex structures
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
