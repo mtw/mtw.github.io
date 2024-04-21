@@ -7,9 +7,10 @@ Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics
 :category: publications
 :slug: Efficient-Computation-of-Cotranscriptional-RNA-Ligand-Interaction-Dynamics
 :author: mtw
-:summary: Using the 2'dG riboswitch as an example this study explains how co-transcriptional folding under kinetic control can be efficiently modeled with ViennaRNA tools
+:summary: Riboswitches are RNA molecules that regulate gene expression by sensing metabolites, presenting an interesting target for synthetic biology applications. We present a computational approach based on ViennaRNA tools to dissect and model RNA-ligand interaction dynamics under kinetic control, enabling simulation of riboswitch folding
 :description: Co-transcriptional RNAfolding under kinetic control can be efficiently modeled with computational biology approaches for the 2'dG riboswitch
 :title: Co-transcriptional riboswitch modleing with ViennaRNA
+:description: Investigating the potential of riboswitches in synthetic biology with our computational framework, powered by ViennaRNA tools, enabling accurate prediction of RNA-ligand interaction dynamics and riboswitch folding simulations
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -23,7 +24,12 @@ Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics
 .. role:: doi(link)
   :class: doi
 
-This article focuses on the design rules for de-novo or re-design of riboswitches in synthetic biology applications. We present an efficient approach for the computational prediction of co-transcriptional RNA riboswitch folding in the presence of a ligand. Using the I-A 2’-deoxyguanosine (2’dG)-sensing riboswitch from Mesoplasma florum, which has recently been studied by NMR spectroscopy, as an example we show that our results are in good agreement with experimental data. Computational predictions yield substantial mechanistic insight, allowing us not only to understand natural riboswitches on a mechanistic level but also to perform systematic in silico screening and analysis of novel designs before expensive experimental validation.
+
+At the heart of the methodology lies an extension of the BARRIERS approach, partitioning the folding landscape into distinct classes of structures based on the presence or absence of ligands. By adopting an all-or-none scenario for ligand binding, we efficiently model concentration-dependent binding and unbinding events, offering a glimpse into the dynamic behavior of riboswitches under kinetic control. Through a modified version of the BARMAP pipeline, co-transcriptional folding dynamics are meticulously computed.
+
+Using the I-A 2’-deoxyguanosine (2’dG)-sensing riboswitch from Mesoplasma florum, which has recently been studied by NMR spectroscopy, as an example we show that our results are in good agreement with experimental data. Computational predictions yield substantial mechanistic insight, allowing us not only to understand natural riboswitches on a mechanistic level but also to perform systematic in silico screening and analysis of novel designs before expensive experimental validation.
+
+This technical study advances our understanding of riboswitch folding dynamics and offers a computational tool for engineering riboswitch-based gene regulation in synthetic biology applications.
 
 .. button-primary:: {static}/files/papers/Wolfinger-2018__PREPRINT.pdf
 
@@ -39,6 +45,14 @@ Citation
   | :link-flat-strong:`Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics <https://doi.org/10.1016/j.ymeth.2018.04.036>`
   | Michael T. Wolfinger, Christoph Flamm, Ivo L. Hofacker
   | *Methods* 143:70–76 (2018) | :doi:`doi: 10.1016/j.ymeth.2018.04.036 <https://doi.org/10.1016/j.ymeth.2018.04.036>` | :link-flat:`PDF <{static}/files/papers/Wolfinger-2018__PREPRINT.pdf>`
+
+See Also
+========
+
+  | :link-flat-strong:`NMR Structural Profiling of Transcriptional Intermediates Reveals Riboswitch Regulation by Metastable RNA Conformations <{filename}/blog/2017-01-31-NMR-Structural-Profiling-of-Transcriptional-Intermediates-Reveals-Riboswitch-Regulation-by-Metastable-RNA-Conformations.rst>`
+  | Christina Helmling, Anna Wacker, :ul:`Michael T. Wolfinger`, Ivo L. Hofacker, Martin Hengsbach, Boris Fürtig, Harald Schwalbe
+  | *J. Am. Chem. Soc.* 139 (7):2647–56 (2017) | :doi:`doi:10.1021/jacs.6b10429 <https://doi.org/10.1021/jacs.6b10429>`
+
 
 ..
   .. block-info:: Citations

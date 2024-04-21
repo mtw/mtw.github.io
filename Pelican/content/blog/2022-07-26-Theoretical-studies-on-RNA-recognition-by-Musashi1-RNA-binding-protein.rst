@@ -8,7 +8,7 @@ Theoretical studies on RNA recognition by Musashi 1 RNA-binding protein
 :slug: Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein
 :author: mtw
 :summary: In this contribution we study the association complexes of the RNA-binding protein Musashi-1 with different RNA motifs, using molecular dynamics simulations
-:title: Musashi-1 RNA-Binding Protein's Role in RNA Recognition
+:title: Musashi-1 RNA-binding protein's role in RNA recognition
 :description: RNA-protein complexes are crucial yet often understudied components in molecular biology. Among these, the Musashi (MSI) family of RNA-binding proteins has recently gained attention for its involvement in cell processes and its interaction with Zika virus RNA. In this study, we delve into the intricate details of how MSI1, a member of the Musashi family, binds to different RNA motifs, shedding light on the selectivity of these interactions
 
 .. role:: link-flat-strong(link)

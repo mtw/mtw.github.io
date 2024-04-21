@@ -3,12 +3,14 @@ Musashi Binding Elements in Zika Virus 3'UTR
 
 :date: 2019-05-06
 :modified: 2023-04-09
-:tags: non-coding RNA; viruses
+:tags: non-coding RNA; virus bioinformatics; ViennaRNA
 :category: publications
 :slug: Musashi-Binding-Elements-in-Zika-and-Related-Flavivirus-3UTRs-A-Comparative-Study-in-Silico
 :author: mtw
 :summary: Discovering the characteristic traits of Musashi Binding Elements (MBEs) in Flaviviruses with a Thermodynamic Model
 :description: A comparative study of Musashi Binding Elements in Flaviviruses' 3'UTR using the ViennaRNA package for thermodynamic modeling of RNA structure formation
+:title: Musashi binding elements in Zika virus 3'UTR
+
 
 
 .. role:: link-flat-strong(link)

@@ -3,11 +3,11 @@ An African Tick Flavivirus Forming an Independent Clade Exhibits Unique Exoribon
 
 :date: 2021-03-01
 :modified: 2023-11-02
-:tags: viruses; xrRNA
+:tags: novel viruses; xrRNA
 :category: publications
 :slug: Mpulungu_Virus_is_a_novel_tick_flavivirus_from_Africa
 :author: mtw
-:title: Mpulungu Virus: A Glimpse into Africa's Novel Tick-Borne Flavivirus
+:title: Mpulungu Virus: A glimpse into Africa's novel tick-borne flavivirus
 :summary: The discovery of Mpulungu virus (MPFV), a novel tick-borne flavivirus in Zambia, expands our understanding of the geographical distribution and genetic diversity of flaviviruses across Africa. This study delves into the genetic details of MPFV, suggesting its potential to infect vertebrate hosts and underscoring the importance of a One Health approach in addressing emerging infectious diseases
 :description: Discovering MPFV: A Novel Tick Flavivirus in Zambia Expands Flavivirus Knowledge and Public Health Concerns
 

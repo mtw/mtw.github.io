@@ -3,13 +3,13 @@ Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No K
 
 :date: 2019-03-25
 :modified: 2023-11-03
-:tags: viruses; One Health; xrRNA
+:tags: virus bioinformatics; One Health; xrRNA; synthetic biology
 :category: publications
 :slug: Functional_RNA_Structures_in_the_three_prime_UTR_of_Flaviviruses
 :author: mtw
-:title: Unraveling Flavivirus UTRs: xrRNAs and the Path to One Health
-:summary: This study highlights the crucial role of untranslated regions (UTRs) in flaviviruses and the discovery of exoribonuclease resistant RNAs (xrRNAs). These findings showcase the importance of virus bioinformatic studies in advancing our understanding of infectious diseases and their relevance to broader health goals like the One Health approach.
-:description: Discover the significance of UTRs in flaviviruses and their role in virus survival. Explore the One Health connection
+:title: Comparative look at flavivirus UTRs: Similarities and surprises
+:summary: This study highlights the crucial role of untranslated regions (UTRs) in flaviviruses and the discovery of exoribonuclease resistant RNAs (xrRNAs). These findings showcase the importance of virus bioinformatic studies in advancing our understanding of infectious diseases and their relevance to broader health goals
+:description: Discover the significance of UTRs in flaviviruses and their role in virus survival. Explore the synthetic biology connection
 
 
 .. role:: link-flat-strong(link)
@@ -32,7 +32,7 @@ This paper presents findings from a comparative genomics approach that aimed to 
 
 Interestingly, the study also unravels a cascade of duplicated RNA structures within insect-specific flaviviruses, highlighting the remarkable adaptability of these viruses in evolving novel xrRNAs. This evolutionary flexibility enables them to effectively evade host immune responses.
 
-This work highlights the importance of virus bioinformatic studies like ours in the pursuit of broader health goals. By gaining a deeper understanding of the molecular intricacies of viruses and their interactions with hosts, we pave the way for more effective strategies to combat infectious diseases. This knowledge contributes to the overarching One Health approach, which seeks to safeguard the health of humans, animals, and the environment as interconnected components of a shared ecosystem. As we continue to unravel the secrets of viruses through research like this, we take significant steps toward achieving the goals of One Health, ultimately promoting the well-being of all living beings on our planet.
+By emphasizing the relevance of virus bioinformatics studies in synthetic biology, this research contributes to broader health goals. A deeper comprehension of the molecular intricacies of viruses and their interactions with hosts sets the stage for more efficacious strategies to combat infectious diseases, offering promising avenues for synthetic biology interventions.
 
 .. button-primary:: {static}/files/papers/Ochsenreiter-2019.pdf
 

@@ -7,8 +7,10 @@ RNA-Protein Complex Refinement using AI Modeling and Docking
 :category: publications
 :slug:
 :author: mtw
-:summary: This study presents an efficient technique for refining protein-RNA complexes using AI-based modeling and flexible docking. The method, utilizing parallel cascade selection molecular dynamics (PaCS-MD), accelerates conformational sampling of flexible RNA regions and produces high-quality complex models. Experimental validation demonstrates its superiority over template-based modeling, suggesting its potential for constructing complexes with non-canonical RNA-protein interactions.
+:summary: This study presents an efficient technique for refining protein-RNA complexes using AI-based modeling and flexible docking. The method, utilizing parallel cascade selection molecular dynamics (PaCS-MD), accelerates conformational sampling of flexible RNA regions and produces high-quality complex models. Experimental validation demonstrates its superiority over template-based modeling, suggesting its potential for constructing complexes with non-canonical RNA-protein interactions
 :description: Enhance protein-RNA complex modeling with AI-based techniques and PaCS-MD for faster conformational sampling and improved quality
+:title: RNA-protein complex refinement using AI modeling and docking
+
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
