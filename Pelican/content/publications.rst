@@ -28,11 +28,9 @@ Submitted Manuscripts / Preprints
 
 .. container:: preprints
 
-  | 50. :link-flat-strong:`Xinyang flavivirus, identified from Haemaphysalis flava ticks in Henan province, China, exhibits transovarial transmission and is likely a tick-only flavivirus <{filename}/publications.rst>`
-  | Lan-Lan Wang, Qia Cheng, :ul:`Michael T. Wolfinger`, Natalee D. Newton, Andrii Slonchak, Alexander A. Khromykh, Tian-Yin Cheng, Rhys H. Parry
-  | *Submitted manuscript* (2023)
 
-  | 49. :link-flat-strong:`Pan-flavivirus analysis reveals that the insect-specific Kamiti River virus produces a new subgenomic RNA and high amounts of 3' UTR-derived siRNAs <https://doi.org/10.1101/2022.08.18.504478>`
+
+  | 50. :link-flat-strong:`Pan-flavivirus analysis reveals that the insect-specific Kamiti River virus produces a new subgenomic RNA and high amounts of 3' UTR-derived siRNAs <https://doi.org/10.1101/2022.08.18.504478>`
   | Benoit Besson, Gijs J. Overheul, :ul:`Michael T. Wolfinger`, Sandra Junglen, Ronald P. van Rij
   | *bioRxiv* 2022.08.18.504478 | :doi:`doi:10.1101/2022.08.18.504478 <https://doi.org/10.1101/2022.08.18.504478>` | :link-flat:`Preprint PDF <{static}/files/papers/Besson-2022__PREPRINT.pdf>`
 
@@ -46,6 +44,10 @@ Peer-reviewed journal articles and book chapters
 -------
 
 .. container:: refs-2024
+
+  | 49. :link-flat-strong:`Xinyang flavivirus, identified from Haemaphysalis flava ticks in Henan province, China, defines a basal, likely tick-only flavivirus clade <{filename}/publications.rst>`
+  | Lan-Lan Wang, Qia Cheng, Natalee D. Newton, :ul:`Michael T. Wolfinger`, Mahali S. Morgan, Andrii Slonchak, Alexander A. Khromykh, Tian-Yin Cheng, Rhys H. Parry
+  | *J. Gen. Virol.* (2024) Accepted manuscript
 
   | 48. :link-flat-strong:`A framework for automated scalable designation of viral pathogen lineages from genomic data <{filename}/blog/2024-02-12-A-framework-for-automated-scalable-designation-of-viral-pathogen-lineages-from-genomic-data.rst>`
   | Jakob McBroome, Adriano de Bernardi Schneider, Cornelius Roemer, :ul:`Michael T. Wolfinger`, Angie S. Hinrichs, Aine N. O’Toole, Chris Ruis, Yatish Turakhia, Andrew Rambaut, and Russell Corbett-Detig
