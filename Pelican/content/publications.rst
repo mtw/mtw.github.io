@@ -71,7 +71,7 @@ Peer-reviewed journal articles and book chapters
   | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke De Klerk, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
   | *Nucleic Acids Res.* 51(9):4588–4601 (2023) | :doi:`doi:10.1093/nar/gkad223 <https://doi.org/10.1093/nar/gkad223>` | :link-flat:`PDF <{static}/files/papers/Mrozowich-2023.pdf>` | :link-flat:`Supplement <{static}/files/papers/Mrozowich-2023__SUPPLEMENT.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Mrozowich-2023.pdf>`
 
-  | 44. :link-flat-strong:`Strukturierte RNAs in Viren <{filename}blog/2023-03-23-Strukturierte-RNAs-in-Viren.rst>` (in German)
+  | 44. :link-flat-strong:`Strukturierte RNAs in Viren <{filename}/blog/2023-03-23-Strukturierte-RNAs-in-Viren.rst>` (in German)
   | Roman Ochsenreiter, :ul:`Michael T. Wolfinger`
   | *Biospektrum* 29(2):156-158 (2023) | :doi:`doi:10.1007/s12268-023-1907-x <https://www.biospektrum.de/magazinartikel/strukturierte-rnas-viren>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2023.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Ochsenreiter-2023.pdf>`
 
@@ -80,15 +80,15 @@ Peer-reviewed journal articles and book chapters
 
 .. container:: refs-2022
 
-  | 43. :link-flat-strong:`Theoretical studies on RNA recognition by Musashi 1 RNA–binding protein <{filename}blog/2022-07-26-Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein.rst>`
+  | 43. :link-flat-strong:`Theoretical studies on RNA recognition by Musashi 1 RNA–binding protein <{filename}/blog/2022-07-26-Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein.rst>`
   | Nitchakan Darai, Panupong Mahalapbutr, Peter Wolschann, Vannajan Sanghiran Lee, :ul:`Michael T. Wolﬁnger`, Thanyada Rungrotmongkol
   | *Sci. Rep.* 12:12137 (2022) | :doi:`doi:10.1038/s41598-022-16252-w <https://doi.org/10.1038/s41598-022-16252-w>` | :link-flat:`PDF <{static}/files/papers/Darai-2022.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Darai-2022.pdf>`
 
-  | 42. :link-flat-strong:`Caveats to deep learning approaches to RNA secondary structure prediction <{filename}blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>`
+  | 42. :link-flat-strong:`Caveats to deep learning approaches to RNA secondary structure prediction <{filename}/blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>`
   | Christoph Flamm, Julia Wielach, :ul:`Michael T. Wolfinger`, Stefan Badelt, Ronny Lorenz, Ivo L. Hofacker
   | *Front. Bioinform.* 2:835422 (2022) | :doi:`doi:10.3389/fbinf.2022.835422 <https://doi.org/10.3389/fbinf.2022.835422>` | :link-flat:`PDF <{static}/files/papers/Flamm-2022.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Flamm-2022.pdf>`
 
-  | 41. :link-flat-strong:`Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reveals an Indirect Regulation of the MexGHI-OpmD Efflux Pump by Hfq <{filename}blog/2022-06-23-Rewiring-of-Gene-Expression-in-Pseudomonas-aeruginosa-During-Diauxic-Growth-Reveals-an-Indirect-Regulation-of-the-MexGHI-OpmD-Efflux-Pump-by-Hfq.rst>`
+  | 41. :link-flat-strong:`Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reveals an Indirect Regulation of the MexGHI-OpmD Efflux Pump by Hfq <{filename}/blog/2022-06-23-Rewiring-of-Gene-Expression-in-Pseudomonas-aeruginosa-During-Diauxic-Growth-Reveals-an-Indirect-Regulation-of-the-MexGHI-OpmD-Efflux-Pump-by-Hfq.rst>`
   | Marlena Rozner, Ella Nukarinen, :ul:`Michael T. Wolfinger`, Fabian Amman, Wolfram Weckwerth, Udo Blaesi, Elisabeth Sonnleitner
   | *Front. Microbiol.* 13:919539 (2022) | :doi:`doi:10.3389/fmicb.2022.919539 <https://doi.org/10.3389/fmicb.2022.919539>` | :link-flat:`PDF <{static}/files/papers/Rozner-2022.pdf>`
 
@@ -96,7 +96,7 @@ Peer-reviewed journal articles and book chapters
   | Lena S. Kutschera, :ul:`Michael T. Wolfinger`
   | *Virus Evol.* (8):1 veac051 (2022) | :doi:`doi:10.1093/ve/veac051 <https://doi.org/10.1093/ve/veac051>` | :link-flat:`PDF <{static}/files/papers/Kutschera-2022.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Kutschera-2022.pdf>`
 
-  | 39. :link-flat-strong:`Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Inverted Repeats <{filename}blog/2022-01-20-Biophysical-Characterisation-of-Human-LincRNA-p21-Sense-and-Antisense-Alu-Inverted-Repeats.rst>`
+  | 39. :link-flat-strong:`Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Inverted Repeats <{filename}/blog/2022-01-20-Biophysical-Characterisation-of-Human-LincRNA-p21-Sense-and-Antisense-Alu-Inverted-Repeats.rst>`
   | Michael H. D’Souza, Tyler Mrozowich, Maulik D. Badmalia, Mitchell Geeraert, Angela Frederickson, Amy Henrickson, Borries Demeler, :ul:`Michael T. Wolfinger`, and Trushar R. Patel
   | *Nucleic Acids Res.* 50(10):5881–5898 (2022) | :doi:`doi:10.1093/nar/gkac414 <https://doi.org/10.1093/nar/gkac414>` | :link-flat:`PDF <{static}/files/papers/DSouza-2022.pdf>`
 
