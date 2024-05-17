@@ -10,7 +10,7 @@ TSSAR: TSS annotation regime for dRNA-seq data
 :title: TSSAR: A new method for precise bacterial TSS annotation
 :summary: A RESTful web service and standalone application for automated de-novo annotation of bacterial transcription start sites from dRNA-seq data
 :description: TSSAR: A RESTful web service for automated de-novo annotation of bacterial transcription start sites from differential RNA-sequencing (dRNA-seq) data
-:title: TSSAR: Bacterial transcription start site annotation from dRNA-seq data
+:title: Bacterial transcription start site annotation from dRNA-seq data
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
