@@ -9,6 +9,7 @@ A framework for automated scalable designation of viral pathogen lineages from g
 :author: mtw
 :summary: Keeping pace with ever-changing viruses is a challenge. This study unveils an automated system for classifying viral lineages based on genetics, offering a faster and more objective approach
 :title: Beyond Pango: The future of virus lineage classification
+:description: Autolin: An automated system that classifies viral lineages based on genetics, offering a faster, unbiased approach to tracking rapidly evolving viruses
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong

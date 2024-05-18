@@ -9,6 +9,8 @@ Genomic Epidemiology of Superspreading Events in Austria Reveals Mutational Dyna
 :author: mtw
 :summary: This study shows how superspreading events fueled the first wave of SARS-CoV-2 in Austria. We analyzed viral mutations and traced travel patterns, revealing the impact of superspreading on the course of the outbreak
 :title: Genomic epidemiology of SARS-CoV-2 superspreading events in Austria
+:description: Discover COVID-19 superspreading dynamics in Austria's first wave. Deep viral sequencing unveils SARS-CoV-2 spread and mutational dynamics.
+
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
