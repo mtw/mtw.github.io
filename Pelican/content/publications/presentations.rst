@@ -2,7 +2,7 @@ Presentations
 #############
 :summary: Oral presentation and invited talks by Michael Thomas Wolfinger
 :title: Invited talks and oral presentation by Michael T. Wolfinger
-:description: Explore insightful invited talks and oral presentations by Michael T. Wolfinger. Gain valuable knowledge on a variety of topics from an expert in the field.
+:description: Explore invited talks and oral presentations by Michael T. Wolfinger. Gain valuable knowledge on a variety of topics from an expert in the field.
 
 :breadcrumb: / Home
 
@@ -23,10 +23,13 @@ Selected oral presentations and invited talks
 =============================================
 
 
+| :strong:`Towards xrRNA riboswitches`
+| Presented at the :raw-html:`<em>8<sup>th</sup> Computational Approaches to RNA Structure and Function meeting</em>`
+| Benasque, Spain. 2 August 2024 
+
 | :link-flat-strong:`RNA structuredness of viral genomes <{static}/files/presentations/2022-08-12-Benasque.pdf>`
 | Presented at the :raw-html:`<em>7<sup>th</sup> Computational Approaches to RNA Structure and Function meeting</em>`
 | Benasque, Spain. 12 August 2022 | :doi:`doi:10.13140/RG.2.2.18471.83365 <https://doi.org/10.13140/RG.2.2.18471.83365>`
-
 
 | :link-flat-strong:`Deciphering viral RNA structure with ViennaRNA <{static}/files/presentations/2021-11-22-EVBC.pdf>`
 | Presented at the *European Virus Bioinformatics Center 'viruses in silico' lecture series*
