@@ -30,9 +30,9 @@ Submitted Manuscripts / Preprints
 
 
 
-  | 50. :link-flat-strong:`Pan-flavivirus analysis reveals that the insect-specific Kamiti River virus produces a new subgenomic RNA and high amounts of 3' UTR-derived siRNAs <https://doi.org/10.1101/2022.08.18.504478>`
+  | 50. :link-flat-strong:`Pan-flavivirus analysis reveals sfRNA-independent, 3’UTR-biased siRNA production from an Insect-Specific Flavivirus <https://doi.org/10.1101/2022.08.18.504478>`
   | Benoit Besson, Gijs J. Overheul, :ul:`Michael T. Wolfinger`, Sandra Junglen, Ronald P. van Rij
-  | *bioRxiv* 2022.08.18.504478 | :doi:`doi:10.1101/2022.08.18.504478 <https://doi.org/10.1101/2022.08.18.504478>` | :link-flat:`Preprint PDF <{static}/files/papers/Besson-2022__PREPRINT.pdf>`
+  | *bioRxiv* 2022.08.18.504478 | :doi:`doi:10.1101/2022.08.18.504478 <https://doi.org/10.1101/2022.08.18.504478>` | :link-flat:`Preprint PDF <{static}/files/papers/Besson-2024__PREPRINT.pdf>`
 
 .. transition::  - - -
 
