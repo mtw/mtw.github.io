@@ -23,14 +23,17 @@ Papers
 
     Download :link-flat:`Michael T. Wolfinger's publication list <{static}/files/MTW_PublicationList.pdf>` as PDF.
 
-..
-    Submitted Manuscripts / Preprints
-    =================================
 
-    .. container:: preprints
+Submitted Manuscripts / Preprints
+=================================
 
+.. container:: preprints
 
-    .. transition::  - - -
+  | 51. :link-flat-strong:`RNA secondary structure ensemble mapping in a living cell identifies conserved RNA regulatory switches and thermometers <https://www.biorxiv.org/content/10.1101/2024.09.16.613214v1>`
+  | Ivana Borovska, Chundan Zhang, Edoardo Morandi, Daphne van den Homberg, :ul:`Michael T. Wolfinger`, Willem Velema, Danny Incarnato
+  | *bioRxiv* 2024.09.16.613214 (2024) | :link-flat:`Preprint PDF <{static}/files/papers/Borkovska-2024__PREPRINT.pdf>`
+
+.. transition::  - - -
 
 
 Peer-reviewed journal articles and book chapters
@@ -43,7 +46,7 @@ Peer-reviewed journal articles and book chapters
 
   | 50. :link-flat-strong:`Pan-flavivirus analysis reveals sfRNA-independent, 3’UTR-biased siRNA production from an Insect-Specific Flavivirus <https://doi.org/10.1101/2022.08.18.504478>`
   | Benoit Besson, Gijs J. Overheul, :ul:`Michael T. Wolfinger`, Sandra Junglen, Ronald P. van Rij
-  | *Manuscript accepted*  | :link-flat:`Preprint PDF <{static}/files/papers/Besson-2024__PREPRINT.pdf>`
+  | *Manuscript accepted* (2024) | :link-flat:`Preprint PDF <{static}/files/papers/Besson-2024__PREPRINT.pdf>`
 
   | 49. :link-flat-strong:`Xinyang flavivirus, from Haemaphysalis flava ticks in Henan province, China, defines a basal, likely tick-only flavivirus clade <{filename}/publications.rst>`
   | Lan-Lan Wang, Qia Cheng, Natalee D. Newton, :ul:`Michael T. Wolfinger`, Mahali S. Morgan, Andrii Slonchak, Alexander A. Khromykh, Tian-Yin Cheng, Rhys H. Parry
