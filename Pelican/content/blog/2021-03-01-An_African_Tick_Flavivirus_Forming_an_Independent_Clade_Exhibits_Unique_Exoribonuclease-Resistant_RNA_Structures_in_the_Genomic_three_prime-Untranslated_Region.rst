@@ -50,3 +50,10 @@ Citation
   | :link-flat-strong:`An African Tick Flavivirus Forming an Independent Clade Exhibits Unique Exoribonuclease-Resistant RNA Structures in the Genomic 3’-Untranslated Region <https://doi.org/10.1038/s41598-021-84365-9>`
   | Hayato Harima, Yasuko Orba, Shiho Torii, Yongjin Qiu, Masahiro Kajihara, Yoshiki Eto, Naoya Matsuta, Bernard M. Hang’ombe, Yuki Eshita, Kentaro Uemura, Keita Matsuno, Michihito Sasaki, Kentaro Yoshii, Ryo Nakao, William W. Hall, Ayato Takada, Takashi Abe, :ul:`Michael T. Wolfinger`, Martin Simuunza, Hirofumi Sawa
   | *Sci. Rep.* 11:4883 (2021) | :doi:`doi: 10.1038/s41598-021-84365-9 <https://doi.org/10.1038/s41598-021-84365-9>` | :link-flat:`PDF <{static}/files/papers/Harima-2021.pdf>`
+
+See Also
+========
+
+  | :link-flat-strong:`Xinyang flavivirus, from Haemaphysalis flava ticks in Henan province, China, defines a basal, likely tick-only flavivirus clade <{filename}/blog/2024-05-29-Xingyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade.rst>`
+  | Lan-Lan Wang, Qia Cheng, Natalee D. Newton, :ul:`Michael T. Wolfinger`, Mahali S. Morgan, Andrii Slonchak, Alexander A. Khromykh, Tian-Yin Cheng, Rhys H. Parry
+  | *J. Gen. Virol.* 105(5) (2024) | :doi:`doi:10.1099/jgv.0.001991 <https://doi.org/10.1099/jgv.0.001991>` | :link-flat:`PDF <{static}/files/papers/Wang-2024.pdf>`
