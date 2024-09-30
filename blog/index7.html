@@ -2,24 +2,24 @@
 <html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
   <meta charset="UTF-8" />
-  <title>In silico design of ligand triggered RNA switches</title>
+  <title>michaelwolfinger.com Bioinformatics</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300;400|Source+Code+Pro:200:300,400|Source+Sans+Pro:300,400" />
   <link rel="stylesheet" href="https://michaelwolfinger.com/static/m-light.compiled.min.css" />
   <link rel="stylesheet" href="https://michaelwolfinger.com/static/m-mtw.min.css" />
-  <link rel="canonical" href="https://michaelwolfinger.com/blog/2018/In-Silico-Design-of-Ligand-Triggered-RNA-Switches/" />
+  <link rel="prev" href="https://michaelwolfinger.com/blog/index6.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#EAEAEA" />
-  <meta name="description" content="Designing ligand-triggered riboswitches: Computational workflow and in silico analysis for studying the RNA folding kinetics of rationally designed sequences" />
+  <meta name="description" content="michaelwolfinger.com | virus bioinformatics" />
   <meta name="twitter:site" content="@mtwolfinger" />
   <meta name="twitter:site:id" content="15105886" />
   <meta property="og:site_name" content="michaelwolfinger.com Bioinformatics" />
-  <meta property="og:title" content="In silico design of ligand triggered RNA switches" />
-  <meta name="twitter:title" content="In silico design of ligand triggered RNA switches" />
-  <meta property="og:url" content="https://michaelwolfinger.com/blog/2018/In-Silico-Design-of-Ligand-Triggered-RNA-Switches/" />
-  <meta property="og:description" content="In the world of synthetic biology, the design of RNA switches holds immense promise for various applications, ranging from diagnostics to therapeutics. This paper presents a comprehensive workflow for designing RNA switches that can dynamically alter their structural conformations in response to specific ligands" />
-  <meta name="twitter:description" content="In the world of synthetic biology, the design of RNA switches holds immense promise for various applications, ranging from diagnostics to therapeutics. This paper presents a comprehensive workflow for designing RNA switches that can dynamically alter their structural conformations in response to specific ligands" />
+  <meta property="og:title" content="michaelwolfinger.com Bioinformatics" />
+  <meta name="twitter:title" content="michaelwolfinger.com Bioinformatics" />
+  <meta property="og:url" content="https://michaelwolfinger.com/" />
+  <meta property="og:description" content="Stuff that matters in virus bioinformatics" />
+  <meta name="twitter:description" content="Stuff that matters in virus bioinformatics" />
   <meta name="twitter:card" content="summary" />
-  <meta property="og:type" content="article" />
+  <meta property="og:type" content="website" />
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2RW3VW55N"></script>
   <script>
   window.dataLayer = window.dataLayer || [];
@@ -33,7 +33,7 @@
 <header><nav id="navigation">
   <div class="m-container">
     <div class="m-row">
-      <a href="../../../" id="m-navbar-brand" class="m-col-t-9 m-col-m-none m-left-m">Michael T. Wolfinger</a>
+      <a href="../" id="m-navbar-brand" class="m-col-t-9 m-col-m-none m-left-m">Michael T. Wolfinger</a>
       <a id="m-navbar-show" href="#navigation" title="Show navigation" class="m-col-t-3 m-hide-m m-text-right"></a>
       <a id="m-navbar-hide" href="#" title="Hide navigation" class="m-col-t-3 m-hide-m m-text-right"></a>
       <div id="m-navbar-collapse" class="m-col-t-12 m-show-m m-col-m-none m-right-m">
@@ -61,44 +61,24 @@
 <main>
 <div class="m-container">
   <div class="m-row">
-    <article class="m-col-m-10 m-nopadb">
-      <header>
-        <h1><a href="https://michaelwolfinger.com/blog/2018/In-Silico-Design-of-Ligand-Triggered-RNA-Switches/" rel="bookmark" title="Permalink to In silico design of ligand triggered RNA switches">
-          <time class="m-date" datetime="2018-07-01T00:00:00+02:00">
-            Jul <span class="m-date-day">01</span> 2018
-          </time>
-          In silico design of ligand triggered RNA switches
-        </a></h1>
-        <p>In the world of synthetic biology, the design of RNA switches holds immense promise for various applications, ranging from diagnostics to therapeutics. This paper presents a comprehensive workflow for designing RNA switches that can dynamically alter their structural conformations in response to specific ligands</p>
-      </header>
-      <div class="m-clearfix-l"></div>
-<!-- content -->
-<p>The research paper outlines a step-by-step RNA design process, shedding light on each crucial stage with intricate detail. From selecting a well-characterized RNA aptamer, such as the theophylline aptamer, to delineating the structural features essential for ligand binding, every aspect of the design process is elucidated.</p>
-<p>We introduce a novel, probability-based objective function which allows researchers to quantitatively assess the performance of their designed RNA switches, making it easier to identify the most effective candidates for their specific application.</p>
-<p>Building on these advancements, we establish key criteria to ensure robust analysis of RNA switch behavior. This focus on rigorous methodology strengthens the foundation for reliable results in the design process.</p>
-<p>Finally, we present a method to visualize the kinetic properties of RNA switch sequences. This visualization tool provides valuable insights into the speed of structural changes within the switch, enabling researchers to efficiently rank and filter designed sequences and pinpoint the optimal candidates for further investigation.</p>
-<div class="m-button m-primary">
-<a href="../../../files/papers/Findeiss-2018__PREPRINT.pdf"><span>Download PDF</span></a>
-</div>
-<aside class="m-frame">
-<h3>Abstract</h3>
-<p>This contribution sketches a work flow to design an RNA switch that is able to adapt two structural conformations in a ligand-dependent way. A well characterized RNA aptamer, i.e., knowing its Kd and adaptive structural features, is an essential ingredient of the described design process. We exemplify the principles using the well-known theophylline aptamer throughout this work. The aptamer in its ligand-binding competent structure represents one structural conformation of the switch while an alternative fold that disrupts the binding-competent structure forms the other conformation. To keep it simple we do not incorporate any regulatory mechanism to control transcription or translation. We elucidate a commonly used design process by explicitly dissecting and explaining the necessary steps in detail. We developed a novel objective function which specifies the mechanistics of this simple, ligand-triggered riboswitch and describe an extensive in silico analysis pipeline to evaluate important kinetic properties of the designed sequences. This protocol and the developed software can be easily extended or adapted to fit novel design scenarios and thus can serve as a template for future needs.</p>
-</aside>
-<section id="citation">
-<h2>Citation</h2>
-<blockquote>
-<p>
-<a class="m-flat m-text m-strong" href="https://doi.org/10.1016/j.ymeth.2018.04.003">In silico design of ligand triggered RNA switches</a><br />
-Sven Findeiß, Stefan Hammer, Michael T. Wolfinger, Felix Kühnl, Christoph Flamm, Ivo L.Hofacker<br />
-<em>Methods</em> 143:90-101 (2018) | <a class="doi" href="https://doi.org/10.1016/j.ymeth.2018.04.003">doi: 10.1016/j.ymeth.2018.04.003</a> | <a class="m-flat m-text" href="../../../files/papers/Findeiss-2018__PREPRINT.pdf">Preprint PDF</a><br />
-</p>
-</blockquote>
-</section>
-<!-- /content -->
-      <footer>
-        <p>Posted by Michael T. Wolfinger on <time datetime="2018-07-01T00:00:00+02:00">Sun 01 July 2018</time> in <a href="https://michaelwolfinger.com/blog/category/publications.html">publications</a>. <span class="m-label m-dim">updated <time datetime="2022-10-14T00:00:00+02:00">Fri 14 October 2022</time></span> Tags: <a href="https://michaelwolfinger.com/blog/tag/energy-landscapes.html">energy landscapes</a>, <a href="https://michaelwolfinger.com/blog/tag/rna-kinetics.html">RNA kinetics</a>, <a href="https://michaelwolfinger.com/blog/tag/rna-design.html">RNA design</a>, <a href="https://michaelwolfinger.com/blog/tag/viennarna.html">ViennaRNA</a>, <a href="https://michaelwolfinger.com/blog/tag/synthetic-biology.html">synthetic biology</a>.</p>
-      </footer>
-    </article>
+    <div class="m-col-m-10">
+      <article>
+        <header>
+          <h1><a href="https://michaelwolfinger.com/blog/2014/TSSAR-tss-annotation-regime-for-drna-seq-data/" rel="bookmark" title="Permalink to Bacterial transcription start site annotation from dRNA-seq data">
+            <time class="m-date" datetime="2014-04-13T00:00:00+02:00">
+              Apr <span class="m-date-day">13</span> 2014
+            </time>
+            Bacterial transcription start site annotation from dRNA-seq data
+          </a></h1>
+          <p>A RESTful web service and standalone application for automated de-novo annotation of bacterial transcription start sites from dRNA-seq data</p>
+        </header>
+        <footer>
+          <p>Posted by Michael T. Wolfinger on <time datetime="2014-04-13T00:00:00+02:00">Sun 13 April 2014</time> in <a href="https://michaelwolfinger.com/blog/category/publications.html">publications</a>. <span class="m-label m-dim">updated <time datetime="2022-09-27T00:00:00+02:00">Tue 27 September 2022</time></span> Tags: <a href="https://michaelwolfinger.com/blog/tag/ngs.html">NGS</a>, <a href="https://michaelwolfinger.com/blog/tag/bacteria.html">bacteria</a>.</p>
+        </footer>
+        <div class="m-clearfix-l"></div>
+      </article>
+      <div class="m-article-pagination"><a href="https://michaelwolfinger.com/blog/index6.html">&laquo; newer articles</a> | page 7</div>
+    </div>
     <nav class="m-navpanel m-col-m-2">
       <h3>Categories</h3>
       <ol class="m-block-bar-m">
