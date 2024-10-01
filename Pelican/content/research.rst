@@ -1,29 +1,48 @@
 Michael Thomas Wolfingers's Research
 ####################################
 :summary: Research by Michael Thomas Wolfinger
-:title: Michael Thomas Wolfingers's Research
-:description: Michael Thomas Wolfingers's Research
+:title: Research
+:description: Michael Thomas Wolfingers's research uncovers the complex interplay between RNA structure and function
 
 :breadcrumb: / Home
 
-.. container:: m-row
+.. raw:: html
 
-    .. container:: m-col-l-12 m-container-inflatable
+  <p>At the intersection of <em>synthetic biology</em> and <em>computational RNA science</em>, my research uncovers the complex interplay between <strong>RNA structure and function</strong>. Among my long-term research priorities is the study of RNA viruses, where I explore how how evolutionary pressures shape RNA structures, which in turn influence virus behavior and pathogenicity. This knowledge provides novel insight into the biological mechanisms that drive pathogen evolution and emergence. Furthermore, it serves as a valuable foundation for the <em>de-novo design</em> of innovative biological systems, such as <em>artificial riboswitches</em>.</p>
 
-        .. raw:: html
+Key Research Interests
+======================
 
-          <span class="m-landing-text">
-          <p>The study of RNA viruses holds particular significance for <em>synthetic biology</em>. My research on RNA viruses provides a deep understanding of their complex interplay between structure and function, which is crucial for designing novel biological systems. This includes:</p>
+`RNA Structure Prediction in 2D and 3D`_
+----------------------------------------
 
-          <ul>
-          <li> Predicting the intricate structures of RNA molecules in 2D and 3D</li>
-          <li> Designing molecular devices like riboswitches for synthetic biology applications</li>
-          <li> Uncovering RNA's hidden complexities through RNA structure probing</strong>
-          <li> Advancing RNA structure prediction with artificial intelligence</li>
-          <li> Investigating the fascinating world of RNA-protein interactions</li>
-          <li> Revealing co-transcriptional RNA folding dynamics</li>
-          <li> Exploring multifaceted RNA folding dynamics and energy landscapes</li>
-          </ul>
-          
-          <p>These research areas collectively fuel my commitment to advancing our understanding of <strong>RNA</strong> and its broader significance in the realm of synthetic biology, biotechnology, and healthcare.</p>
-          </span>
+Utilizing cutting-edge computational techniques to reveal the intricate folding patterns of RNA molecules, a vital step in understanding viral behavior and designing synthetic biological systems.
+
+`Synthetic Biology: De-novo Design of Functional RNAs`_
+-------------------------------------------------------
+
+Designing molecular devices, such as artificial riboswitches, that control gene expression, paving the way for advanced applications in therapeutic development and synthetic biology.
+
+`AI-Powered RNA Folding Dynamics and Inverse RNA Kinetics`_
+-----------------------------------------------------------
+
+Leveraging artificial intelligence to enhance RNA folding dynamics simulations, particularly in the context of inverse RNA folding kinetics.
+
+`RNA-Protein Interactions`_
+---------------------------
+
+Investigating how RNA interacts with proteins to inform the development of new antiviral strategies and uncovering novel regulatory mechanisms in viral replication.
+
+
+`Co-transcriptional RNA Folding`_
+---------------------------------
+
+Exploring the dynamic process of RNA folding as it is being transcribed, which is crucial for understanding viral replication and RNA function in synthetic biology.
+
+`Virus Bioinformatics`_
+-----------------------
+
+Collaborative Impact
+====================
+
+Successful research is built on the strength of a talented team, and my group's diverse skills are at the core of our progress. In addition to our internal work, I partner with a broad network of international collaborators and leading institutions, advancing breakthroughs in RNA bioinformatics, structural biology, and medical research to address critical global health challenges.
