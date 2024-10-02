@@ -6,16 +6,15 @@ Teaching
 
 :breadcrumb: / Home
 
-.. container:: m-row
+.. role:: link-flat(link)
+  :class: m-flat m-text
 
-  .. container:: m-col-l-12  m-container-inflatable
 
-      .. raw:: html
+.. contents::
+    :class: m-block m-default
 
-          <span class="m-landing-text">
-          I'm passionate about sharing knowledge in the fields of bioinformatics and chemistry. Here is a compilation of the courses that I have given over the past years at renowned academic institutions like the <a href="http://www.univie.ac.at">University of Vienna</a> (UNIVIE), <a  href="http://uni-freiburg.de">Albert-Ludwigs-University Freiburg</a> (UFR), and <a href="http://fh-campuswien.ac.at">University of Applied Sciences Vienna - Fachhochschule Campus Wien</a> (FHCW).
-          </span>
 
+I am passionate about sharing knowledge in the fields of bioinformatics and chemistry. Here is a compilation of the courses that I have given over the past years at renowned academic institutions like the :link-flat:`University of Vienna <http://www.univie.ac.at>` (UNIVIE), :link-flat:`Albert-Ludwigs-University Freiburg <http://uni-freiburg.de>` (UFR), and :link-flat:`University of Applied Sciences Vienna - Fachhochschule Campus Wien <http://fh-campuswien.ac.at>` (FHCW).
 
 Lecture and course directory
 ============================
@@ -24,7 +23,6 @@ Lecture and course directory
 --------
 
 - UNIVIE 270159 VU `Structure and Dynamics of Biopolymers (2024W) <https://ufind.univie.ac.at/en/course.html?lv=270159&semester=2024W>`_
-- UNIVIE foo bar
 
 `2024S`_
 --------

@@ -61,7 +61,9 @@ DEFAULT_PAGINATION = 10
 #M_SITE_LOGO_TEXT = 'Your Brand'
 
 M_LINKS_NAVBAR1 = [
-                    ('Research', '/research', 'research', []),
+                    ('Research', '/research', 'research', [
+                        ('Team', '/team', 'team'),
+                    ]),
                     ('Publications', '/publications', 'publications', [
                         ('Papers', '/publications', 'papers'),
                         ('Presentations', 'publications/presentations', 'publications/presentations'),
@@ -75,33 +77,33 @@ M_LINKS_NAVBAR1 = [
 #M_LINKS_NAVBAR2 = [('Blog', 'blog/', '[blog]',[])]
 
 M_LINKS_FOOTER1 = [('Home', '/'),
+                    ('Research', '/research'),
                     ('Publications', '/publications'),
                     ('Teaching', '/teaching'),
-                    ('Contact', '/contact'),
+                    ('Team', '/team'),
                     ('Blog', '/blog'),
-                        ]
+                    ]
 
 M_LINKS_FOOTER2 = [('Services', ''),
                     ('Bioinformatics Consulting', '/consulting'),
                     ('RNA Forecast', 'https://rnaforecast.com'),
-		    ('xrRNA.bio', 'https://xrrna.bio'),
-                    ('Legal Note','/legal')
-                        ]
+                    ('xrRNA.bio', 'https://xrrna.bio'),
+		            ('Contact', '/contact'),
+                    ('Legal Note','/legal'),   
+                    ]
 
 M_LINKS_FOOTER3 = [('My Profiles',''),
                     ('Google Scholar', 'https://scholar.google.at/citations?user=w0PHGnEAAAAJ&hl=en'),
                     ('Web of Science', 'https://www.webofscience.com/wos/author/record/N-9538-2014'),
                     ('ResearchGate', 'https://www.researchgate.net/profile/Michael-Wolfinger'),
                     ('Scopus', 'https://www.scopus.com/authid/detail.uri?authorId=6508361997'),
-
-                        ]
+                    ]       
 
 M_LINKS_FOOTER4 = [('Social', ''),
                     ('Linkedin', 'https://www.linkedin.com/in/michaelwolfinger/'),
                     ('Twitter', 'https://twitter.com/mtwolfinger'),
                     ('GitHub', 'https://github.com/mtw'),
                     ('ORCID', 'https://orcid.org/0000-0003-0925-5205'),
-
                     ]
 
 M_FINE_PRINT =  """
