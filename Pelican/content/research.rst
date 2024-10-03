@@ -12,41 +12,59 @@ Michael Thomas Wolfingers's Research
 .. role:: link-sup(link)
   :class: m-flat m-text m-footnote
 
-.. raw:: html
-
-  <p>At the intersection of <em>synthetic biology</em> and <em>computational RNA science</em>, my research uncovers the complex interplay between <strong>RNA structure and function</strong>. Among my long-term research priorities is the study of RNA viruses, where I explore how how evolutionary pressures shape RNA structures, which in turn influence virus behavior and pathogenicity. This knowledge provides novel insight into the biological mechanisms that drive pathogen evolution and emergence. Furthermore, it serves as a valuable foundation for the <em>de-novo design</em> of innovative biological systems, such as <em>artificial riboswitches</em>.</p>
+At the intersection of **synthetic biology** and **computational RNA science**, my research uncovers the complex relationship between *RNA structure and function*. Among my long-term research priorities is the study of RNA viruses, where I investigate how evolutionary pressures shape RNA structures, which, in turn, influence virus behavior and pathogenicity. This knowledge offers valuable insight into the biological mechanisms that drive pathogen evolution and emergence. Furthermore, it provides a robust foundation for the *de-novo design* of innovative biological systems, such as *artificial riboswitches*.
 
 Key Research Interests
 ======================
 
-`RNA Structure Prediction in 2D and 3D`_
-----------------------------------------
+.. container:: m-row
 
-Utilizing cutting-edge computational techniques to reveal the intricate folding patterns of RNA molecules, a vital step in understanding viral behavior and designing synthetic biological systems.
+  .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
 
-`Synthetic Biology: De-novo Design of Functional RNAs`_
--------------------------------------------------------
+    .. frame:: RNA Structure Prediction in 2D and 3D
 
-Designing molecular devices, such as artificial riboswitches, that control gene expression, paving the way for advanced applications in therapeutic development and synthetic biology.
+      Developing and utilizing advanced computational techniques to decode the complex folding patterns of RNA molecules, a critical step in understanding pathogen behavior and designing synthetic biological systems.
 
-`AI-Powered RNA Folding Dynamics and Inverse RNA Kinetics`_
------------------------------------------------------------
+  .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
 
-Leveraging artificial intelligence to enhance RNA folding dynamics simulations, particularly in the context of inverse RNA folding kinetics.
+    .. frame:: Synthetic Biology: De-novo RNA Design 
 
-`RNA-Protein Interactions`_
----------------------------
-
-Investigating how RNA interacts with proteins to inform the development of new antiviral strategies and uncovering novel regulatory mechanisms in viral replication.
+      Engineering synthetic, functional RNAs and externally inducible molecular devices like artificial riboswitches that regulate gene expression, opening new avenues in synthetic biology, therapeutic development & healthcare. 
 
 
-`Co-transcriptional RNA Folding`_
----------------------------------
+.. container:: m-row
 
-Exploring the dynamic process of RNA folding as it is being transcribed, which is crucial for understanding viral replication and RNA function in synthetic biology.
+  .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
 
-`Virus Bioinformatics`_
------------------------
+     .. frame:: AI-Powered RNA Folding Dynamics  
+
+      Developing cutting-edge artificial intelligence methods to address unmet challenges like inverse RNA folding kinetics, enabling the design of functional RNAs that follow a particular folding pathway.
+   
+  .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
+
+    .. frame:: RNA-Protein Interactions
+
+      Investigating and predicting how RNA interacts with proteins using advanced 2D and 3D modeling techniques to uncover novel regulatory mechanisms and inform the development of new antiviral strategies.
+
+
+.. container:: m-row
+
+  .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
+
+     .. frame:: Co-transcriptional RNA Folding Kinetics
+
+      Exploring the dynamic process of RNA folding during transcription, advancing latest simulation techniques to study the underlying folding landscape, which is crucial for designing kinetically-controlled molecular devices such as artificial riboswitches.
+
+   
+  .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
+
+    .. frame:: Virus Bioinformatics
+
+      Understanding RNA structuredness in viral genomes and characterizing novel functional RNAs, with the goal of  developing antiviral strategies that target RNA. This research also incorporates molecular epidemiology to track viral evolution and spread.
+
+
+
+
 
 Collaborative Impact
 ====================
