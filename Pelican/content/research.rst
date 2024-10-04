@@ -63,10 +63,7 @@ Key Research Interests
       Understanding RNA structuredness in viral genomes and characterizing novel functional RNAs, with the goal of  developing antiviral strategies that target RNA. This research also incorporates molecular epidemiology to track viral evolution and spread.
 
 
-
-
-
 Collaborative Impact
 ====================
 
-Successful research is built on the strength of a :link-flat:`talented team <{filename}/team.rst>`, and my group's diverse skills are at the core of our progress. In addition to our internal work, I partner with a broad network of international collaborators and leading institutions, advancing breakthroughs in RNA bioinformatics, structural biology, and medical research to address critical global health challenges.
+Successful research is built on the strength of a :link-flat:`talented team <{filename}/team.rst>`, and my group's diverse skills are at the core of our progress. In addition to our internal work, I partner with a broad network of international collaborators and leading institutions, advancing knowledge in RNA bioinformatics, structural biology, and medical research to address critical global health challenges.
