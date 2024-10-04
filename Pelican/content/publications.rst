@@ -19,9 +19,9 @@ Papers
 .. role:: doi(link)
   :class: doi
 
-.. frame::
+.. frame:: Download
 
-    Download :link-flat:`Michael T. Wolfinger's publication list <{static}/files/MTW_PublicationList.pdf>` as PDF.
+     :link-flat:`Michael T. Wolfinger's publication list <{static}/files/MTW_PublicationList.pdf>` as PDF.
 
 
 Submitted Manuscripts / Preprints
@@ -46,19 +46,19 @@ Peer-reviewed journal articles and book chapters
 
   | 50. :link-flat-strong:`Pan-flavivirus analysis reveals sfRNA-independent, 3’UTR-biased siRNA production from an Insect-Specific Flavivirus <https://doi.org/10.1101/2022.08.18.504478>`
   | Benoit Besson, Gijs J. Overheul, :ul:`Michael T. Wolfinger`, Sandra Junglen, Ronald P. van Rij
-  | *Manuscript accepted* (2024) | :link-flat:`Preprint PDF <{static}/files/papers/Besson-2024__PREPRINT.pdf>`
+  | *Manuscript accepted* (2024) | :link-flat:`Preprint PDF <{static}/files/papers/Besson-2024__PREPRINT.pdf>` | :label-flat-info:`Journal article`
 
   | 49. :link-flat-strong:`Xinyang flavivirus, from Haemaphysalis flava ticks in Henan province, China, defines a basal, likely tick-only flavivirus clade <{filename}/blog/2024-05-29-Xingyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade.rst>`
   | Lan-Lan Wang, Qia Cheng, Natalee D. Newton, :ul:`Michael T. Wolfinger`, Mahali S. Morgan, Andrii Slonchak, Alexander A. Khromykh, Tian-Yin Cheng, Rhys H. Parry
-  | *J. Gen. Virol.* 105(5) (2024) | :doi:`doi:10.1099/jgv.0.001991 <https://doi.org/10.1099/jgv.0.001991>` | :link-flat:`PDF <{static}/files/papers/Wang-2024.pdf>`
+  | *J. Gen. Virol.* 105(5) (2024) | :doi:`doi:10.1099/jgv.0.001991 <https://doi.org/10.1099/jgv.0.001991>` | :link-flat:`PDF <{static}/files/papers/Wang-2024.pdf>` | :label-flat-info:`Journal article`
 
   | 48. :link-flat-strong:`A framework for automated scalable designation of viral pathogen lineages from genomic data <{filename}/blog/2024-02-12-A-framework-for-automated-scalable-designation-of-viral-pathogen-lineages-from-genomic-data.rst>`
   | Jakob McBroome, Adriano de Bernardi Schneider, Cornelius Roemer, :ul:`Michael T. Wolfinger`, Angie S. Hinrichs, Aine N. O’Toole, Chris Ruis, Yatish Turakhia, Andrew Rambaut, and Russell Corbett-Detig
-  | *Nature Microbiol.*  9:550–560 (2024) | :doi:`doi:10.1038/s41564-023-01587-5 <https://doi.org/doi:10.1038/s41564-023-01587-5>` | :link-flat:`PDF <{static}/files/papers/McBroome-2024.pdf>`
+  | *Nature Microbiol.*  9:550–560 (2024) | :doi:`doi:10.1038/s41564-023-01587-5 <https://doi.org/doi:10.1038/s41564-023-01587-5>` | :link-flat:`PDF <{static}/files/papers/McBroome-2024.pdf>` | :label-flat-info:`Journal article`
 
   | 47. :link-flat-strong:`The 3’ terminal region of Zika virus RNA contains a conserved G-quadruplex and is unfolded by human DDX17 <{filename}/blog/2023-10-23-The-3-prime-terminal-region-of-Zika-virus-RNA-contains-a-conserved-G-quadruplex-and-is-unfolded-by-human-DDX17.rst>`
   | Danielle L. Gemmill, Corey R. Nelson, Maulik D. Badmalia, Higor S. Pereira, :ul:`Michael T. Wolfinger`, and Trushar Patel
-  | *Biochem. Cell Biol.* 102(1):96–105 (2024) | :doi:`doi:10.1139/bcb-2023-0036 <https://doi.org/10.1139/bcb-2023-0036>` | :link-flat:`PDF <{static}/files/papers/Gemmill-2024.pdf>`
+  | *Biochem. Cell Biol.* 102(1):96–105 (2024) | :doi:`doi:10.1139/bcb-2023-0036 <https://doi.org/10.1139/bcb-2023-0036>` | :link-flat:`PDF <{static}/files/papers/Gemmill-2024.pdf>` | :label-flat-info:`Journal article`
 
 
 `2023`_
@@ -236,9 +236,9 @@ Peer-reviewed journal articles and book chapters
   | Martina Sauert, :ul:`Michael T. Wolfinger`, Oliver Vesper, Christian Müller, Konstantin Byrgazov, Isabella Moll
   | *Nucleic Acids Res.* 44 (14):6660–75 (2016) | :doi:`doi:10.1093/nar/gkw115 <https://doi.org/10.1093/nar/gkw115>` | :link-flat:`PDF <{static}/files/papers/Sauert-2016.pdf>`
 
-  | 13. **Predicting RNA Structures from Sequence and Probing Data**
+  | 13. :link-flat-strong:`Predicting RNA Structures from Sequence and Probing Data <{filename}blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>`
   | Ronny Lorenz, :ul:`Michael T. Wolfinger`, Andrea Tanzer, Ivo L. Hofacker
-  | *Methods* 103:86–98 (2016) | :doi:`doi:10.1016/j.ymeth.2016.04.004 <https://doi.org/10.1016/j.ymeth.2016.04.004>` | :link-flat:`Preprint PDF <{static}/files/papers/Lorenz-2016b__PREPRINT.pdf>`
+  | *Methods* 103:86–98 (2016) | :doi:`doi:10.1016/j.ymeth.2016.04.004 <https://doi.org/10.1016/j.ymeth.2016.04.004>` | :link-flat:`PDF <{static}/files/papers/Lorenz-2016.pdf>`
 
   | 12. **RNA-Seq Based Transcriptional Profiling of Pseudomonas Aeruginosa Pa14 After Short- and Long-Term Anoxic Cultivation in Synthetic Cystic Fibrosis Sputum Medium**
   | Muralidhar Tata, :ul:`Michael T. Wolfinger`, Fabian Amman, Nicole Roschanski, Andreas Dötsch, Elisabeth Sonnleitner, Susanne Häussler, Udo Bläsi
