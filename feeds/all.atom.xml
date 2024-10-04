@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Michael T. Wolfinger</title><link href="https://michaelwolfinger.com/" rel="alternate"></link><link href="https://michaelwolfinger.com/feeds/all.atom.xml" rel="self"></link><id>https://michaelwolfinger.com/</id><updated>2024-09-30T00:00:00+02:00</updated><entry><title>Xinyang flavivirus is a novel tick-borne Orthoflavivirus</title><link href="https://michaelwolfinger.com/blog/2024/blog/2024-05-29-Xingyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade/" rel="alternate"></link><published>2024-05-29T00:00:00+02:00</published><updated>2024-09-30T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2024-05-29:/blog/2024/blog/2024-05-29-Xingyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade/</id><summary type="html">&lt;p&gt;In this publication, we describe the discovery of Xinyang flavivirus (XiFV), a novel tick-borne virus isolated from Haemaphysalis flava ticks in China. Phylogenetic analyses indicate that XiFV is closely related to other tick-only flaviviruses, such as Mpulungu flavivirus (MPFV) from Zambia and Ngoye virus (NGOV) from Senegal. This relationship places XiFV within a unique clade of orthoflaviviruses that appear to infect only ticks, without evidence of vertebrate infection&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Michael T. Wolfinger</title><link href="https://michaelwolfinger.com/" rel="alternate"></link><link href="https://michaelwolfinger.com/feeds/all.atom.xml" rel="self"></link><id>https://michaelwolfinger.com/</id><updated>2024-10-03T00:00:00+02:00</updated><entry><title>Xinyang flavivirus is a novel tick-borne Orthoflavivirus</title><link href="https://michaelwolfinger.com/blog/2024/blog/2024-05-29-Xingyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade/" rel="alternate"></link><published>2024-05-29T00:00:00+02:00</published><updated>2024-09-30T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2024-05-29:/blog/2024/blog/2024-05-29-Xingyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade/</id><summary type="html">&lt;p&gt;In this publication, we describe the discovery of Xinyang flavivirus (XiFV), a novel tick-borne virus isolated from Haemaphysalis flava ticks in China. Phylogenetic analyses indicate that XiFV is closely related to other tick-only flaviviruses, such as Mpulungu flavivirus (MPFV) from Zambia and Ngoye virus (NGOV) from Senegal. This relationship places XiFV within a unique clade of orthoflaviviruses that appear to infect only ticks, without evidence of vertebrate infection&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;One of the most significant findings in this study is the lack of a vertebrate host for XiFV. Unlike many other flaviviruses, which are often transmitted between ticks and mammals or birds, XiFV shows genetic traits that suggest it may be restricted to an arthropod-only lifecycle. This is supported by analyses of the virus's genome, which revealed similarities to insect-specific flaviviruses. Additionally, XiFV and its closest relatives lack a critical protein cleavage site found in flaviviruses that infect vertebrates, further suggesting that these viruses may remain confined to tick populations.&lt;/p&gt;
 &lt;p&gt;Structurally, XiFV shares several features with other orthoflaviviruses, including the formation of complex RNA structures in its 3′ untranslated region, which are known to play a role in viral replication and evasion of host immune defenses. These findings contribute to a growing body of evidence that there is a distinct group of tick-borne flaviviruses that may not require a vertebrate host for survival, highlighting the need for further research into their ecology and potential interactions with other pathogens.&lt;/p&gt;
 &lt;div class="m-button m-primary"&gt;
@@ -1254,7 +1254,36 @@ Christina Helmling, Anna Wacker, &lt;span class="m-text m-ul"&gt;Michael T. Wolf
 &lt;/blockquote&gt;
 &lt;/section&gt;
 &lt;/section&gt;
-</content><category term="publications"></category><category term="bacteria"></category><category term="energy landscapes"></category><category term="synthetic biology"></category></entry><entry><title>SHAPE directed RNA folding with the ViennaRNA Package</title><link href="https://michaelwolfinger.com/blog/2015/SHAPE-directed-RNA-folding/" rel="alternate"></link><published>2015-09-02T00:00:00+02:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2015-09-02:/blog/2015/SHAPE-directed-RNA-folding/</id><summary type="html">&lt;p&gt;The ViennaRNA Package supports three published approaches for SHAPE-guided RNA structure prediction. Here we evaluate and compare the methods by Deigan, Zarringhalam, and Washietl&lt;/p&gt;
+</content><category term="publications"></category><category term="bacteria"></category><category term="energy landscapes"></category><category term="synthetic biology"></category></entry><entry><title>RNA structural insights through prediction and probing</title><link href="https://michaelwolfinger.com/blog/2016/Predicting-RNA-Structures-from-Sequence-and-Probing-Data/" rel="alternate"></link><published>2016-07-01T00:00:00+02:00</published><updated>2024-10-03T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2016-07-01:/blog/2016/Predicting-RNA-Structures-from-Sequence-and-Probing-Data/</id><summary type="html">&lt;p&gt;This review explores methods for predicting RNA secondary structures by integrating reactivity information from experimental probing data. It highlights the limitations of traditional RNA structure prediction, which typically relies solely on thermodynamic models based on sequences&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;We discuss how experimental techniques for chemical and enzymatic structure probing like SHAPE or PARS can provide valuable insights into RNA structure, allowing for more accurate predictions when combined with thermodynamics-only algorithms. By incorporating probing data as soft constraints or pseudo-energies in folding algorithms, we can enhance the accuracy of RNA structure models. The paper also addresses the challenges of merging these approaches and outlines future directions for improving RNA structure determination through the integration of experimental and computational methods.&lt;/p&gt;
+&lt;div class="m-button m-primary"&gt;
+&lt;a href="https://michaelwolfinger.com/files/papers/Lorenz-2016.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;aside class="m-frame"&gt;
+&lt;h3&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;RNA secondary structures have proven essential for understanding the regulatory functions performed by RNA such as microRNAs, bacterial small RNAs, or riboswitches. This success is in part due to the availability of efficient computational methods for predicting RNA secondary structures. Recent advances focus on ealing with the inherent uncertainty of prediction by considering the ensemble of possible structures rather than the single most stable one. Moreover, the advent of high-throughput structural probinghas spurred the development of computational methods that incorporate such experimental data as auxiliary information.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;section id="citation"&gt;
+&lt;h2&gt;Citation&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a class="m-flat m-text m-strong" href="https://doi.org/10.1016/j.ymeth.2016.04.004"&gt;Predicting RNA Structures from Sequence and Probing Data&lt;/a&gt;&lt;br /&gt;
+Ronny Lorenz, &lt;span class="m-text m-ul"&gt;Michael T. Wolfinger&lt;/span&gt;, Andrea Tanzer, Ivo L. Hofacker&lt;br /&gt;
+&lt;em&gt;Methods&lt;/em&gt; 103:86–98 (2016) | &lt;a class="doi" href="https://doi.org/10.1016/j.ymeth.2016.04.004"&gt;doi:10.1016/j.ymeth.2016.04.004&lt;/a&gt; | &lt;a class="m-flat m-text" href="https://michaelwolfinger.com/files/papers/Lorenz-2016.pdf"&gt;PDF&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/section&gt;
+&lt;section id="see-also"&gt;
+&lt;h2&gt;See Also&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a class="m-flat m-text m-strong" href="https://michaelwolfinger.com/blog/2015/SHAPE-directed-RNA-folding/"&gt;SHAPE Directed RNA Folding&lt;/a&gt;&lt;br /&gt;
+Ronny Lorenz, Dominik Luntzer, Ivo L. Hofacker, Peter F. Stadler, &lt;span class="m-text m-ul"&gt;Michael T. Wolfinger&lt;/span&gt;&lt;br /&gt;
+&lt;em&gt;Bioinformatics&lt;/em&gt; 32: 145–47 (2016) | &lt;a class="doi" href="https://doi.org/10.1093/bioinformatics/btv523"&gt;doi:10.1093/bioinformatics/btv523&lt;/a&gt; | &lt;a class="m-flat m-text" href="https://michaelwolfinger.com/files/papers/Lorenz-2016a.pdf"&gt;PDF&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/section&gt;
+</content><category term="publications"></category><category term="ViennaRNA"></category><category term="RNA design"></category><category term="RNA kinetics"></category><category term="SHAPE"></category></entry><entry><title>SHAPE directed RNA folding with the ViennaRNA Package</title><link href="https://michaelwolfinger.com/blog/2015/SHAPE-directed-RNA-folding/" rel="alternate"></link><published>2015-09-02T00:00:00+02:00</published><updated>2024-10-03T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2015-09-02:/blog/2015/SHAPE-directed-RNA-folding/</id><summary type="html">&lt;p&gt;The ViennaRNA Package supports three published approaches for SHAPE-guided RNA structure prediction. Here we evaluate and compare the methods by Deigan, Zarringhalam, and Washietl&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;With the advent of efficient strategies for experimental RNA structure
 validation, especially combination of chemical probing with next-generation
 sequencing technologies, came demand to couple experimental data,
@@ -1295,6 +1324,16 @@ which a preliminary release is already freely available at
 &lt;a class="m-flat m-text m-strong" href="http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523.abstract"&gt;SHAPE directed RNA folding&lt;/a&gt;&lt;br /&gt;
 Ronny Lorenz, Dominik Luntzer, Ivo L. Hofacker, Peter F. Stadler, Michael T. Wolfinger&lt;br /&gt;
 &lt;em&gt;Bioinformatics&lt;/em&gt; 32: 145–47 (2016) | &lt;a class="doi" href="https://doi.org/10.1093/bioinformatics/btv523"&gt;doi:10.1093/bioinformatics/btv523&lt;/a&gt; | &lt;a class="m-flat m-text" href="https://michaelwolfinger.com/files/papers/Lorenz-2016a.pdf"&gt;PDF&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/section&gt;
+&lt;section id="see-also"&gt;
+&lt;h2&gt;See also&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a class="m-flat m-text m-strong" href="https://michaelwolfinger.com/blog/2016/Predicting-RNA-Structures-from-Sequence-and-Probing-Data/"&gt;Predicting RNA Structures from Sequence and Probing Data&lt;/a&gt;&lt;br /&gt;
+Ronny Lorenz, &lt;span class="m-text m-ul"&gt;Michael T. Wolfinger&lt;/span&gt;, Andrea Tanzer, Ivo L. Hofacker&lt;br /&gt;
+&lt;em&gt;Methods&lt;/em&gt; 103:86–98 (2016) | &lt;a class="doi" href="https://doi.org/10.1016/j.ymeth.2016.04.004"&gt;doi:10.1016/j.ymeth.2016.04.004&lt;/a&gt; | &lt;a class="m-flat m-text" href="https://michaelwolfinger.com/files/papers/Lorenz-2016.pdf"&gt;PDF&lt;/a&gt;&lt;br /&gt;
 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/section&gt;
