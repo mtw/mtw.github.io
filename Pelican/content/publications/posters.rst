@@ -19,20 +19,28 @@ Selected Posters
    :format: html
 
 
+.. _gcsb2024:
+
 | :link-flat-strong:`Design of synthetic riboswitches that modulate mRNA stability <{static}/files/posters/2024-09-18-GCSB.pdf>`
 | Jule Walter, Leonhard Sidl, Denis Skibinski, Anna Gerbsch, Heike Betat, Mario Mörl, :ul:`Michael T. Wolfinger`
 | Presented at the *German Conference on Synthetic Biology GCSB2024*
 | Regensburg, Germany, September 2024 | `doi:10.6084/m9.figshare.27063427 <https://doi.org/10.6084/m9.figshare.27063427>`_
+
+.. _gfv2024:
 
 | :link-flat-strong:`Exoribonuclease-resistant RNAs in tick-borne flaviviruses <{static}/files/posters/2024-03-GfV2024.pdf>`
 | Leonhard Sidl, Denis Skibinski, Hua-Ting Yao,  :ul:`Michael T. Wolfinger`
 | Presented at the *33rd Meeting of the Society for Virology GfV2024*
 | Vienna, Austria, March 2024 | `doi:10.6084/m9.figshare.25492783 <https://doi.org/10.6084/m9.figshare.25492783>`_
 
+.. _rnabiochem2023:
+
 | :link-flat-strong:`Design of synthetic riboswitches to regulate RNA stability <{static}/files/posters/2023-10-04-RNA_Biochemistry_Bonn.pdf>`
 | Jule Walter, Heike Betat, Denis Skibinski, :ul:`Michael T. Wolfinger`, Mario Mörl
 | Presented at the *RNA Biochemistry Meting 2023*
 | Bonn, Germany, September 2023
+
+.. _rnabiol2021:
 
 | :strong:`Small Regulatory RNAs contributing to antibiotic susceptibility in Pseudomonas aeruginosa`
 | Anastasia Cianciulli Sesso, :ul:`Michael T. Wolfinger`, Udo Bläsi
