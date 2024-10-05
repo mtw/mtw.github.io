@@ -136,14 +136,14 @@ AUTHOR_FEED_RSS = None
 
 TWITTER_USERNAME = 'mtwolfinger'
 
-M_BLOG_NAME = "michaelwolfinger.com Bioinformatics"
+M_BLOG_NAME = "michaelwolfinger.com Bioinformatics Blog"
 M_BLOG_URL = 'https://michaelwolfinger.com/blog'
-M_BLOG_DESCRIPTION = "michaelwolfinger.com | virus bioinformatics"
+M_BLOG_DESCRIPTION = "michaelwolfinger.com | Advancing RNA biology through the innovative application of AI and computational techniques"
 
 M_SOCIAL_TWITTER_SITE = '@mtwolfinger'
 M_SOCIAL_TWITTER_SITE_ID = 15105886
 #M_SOCIAL_IMAGE = 'https://your.brand/static/site.png'
-M_SOCIAL_BLOG_SUMMARY = "Stuff that matters in virus bioinformatics"
+M_SOCIAL_BLOG_SUMMARY = "Unlocking the future of RNA biology through innovative AI and computational techniques"
 
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
