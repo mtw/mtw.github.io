@@ -9,8 +9,8 @@ Teaching
 .. role:: link-flat(link)
   :class: m-flat m-text
 
-
-.. contents::
+..
+  .. contents::
     :class: m-block m-default
 
 
@@ -23,6 +23,7 @@ Lecture and course directory
 --------
 
 - UNIVIE 270159 VU `Structure and Dynamics of Biopolymers (2024W) <https://ufind.univie.ac.at/en/course.html?lv=270159&semester=2024W>`_
+- UNIVIE 301599 UE `Laboratory Course: Bioinformatics (2024W) <https://ufind.univie.ac.at/en/course.html?lv=301599&semester=2024W>`_
 
 `2024S`_
 --------
