@@ -4,6 +4,7 @@ Pelican/content/output/**
 Pelican/output/**
 archives/*
 authors/*
+categories/*
 output/*
 tags/*
 static/*.py
