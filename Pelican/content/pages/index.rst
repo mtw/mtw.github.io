@@ -3,7 +3,7 @@ Home
 
 :save_as: index.html
 :url:
-:cover:
+:cover: static/bg5.webp
 :hide_navbar_brand: True
 :summary: About Michael Thomas Wolfinger
 :title: Michael T. Wolfinger - RNA Bioinformatics Specialist
