@@ -26,9 +26,13 @@ Predicting RNA Structures from Sequence and Probing Data
 
 We discuss how experimental techniques for chemical and enzymatic structure probing like SHAPE or PARS can provide valuable insights into RNA structure, allowing for more accurate predictions when combined with thermodynamics-only algorithms. By incorporating probing data as soft constraints or pseudo-energies in folding algorithms, we can enhance the accuracy of RNA structure models. The paper also addresses the challenges of merging these approaches and outlines future directions for improving RNA structure determination through the integration of experimental and computational methods.
 
-.. button-primary:: {static}/files/papers/Lorenz-2016.pdf
+.. raw:: html
 
-    Download PDF
+  <object data="{static}/files/papers/Lorenz-2016.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/Lorenz-2016.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
 
 .. frame:: Abstract
 
@@ -47,18 +51,3 @@ See Also
   | :link-flat-strong:`SHAPE Directed RNA Folding <{filename}/blog/2015-09-02-SHAPE-directed-RNA-folding.rst>`
   | Ronny Lorenz, Dominik Luntzer, Ivo L. Hofacker, Peter F. Stadler, :ul:`Michael T. Wolfinger`
   | *Bioinformatics* 32: 145–47 (2016) | :doi:`doi:10.1093/bioinformatics/btv523 <https://doi.org/10.1093/bioinformatics/btv523>` | :link-flat:`PDF <{static}/files/papers/Lorenz-2016a.pdf>`
-
-..
-  .. block-info:: Citations
-
-    .. container:: m-label
-
-        .. raw:: html
-
-          <span class="__dimensions_badge_embed__" data-doi="10.1016/j.ymeth.2018.04.036" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-    .. container:: m-label
-
-        .. raw:: html
-
-          <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1016/j.ymeth.2018.04.036"></div>

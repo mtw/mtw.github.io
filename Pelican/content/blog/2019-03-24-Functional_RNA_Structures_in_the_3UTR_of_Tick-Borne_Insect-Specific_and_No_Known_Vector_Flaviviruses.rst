@@ -34,10 +34,14 @@ Interestingly, the study also unravels a cascade of duplicated RNA structures wi
 
 By emphasizing the relevance of virus bioinformatics studies in synthetic biology, this research contributes to broader health goals. A deeper comprehension of the molecular intricacies of viruses and their interactions with hosts sets the stage for more efficacious strategies to combat infectious diseases, offering promising avenues for synthetic biology interventions.
 
-.. button-primary:: {static}/files/papers/Ochsenreiter-2019.pdf
+.. raw:: html
 
-    Download PDF
-
+  <object data="{static}/files/papers/Ochsenreiter-2019.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/Ochsenreiter-2019.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
+  
 .. frame:: Abstract
 
    Untranslated regions (UTRs) of flaviviruses contain a large number of RNA structural elements involved in mediating the viral life cycle, including cyclisation, replication, and encapsidation. Here we report on a comparative genomics approach to characterize evolutionarily conserved RNAs in the 3'UTR of tick-borne, insect-specific and no-known-vector flaviviruses in silico. Our data support the wide distribution of previously experimentally characterized exoribonuclease resistant RNAs (xrRNAs) within tick-borne and no-known-vector flaviviruses and provide evidence for the existence of a cascade of duplicated RNA structures within insect-specific flaviviruses. On a broader scale, our findings indicate that viral 3'UTRs represent a flexible scaffold for evolution to come up with novel xrRNAs.

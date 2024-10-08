@@ -39,9 +39,13 @@ and wrapper routines for a set of commonly used NGS command line tools.
 
 The ViennaNGS suite is available through :link-flat:`Github <https://github.com/mtw/Bio-ViennaNGS>` and :link-flat:`CPAN <https://metacpan.org/dist/Bio-ViennaNGS>`.
 
-.. button-primary:: {static}/files/papers/Wolfinger-2015.pdf
+.. raw:: html
 
-    Download PDF
+  <object data="{static}/files/papers/Wolfinger-2015.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/Wolfinger-2015.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
 
 .. frame:: Abstract
 
