@@ -58,7 +58,7 @@ See Also
   | Ivo L. Hofacker, Christoph Flamm, Michael Heine, :ul:`Michael T. Wolfinger`, Gerik Scheuermann, Peter F. Stadler
   | *RNA* 16:1308–16 (2010) | :doi:`doi:10.1261/rna.2093310 <https://doi.org/10.1261/rna.2093310>` | :link-flat:`PDF <{static}/files/papers/Hofacker-2010.pdf>` 
 
-  | **Exploring the Lower Part of Discrete Polymer Model Energy Landscapes**
+  | :link-flat-strong:`Exploring the Lower Part of Discrete Polymer Model Energy Landscapes <{filename}/blog/2006-04-14-Exploring-the-Lower-Part-of-Discrete-Polymer-Model-Energy-Landscapes.rst>``
   | :ul:`Michael T. Wolfinger`, Sebastian Will, Ivo L. Hofacker, Rolf Backofen, Peter F. Stadler
   | *Europhys. Lett.* 74(4): 726–32 (2006) | :doi:`doi:10.1209/epl/i2005-10577-0 <https://doi.org/10.1209/epl/i2005-10577-0>` | :link-flat:`Preprint PDF <{static}/files/papers/Wolfinger-2006__PREPRINT.pdf>` 
 
