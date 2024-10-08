@@ -1031,10 +1031,11 @@ Nitchakan Darai, Kowit Hengphasatporn, Peter Wolschann, &lt;span class="m-text m
 &lt;p&gt;This paper presents findings from a comparative genomics approach that aimed to identify evolutionarily conserved RNAs within the 3' UTR of different flaviviruses. Notably, the research supports the presence of exoribonuclease resistant RNAs (xrRNAs) in tick-borne and no-known-vector flaviviruses. These xrRNAs play a pivotal role in safeguarding viral RNA from degradation, ensuring the virus's persistence within the host.&lt;/p&gt;
 &lt;p&gt;Interestingly, the study also unravels a cascade of duplicated RNA structures within insect-specific flaviviruses, highlighting the remarkable adaptability of these viruses in evolving novel xrRNAs. This evolutionary flexibility enables them to effectively evade host immune responses.&lt;/p&gt;
 &lt;p&gt;By emphasizing the relevance of virus bioinformatics studies in synthetic biology, this research contributes to broader health goals. A deeper comprehension of the molecular intricacies of viruses and their interactions with hosts sets the stage for more efficacious strategies to combat infectious diseases, offering promising avenues for synthetic biology interventions.&lt;/p&gt;
-&lt;div class="m-button m-primary"&gt;
-&lt;a href="https://michaelwolfinger.com/files/papers/Ochsenreiter-2019.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;aside class="m-frame"&gt;
+&lt;object data="https://michaelwolfinger.com/files/papers/Ochsenreiter-2019.pdf" type="application/pdf" width="100%" height="1050px"&gt;
+&lt;p&gt;Your browser does not support PDFs.
+   &lt;a href="https://michaelwolfinger.com/files/papers/Ochsenreiter-2019.pdf"&gt;Download the PDF&lt;/a&gt;
+&lt;/p&gt;
+&lt;/object&gt; &lt;br/&gt;&lt;br/&gt;&lt;aside class="m-frame"&gt;
 &lt;h3&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Untranslated regions (UTRs) of flaviviruses contain a large number of RNA structural elements involved in mediating the viral life cycle, including cyclisation, replication, and encapsidation. Here we report on a comparative genomics approach to characterize evolutionarily conserved RNAs in the 3'UTR of tick-borne, insect-specific and no-known-vector flaviviruses in silico. Our data support the wide distribution of previously experimentally characterized exoribonuclease resistant RNAs (xrRNAs) within tick-borne and no-known-vector flaviviruses and provide evidence for the existence of a cascade of duplicated RNA structures within insect-specific flaviviruses. On a broader scale, our findings indicate that viral 3'UTRs represent a flexible scaffold for evolution to come up with novel xrRNAs.&lt;/p&gt;
 &lt;/aside&gt;
@@ -1148,10 +1149,11 @@ Lena S. Kutschera, &lt;span class="m-text m-ul"&gt;Michael T. Wolfinger&lt;/span
 &lt;/blockquote&gt;
 &lt;/section&gt;
 </content><category term="publications"></category><category term="virus bioinformatics"></category><category term="One Health"></category><category term="xrRNA"></category><category term="synthetic biology"></category></entry><entry><title>Searching for Telomerase RNAs in Saccharomycetes is TERribly difficult</title><link href="https://michaelwolfinger.com/blog/2018/TERribly-Difficult-Searching-for-Telomerase-RNAs-in-Saccharomycetes/" rel="alternate"></link><published>2018-07-26T00:00:00+02:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2018-07-26:/blog/2018/TERribly-Difficult-Searching-for-Telomerase-RNAs-in-Saccharomycetes/</id><summary type="html">&lt;p&gt;Telomerase RNAs are intrinsically difficult to find by homology search methods, even within phylogenetically related groups. This study reports our efforts in annotating telomerase RNAs in the Saccharomycetacea subgroup of yeasts, using the ViennaRNA Package and related tools&lt;/p&gt;
-</summary><content type="html">&lt;div class="m-button m-primary"&gt;
-&lt;a href="https://michaelwolfinger.com/files/papers/Waldl-2018.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;aside class="m-frame"&gt;
+</summary><content type="html">&lt;object data="https://michaelwolfinger.com/files/papers/Waldl-2018.pdf" type="application/pdf" width="100%" height="1050px"&gt;
+&lt;p&gt;Your browser does not support PDFs.
+   &lt;a href="https://michaelwolfinger.com/files/papers/Waldl-2018.pdf"&gt;Download the PDF&lt;/a&gt;
+&lt;/p&gt;
+&lt;/object&gt; &lt;br/&gt;&lt;br/&gt;&lt;aside class="m-frame"&gt;
 &lt;h3&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;The telomerase RNA in yeasts is large, usually &amp;gt;1000 nt, and contains functional elements that have been extensively studied experimentally in several disparate species. Nevertheless, they are very difficult to detect by homology-based methods and so far have escaped annotation in the majority of the genomes of Saccharomycotina. This is a consequence of sequences that evolve rapidly at nucleotide level, are subject to large variations in size, and are highly plastic with respect to their secondary structures. Here, we report on a survey that was aimed at closing this gap in RNA annotation. Despite considerable efforts and the combination of a variety of different methods, it was only partially successful. While 27 new telomerase RNAs were identified, we had to restrict our efforts to the subgroup Saccharomycetacea because even this narrow subgroup was diverse enough to require different search models for different phylogenetic subgroups. More distant branches of the Saccharomycotina remain without annotated telomerase RNA.&lt;/p&gt;
 &lt;/aside&gt;
@@ -1169,10 +1171,11 @@ Maria Waldl, Bernhard C. Thiel, Roman Ochsenreiter, Alexander Holzenleiter, Joã
 </summary><content type="html">&lt;p&gt;At the heart of the methodology lies an extension of the BARRIERS approach, partitioning the folding landscape into distinct classes of structures based on the presence or absence of ligands. By adopting an all-or-none scenario for ligand binding, we efficiently model concentration-dependent binding and unbinding events, offering a glimpse into the dynamic behavior of riboswitches under kinetic control. Through a modified version of the BARMAP pipeline, co-transcriptional folding dynamics are meticulously computed.&lt;/p&gt;
 &lt;p&gt;Using the I-A 2’-deoxyguanosine (2’dG)-sensing riboswitch from Mesoplasma florum, which has recently been studied by NMR spectroscopy, as an example we show that our results are in good agreement with experimental data. Computational predictions yield substantial mechanistic insight, allowing us not only to understand natural riboswitches on a mechanistic level but also to perform systematic in silico screening and analysis of novel designs before expensive experimental validation.&lt;/p&gt;
 &lt;p&gt;This technical study advances our understanding of riboswitch folding dynamics and offers a computational tool for engineering riboswitch-based gene regulation in synthetic biology applications.&lt;/p&gt;
-&lt;div class="m-button m-primary"&gt;
-&lt;a href="https://michaelwolfinger.com/files/papers/Wolfinger-2018__PREPRINT.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;aside class="m-frame"&gt;
+&lt;object data="https://michaelwolfinger.com/files/papers/Wolfinger-2018__PREPRINT.pdf" type="application/pdf" width="100%" height="1050px"&gt;
+&lt;p&gt;Your browser does not support PDFs.
+   &lt;a href="https://michaelwolfinger.com/files/papers/Wolfinger-2018__PREPRINT.pdf"&gt;Download the PDF&lt;/a&gt;
+&lt;/p&gt;
+&lt;/object&gt; &lt;br/&gt;&lt;br/&gt;&lt;aside class="m-frame"&gt;
 &lt;h3&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Riboswitches form an abundant class of cis-regulatory RNA elements that mediate gene expression by binding a small metabolite. For synthetic biology applications, they are becoming cheap and accessible systems for selectively triggering transcription or translation of downstream genes. Many riboswitches are kinetically controlled, hence knowledge of their co-transcriptional mechanisms is essential. We present here an efficient implementation for analyzing co-transcriptional RNA-ligand interaction dynamics. This approach allows for the first time to model concentration-dependent metabolite binding/unbinding kinetics. We exemplify this novel approach by means of the recently studied I-A 2′-deoxyguanosine (2′dG)-sensing riboswitch from Mesoplasma florum.&lt;/p&gt;
 &lt;/aside&gt;
@@ -1181,7 +1184,7 @@ Maria Waldl, Bernhard C. Thiel, Roman Ochsenreiter, Alexander Holzenleiter, Joã
 &lt;blockquote&gt;
 &lt;p&gt;
 &lt;a class="m-flat m-text m-strong" href="https://doi.org/10.1016/j.ymeth.2018.04.036"&gt;Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics&lt;/a&gt;&lt;br /&gt;
-Michael T. Wolfinger, Christoph Flamm, Ivo L. Hofacker&lt;br /&gt;
+&lt;span class="m-text m-ul"&gt;Michael T. Wolfinger&lt;/span&gt;, Christoph Flamm, Ivo L. Hofacker&lt;br /&gt;
 &lt;em&gt;Methods&lt;/em&gt; 143:70–76 (2018) | &lt;a class="doi" href="https://doi.org/10.1016/j.ymeth.2018.04.036"&gt;doi: 10.1016/j.ymeth.2018.04.036&lt;/a&gt; | &lt;a class="m-flat m-text" href="https://michaelwolfinger.com/files/papers/Wolfinger-2018__PREPRINT.pdf"&gt;PDF&lt;/a&gt;&lt;br /&gt;
 &lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1201,10 +1204,11 @@ Christina Helmling, Anna Wacker, &lt;span class="m-text m-ul"&gt;Michael T. Wolf
 &lt;p&gt;We introduce a novel, probability-based objective function which allows researchers to quantitatively assess the performance of their designed RNA switches, making it easier to identify the most effective candidates for their specific application.&lt;/p&gt;
 &lt;p&gt;Building on these advancements, we establish key criteria to ensure robust analysis of RNA switch behavior. This focus on rigorous methodology strengthens the foundation for reliable results in the design process.&lt;/p&gt;
 &lt;p&gt;Finally, we present a method to visualize the kinetic properties of RNA switch sequences. This visualization tool provides valuable insights into the speed of structural changes within the switch, enabling researchers to efficiently rank and filter designed sequences and pinpoint the optimal candidates for further investigation.&lt;/p&gt;
-&lt;div class="m-button m-primary"&gt;
-&lt;a href="https://michaelwolfinger.com/files/papers/Findeiss-2018__PREPRINT.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;aside class="m-frame"&gt;
+&lt;object data="https://michaelwolfinger.com/files/papers/Findeiss-2018__PREPRINT.pdf" type="application/pdf" width="100%" height="1050px"&gt;
+&lt;p&gt;Your browser does not support PDFs.
+   &lt;a href="https://michaelwolfinger.com/files/papers/Findeiss-2018__PREPRINT.pdf"&gt;Download the PDF&lt;/a&gt;
+&lt;/p&gt;
+&lt;/object&gt; &lt;br/&gt;&lt;br/&gt;&lt;aside class="m-frame"&gt;
 &lt;h3&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;This contribution sketches a work flow to design an RNA switch that is able to adapt two structural conformations in a ligand-dependent way. A well characterized RNA aptamer, i.e., knowing its Kd and adaptive structural features, is an essential ingredient of the described design process. We exemplify the principles using the well-known theophylline aptamer throughout this work. The aptamer in its ligand-binding competent structure represents one structural conformation of the switch while an alternative fold that disrupts the binding-competent structure forms the other conformation. To keep it simple we do not incorporate any regulatory mechanism to control transcription or translation. We elucidate a commonly used design process by explicitly dissecting and explaining the necessary steps in detail. We developed a novel objective function which specifies the mechanistics of this simple, ligand-triggered riboswitch and describe an extensive in silico analysis pipeline to evaluate important kinetic properties of the designed sequences. This protocol and the developed software can be easily extended or adapted to fit novel design scenarios and thus can serve as a template for future needs.&lt;/p&gt;
 &lt;/aside&gt;
@@ -1258,10 +1262,11 @@ Christina Helmling, Anna Wacker, &lt;span class="m-text m-ul"&gt;Michael T. Wolf
 &lt;/section&gt;
 </content><category term="publications"></category><category term="bacteria"></category><category term="energy landscapes"></category><category term="synthetic biology"></category></entry><entry><title>RNA structural insights through prediction and probing</title><link href="https://michaelwolfinger.com/blog/2016/Predicting-RNA-Structures-from-Sequence-and-Probing-Data/" rel="alternate"></link><published>2016-07-01T00:00:00+02:00</published><updated>2024-10-03T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2016-07-01:/blog/2016/Predicting-RNA-Structures-from-Sequence-and-Probing-Data/</id><summary type="html">&lt;p&gt;This review explores methods for predicting RNA secondary structures by integrating reactivity information from experimental probing data. It highlights the limitations of traditional RNA structure prediction, which typically relies solely on thermodynamic models based on sequences&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;We discuss how experimental techniques for chemical and enzymatic structure probing like SHAPE or PARS can provide valuable insights into RNA structure, allowing for more accurate predictions when combined with thermodynamics-only algorithms. By incorporating probing data as soft constraints or pseudo-energies in folding algorithms, we can enhance the accuracy of RNA structure models. The paper also addresses the challenges of merging these approaches and outlines future directions for improving RNA structure determination through the integration of experimental and computational methods.&lt;/p&gt;
-&lt;div class="m-button m-primary"&gt;
-&lt;a href="https://michaelwolfinger.com/files/papers/Lorenz-2016.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;aside class="m-frame"&gt;
+&lt;object data="https://michaelwolfinger.com/files/papers/Lorenz-2016.pdf" type="application/pdf" width="100%" height="1050px"&gt;
+&lt;p&gt;Your browser does not support PDFs.
+   &lt;a href="https://michaelwolfinger.com/files/papers/Lorenz-2016.pdf"&gt;Download the PDF&lt;/a&gt;
+&lt;/p&gt;
+&lt;/object&gt; &lt;br/&gt;&lt;br/&gt;&lt;aside class="m-frame"&gt;
 &lt;h3&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;RNA secondary structures have proven essential for understanding the regulatory functions performed by RNA such as microRNAs, bacterial small RNAs, or riboswitches. This success is in part due to the availability of efficient computational methods for predicting RNA secondary structures. Recent advances focus on ealing with the inherent uncertainty of prediction by considering the ensemble of possible structures rather than the single most stable one. Moreover, the advent of high-throughput structural probinghas spurred the development of computational methods that incorporate such experimental data as auxiliary information.&lt;/p&gt;
 &lt;/aside&gt;
@@ -1299,10 +1304,11 @@ structures.&lt;/p&gt;
 &lt;p&gt;Don't miss the &lt;a href="http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523/suppl/DC1"&gt;Supplementary Data&lt;/a&gt;
 since it contains extensive coverage of the applied benchmark strategies
 and lots of background information.&lt;/p&gt;
-&lt;div class="m-button m-primary"&gt;
-&lt;a href="https://michaelwolfinger.com/files/papers/Lorenz-2016a.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;aside class="m-frame"&gt;
+&lt;object data="https://michaelwolfinger.com/files/papers/Lorenz-2016a.pdf" type="application/pdf" width="100%" height="1050px"&gt;
+&lt;p&gt;Your browser does not support PDFs.
+   &lt;a href="https://michaelwolfinger.com/files/papers/Lorenz-2016a.pdf"&gt;Download the PDF&lt;/a&gt;
+&lt;/p&gt;
+&lt;/object&gt; &lt;br/&gt;&lt;br/&gt;&lt;aside class="m-frame"&gt;
 &lt;h3&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Chemical mapping experiments allow for nucleotide resolution
 assessment of RNA structure. We demonstrate that different strategies of
@@ -1339,16 +1345,17 @@ Ronny Lorenz, &lt;span class="m-text m-ul"&gt;Michael T. Wolfinger&lt;/span&gt;,
 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/section&gt;
-</content><category term="publications"></category><category term="ViennaRNA"></category><category term="SHAPE"></category><category term="tools"></category></entry><entry><title>mRNA degradation occurs on ribosome complexes in Drosophila cells</title><link href="https://michaelwolfinger.com/blog/2015/general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells/" rel="alternate"></link><published>2015-08-12T00:00:00+02:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2015-08-12:/blog/2015/general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells/</id><summary type="html">&lt;p&gt;In this study we show that mRNA degradation occurs on ribosome complexes in Drosophila cells&lt;/p&gt;
+</content><category term="publications"></category><category term="ViennaRNA"></category><category term="SHAPE"></category><category term="new method"></category><category term="tools"></category></entry><entry><title>mRNA degradation occurs on ribosome complexes in Drosophila cells</title><link href="https://michaelwolfinger.com/blog/2015/general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells/" rel="alternate"></link><published>2015-08-12T00:00:00+02:00</published><updated>2022-10-14T00:00:00+02:00</updated><author><name>mtw</name></author><id>tag:michaelwolfinger.com,2015-08-12:/blog/2015/general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells/</id><summary type="html">&lt;p&gt;In this study we show that mRNA degradation occurs on ribosome complexes in Drosophila cells&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;mRNA degradation and translation are two processes crucial for
 posttranscriptional gene regulation. While the strong interconnection of
 mRNA degradation and translation has been noted for many years, it has led
 to the hypothesis that mRNAs could be degraded on the ribosome.&lt;/p&gt;
 &lt;p&gt;In the present study we provide evidence that the ribosome is a universal site not only for general 5' to 3' mRNA degradation in &lt;em&gt;Drosophila&lt;/em&gt; but also for the miRNA-mediated mRNA degradation pathway.&lt;/p&gt;
-&lt;div class="m-button m-primary"&gt;
-&lt;a href="https://michaelwolfinger.com/files/papers/Antic-2015.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;aside class="m-frame"&gt;
+&lt;object data="https://michaelwolfinger.com/files/papers/Antic-2015.pdf" type="application/pdf" width="100%" height="1050px"&gt;
+&lt;p&gt;Your browser does not support PDFs.
+   &lt;a href="https://michaelwolfinger.com/files/papers/Antic-2015.pdf"&gt;Download the PDF&lt;/a&gt;
+&lt;/p&gt;
+&lt;/object&gt; &lt;br/&gt;&lt;br/&gt;&lt;aside class="m-frame"&gt;
 &lt;h3&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;The translation and degradation of mRNAs are two key steps in gene
 expression that are highly regulated and targeted by many factors,
@@ -1395,10 +1402,11 @@ splice junctions from RNA-seq data, parsing and condensing sequence motif data,
 automated construction of Assembly and Track Hubs for the UCSC genome browser
 and wrapper routines for a set of commonly used NGS command line tools.&lt;/p&gt;
 &lt;p&gt;The ViennaNGS suite is available through &lt;a class="m-flat m-text" href="https://github.com/mtw/Bio-ViennaNGS"&gt;Github&lt;/a&gt; and &lt;a class="m-flat m-text" href="https://metacpan.org/dist/Bio-ViennaNGS"&gt;CPAN&lt;/a&gt;.&lt;/p&gt;
-&lt;div class="m-button m-primary"&gt;
-&lt;a href="https://michaelwolfinger.com/files/papers/Wolfinger-2015.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;aside class="m-frame"&gt;
+&lt;object data="https://michaelwolfinger.com/files/papers/Wolfinger-2015.pdf" type="application/pdf" width="100%" height="1050px"&gt;
+&lt;p&gt;Your browser does not support PDFs.
+   &lt;a href="https://michaelwolfinger.com/files/papers/Wolfinger-2015.pdf"&gt;Download the PDF&lt;/a&gt;
+&lt;/p&gt;
+&lt;/object&gt; &lt;br/&gt;&lt;br/&gt;&lt;aside class="m-frame"&gt;
 &lt;h3&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Recent achievements in next-generation sequencing (NGS) technologies lead to a high demand for reuseable software components to easily compile customized analysis workflows for big genomics data. We present ViennaNGS, an integrated collection of Perl modules focused on building efficient pipelines for NGS data processing. It comes with functionality for extracting and converting features from common NGS file formats, computation and evaluation of read mapping statistics, as well as normalization of RNA abundance. Moreover, ViennaNGS provides software components for identification and characterization of splice junctions from RNA-seq data, parsing and condensing sequence motif data, automated construction of Assembly and Track Hubs for the UCSC genome browser, as well as wrapper routines for a set of commonly used NGS command line tools.&lt;/p&gt;
 &lt;/aside&gt;
@@ -1542,10 +1550,11 @@ been a major challenge for the last years. To address this issue, we have
 developped &lt;a href="http://rna.tbi.univie.ac.at/TSSAR"&gt;TSSAR&lt;/a&gt;, a statistical method
 for analyzing dRNA-seq data, together with colleagues from the
 Bioinformatics department at the University of Leipzig.&lt;/p&gt;
-&lt;div class="m-button m-primary"&gt;
-&lt;a href="https://michaelwolfinger.com/files/papers/Amman-2014.pdf"&gt;&lt;span&gt;Download PDF&lt;/span&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;aside class="m-frame"&gt;
+&lt;object data="https://michaelwolfinger.com/files/papers/Amman-2014.pdf" type="application/pdf" width="100%" height="1050px"&gt;
+&lt;p&gt;Your browser does not support PDFs.
+   &lt;a href="https://michaelwolfinger.com/files/papers/Amman-2014.pdf"&gt;Download the PDF&lt;/a&gt;
+&lt;/p&gt;
+&lt;/object&gt; &lt;br/&gt;&lt;br/&gt;&lt;aside class="m-frame"&gt;
 &lt;h3&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Background:&lt;/strong&gt; Differential RNA sequencing dRNA-seq is a high-throughput screening
 technique designed to examine the architecture of bacterial operons in

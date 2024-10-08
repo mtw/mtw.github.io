@@ -31,9 +31,13 @@ Using the I-A 2’-deoxyguanosine (2’dG)-sensing riboswitch from Mesoplasma fl
 
 This technical study advances our understanding of riboswitch folding dynamics and offers a computational tool for engineering riboswitch-based gene regulation in synthetic biology applications.
 
-.. button-primary:: {static}/files/papers/Wolfinger-2018__PREPRINT.pdf
+.. raw:: html
 
-    Download PDF
+  <object data="{static}/files/papers/Wolfinger-2018__PREPRINT.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/Wolfinger-2018__PREPRINT.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
 
 .. frame:: Abstract
 
@@ -43,7 +47,7 @@ Citation
 ========
 
   | :link-flat-strong:`Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics <https://doi.org/10.1016/j.ymeth.2018.04.036>`
-  | Michael T. Wolfinger, Christoph Flamm, Ivo L. Hofacker
+  | :ul:`Michael T. Wolfinger`, Christoph Flamm, Ivo L. Hofacker
   | *Methods* 143:70–76 (2018) | :doi:`doi: 10.1016/j.ymeth.2018.04.036 <https://doi.org/10.1016/j.ymeth.2018.04.036>` | :link-flat:`PDF <{static}/files/papers/Wolfinger-2018__PREPRINT.pdf>`
 
 See Also
@@ -53,18 +57,3 @@ See Also
   | Christina Helmling, Anna Wacker, :ul:`Michael T. Wolfinger`, Ivo L. Hofacker, Martin Hengsbach, Boris Fürtig, Harald Schwalbe
   | *J. Am. Chem. Soc.* 139 (7):2647–56 (2017) | :doi:`doi:10.1021/jacs.6b10429 <https://doi.org/10.1021/jacs.6b10429>`
 
-
-..
-  .. block-info:: Citations
-
-    .. container:: m-label
-
-        .. raw:: html
-
-          <span class="__dimensions_badge_embed__" data-doi="10.1016/j.ymeth.2018.04.036" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-    .. container:: m-label
-
-        .. raw:: html
-
-          <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1016/j.ymeth.2018.04.036"></div>

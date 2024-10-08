@@ -30,9 +30,13 @@ developped `TSSAR <http://rna.tbi.univie.ac.at/TSSAR>`_, a statistical method
 for analyzing dRNA-seq data, together with colleagues from the
 Bioinformatics department at the University of Leipzig.
 
-.. button-primary:: {static}/files/papers/Amman-2014.pdf
+.. raw:: html
 
-    Download PDF
+  <object data="{static}/files/papers/Amman-2014.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/Amman-2014.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
 
 .. frame:: Abstract
 
@@ -81,18 +85,3 @@ Citation
   | :link-flat-strong:`TSSAR: TSS annotation regime for dRNA-seq data <http://www.biomedcentral.com/1471-2105/15/89>`
   | Fabian Amman, Michael T. Wolfinger, Ronny Lorenz, Ivo L. Hofacker, Peter F. Stadler, Sven Findeiß
   | *BMC Bioinformatics* 15:89 (2014) | :doi:`doi: 10.1186/1471-2105-15-89 <https://doi.org/10.1186/1471-2105-15-89>` | :link-flat:`PDF <{static}/files/papers/Amman-2014.pdf>`
-
-..
-  .. block-info:: Citations
-
-    .. container:: m-label
-
-        .. raw:: html
-
-          <span class="__dimensions_badge_embed__" data-doi="10.1186/1471-2105-15-89" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-    .. container:: m-label
-
-        .. raw:: html
-
-          <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1186/1471-2105-15-89"></div>

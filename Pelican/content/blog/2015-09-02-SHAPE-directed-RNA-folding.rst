@@ -3,7 +3,7 @@ SHAPE directed RNA folding
 
 :date: 2015-09-02
 :modified: 2024-10-03
-:tags: ViennaRNA; SHAPE; tools
+:tags: ViennaRNA; SHAPE; new method; tools
 :category: publications
 :slug: SHAPE-directed-RNA-folding
 :author: mtw
@@ -41,9 +41,13 @@ Don't miss the `Supplementary Data <http://bioinformatics.oxfordjournals.org/con
 since it contains extensive coverage of the applied benchmark strategies
 and lots of background information.
 
-.. button-primary:: {static}/files/papers/Lorenz-2016a.pdf
+.. raw:: html
 
-    Download PDF
+  <object data="{static}/files/papers/Lorenz-2016a.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/Lorenz-2016a.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
 
 .. frame:: Abstract
 

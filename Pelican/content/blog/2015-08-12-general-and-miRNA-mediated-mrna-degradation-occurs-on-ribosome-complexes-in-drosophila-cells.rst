@@ -30,11 +30,13 @@ to the hypothesis that mRNAs could be degraded on the ribosome.
 
 In the present study we provide evidence that the ribosome is a universal site not only for general 5' to 3' mRNA degradation in *Drosophila* but also for the miRNA-mediated mRNA degradation pathway.
 
+.. raw:: html
 
-.. button-primary:: {static}/files/papers/Antic-2015.pdf
-
-    Download PDF
-
+  <object data="{static}/files/papers/Antic-2015.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/Antic-2015.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
 
 .. frame:: Abstract
 
@@ -65,18 +67,3 @@ Citation
   | :link-flat-strong:`General and miRNA-mediated mRNA degradation occurs on ribosome complexes in Drosophila cells <http://mcb.asm.org/content/35/13/2309>`
   | Sanja Antic, Michael T. Wolfinger, Anna Skucha, Stefanie Hosiner and Silke Dorner
   | *Mol. Cell. Biol.* 35(13), 2309-2320 (2015) | :doi:`doi:10.1128/MCB.01346-14 <https://doi.org/10.1128/MCB.01346-14>` | :link-flat:`PDF <{static}/files/papers/Antic-2015.pdf>`
-
-..
-  .. block-info:: Citations
-
-      .. container:: m-label
-
-        .. raw:: html
-
-          <span class="__dimensions_badge_embed__" data-doi="10.1128/MCB.01346-14" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-      .. container:: m-label
-
-        .. raw:: html
-
-          <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1128/MCB.01346-14"></div>
