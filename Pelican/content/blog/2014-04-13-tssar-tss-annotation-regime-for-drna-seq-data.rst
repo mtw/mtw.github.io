@@ -3,7 +3,7 @@ TSSAR: TSS annotation regime for dRNA-seq data
 
 :date: 2014-04-13
 :modified: 2022-09-27
-:tags: NGS; bacteria
+:tags: NGS; bacteria; new method; tools
 :category: publications
 :slug: TSSAR-tss-annotation-regime-for-drna-seq-data
 :author: mtw

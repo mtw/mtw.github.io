@@ -3,7 +3,7 @@ ViennaNGS: A toolbox for building efficient next-generation sequencing analysis 
 
 :date: 2015-03-02
 :modified: 2022-10-14
-:tags: NGS
+:tags: NGS; tools
 :category: publications
 :slug: ViennaNGS-a-toolbox-for-building-efficient-next-generation-sequencing-analysis-pipelines
 :author: mtw
