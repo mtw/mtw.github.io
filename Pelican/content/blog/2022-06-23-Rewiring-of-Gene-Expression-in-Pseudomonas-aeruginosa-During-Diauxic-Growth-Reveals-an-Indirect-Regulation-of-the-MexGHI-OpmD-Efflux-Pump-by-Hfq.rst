@@ -25,9 +25,13 @@ This study on Pseudomonas aeruginosa underscores the interplay between microbial
 .. role:: doi(link)
   :class: doi
 
-.. button-primary:: {static}/files/papers/Rozner-2022.pdf
+.. raw:: html
 
-    Download PDF
+  <object data="{static}/files/papers/Rozner-2022.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/Rozner-2022.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
 
 .. frame:: Abstract
 
@@ -39,18 +43,3 @@ Citation
   | :link-flat-strong:`Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reveals an Indirect Regulation of the MexGHI-OpmD Efflux Pump by Hfq <https://doi.org/10.3389/fmicb.2022.919539>`
   | Marlena Rozner, Ella Nukarinen, :ul:`Michael T. Wolfinger`, Fabian Amman, Wolfram Weckwerth, Udo Blaesi, Elisabeth Sonnleitner
   | *Front. Microbiol.* (2022) 13:919539 | :doi:`doi:10.3389/fmicb.2022.919539 <https://doi.org/10.3389/fmicb.2022.919539>` | :link-flat:`PDF <{static}/files/papers/Rozner-2022.pdf>`
-
-..
-  .. block-info:: Citations
-
-      .. container:: m-label
-
-          .. raw:: html
-
-            <span class="__dimensions_badge_embed__" data-doi="10.3389/fmicb.2022.919539" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-      .. container:: m-label
-
-          .. raw:: html
-
-            <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.3389/fmicb.2022.919539"></div>

@@ -27,10 +27,13 @@ Musashi Binding Elements in Zika Virus 3'UTR
 
 In this study, we investigated how flaviviruses can cause congenital neurological disease by examining the accessibility of a specific binding motif for RNA-binding proteins from the Musashi family in the 3'UTR of flaviviruses. Through evaluating the affinity of different viruses to form RNA-protein complexes, we aimed to understand the role of Musashi proteins in promoting Zika virus replication and inducing congenital neurotropism. Using a well-established biophysical model of RNA structure formation, we conducted computational analysis of the thermodynamic properties of Musashi binding elements. Our findings support the hypothesis that suggest Zika virus (ZIKV) is not the only flavivirus capable of causing severe neuropathology through interaction with the Musashi proteins.
 
-.. button-primary:: {static}/files/papers/deBernardiSchneider-2019a.pdf
+.. raw:: html
 
-
-    Download PDF
+  <object data="{static}/files/papers/deBernardiSchneider-2019a.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/deBernardiSchneider-2019a.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
 
 .. frame:: Abstract
 

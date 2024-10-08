@@ -31,9 +31,13 @@ In this mini-review, we delve into the biophysical principles underlying exoribo
 This work relevant for a One Health systemic view as it underscores the interconnectedness of human, animal, and environmental health. The study delves into the conservation of RNA structures in viruses like dengue and Zika, which are transmitted by mosquitoes. By exploring the potential of xrRNAs as therapeutic targets, the research paves the way for the development of novel, broad-spectrum antiviral strategies that can address disease control and prevention across multiple levels of the ecosystem. Ultimately, this aligns with the One Health approach by acknowledging and addressing the intricate relationships between different facets of health within our ecosystem.
 
 
-.. button-primary:: {static}/files/papers/Ochsenreiter-2023.pdf
+.. raw:: html
 
-    Download PDF
+  <object data="{static}/files/papers/Ochsenreiter-2023.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/Ochsenreiter-2023.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
 
 .. frame:: Abstract
 

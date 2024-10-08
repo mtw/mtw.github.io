@@ -3,7 +3,7 @@ Pervasive non-coding RNA structure conservation and molecular epidemiology of TB
 
 :date: 2021-12-17
 :modified: 2022-10-29
-:tags: virus bioinformatics; non-coding RNA; One Health; xrRNA; molecular epidemiology; synthetic biology
+:tags: virus bioinformatics; non-coding RNA; One Health; xrRNA; molecular epidemiology
 :category: publications
 :slug: Evolutionary-traits-of-Tick-borne-encephalitis-virus-Pervasive-non-coding-RNA-structure-conservation-and-molecular-epidemiology
 :author: mtw
@@ -31,10 +31,13 @@ From a One Health perspective, the findings of the study underscore the importan
 .. role:: doi(link)
   :class: doi
 
-.. button-primary:: {static}/files/papers/Kutschera-2022.pdf
+.. raw:: html
 
-    Download PDF
-
+  <object data="{static}/files/papers/Kutschera-2022.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/Kutschera-2022.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
 
 
 .. frame:: Abstract

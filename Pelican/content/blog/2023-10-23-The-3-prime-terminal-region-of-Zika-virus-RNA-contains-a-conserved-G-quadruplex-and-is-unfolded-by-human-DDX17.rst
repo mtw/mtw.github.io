@@ -57,9 +57,13 @@ In the absence of ZIKV treatments or vaccines, our research sheds light on the p
 
 Stay tuned for more insights into the world of RNA structures and their roles in viral replication, as we continue our quest to unveil novel therapeutic possibilities against Zika virus.
 
-.. button-primary:: {static}/files/papers/Gemmill-2024.pdf
+.. raw:: html
 
-    Download PDF
+  <object data="{static}/files/papers/Gemmill-2024.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/Gemmill-2024.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
 
 .. frame:: Abstract
 

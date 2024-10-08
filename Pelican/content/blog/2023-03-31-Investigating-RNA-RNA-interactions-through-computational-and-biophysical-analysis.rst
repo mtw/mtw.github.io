@@ -28,10 +28,13 @@ Our computational analysis supported a kinetic favorability of the cyclization s
 
 The study's insights into RNA-RNA interactions in Japanese encephalitis virus align with the One Health approach, highlighting the potential for antiviral therapies to benefit both human and animal health while considering the broader ecosystem.
 
-.. button-primary:: {static}/files/papers/Mrozowich-2023.pdf
+.. raw:: html
 
-
-    Download PDF
+  <object data="{static}/files/papers/Mrozowich-2023.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/Mrozowich-2023.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
 
 .. frame:: Abstract
 
