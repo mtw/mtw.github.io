@@ -31,10 +31,13 @@ This publication questions the current nomenclature of CHIKV lineages, and sugge
 
 This research exemplifies the importance of a holistic, interdisciplinary approach in understanding and combating infectious diseases such as CHIKV. The findings, which combine molecular epidemiology and RNA structure prediction, not only pave the way for better diagnostic and treatment methods but also underscore the necessity of a timely response to prevent outbreaks. The One Health approach is particularly pertinent here. By adopting a unified perspective, scientists, healthcare professionals, and policymakers can work together to address the multifaceted challenges posed by CHIKV and similar infectious diseases, ultimately contributing to the well-being of our global ecosystem.
 
-.. button-primary:: {static}/files/papers/Spicher-2021.pdf
+.. raw:: html
 
-    Download PDF
-
+  <object data="{static}/files/papers/Spicher-2021.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/Spicher-2021.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
 
 .. frame:: Abstract
 

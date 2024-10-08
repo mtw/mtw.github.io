@@ -32,11 +32,13 @@ The study identified two exoribonuclease-resistant RNA (xrRNA) structures in the
 
 The discovery of MPFV in Zambia and its potential relation to Ngoye virus in Senegal points towards a need for comprehensive surveillance of flaviviruses across diverse ecosystems. By identifying and understanding the genetic makeup and host range of such viruses, preventive measures can be implemented to mitigate potential public health risks. This study highlights the necessity of integrated efforts and knowledge sharing among health professionals, veterinarians, and environmental scientists to enhance our preparedness and response to emerging infectious diseases. In light of these findings, employing the One Health approach becomes imperative to comprehensively address and understand the complexities and potential implications of emerging flaviviruses like MPFV.
 
+.. raw:: html
 
-
-.. button-primary:: {static}/files/papers/Harima-2021.pdf
-
-    Download PDF
+  <object data="{static}/files/papers/Harima-2021.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/Harima-2021.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
 
 .. frame:: Abstract
 

@@ -30,11 +30,13 @@ Mechanistically, these are regulated by evolutionarily conserved RNA elements in
 
 To get a better picture and understanding of RNA structure conservation in MBFVs, we report here the results of a comparative genomics screen in the 3'UTR of all known Mosquito-Borne Flaviviruses.
 
+.. raw:: html
 
-.. button-primary:: {static}/files/papers/Wolfinger-2021.pdf
-
-    Download Preprint PDF
-
+  <object data="{static}/files/papers/Wolfinger-2021.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/Wolfinger-2021.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
 
 .. frame:: Abstract
 

@@ -29,9 +29,14 @@ Read the full story in our article 'Caveats to Deep Learning Approaches to RNA S
 .. role:: doi(link)
   :class: doi
 
-.. button-primary:: {static}/files/papers/Flamm-2022.pdf
+.. raw:: html
 
-    Download PDF
+  <object data="{static}/files/papers/Flamm-2022.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/Flamm-2022.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
+
 
 .. frame:: Abstract
 

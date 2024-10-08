@@ -52,9 +52,13 @@ Future Prospects
 The study provides a compelling demonstration of constructing plausible protein-RNA complexes using a combination of AI-based modeling and flexible docking. This research takes us one step closer to deciphering the complex interactions between proteins and RNA, paving the way for advancements in personalized medicine and drug discovery.
 
 
-.. button-primary:: {static}/files/papers/Darai-2023.pdf
+.. raw:: html
 
-    Download PDF
+  <object data="{static}/files/papers/Darai-2023.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/Darai-2023.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
 
 .. frame:: Abstract
 
