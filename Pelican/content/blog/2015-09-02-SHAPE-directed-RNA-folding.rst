@@ -3,8 +3,8 @@ SHAPE directed RNA folding
 
 :date: 2015-09-02
 :modified: 2024-10-03
-:tags: ViennaRNA; SHAPE
-:category: publications; tools
+:tags: ViennaRNA; SHAPE; tools
+:category: publications
 :slug: SHAPE-directed-RNA-folding
 :author: mtw
 :summary: The ViennaRNA Package supports three published approaches for SHAPE-guided RNA structure prediction. Here we evaluate and compare the methods by Deigan, Zarringhalam, and Washietl
