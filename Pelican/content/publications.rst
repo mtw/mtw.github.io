@@ -320,7 +320,7 @@ Peer-reviewed journal articles and book chapters
 
 .. container:: refs-2002
 
-  | 1. **Barrier Trees of Degenerate Landscapes**
+  | 1. :link-flat-strong:`Barrier Trees of Degenerate Landscapes <{filename}/blog/2002-07-01-Barrier_Trees_of_Degenerate_Landscapes.rst>`
   | Christoph Flamm, Ivo L. Hofacker, Peter F. Stadler, :ul:`Michael T. Wolfinger`
   | *Z. Phys. Chem.* 216: 155–73 (2002) | :doi:`doi:10.1524/zpch.2002.216.2.155 <https://doi.org/10.1524/zpch.2002.216.2.155>` | :link-flat:`Preprint PDF <{static}/files/papers/Flamm-2002__PRPERINT.pdf>` | :label-flat-info:`Journal article`
 

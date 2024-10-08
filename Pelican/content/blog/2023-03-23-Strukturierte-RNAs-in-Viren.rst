@@ -3,7 +3,7 @@ Strukturierte RNAs in Viren (in German)
 
 :date: 2023-03-23
 :modified: 2023-04-07
-:tags: non-coding RNA; virus bioinformatics; RNA design; xrRNA; synthetic biology
+:tags: virus bioinformatics; RNA design; xrRNA; synthetic biology
 :category: publications
 :slug: Strukturierte-RNAs-in-Viren
 :author: mtw

@@ -3,11 +3,11 @@ Memory-efficient-RNA-energy-landscape-exploration
 
 :date: 2014-06-12
 :modified: 2022-10-14
-:tags: energy landscapes
+:tags: energy landscapes; new method; tools
 :category: publications
 :slug: Memory-efficient-RNA-energy-landscape-exploration
 :author: mtw
-:summary: In this study we propose a memory-efficient approach for local flooding of the lower portion of an RNA folding landscape
+:summary: Discrete energy landscapes provide a valuable means for analyzing non-equilibrium properties of biopolymers. In this study we propose a memory-efficient approach for local flooding of the lower portion of an RNA folding landscape
 :description: A memory efficient approach for exploring the low-energy portion of RNA energy landscapes at the level of secondary structures
 :title: How to efficiently explore the lower portion of RNA energy landscapes
 
@@ -23,26 +23,11 @@ Memory-efficient-RNA-energy-landscape-exploration
 .. role:: doi(link)
   :class: doi
 
-Discrete energy landscapes provide a valuable means for analyzing
-non-equilibrium properties of biopolymers. RNA folding dynamics, for
-example, can be described by a continuous-time Markov process at the level
-of local minima, their corresponding basins of attraction and saddle points
-connecting them.
+The dynamic process of RNA folding can be modeled as a continuous-time Markov process, focusing on local minima, their associated basins of attraction, and the saddle points that connect them.
 
-A connected set of structures, often denoted *state space* is required for
-energy landscape construction. While complete suboptimal folding of RNA is
-practically impossible for chain lengths above 100nt, alternative
-strategies to enumerate the lower part of the energy landscape emerged over
-the last years.
+To construct an energy landscape, a connected set of RNA structures, commonly referred to as the state space, is required, along with a neighborhood relation between these states and an assigned energy or fitness value. Although obtaining the complete suboptimal folding for RNA sequences longer than 100 nucleotides is computationally impractical, various strategies have been developed to explore the lower-energy portion of the landscape.
 
-We have recently extended previous work on global flooding by a local
-flooding approach that minimizes memory consumption and published the
-method in *Bioinformatics*.
-
-.. button-primary:: {static}/files/papers/Mann-2014.pdf
-
-    Download PDF
-
+In this work, we introduce a local variant of our previous global flooding approach to energy landscapes. This localized flooding technique significantly reduces memory usage, allowing for the analysis of energy landscapes for longer RNA sequences.
 
 .. frame:: Abstract
 
@@ -61,28 +46,28 @@ method in *Bioinformatics*.
     models by comparing two barrier-based approaches, and perform a detailed
     investigation of gradient basins in RNA energy landscapes.
 
-    **Availability and implementation:** Source code is part of the C++ Energy
-    Landscape Library available at http://www.bioinf.uni-freiburg.de/Software/.
+    **Availability and implementation:** Source code is part of the :link:`C++ Energy Landscape Library <http://www.bioinf.uni-freiburg.de/Software/Libraries/index.html?de#lib_ell>`.
 
+.. raw:: html
+
+  <object data="{static}/files/papers/Mann-2014.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/Mann-2014.pdf">Download the PDF</a>
+  </p>
+  </object>
+
+.. transition:: ~ ~ ~
 
 Citation
 ========
 
   | :link-flat-strong:`Memory-efficient RNA energy landscape exploration <http://bioinformatics.oxfordjournals.org/content/30/18/2584>`
   | Martin Mann, Marcel Kucharík, Christoph Flamm, Michael T. Wolfinger
-  | *Bioinformatics* 30(18):2584-2591 (2014) | :doi:`doi: 10.1093/bioinformatics/btu337 <https://doi.org/10.1093/bioinformatics/btu337>` | :link-flat:`PDF <{static}/files/papers/Mann-2014.pdf>`
+  | *Bioinformatics* 30(18):2584-2591 (2014) | :doi:`doi: 10.1093/bioinformatics/btu337 <https://doi.org/10.1093/bioinformatics/btu337>` | :link-flat:`PDF <{static}/files/papers/Mann-2014.pdf>` 
 
-..
-  .. block-info:: Citations
+See Also
+========
 
-    .. container:: m-label
-
-        .. raw:: html
-
-          <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btu337" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-    .. container:: m-label
-
-        .. raw:: html
-
-          <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1093/bioinformatics/btu337"></div>
+  | :link-flat-strong:`Barrier Trees of Degenerate Landscapes <{filename}/blog/2002-07-01-Barrier_Trees_of_Degenerate_Landscapes.rst>`
+  | Christoph Flamm, Ivo L. Hofacker, Peter F. Stadler, :ul:`Michael T. Wolfinger`
+  | *Z. Phys. Chem.* 216: 155–73 (2002) | :doi:`doi:10.1524/zpch.2002.216.2.155 <https://doi.org/10.1524/zpch.2002.216.2.155>` | :link-flat:`Preprint PDF <{static}/files/papers/Flamm-2002__PRPERINT.pdf>` 
