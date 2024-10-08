@@ -29,6 +29,14 @@ To construct an energy landscape, a connected set of RNA structures, commonly re
 
 In this work, we introduce a local variant of our previous global flooding approach to energy landscapes. This localized flooding technique significantly reduces memory usage, allowing for the analysis of energy landscapes for longer RNA sequences.
 
+.. raw:: html
+
+  <object data="{static}/files/papers/Mann-2014.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/Mann-2014.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
+
 .. frame:: Abstract
 
     **Motivation:** Energy landscapes provide a valuable means for studying the
@@ -47,16 +55,6 @@ In this work, we introduce a local variant of our previous global flooding appro
     investigation of gradient basins in RNA energy landscapes.
 
     **Availability and implementation:** Source code is part of the :link:`C++ Energy Landscape Library <http://www.bioinf.uni-freiburg.de/Software/Libraries/index.html?de#lib_ell>`.
-
-.. raw:: html
-
-  <object data="{static}/files/papers/Mann-2014.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs. 
-     <a href="{static}/files/papers/Mann-2014.pdf">Download the PDF</a>
-  </p>
-  </object>
-
-.. transition:: ~ ~ ~
 
 Citation
 ========

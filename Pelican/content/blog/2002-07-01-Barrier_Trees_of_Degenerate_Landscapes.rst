@@ -27,19 +27,18 @@ Barrier Trees of Degenerate Landscapes
 
 The decomposition of non-degenerate landscapes into basins surrounding local minima connected by saddle points is straightforward. This paper extends the concept to degenerate landscapes, where the situation is more complex. We present the program 'barriers' that efficiently computes barrier trees for degenerate landscapes. This approach involves discretizing the search space, and constructing the barrier tree from i) a a set of states, ii) a neighborhood relation between states, and iii) an energy of fitness function assigned to each state. The resulting topology is visualized as a tree, and made accessible for further processing.
 
-.. frame:: Abstract
-
-  The heights of energy barriers separating two (macro-)states are useful for estimating transition frequencies. In non-degenerate landscapes the decomposition of a landscape into basins surrounding local minima connected by saddle points is straightforward and yields a useful definition of macro-states. In this work we develop a rigorous concept of barrier trees for degenerate landscapes. We present a program that efficiently computes such barrier trees, and apply it to two well known examples of landscapes.
-  
 .. raw:: html
 
   <object data="{static}/files/papers/Flamm-2002__PRPERINT.pdf" type="application/pdf" width="100%" height="1050px">
   <p>Your browser does not support PDFs. 
      <a href="{static}/files/papers/Flamm-2002__PRPERINT.pdf">Download the PDF</a>
   </p>
-  </object>
+  </object> <br/><br/>
 
-.. transition:: ~ ~ ~
+.. frame:: Abstract
+
+  The heights of energy barriers separating two (macro-)states are useful for estimating transition frequencies. In non-degenerate landscapes the decomposition of a landscape into basins surrounding local minima connected by saddle points is straightforward and yields a useful definition of macro-states. In this work we develop a rigorous concept of barrier trees for degenerate landscapes. We present a program that efficiently computes such barrier trees, and apply it to two well known examples of landscapes.
+  
 
 Citation
 ========

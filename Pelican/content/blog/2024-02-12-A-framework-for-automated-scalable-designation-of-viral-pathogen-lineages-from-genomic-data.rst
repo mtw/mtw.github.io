@@ -31,15 +31,17 @@ Autolin provides several benefits over current methods. Its speed allows researc
 
 Although Autolin is not without limitations and requires continuous updates as new data emerges, it represents a significant advancement in our ability to monitor and understand viruses. As genomic sequencing becomes more widespread globally, automated tools like Autolin will be indispensable for effectively managing future public health crises. With faster, more impartial, and scalable virus classification, researchers and public health officials will be better equipped to confront emerging pathogens and protect public health.
 
-.. button-primary:: {static}/files/papers/McBroome-2024.pdf
+.. raw:: html
 
-    Download PDF
+  <object data="{static}/files/papers/McBroome-2024.pdf" type="application/pdf" width="100%" height="1050px">
+  <p>Your browser does not support PDFs. 
+     <a href="{static}/files/papers/McBroome-2024.pdf">Download the PDF</a>
+  </p>
+  </object> <br/><br/>
 
 .. frame:: Abstract
 
   Pathogen lineage nomenclature systems are a key component of effective communication and collaboration for researchers and public health workers. Since February 2021, the Pango dynamic lineage nomenclature for SARS-CoV-2 has been sustained by crowdsourced lineage proposals as new isolates were sequenced. This approach is vulnerable to time-critical delays as well as regional and personal bias. Here we developed a simple heuristic approach for dividing phylogenetic trees into lineages, including the prioritization of key mutations or genes. Our implementation is efficient on extremely large phylogenetic trees consisting of millions of sequences and produces similar results to existing manually curated lineage designations when applied to SARS-CoV-2 and other viruses including chikungunya virus, Venezuelan equine encephalitis virus complex and Zika virus. This method offers a simple, automated and consistent approach to pathogen nomenclature that can assist researchers in developing and maintaining phylogeny-based classifications in the face of ever-increasing genomic datasets.
-
-
 
 Citation
 ========
