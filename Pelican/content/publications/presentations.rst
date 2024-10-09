@@ -2,7 +2,8 @@ Presentations
 #############
 :summary: Oral presentation and invited talks given by Michael Thomas Wolfinger
 :title: Invited talks and presentations by Michael T. Wolfinger
-:description: Discover talks and presentations given by Michael T. Wolfinger, offering insights into the latest research in RNA bioinformatics, synthetic biology, and related topics 
+:description: Explore talks and oral presentations by Michael T. Wolfinger, offerimg insights into RNA bioinformatics, synthetic biology, and related research topics 
+
 
 :breadcrumb: / Home
 

@@ -10,7 +10,7 @@ Predicting RNA Structures from Sequence and Probing Data
 :summary: This review explores methods for predicting RNA secondary structures by integrating reactivity information from experimental probing data. It highlights the limitations of traditional RNA structure prediction, which typically relies solely on thermodynamic models based on sequences
 :description: 
 :title: RNA structural insights through prediction and probing
-:description: Explore the limitations of experimental data in RNA secondary structure prediction and the challenges of integrating probing information with computational models
+:description: Explore limitations of experimental data in RNA secondary structure prediction and challenges of integrating probing information with computational models
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong

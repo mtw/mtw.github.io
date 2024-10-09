@@ -7,7 +7,7 @@ Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses
 :category: publications
 :slug: Functional-RNA-Structures-in-the-3UTR-of-Mosquito-Borne-Flaviviruses
 :author: mtw
-:summary: The 3'UTR of Mosquito-Borne Flaviviruses (MBFVs) contain evolutionarily conserved functional elements, such as exoribonuclease-resistant RNAs (xrRNAs), dumbbell elements or terminal stem-loops. In this contribution we describe, annotate, and compare these elements within different serological groups of MBFVs
+:summary: The 3'UTR of Mosquito-Borne Flaviviruses (MBF) contain evolutionarily conserved functional elements, such as exoribonuclease-resistant RNAs (xrRNAs), dumbbell elements or terminal stem-loops. In this contribution we describe, annotate, and compare these elements within different serological groups of MBF
 :title: Functional RNA structures in the 3'UTR of Mosquito-Borne Flaviviruses
 :description: This book chapter describes and compares evolutionarily conserved functional RNAs in Mosquito-Borne Flaviviruses
 
@@ -24,11 +24,13 @@ Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses
   :class: doi
 
 
-Mosquito-Borne Flaviviruses cause millions of infections in humans and animals every year, rendering MBFVs a major public health threat. Flaviviruses are enveloped, non-segmented single-stranded (+)-sense RNA viruses and consist of a single 5’-capped, non-polyadenylated RNA of approximately 10-12 kilobases in length, referred to as gRNA. The gRNA encodes a single open reading frame (ORF), which is flanked by highly structured untranslated regions (UTRs). The flavivirus UTRs are crucially involved in the regulation of the viral life cycle, and mediate processes such as genome cyclization, replication, and immune escape.
+Mosquito-borne flaviviruses (MBF) are responsible for millions of infections in humans and animals each year, posing a significant public health threat. These viruses belong to the Flavivirus family, characterized by their enveloped, non-segmented, single-stranded (+)-sense RNA genome. This genome, known as gRNA, is about 10-12 kilobases long and contains a single open reading frame (ORF) flanked by highly structured untranslated regions (UTRs) at both ends. The UTRs play a crucial role in regulating the viral life cycle by mediating essential processes like genome cyclization, replication, and immune system evasion.
 
-Mechanistically, these are regulated by evolutionarily conserved RNA elements in the flavivirus UTRs. An example are exoribonuclease-resistant RNAs (xrRNAs), that stall endogenous host exoribonucleases like Xrn1, thereby prohibiting further Xrn1 progression towards the viral 3’ end and thus conferring quantitative protection of downstream nucleotides. While xrRNAs are among the best studied viral non-coding RNAs (ncRNAs), MBFVs harbor many conserved RNAs of unknown function in their UTRs.
+At the heart of these regulatory functions are conserved RNA elements within the flavivirus UTRs. One of the best-studied elements is the exoribonuclease-resistant RNA (xrRNA), which stalls host exoribonucleases like Xrn1. By blocking Xrn1's progression toward the viral 3' end, xrRNAs protect downstream nucleotides from degradation, ensuring the stability of the viral RNA. While xrRNAs are well understood, MBF contain several other conserved RNA structures in their UTRs whose functions remain unknown.
 
-To get a better picture and understanding of RNA structure conservation in MBFVs, we report here the results of a comparative genomics screen in the 3'UTR of all known Mosquito-Borne Flaviviruses.
+To deepen our understanding of RNA structure conservation in MBF, we recently conducted a comparative genomics screen, focusing on the 3' UTR of all known mosquito-borne flaviviruses. Our findings shed light on the evolutionary pressures that shape these RNA structures and reveal potential new regulatory elements that could be critical to the virus’s survival and pathogenicity.
+
+This research not only expands our knowledge of how flaviviruses manipulate host cells but also opens up new avenues for antiviral strategies targeting these conserved RNA elements.
 
 .. raw:: html
 

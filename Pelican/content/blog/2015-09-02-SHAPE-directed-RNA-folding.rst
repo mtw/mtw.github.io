@@ -24,22 +24,13 @@ SHAPE directed RNA folding
   :class: doi
 
 
+With the rise of efficient methods for validating RNA structures, particularly through the combination of chemical probing and next-generation sequencing technologies, there has been an increasing need to integrate experimental data, like SHAPE reactivities, with in silico RNA structure prediction tools. These experimental techniques, which provide valuable insights from in vitro or even in vivo conditions, now play a crucial role in enhancing the accuracy of computational RNA structure predictions.
 
-With the advent of efficient strategies for experimental RNA structure
-validation, especially combination of chemical probing with next-generation
-sequencing technologies, came demand to couple experimental data,
-e.g. SHAPE reactivities, with *in silico* RNA structure prediction tools. In
-this line, the computational structure prediction is guided by *in vitro* or
-even *in vivo* probing data.
+To address this, we recently integrated three established methods for incorporating SHAPE probing data into the ViennaRNA Package. These methods allow experimental data to guide the prediction process, resulting in more accurate RNA structure models. To ensure the effectiveness of these integrations, we rigorously benchmarked the prediction results against a dataset of RNAs with known reference structures, providing a solid validation of the improvements these methods bring to computational RNA structure prediction.
 
-We have recently implemented three previously published methods for
-incorporation of SHAPE probing data into the *ViennaRNA Package* and
-benchmarked prediction results with a set of RNAs with known reference
-structures.
+This advancement not only strengthens the predictive power of the ViennaRNA Package, but also bridges the gap between experimental data and computational modeling, allowing researchers to better understand RNA folding and function across diverse biological contexts.
 
-Don't miss the `Supplementary Data <http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523/suppl/DC1>`_
-since it contains extensive coverage of the applied benchmark strategies
-and lots of background information.
+Don't miss the `Supplementary Data <http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523/suppl/DC1>`_, containing extensive coverage of the applied benchmark strategies and lots of background information.
 
 .. raw:: html
 

@@ -10,7 +10,7 @@ Barrier Trees of Degenerate Landscapes
 :summary: This method paper introduces the concept of barrier trees, a convenient approach to describe the landscape of an optimization function. Barrier trees represent the toplogical characteristics of an energy landscape, such as a unique partitioning into local minima as leaves of the tree and saddle points as internal nodes connecting different minima.
 :description: 
 :title: Barrier Trees of Degenerate Landscapes
-:description: Introducing barrier trees: a method to visualize energy landscapes, highlighting local minima and saddle points, with the 'barriers' program for efficient computation.
+:description: Introducing barrier trees and the barriers tool, a method to explore energy landscapes, highlighting topological features such as local minima and saddle points
 
 
 .. role:: link-flat-strong(link)
