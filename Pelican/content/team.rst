@@ -9,7 +9,15 @@ Michael Thomas Wolfingers's Present and Past Group Members
 .. role:: link-sup(link)
   :class: m-flat m-text m-footnote
 
-The progress we make as a group relies entirely on the skills, dedication, and unique strengths that each member brings. Everyone here plays an essential role in the success of our research, and it’s through our collective effort that we continue to advance our research field. This page highlights the individuals who make all of this possible.
+
+
+.. raw:: html
+
+  <span class="m-landing-text">
+  <p>We believe that great research stems from collaboration and fostering a supportive environment where every member can thrive. We encourage curiosity, creativity, and open communication, ensuring that all voices are heard and ideas explored.</p>
+
+  <p>The progress we make as a group relies entirely on the skills, dedication, and unique strengths that each member brings. Every individual plays a vital role in driving our research forward, and it’s through our collective effort that we continue to advance our research field. This page highlights the talented people who make our progress possible.</p></span><br/>
+
 
 Current Team Members
 ======================
@@ -41,6 +49,11 @@ Past Team Members
       <li>Daniel Hooker<a href="#ref2" class="m-footnote" id="ref2-backref">2</a></li>
       <li>Christian Mayr<a href="#ref2" class="m-footnote" id="ref2-backref">2</a></li>
     </ul>
+
+Join the Team 
+=============
+
+If you're passionate about RNA science, computational biology, or synthetic biology, and interested in joining our research team, please :link:`reach out to Michael T. Wolfinger <{filename}/contact.rst>`. We’re always excited to work with motivated individuals eager to contribute to groundbreaking research!
 
 
 .. raw:: html    
