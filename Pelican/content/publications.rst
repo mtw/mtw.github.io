@@ -327,4 +327,4 @@ Peer-reviewed journal articles and book chapters
 .. transition::  - - -
   
 .. note-warning::
-  All papers are copyrighted by the authors. Revised versions that appeared in print are copyrighted by the respective publisher. Downloadable papers are preprint versions which usually do not correspond exactly to the revised, published versions. If you would like to (re-)use all or a portion of any paper in your own work, please contact the authors.  
+  All papers are copyrighted by the authors. For papers not available through an open access model, the revised versions that appear in print are copyrighted by the respective publishers. Downloadable versions provided here are preprints and may not exactly match the final, published versions. If you wish to (re-)use any part of these papers, please contact the publishers directly for permission.
