@@ -1,8 +1,8 @@
 Michael Thomas Wolfingers's Research
 ####################################
 :summary: Research by Michael Thomas Wolfinger
-:title: Research
-:description: Michael Thomas Wolfingers's research uncovers the complex interplay between RNA structure and function
+:title: Synthetic Biology & RNA Science: Structure, Viruses, and Design
+:description: Michael Thomas Wolfinger's research uncovers the complex interplay between RNA structure, virus evolution, and synthetic biology for innovative system design
 
 :breadcrumb: / Home
 
