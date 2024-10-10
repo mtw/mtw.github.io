@@ -3,7 +3,7 @@ Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No K
 
 :date: 2019-03-25
 :modified: 2023-11-03
-:tags: virus bioinformatics; One Health; xrRNA; synthetic biology
+:tags: virus bioinformatics; One Health; xrRNA; flavivirus; synthetic biology
 :category: publications
 :slug: Functional_RNA_Structures_in_the_three_prime_UTR_of_Flaviviruses
 :author: mtw

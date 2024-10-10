@@ -156,7 +156,7 @@ Peer-reviewed journal articles and book chapters
 
 .. container:: refs-2019
 
-  | 29. :link-flat-strong:`Updated Phylogeny of Chikungunya Virus Suggests Lineage-Specific RNA Architecture <{filename}/publications/papers/Updated_Phylogeny_of_Chikungunya_Virus_Suggests_Lineage_Specific_RNA_Architecture.rst>`
+  | 29. :link-flat-strong:`Updated Phylogeny of Chikungunya Virus Suggests Lineage-Specific RNA Architecture <{filename}/blog/2019-08-29-Updated-Phylogeny-of-Chikungunya-Virus-Suggests-Lineage-Specific-RNA-Architecture.rst>`
   | Adriano de Bernardi Schneider, Roman Ochsenreiter, Reilly Hostager, Ivo L. Hofacker, Daniel Janies, :ul:`Michael T. Wolfinger`
   | *Viruses* 11:798 (2019) | :doi:`doi:10.3390/v11090798 <https://doi.org/10.3390/v11090798>` | :link-flat:`PDF <{static}/files/papers/deBernardiSchneider-2019b.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__deBernardiSchneider-2019b.pdf>` | :label-flat-info:`Journal article`
 

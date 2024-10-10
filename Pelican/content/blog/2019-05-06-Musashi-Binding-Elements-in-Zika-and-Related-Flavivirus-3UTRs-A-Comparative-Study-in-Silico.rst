@@ -3,7 +3,7 @@ Musashi Binding Elements in Zika Virus 3'UTR
 
 :date: 2019-05-06
 :modified: 2023-04-09
-:tags: non-coding RNA; virus bioinformatics; ViennaRNA; RNA-Protein interaction
+:tags: non-coding RNA; virus bioinformatics; ViennaRNA; RNA-Protein interaction; flavivirus
 :category: publications
 :slug: Musashi-Binding-Elements-in-Zika-and-Related-Flavivirus-3UTRs-A-Comparative-Study-in-Silico
 :author: mtw
