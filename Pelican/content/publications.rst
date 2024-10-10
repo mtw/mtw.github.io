@@ -19,9 +19,8 @@ Papers
 .. role:: doi(link)
   :class: doi
 
-.. frame:: Download
-
-     :link-flat:`Michael T. Wolfinger's publication list <{static}/files/MTW_PublicationList.pdf>` as PDF.
+.. note-info::
+   Download :link-flat:`Michael T. Wolfinger's publication list as PDF <{static}/files/MTW_PublicationList.pdf>`
 
 
 Submitted Manuscripts / Preprints
@@ -325,11 +324,7 @@ Peer-reviewed journal articles and book chapters
   | *Z. Phys. Chem.* 216: 155–73 (2002) | :doi:`doi:10.1524/zpch.2002.216.2.155 <https://doi.org/10.1524/zpch.2002.216.2.155>` | :link-flat:`Preprint PDF <{static}/files/papers/Flamm-2002__PRPERINT.pdf>` | :label-flat-info:`Journal article`
 
 
-.. raw:: html
-
-  <br><br>
-
-Disclaimer
-----------
-
-All papers are copyrighted by the authors. Revised versions that appeared in print are copyrighted by the respective publisher. Downloadable papers are preprint versions which usually do not correspond exactly to the revised, published versions. If you would like to (re-)use all or a portion of any paper in your own work, please contact the authors.
+.. transition::  - - -
+  
+.. note-warning::
+  All papers are copyrighted by the authors. Revised versions that appeared in print are copyrighted by the respective publisher. Downloadable papers are preprint versions which usually do not correspond exactly to the revised, published versions. If you would like to (re-)use all or a portion of any paper in your own work, please contact the authors.  
