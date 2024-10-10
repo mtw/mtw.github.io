@@ -3,7 +3,7 @@ Cyclization studies of Japanese encephalitis virus non-coding RNA terminal regio
 
 :date: 2022-02-03
 :modified: 2023-04-09
-:tags: RNA-RNA interaction; non-coding RNA; 3D
+:tags: RNA-RNA interaction; non-coding RNA; 3D; flavivirus
 :category: publications
 :slug: Cyclization-studies-of-Japanese-encephalitis-virus-non-coding-RNA-terminal-regions
 :author: mtw

@@ -3,12 +3,12 @@ Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Vari
 
 :date: 2021-02-08
 :modified: 2022-10-28
-:tags: virus bioinformatics; One Health; molecular epidemiology; 
+:tags: virus bioinformatics; One Health; molecular epidemiology; alphavirus;
 :category: publications
 :slug: Lineage-specific-RNA-structures-in-Chikungunya-virus
-:title: Lineage-specific RNA structures in Chikungunya virus
+:title: Molecular epidemiology and RNA structures in Chikungunya virus
 :author: mtw
-:summary: The combination of molecular epidemiology data with RNA structure prediction provides insights into unresolved aspects of genotype-phenotype associations in Chikungunya virus
+:summary: This research provides a comprehensive analysis of the molecular epidemiology and evolutionary dynamics of Chikungunya virus (CHIKV), uncovering how single nucleotide variants influence viral RNA structures and shape the global spread of the virus
 :description: Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Variants That Alter RNA Structure in Chikungunya Virus
 
 .. role:: link-flat-strong(link)
@@ -23,7 +23,7 @@ Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Vari
 .. role:: doi(link)
   :class: doi
 
-Chikungunya virus (CHIKV), an emerging Alphavirus, causes millions of human infections annually and has witnessed outbreaks in Africa and Asia since the 1950s. The research presented here delves into the molecular epidemiology of CHIKV, revealing how single nucleotide variants can impact the virus's RNA structures. Utilizing more than 1000 publicly available CHIKV genomes, the study provides an interactive phylodynamics dataset using Nextstrain, a tool for real-time tracking of pathogen evolution. The data set, publicly available through `CHIKVnext <https://nextstrain.org/groups/ViennaRNA/CHIKVnext>`_, enables the tracking of spatiotemporal and epidemiological aspects of the CHIKV global spread.
+Chikungunya virus, an emerging Alphavirus, causes millions of human infections annually and has witnessed outbreaks in Africa and Asia since the 1950s. The research presented here delves into the molecular epidemiology of CHIKV, revealing how single nucleotide variants can impact the virus's RNA structures. Utilizing more than 1000 publicly available CHIKV genomes, the study provides an interactive phylodynamics dataset using Nextstrain, a tool for real-time tracking of pathogen evolution. The data set, publicly available through `CHIKVnext <https://nextstrain.org/groups/ViennaRNA/CHIKVnext>`_, enables the tracking of spatiotemporal and epidemiological aspects of the CHIKV global spread.
 
 The study addresses genotype/phenotype associations in CHIKV by employing comparative approaches, molecular epidemiology concepts, phylogeny reconstruction, and computational RNA biology. The nucleotide divergence within CHIKV lineages is found to be relatively low, often due to geographical constraints and a limited collection period for newer lineages. However, the divergence between different lineages can be considerable, with the West African lineage showing the highest divergence compared to others.
 
@@ -67,6 +67,13 @@ Figures and Data
 Citation
 ========
 
-  | :link-flat-strong:`Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Variants That Alter RNA Structure in Chikungunya Virus <https://doi.org/10.3390/genes12020239>`
+  | :link-flat-strong:`Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Variants That Alter RNA Structure in Chikungunya Virus  <{filename}/blog/2021-02-08-Dynamic_Molecular_Epidemiology_Reveals_Lineage-Associated_Single-Nucleotide_Variants_That_Alter_RNA_Structure_in_Chikungunya_Virus.rst>`
   | Thomas Spicher, Markus Delitz, Adriano de Bernardi Schneider, :ul:`Michael T. Wolfinger`
-  | *Genes* 12 (2):239 (2021) | :doi:`doi:10.3390/genes12020239 <https://doi.org/10.3390/genes12020239>` | :link-flat:`PDF <{static}/files/papers/Spicher-2021.pdf>`
+  | *Genes* 12 (2):239 (2021) | :doi:`doi:10.3390/genes12020239 <https://doi.org/10.3390/genes12020239>` | :link-flat:`PDF <{static}/files/papers/Spicher-2021.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Spicher-2021.pdf>` 
+
+See Also
+========
+
+  | :link-flat-strong:`Updated Phylogeny of Chikungunya Virus Suggests Lineage-Specific RNA Architecture <{filename}/blog/2019-08-29-Updated-Phylogeny-of-Chikungunya-Virus-Suggests-Lineage-Specific-RNA-Architecture.rst>`
+  | Adriano de Bernardi Schneider, Roman Ochsenreiter, Reilly Hostager, Ivo L. Hofacker, Daniel Janies, :ul:`Michael T. Wolfinger`
+  | *Viruses* 11:798 (2019) | :doi:`doi:10.3390/v11090798 <https://doi.org/10.3390/v11090798>` | :link-flat:`PDF <{static}/files/papers/deBernardiSchneider-2019b.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__deBernardiSchneider-2019b.pdf>`
