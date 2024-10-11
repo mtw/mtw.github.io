@@ -9,6 +9,21 @@ Contact
 .. role:: link-flat(link)
   :class: m-flat m-text
 
+
+
+.. raw:: html
+
+  <h2>Contact Form</h2>
+  <script src="https://ciawftws.formester.com/widget/standard.js" type="module"></script>
+
+      <formester-standard-form
+        set-auto-height="true"
+        height="100%"
+        id="825cc2be-cbeb-44ed-9c3c-fbe4ed033e2d"
+        url="https://ciawftws.formester.com/f/825cc2be-cbeb-44ed-9c3c-fbe4ed033e2d"
+      ></formester-standard-form>
+    
+
 .. container:: m-row
 
     .. container:: m-col-l-8 m-container-inflatable
@@ -50,3 +65,5 @@ Contact
               <li><a href="https://github.com/mtw">Github</a></li>
 
             </ul>
+
+
