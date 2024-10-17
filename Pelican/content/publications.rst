@@ -35,17 +35,17 @@ Submitted Manuscripts / Preprints
 .. transition::  - - -
 
 
-Peer-reviewed journal articles and book chapters
-================================================
+Peer-reviewed journal / conference articles and book chapters
+=============================================================
 
 `2024`_
 -------
 
 .. container:: refs-2024
 
-  | 50. :link-flat-strong:`Pan-flavivirus analysis reveals sfRNA-independent, 3’UTR-biased siRNA production from an Insect-Specific Flavivirus <https://doi.org/10.1101/2022.08.18.504478>`
+  | 50. :link-flat-strong:`Pan-flavivirus analysis reveals sfRNA-independent, 3’UTR-biased siRNA production from an Insect-Specific Flavivirus <{filename}/blog/2024-10-15-Pan-flavivirus-analysis-reveals-sfRNA-independent-3-UTR-biased-siRNA-production-from-an-insect-specific-flavivirus.rst>`
   | Benoit Besson, Gijs J. Overheul, :ul:`Michael T. Wolfinger`, Sandra Junglen, Ronald P. van Rij
-  | *Manuscript accepted* (2024) | :link-flat:`Preprint PDF <{static}/files/papers/Besson-2024__PREPRINT.pdf>` | :label-flat-info:`Journal article`
+  | *J. Virol.* e01215-24 (2024) | :doi:`doi:10.1128/jvi.01215-24 <https://doi.org/10.1128/jvi.01215-24>` | :link-flat:`Preprint PDF <{static}/files/papers/Besson-2024__PREPRINT.pdf>` | :label-flat-info:`Journal article`
 
   | 49. :link-flat-strong:`Xinyang flavivirus, from Haemaphysalis flava ticks in Henan province, China, defines a basal, likely tick-only flavivirus clade <{filename}/blog/2024-05-29-Xingyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade.rst>`
   | Lan-Lan Wang, Qia Cheng, Natalee D. Newton, :ul:`Michael T. Wolfinger`, Mahali S. Morgan, Andrii Slonchak, Alexander A. Khromykh, Tian-Yin Cheng, Rhys H. Parry
