@@ -1,1 +1,4 @@
 pelican content -o .. -s pelicanconf.py
+
+drop shadow via ImageMagick:
+convert in.png \( +clone -background black -shadow 80x20+0+15 \) +swap -background transparent -layers merge +repage out.webp
