@@ -115,19 +115,55 @@ Peer-reviewed journal / conference articles and book chapters
 `2023`_
 -------
 
-.. container:: refs-2023
+.. container:: m-container-inflatable
 
-  | 46. :link-flat-strong:`A Structural Refinement Technique for Protein-RNA Complexes Using a Combination of AI-based Modeling and Flexible Docking: A Study of Musashi-1 Protein <{filename}/blog/2023-06-09-A-Structural-Refinement-Technique-for-Protein-RNA-Complexes-Using-Combination-of-AI-based-Modeling-and-Flexible-Docking-A-Study-of-Musashi-1-Protein.rst>`
-  | Nitchakan Darai, Kowit Hengphasatporn, Peter Wolschann, :ul:`Michael T. Wolfinger`, Yasuteru Shigeta, Thanyada Rungrotmongkol, Ryuhei Harada
-  | *B. Chem. Soc. Jpn.* 96(7):677–685 (2023) | :doi:`doi:10.1246/bcsj.20230092 <https://doi.org/10.1246/bcsj.20230092>` | :link-flat:`PDF <{static}/files/papers/Darai-2023.pdf>` | :label-flat-info:`Journal article`
+  .. container:: m-row
 
-  | 45. :link-flat-strong:`Investigating RNA-RNA interactions through computational and biophysical analysis <{filename}/blog/2023-03-31-Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis.rst>`
-  | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke De Klerk, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
-  | *Nucleic Acids Res.* 51(9):4588–4601 (2023) | :doi:`doi:10.1093/nar/gkad223 <https://doi.org/10.1093/nar/gkad223>` | :link-flat:`PDF <{static}/files/papers/Mrozowich-2023.pdf>` | :link-flat:`Supplement <{static}/files/papers/Mrozowich-2023__SUPPLEMENT.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Mrozowich-2023.pdf>` | :label-flat-info:`Journal article`
+    .. container::  m-col-t-8 
 
-  | 44. :link-flat-strong:`Strukturierte RNAs in Viren <{filename}/blog/2023-03-23-Strukturierte-RNAs-in-Viren.rst>` (in German)
-  | Roman Ochsenreiter, :ul:`Michael T. Wolfinger`
-  | *Biospektrum* 29(2):156-158 (2023) | :doi:`doi:10.1007/s12268-023-1907-x <https://www.biospektrum.de/magazinartikel/strukturierte-rnas-viren>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2023.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Ochsenreiter-2023.pdf>` | :label-flat-info:`Review article`
+      | 46. :link-flat-strong:`A Structural Refinement Technique for Protein-RNA Complexes Using a Combination of AI-based Modeling and Flexible Docking: A Study of Musashi-1 Protein <{filename}/blog/2023-06-09-A-Structural-Refinement-Technique-for-Protein-RNA-Complexes-Using-Combination-of-AI-based-Modeling-and-Flexible-Docking-A-Study-of-Musashi-1-Protein.rst>`
+      | Nitchakan Darai, Kowit Hengphasatporn, Peter Wolschann, :ul:`Michael T. Wolfinger`, Yasuteru Shigeta, Thanyada Rungrotmongkol, Ryuhei Harada
+      | *B. Chem. Soc. Jpn.* 96(7):677–685 (2023) 
+      | :doi:`doi:10.1246/bcsj.20230092 <https://doi.org/10.1246/bcsj.20230092>` | :link-flat:`PDF <{static}/files/papers/Darai-2023.pdf>` | :label-flat-info:`Journal article`
+
+    .. container:: m-col-t-4
+
+      .. figure:: {static}/files/papers/preview/Preview__Darai-2023.001small.webp
+          :alt: Association complex of Musashi RBD1 and RBD with a target RNA
+          :figclass: m-figure m-flat
+          :target: {filename}/blog/2023-06-09-A-Structural-Refinement-Technique-for-Protein-RNA-Complexes-Using-Combination-of-AI-based-Modeling-and-Flexible-Docking-A-Study-of-Musashi-1-Protein.rst
+
+  .. container:: m-row
+
+    .. container::  m-col-t-8 
+  
+      | 45. :link-flat-strong:`Investigating RNA-RNA interactions through computational and biophysical analysis <{filename}/blog/2023-03-31-Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis.rst>`
+      | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke De Klerk, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
+      | *Nucleic Acids Res.* 51(9):4588–4601 (2023) 
+      | :doi:`doi:10.1093/nar/gkad223 <https://doi.org/10.1093/nar/gkad223>` | :link-flat:`PDF <{static}/files/papers/Mrozowich-2023.pdf>` | :link-flat:`Supplement <{static}/files/papers/Mrozowich-2023__SUPPLEMENT.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Mrozowich-2023.pdf>` | :label-flat-info:`Journal article`
+
+    .. container:: m-col-t-4
+
+      .. figure:: {static}/files/papers/preview/Preview__Mrozowich-2023.001small.webp
+          :alt: Graphical abstract of doi:10.1093/nar/gkad223
+          :figclass: m-figure m-flat
+          :target: {filename}/blog/2023-03-31-Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis.rst
+
+  .. container:: m-row
+
+    .. container::  m-col-t-8 
+  
+      | 44. :link-flat-strong:`Strukturierte RNAs in Viren <{filename}/blog/2023-03-23-Strukturierte-RNAs-in-Viren.rst>` (in German)
+      | Roman Ochsenreiter, :ul:`Michael T. Wolfinger`
+      | *Biospektrum* 29(2):156-158 (2023) 
+      | :doi:`doi:10.1007/s12268-023-1907-x <https://www.biospektrum.de/magazinartikel/strukturierte-rnas-viren>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2023.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Ochsenreiter-2023.pdf>` | :label-flat-info:`Review article`
+
+    .. container:: m-col-t-4
+
+      .. figure:: {static}/files/papers/preview/Preview__Ochsenreiter-2023.001small.webp
+          :alt: Schematic representation of xrRNA exoribonuclease stalling 
+          :figclass: m-figure m-flat
+          :target: {filename}/blog/2023-03-23-Strukturierte-RNAs-in-Viren.rst
 
 `2022`_
 -------
