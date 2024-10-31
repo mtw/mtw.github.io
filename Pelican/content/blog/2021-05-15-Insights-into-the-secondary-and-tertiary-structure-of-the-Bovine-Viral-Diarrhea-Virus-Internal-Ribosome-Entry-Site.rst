@@ -23,29 +23,25 @@ Insights into the secondary and tertiary structure of the BVDV Internal Ribosome
 .. role:: doi(link)
   :class: doi
 
-RNA viruses have long fascinated researchers with their ability to adapt and evolve using minimal genetic material. Among these viruses, Bovine Viral Diarrhea Virus (BVDV) stands out as a significant veterinary pathogen, causing substantial economic losses in the livestock industry worldwide. Understanding the molecular mechanisms behind the replication cycle of BVDV is crucial for developing effective strategies to combat this virus. In our recently published paper, we delve into the intricacies of BVDV's RNA structure, shedding light on its critical role in viral translation. Here, we aim to provide an accessible explanation of our findings for both experts and non-virologists and emphasize the relevance of our research to the *One Health System*.
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
 
-BVDV and its RNA Complexity
----------------------------
+   .. figure:: {static}/files/papers/preview/Preview__Gosavi-2022.001small.webp
+          :alt: 3D structure prediction of the BVDV IRES region
+          :figclass: m-figure m-flat
+
+
+
+RNA viruses have long fascinated researchers with their ability to adapt and evolve using minimal genetic material. Among these viruses, Bovine Viral Diarrhea Virus (BVDV) stands out as a significant veterinary pathogen, causing substantial economic losses in the livestock industry worldwide. Understanding the molecular mechanisms behind the replication cycle of BVDV is crucial for developing effective strategies to combat this virus. In our recently published paper, we delve into the intricacies of BVDV's RNA structure, shedding light on its critical role in viral translation. Here, we aim to provide an accessible explanation of our findings for both experts and non-virologists and emphasize the relevance of our research to the *One Health System*.
 
 BVDV belongs to the Pestivirus genus, a group of viruses known for their economic impact on the livestock industry. Like other RNA viruses, BVDV employs resource-efficient molecular strategies to optimize its replication cycle. Central to this process is the Internal Ribosome Entry Site (IRES) located within the virus's 5' Untranslated Region (UTR). The IRES is a complex structural domain that controls cap-independent translation, a crucial step in viral infection.
 
 Our study focused on unraveling the intricate secondary and tertiary structure of BVDV IRES RNA. We used RNA structural probing methods and computational 3D modeling to gain insights into the structural arrangement of this critical RNA component.
 
-Key Findings
-------------
-
 Our research revealed that BVDV IRES RNA consists of three major structural domains (I-III), each containing distinct motifs, such as hairpins and stems, interspersed among less structurally constrained regions. While our model aligned with previous secondary structure models for BVDV strains, we identified an alternative folding pattern in domain II. This structural flexibility in domain II was supported by thermodynamic parameters, highlighting the dynamic nature of BVDV IRES RNA.
 
 The most significant discovery in our study pertains to domain III, which exhibited high structural stability. It includes single-stranded regions and a pseudoknot, a structural element crucial for viral translation. Our 3D modeling revealed quasi-coaxial stacking between specific motifs in domain III, providing insight into the stability of the IRES pseudoknot.
 
-Computational Evidence for Pseudoknot Functionality
----------------------------------------------------
-
 Previous studies had suggested the presence of a pseudoknot in BVDV IRES RNA, but our research provided computational evidence supporting its crucial role. We conducted a comprehensive analysis of BVDV IRES RNA sequences from different genotypes and identified statistically significant covariation in 22 base pairs, including the pseudoknot.
-
-Implications and One Health Relevance
--------------------------------------
 
 Our findings have far-reaching implications in combating BVDV and related viruses. The similarities between BVDV and Hepatitis C Virus (HCV) IRES RNAs suggest that strategies developed to target HCV IRES RNA could potentially be applied to interfere with BVDV replication. This includes the identification of small molecule inhibitors, antisense oligonucleotides, and ribozymes to disrupt the IRES RNA, preventing the binding of translational factors and ultimately inhibiting viral replication.
 

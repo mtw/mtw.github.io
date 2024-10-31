@@ -23,6 +23,13 @@ Theoretical studies on RNA recognition by Musashi 1 RNA-binding protein
 .. role:: doi(link)
   :class: doi
 
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
+
+    .. figure:: {static}/files/papers/preview/Preview__Darai-2022.001small.webp
+          :alt: Association complexes of Musashi-1 RBD1 and RBD2 with the canonical target RNA GUAGU 
+          :figclass: m-figure m-flat
+
+
 
 Musashi-1 (MSI1), an RNA-binding protein, plays a pivotal role in maintaining and self-renewal of neural progenitor and stem cells. Intriguingly, it has been demonstrated to enhance Zika virus (ZIKV) replication, emphasizing the significance of MSI1:RNA complexes in ZIKV-induced neurotropism.
 

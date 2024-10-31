@@ -11,6 +11,13 @@ Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reve
 :title: Hfq, Crc, and antibiotic resistance in P. aeruginosa
 :description: Here we study carbon catabolite repression and its impact on antibiotic susceptibility in the opportunistic pathogen Pseudomonas aeruginosa
 
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
+
+   .. figure:: {static}/files/papers/preview/Preview__Rozner-2022.001small.webp
+          :alt: Schematic of the mexGHI-opmD operon downregulation by Hfq during carbon catabolite repression
+          :figclass: m-figure m-flat
+
+
 This study on Pseudomonas aeruginosa underscores the interplay between microbial metabolism and antibiotic resistance, which has implications for human, animal, and environmental health. The observed link between carbon catabolite repression (CCR) and antibiotic susceptibility suggests that the microbial response to environmental nutrients can impact the efficacy of antibiotics. This insight is crucial as antibiotic-resistant strains can pose threats to both human healthcare and animal husbandry. Understanding such regulatory mechanisms can guide the development of targeted interventions, aligning with the One Health approach that seeks to optimize health outcomes across different domains of the ecosystem.
 
 .. role:: link-flat-strong(link)
