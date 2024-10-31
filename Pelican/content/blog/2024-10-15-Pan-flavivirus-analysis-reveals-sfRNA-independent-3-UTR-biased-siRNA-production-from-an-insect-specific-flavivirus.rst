@@ -23,6 +23,14 @@ Pan-flavivirus analysis reveals sfRNA-independent 3' UTR-biased siRNA production
 .. role:: doi(link)
   :class: doi
 
+
+
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
+
+  .. figure:: {static}/files/papers/preview/Preview__Besson-2024.001small.webp
+    :alt: 3UTR of KRV, CFAV, and CxFV
+    :figclass: m-figure m-flat
+   
 RNAi is a key antiviral defense in mosquitoes, where viral double-stranded RNA (dsRNA) is processed into viral small interfering RNAs (vsiRNAs), which then target viral RNA for degradation. We found that for most flaviviruses, vsiRNAs were evenly distributed across the viral genome. However, for clasic insect-specific flaviviruses (cISFs), especially the Kamiti River virus (KRV), vsiRNA production was highly biased toward the 3' untranslated region (UTR) of the viral genome. This was particularly striking for KRV, which has a uniquely long 3' UTR of about 1.2 kilobases. Over 95% of KRV-derived vsiRNAs were mapped to this region, suggesting a distinct RNA processing mechanism.
 
 Additionally, the study explores the role of subgenomic flavivirus RNAs (sfRNAs) in vsiRNA production. sfRNAs are produced when the XRN1 exoribonuclease stalls on structured RNA elements in the 3' UTR of flavivirus genomes, and they play various roles in viral replication and immune evasion. For KRV, two major sfRNAs were identified (sfRNA1 and sfRNA2), corresponding to predicted XRN1-resistant elements in the 3' UTR. However, despite the high abundance of these sfRNAs, the 3' UTR-biased vsiRNA production in KRV was found to be independent of sfRNA formation. This indicates that KRV's siRNA profile is shaped by other factors, likely a distinct viral RNA species processed by the RNAi machinery.
