@@ -16,8 +16,8 @@
   <meta property="og:title" content="RNA-protein complex refinement using AI modeling and docking" />
   <meta name="twitter:title" content="RNA-protein complex refinement using AI modeling and docking" />
   <meta property="og:url" content="https://michaelwolfinger.com/blog/2023/blog/2023-06-09-A-Structural-Refinement-Technique-for-Protein-RNA-Complexes-Using-Combination-of-AI-based-Modeling-and-Flexible-Docking-A-Study-of-Musashi-1-Protein/" />
-  <meta property="og:description" content="This study presents an efficient technique for refining protein-RNA complexes using AI-based modeling and flexible docking. The method, utilizing parallel cascade selection molecular dynamics (PaCS-MD), accelerates conformational sampling of flexible RNA regions and produces high-quality complex models. Experimental validation demonstrates its superiority over template-based modeling, suggesting its potential for constructing complexes with non-canonical RNA-protein interactions" />
-  <meta name="twitter:description" content="This study presents an efficient technique for refining protein-RNA complexes using AI-based modeling and flexible docking. The method, utilizing parallel cascade selection molecular dynamics (PaCS-MD), accelerates conformational sampling of flexible RNA regions and produces high-quality complex models. Experimental validation demonstrates its superiority over template-based modeling, suggesting its potential for constructing complexes with non-canonical RNA-protein interactions" />
+  <meta property="og:description" content="This study presents an efficient technique for refining protein-RNA complexes using artifilial intelligence (AI) based modeling and flexible docking. The method, utilizing parallel cascade selection molecular dynamics (PaCS-MD), accelerates conformational sampling of flexible RNA regions and produces high-quality complex models. Experimental validation demonstrates its superiority over template-based modeling, suggesting its potential for constructing complexes with non-canonical RNA-protein interactions" />
+  <meta name="twitter:description" content="This study presents an efficient technique for refining protein-RNA complexes using artifilial intelligence (AI) based modeling and flexible docking. The method, utilizing parallel cascade selection molecular dynamics (PaCS-MD), accelerates conformational sampling of flexible RNA regions and produces high-quality complex models. Experimental validation demonstrates its superiority over template-based modeling, suggesting its potential for constructing complexes with non-canonical RNA-protein interactions" />
   <meta name="twitter:card" content="summary" />
   <meta property="og:type" content="article" />
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2RW3VW55N"></script>
@@ -74,29 +74,20 @@
           </time>
           RNA-protein complex refinement using AI modeling and docking
         </a></h1>
-        <p>This study presents an efficient technique for refining protein-RNA complexes using AI-based modeling and flexible docking. The method, utilizing parallel cascade selection molecular dynamics (PaCS-MD), accelerates conformational sampling of flexible RNA regions and produces high-quality complex models. Experimental validation demonstrates its superiority over template-based modeling, suggesting its potential for constructing complexes with non-canonical RNA-protein interactions</p>
+        <p>This study presents an efficient technique for refining protein-RNA complexes using artifilial intelligence (AI) based modeling and flexible docking. The method, utilizing parallel cascade selection molecular dynamics (PaCS-MD), accelerates conformational sampling of flexible RNA regions and produces high-quality complex models. Experimental validation demonstrates its superiority over template-based modeling, suggesting its potential for constructing complexes with non-canonical RNA-protein interactions</p>
       </header>
       <div class="m-clearfix-l"></div>
 <!-- content -->
-<p>Understanding the intimate dance between proteins and RNA is essential for unraveling the mysteries of cellular functions. In a recent study, we proposed an innovative and efficient technique to accurately model the interactions between proteins and RNA, leading to insights that have the potential to advance the fields of structural biology and drug design.</p>
-<section id="the-challenge-building-complex-structures">
-<h2>The Challenge: Building Complex Structures</h2>
-<p>When a protein interacts with RNA, it forms what is known as a protein-RNA complex. Constructing accurate models of these complexes is a formidable challenge. Traditional methods, such as template-based modeling, involve creating the overall conformation and then manually connecting RNA with a protein’s RNA-binding domains (RBDs). However, this doesn't always lead to natural or biologically plausible complexes.</p>
-</section>
-<section id="a-leap-forward-ai-and-flexible-docking">
-<h2>A Leap Forward: AI and Flexible Docking</h2>
+<div class="m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m">
+<figure class="m-figure m-flat">
+<img alt="Association complex of Musashi RBD1 and RBD with a target RNA" src="../../../../files/papers/preview/Preview__Darai-2023.001small.webp" />
+</figure>
+</div>
+<p>Understanding the interactions between proteins and RNA is essential for unraveling the mysteries of cellular functions. In a recent study, we proposed an innovative and efficient technique to accurately model the interactions between proteins and RNA, leading to insights that have the potential to advance the fields of structural biology and drug design.</p>
+<p>When a protein interacts with RNA, it forms what is known as a protein-RNA complex. Constructing accurate models of these complexes is a formidable challenge. Traditional methods, such as template-based modeling, involve creating the overall conformation and then manually connecting RNA with a protein’s RNA-binding domains (RBDs). However, this doesn't always lead to biologically plausible complexes, highlighting the urgent need for improved methodologies to simulate protein-RNA association complexes.</p>
 <p>As we were particularly interested in the RNA-binding protein Musashi-1 (MSI1) and its interaction with RNA through RNA-binding domains (MSI1-RBDs), we proposed a two-step approach: first, we utilized the AI-based modeling technique Alphafold2 to predict a 3D structure of the MSI1-RBDs based on the amino-acid sequences in humans. Following this, we used a flexible docking technique called PaCS-MD to construct the protein-RNA complexes. Unlike traditional methods that manually ligate RNA to the protein, PaCS-MD automatically constructs the complexes, providing a more natural interaction.</p>
-</section>
-<section id="validation-and-insights">
-<h2>Validation and Insights</h2>
 <p>To ensure the validity of the constructed complexes, we evaluated their structural stability using the SIE (Solvation Interaction Energy) method. The results confirmed previous studies, showing that a core set of three nucleotides in MSI1-RBDs plays a significant role in the interaction with the target RNA. Moreover, we identified crucial residues for RNA-binding that aligned well with previous findings.</p>
-</section>
-<section id="advantages-and-limitations">
-<h2>Advantages and Limitations</h2>
 <p>Our method offers a significant advantage over conventional techniques. Unlike traditional homology modeling methods, such as Phyre2, our technique captures the essential transitions required for forming protein-RNA complexes. However, we acknowledge that the technique relies on having initial structural information from NMR (Nuclear Magnetic Resonance) coordinates. Without this data, achieving accurate flexible docking can be challenging.</p>
-</section>
-<section id="future-prospects">
-<h2>Future Prospects</h2>
 <p>The study provides a compelling demonstration of constructing plausible protein-RNA complexes using a combination of AI-based modeling and flexible docking. This research takes us one step closer to deciphering the complex interactions between proteins and RNA, paving the way for advancements in personalized medicine and drug discovery.</p>
 <object data="../../../../files/papers/Darai-2023.pdf" type="application/pdf" width="100%" height="1050px">
 <p>Your browser does not support PDFs.
@@ -107,7 +98,7 @@
 <p>An efficient structural refinement technique for protein-RNA complexes is proposed based on a combination of AI-based modeling and flexible docking. Specifically, an enhanced sampling method called parallel cascade selection molecular dynamics (PaCS-MD) was extended to include flexible docking to construct protein-RNA complexes from those obtained by AI-based modeling (AlphaFold2). With the present technique, the conformational sampling of flexible RNA regions is accelerated by PaCS-MD, enabling one to construct plausible models for protein-RNA complexes. For demonstration, PaCS-MD constructed several protein-RNA complexes of the RNA-binding Musashi-1 (MSI1) family of proteins, which were validated by comparing a group of crucial residues for RNA-binding with experimental complexes. Our analyses suggest that PaCS-MD improves the quality of complex modeling compared to the standard protocol based on template-based modeling (Phyre2). Furthermore, PaCS-MD could also be a beneficial technique for constructing complexes of non-native RNA-binding to proteins.</p>
 </aside>
 <section id="citation">
-<h3>Citation</h3>
+<h2>Citation</h2>
 <blockquote>
 <p>
 <a class="m-flat m-text m-strong" href="https://doi.org/10.1246/bcsj.20230092">A Structural Refinement Technique for Protein-RNA Complexes Using a Combination of AI-based Modeling and Flexible Docking: A Study of Musashi-1 Protein</a><br />
@@ -117,7 +108,7 @@ Nitchakan Darai, Kowit Hengphasatporn, Peter Wolschann, <span class="m-text m-ul
 </blockquote>
 </section>
 <section id="see-also">
-<h3>See Also</h3>
+<h2>See Also</h2>
 <blockquote>
 <p>
 <a class="m-flat m-text m-strong" href="../../../../blog/2022/Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein/">Theoretical studies on RNA recognition by Musashi 1 RNA–binding protein</a><br />
@@ -130,7 +121,6 @@ Adriano de Bernardi Schneider, <span class="m-text m-ul">Michael T. Wolfinger</s
 <em>Sci. Rep.</em> 9(1):6911 (2019) | <a class="doi" href="https://doi.org/10.1038/s41598-019-43390-5">doi:10.1038/s41598-019-43390-5</a> | <a class="m-flat m-text" href="../../../../files/papers/deBernardiSchneider-2019a.pdf">PDF</a> | <a class="m-flat m-text" href="../../../../files/QuickSlide/QuickSlide__deBernardiSchneider-2019a.pdf">Figures</a><br />
 </p>
 </blockquote>
-</section>
 </section>
 <!-- /content -->
       <footer>

@@ -22,6 +22,13 @@ RNA–RNA interaction analysis of Japanese encephalitis virus
 .. role:: doi(link)
   :class: doi
 
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
+
+  .. figure:: {static}/files/papers/preview/Preview__Mrozowich-2023.001small.webp
+        :alt: Graphical abstract of doi:10.1093/nar/gkad223
+        :figclass: m-figure m-flat
+
+
 In this study, we have utilized a unique combination of computational and biophysical techniques to investigate RNA-RNA interactions in Japanese encephalitis virus (JEV). We identified a specific JEV isolate with a hypothesized high-affinity interaction, and then employed various biophysical characterization methods to validate and characterize this interaction. Through size-exclusion chromatography coupled with multi-angle light scattering (SEC-MALS) and analytical ultracentrifugation (AUC), we demonstrated the direct interaction between the 5' and 3' terminal regions (TRs) of JEV with nanomolar affinity and 1:1 stoichiometry.
 
 Our computational analysis supported a kinetic favorability of the cyclization sequence interaction and its competitive advantage over potential homo-dimer RNA interactions. This provides valuable insights into the replication pathway/mechanism of flavivirus NS5 in replicating the viral genome. Our study also presents a low-resolution ab initio model that offers a potential architectural arrangement of this RNA-RNA interaction in solution. These findings lay a solid foundation for the development of pharmaceutical therapies targeting viral replication through interruption of the cyclization sequence, and also shed light on the fundamental understanding of RNA-RNA interactions in flaviviruses and other viral systems.
