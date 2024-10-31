@@ -78,6 +78,11 @@
       </header>
       <div class="m-clearfix-l"></div>
 <!-- content -->
+<div class="m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m">
+<figure class="m-figure m-flat">
+<img alt="Input/output encoding for predicting RNA paired/unpaired status using a BLSTM" src="../../../files/papers/preview/Preview__Flamm-2022.001small.webp" />
+</figure>
+</div>
 <p>One of the major issues we discovered is that many published AI models for RNA structure prediction rely on highly biased training sets. This bias significantly impacts the accuracy of predictions when the models are tested on RNA sequences outside of their training set. By using a technique known as inverse RNA folding—where we generate sequences that match specific structures—we created synthetic data with the same kind of bias found in these deep learning models. When we trained a neural network on this biased data, it performed well on new sequences that folded into familiar structures. However, when faced with sequences forming novel structures, the performance dropped drastically. This shows that while the network could generalize to new sequences, it struggled to predict new or unseen structures.</p>
 <p>Even more surprising is that many deep learning methods trained on unbiased data couldn't even reliably predict base pairing—a fundamental aspect of RNA structure that's simpler than the full RNA folding problem. Additionally, certain models, such as BLSTMs, predicted structural features like pseudoknots and base triplets, which don’t even appear in the ViennaRNA RNAfold ground truth. This mismatch between model output and reality underscores the limitations of these approaches.</p>
 <p>Our findings reveal significant gaps in current machine learning models for RNA structure prediction and highlight the need for more robust training methods. These insights could drive future improvements in how AI is applied to RNA biology, especially for tackling more complex tasks like RNA folding.</p>
