@@ -2,7 +2,7 @@ Papers
 ######
 :summary: Publications by Michael T. Wolfinger
 :title: Publications by Michael T. Wolfinger
-:description: Explore diverse topics and gain valuable insights with Michael T. Wolfinger's journal publications, book chapters, and preprints.
+:description: Discover Michael T. Wolfinger's research publications on RNA structure, viral bioinformatics, computational & synthetic biology
 
 
 :breadcrumb: / Home
