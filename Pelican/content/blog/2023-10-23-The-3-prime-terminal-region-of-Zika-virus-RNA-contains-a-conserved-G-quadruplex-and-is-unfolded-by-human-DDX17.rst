@@ -23,35 +23,21 @@ The 3′ terminal region of Zika virus RNA contains a conserved G-quadruplex and
 .. role:: doi(link)
   :class: doi
 
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
 
-Zika virus (ZIKV) has stirred global concern, leaving in its wake a desperate need for effective treatments. With 86 countries designated as ZIKV risk areas and a substantial impact on fetal development, innovative approaches to combat the virus are crucial. In our recent paper, we delved into the intricate world of ZIKV RNA structures and human protein interactions, shining light on a potential therapeutic avenue.
+   .. figure:: {static}/files/papers/preview/Preview__Gemmill-2024.001small.webp
+          :alt: G-Quadruplex in the terminal region of the Zika virus genome
+          :figclass: m-figure m-flat
 
-G-quadruplexes: A Unique RNA Structure
---------------------------------------
+Zika virus (ZIKV) is a global health threat. With nearly 100 countries designated as ZIKV risk areas and a substantial impact on fetal development, innovative approaches to combat the virus are crucial. In our recent paper, we delved into the intricate world of ZIKV RNA structures and human protein interactions, sheding light on a potential therapeutic application.
 
-G-quadruplexes (G4s) are peculiar RNA structures that play various roles in viruses and all domains of life. These structures can regulate transcription, translation, and even maintain genome stability. In ZIKV, a potential G-quadruplex sequence was located in the 3' terminal region (TR) using a quadruplex-forming G-rich sequences Mapper, but its conservation and role in larger ZIKV RNA transcripts remained unexplored.
+G-quadruplexes (G4s) are particularly interesting RNA structures that play various roles in viruses and all domains of life. These structures can regulate transcription, translation, and even maintain genome stability. In ZIKV, a potential G-quadruplex sequence was located in the 3' terminal region (TR) using a quadruplex-forming G-rich sequences Mapper, but its conservation and role in larger ZIKV RNA transcripts remained unexplored.
 
-Exploring ZIKV G4: Findings from Our Study
-------------------------------------------
+Our research establishes that the ZIKV 3' TR G4 is conserved across all ZIKV isolates and retains its structure in a 3' TR full-length transcript. This G4 formation was confirmed using pyridostatin and the BG4 G4-recognizing antibody binding assays. Crucially, we found that human DEAD-box helicases, DDX3X132-607 and DDX17135-555, bind to the 3' TR, and that DDX17135-555 unfolds the G4 in the 3' TR. This unraveling of the G4 structure presents an opportunity for therapeutic targeting.
 
-Our research establishes that the ZIKV 3' TR G4 is conserved across all ZIKV isolates and retains its structure in a 3' TR full-length transcript. This G4 formation was confirmed using pyridostatin and the BG4 G4-recognizing antibody binding assays.
-
-Crucially, we found that human DEAD-box helicases, DDX3X132-607 and DDX17135-555, bind to the 3' TR, and that DDX17135-555 unfolds the G4 in the 3' TR. This unraveling of the G4 structure presents an opportunity for therapeutic targeting.
-
-Significance in a One Health Context
-------------------------------------
-
-Understanding the ZIKV G4 structure and its interactions with human proteins is essential for a comprehensive One Health approach, which recognizes the interconnectedness of human, animal, and environmental health.
-
-ZIKV, transmitted primarily by Aedes mosquitoes, not only leads to congenital disabilities in utero but can also cause debilitating symptoms in adults. A nuanced understanding of the virus's replication mechanisms through our study can facilitate the development of targeted treatments, reducing the disease burden on vulnerable populations.
-
-Therapeutic Potential: A New Horizon
-------------------------------------
+Understanding the ZIKV G4 structure and its interactions with human proteins is essential for a comprehensive One Health approach, which recognizes the interconnectedness of human, animal, and environmental health. ZIKV, transmitted primarily by Aedes mosquitoes, not only leads to congenital disabilities in utero but can also cause debilitating symptoms in adults. A nuanced understanding of the virus's replication mechanisms through our study can facilitate the development of targeted treatments, reducing the disease burden on vulnerable populations.
 
 Our discovery allows us to contemplate potential treatments using G4 binding molecules or other molecules that disrupt human DDX17–3' SL interaction. Though more research is needed to understand the function of the 3' SL G4 during viral replication, our study lays the groundwork for innovative therapeutics against ZIKV.
-
-Conclusion: The Way Forward
----------------------------
 
 In the absence of ZIKV treatments or vaccines, our research sheds light on the potential of targeting specific RNA structures and their interactions with human proteins. By understanding and leveraging these interactions, we may open new doors in the fight against ZIKV, contributing to a holistic One Health strategy.
 

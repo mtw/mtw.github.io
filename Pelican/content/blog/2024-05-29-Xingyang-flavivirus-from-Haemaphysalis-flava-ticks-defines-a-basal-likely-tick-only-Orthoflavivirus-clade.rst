@@ -23,6 +23,12 @@ Xinyang flavivirus, from Haemaphysalis flava ticks in Henan Province, China, def
 .. role:: doi(link)
   :class: doi
 
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
+
+  .. figure:: {static}/files/papers/preview/Preview__Wang-2024.001small.webp
+      :alt: Figure 2 from Wang et al. (2024) doi:10.1099/jgv.0.001991
+      :figclass: m-figure m-flat
+
 What sets XiFV apart from many other flaviviruses is its apparent restriction to an arthropod-only life cycle. While most flaviviruses are transmitted between ticks and mammals or birds, XiFV shows no evidence of such transmission. Its genome exhibits traits similar to insect-specific flaviviruses, reinforcing the idea that it might be confined to ticks. Notably, XiFV and its close relatives lack a crucial protein cleavage site found in flaviviruses that infect vertebrates, further suggesting their life cycle is restricted to tick populations.
 
 On a structural level, XiFV shares several characteristics with other orthoflaviviruses, particularly in the formation of complex RNA structures in its 3′ untranslated region. These structures are known to play a role in viral replication and evasion of host immune defenses. Our findings add to the growing understanding that a distinct group of tick-borne flaviviruses might not need a vertebrate host to survive, opening the door to further research into their ecology and interactions with other pathogens.

@@ -23,6 +23,12 @@ A framework for automated scalable designation of viral pathogen lineages from g
 .. role:: doi(link)
   :class: doi
 
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
+
+  .. figure:: {static}/files/papers/preview/Preview__McBroome-2024.001small.webp
+        :alt: Automated lineage designation of Venezuelan Equine Encephalitis complex viruses
+        :figclass: m-figure m-flat
+
 Tracking and categorizing viruses like SARS-CoV-2 effectively is crucial for scientific research and public health initiatives. Traditionally, scientists used naming conventions based on geographical locations or specific characteristics to identify variants. However, given the rapid mutations in viruses, even a single mutation can create a new lineage, complicating classification. Additionally, the vast amount of genomic data associated with viruses like SARS-CoV-2 presents challenges for existing classification methods, which often involve manual curation and crowd-sourced proposals, leading to time-consuming processes and potential biases.
 
 To overcome these challenges, we introduce Autolin, an automated system that utilizes genetic data to classify viral lineages. This approach proves to be efficient even with extensive datasets, offering a much quicker and more objective method compared to manual curation. The prospect of analyzing and classifying rapidly evolving viruses in real-time represents a significant advancement in our ability to monitor and comprehend these pathogens.

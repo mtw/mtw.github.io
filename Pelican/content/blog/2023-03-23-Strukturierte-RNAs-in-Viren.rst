@@ -22,6 +22,13 @@ Strukturierte RNAs in Viren (in German)
 .. role:: doi(link)
   :class: doi
 
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
+
+  .. figure:: {static}/files/papers/preview/Preview__Ochsenreiter-2023.001small.webp
+          :alt: Schematic representation of xrRNA exoribonuclease stalling 
+          :figclass: m-figure m-flat
+
+
 Exoribonuclease-resistant RNAs are a type of RNA molecule that possess unique properties in the 3' untranslated region (3'UTR) of flaviviruses, a family of RNA viruses that includes notorious pathogens such as dengue virus and Zika virus. The 3'UTR is a non-coding region of the viral RNA genome that plays crucial roles in viral replication and immune evasion. Exoribonucleases are cellular enzymes that degrade RNA molecules, including viral RNA, as part of the host's antiviral defense mechanism. However, some flaviviruses have evolved to contain specific sequences in their 3'UTR that confer resistance to exoribonuclease degradation.
 
 These exoribonuclease-resistant RNAs (xrRNAs) in the 3'UTR of flaviviruses have gained attention as potential therapeutic targets for RNA-based antiviral strategies. By utilizing the unique properties of xrRNAs, we can design RNA molecules that mimic the viral sequences in a synthetic biology context. Utilizing the distinctive features of exoribonuclease-resistant RNAs represents a novel approach in the development of antiviral RNA therapeutics, and may serve as a regulatory tool for future mRNA vaccines.

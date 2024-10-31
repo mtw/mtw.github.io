@@ -23,8 +23,6 @@ Pan-flavivirus analysis reveals sfRNA-independent 3' UTR-biased siRNA production
 .. role:: doi(link)
   :class: doi
 
-
-
 .. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
 
   .. figure:: {static}/files/papers/preview/Preview__Besson-2024.001small.webp
