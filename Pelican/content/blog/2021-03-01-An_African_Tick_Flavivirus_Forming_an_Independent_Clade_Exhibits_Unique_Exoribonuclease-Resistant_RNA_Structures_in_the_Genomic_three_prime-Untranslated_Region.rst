@@ -24,6 +24,12 @@ An African Tick Flavivirus Forming an Independent Clade Exhibits Unique Exoribon
 .. role:: doi(link)
   :class: doi
 
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
+
+  .. figure:: {static}/files/papers/preview/Preview__Harima-2021.001small.webp
+        :alt: Exoribonuclease-resistant RNAs (xrRNAs) in the 3'UTR of Mpulungu virus
+        :figclass: m-figure m-flat
+
 We report the discovery of Mpulungu virus (MPFV), a novel tick flavivirus, identified in a tick species from Zambia. The complete genome sequence of MPFV was determined and found to be closely related to the Ngoye virus from Senegal, suggesting that this group of viruses may be widespread across Africa. This expands the known geographical distribution and genetic diversity of flaviviruses. Despite unsuccessful attempts to isolate MPFV in cell culture and neonatal mice, the study employed a predictive analysis based on dinucleotide ratios, which suggested that MPFV might infect vertebrate hosts similar to other tick-borne flaviviruses (TBFVs), potentially posing a public health risk.
 
 The study further delved into the genetic details of MPFV, focusing on the untranslated regions (UTRs) of the viral genome that are crucial for viral translation and replication. The 5′-UTR of MPFV showed a typical flavivirus structure, suggesting similar RNA synthesis processes. However, the 3′-UTR displayed some unique characteristics, differing from known TBFVs in terms of sequence composition, length, and secondary structures.

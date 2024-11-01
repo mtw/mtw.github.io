@@ -272,27 +272,74 @@ Peer-reviewed journal / conference articles and book chapters
 `2021`_
 -------
 
-.. container:: refs-2021
+.. container:: m-container-inflatable
 
-  | 37. :link-flat-strong:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <{filename}blog/2021-09-06-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`
-  | :ul:`Michael T. Wolfinger`, Roman Ochsenreiter, Ivo L. Hofacker
-  | In *Virus Bioinformatics*, edited by Dmitrij Frishman and Manja Marz, pp65–100. Chapman and Hall/CRC Press (2021) 
-  | :doi:`doi:10.1201/9781003097679-5 <https://doi.org/10.1201/9781003097679-5>` | :link-flat:`Preprint PDF <{static}/files/papers/Wolfinger-2021.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Wolfinger-2021.pdf>` | :label-flat-info:`Book chapter`
+  .. container:: m-row
 
-  | 36. :link-flat-strong:`Gene Expression Profiling of Pseudomonas Aeruginosa Upon Exposure to Colistin and Tobramycin  <{filename}/publications/papers/Gene_Expression_Profiling_of_Pseudomonas_Aeruginosa_Upon_Exposure_to_Colistin_and_Tobramycin.rst>`
-  | Anastasia Cianciulli Sesso, Branislav Lilić, Fabian Amman, :ul:`Michael T. Wolfinger`, Elisabeth Sonnleitner, Udo Bläsi
-  | *Front. Microbiol.* 12:937 (2021) 
-  | :doi:`doi:10.3389/fmicb.2021.626715 <https://doi.org/10.3389/fmicb.2021.626715>` | :link-flat:`PDF <{static}/files/papers/Sesso-2021.pdf>` | :label-flat-info:`Journal article`
+    .. container::  m-col-t-8 
 
-  | 35. :link-flat-strong:`An African Tick Flavivirus Forming an Independent Clade Exhibits Unique Exoribonuclease-Resistant RNA Structures in the Genomic 3’-Untranslated Region <{filename}/blog/2021-03-01-An_African_Tick_Flavivirus_Forming_an_Independent_Clade_Exhibits_Unique_Exoribonuclease-Resistant_RNA_Structures_in_the_Genomic_three_prime-Untranslated_Region.rst>`
-  | Hayato Harima, Yasuko Orba, Shiho Torii, Yongjin Qiu, Masahiro Kajihara, Yoshiki Eto, Naoya Matsuta, Bernard M. Hang’ombe, Yuki Eshita, Kentaro Uemura, Keita Matsuno, Michihito Sasaki, Kentaro Yoshii, Ryo Nakao, William W. Hall, Ayato Takada, Takashi Abe, :ul:`Michael T. Wolfinger`, Martin Simuunza, Hirofumi Sawa
-  | *Sci. Rep.* 11:4883 (2021) 
-  | :doi:`doi: 10.1038/s41598-021-84365-9 <https://doi.org/10.1038/s41598-021-84365-9>` | :link-flat:`PDF <{static}/files/papers/Harima-2021.pdf>` | :label-flat-info:`Journal article`
+      | 37. :link-flat-strong:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <{filename}blog/2021-09-06-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`
+      | :ul:`Michael T. Wolfinger`, Roman Ochsenreiter, Ivo L. Hofacker
+      | In *Virus Bioinformatics*, edited by Dmitrij Frishman and Manja Marz, pp65–100. Chapman and Hall/CRC Press (2021) 
+      | :doi:`doi:10.1201/9781003097679-5 <https://doi.org/10.1201/9781003097679-5>` | :link-flat:`Preprint PDF <{static}/files/papers/Wolfinger-2021.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Wolfinger-2021.pdf>` | :label-flat-info:`Book chapter`
 
-  | 34. :link-flat-strong:`Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Variants That Alter RNA Structure in Chikungunya Virus  <{filename}/blog/2021-02-08-Dynamic_Molecular_Epidemiology_Reveals_Lineage-Associated_Single-Nucleotide_Variants_That_Alter_RNA_Structure_in_Chikungunya_Virus.rst>`
-  | Thomas Spicher, Markus Delitz, Adriano de Bernardi Schneider, :ul:`Michael T. Wolfinger`
-  | *Genes* 12 (2):239 (2021) 
-  | :doi:`doi:10.3390/genes12020239 <https://doi.org/10.3390/genes12020239>` | :link-flat:`PDF <{static}/files/papers/Spicher-2021.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Spicher-2021.pdf>` | :label-flat-info:`Journal article`
+    .. container:: m-col-t-4
+
+      .. figure:: {static}/files/papers/preview/Preview__Wolfinger-2021.001small.webp
+          :alt: Consenus RNA secondary sructures of evolutionary conserved elements in flavivirus 3'UTRs
+          :figclass: m-figure m-flat
+          :target: {filename}/blog/2021-09-06-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst
+
+
+  .. container:: m-row
+
+    .. container::  m-col-t-8 
+
+      | 36. :link-flat-strong:`Gene Expression Profiling of Pseudomonas Aeruginosa Upon Exposure to Colistin and Tobramycin  <{filename}/publications/papers/Gene_Expression_Profiling_of_Pseudomonas_Aeruginosa_Upon_Exposure_to_Colistin_and_Tobramycin.rst>`
+      | Anastasia Cianciulli Sesso, Branislav Lilić, Fabian Amman, :ul:`Michael T. Wolfinger`, Elisabeth Sonnleitner, Udo Bläsi
+      | *Front. Microbiol.* 12:937 (2021) 
+      | :doi:`doi:10.3389/fmicb.2021.626715 <https://doi.org/10.3389/fmicb.2021.626715>` | :link-flat:`PDF <{static}/files/papers/Sesso-2021.pdf>` | :label-flat-info:`Journal article`
+
+    .. container:: m-col-t-4
+
+      .. figure:: {static}/files/papers/preview/Preview__Sesso-2021.001small.webp
+          :alt: Pathways and functions dysregulated upon colistin treatment
+          :figclass: m-figure m-flat
+          :target: {filename}/publications/papers/Gene_Expression_Profiling_of_Pseudomonas_Aeruginosa_Upon_Exposure_to_Colistin_and_Tobramycin.rst
+
+  .. container:: m-row
+
+    .. container::  m-col-t-8 
+
+      | 35. :link-flat-strong:`An African Tick Flavivirus Forming an Independent Clade Exhibits Unique Exoribonuclease-Resistant RNA Structures in the Genomic 3’-Untranslated Region <{filename}/blog/2021-03-01-An_African_Tick_Flavivirus_Forming_an_Independent_Clade_Exhibits_Unique_Exoribonuclease-Resistant_RNA_Structures_in_the_Genomic_three_prime-Untranslated_Region.rst>`
+      | Hayato Harima, Yasuko Orba, Shiho Torii, Yongjin Qiu, Masahiro Kajihara, Yoshiki Eto, Naoya Matsuta, Bernard M. Hang’ombe, Yuki Eshita, Kentaro Uemura, Keita Matsuno, Michihito Sasaki, Kentaro Yoshii, Ryo Nakao, William W. Hall, Ayato Takada, Takashi Abe, :ul:`Michael T. Wolfinger`, Martin Simuunza, Hirofumi Sawa
+      | *Sci. Rep.* 11:4883 (2021) 
+      | :doi:`doi: 10.1038/s41598-021-84365-9 <https://doi.org/10.1038/s41598-021-84365-9>` | :link-flat:`PDF <{static}/files/papers/Harima-2021.pdf>` | :label-flat-info:`Journal article`
+
+    .. container:: m-col-t-4
+
+      .. figure:: {static}/files/papers/preview/Preview__Harima-2021.001small.webp
+          :alt: Exoribonuclease-resistant RNAs (xrRNAs) in the 3'UTR of Mpulungu virus
+          :figclass: m-figure m-flat
+          :target: {filename}/blog/2021-03-01-An_African_Tick_Flavivirus_Forming_an_Independent_Clade_Exhibits_Unique_Exoribonuclease-Resistant_RNA_Structures_in_the_Genomic_three_prime-Untranslated_Region.rst
+
+  .. container:: m-row
+
+    .. container::  m-col-t-8 
+
+
+      | 34. :link-flat-strong:`Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Variants That Alter RNA Structure in Chikungunya Virus  <{filename}/blog/2021-02-08-Dynamic_Molecular_Epidemiology_Reveals_Lineage-Associated_Single-Nucleotide_Variants_That_Alter_RNA_Structure_in_Chikungunya_Virus.rst>`
+      | Thomas Spicher, Markus Delitz, Adriano de Bernardi Schneider, :ul:`Michael T. Wolfinger`
+      | *Genes* 12 (2):239 (2021) 
+      | :doi:`doi:10.3390/genes12020239 <https://doi.org/10.3390/genes12020239>` | :link-flat:`PDF <{static}/files/papers/Spicher-2021.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Spicher-2021.pdf>` | :label-flat-info:`Journal article`
+
+    .. container:: m-col-t-4
+
+      .. figure:: {static}/files/papers/preview/Preview__Spicher-2021.001small.webp
+          :alt: Enselble properties of a lineage-specific structured RNA in Chikungunya virus
+          :figclass: m-figure m-flat
+          :target: {filename}/blog/2021-02-08-Dynamic_Molecular_Epidemiology_Reveals_Lineage-Associated_Single-Nucleotide_Variants_That_Alter_RNA_Structure_in_Chikungunya_Virus.rst
+          
 
 
 `2020`_

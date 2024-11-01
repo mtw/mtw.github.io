@@ -23,6 +23,13 @@ Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Vari
 .. role:: doi(link)
   :class: doi
 
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
+
+    .. figure:: {static}/files/papers/preview/Preview__Spicher-2021.001small.webp
+          :alt: Enselble properties of a lineage-specific structured RNA in Chikungunya virus
+          :figclass: m-figure m-flat
+
+
 Chikungunya virus, an emerging Alphavirus, causes millions of human infections annually and has witnessed outbreaks in Africa and Asia since the 1950s. The research presented here delves into the molecular epidemiology of CHIKV, revealing how single nucleotide variants can impact the virus's RNA structures. Utilizing more than 1000 publicly available CHIKV genomes, the study provides an interactive phylodynamics dataset using Nextstrain, a tool for real-time tracking of pathogen evolution. The data set, publicly available through `CHIKVnext <https://nextstrain.org/groups/ViennaRNA/CHIKVnext>`_, enables the tracking of spatiotemporal and epidemiological aspects of the CHIKV global spread.
 
 The study addresses genotype/phenotype associations in CHIKV by employing comparative approaches, molecular epidemiology concepts, phylogeny reconstruction, and computational RNA biology. The nucleotide divergence within CHIKV lineages is found to be relatively low, often due to geographical constraints and a limited collection period for newer lineages. However, the divergence between different lineages can be considerable, with the West African lineage showing the highest divergence compared to others.
