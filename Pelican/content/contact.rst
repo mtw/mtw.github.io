@@ -22,7 +22,7 @@ Contact
         id="825cc2be-cbeb-44ed-9c3c-fbe4ed033e2d"
         url="https://ciawftws.formester.com/f/825cc2be-cbeb-44ed-9c3c-fbe4ed033e2d"
       ></formester-standard-form>
-    
+
 
 .. container:: m-row
 
@@ -32,7 +32,7 @@ Contact
 
           .. raw:: html
 
-              Bioinformatics and Computational Biology <br/>
+              Research Group Bioinformatics and Computational Biology (BCB)<br/>
               Faculty of Computer Science <br/>
               University of Vienna <br/>
               Währinger Strasse 29 <br/>
@@ -65,5 +65,3 @@ Contact
               <li><a href="https://github.com/mtw">Github</a></li>
 
             </ul>
-
-
