@@ -24,10 +24,11 @@ Current Team Members
     <ul>
     <li><strong>Leonhard Sidl</strong><a href="#ref1" class="m-footnote" id="#ref1-backref">1</a> (PhD Student)</li>
     <li><strong>Katrin Gutenbrunner</strong><a href="#ref1" class="m-footnote" id="#ref1-backref">1</a> (Master Student)</li>
+    <li><strong>Florentina Bayer</strong><a href="#ref1" class="m-footnote" id="#ref1-backref">1</a> (Master Student)</li>
     <li><strong>Yannick Seitz</strong><a href="#ref1" class="m-footnote" id="#ref1-backref">1</a> (Master Student)</li>
-    <li><strong>Milan Geyer</strong><a href="#ref1" class="m-footnote" id="#ref1-backref">1</a> (Master Student)</li> 
+    <li><strong>Milan Geyer</strong><a href="#ref1" class="m-footnote" id="#ref1-backref">1</a> (Master Student)</li>
     <li><strong>Michael T. Wolfinger</strong><a href="#ref1" class="m-footnote" id="#ref1-backref">1</a> (Principal Investigator)</li>
- 
+
     </ul>
 
 Past Team Members
@@ -49,22 +50,21 @@ Past Team Members
       <li>Christian Mayr<a href="#ref2" class="m-footnote" id="ref2-backref">2</a></li>
     </ul>
 
-Join the Team 
+Join the Team
 =============
 
 If you're passionate about RNA science, computational biology, or synthetic biology, and interested in joining our research team, please :link:`reach out to Michael T. Wolfinger <{filename}/contact.rst>`. We’re always excited to work with motivated individuals eager to contribute to groundbreaking research!
 
 
-.. raw:: html    
+.. raw:: html
 
-  <dl class="m-footnote"> 
-    <dt id="ref1">1.</dt> 
+  <dl class="m-footnote">
+    <dt id="ref1">1.</dt>
     <dd>
-      <span class="m-footnote"><a href="#ref1-backref">^</a></span> University of Vienna 
-    </dd> 
-    <dt id="ref2">2.</dt> 
+      <span class="m-footnote"><a href="#ref1-backref">^</a></span> University of Vienna
+    </dd>
+    <dt id="ref2">2.</dt>
     <dd>
-      <span class="m-footnote"><a href="#ref2-backref">^</a></span> FH Campus Viennna 
-    </dd> 
-  </dl> 
-
+      <span class="m-footnote"><a href="#ref2-backref">^</a></span> FH Campus Viennna
+    </dd>
+  </dl>
