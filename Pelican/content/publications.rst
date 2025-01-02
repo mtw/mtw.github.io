@@ -28,6 +28,10 @@ Submitted Manuscripts / Preprints
 
 .. container:: preprints
 
+  | 53. :link-flat-strong:`From Structure to Function: Computational Insights into Musashi-RNA Complexes <{filename}/publications.rst>`
+  | Nitchakan Darai, Leonhard Sidl, Thanyada Rungrotmongkol, Peter Wolschann, :ul:`Michael T. Wolfinger`
+  | *Manuscript submitted* (2025)
+
   | 52. :link-flat-strong:`KinPFN: Bayesian Approximation of RNA Folding Kinetics using Prior-Data Fitted Networks <https://www.biorxiv.org/content/10.1101/2024.10.15.618378v1>`
   | Dominik Scheuer, Frederic Runge, Joerg K.H. Franke, :ul:`Michael T. Wolfinger`, Christoph Flamm, Frank Hutter
   | *bioRxiv* 2024.09.15.618378 (2024)
