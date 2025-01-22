@@ -32,12 +32,7 @@ Submitted Manuscripts / Preprints
   | Nitchakan Darai, Leonhard Sidl, Thanyada Rungrotmongkol, Peter Wolschann, :ul:`Michael T. Wolfinger`
   | *Manuscript submitted* (2025)
 
-  | 52. :link-flat-strong:`KinPFN: Bayesian Approximation of RNA Folding Kinetics using Prior-Data Fitted Networks <https://www.biorxiv.org/content/10.1101/2024.10.15.618378v1>`
-  | Dominik Scheuer, Frederic Runge, Joerg K.H. Franke, :ul:`Michael T. Wolfinger`, Christoph Flamm, Frank Hutter
-  | *bioRxiv* 2024.09.15.618378 (2024)
-  | :link-flat:`Preprint PDF <{static}/files/papers/Scheuer-2024__PREPRINT.pdf>`
-
-  | 51. :link-flat-strong:`RNA secondary structure ensemble mapping in a living cell identifies conserved RNA regulatory switches and thermometers <https://www.biorxiv.org/content/10.1101/2024.09.16.613214v1>`
+  | 52. :link-flat-strong:`RNA secondary structure ensemble mapping in a living cell identifies conserved RNA regulatory switches and thermometers <https://www.biorxiv.org/content/10.1101/2024.09.16.613214v1>`
   | Ivana Borovska, Chundan Zhang, Edoardo Morandi, Daphne van den Homberg, :ul:`Michael T. Wolfinger`, Willem Velema, Danny Incarnato
   | *bioRxiv* 2024.09.16.613214 (2024)
   | :link-flat:`Preprint PDF <{static}/files/papers/Borkovska-2024__PREPRINT.pdf>`
@@ -47,6 +42,23 @@ Submitted Manuscripts / Preprints
 
 Peer-reviewed journal / conference articles and book chapters
 =============================================================
+
+`2025`_
+-------
+
+
+.. container:: m-container-inflatable
+
+  .. container:: m-row
+
+    .. container::  m-col-t-8
+
+      | 51. :link-flat-strong:`KinPFN: Bayesian Approximation of RNA Folding Kinetics using Prior-Data Fitted Networks <https://www.biorxiv.org/content/10.1101/2024.10.15.618378v1>`
+      | Dominik Scheuer, Frederic Runge, Joerg K.H. Franke, :ul:`Michael T. Wolfinger`, Christoph Flamm, Frank Hutter
+      | *Manuscript accepted* (2025)
+      | :link-flat:`Preprint PDF <{static}/files/papers/Scheuer-2024__PREPRINT.pdf>` | :label-flat-info:`Conference article`
+
+
 
 `2024`_
 -------
