@@ -101,7 +101,7 @@ M_LINKS_FOOTER3 = [('My Profiles',''),
 
 M_LINKS_FOOTER4 = [('Social', ''),
                     ('Linkedin', 'https://www.linkedin.com/in/michaelwolfinger/'),
-                    ('Twitter', 'https://twitter.com/mtwolfinger'),
+                    ('Bluesky', 'https://bsky.app/profile/mtwolfinger.bsky.social'),
                     ('GitHub', 'https://github.com/mtw'),
                     ('ORCID', 'https://orcid.org/0000-0003-0925-5205'),
                     ]
