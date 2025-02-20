@@ -55,7 +55,7 @@ Peer-reviewed journal / conference articles and book chapters
 
       | 51. :link-flat-strong:`KinPFN: Bayesian Approximation of RNA Folding Kinetics using Prior-Data Fitted Networks <https://www.biorxiv.org/content/10.1101/2024.10.15.618378v1>`
       | Dominik Scheuer, Frederic Runge, Joerg K.H. Franke, :ul:`Michael T. Wolfinger`, Christoph Flamm, Frank Hutter
-      | *Manuscript accepted* (2025)
+      | *Manuscript accepted* at the :link-flat:`Thirteenth International Conference on Learning Representations (ICLR) <https://iclr.cc/>` (2025)
       | :link-flat:`Preprint PDF <{static}/files/papers/Scheuer-2024__PREPRINT.pdf>` | :label-flat-info:`Conference article`
 
 
