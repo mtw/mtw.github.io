@@ -12,7 +12,7 @@ Michael Thomas Wolfingers's Research
 .. role:: link-sup(link)
   :class: m-flat m-text m-footnote
 
-At the intersection of **synthetic biology** and **computational RNA science**, my research uncovers the complex relationship between *RNA structure and function*. Among my long-term research priorities is the study of RNA viruses, where I investigate how evolutionary pressures shape RNA structures, and how these structural changes impact virus behavior and pathogenicity. By understanding these principles, we gain valuable insight into the biological mechanisms that drive virus evolution and emergence. This foundational knowledge not only advances our understanding of pathogens but also enables the *de-novo design* of innovative biological systems, such as *artificial riboswitches*, designed for precise molecular control.
+At the intersection of **computational RNA biology**, **data science**, and **synthetic biology**, my research uncovers the complex relationship between *RNA structure and function*. Among my long-term research priorities is the study of RNA viruses, where I investigate how evolutionary pressures shape RNA structures, and how these structural changes impact virus behavior and pathogenicity. By understanding these principles, we gain valuable insight into the biological mechanisms that drive virus evolution and emergence. This foundational knowledge not only advances our understanding of pathogens but also enables the *de-novo design* of innovative biological systems, such as *artificial riboswitches*, designed for precise molecular control.
 
 Key Research Interests
 ======================
