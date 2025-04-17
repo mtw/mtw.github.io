@@ -2,7 +2,7 @@ Presentations
 #############
 :summary: Oral presentation and invited talks given by Michael Thomas Wolfinger
 :title: Invited talks and presentations by Michael T. Wolfinger
-:description: Explore talks and oral presentations by Michael T. Wolfinger, offerimg insights into RNA bioinformatics, synthetic biology, and related research topics 
+:description: Explore talks and oral presentations by Michael T. Wolfinger, offerimg insights into RNA bioinformatics, synthetic biology, and related research topics
 
 
 :breadcrumb: / Home
@@ -23,6 +23,9 @@ Presentations
 Selected oral presentations and invited talks
 =============================================
 
+| :link-flat-strong:`Incorporating RNA Modifications into ViennaRNA's Predictive Models <{static}/files/presentations/2025-04-02-EBI.pdf>`
+| Presented at the :raw-html:`<em>EMBL-EBI Industry Programme Workshop 'Computational approaches to predict small-molecule/RNA interaction'</em>`
+| Hinxton, UK. 2 April 2025 | :doi:`doi:10.13140/RG.2.2.29431.74402 <https://doi.org/10.13140/RG.2.2.29431.74402>` | :label-flat-info:`Invited talk`
 
 | :strong:`Towards xrRNA riboswitches`
 | Presented at the :raw-html:`<em>8<sup>th</sup> Computational Approaches to RNA Structure and Function Meeting</em>`
@@ -61,7 +64,7 @@ Selected oral presentations and invited talks
 | Bled, Slovenia. 16 February 2017 | :doi:`doi:10.13140/RG.2.2.28432.07686 <https://doi.org/10.13140/RG.2.2.28432.07686>` | :label-flat-info:`Conference talk`
 
 | :link-flat-strong:`Rewriting the history of Zika sfRNA evolution <{static}/files/presentations/2016-02-17-Ljubljana.pdf>`
-| Presented at the :raw-html:`<em>31<sup>st</sup> TBI Winter Seminar</em>` 
+| Presented at the :raw-html:`<em>31<sup>st</sup> TBI Winter Seminar</em>`
 | Ljubljana, Slovenia. 17 February 2016 | :label-flat-info:`Invited talk`
 
 | :link-flat-strong:`Building efficient NGS analysis pipelines with ViennaNGS <{static}/files/presentations/2015-02-19-ViennaNGS.pdf>`
