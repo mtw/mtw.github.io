@@ -23,6 +23,10 @@ Presentations
 Selected oral presentations and invited talks
 =============================================
 
+| :strong:`Viral or Artificial? xrRNAs Just Say NO to Exonucleases`
+| Presented at the *RNA Modelling Across Scales Meeting*
+| Trieste, Italy. 22 May 2025 | :label-flat-info:`Invited talk`
+
 | :link-flat-strong:`Incorporating RNA Modifications into ViennaRNA's Predictive Models <{static}/files/presentations/2025-04-02-EBI.pdf>`
 | Presented at the :raw-html:`<em>EMBL-EBI Industry Programme Workshop 'Computational approaches to predict small-molecule/RNA interaction'</em>`
 | Hinxton, UK. 2 April 2025 | :doi:`doi:10.13140/RG.2.2.29431.74402 <https://doi.org/10.13140/RG.2.2.29431.74402>` | :label-flat-info:`Invited talk`
