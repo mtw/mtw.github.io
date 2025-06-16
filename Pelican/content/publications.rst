@@ -28,11 +28,8 @@ Submitted Manuscripts / Preprints
 
 .. container:: preprints
 
-  | 54. :link-flat-strong:`From Structure to Function: Computational Insights into Musashi-RNA Complexes <{filename}/publications.rst>`
-  | Nitchakan Darai, Leonhard Sidl, Thanyada Rungrotmongkol, Peter Wolschann, :ul:`Michael T. Wolfinger`
-  | *Manuscript submitted* (2025)
 
-  | 53. :link-flat-strong:`RNA secondary structure ensemble mapping in a living cell identifies conserved RNA regulatory switches and thermometers <https://www.biorxiv.org/content/10.1101/2024.09.16.613214v1>`
+  | 54. :link-flat-strong:`RNA secondary structure ensemble mapping in a living cell identifies conserved RNA regulatory switches and thermometers <https://www.biorxiv.org/content/10.1101/2024.09.16.613214v1>`
   | Ivana Borovska, Chundan Zhang, Edoardo Morandi, Daphne van den Homberg, :ul:`Michael T. Wolfinger`, Willem Velema, Danny Incarnato
   | *bioRxiv* 2024.09.16.613214 (2024)
   | :link-flat:`Preprint PDF <{static}/files/papers/Borkovska-2024__PREPRINT.pdf>`
@@ -53,10 +50,31 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container::  m-col-t-8
 
+      | 53. :link-flat-strong:`From Structure to Function: Computational Insights into Musashi-RNA Complexes in the Context of Viral Pathogenesis and Beyond <{filename}/publications.rst>`
+      | Nitchakan Darai, Leonhard Sidl, Thanyada Rungrotmongkol, Peter Wolschann, :ul:`Michael T. Wolfinger`
+      | *Sci. Asia* (2025) Accepted Manuscript
+      | :label-flat-info:`Review article`
+
+    .. container:: m-col-t-4
+
+      .. figure:: {static}/files/papers/preview/Preview__Darai-2025.001small.webp
+          :alt: KinPFN: Training on a synthetic prior
+          :figclass: m-figure m-flat
+          :target: {filename}/publications.rst
+
+    .. container::  m-col-t-8
+
       | 52. :link-flat-strong:`Bayesian Approximation of RNA Folding Times <https://openreview.net/forum?id=cOwOJNJijB>`
       | Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, :ul:`Michael T. Wolfinger`, Christoph Flamm, Frank Hutter
       | *ICLR 2025 Workshop on AI for Nucleic Acids* (2025)
       | :doi:`doi:10.5281/zenodo.15228717 <https://doi.org/10.5281/zenodo.15228717>` | :link-flat:`PDF <{static}/files/papers/Scheuer-2025__AI4NA.pdf>` | :label-flat-info:`Conference article`
+
+    .. container:: m-col-t-4
+
+      .. figure:: {static}/files/papers/preview/Preview__Scheuer-2025__AI4NA.001small.webp
+          :alt: KinPFN: Training on a synthetic prior
+          :figclass: m-figure m-flat
+          :target: {filename}/publications.rst
 
     .. container::  m-col-t-8
 
@@ -64,6 +82,13 @@ Peer-reviewed journal / conference articles and book chapters
       | Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, :ul:`Michael T. Wolfinger`, Christoph Flamm, Frank Hutter
       | *The Thirteenth International Conference on Learning Representations (ICLR'25)* (2025)
       | :doi:`doi:10.5281/zenodo.15233965 <https://doi.org/10.5281/zenodo.15233965>` | :link-flat:`PDF <{static}/files/papers/Scheuer-2025.pdf>` | :label-flat-info:`Conference article`
+
+    .. container:: m-col-t-4
+
+      .. figure:: {static}/files/papers/preview/Preview__Scheuer-2025.001small.webp
+          :alt: KinPFN: Training on a synthetic prior
+          :figclass: m-figure m-flat
+          :target: {filename}/publications.rst
 
 
 `2024`_
