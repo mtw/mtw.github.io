@@ -19,6 +19,27 @@ Selected Posters
    :format: html
 
 
+.. _poznan2025:
+
+| :link-flat-strong:`Designing Artificial xrRNA Structures for Regulation of Gene Expression <{static}/files/posters/2025-06-24-Poznan.pdf>`
+| Jule Walter, Leonhard Sidl, Denis Skibinski, Heike Betat, Mario Mörl, :ul:`Michael T. Wolfinger`
+| Presented at the *2nd Polish RNA Meeting*
+| Poznan, Poland. June 2025 | `doi:10.13140/RG.2.2.25319.76968 <http://dx.doi.org/10.13140/RG.2.2.25319.76968>`_
+
+.. _iclr2025ai4na:
+
+| :link-flat-strong:`Bayesian Approximation of RNA Folding Times <{static}/files/posters/2025-04-27-ICLR2025AI4NA.pdf>`
+| Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, :ul:`Michael T. Wolfinger`, Christoph Flamm, Frank Hutter
+| Presented at the *ICLR 2025 Workshop on AI for Nucleic Acids (AI4NA)*
+| Singapore. April 2025 | `doi:10.5281/zenodo.15364718 <https://doi.org/10.5281/zenodo.15364718>`_
+
+.. _iclr2025:
+
+| :link-flat-strong:`KinPFN: Bayesian Approximation of RNA Folding Kinetics using Prior-Data Fitted Networks <{static}/files/posters/2025-04-24-ICLR2025.pdf>`
+| Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, :ul:`Michael T. Wolfinger`, Christoph Flamm, Frank Hutter
+| Presented at the *13th International Conference on Learning Representations (ICLR'25)*
+| Singapore. April 2025 | `doi:10.5281/zenodo.15350885 <https://doi.org/10.5281/zenodo.15350885>`_
+
 .. _gcsb2024:
 
 | :link-flat-strong:`Design of synthetic riboswitches that modulate mRNA stability <{static}/files/posters/2024-09-18-GCSB.pdf>`
