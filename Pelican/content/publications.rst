@@ -28,11 +28,22 @@ Submitted Manuscripts / Preprints
 
 .. container:: preprints
 
+  .. container:: m-row
 
-  | 54. :link-flat-strong:`RNA secondary structure ensemble mapping in a living cell identifies conserved RNA regulatory switches and thermometers <https://www.biorxiv.org/content/10.1101/2024.09.16.613214v1>`
-  | Ivana Borovska, Chundan Zhang, Edoardo Morandi, Daphne van den Homberg, :ul:`Michael T. Wolfinger`, Willem Velema, Danny Incarnato
-  | *bioRxiv* 2024.09.16.613214 (2024)
-  | :link-flat:`Preprint PDF <{static}/files/papers/Borkovska-2024__PREPRINT.pdf>`
+    .. container::  m-col-t-8
+
+      | 55. :link-flat-strong:`“Circle ofLife” - Zika virus genomic cyclization is controlled by sequence specificity <{filename}/publications.rst>`
+      | Liam Kerr, Danielle L. Gemmill, Higor S. Pereira, :ul:`Michael T. Wolfinger`, Trushar R. Patel
+      | Submitted manuscript (2025)
+
+  .. container:: m-row
+
+    .. container::  m-col-t-8
+
+      | 54. :link-flat-strong:`RNA secondary structure ensemble mapping in a living cell identifies conserved RNA regulatory switches and thermometers <https://www.biorxiv.org/content/10.1101/2024.09.16.613214v1>`
+      | Ivana Borovska, Chundan Zhang, Edoardo Morandi, Daphne van den Homberg, :ul:`Michael T. Wolfinger`, Willem Velema, Danny Incarnato
+      | *bioRxiv* 2024.09.16.613214 (2024)
+      | :link-flat:`Preprint PDF <{static}/files/papers/Borkovska-2024__PREPRINT.pdf>`
 
 .. transition::  - - -
 
@@ -52,8 +63,8 @@ Peer-reviewed journal / conference articles and book chapters
 
       | 53. :link-flat-strong:`From Structure to Function: Computational Insights into Musashi-RNA Complexes in the Context of Viral Pathogenesis and Beyond <{filename}/publications.rst>`
       | Nitchakan Darai, Leonhard Sidl, Thanyada Rungrotmongkol, Peter Wolschann, :ul:`Michael T. Wolfinger`
-      | *Sci. Asia* (2025) Accepted Manuscript
-      | :label-flat-info:`Review article`
+      | *Sci. Asia* 51S(1) 2025s013:1-10 (2025)
+      | :doi:`doi:10.2306/scienceasia1513-1874.2025.s013 <https://doi.org/10.2306/scienceasia1513-1874.2025.s013>` | :link-flat:`PDF <{static}/files/papers/Darai-2025.pdf>` | :label-flat-info:`Review article`
 
     .. container:: m-col-t-4
 
@@ -61,6 +72,8 @@ Peer-reviewed journal / conference articles and book chapters
           :alt: KinPFN: Training on a synthetic prior
           :figclass: m-figure m-flat
           :target: {filename}/publications.rst
+
+  .. container:: m-row
 
     .. container::  m-col-t-8
 
@@ -75,6 +88,8 @@ Peer-reviewed journal / conference articles and book chapters
           :alt: KinPFN: Training on a synthetic prior
           :figclass: m-figure m-flat
           :target: {filename}/publications.rst
+
+  .. container:: m-row
 
     .. container::  m-col-t-8
 
