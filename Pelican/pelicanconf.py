@@ -94,9 +94,9 @@ M_LINKS_FOOTER2 = [('Services', ''),
 
 M_LINKS_FOOTER3 = [('My Profiles',''),
                     ('Google Scholar', 'https://scholar.google.at/citations?user=w0PHGnEAAAAJ&hl=en'),
-                    ('Web of Science', 'https://www.webofscience.com/wos/author/record/N-9538-2014'),
                     ('ResearchGate', 'https://www.researchgate.net/profile/Michael-Wolfinger'),
                     ('Scopus', 'https://www.scopus.com/authid/detail.uri?authorId=6508361997'),
+                    ('Loop', 'https://loop.frontiersin.org/people/485709/overview'),
                     ]       
 
 M_LINKS_FOOTER4 = [('Social', ''),

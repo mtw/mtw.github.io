@@ -16,8 +16,8 @@
   <meta property="og:title" content="SHAPE directed RNA folding with the ViennaRNA Package" />
   <meta name="twitter:title" content="SHAPE directed RNA folding with the ViennaRNA Package" />
   <meta property="og:url" content="https://michaelwolfinger.com/blog/2015/SHAPE-directed-RNA-folding/" />
-  <meta property="og:description" content="The ViennaRNA Package supports three published approaches for SHAPE-guided RNA structure prediction. Here we evaluate and compare the methods by Deigan, Zarringhalam, and Washietl" />
-  <meta name="twitter:description" content="The ViennaRNA Package supports three published approaches for SHAPE-guided RNA structure prediction. Here we evaluate and compare the methods by Deigan, Zarringhalam, and Washietl" />
+  <meta property="og:description" content="The ViennaRNA Package 2.0 brings powerful dynamic programming algorithms to researchers studying nucleic acid folding. In this post, we explore three SHAPE-guided methods—Deigan, Zarringhalam, and Washietl—that have been integrated into our toolkit to improve predictions of base pair interactions and minimum free energy (MFE) structures for RNA molecules. By combining chemical probing data with in silico modeling, these approaches help capture real-world folding behaviors and enhance the accuracy of computational RNA structure predictions" />
+  <meta name="twitter:description" content="The ViennaRNA Package 2.0 brings powerful dynamic programming algorithms to researchers studying nucleic acid folding. In this post, we explore three SHAPE-guided methods—Deigan, Zarringhalam, and Washietl—that have been integrated into our toolkit to improve predictions of base pair interactions and minimum free energy (MFE) structures for RNA molecules. By combining chemical probing data with in silico modeling, these approaches help capture real-world folding behaviors and enhance the accuracy of computational RNA structure predictions" />
   <meta name="twitter:card" content="summary" />
   <meta property="og:type" content="article" />
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2RW3VW55N"></script>
@@ -74,14 +74,22 @@
           </time>
           SHAPE directed RNA folding with the ViennaRNA Package
         </a></h1>
-        <p>The ViennaRNA Package supports three published approaches for SHAPE-guided RNA structure prediction. Here we evaluate and compare the methods by Deigan, Zarringhalam, and Washietl</p>
+        <p>The ViennaRNA Package 2.0 brings powerful dynamic programming algorithms to researchers studying nucleic acid folding. In this post, we explore three SHAPE-guided methods—Deigan, Zarringhalam, and Washietl—that have been integrated into our toolkit to improve predictions of base pair interactions and minimum free energy (MFE) structures for RNA molecules. By combining chemical probing data with in silico modeling, these approaches help capture real-world folding behaviors and enhance the accuracy of computational RNA structure predictions</p>
       </header>
       <div class="m-clearfix-l"></div>
 <!-- content -->
-<p>With the rise of efficient methods for validating RNA structures, particularly through the combination of chemical probing and next-generation sequencing technologies, there has been an increasing need to integrate experimental data, like SHAPE reactivities, with in silico RNA structure prediction tools. These experimental techniques, which provide valuable insights from in vitro or even in vivo conditions, now play a crucial role in enhancing the accuracy of computational RNA structure predictions.</p>
-<p>To address this, we recently integrated three established methods for incorporating SHAPE probing data into the ViennaRNA Package. These methods allow experimental data to guide the prediction process, resulting in more accurate RNA structure models. To ensure the effectiveness of these integrations, we rigorously benchmarked the prediction results against a dataset of RNAs with known reference structures, providing a solid validation of the improvements these methods bring to computational RNA structure prediction.</p>
-<p>This advancement not only strengthens the predictive power of the ViennaRNA Package, but also bridges the gap between experimental data and computational modeling, allowing researchers to better understand RNA folding and function across diverse biological contexts.</p>
-<p>Don't miss the <a href="http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523/suppl/DC1">Supplementary Data</a>, containing extensive coverage of the applied benchmark strategies and lots of background information.</p>
+<section id="bridging-experiment-with-computation">
+<h2>Bridging Experiment with Computation</h2>
+<p>Modern experiments generate SHAPE reactivity profiles through selective 2’-hydroxyl acylation analyzed by primer extension, a method that reveals nucleotide flexibility in vitro or in vivo. To translate these reactivities into structural guidance, the Deigan, Zarringhalam, and Washietl methods each adjust the energy parameters used in traditional dynamic programming: Deigan’s model applies pseudo-energies directly to loops, Zarringhalam’s method uses reactivity-specific weights, and Washietl’s approach infers perturbation of the energy parameters to optimally fit the SHAPE signal. Together, these innovations allow the prediction of both the minimum free energy (MFE) structure and the ensemble of probable folds with improved sensitivity to experimental data.</p>
+</section>
+<section id="performance-and-benchmarking">
+<h2>Performance and Benchmarking</h2>
+<p>To validate these implementations, we benchmarked against a curated set of RNAs with known reference structures, analyzing metrics like sensitivity and positive predictive value for predicted base pairs. The comparisons covered both the MFE structure and the full partition function ensemble, demonstrating that SHAPE-guided predictions outperform purely thermodynamic models, especially for challenging motifs. Detailed supplementary data outline our benchmark strategies, energy parameter settings, and the impact on diverse RNA molecules, confirming the value of integrating experimental evidence into computational pipelines.</p>
+</section>
+<section id="getting-started-command-line-and-source-code">
+<h2>Getting Started: Command Line and Source Code</h2>
+<p>Users can install binary packages for several Linux distributions or build from source code available on our repository. The command line interface supports  commands for folding, partition function calculation, and SHAPE-guided modes, with options to specify and adjust energy parameters directly. Whether you’re scripting large-scale screens or running individual analyses, our tools and comprehensive documentation provide everything needed to apply dynamic programming algorithms to your nucleic acid research.</p>
+<p>For a deep dive, don’t miss the <a href="http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523/suppl/DC1">Supplementary Data</a>, which includes extensive background on each method, parameter details, and full benchmark results for our SHAPE-integrated algorithms. Dive into the code, explore the options, and see how experimental data can guide your next discovery in RNA structure prediction.</p>
 <object data="../../../files/papers/Lorenz-2016a.pdf" type="application/pdf" width="100%" height="1050px">
 <p>Your browser does not support PDFs.
    <a href="../../../files/papers/Lorenz-2016a.pdf">Download the PDF</a>
@@ -104,7 +112,7 @@ which a preliminary release is already freely available at
 <a class="m-link-wrap" href="http://www.tbi.univie.ac.at/RNA">http://www.tbi.univie.ac.at/RNA</a>.</p>
 </aside>
 <section id="citation">
-<h2>Citation</h2>
+<h3>Citation</h3>
 <blockquote>
 <p>
 <a class="m-flat m-text m-strong" href="http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523.abstract">SHAPE directed RNA folding</a><br />
@@ -114,7 +122,7 @@ Ronny Lorenz, Dominik Luntzer, Ivo L. Hofacker, Peter F. Stadler, Michael T. Wol
 </blockquote>
 </section>
 <section id="see-also">
-<h2>See also</h2>
+<h3>See also</h3>
 <blockquote>
 <p>
 <a class="m-flat m-text m-strong" href="../../../blog/2016/Predicting-RNA-Structures-from-Sequence-and-Probing-Data/">Predicting RNA Structures from Sequence and Probing Data</a><br />
@@ -123,9 +131,10 @@ Ronny Lorenz, <span class="m-text m-ul">Michael T. Wolfinger</span>, Andrea Tanz
 </p>
 </blockquote>
 </section>
+</section>
 <!-- /content -->
       <footer>
-        <p>Posted by Michael T. Wolfinger on <time datetime="2015-09-02T00:00:00+02:00">Wed 02 September 2015</time> in <a href="https://michaelwolfinger.com/blog/category/publications.html">publications</a>. <span class="m-label m-dim">updated <time datetime="2024-10-03T00:00:00+02:00">Thu 03 October 2024</time></span> Tags: <a href="https://michaelwolfinger.com/blog/tag/viennarna.html">ViennaRNA</a>, <a href="https://michaelwolfinger.com/blog/tag/shape.html">SHAPE</a>, <a href="https://michaelwolfinger.com/blog/tag/new-method.html">new method</a>, <a href="https://michaelwolfinger.com/blog/tag/tools.html">tools</a>.</p>
+        <p>Posted by Michael T. Wolfinger on <time datetime="2015-09-02T00:00:00+02:00">Wed 02 September 2015</time> in <a href="https://michaelwolfinger.com/blog/category/publications.html">publications</a>. <span class="m-label m-dim">updated <time datetime="2025-07-08T00:00:00+02:00">Tue 08 July 2025</time></span> Tags: <a href="https://michaelwolfinger.com/blog/tag/viennarna.html">ViennaRNA</a>, <a href="https://michaelwolfinger.com/blog/tag/shape.html">SHAPE</a>, <a href="https://michaelwolfinger.com/blog/tag/new-method.html">new method</a>, <a href="https://michaelwolfinger.com/blog/tag/tools.html">tools</a>.</p>
       </footer>
     </article>
     <nav class="m-navpanel m-col-m-2">
@@ -192,9 +201,9 @@ Ronny Lorenz, <span class="m-text m-ul">Michael T. Wolfinger</span>, Andrea Tanz
         <h3>My Profiles</h3>
         <ul>
           <li><a href="https://scholar.google.at/citations?user=w0PHGnEAAAAJ&amp;hl=en">Google Scholar</a></li>
-          <li><a href="https://www.webofscience.com/wos/author/record/N-9538-2014">Web of Science</a></li>
           <li><a href="https://www.researchgate.net/profile/Michael-Wolfinger">ResearchGate</a></li>
           <li><a href="https://www.scopus.com/authid/detail.uri?authorId=6508361997">Scopus</a></li>
+          <li><a href="https://loop.frontiersin.org/people/485709/overview">Loop</a></li>
         </ul>
       </div>
       <div class="m-col-s-3 m-col-t-6">

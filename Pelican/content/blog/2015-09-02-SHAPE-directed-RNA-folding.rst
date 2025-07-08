@@ -2,12 +2,12 @@ SHAPE directed RNA folding
 ##########################
 
 :date: 2015-09-02
-:modified: 2024-10-03
+:modified: 2025-07-08
 :tags: ViennaRNA; SHAPE; new method; tools
 :category: publications
 :slug: SHAPE-directed-RNA-folding
 :author: mtw
-:summary: The ViennaRNA Package supports three published approaches for SHAPE-guided RNA structure prediction. Here we evaluate and compare the methods by Deigan, Zarringhalam, and Washietl
+:summary: The ViennaRNA Package 2.0 brings powerful dynamic programming algorithms to researchers studying nucleic acid folding. In this post, we explore three SHAPE-guided methods—Deigan, Zarringhalam, and Washietl—that have been integrated into our toolkit to improve predictions of base pair interactions and minimum free energy (MFE) structures for RNA molecules. By combining chemical probing data with in silico modeling, these approaches help capture real-world folding behaviors and enhance the accuracy of computational RNA structure predictions
 :title: SHAPE directed RNA folding with the ViennaRNA Package
 :description: In this study we evaluate three published approaches for including SHAPE RNA probing data with the ViennaRNA Package
 
@@ -23,19 +23,28 @@ SHAPE directed RNA folding
 .. role:: doi(link)
   :class: doi
 
+Bridging Experiment with Computation
+++++++++++++++++++++++++++++++++++++
 
-With the rise of efficient methods for validating RNA structures, particularly through the combination of chemical probing and next-generation sequencing technologies, there has been an increasing need to integrate experimental data, like SHAPE reactivities, with in silico RNA structure prediction tools. These experimental techniques, which provide valuable insights from in vitro or even in vivo conditions, now play a crucial role in enhancing the accuracy of computational RNA structure predictions.
+Modern experiments generate SHAPE reactivity profiles through selective 2’-hydroxyl acylation analyzed by primer extension, a method that reveals nucleotide flexibility in vitro or in vivo. To translate these reactivities into structural guidance, the Deigan, Zarringhalam, and Washietl methods each adjust the energy parameters used in traditional dynamic programming: Deigan’s model applies pseudo-energies directly to loops, Zarringhalam’s method uses reactivity-specific weights, and Washietl’s approach infers perturbation of the energy parameters to optimally fit the SHAPE signal. Together, these innovations allow the prediction of both the minimum free energy (MFE) structure and the ensemble of probable folds with improved sensitivity to experimental data.
 
-To address this, we recently integrated three established methods for incorporating SHAPE probing data into the ViennaRNA Package. These methods allow experimental data to guide the prediction process, resulting in more accurate RNA structure models. To ensure the effectiveness of these integrations, we rigorously benchmarked the prediction results against a dataset of RNAs with known reference structures, providing a solid validation of the improvements these methods bring to computational RNA structure prediction.
+Performance and Benchmarking
+++++++++++++++++++++++++++++
 
-This advancement not only strengthens the predictive power of the ViennaRNA Package, but also bridges the gap between experimental data and computational modeling, allowing researchers to better understand RNA folding and function across diverse biological contexts.
+To validate these implementations, we benchmarked against a curated set of RNAs with known reference structures, analyzing metrics like sensitivity and positive predictive value for predicted base pairs. The comparisons covered both the MFE structure and the full partition function ensemble, demonstrating that SHAPE-guided predictions outperform purely thermodynamic models, especially for challenging motifs. Detailed supplementary data outline our benchmark strategies, energy parameter settings, and the impact on diverse RNA molecules, confirming the value of integrating experimental evidence into computational pipelines.
 
-Don't miss the `Supplementary Data <http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523/suppl/DC1>`_, containing extensive coverage of the applied benchmark strategies and lots of background information.
+Getting Started: Command Line and Source Code
++++++++++++++++++++++++++++++++++++++++++++++
+
+Users can install binary packages for several Linux distributions or build from source code available on our repository. The command line interface supports  commands for folding, partition function calculation, and SHAPE-guided modes, with options to specify and adjust energy parameters directly. Whether you’re scripting large-scale screens or running individual analyses, our tools and comprehensive documentation provide everything needed to apply dynamic programming algorithms to your nucleic acid research.
+
+For a deep dive, don’t miss the `Supplementary Data <http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523/suppl/DC1>`_, which includes extensive background on each method, parameter details, and full benchmark results for our SHAPE-integrated algorithms. Dive into the code, explore the options, and see how experimental data can guide your next discovery in RNA structure prediction.
+
 
 .. raw:: html
 
   <object data="{static}/files/papers/Lorenz-2016a.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs. 
+  <p>Your browser does not support PDFs.
      <a href="{static}/files/papers/Lorenz-2016a.pdf">Download the PDF</a>
   </p>
   </object> <br/><br/>
