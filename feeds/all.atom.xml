@@ -1588,7 +1588,7 @@ secondary structure landscapes using a gradient basin definition for
 macro-states. Furthermore, we demonstrate the need for exact transition
 models by comparing two barrier-based approaches, and perform a detailed
 investigation of gradient basins in RNA energy landscapes.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Availability and implementation:&lt;/strong&gt; Source code is part of the &lt;a href="http://www.bioinf.uni-freiburg.de/Software/Libraries/index.html?de#lib_ell"&gt;C++ Energy Landscape Library&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Availability and implementation:&lt;/strong&gt; Source code is part of the &lt;a href="https://www.bioinf.uni-freiburg.de/subpage/software/libraries.html#lib_ell"&gt;C++ Energy Landscape Library&lt;/a&gt;.&lt;/p&gt;
 &lt;/aside&gt;
 &lt;section id="citation"&gt;
 &lt;h2&gt;Citation&lt;/h2&gt;
