@@ -1,25 +1,94 @@
 RNA Bioinformatics Consulting Services
 ######################################
 :summary: Consulting Services by Michael Thomas Wolfinger
-:title: RNA Bioinformatics Consultancy
+:title: RNA Forecast Consulting Services
 :description: We provide RNA Bioinformatics consulting and trainings on how to use the Vienna RNA Package for effective RNA structure prediction
 
 :breadcrumb: / Home
 
-.. container:: m-row
+Are you navigating the complexities of RNA computational biology and bioinformatics in your pharmaceutical or biotechnology venture? Do you want to sharpen your skills in in silico RNA structure prediction or need expert help designing RNA for breakthrough applications like mRNA vaccines?
 
-    .. container:: m-col-l-12 m-container-inflatable
+At `RNA Forecast <https://rnaforecast.com>`_, we partner exclusively with industry leaders to deliver hands-on, results-driven consultancy in computational and structural RNA biology. Led by Michael T. Wolfinger, Principal Investigator at the University of Vienna and founder of RNA Forecast, our team combines academic rigor with real-world impact.
 
-        .. raw:: html
+Our Services
+============
 
-          <span class="m-landing-text">
-          <p> Are you seeking expert guidance in the specialized fields of <strong>RNA computational biology</strong> and <strong>RNA bioinformatics</strong> for your pharmaceutical or biotechnology venture? Are you interested in perfecting your skills in <strong>in silico RNA structure prediction</strong>? Do you require external assistance for <strong>RNA design</strong>, particularly for transformative applications like <em>mRNA vaccines</em>?</p>
+.. frame:: Custom RNA Structure Prediction
 
-          <p><a href="https://rnaforecast.com">RNA Forecast</a> is your dedicated partner in providing tailored support and consultancy services exclusively to the pharmaceutical and biotech sectors. Our core expertise lies in <strong>computational and structural RNA biology</strong>, and we are committed to partnering with industry leaders through our company to accelerate their research and drive innovation.</p>
+    .. raw:: html
 
-          <p>Whether you're navigating RNA-based research, exploring your in silico prediction techniques, or pioneering RNA-based therapeutics, our team at <a href="https://rnaforecast.com">RNA Forecast</a> is poised to empower your journey. Looking to master the <a href="https://www.tbi.univie.ac.at/RNA/">ViennaRNA Package</a> or the <a href="https://pypi.org/project/ViennaRNA/">ViennaRNA Python interface</a>? We offer customized <em>ViennaRNA training programs</em> to ensure you can efficiently harness this powerful toolkit.</p>
+        <ul>
+          <li>In silico modeling of secondary and tertiary folds</li>
+          <li>Tailored workflows using the <a href="https://www.tbi.univie.ac.at/RNA/">ViennaRNA Package</a> and <a href="https://pypi.org/project/ViennaRNA/">ViennaRNA Python interface</a></li>
+          <li>Benchmarking against known reference data for maximum confidence</li>
+        </ul>
 
-          <p>If this sounds like the expertise and support your project needs, we invite you to reach out to us at <a href="mailto:hello@rnaforecast.com?subject=Consultancy inquiry">hello@rnaforecast.com</a></span>.</p>
-          </span>
-          <br/>
-          <p>RNA Forecast e.U. is owned and operated by Michael T. Wolfinger, who serves as the Chief Executive Officer (CEO) of the company. For any inquiries or questions related to our consultancy services, please do not hesitate to <a href="mailto:hello@rnaforecast.com?subject=Consultancy inquiry">contact us</a>. We're here to help you advance your RNA-focused endeavors with precision and expertise.</p>
+.. frame:: RNA Design & Optimization
+
+    .. raw:: html
+
+        <ul>
+          <li>Custom ncRNA and mRNA design</li>
+          <li>Folding pathway optimization through kinetic modeling</li>
+          <li>Advanced incorporation of modified nucleotides for enhanced function and stability</li>
+        </ul>
+
+.. frame:: Training & Workshops
+
+    .. raw:: html
+
+        <ul>
+          <li>Onsite or virtual courses in RNA structure prediction (from beginner to expert)</li>
+          <li>Step-by-step tutorials on ViennaRNA command-line usage, and Python API integration</li>
+          <li>Hands-on exercises for Windows, Mac, and Linux users</li>
+        </ul>
+
+.. frame:: Data Analysis & Integration
+
+    .. raw:: html
+
+        <ul>
+          <li>SHAPE/DMS-guided and high-throughput chemical probing pipelines for RNA structure prediction</li>
+          <li>Custom scripts for complex RNA structure analysis</li>
+          <li>Integration of experimental data into computational models to reveal real-world folding behaviors</li>
+        </ul>
+
+
+How We Work
+===========
+
+1. Discovery call
+-----------------
+
+Discuss your challenges, timelines, and desired outcomes
+
+2. Proposal & Scope
+-------------------
+
+Receive a tailored plan outlining deliverables, milestones, and pricing
+
+3. Engagement
+-------------
+
+Collaborate through regular check-ins, workshops, and code checkpoints
+
+4. Delivery & Follow-Up
+-----------------------
+
+Receive final reports, annotated source code, and optional post-engagement support
+
+
+
+.. raw:: html
+
+    <aside class="m-note m-info">
+    Ready to accelerate your RNA research and development? 
+    Email us at <a href="mailto:hello@rnaforecast.com?subject=Consultancy inquiry">hello@rnaforecast.com</a> to schedule your free consultation.
+    </aside>
+
+
+..
+  .. raw:: html
+      <br/>
+      <br/>
+      <p>RNA Forecast e.U. is owned and operated by Michael T. Wolfinger, who serves as the Chief Executive Officer (CEO) of the company. For any inquiries or questions related to our consultancy services, please do not hesitate to <a href="mailto:hello@rnaforecast.com?subject=Consultancy inquiry">contact us</a>. We're here to help you advance your RNA-focused endeavors with precision and expertise.</p>
