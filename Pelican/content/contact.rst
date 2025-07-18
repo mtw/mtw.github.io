@@ -32,17 +32,13 @@ Contact
 
           .. raw:: html
 
-              Research Group Bioinformatics and Computational Biology (BCB)<br/>
-              Faculty of Computer Science <br/>
-              University of Vienna <br/>
-              Währinger Strasse 29 <br/>
-              1090 Vienna, Austria <br/>
-              <br/>
-              Theoretical Biochemistry Group (TBI) <br/>
-              Department of Theoretical Chemistry <br/>
-              University of Vienna <br/>
-              Währinger Strasse 17 <br/>
-              1090 Vienna, Austria <br/>
+              Theoretical Biochemistry Group TBI<br/>
+              Department of Theoretical Chemistry<br/>
+              Faculty of Chemistry<br />
+              University of Vienna<br/>
+              <br />
+              Währinger Strasse 17<br/>
+              1090 Vienna, Austria<br/>
               <br/>
               <a href="mailto:michael.wolfinger@univie.ac.at">Email</a> <br/>
 
