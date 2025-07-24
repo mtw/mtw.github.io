@@ -2,14 +2,14 @@ Exploring RNA Biology with Deep Learning Algorithms
 ###################################################
 
 :date: 2025-07-18
-:modified: 2025-07-18
+:modified: 2025-07-24
 :tags: AI; synthetic biology
 :category: outreach
 :slug:
 :author: mtw
 :summary: The RNA biology journal is launching a new open‑access article collection called “Exploring RNA Biology with Deep Learning Algorithms” to bring together the latest breakthroughs at the intersection of transcriptomics, RNA structure prediction, molecular design and AI‑driven approaches.
 :title: Exploring RNA Biology with Deep Learning Algorithms
-:description: Exploring the intersection of RNA biology and deep learning: guest editor Dr. Michael T. Wolfinger invites cutting‑edge research on AI‑driven transcriptomics, structure prediction, and molecular design
+:description: Discover how deep learning is revolutionizing RNA biology: Advancing transcriptomics, structure prediction, and synthetic design in this article collection
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
