@@ -22,7 +22,6 @@ Papers
 .. note-info::
    Download :link-flat:`Michael T. Wolfinger's publication list as PDF <{static}/files/MTW_PublicationList.pdf>`
 
-
 Submitted Manuscripts / Preprints
 =================================
 
@@ -50,6 +49,8 @@ Submitted Manuscripts / Preprints
 
 Peer-reviewed journal / conference articles and book chapters
 =============================================================
+
+.. _year2025:
 
 `2025`_
 -------
@@ -105,6 +106,7 @@ Peer-reviewed journal / conference articles and book chapters
           :figclass: m-figure m-flat
           :target: {filename}/publications.rst
 
+.. _year2024:
 
 `2024`_
 -------

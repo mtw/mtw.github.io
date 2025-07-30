@@ -3,7 +3,7 @@ Xinyang flavivirus, from Haemaphysalis flava ticks in Henan Province, China, def
 
 :date: 2024-05-29
 :modified: 2024-09-30
-:tags: virus bioinformatics; molecular epidemiology; One Health; xrRNA; novel viruses; flavivirus
+:tags: virus bioinformatics; molecular epidemiology; One Health; xrRNA; novel viruses; flavivirus; virology
 :category: publications
 :slug:
 :author: mtw

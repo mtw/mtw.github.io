@@ -3,7 +3,7 @@ Pan-flavivirus analysis reveals sfRNA-independent 3' UTR-biased siRNA production
 
 :date: 2024-10-15
 :modified: 2024-10-31
-:tags: virus bioinformatics; xrRNA; flavivirus
+:tags: virus bioinformatics; xrRNA; flavivirus; virology
 :category: publications
 :slug:
 :author: mtw

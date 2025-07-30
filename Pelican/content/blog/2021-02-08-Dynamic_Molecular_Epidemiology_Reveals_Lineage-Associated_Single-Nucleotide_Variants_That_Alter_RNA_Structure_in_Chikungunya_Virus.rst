@@ -3,7 +3,7 @@ Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Vari
 
 :date: 2021-02-08
 :modified: 2022-10-28
-:tags: virus bioinformatics; One Health; molecular epidemiology; alphavirus;
+:tags: virus bioinformatics; molecular epidemiology; alphavirus; virology
 :category: publications
 :slug: Lineage-specific-RNA-structures-in-Chikungunya-virus
 :title: Molecular epidemiology and RNA structures in Chikungunya virus
