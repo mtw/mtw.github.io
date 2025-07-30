@@ -9,7 +9,7 @@ Functional RNAs in Virology
 :author: mtw
 :title: Functional RNAs in Virology Special Issue
 :summary: MDPI Viruses has launched a new open-access Special Issue on “Functional RNAs in Virology” to highlight recent advances in understanding how RNAs act as regulatory molecule in viral infection
-:description: Discover how deep learning is revolutionizing RNA biology: Advancing transcriptomics, structure prediction, and synthetic design in this article collection
+:description: Submit your work to the Viruses Special Issue on RNA-based regulation in viruses. Covering RNA structure, xrRNAs, RNA–protein interactions and more
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
