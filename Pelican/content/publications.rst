@@ -35,14 +35,6 @@ Submitted Manuscripts / Preprints
       | Liam Kerr, Danielle L. Gemmill, Higor S. Pereira, :ul:`Michael T. Wolfinger`, Trushar R. Patel
       | Submitted manuscript (2025)
 
-  .. container:: m-row
-
-    .. container::  m-col-t-8
-
-      | 54. :link-flat-strong:`RNA secondary structure ensemble mapping in a living cell identifies conserved RNA regulatory switches and thermometers <https://www.biorxiv.org/content/10.1101/2024.09.16.613214v1>`
-      | Ivana Borovska, Chundan Zhang, Edoardo Morandi, Daphne van den Homberg, :ul:`Michael T. Wolfinger`, Willem Velema, Danny Incarnato
-      | *bioRxiv* 2024.09.16.613214 (2024)
-      | :link-flat:`Preprint PDF <{static}/files/papers/Borkovska-2024__PREPRINT.pdf>`
 
 .. transition::  - - -
 
@@ -59,6 +51,15 @@ Peer-reviewed journal / conference articles and book chapters
 .. container:: m-container-inflatable
 
   .. container:: m-row
+
+    .. container::  m-col-t-8
+
+      | 54. :link-flat-strong:`Identification of conserved RNA regulatory switches in living cells using RNA secondary structure ensemble mapping and covariation analysis <{filename}/publications.rst>`
+      | Ivana Borovská, Chundan Zhang, Sarah-Luisa J. Dülk, Edoardo Morandi, Marta F. S. Cardoso, Billal M. Bourkia, Daphne A. L. van den Homberg, :ul:`Michael T. Wolfinger`, Willem A. Velema, Danny Incarnato
+      | *Nat. Biotechnol.* (2025)
+      | :doi:`doi:10.1038/s41587-025-02739-0 <https://doi.org/10.1038/s41587-025-02739-0>` | :link-flat:`PDF <{static}/files/papers/Borovska-2025.pdf>` | :label-flat-info:`Journal article`
+
+  .. container:: m-row 
 
     .. container::  m-col-t-8
 
