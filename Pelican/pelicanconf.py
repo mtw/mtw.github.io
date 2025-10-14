@@ -25,8 +25,6 @@ DIRECT_TEMPLATES = ['index']
 
 FORMATTED_FIELDS = ['summary', 'landing', 'header', 'footer', 'description', 'badge']
 
-#<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?forceLang=en&customize=1&tracking=1&thirdparty=1&always=1"></script>
-
 M_CSS_FILES = ['https://fonts.googleapis.com/css?family=Roboto:300;400|Source+Code+Pro:200:300,400|Source+Sans+Pro:300,400',
                'static/m-light.compiled.min.css',
                'static/m-mtw.min.css']
