@@ -26,8 +26,8 @@ DIRECT_TEMPLATES = ['index']
 FORMATTED_FIELDS = ['summary', 'landing', 'header', 'footer', 'description', 'badge']
 
 M_CSS_FILES = ['https://fonts.googleapis.com/css?family=Roboto:300;400|Source+Code+Pro:200:300,400|Source+Sans+Pro:300,400',
-               'static/m-light.compiled.min.css',
-               'static/m-mtw.min.css']
+               'static/m-light.css']
+
 M_THEME_COLOR = '#EAEAEA'
 
 PLUGIN_PATHS = ['plugins']

@@ -6,8 +6,8 @@ Home
 :cover: static/bg5.webp
 :hide_navbar_brand: True
 :summary: About Michael Thomas Wolfinger
-:title: Michael T. Wolfinger - RNA Bioinformatics Specialist
-:description: Michael T. Wolfinger is a Austrian researcher and bioinformatics consultant specializing in RNA structural and computational biology
+:title: Michael T. Wolfinger – Computational RNA Biology & Synthetic RNA Design
+:description: Principal Investigator at the intersection of RNA structure, AI, and synthetic biology. Explore Michael T. Wolfinger’s research and RNA Forecast consultancy
 :hide_navbar_brand: True
 :extrahead: mtw_ldjson
 :landing:
