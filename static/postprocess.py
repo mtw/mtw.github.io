@@ -3,7 +3,10 @@
 #
 #   This file is part of m.css.
 #
-#   Copyright © 2017, 2018, 2019, 2020 Vladimír Vondruš <mosra@centrum.cz>
+#   Copyright © 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
+#             Vladimír Vondruš <mosra@centrum.cz>
+#   Copyright © 2019 DarkContact <DarkContact@mail.ru>
+#   Copyright © 2019 Cris Luengo <cris.l.luengo@gmail.com>
 #
 #   Permission is hereby granted, free of charge, to any person obtaining a
 #   copy of this software and associated documentation files (the "Software"),
@@ -30,13 +33,13 @@ import os
 import sys
 
 import_rx = re.compile("^@import url\\('(?P<file>[^']+)'\\);$")
-opening_brace_rx = re.compile("^\\s*:root\s*{\\s*$")
+opening_brace_rx = re.compile("^\\s*:root\\s*{\\s*$")
 closing_brace_rx = re.compile("^\\s*}\\s*$")
 comment_rx = re.compile("^\\s*(/\\*.*\\*/)?\\s*$")
 comment_start_rx = re.compile("^\\s*(/\\*.*)\\s*$")
 comment_end_rx = re.compile("^\\s*(.*\\*/)\\s*$")
-variable_declaration_rx = re.compile("^\\s*(?P<key>--[a-z-]+)\\s*:\\s*(?P<value>[^;]+)\\s*;\\s*(/\\*.*\\*/)?\\s*$")
-variable_use_rx = re.compile("^(?P<before>.*)var\\((?P<key>--[a-z-]+)\\)(?P<after>.*)$")
+variable_declaration_rx = re.compile("^\\s*(?P<key>--[a-z0-9-]+)\\s*:\\s*(?P<value>[^;]+)\\s*;\\s*(/\\*.*\\*/)?\\s*$")
+variable_use_rx = re.compile("^(?P<before>.*)var\\((?P<key>--[a-z0-9-]+)\\)(?P<after>.*)$")
 
 def postprocess(files, process_imports, out_file):
     directory = os.path.dirname(files[0])
@@ -141,7 +144,8 @@ def postprocess(files, process_imports, out_file):
 /*
     This file is part of m.css.
 
-    Copyright © 2017, 2018, 2019, 2020 Vladimír Vondruš <mosra@centrum.cz>
+    Copyright © 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
+              Vladimír Vondruš <mosra@centrum.cz>
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),

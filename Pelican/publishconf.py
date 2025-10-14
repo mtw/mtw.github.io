@@ -13,9 +13,8 @@ from pelicanconf import *
 SITEURL = 'https://michaelwolfinger.com'
 RELATIVE_URLS = True
 
-#M_CSS_FILES = ['https://fonts.googleapis.com/css?family=Roboto:300;400|Source+Code+Pro:200:300,400|Source+Sans+Pro:300,400',
-#               'static/m-light.compiled.css',
-#               'static/m-mtw.css']
+M_CSS_FILES = ['https://fonts.googleapis.com/css?family=Roboto:300;400|Source+Code+Pro:200:300,400|Source+Sans+Pro:300,400',
+               'static/m-light.compiled.css']
 
 FEED_DOMAIN = SITEURL
 FEED_ATOM = 'feeds/all.atom.xml'
@@ -26,7 +25,3 @@ DELETE_OUTPUT_DIRECTORY = True
 
 GOOGLE_ANALYTICS = 'G-T2RW3VW55N'
 
-# Following items are often useful when publishing
-
-#DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""

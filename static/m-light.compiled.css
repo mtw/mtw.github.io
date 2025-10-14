@@ -3,7 +3,8 @@
 /*
     This file is part of m.css.
 
-    Copyright © 2017, 2018, 2019, 2020 Vladimír Vondruš <mosra@centrum.cz>
+    Copyright © 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
+              Vladimír Vondruš <mosra@centrum.cz>
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -2516,4 +2517,23 @@ article:last-child, article section:last-child { margin-bottom: 0; }
 }
 .m-container-inflatable section:target .m-note.m-dim {
   border-color: #bdbdbd;
+}
+
+.m-landing-intro  {
+  font-family: sans-serif;
+  font-size: 1.6em;
+  line-height:1.4;
+  font-weight:300;
+  display:block;
+  color: #484848;
+}
+.m-landing-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height:1.6
+}
+.transparent {
+  color:transparent
+  text-color:transparent;
 }
