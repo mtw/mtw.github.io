@@ -65,6 +65,39 @@
   {% if page.html_header %}
   {{ page.html_header|rtrim|indent(2) }}
   {% endif %}
+  {% if page.extrahead == 'mtw_ldjson' %}
+    {% raw%}
+      <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://michaelwolfinger.com/#michaelwolfinger",
+  "name": "Michael T. Wolfinger",
+  "url": "https://michaelwolfinger.com/",
+  "image": "https://michaelwolfinger.com/static/mtw.jpg",
+  "jobTitle": "Principal Investigator, Computational RNA Biology",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "University of Vienna",
+    "url": "https://www.univie.ac.at/"
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "University of Vienna",
+    "url": "https://www.univie.ac.at/"
+  },
+  "knowsAbout": ["RNA structure", "RNA folding kinetics", "Synthetic RNA design", "Virus bioinformatics", "ViennaRNA", "mRNA vaccines"],
+  "sameAs": [
+    "https://rnaforecast.com",
+    "https://www.linkedin.com/in/michaelwolfinger/",
+    "https://scholar.google.at/citations?user=w0PHGnEAAAAJ",
+    "https://orcid.org/0000-0003-0925-5205",
+    "https://github.com/mtw"
+  ]
+}
+      </script>
+    {% endraw%}
+  {% endif %}
 {% endblock %}
 
 {% block main %}
