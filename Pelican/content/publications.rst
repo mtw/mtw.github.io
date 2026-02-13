@@ -31,6 +31,14 @@ Submitted Manuscripts / Preprints
 
     .. container::  m-col-t-8
 
+      | 57. :link-flat-strong:`Identification of a region within the 5’UTR of of Interleukin–2 mRNA offers a promising strategy for drug development for autoimmune disorders <{filename}/publications.rst>`
+      | Katarzyna M. Gluchowska, Krzysztofa Odzywol, Agnieszka Zagozdzon, Tomasz K. Wirecki, Chandran Nithin, Bartlomiej Surpeta, Xiaobing Zhang, Jannan Zhao, Lukasz Joachimiak, Bartlomiej Hofman, Joanna Sztuba-Solinska, Katarzyna Drzewicka, Angelika Muchowicz, :ul:`Michael T. Wolfinger`, Roman Blaszczyk, Irina Tuszynska, Janusz M. Bujnicki, and Zbigniew Zaslona
+      | Submitted manuscript (2026)
+
+  .. container:: m-row
+
+    .. container::  m-col-t-8
+
         | 56. :link-flat-strong:`Rational design of mechanically active RNAs: de novo engineering of functional exoribonuclease-resistant RNAs <https://doi.org/10.64898/2026.01.08.698366>`
         | Jule Walter, Leonhard Sidl, Katrin Gutenbrunner, Denis Skibinski, Tim Kolberg, Ivo L. Hofacker, Hua-Ting Yao, Mario Mörl, :ul:`Michael T. Wolfinger`
         | *bioRxiv* (2026)
