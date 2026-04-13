@@ -67,7 +67,7 @@ M_LINKS_NAVBAR1 = [
                         ('Posters', 'publications/posters', 'publications/posters'),
                         ]),
                     ('Teaching', '/teaching', 'teaching', []),
-                    ('Consultancy', '/consulting', 'consulting', []),
+                    ('Services', '/services', 'services', []),
                     ('Contact', '/contact', 'contact', []),
                     ('Blog', 'blog/', '[blog]',[])]
 
@@ -82,11 +82,11 @@ M_LINKS_FOOTER1 = [('Home', '/'),
                     ]
 
 M_LINKS_FOOTER2 = [('Services', ''),
-                    ('Bioinformatics Consulting', '/consulting'),
+                    ('Expert Services', '/services'),
                     ('RNA Forecast', 'https://rnaforecast.com'),
                     ('xrRNA.bio', 'https://xrrna.bio'),
 		            ('Contact', '/contact'),
-                    ('Legal Note','/legal'),   
+                    ('Legal Note','/legal'),
                     ]
 
 M_LINKS_FOOTER3 = [('My Profiles',''),
@@ -94,7 +94,7 @@ M_LINKS_FOOTER3 = [('My Profiles',''),
                     ('ResearchGate', 'https://www.researchgate.net/profile/Michael-Wolfinger'),
                     ('Scopus', 'https://www.scopus.com/authid/detail.uri?authorId=6508361997'),
                     ('Loop', 'https://loop.frontiersin.org/people/485709/overview'),
-                    ]       
+                    ]
 
 M_LINKS_FOOTER4 = [('Social', ''),
                     ('Linkedin', 'https://www.linkedin.com/in/michaelwolfinger/'),

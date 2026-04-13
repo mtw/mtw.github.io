@@ -13,10 +13,13 @@ Teaching
   .. contents::
     :class: m-block m-default
 
-
 I am passionate about sharing knowledge and inspiring curiosity in **bioinformatics**, **computational biology**, and **data science**. My teaching highlights the interdisciplinary nature of these fields, integrating data analysis techniques into my courses. I aim to create an engaging and supportive learning environment that fosters critical thinking and encourages exploration. My goal is to empower students with the skills and confidence to analyze complex scientific problems and develop innovative solutions.
 
+I also offer private training workshops in computational RNA design and ViennaRNA for biotech teams and research groups. See the
+:link-flat:`services page </services>` for details and available formats.
+
 Here is a compilation of the courses that I have given over the past years at renowned academic institutions like the :link-flat:`University of Vienna <http://www.univie.ac.at>` (UNIVIE), :link-flat:`Albert-Ludwigs-University Freiburg <http://uni-freiburg.de>` (UFR), and :link-flat:`University of Applied Sciences Vienna - Fachhochschule Campus Wien <http://fh-campuswien.ac.at>` (FHCW).
+
 
 Lecture and course directory
 ============================
@@ -24,13 +27,13 @@ Lecture and course directory
 
 .. class:: m-diary
 
-2025W  
+2025W
   UNIVIE 270159 VU `Structure and Dynamics of Biopolymers (2025W) <https://ufind.univie.ac.at/en/course.html?lv=270159&semester=2025W>`_
 2025S
   UNIVIE 270056 PR `Algorithms and Development of Programmes for Biological Chemistry (2025S) <https://ufind.univie.ac.at/en/course.html?lv=270056&semester=2025S>`_
 2025S
   UNIVIE 301600 UE `Bioinformatics-Practicum II (2025S) <https://ufind.univie.ac.at/en/course.html?lv=301600&semester=2025S>`_
-2024W  
+2024W
   UNIVIE 270159 VU `Structure and Dynamics of Biopolymers (2024W) <https://ufind.univie.ac.at/en/course.html?lv=270159&semester=2024W>`_
 2024W
   UNIVIE 301599 UE `Laboratory Course: Bioinformatics (2024W) <https://ufind.univie.ac.at/en/course.html?lv=301599&semester=2024W>`_
