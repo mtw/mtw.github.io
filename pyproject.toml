@@ -6,6 +6,9 @@ build-backend = "setuptools.build_meta"
 name = "michaelwolfinger-com"
 version = "0.1.0"
 description = "Pelican source repository for michaelwolfinger.com"
+authors = [
+  { name = "Michael T. Wolfinger", email = "mtw@michaelwolfinger.com" }
+]
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
