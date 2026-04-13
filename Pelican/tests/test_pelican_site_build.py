@@ -1,28 +1,16 @@
 from pathlib import Path
-import subprocess
 import sys
 
 
-PELICAN_DIR = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from tests.site_test_utils import build_site
 
 
 def test_site_build_smoke(tmp_path):
-    output_dir = tmp_path / "output"
-
-    subprocess.run(
-        [
-            sys.executable,
-            "-m",
-            "pelican",
-            "content",
-            "-o",
-            str(output_dir),
-            "-s",
-            "publishconf.py",
-        ],
-        cwd=PELICAN_DIR,
-        check=True,
-    )
+    output_dir = build_site(tmp_path, "publishconf.py")
 
     assert (output_dir / "index.html").is_file()
     assert (output_dir / "sitemap.xml").is_file()
