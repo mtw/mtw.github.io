@@ -4,6 +4,7 @@
 AUTHOR = 'Michael T. Wolfinger'
 SITENAME = "Michael T. Wolfinger"
 SITEURL = ''
+OUTPUT_PATH = 'output'
 
 STATIC_URL = '{path}'
 
@@ -53,8 +54,6 @@ SITEMAP = {
 }
 
 GITHUB_URL = "https://github.com/mtw/mtw.github.io"
-
-DEFAULT_PAGINATION = 10
 
 #M_SITE_LOGO_TEXT = 'Your Brand'
 
@@ -117,8 +116,6 @@ EXTRA_PATH_METADATA = {
                         }
 
 DISPLAY_PAGES_ON_MENU = True
-
-PATH_METADATA = '(?P<slug>.+).rst'
 
 #M_HTML_HEADER = '<link rel="stylesheet" href="extra/css/extra.css"'
 

@@ -1,0 +1,8 @@
+ghp-import>=2.1
+invoke>=2.2
+livereload>=2.7
+minify-html>=0.15
+pelican>=4.11,<5
+Pillow>=10
+pytest>=8
+pytz>=2024.1

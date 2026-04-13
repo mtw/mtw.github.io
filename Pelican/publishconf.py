@@ -11,7 +11,7 @@ from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
 SITEURL = 'https://michaelwolfinger.com'
-RELATIVE_URLS = True
+RELATIVE_URLS = False
 
 M_CSS_FILES = ['https://fonts.googleapis.com/css?family=Roboto:300;400|Source+Code+Pro:200:300,400|Source+Sans+Pro:300,400',
                'static/m-light.compiled.css']
@@ -24,4 +24,3 @@ FEED_ATOM = 'feeds/all.atom.xml'
 DELETE_OUTPUT_DIRECTORY = True
 
 GOOGLE_ANALYTICS = 'G-T2RW3VW55N'
-

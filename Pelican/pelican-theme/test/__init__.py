@@ -28,11 +28,22 @@ import unittest
 
 from pelican import read_settings, Pelican
 
+TEST_DIR = os.path.dirname(os.path.realpath(__file__))
+THEME_DIR = os.path.dirname(TEST_DIR)
+PROJECT_DIR = os.path.dirname(THEME_DIR)
+PLUGIN_DIR = os.path.join(PROJECT_DIR, 'plugins')
+
 class MinimalTestCase(unittest.TestCase):
-    def __init__(self, path, dir, *args, **kwargs):
+    def __init__(self, path=None, dir='', *args, **kwargs):
         unittest.TestCase.__init__(self, *args, **kwargs)
         # Source files for test_something.py are in something_{dir}/ subdirectory
-        self.path = os.path.join(os.path.dirname(os.path.realpath(path)), os.path.splitext(os.path.basename(path))[0][5:] + ('_' + dir if dir else ''))
+        if path is None:
+            # Pytest instantiates imported unittest base classes during
+            # collection with just the method name. Provide a harmless default
+            # so discovery can proceed to the concrete subclasses below.
+            self.path = os.getcwd()
+        else:
+            self.path = os.path.join(os.path.dirname(os.path.realpath(path)), os.path.splitext(os.path.basename(path))[0][5:] + ('_' + dir if dir else ''))
 
         # Display ALL THE DIFFS
         self.maxDiff = None
@@ -57,6 +68,13 @@ class MinimalTestCase(unittest.TestCase):
             'CATEGORY_FEED_ATOM': None
         }
         implicit_settings.update(settings)
+        if 'THEME' in implicit_settings and not os.path.isabs(implicit_settings['THEME']):
+            implicit_settings['THEME'] = os.path.normpath(os.path.join(THEME_DIR, implicit_settings['THEME']))
+        if 'PLUGIN_PATHS' in implicit_settings:
+            implicit_settings['PLUGIN_PATHS'] = [
+                path if os.path.isabs(path) else os.path.normpath(os.path.join(THEME_DIR, path))
+                for path in implicit_settings['PLUGIN_PATHS']
+            ]
         settings = read_settings(path=None, override=implicit_settings)
         pelican = Pelican(settings=settings)
         pelican.run()
@@ -73,8 +91,8 @@ class MinimalTestCase(unittest.TestCase):
 class BaseTestCase(MinimalTestCase):
     def run_pelican(self, settings):
         implicit_settings = {
-            'THEME': '.',
-            'PLUGIN_PATHS': ['../plugins'],
+            'THEME': THEME_DIR,
+            'PLUGIN_PATHS': [PLUGIN_DIR],
             'PLUGINS': ['m.htmlsanity'],
             'THEME_STATIC_DIR': 'static',
             'M_CSS_FILES': ['https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i',
