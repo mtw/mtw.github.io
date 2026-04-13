@@ -1,4 +1,5 @@
 **/.DS_Store
+michaelwolfinger_com.egg-info/**
 Pelican/content/output/**
 **/__pycache__/
 Pelican/output/**
