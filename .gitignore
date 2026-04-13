@@ -2,6 +2,8 @@
 Pelican/content/output/**
 **/__pycache__/
 Pelican/output/**
+Pelican/.pytest_cache/
+Pelican/output/
 archives/*
 authors/*
 categories/*
