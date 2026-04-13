@@ -8,7 +8,11 @@ Expert Services in Computational RNA Design
 .. role:: link-flat(link)
   :class: m-flat m-text
 
-I work with research teams and biotech companies that need focused expert input on RNA structure, RNA design, and computational RNA analysis. My goal is to combine deep domain knowledge with hands-on computational experience to help you make better decisions, faster.
+I work with research teams and biotech companies that need focused
+expert input on RNA structure, RNA design, and computational RNA
+analysis. My goal is to combine deep domain knowledge with hands-on
+computational experience to help teams move from an RNA design question
+to a confident next step.
 
 All engagements are available remotely or onsite and are tailored to
 the background and goals of your group.
@@ -28,47 +32,67 @@ When This Kind of Support Is Useful
 RNA Design Review
 ==================
 
-An independent written assessment of your RNA construct, design strategy, or computational approach. You send the relevant materials (sequences, design rationale, slides, or a manuscript section) and I deliver a structured memo covering a mechanistic assessment of the design concept, key risks and limitations, and recommended next steps. An optional follow-up call is available to discuss the findings in more detail.
+An independent written assessment of your RNA construct, design
+strategy, or computational approach. You send the relevant materials
+(sequences, design rationale, slides, or a manuscript section) and I
+deliver a structured memo covering a mechanistic assessment of the
+design concept, key risks and limitations, and recommended next steps.
+An optional follow-up call is available to discuss the findings in
+more detail.
 
-This is the right engagement for teams that want a credible second opinion before committing resources, or that need focused technical input for a specific scientific or business decision.
+This is the right engagement for teams that want a credible second
+opinion before committing resources, or that need focused technical
+input for a specific scientific or business decision.
+
+.. raw:: html
+
+   <aside class="m-note m-default">
+   Interested in a Design Review?
+   Write to <a href="mailto:hello@rnaforecast.com?subject=Design Review Inquiry">hello@rnaforecast.com</a>
+   with a brief description of your RNA design question.
+   </aside>
 
 Computational RNA Workshops
 =============================
 
-Hands-on training in RNA structure prediction, ViennaRNA, and structure-aware RNA design for research teams, academic groups, and doctoral programs. I have delivered courses and workshops in computational RNA biology at the :link-flat:`University of Vienna <http://www.univie.ac.at>`, the :link-flat:`University of Freiburg <http://uni-freiburg.de>`, and :link-flat:`FH Campus Wien <http://fh-campuswien.ac.at>` since 2005.
+Hands-on training in RNA structure prediction, ViennaRNA, and
+structure-aware RNA design for research teams, academic groups, and
+doctoral programs. Workshops are available in 2-hour, half-day, and
+full-day formats, delivered remotely or onsite, and are tailored to
+your group's background in advance.
 
-Workshops are available in three formats:
+See the :link-flat:`workshops page <services/workshops>` for full details on
+available formats and how sessions are organised.
 
-.. frame:: RNA Structure Essentials
+.. raw:: html
 
-   .. raw:: html
-
-      <p>A focused 2-hour session for experimentalists entering computational RNA. Covers RNA secondary structure, folding energy, and how to interpret structure predictions in a biological context. No programming experience required.</p>
-
-.. frame:: ViennaRNA in Practice
-
-   .. raw:: html
-
-      <p>A half-day hands-on workshop covering <a href="https://www.tbi.univie.ac.at/RNA/">ViennaRNA</a> command-line tools and the Python API, with exercises using real sequences.</p>
-
-.. frame:: Structure-Aware RNA Design
-
-   .. raw:: html
-
-      <p>A full-day workshop covering RNA design logic, kinetic folding, local structure, modified nucleotides, and structural thinking in the context of RNA therapeutics and synthetic biology.</p>
+   <aside class="m-note m-default">
+   To request a workshop, write to
+   <a href="mailto:hello@rnaforecast.com?subject=Workshop Inquiry">hello@rnaforecast.com</a>.
+   </aside>
 
 Advisory Support
 =================
 
-For teams that need ongoing expert input rather than a single engagement, I offer selected advisory arrangements. These typically involve regular calls, asynchronous review of materials, and short written memos, all structured around the RNA design and analysis questions your team is actively working through.
+For teams that need ongoing expert input rather than a single
+engagement, I offer selected advisory arrangements. These typically
+involve regular calls, asynchronous review of materials, and short
+written memos, all structured around the RNA design and analysis
+questions your team is actively working through. This is particularly
+useful for early-stage RNA startups or translational groups that need
+regular expert input without a full-time hire.
 
 Get in Touch
 =============
 
-If you are unsure which format fits your situation, write a few lines about what you are working on and I will suggest the most practical starting point.
+If you are unsure which format fits your situation, write a few lines
+about what you are working on and I will suggest the most practical
+starting point.
 
 .. raw:: html
 
    <aside class="m-note m-info">
-   Reach out at <a href="mailto:hello@rnaforecast.com?subject=Services Inquiry">hello@rnaforecast.com</a> for workshop requests, design review inquiries, or to discuss an advisory engagement.
+   Reach out at <a href="mailto:hello@rnaforecast.com?subject=Services Inquiry">hello@rnaforecast.com</a>
+   for workshop requests, design review inquiries, or to discuss an
+   advisory engagement.
    </aside>
