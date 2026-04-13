@@ -61,7 +61,7 @@ doctoral programs. Workshops are available in 2-hour, half-day, and
 full-day formats, delivered remotely or onsite, and are tailored to
 your group's background in advance.
 
-See the :link-flat:`workshops page <services/workshops>` for full details on
+See the :link-flat:`workshops page <workshops>` for full details on
 available formats and how sessions are organised.
 
 .. raw:: html

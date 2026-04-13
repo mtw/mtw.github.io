@@ -3,7 +3,7 @@ Computational RNA Workshops
 :summary: Computational RNA Workshops by Michael Thomas Wolfinger
 :title: Computational RNA Workshops
 :description: Hands-on workshops in RNA structure prediction, ViennaRNA, and structure-aware RNA design for research teams, academic groups, and doctoral programs. Remote and onsite.
-:breadcrumb: / Home / Services
+:breadcrumb: / Home
 
 .. role:: link-flat(link)
   :class: m-flat m-text
@@ -22,36 +22,37 @@ All formats are available remotely or onsite in the DACH region.
 Workshop Formats
 =================
 
-.. frame:: RNA Structure Essentials
+.. container:: m-row
 
-   .. raw:: html
+  .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
 
-      <p>A focused 2-hour session for experimentalists entering
-      computational RNA. Covers RNA secondary structure, folding energy,
-      and how to interpret structure predictions in a biological context.
-      No programming experience required.</p>
+    .. frame:: RNA Structure Essentials
 
-.. frame:: ViennaRNA in Practice
+		A focused 2-hour session for experimentalists entering computational RNA. Covers RNA secondary structure, folding energy,	and how to interpret structure predictions in a biological context. No programming experience required.
 
-   .. raw:: html
+  .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
 
-      <p>A half-day hands-on workshop covering
-      <a href="https://www.tbi.univie.ac.at/RNA/">ViennaRNA</a>
-      command-line tools and the Python API. Participants work through
-      structure prediction, design, and analysis tasks using real
-      sequences. Basic familiarity with a command line is helpful
-      but not required.</p>
+    .. frame:: ViennaRNA in Practice
 
-.. frame:: Structure-Aware RNA Design
+			.. raw:: html
 
-   .. raw:: html
+				<p>A half-day workshop covering the <a href="https://www.tbi.univie.ac.at/RNA/">ViennaRNA</a> command-line tools. Participants work through	structure prediction, design, and analysis tasks using real	sequences. Basic familiarity with a command line is helpful	but not required.</p>
 
-      <p>A full-day workshop covering RNA design logic, kinetic folding,
-      local structure, modified nucleotides, and the implications of
-      structural thinking for RNA therapeutics and synthetic biology.
-      Suited to groups with some prior exposure to RNA structure
-      concepts who want to develop a more systematic design
-      perspective.</p>
+
+.. container:: m-row
+
+  .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
+
+		.. frame:: Structure-Aware RNA Design
+
+			A full-day workshop covering RNA design logic, kinetic folding, local structure, modified nucleotides, and the implications of structural thinking for RNA therapeutics and synthetic biology. Suited to groups with some prior exposure to RNA structure concepts who want to develop a more systematic design  perspective.
+
+  .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
+
+	  .. frame:: Computational RNA for Therapeutics
+
+			A full-day workshop on computational strategies for therapeutic RNA development, covering mRNA optimisation, structure-guided sequence engineering, and the role of chemical modifications in stability and function. For groups working on RNA therapeutics who want to think more computationally about their design process.
+
 
 Who This Is For
 ================
@@ -74,7 +75,7 @@ to take away. Content and pacing are adjusted accordingly. Participants
 receive materials they can continue working with after the session.
 
 Custom formats are available for groups with specific topics or
-time constraints outside the three standard options above.
+time constraints outside the four standard options above.
 
 .. raw:: html
 
