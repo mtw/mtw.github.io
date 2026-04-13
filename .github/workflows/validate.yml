@@ -22,7 +22,7 @@ jobs:
           python-version: "3.13"
 
       - name: Install dependencies
-        run: python -m pip install -r Pelican/requirements.txt
+        run: python -m pip install ".[dev,test]"
 
       - name: Build site
         working-directory: Pelican

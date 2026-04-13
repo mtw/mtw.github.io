@@ -4,6 +4,8 @@ Source repository for the static site at <https://michaelwolfinger.com>.
 
 The site is built with Pelican. All source content, theme assets, and build configuration live under `Pelican/`.
 
+Dependencies are managed through `pyproject.toml`.
+
 ## Repository Layout
 
 - `Pelican/content/`: pages, blog posts, files, and static content source
@@ -18,7 +20,9 @@ The site is built with Pelican. All source content, theme assets, and build conf
 Create or activate the repository virtual environment before building:
 
 ```bash
+python -m venv .venv
 source .venv/bin/activate
+python -m pip install -e ".[dev,test]"
 ```
 
 Useful commands:

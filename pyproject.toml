@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "michaelwolfinger-com"
+version = "0.1.0"
+description = "Pelican source repository for michaelwolfinger.com"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "minify-html>=0.15",
+  "pelican>=4.11,<5",
+  "Pillow>=10",
+  "pytz>=2024.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "ghp-import>=2.1",
+  "invoke>=2.2",
+  "livereload>=2.7",
+]
+test = [
+  "pytest>=8",
+]
+
+[tool.setuptools]
+py-modules = []
