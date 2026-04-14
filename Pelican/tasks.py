@@ -119,7 +119,7 @@ def livereload(c):
 
 @task
 def publish(c):
-    """Publish to production via rsync"""
+    """Legacy publish path via rsync"""
     pelican_run('-s {settings_publish}'.format(**CONFIG))
     c.run(
         'rsync --delete --exclude ".DS_Store" -pthrvz -c '
@@ -130,7 +130,7 @@ def publish(c):
 
 @task
 def gh_pages(c):
-    """Publish to GitHub Pages"""
+    """Legacy GitHub Pages publish path"""
     preview(c)
     c.run('ghp-import -b {github_pages_branch} '
           '-m {commit_message} '

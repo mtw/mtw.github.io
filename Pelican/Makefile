@@ -35,6 +35,7 @@ endif
 
 
 help:
+	@echo 'Canonical deploy path is GitHub Actions on master; targets below are kept for compatibility.'
 	@echo 'Makefile for a pelican Web site                                           '
 	@echo '                                                                          '
 	@echo 'Usage:                                                                    '
@@ -85,6 +86,7 @@ rsync_upload: publish
 	rsync -e "ssh -p $(SSH_PORT)" -P -rvzc --include tags --cvs-exclude --delete "$(OUTPUTDIR)"/ "$(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)"
 
 github: publish
+	@echo "Legacy path: production deployment is handled by GitHub Actions on master."
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) "$(OUTPUTDIR)"
 	git push origin $(GITHUB_PAGES_BRANCH)
 
