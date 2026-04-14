@@ -35,7 +35,7 @@ RNA Design Review
 An independent written assessment of your RNA construct, design
 strategy, or computational approach. You send the relevant materials
 (sequences, design rationale, slides, or a manuscript section) and I
-deliver a structured memo covering a mechanistic assessment of the
+deliver a structured memo covering a technical assessment of the
 design concept, key risks and limitations, and recommended next steps.
 An optional follow-up call is available to discuss the findings in
 more detail.
