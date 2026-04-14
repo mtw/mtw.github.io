@@ -31,6 +31,7 @@ Useful commands:
 ./Pelican/make.sh
 cd Pelican && ../.venv/bin/pelican -Dlr content -o output -s pelicanconf.py
 ./.venv/bin/python -m pytest
+./scripts/cleanup.sh
 ```
 
 What they do:
@@ -38,6 +39,7 @@ What they do:
 - `./Pelican/make.sh` builds the site into `Pelican/output/`
 - `pelican -Dlr` runs a local development server with live regeneration
 - `pytest` runs a site smoke test that verifies a deployable build can be produced
+- `./scripts/cleanup.sh` removes generated and local-only artifacts from the working tree
 
 ## Deployment
 
@@ -55,6 +57,14 @@ git push origin master
 ```
 
 The Pages workflow builds `Pelican/output/` from `publishconf.py` and deploys that artifact. There is no need to run a local `gh-pages` publish step.
+
+## Legacy Entry Points
+
+Legacy local entry points still exist in `Pelican/Makefile` and `Pelican/tasks.py`.
+
+- Keep using GitHub Actions on `master` as the canonical deploy path.
+- Treat `Pelican/make.sh` as the canonical local build entry point.
+- Treat `Makefile` and `tasks.py` as legacy compatibility interfaces unless they are explicitly being modernized.
 
 ## CSS Assets
 

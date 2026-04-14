@@ -1,4 +1,9 @@
 **/.DS_Store
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+*~
 michaelwolfinger_com.egg-info/**
 Pelican/content/output/**
 **/__pycache__/
