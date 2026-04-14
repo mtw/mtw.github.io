@@ -43,14 +43,14 @@ Scope of the Special Issue
 
 The **Functional RNAs in Virology** Special Issue aims to provide a comprehensive overview of how RNA acts as a regulatory molecule in viral infection. We welcome both original research articles and reviews that explore well-characterized RNA elements as well as emerging discoveries. Topics of interest include, but are not limited to:
 
-- 🧬 **Functional RNA structures** involved in translation, replication, and genome packaging
-- 🔄 **Long-range RNA–RNA interactions** and RNA conformational switches
-- 🧪 **Viral non-coding RNAs**
-- 🔬 **Exoribonuclease-resistant RNAs (xrRNAs)** and RNA-driven immune evasion
-- 🌐 **RNA structural conservation** and covariation across virus species or lineages
-- 🧠 **Computational discovery and modeling** of functional RNA elements
-- 🧲 **RNA–protein interactions** involving viral RNAs and host factors
-- 🧫 **RNA structure probing** and high-throughput functional RNA screening in viruses
+-  **Functional RNA structures** involved in translation, replication, and genome packaging
+-  **Long-range RNA–RNA interactions** and RNA conformational switches
+-  **Viral non-coding RNAs**
+-  **Exoribonuclease-resistant RNAs (xrRNAs)** and RNA-driven immune evasion
+-  **RNA structural conservation** and covariation across virus species or lineages
+-  **Computational discovery and modeling** of functional RNA elements
+-  **RNA–protein interactions** involving viral RNAs and host factors
+-  **RNA structure probing** and high-throughput functional RNA screening in viruses
 
 A Timely Focus
 --------------
