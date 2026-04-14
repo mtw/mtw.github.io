@@ -27,19 +27,19 @@ Key Research Interests
 
   .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
 
-    .. frame:: Synthetic Biology: De-novo RNA Design 
+    .. frame:: Synthetic Biology: De-novo RNA Design
 
-      Engineering synthetic, functional RNAs and externally inducible molecular devices like artificial riboswitches that regulate gene expression, opening new avenues in synthetic biology, therapeutic development & healthcare. 
+      Engineering synthetic, functional RNAs and externally inducible molecular devices like artificial riboswitches that regulate gene expression, opening new avenues in synthetic biology, therapeutic development & healthcare.
 
 
 .. container:: m-row
 
   .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
 
-     .. frame:: AI-Powered RNA Folding Dynamics  
+     .. frame:: AI-Powered RNA Folding Dynamics
 
       Developing cutting-edge artificial intelligence methods to address unmet challenges like inverse RNA folding kinetics, enabling the design of functional RNAs that follow a particular folding pathway.
-   
+
   .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
 
     .. frame:: RNA-Protein Interactions
@@ -55,7 +55,7 @@ Key Research Interests
 
       Exploring the dynamic process of RNA folding during transcription, advancing latest simulation techniques to study the underlying folding landscape, which is crucial for designing kinetically-controlled molecular devices such as artificial riboswitches.
 
-   
+
   .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
 
     .. frame:: Virus Bioinformatics
@@ -67,3 +67,5 @@ Collaborative Impact
 ====================
 
 Successful research is built on the strength of a :link-flat:`talented team <{filename}/team.rst>`, and my group's diverse skills are at the core of our progress. In addition to our internal work, I partner with a broad network of international collaborators and leading institutions, advancing knowledge in RNA bioinformatics, structural biology, and medical research to address critical global health challenges.
+
+The methods and expertise underlying this research are also available through expert services in computational RNA design, including design reviews and workshops for research teams and biotech groups. :link-flat:`See what I can help with </services>`.
