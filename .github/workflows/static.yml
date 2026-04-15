@@ -37,7 +37,7 @@ jobs:
         run: python scripts/build_publish.py
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: Pelican/output
 
