@@ -34,8 +34,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Build site
-        working-directory: Pelican
-        run: pelican content -o output -s publishconf.py
+        run: python scripts/build_publish.py
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

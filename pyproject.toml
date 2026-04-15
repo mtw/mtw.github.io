@@ -16,6 +16,8 @@ dependencies = [
   "pelican>=4.11,<5",
   "Pillow>=10",
   "pytz>=2024.1",
+  "rcssmin>=1.1.2",
+  "rjsmin>=1.2.2",
 ]
 
 [project.optional-dependencies]
