@@ -56,10 +56,9 @@
   --code-inverted-color: rgba(91, 91, 91, 0.33);
   --console-color: var(--code-color);
   --console-inverted-color: var(--code-inverted-color);
-  /* This is simply color-picked --code-note-background-color on top of
-     --background-color */
-  --code-background-color: #fbf0ec;
-  --code-note-background-color: rgba(251, 240, 236, 0.5);
+  /* Neutral gray code background to match the site's light palette */
+  --code-background-color: #e3e7ea;
+  --code-note-background-color: rgba(227, 231, 234, 0.5);
   --console-background-color: #000000;
   --button-background-color: #ffffff;
 
