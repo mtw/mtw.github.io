@@ -29,6 +29,7 @@ Useful commands:
 
 ```bash
 ./Pelican/make.sh
+./Pelican/make.sh publishconf.py
 cd Pelican && ../.venv/bin/pelican -Dlr content -o output -s pelicanconf.py
 ./.venv/bin/python scripts/build_publish.py
 ./.venv/bin/python -m pytest
@@ -38,6 +39,7 @@ cd Pelican && ../.venv/bin/pelican -Dlr content -o output -s pelicanconf.py
 What they do:
 
 - `./Pelican/make.sh` builds the site into `Pelican/output/`
+- `./Pelican/make.sh publishconf.py` builds `Pelican/output/` with production URL settings but without the publish minification step
 - `pelican -Dlr` runs a local development server with live regeneration
 - `python scripts/build_publish.py` builds the production site and minifies publish-only CSS, JS, and HTML assets
 - `pytest` runs a site smoke test that verifies a deployable build can be produced
@@ -79,6 +81,8 @@ If you update the light theme styles:
 3. rebuild locally and confirm `Pelican/output/static/m-light.compiled.css` is present
 
 GitHub Actions also regenerates `m-light.compiled.css` and minifies publish assets during the deploy build, so production does not depend on the checked-in compiled stylesheet staying fresh. Local development remains on the unminified `static/m-light.css` from `pelicanconf.py`.
+
+`./Pelican/make.sh` intentionally defaults to `pelicanconf.py` so local preview output keeps local asset URLs instead of pointing at the deployed site.
 
 Do not replace theme CSS files with symlinks to repo-root assets. GitHub Pages deployment depends on the theme shipping its own static files.
 
