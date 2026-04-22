@@ -3,6 +3,7 @@ set -eu
 
 script_dir="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
 repo_root="$(CDPATH= cd -- "$script_dir/.." && pwd)"
+settings_file="${1:-pelicanconf.py}"
 
 if [ -x "$repo_root/.venv/bin/pelican" ]; then
   pelican="$repo_root/.venv/bin/pelican"
@@ -15,5 +16,4 @@ else
 fi
 
 cd "$script_dir"
-"$pelican" content -D -vv -o output -s pelicanconf.py
-"$pelican" content -D -vv -o output -s publishconf.py
+"$pelican" content -D -vv -o output -s "$settings_file"
