@@ -2,13 +2,13 @@ How to Run Claude Code with a Local LLM on Apple Silicon
 ########################################################
 
 :date: 2026-04-17
-:modified: 2026-04-17
-:tags: AI, Claude Code, LM Studio, Apple Silicon
+:modified: 2026-04-22
+:tags: AI, Agents
 :category: howto
 :slug: claude-code-local-llm-apple-silicon
 :author: mtw
 :title: How to Run Claude Code with a Local LLM on Apple Silicon
-:summary: Configure Claude Code to use a local model served by LM Studio on Apple Silicon.
+:summary: Configure Claude Code to use a local model served by LM Studio on Apple Silicon, with a practical setup based on LM Studio's Anthropic-compatible API.
 :description: A practical guide to running Claude Code against a local LLM served by LM Studio on Apple Silicon.
 
 This guide shows you how to run Claude Code with a locally hosted large language model on Apple Silicon. The supported integration path is to let LM Studio expose an Anthropic-compatible API endpoint and then point Claude Code at that local endpoint via environment variables.
