@@ -471,7 +471,10 @@ nav.m-navpanel a:hover, nav.m-navpanel a:focus, nav.m-navpanel a:active {
 }
 
 /* Tag cloud */
-ul.m-tagcloud li { display: inline; }
+ul.m-tagcloud li {
+  display: inline-block;
+  margin: 0 0.35rem 0.2rem 0;
+}
 ul.m-tagcloud li.m-tag-1 { font-size: 0.75rem; }
 ul.m-tagcloud li.m-tag-2 { font-size: 0.825rem; }
 ul.m-tagcloud li.m-tag-3 { font-size: 1rem; }
