@@ -39,16 +39,7 @@ Submitted Manuscripts / Preprints
 
     .. container::  m-col-t-8
 
-        | 56. :link-flat-strong:`Rational design of mechanically active RNAs: de novo engineering of functional exoribonuclease-resistant RNAs <https://doi.org/10.64898/2026.01.08.698366>`
-        | Jule Walter, Leonhard Sidl, Katrin Gutenbrunner, Denis Skibinski, Tim Kolberg, Ivo L. Hofacker, Hua-Ting Yao, Mario Mörl, :ul:`Michael T. Wolfinger`
-        | *bioRxiv* (2026)
-        | :doi:`doi:10.64898/2026.01.08.698366 <https://doi.org/10.64898/2026.01.08.698366>` | :link-flat:`Preprint PDF <{static}/files/papers/Walter-2026__PREPRINT.pdf>`
-
-  .. container:: m-row
-
-    .. container::  m-col-t-8
-
-      | 55. :link-flat-strong:`“Circle ofLife” - Zika virus genomic cyclization is controlled by sequence specificity <{filename}/publications.rst>`
+      | 56. :link-flat-strong:`“Circle ofLife” - Zika virus genomic cyclization is controlled by sequence specificity <{filename}/publications.rst>`
       | Liam Kerr, Danielle L. Gemmill, Higor S. Pereira, :ul:`Michael T. Wolfinger`, Trushar R. Patel
       | Submitted manuscript (2025)
 
@@ -58,6 +49,22 @@ Submitted Manuscripts / Preprints
 
 Peer-reviewed journal / conference articles and book chapters
 =============================================================
+
+.. _year2026:
+
+`2026`_
+-------
+
+.. container:: m-container-inflatable
+
+  .. container:: m-row
+
+    .. container::  m-col-t-8
+
+      | 55. :link-flat-strong:`Rational design of mechanically active RNAs: de novo engineering of functional exoribonuclease-resistant RNAs <https://doi.org/10.64898/2026.01.08.698366>`
+      | Jule Walter, Leonhard Sidl, Katrin Gutenbrunner, Denis Skibinski, Tim Kolberg, Ivo L. Hofacker, Hua-Ting Yao, Mario Mörl, :ul:`Michael T. Wolfinger`
+      | *Nucleic Acids Res.* accepted (2026)
+      | :doi:`doi:10.64898/2026.01.08.698366 <https://doi.org/10.64898/2026.01.08.698366>` | :link-flat:`Preprint PDF <{static}/files/papers/Walter-2026__PREPRINT.pdf>` | :label-flat-info:`Journal article`
 
 .. _year2025:
 
