@@ -13,8 +13,8 @@ Updated Phylogeny of Chikungunya Virus Suggests Lineage-Specific RNA Architectur
 
 .. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
 
-   .. figure:: {static}/files/QuickSlide/QuickSlide__deBernardiSchneider-2019b/QuickSlide__deBernardiSchneider-2019b.001.png
-          :alt: Updated phylogeny and lineage structure of Chikungunya virus
+   .. figure:: {static}/files/QuickSlide/QuickSlide__deBernardiSchneider-2019b/QuickSlide__deBernardiSchneider-2019b.006.png
+          :alt: Lineage-specific 3' UTR architecture in Chikungunya virus
           :figclass: m-figure m-flat
 
 Chikungunya virus (CHIKV) is usually discussed in terms of a small set of named geographic lineages, but that picture has become increasingly inadequate as more genome sequences have accumulated. In this study we revisited CHIKV evolution using 598 complete genomes and asked two connected questions: how well the traditional lineage labels still reflect the phylogeny, and whether the distinct clades also differ in the organization of their untranslated regions.
