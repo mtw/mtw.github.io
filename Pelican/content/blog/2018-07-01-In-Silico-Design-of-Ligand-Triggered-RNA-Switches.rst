@@ -2,12 +2,12 @@ In Silico Design of Ligand Triggered RNA Switches
 #################################################
 
 :date: 2018-07-01
-:modified: 2022-10-14
+:modified: 2026-04-23
 :tags: energy landscapes; new method; RNA kinetics; RNA design; ViennaRNA; synthetic biology
 :category: publications
 :slug: In-Silico-Design-of-Ligand-Triggered-RNA-Switches
 :author: mtw
-:summary: In the world of synthetic biology, the design of RNA switches holds immense promise for various applications, ranging from diagnostics to therapeutics. This paper presents a comprehensive workflow for designing RNA switches that can dynamically alter their structural conformations in response to specific ligands
+:summary: A computational workflow for designing ligand-triggered RNA switches, with emphasis on sequence design, folding kinetics, and candidate prioritization.
 :title: In silico design of ligand triggered RNA switches
 :description: Designing ligand-triggered riboswitches: Computational workflow and in silico analysis for studying the RNA folding kinetics of rationally designed sequences
 
@@ -23,13 +23,19 @@ In Silico Design of Ligand Triggered RNA Switches
 .. role:: doi(link)
   :class: doi
 
-The research paper outlines a step-by-step RNA design process, shedding light on each crucial stage with intricate detail. From selecting a well-characterized RNA aptamer, such as the theophylline aptamer, to delineating the structural features essential for ligand binding, every aspect of the design process is elucidated.
+Designing a useful ligand-triggered RNA switch is not just a matter of finding a sequence that can fold into two states. The real problem is to engineer a sequence whose relevant conformations, ligand competence, and switching kinetics are all compatible with the intended mechanism.
 
-We introduce a novel, probability-based objective function which allows researchers to quantitatively assess the performance of their designed RNA switches, making it easier to identify the most effective candidates for their specific application.
+This work lays out a concrete in silico workflow for that problem. It starts from a well-characterized aptamer, exemplified here with the theophylline aptamer, and treats ligand binding as one structurally defined state of the switch. The design task then becomes one of balancing that binding-competent conformation against an alternative fold that disrupts it in the absence of ligand.
 
-Building on these advancements, we establish key criteria to ensure robust analysis of RNA switch behavior. This focus on rigorous methodology strengthens the foundation for reliable results in the design process.
+One useful contribution of the paper is that it makes the objective function explicit. Instead of treating switch design as a vague search for "good" sequences, the workflow defines quantitative criteria for what the sequence should do. That matters because RNA design tends to fail when the desired mechanism is underspecified. If the design objective does not encode the structural logic of the switch, ranking candidate sequences becomes little more than guesswork.
 
-Finally, we present a method to visualize the kinetic properties of RNA switch sequences. This visualization tool provides valuable insights into the speed of structural changes within the switch, enabling researchers to efficiently rank and filter designed sequences and pinpoint the optimal candidates for further investigation.
+The other key point is kinetics. For many RNA design problems, equilibrium structure alone is not enough. A candidate may satisfy static structural constraints and still perform poorly if the switching pathway is too slow, too indirect, or dominated by off-target intermediates. That is why the workflow includes an analysis of folding kinetics rather than stopping at secondary-structure prediction.
+
+The result is a design pipeline that helps filter and rank candidate sequences before any experimental work begins. It does not guarantee that a proposed switch will function in a cellular context, and it does not replace experimental validation. What it does offer is a principled way to reduce the search space and focus attention on sequences whose structures and dynamic behavior are at least consistent with the intended design.
+
+For computational RNA biology, that is the real value of this kind of work. It turns riboswitch design from an intuition-led exercise into an optimization problem with explicit structural and kinetic criteria. That framing also makes the workflow adaptable: once the design assumptions are clear, the same logic can be extended to other aptamers, other switching scenarios, and more elaborate regulatory mechanisms.
+
+If you are evaluating an RNA switch, riboswitch, or structure-aware design workflow, I also offer independent design reviews for research teams and biotech groups through my :link-flat:`services page <{filename}/services.rst>`.
 
 .. raw:: html
 
