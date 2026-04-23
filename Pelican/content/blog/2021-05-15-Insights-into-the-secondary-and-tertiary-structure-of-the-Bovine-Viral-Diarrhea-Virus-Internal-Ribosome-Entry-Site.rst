@@ -2,14 +2,14 @@ Insights into the secondary and tertiary structure of the BVDV Internal Ribosome
 ##################################################################################################################
 
 :date: 2021-05-15
-:modified: 2023-11-04
+:modified: 2026-04-23
 :tags: 3D; SHAPE; virus bioinformatics; non-coding RNA; flavivirus; virology
 :category: publications
 :slug: Insights-into-the-secondary-and-tertiary-structure-of-the-Bovine-Viral-Diarrhea-Virus-Internal-Ribosome-Entry-Site
 :author: mtw
 :description: Characterization of a pseudoknot in the 5'UTR Internal Ribosome Entry Site (IRES) of Bovine Viral Diarrhea Virus (BVDV)
-:title: BVDV IRES RNA in focus: A game changer for livestock health
-:summary: Here we characterize a pseudoknot in the 5'UTR Internal Ribosome Entry Site (IRES) of Bovine Viral Diarrhea Virus (BVDV) using SHAPE-guided RNA structure probing and computational modelling of secondary and tertiary structures
+:title: Secondary and tertiary structure of the BVDV IRES
+:summary: This post summarizes what SHAPE-guided modeling and 3D analysis reveal about a pseudoknot in the BVDV internal ribosome entry site and why that matters for IRES function.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -31,21 +31,21 @@ Insights into the secondary and tertiary structure of the BVDV Internal Ribosome
 
 
 
-RNA viruses have long fascinated researchers with their ability to adapt and evolve using minimal genetic material. Among these viruses, Bovine Viral Diarrhea Virus (BVDV) stands out as a significant veterinary pathogen, causing substantial economic losses in the livestock industry worldwide. Understanding the molecular mechanisms behind the replication cycle of BVDV is crucial for developing effective strategies to combat this virus. In our recently published paper, we delve into the intricacies of BVDV's RNA structure, shedding light on its critical role in viral translation. Here, we aim to provide an accessible explanation of our findings for both experts and non-virologists and emphasize the relevance of our research to the *One Health System*.
+Bovine viral diarrhea virus (BVDV) relies on an internal ribosome entry site (IRES) in its 5' untranslated region to drive cap-independent translation. For systems like this, function depends on RNA architecture rather than sequence alone, which makes the structural organization of the IRES worth analyzing in detail.
 
-BVDV belongs to the Pestivirus genus, a group of viruses known for their economic impact on the livestock industry. Like other RNA viruses, BVDV employs resource-efficient molecular strategies to optimize its replication cycle. Central to this process is the Internal Ribosome Entry Site (IRES) located within the virus's 5' Untranslated Region (UTR). The IRES is a complex structural domain that controls cap-independent translation, a crucial step in viral infection.
+This study combined SHAPE-MaP probing with secondary-structure analysis and tertiary modeling to ask a specific question: how is the BVDV IRES organized in solution, and what evidence supports the proposed pseudoknot in domain III? That is the central structural feature of the post, because pseudoknot architecture is likely to be directly relevant to how the IRES maintains a translation-competent state.
 
-Our study focused on unraveling the intricate secondary and tertiary structure of BVDV IRES RNA. We used RNA structural probing methods and computational 3D modeling to gain insights into the structural arrangement of this critical RNA component.
+The resulting model supports a modular IRES architecture with three major domains. Much of the secondary structure agrees with earlier work, but the analysis also points to flexibility in domain II and a comparatively stable arrangement in domain III. That contrast is useful: it suggests that not all parts of the IRES contribute in the same way, and that local structural stability may be concentrated in the regions most critical for tertiary organization.
 
-Our research revealed that BVDV IRES RNA consists of three major structural domains (I-III), each containing distinct motifs, such as hairpins and stems, interspersed among less structurally constrained regions. While our model aligned with previous secondary structure models for BVDV strains, we identified an alternative folding pattern in domain II. This structural flexibility in domain II was supported by thermodynamic parameters, highlighting the dynamic nature of BVDV IRES RNA.
+The most important result concerns domain III, where the data support an H-type pseudoknot and a specific local arrangement of helices. The tertiary modeling suggests quasi-coaxial stacking between motifs associated with the pseudoknot, which provides a structural explanation for why this region appears unusually stable. Comparative analysis across Pestivirus genomes further supports the idea that the pseudoknot is not an isolated feature of a single strain, but part of a conserved functional architecture.
 
-The most significant discovery in our study pertains to domain III, which exhibited high structural stability. It includes single-stranded regions and a pseudoknot, a structural element crucial for viral translation. Our 3D modeling revealed quasi-coaxial stacking between specific motifs in domain III, providing insight into the stability of the IRES pseudoknot.
+That does not mean the computational model alone proves mechanism. What it does provide is a more concrete structural hypothesis for how the BVDV IRES is arranged and why certain elements are likely to matter for translation. In other words, the work narrows the space of plausible architectures and gives experimentalists a clearer basis for targeted perturbation.
 
-Previous studies had suggested the presence of a pseudoknot in BVDV IRES RNA, but our research provided computational evidence supporting its crucial role. We conducted a comprehensive analysis of BVDV IRES RNA sequences from different genotypes and identified statistically significant covariation in 22 base pairs, including the pseudoknot.
+This is also where the comparison to related IRES systems becomes useful. BVDV and hepatitis C virus share broad organizational similarities, but the real value of that comparison is not to imply immediate transfer of therapeutic strategy. It is to show that conserved structural logic can emerge across related viral translation elements, making careful cross-system comparison worthwhile.
 
-Our findings have far-reaching implications in combating BVDV and related viruses. The similarities between BVDV and Hepatitis C Virus (HCV) IRES RNAs suggest that strategies developed to target HCV IRES RNA could potentially be applied to interfere with BVDV replication. This includes the identification of small molecule inhibitors, antisense oligonucleotides, and ribozymes to disrupt the IRES RNA, preventing the binding of translational factors and ultimately inhibiting viral replication.
+For RNA virology, this is a good example of where structure probing and computational modeling complement each other well. Probing constrains the plausible secondary structures, comparative analysis highlights conserved base pairs, and tertiary modeling translates those constraints into a geometric hypothesis that can be tested further.
 
-In conclusion, our research has unveiled the structural intricacies of BVDV IRES RNA, shedding light on its role in viral translation. This knowledge opens up exciting possibilities for the development of targeted therapies against BVDV and related viruses, contributing to the *One Health* System's mission of protecting both human and animal health. As we continue to delve deeper into the molecular mechanisms of these pathogens, we move one step closer to mitigating the threats they pose to our global community.
+I also work with groups that need help interpreting RNA structure models in viral systems and other structured RNAs. If that is relevant to your work, you can find more detail on my :link-flat:`services page <{filename}/services.rst>`.
 
 .. raw:: html
 
