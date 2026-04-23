@@ -7,8 +7,8 @@ Musashi Binding Elements in Zika Virus 3'UTR
 :category: publications
 :slug: Musashi-Binding-Elements-in-Zika-and-Related-Flavivirus-3UTRs-A-Comparative-Study-in-Silico
 :author: mtw
-:summary: Discovering the characteristic traits of Musashi Binding Elements (MBEs) in Flaviviruses with a Thermodynamic Model
-:description: A comparative study of Musashi Binding Elements in Flaviviruses' 3'UTR using the ViennaRNA package for thermodynamic modeling of RNA structure formation
+:summary: A comparative analysis of Musashi binding element accessibility in Zika virus and related flavivirus 3' UTRs using thermodynamic RNA structure modeling.
+:description: Comparative thermodynamic analysis of Musashi binding elements in flavivirus 3' UTRs, with a focus on accessibility in Zika virus.
 :title: Musashi binding elements in Zika virus 3'UTR
 
 
@@ -25,7 +25,7 @@ Musashi Binding Elements in Zika Virus 3'UTR
 .. role:: doi(link)
   :class: doi
 
-In this study, we investigated how flaviviruses can cause congenital neurological disease by examining the accessibility of a specific binding motif for RNA-binding proteins from the Musashi family in the 3'UTR of flaviviruses. Through evaluating the affinity of different viruses to form RNA-protein complexes, we aimed to understand the role of Musashi proteins in promoting Zika virus replication and inducing congenital neurotropism. Using a well-established biophysical model of RNA structure formation, we conducted computational analysis of the thermodynamic properties of Musashi binding elements. Our findings support the hypothesis that suggest Zika virus (ZIKV) is not the only flavivirus capable of causing severe neuropathology through interaction with the Musashi proteins.
+In this study, we examined the structural accessibility of Musashi-family RNA-binding motifs in flavivirus 3' UTRs, with particular emphasis on Zika virus. Using a thermodynamic model of RNA structure formation, we asked whether Musashi binding elements are preferentially exposed in ZIKV and how that pattern compares with related flaviviruses. The analysis supports the idea that ZIKV Musashi binding elements are unusually accessible among mosquito-borne flaviviruses and provides a framework for comparing similar motifs across related viral genomes.
 
 .. raw:: html
 

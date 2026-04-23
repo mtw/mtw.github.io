@@ -7,8 +7,8 @@ Pervasive non-coding RNA structure conservation and molecular epidemiology of TB
 :category: publications
 :slug: Evolutionary-traits-of-Tick-borne-encephalitis-virus-Pervasive-non-coding-RNA-structure-conservation-and-molecular-epidemiology
 :author: mtw
-:summary: In this paper, we study the molecular epidemiology and RNA structureome diversity of tick-borne encephalitis virus (TBEV). Moreover, we propose a unified picture of pervasive non-coding RNA structure conservation across all known TBEV subtypes
-:description: In this study we propose a unified picture of pervasive ncRNA structure conservation across all known TBEV subtypes
+:summary: This study combines comparative RNA structure analysis with molecular epidemiology to characterize conserved and variable 3' UTR architectures across tick-borne encephalitis virus lineages.
+:description: Comparative analysis of 3' UTR RNA structure conservation and molecular epidemiology across tick-borne encephalitis virus lineages.
 :title: RNA structure conservation and molecular epidemiology of TBEV
 
 .. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
@@ -18,7 +18,7 @@ Pervasive non-coding RNA structure conservation and molecular epidemiology of TB
           :figclass: m-figure m-flat
 
 
-This research aimed to understand the RNA structure conservation in the 3'UTR region of Tick-Borne Encephalitis Virus (TBEV), a flavivirus endemic in parts of Europe and Asia. The study revealed that the TBEV 3’UTRs contain two domains: a highly conserved core domain at the 3’end, and a variable region upstream. The core domain has five structured ncRNA elements, two of which are associated with virulence and virus replication. The variable region, responsible for the differences in genome lengths across subtypes, contains between two and four distinct structural elements. We show that the TBEV 3′ architectural diversity is realized by a combination of a restricted pool of eight structural and one non-structural element, suggesting that the observed 3′UTR variability is driven by structural, rather than sequence conservation.
+This study examines RNA structure conservation in the 3' UTR of tick-borne encephalitis virus (TBEV), a flavivirus endemic in parts of Europe and Asia. The analysis shows that TBEV 3' UTRs contain a highly conserved core domain at the 3' end and a more variable upstream region. Across lineages, the observed architectural diversity can still be described using a restricted pool of recurring structural elements, suggesting that 3' UTR variation is shaped more strongly by structural than by primary-sequence conservation.
 
 The study also introduces `TBEVnext <https://nextstrain.org/groups/ViennaRNA/TBEVnext>`_, a dataset revealing spatiotemporal and phylodynamic characteristics of TBEV global spread. `TBEVnext <https://nextstrain.org/groups/ViennaRNA/TBEVnext>`_ includes various TBEV subtypes and shows no strict association between TBEV subtypes and geographic occurrence. A timed phylogenetic tree inferred from this data provides insights into the ecological aspects of the global virus spread and unique properties of different strains.
 

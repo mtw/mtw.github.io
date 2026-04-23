@@ -7,9 +7,9 @@ Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses
 :category: publications
 :slug: Functional-RNA-Structures-in-the-3UTR-of-Mosquito-Borne-Flaviviruses
 :author: mtw
-:summary: The 3'UTR of Mosquito-Borne Flaviviruses (MBF) contain evolutionarily conserved functional elements, such as exoribonuclease-resistant RNAs (xrRNAs), dumbbell elements or terminal stem-loops. In this contribution we describe, annotate, and compare these elements within different serological groups of MBF
+:summary: This chapter compares conserved functional RNA elements in the 3' UTRs of mosquito-borne flaviviruses, including xrRNAs, dumbbells, and terminal stem-loops.
 :title: Functional RNA structures in the 3'UTR of Mosquito-Borne Flaviviruses
-:description: This book chapter describes and compares evolutionarily conserved functional RNAs in Mosquito-Borne Flaviviruses
+:description: Comparative overview of conserved functional RNA elements in the 3' UTRs of mosquito-borne flaviviruses.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -26,7 +26,7 @@ Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses
 .. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
 
     .. figure:: {static}/files/papers/preview/Preview__Wolfinger-2021.001small.webp
-          :alt: Consenus RNA secondary sructures of evolutionary conserved elements in flavivirus 3'UTRs
+          :alt: Consensus RNA secondary structures of evolutionarily conserved elements in flavivirus 3' UTRs
           :figclass: m-figure m-flat
 
 Mosquito-borne flaviviruses (MBF) are responsible for millions of infections in humans and animals each year, posing a significant public health threat. These viruses belong to the Flavivirus family, characterized by their enveloped, non-segmented, single-stranded (+)-sense RNA genome. This genome, known as gRNA, is about 10-12 kilobases long and contains a single open reading frame (ORF) flanked by highly structured untranslated regions (UTRs) at both ends. The UTRs play a crucial role in regulating the viral life cycle by mediating essential processes like genome cyclization, replication, and immune system evasion.

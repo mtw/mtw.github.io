@@ -7,9 +7,9 @@ Theoretical studies on RNA recognition by Musashi 1 RNA-binding protein
 :category: publications
 :slug: Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein
 :author: mtw
-:summary: In this contribution we study the association complexes of the RNA-binding protein Musashi-1 with different RNA motifs, using molecular dynamics simulations
-:title: Musashi-1 RNA-binding protein's role in RNA recognition
-:description: Musashi RNA-binding proteins, crucial yet understudied, interact with Zika virus RNA. This study shows how MSI1 binds selectively to various RNA motifs.
+:summary: Molecular dynamics and binding-energy calculations are used here to compare how Musashi-1 recognizes different RNA motifs and to identify determinants of binding specificity.
+:title: RNA recognition by Musashi-1
+:description: Computational analysis of Musashi-1 RNA recognition using molecular dynamics simulations and binding-energy calculations.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -31,7 +31,7 @@ Theoretical studies on RNA recognition by Musashi 1 RNA-binding protein
 
 
 
-Musashi-1 (MSI1), an RNA-binding protein, plays a pivotal role in maintaining and self-renewal of neural progenitor and stem cells. Intriguingly, it has been demonstrated to enhance Zika virus (ZIKV) replication, emphasizing the significance of MSI1:RNA complexes in ZIKV-induced neurotropism.
+Musashi-1 (MSI1) is an RNA-binding protein involved in the maintenance and self-renewal of neural progenitor and stem cells. It has also been implicated in promoting Zika virus replication, which makes MSI1:RNA complexes relevant both for host RNA recognition and for virus-host interaction studies.
 
 In this study, we employ computational modeling to assess the association complexes formed between the RNA-binding protein MSI1 and various target RNAs. MSI1 has two RNA-binding domains, each displaying distinct affinities for binding single-stranded RNA molecules. Utilizing molecular dynamics simulations alongside binding free energy calculations, we delve into the intricacies of MSI1:RNA complexes. This investigation holds the key to unraveling MSI1's role in congenital neuropathology, notably microcephaly.
 
