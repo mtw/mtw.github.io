@@ -7,7 +7,7 @@ How to compute normalized RNA-seq expression from multicov files
 :category: HOWTO
 :slug: How-to-compute-normalized-RNA-seq-expression-from-multicov-files
 :author: mtw
-:summary: Why you should use TPM rather than RPKM
+:summary: Why TPM is generally a better expression measure than RPKM, and how to compute normalized RNA-seq expression from multicov files.
 :title: How to compute normalized RNA-seq expression from multicov files
 :description: TPM (transcript per million) is a measure for RNA-seq expression abundance and a proxy for the relative molar concentration of RNA species
 :archived: True

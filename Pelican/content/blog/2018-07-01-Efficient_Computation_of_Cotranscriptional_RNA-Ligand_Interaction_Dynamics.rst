@@ -7,7 +7,7 @@ Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics
 :category: publications
 :slug: Efficient-Computation-of-Cotranscriptional-RNA-Ligand-Interaction-Dynamics
 :author: mtw
-:summary: Riboswitches are RNA molecules that regulate gene expression by sensing metabolites, presenting an interesting target for synthetic biology applications. We present a computational approach based on ViennaRNA tools to dissect and model RNA-ligand interaction dynamics under kinetic control, enabling simulation of riboswitch folding
+:summary: A ViennaRNA-based approach for modeling cotranscriptional RNA-ligand interaction dynamics in kinetically controlled riboswitches.
 :title: Co-transcriptional riboswitch modeling with ViennaRNA
 :description: Co-transcriptional RNA folding under kinetic control can be efficiently modeled with computational approaches for the 2'dG riboswitch.
 

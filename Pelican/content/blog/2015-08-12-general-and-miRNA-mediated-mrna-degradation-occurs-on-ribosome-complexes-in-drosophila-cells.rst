@@ -7,7 +7,7 @@ General and miRNA-mediated mRNA degradation occurs on ribosome complexes in Dros
 :category: publications
 :slug: general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells
 :author: mtw
-:summary: In this study we show that mRNA degradation occurs on ribosome complexes in Drosophila cells
+:summary: This study shows that general and miRNA-mediated mRNA degradation occurs on ribosome complexes in Drosophila cells.
 :title: mRNA degradation occurs on ribosome complexes in Drosophila cells
 :description: Explore mRNA degradation on ribosomes in Drosophila cells, revealing tight coupling with miRNA factors and bulk mRNA association.
 

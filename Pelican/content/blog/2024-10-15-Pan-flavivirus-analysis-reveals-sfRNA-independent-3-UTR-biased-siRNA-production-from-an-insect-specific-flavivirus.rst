@@ -7,8 +7,8 @@ Pan-flavivirus analysis reveals sfRNA-independent 3' UTR-biased siRNA production
 :category: publications
 :slug:
 :author: mtw
-:summary: In this paper, we explore the role of RNA interference (RNAi) in mosquito immunity by comparing viral small interfering RNA (siRNA) profiles across different  insect-specific flaviviruses
-:title: Insect-specific flaviviruses evade antiviral RNAi
+:summary: A comparative analysis of vsiRNA profiles across insect-specific flaviviruses reveals unusually strong 3' UTR-biased siRNA production that is independent of sfRNA formation.
+:title: 3' UTR-biased siRNA production in an insect-specific flavivirus
 :description: This study uncovers a distinctive siRNA response in Kamiti River virus, an insect-specific flavivirus that has a particularly long structured 3'UTR
 
 .. role:: link-flat-strong(link)

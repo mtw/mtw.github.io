@@ -8,7 +8,7 @@ ViennaNGS: A toolbox for building efficient next-generation sequencing analysis 
 :slug: ViennaNGS-a-toolbox-for-building-efficient-next-generation-sequencing-analysis-pipelines
 :author: mtw
 :title: Building efficient NGS analysis pipelines with ViennaNGS
-:summary: ViennaNGS is a workflow system for building efficient NGS data analysis pipelines, integrating high-level routines and wrapper functions for common NGS processing tasks
+:summary: ViennaNGS is a workflow system for building efficient NGS analysis pipelines, with high-level routines and wrapper functions for common processing tasks.
 :description: ViennaNGS is collection of utilities and Perl modules for next-generation sequencing (NGS) data analysis
 
 .. role:: link-flat-strong(link)

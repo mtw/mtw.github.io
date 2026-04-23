@@ -7,9 +7,9 @@ Memory-efficient-RNA-energy-landscape-exploration
 :category: publications
 :slug: Memory-efficient-RNA-energy-landscape-exploration
 :author: mtw
-:summary: Discrete energy landscapes provide a valuable means for analyzing non-equilibrium properties of biopolymers. In this study we propose a memory-efficient approach for local flooding of the lower portion of an RNA folding landscape
+:summary: A memory-efficient approach for exploring the lower portion of RNA energy landscapes and analyzing non-equilibrium folding behavior.
 :description: A memory efficient approach for exploring the low-energy portion of RNA energy landscapes at the level of secondary structures
-:title: How to efficiently explore the lower portion of RNA energy landscapes
+:title: Memory-efficient exploration of RNA energy landscapes
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong

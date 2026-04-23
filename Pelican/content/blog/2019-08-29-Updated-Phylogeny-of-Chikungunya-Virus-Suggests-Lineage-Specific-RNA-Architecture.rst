@@ -7,9 +7,9 @@ Updated Phylogeny of Chikungunya Virus Suggests Lineage-Specific RNA Architectur
 :category: publications
 :slug: Updated-Phylogeny-of-Chikungunya-Virus-Suggests-Lineage-Specific-RNA-Architecture
 :author: mtw
-:title: Chikungunya Virus Phylogeny: Lineage-Specific RNA Structures
+:title: Chikungunya virus phylogeny and lineage-specific RNA structures
 :description: Our study finds multiple independent clades in the ECSA lineage of Chikungunya virus and uncovers evidence of lineage-specific RNA structure conservation.
-:summary: In this study, we analyzed the evolution and spread of the Chikungunya virus (CHIKV) across Africa by examining 598 whole genome sequences. Our analysis revealed several distinct CHIKV lineages with strong support, providing new insights into the virus's evolutionary history and its movement across regions
+:summary: An updated CHIKV phylogeny based on 598 genomes, linking lineage structure to conserved and lineage-specific 3' UTR RNA architectures.
 
 We carried out an in-depth analysis of the virus’s 3’UTR, where we uncovered conserved RNA structures that likely play crucial roles in stabilizing viral RNA and interacting with host proteins. One of our most intriguing findings was the discovery of unique 3’UTR structures specific to certain lineages. These features may help the virus counter host defenses and interact with key cellular proteins, such as the Musashi family of translational regulators.
 
