@@ -1,19 +1,15 @@
-Michael Thomas Wolfingers's Present and Past Group Members
-##########################################################
+Michael Thomas Wolfinger's Present and Past Group Members
+#########################################################
 :title: Team members of the Wolfinger research group
-:summary: Innovators in RNA Science and Synthetic Biology Research
-:description: Meet our team of experts in RNA science and synthetic biology, driving research through collaboration and innovation to solve complex biological challenges
+:summary: Current and past members of the Wolfinger research group.
+:description: Present and past members of the Wolfinger research group at the University of Vienna and FH Campus Wien.
 
 :breadcrumb: / Home
 
 .. role:: link-sup(link)
   :class: m-flat m-text m-footnote
 
-Our team is at the forefront of RNA science and synthetic biology, driving innovative solutions to complex biological challenges.
-
-We believe great research comes from collaboration and a supportive environment where every member can thrive. We encourage curiosity, creativity, and open communication, ensuring that all voices are heard and ideas explored.
-
-The progress we make as a group relies entirely on the skills, dedication, and unique strengths that each member brings. Every individual plays a vital role in driving our research forward, and it’s through our collective effort that we continue to advance our research field. This page highlights the talented people who make our progress possible.
+This page lists current and past members of the Wolfinger research group. Our work depends on a mix of computational, biochemical, and virological expertise, and the group has benefited from contributions at many different career stages.
 
 
 Current Team Members
@@ -53,7 +49,7 @@ Past Team Members
 Join the Team
 =============
 
-If you're passionate about RNA science, computational biology, or synthetic biology, and interested in joining our research team, please :link:`reach out to Michael T. Wolfinger <{filename}/contact.rst>`. We’re always excited to work with motivated individuals eager to contribute to groundbreaking research!
+If you are interested in joining the group and your background fits our work in RNA science, computational biology, or synthetic biology, please :link:`get in touch <{filename}/contact.rst>`.
 
 
 .. raw:: html
@@ -65,6 +61,6 @@ If you're passionate about RNA science, computational biology, or synthetic biol
     </dd>
     <dt id="ref2">2.</dt>
     <dd>
-      <span class="m-footnote"><a href="#ref2-backref">^</a></span> FH Campus Viennna
+      <span class="m-footnote"><a href="#ref2-backref">^</a></span> FH Campus Wien
     </dd>
   </dl>

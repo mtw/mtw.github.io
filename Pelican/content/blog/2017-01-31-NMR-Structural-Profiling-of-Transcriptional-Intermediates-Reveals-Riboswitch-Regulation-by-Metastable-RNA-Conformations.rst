@@ -7,9 +7,9 @@ NMR Structural Profiling of Transcriptional Intermediates Reveals Riboswitch Reg
 :category: publications
 :slug:
 :author: mtw
-:summary: In the realm of gene regulation, understanding the precise mechanisms by which RNA molecules fold and function during transcription is crucial. This study delves into this intricate process, focusing on the type I-A 2′-deoxyguanosine (2'dG)-sensing riboswitch from Mesoplasma florum. By employing NMR spectroscopy and computational modeling, we have uncovered critical insights into how co-transcriptional folding influences ligand binding and conformational switching in these regulatory RNAs.
-:title: Co-transcriptional folding as a key factor in riboswitch function
-:description: Discover how co-transcriptional folding influences ligand binding in riboswitches, revealing key insights for RNA-based gene regulation and synthetic biology
+:summary: This study uses NMR spectroscopy and computational modeling to show how transcript length and metastable intermediates shape ligand binding and switching in a 2'dG-sensing riboswitch.
+:title: Co-transcriptional folding and metastable states in riboswitch function
+:description: NMR and computational analysis of transcription intermediates in a 2'dG-sensing riboswitch.
 
 
 .. role:: link-flat-strong(link)
@@ -24,7 +24,7 @@ NMR Structural Profiling of Transcriptional Intermediates Reveals Riboswitch Reg
 .. role:: doi(link)
   :class: doi
 
-Riboswitches are small, metabolite-sensing RNA molecules that regulate gene expression by undergoing structural changes upon binding to specific ligands. These conformational switches can either terminate or promote transcription, depending on the presence of the ligand. Despite extensive studies on riboswitches, the relationship between the length of the mRNA transcript, ligand binding, and the subsequent allosteric conformational changes has remained elusive—until now.
+Riboswitches regulate gene expression by changing conformation in response to ligand binding, but the decisive structural events often happen while the RNA is still being transcribed. This study focuses on the type I-A 2'dG-sensing riboswitch from *Mesoplasma florum* and asks how transcript length, ligand binding, and metastable intermediates interact during that process.
 
 Investigating co-transcriptional folding
 ----------------------------------------
@@ -34,12 +34,12 @@ The study focuses on the I-A type 2'dG-sensing riboswitch, exploring how it fold
 Key findings
 ------------
 
-Using NMR spectroscopy, we analyzed transcription intermediates with single-nucleotide precision, offering unprecedented insights into the folding process of the riboswitch. The study highlights the importance of metastable states—temporary conformations that the RNA adopts during transcription. These states are crucial for the proper functioning of the riboswitch, ensuring that the RNA can efficiently switch structures in response to ligand binding. The findings underscore that RNA folding is highly sequence-dependent, with specific sequences promoting or hindering the formation of certain structures. This dependency plays a critical role in the riboswitch's ability to regulate gene expression.
+Using NMR spectroscopy, we analyzed transcription intermediates with single-nucleotide precision and mapped how the accessible conformational space changes during RNA synthesis. The study highlights the importance of metastable states, showing that riboswitch function depends not only on the final fold but also on transient structures that appear along the transcription pathway.
 
 Implications for synthetic biology and healthcare
 -------------------------------------------------
 
-Understanding the co-transcriptional folding of riboswitches opens up new avenues for the rational design of inducible molecular devices. These devices could be tailored for various applications in synthetic biology and healthcare, such as creating new biosensors or developing targeted gene regulation therapies. The knowledge gained from this study provides a framework for designing RNA molecules with precise regulatory functions, paving the way for innovative biotechnological solutions.
+For RNA design, the key implication is straightforward: equilibrium structure alone is often not enough. If a regulatory RNA depends on the order in which conformations become available during transcription, then design and analysis have to account for that kinetic dimension as well.
 
 
 
