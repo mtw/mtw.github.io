@@ -31,13 +31,13 @@ Find Me Online
     <li><a href="https://www.linkedin.com/in/michaelwolfinger/">LinkedIn</a></li>
     <li><a href="https://twitter.com/mtwolfinger">Twitter</a></li>
     <li><a href="https://bsky.app/profile/mtwolfinger.bsky.social">Bluesky</a></li>
-    <li><a href="https://www.researchgate.net/profile/Michael-Wolfinger">Researchgate</a></li>
+    <li><a href="https://www.researchgate.net/profile/Michael-Wolfinger">ResearchGate</a></li>
     <li><a href="https://scholar.google.at/citations?user=w0PHGnEAAAAJ">Google Scholar</a></li>
     <li><a href="https://www.webofscience.com/wos/author/record/N-9538-2014">Web of Science</a></li>
     <li><a href="https://www.scopus.com/authid/detail.uri?authorId=6508361997">Scopus</a></li>
     <li><a href="https://loop.frontiersin.org/people/485709/overview">Loop</a>
     <li><a href="https://orcid.org/0000-0003-0925-5205">ORCID</a></li>
-    <li><a href="https://github.com/mtw">Github</a></li>
+    <li><a href="https://github.com/mtw">GitHub</a></li>
   </ul>
 
 

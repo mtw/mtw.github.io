@@ -8,7 +8,6 @@ Predicting RNA Structures from Sequence and Probing Data
 :slug: Predicting-RNA-Structures-from-Sequence-and-Probing-Data
 :author: mtw
 :summary: This review explores methods for predicting RNA secondary structures by integrating reactivity information from experimental probing data. It highlights the limitations of traditional RNA structure prediction, which typically relies solely on thermodynamic models based on sequences
-:description: 
 :title: RNA structural insights through prediction and probing
 :description: Explore limitations of experimental data in RNA secondary structure prediction and challenges of integrating probing information with computational models
 
@@ -36,7 +35,7 @@ We discuss how experimental techniques for chemical and enzymatic structure prob
 
 .. frame:: Abstract
 
-  RNA secondary structures have proven essential for understanding the regulatory functions performed by RNA such as microRNAs, bacterial small RNAs, or riboswitches. This success is in part due to the availability of efficient computational methods for predicting RNA secondary structures. Recent advances focus on ealing with the inherent uncertainty of prediction by considering the ensemble of possible structures rather than the single most stable one. Moreover, the advent of high-throughput structural probinghas spurred the development of computational methods that incorporate such experimental data as auxiliary information.
+  RNA secondary structures have proven essential for understanding the regulatory functions performed by RNA such as microRNAs, bacterial small RNAs, or riboswitches. This success is in part due to the availability of efficient computational methods for predicting RNA secondary structures. Recent advances focus on dealing with the inherent uncertainty of prediction by considering the ensemble of possible structures rather than the single most stable one. Moreover, the advent of high-throughput structural probing has spurred the development of computational methods that incorporate such experimental data as auxiliary information.
 
 Citation
 ========

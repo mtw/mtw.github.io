@@ -7,8 +7,7 @@ Barrier Trees of Degenerate Landscapes
 :category: publications
 :slug: Barrier-Trees-of-Degenerate-Landscapes
 :author: mtw
-:summary: This method paper introduces the concept of barrier trees, a convenient approach to describe the landscape of an optimization function. Barrier trees represent the toplogical characteristics of an energy landscape, such as a unique partitioning into local minima as leaves of the tree and saddle points as internal nodes connecting different minima.
-:description: 
+:summary: This method paper introduces the concept of barrier trees, a convenient approach to describe the landscape of an optimization function. Barrier trees represent the topological characteristics of an energy landscape, such as a unique partitioning into local minima as leaves of the tree and saddle points as internal nodes connecting different minima.
 :title: Barrier Trees of Degenerate Landscapes
 :description: Introducing barrier trees and the barriers tool, a method to explore energy landscapes, highlighting topological features such as local minima and saddle points
 
@@ -65,4 +64,3 @@ See Also
   | **Efficient Computation of RNA Folding Dynamics**
   | :ul:`Michael T. Wolfinger`, W. Andreas Svrcek-Seiler, Christoph Flamm, Ivo L. Hofacker, Peter F. Stadler
   | *J. Phys. A: Math. Gen.* 37(17): 4731–41 (2004) | :doi:`doi:10.1088/0305-4470/37/17/005 <https://doi.org/10.1088/0305-4470/37/17/005>` | :link-flat:`PDF <{static}/files/papers/Wolfinger-2004.pdf>`
-
