@@ -7,7 +7,7 @@ SHAPE directed RNA folding
 :category: publications
 :slug: SHAPE-directed-RNA-folding
 :author: mtw
-:summary: The ViennaRNA Package 2.0 brings powerful dynamic programming algorithms to researchers studying nucleic acid folding. In this post, we explore three SHAPE-guided methods—Deigan, Zarringhalam, and Washietl—that have been integrated into our toolkit to improve predictions of base pair interactions and minimum free energy (MFE) structures for RNA molecules. By combining chemical probing data with in silico modeling, these approaches help capture real-world folding behaviors and enhance the accuracy of computational RNA structure predictions
+:summary: An overview of three SHAPE-guided methods in the ViennaRNA Package for improving RNA secondary structure prediction with chemical probing data.
 :title: SHAPE directed RNA folding with the ViennaRNA Package
 :description: In this study we evaluate three published approaches for including SHAPE RNA probing data with the ViennaRNA Package
 

@@ -7,7 +7,7 @@ Exploring the Lower Part of Discrete Polymer Model Energy Landscapes
 :category: publications
 :slug: Exploring-the-Lower-Part-of-Discrete-Polymer-Model-Energy-Landscapes
 :author: mtw
-:summary: In this paper, we introduce a novel approach to exploring the energy landscapes of discrete polymer models, with a particular emphasis on the lower-energy regions that play a critical role in understanding biopolymer folding behavior
+:summary: A method for exploring the low-energy regions of discrete polymer model landscapes, with applications to biopolymer folding.
 :title: Exploring the Lower Part of Discrete Polymer Model Energy Landscapes
 :description: A novel algorithm explores low-energy regions of discrete polymer energy landscapes. Applied to 2D/3D lattice proteins, it reveals biopolymer folding dynamics
 
