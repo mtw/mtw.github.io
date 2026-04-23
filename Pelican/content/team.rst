@@ -11,6 +11,10 @@ Michael Thomas Wolfinger's Present and Past Group Members
 
 This page lists current and past members of the Wolfinger research group. Our work depends on a mix of computational, biochemical, and virological expertise, and the group has benefited from contributions at many different career stages.
 
+As a group, we work on problems in computational RNA biology, with a particular focus on RNA structure prediction, RNA design, structured viral RNAs, RNA-protein interactions, and folding kinetics. That means the team often brings together students and researchers with backgrounds in bioinformatics, chemistry, molecular biology, physics, and data analysis.
+
+Many projects in the group sit at the boundary between method development and biological application. Some are strongly algorithmic, for example in RNA folding, kinetics, or design. Others are driven by concrete biological systems such as flaviviral non-coding RNAs, riboswitches, or RNA-binding proteins. In practice, the group works best when these perspectives meet: computational models stay grounded in biological questions, and biological interpretation stays explicit about what the models can and cannot show.
+
 
 Current Team Members
 ======================
@@ -49,7 +53,11 @@ Past Team Members
 Join the Team
 =============
 
-If you are interested in joining the group and your background fits our work in RNA science, computational biology, or synthetic biology, please :link:`get in touch <{filename}/contact.rst>`.
+We regularly supervise students and collaborate on projects that fit the group’s core themes. Good fits usually include an interest in RNA structure and function, comfort with quantitative or computational work, and a willingness to work across disciplinary boundaries.
+
+If you are interested in joining the group, it helps to briefly describe your background, current stage, and which research directions are most relevant to you. For students, that can mean a thesis topic in computational RNA biology, virology, or RNA design. For collaborators, it is useful to outline the biological system or methodological question you are working on.
+
+If that sounds relevant, please :link:`get in touch <{filename}/contact.rst>`.
 
 
 .. raw:: html
