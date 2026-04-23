@@ -2,13 +2,13 @@ RNA–RNA interaction analysis of Japanese encephalitis virus
 ###########################################################
 
 :date: 2023-03-31
-:modified: 2023-04-09
+:modified: 2026-04-23
 :tags: RNA-RNA interaction; non-coding RNA; virus bioinformatics; 3D; flavivirus
 :category: publications
 :slug: Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis
 :author: mtw
-:summary: Unraveling the intricate RNA-RNA interactions in Japanese encephalitis virus (JEV) opens new possibilities for understanding viral replication and designing antiviral therapeutics, as our recent study reveals the importance of a conserved cyclization sequence in driving these interactions
-:description: The study identifies and characterizes long-range RNA-RNA interactions in Japanese encephalitis virus, highlighting the role of a conserved cyclization sequence
+:summary: This study combines computational and biophysical analysis to characterize a long-range RNA-RNA interaction in Japanese encephalitis virus and to test the role of the conserved cyclization sequence.
+:description: A combined computational and biophysical analysis of long-range RNA-RNA interactions in Japanese encephalitis virus.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -29,11 +29,19 @@ RNA–RNA interaction analysis of Japanese encephalitis virus
         :figclass: m-figure m-flat
 
 
-In this study, we have utilized a unique combination of computational and biophysical techniques to investigate RNA-RNA interactions in Japanese encephalitis virus (JEV). We identified a specific JEV isolate with a hypothesized high-affinity interaction, and then employed various biophysical characterization methods to validate and characterize this interaction. Through size-exclusion chromatography coupled with multi-angle light scattering (SEC-MALS) and analytical ultracentrifugation (AUC), we demonstrated the direct interaction between the 5' and 3' terminal regions (TRs) of JEV with nanomolar affinity and 1:1 stoichiometry.
+Long-range RNA-RNA interactions are central to the replication cycle of many flaviviruses, but they are not always easy to characterize directly. In Japanese encephalitis virus (JEV), the 5' and 3' terminal regions are expected to interact through conserved cyclization elements, yet the strength, stoichiometry, and structural behavior of that interaction still needed to be tested experimentally.
 
-Our computational analysis supported a kinetic favorability of the cyclization sequence interaction and its competitive advantage over potential homo-dimer RNA interactions. This provides valuable insights into the replication pathway/mechanism of flavivirus NS5 in replicating the viral genome. Our study also presents a low-resolution ab initio model that offers a potential architectural arrangement of this RNA-RNA interaction in solution. These findings lay a solid foundation for the development of pharmaceutical therapies targeting viral replication through interruption of the cyclization sequence, and also shed light on the fundamental understanding of RNA-RNA interactions in flaviviruses and other viral systems.
+This study approaches the problem from both sides. Computational analysis was used to identify the most plausible interaction site and to evaluate whether the conserved cyclization sequence is kinetically favored over competing alternatives such as homodimer formation. The predicted interaction was then tested biophysically using SEC-MALS, analytical ultracentrifugation, microscale thermophoresis, and SAXS.
 
-The study's insights into RNA-RNA interactions in Japanese encephalitis virus align with the One Health approach, highlighting the potential for antiviral therapies to benefit both human and animal health while considering the broader ecosystem.
+The result is a stronger case for the long-range interaction than computation alone could provide. The 5' and 3' terminal regions interact directly with nanomolar affinity and a 1:1 stoichiometry, and that interaction weakens substantially when the conserved cyclization sequence is disrupted. That is a useful mechanistic result because it ties the predicted long-range pairing to an experimentally measurable binding event.
+
+Just as importantly, the kinetic analysis supports the idea that the cyclization sequence is not merely one possible pairing among many. It appears to be the dominant interaction pathway under the conditions examined, with an advantage over competing self-association states. For flavivirus biology, that matters because genome cyclization is closely tied to replication, and the computational ranking of alternative structures becomes much more informative once it is backed by binding measurements.
+
+The SAXS-based structural model adds another piece of the picture. It does not deliver atomic resolution, but it does suggest that the complex is flexible while still maintaining a stable overall association in solution. That kind of low-resolution structural information is valuable when interpreting long viral RNAs, where conformational heterogeneity is often part of the biology rather than a nuisance to be averaged away.
+
+More broadly, this paper is a good example of how RNA-RNA interaction studies should be done. Sequence analysis alone is too weak, and biophysical characterization without a clear computational hypothesis is inefficient. The combination is what makes the result persuasive: comparative and thermodynamic reasoning narrow the search space, and orthogonal biophysical methods test whether the predicted interaction actually exists and behaves as expected.
+
+For teams working on viral RNA architecture, long-range RNA interactions, or structure-guided mechanistic questions, I also offer focused technical review and advisory support through my :link-flat:`services page <{filename}/services.rst>`.
 
 .. raw:: html
 
