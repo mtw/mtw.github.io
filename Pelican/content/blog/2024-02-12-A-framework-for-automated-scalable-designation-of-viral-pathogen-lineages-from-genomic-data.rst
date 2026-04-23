@@ -2,14 +2,14 @@ A framework for automated scalable designation of viral pathogen lineages from g
 ###########################################################################################
 
 :date: 2024-02-12
-:modified: 2024-04-21
+:modified: 2026-04-23
 :tags: virus bioinformatics; new method; tools; molecular epidemiology; One Health
 :category: publications
 :slug:
 :author: mtw
-:summary: Keeping pace with ever-changing viruses is a challenge. This study unveils an automated system for classifying viral lineages based on genetics, offering a faster and more objective approach
-:title: Beyond Pango: The future of virus lineage classification
-:description: Autolin: An automated system that classifies viral lineages based on genetics, offering a faster, unbiased approach to tracking rapidly evolving viruses
+:summary: This study describes an automated framework for lineage designation from phylogenetic and genomic data, designed to scale to very large viral datasets while remaining consistent and interpretable.
+:title: Automated lineage designation from viral genomic data
+:description: A scalable framework for automated viral lineage designation from genomic and phylogenetic data.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -29,13 +29,17 @@ A framework for automated scalable designation of viral pathogen lineages from g
         :alt: Automated lineage designation of Venezuelan Equine Encephalitis complex viruses
         :figclass: m-figure m-flat
 
-Tracking and categorizing viruses like SARS-CoV-2 effectively is crucial for scientific research and public health initiatives. Traditionally, scientists used naming conventions based on geographical locations or specific characteristics to identify variants. However, given the rapid mutations in viruses, even a single mutation can create a new lineage, complicating classification. Additionally, the vast amount of genomic data associated with viruses like SARS-CoV-2 presents challenges for existing classification methods, which often involve manual curation and crowd-sourced proposals, leading to time-consuming processes and potential biases.
+Lineage designation is partly a biological question and partly an information-management problem. Once viral sequencing reaches very large scale, as it did for SARS-CoV-2, manual or community-curated naming systems become increasingly difficult to maintain. Delays accumulate, criteria become harder to apply consistently, and the workload grows faster than the nomenclature process can keep up.
 
-To overcome these challenges, we introduce Autolin, an automated system that utilizes genetic data to classify viral lineages. This approach proves to be efficient even with extensive datasets, offering a much quicker and more objective method compared to manual curation. The prospect of analyzing and classifying rapidly evolving viruses in real-time represents a significant advancement in our ability to monitor and comprehend these pathogens.
+This study presents Autolin, a heuristic framework for automated lineage designation from phylogenetic and genomic data. The main contribution is not a claim that expert curation should disappear, but that a simple and explicit rule-based system can produce lineage assignments at a scale that is difficult to sustain manually.
 
-Autolin provides several benefits over current methods. Its speed allows researchers to keep up with the fast-paced evolution of viruses, while its reliance on genetic data helps eliminate biases inherent in manual curation or crowd-sourced approaches. This objectivity is crucial for ensuring clear and consistent communication regarding viral threats. Moreover, Autolin is highly scalable and can be applied to any virus, not just SARS-CoV-2, making it invaluable for addressing future public health challenges. Additionally, Autolin offers flexibility by allowing users to integrate information about the significance of specific mutations, leading to classifications that are more relevant from an epidemiological perspective.
+That matters because lineage systems are only useful when they are both interpretable and sustainable. An automated framework can evaluate very large trees, apply the same criteria repeatedly, and generate designations without depending on ad hoc proposal cycles. In practice, that means faster turnaround and more consistent behavior across datasets with millions of sequences.
 
-Although Autolin is not without limitations and requires continuous updates as new data emerges, it represents a significant advancement in our ability to monitor and understand viruses. As genomic sequencing becomes more widespread globally, automated tools like Autolin will be indispensable for effectively managing future public health crises. With faster, more impartial, and scalable virus classification, researchers and public health officials will be better equipped to confront emerging pathogens and protect public health.
+Another useful feature of the framework is that it allows prioritization of particular mutations or genes. That makes the method flexible enough to reflect biological or epidemiological priorities rather than treating all sequence variation as equally informative. In other words, the system is not just scalable; it can also be tuned to highlight the parts of a genome that matter most for a given pathogen or surveillance context.
+
+The paper is careful about scope. Automated lineage designation is not the same thing as biological interpretation, and no heuristic can remove the need for expert judgment altogether. What it can do is provide a consistent baseline classification system that remains usable as genomic datasets continue to grow. The fact that the method produces lineage partitions similar to existing curated systems across multiple viruses makes that claim much more credible.
+
+For genomic epidemiology, this is the real value of the framework. It gives researchers a practical way to maintain phylogeny-based nomenclature under conditions where purely manual designation becomes increasingly fragile. That is useful not only for SARS-CoV-2, but also for other rapidly sampled viral systems where scale has already become the defining constraint.
 
 .. raw:: html
 
@@ -52,6 +56,6 @@ Although Autolin is not without limitations and requires continuous updates as n
 Citation
 ========
 
-  | :link-flat-strong:`A framework for automated scalable designation of viral pathogen lineages from genomic data <https://doi.org/doi:10.1038/s41564-023-01587-5>`
+  | :link-flat-strong:`A framework for automated scalable designation of viral pathogen lineages from genomic data <https://doi.org/10.1038/s41564-023-01587-5>`
   | Jakob McBroome, Adriano de Bernardi Schneider, Cornelius Roemer, :ul:`Michael T. Wolfinger`, Angie S. Hinrichs, Aine N. O’Toole, Chris Ruis, Yatish Turakhia, Andrew Rambaut, and Russell Corbett-Detig
-  | *Nature Microbiol.*  9:550–560 (2024) | :doi:`doi:10.1038/s41564-023-01587-5 <https://doi.org/doi:10.1038/s41564-023-01587-5>` | :link-flat:`PDF <{static}/files/papers/McBroome-2024.pdf>`
+  | *Nature Microbiol.*  9:550–560 (2024) | :doi:`doi:10.1038/s41564-023-01587-5 <https://doi.org/10.1038/s41564-023-01587-5>` | :link-flat:`PDF <{static}/files/papers/McBroome-2024.pdf>`
