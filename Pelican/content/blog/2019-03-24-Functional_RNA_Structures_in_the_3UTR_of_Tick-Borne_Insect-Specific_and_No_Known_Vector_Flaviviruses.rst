@@ -24,6 +24,12 @@ Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No K
 .. role:: doi(link)
   :class: doi
 
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
+
+   .. figure:: {static}/files/QuickSlide/QuickSlide__Ochsenreiter-2019/QuickSlide__Ochsenreiter-2019.003.png
+          :alt: Conserved RNA structures in flavivirus 3' UTRs
+          :figclass: m-figure m-flat
+
 The 3' untranslated regions of flaviviruses contain far more than generic sequence context. They encode structured RNA elements involved in cyclization, replication, encapsidation, and resistance to host exonucleases. That makes them a good target for comparative analysis, especially in viral groups where functional annotation is still sparse.
 
 This paper takes a comparative genomics approach to the 3' UTRs of tick-borne, insect-specific, and no-known-vector flaviviruses. The main question is not simply whether these viruses contain structured RNA, but how conserved architectures are distributed across lineages and where distinct flavivirus groups appear to have evolved different structural solutions.
@@ -35,8 +41,6 @@ The study also points to a repeated or cascaded organization of duplicated RNA s
 This is exactly the kind of result where comparative genomics is especially valuable. In many cases, experimental structure determination across an entire viral clade is unrealistic. Sequence comparison, consensus folding, and covariation-aware reasoning make it possible to identify plausible conserved elements first, and then ask which of those structures are most worth testing in the lab.
 
 For work on xrRNAs, this broader evolutionary view is particularly useful. It helps separate features that are likely to be deeply conserved from those that may have arisen independently or been remodeled in particular viral groups. That, in turn, improves how we think about structure-function relationships in flavivirus non-coding regions.
-
-For teams working on structured viral RNAs, comparative genomics, or xrRNA discovery, I also offer focused technical review and advisory support through my :link-flat:`services page <{filename}/services.rst>`.
 
 .. raw:: html
 
