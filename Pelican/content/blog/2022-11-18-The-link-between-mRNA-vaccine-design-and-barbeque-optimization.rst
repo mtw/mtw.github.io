@@ -7,8 +7,8 @@ The link between mRNA vaccine design and barbeque optimization
 :category: outreach
 :slug: The-link-between-mRNA-vaccine-design-and-barbeque-optimization
 :author: mtw
-:summary: The rational design of vaccine mRNAs and barbeque share common traits: Both require extensive optimization and benefit from experience
-:description: Comparing mRNA vaccine design with barbeque optimization and the lessons businesses can learn from academia's research data sharing
+:summary: A short podcast appearance on optimization, data sharing, and what mRNA design can teach us about iterative engineering problems.
+:description: Podcast conversation on mRNA design, optimization, and data sharing.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
