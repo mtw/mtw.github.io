@@ -2,13 +2,13 @@ TSSAR: TSS annotation regime for dRNA-seq data
 ##############################################
 
 :date: 2014-04-13
-:modified: 2022-09-27
+:modified: 2026-04-24
 :tags: NGS; bacteria; new method; tools
 :category: publications
 :slug: TSSAR-tss-annotation-regime-for-drna-seq-data
 :author: mtw
-:summary: A RESTful web service and standalone application for automated de novo annotation of bacterial transcription start sites from dRNA-seq data.
-:description: TSSAR: A RESTful web service for automated de-novo annotation of bacterial transcription start sites from differential RNA-sequencing (dRNA-seq) data
+:summary: TSSAR introduced statistically grounded, automated annotation of bacterial transcription start sites from dRNA-seq data and packaged it as both a RESTful web service and a standalone tool.
+:description: Automated bacterial TSS annotation from dRNA-seq data using a statistical model of TEX-treated versus untreated libraries, exposed through both web and command-line workflows.
 :title: Bacterial transcription start site annotation from dRNA-seq data
 
 .. role:: link-flat-strong(link)
@@ -23,11 +23,27 @@ TSSAR: TSS annotation regime for dRNA-seq data
 .. role:: doi(link)
   :class: doi
 
-*In silico* identification of bacterial transcription start sites (TSS) has
-been a major challenge for the last years. To address this issue, we have
-developped `TSSAR <http://rna.tbi.univie.ac.at/TSSAR>`_, a statistical method
-for analyzing dRNA-seq data, together with colleagues from the
-Bioinformatics department at the University of Leipzig.
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
+
+   .. figure:: {static}/files/papers/preview/Preview__Amman-2014.001small.webp
+          :alt: Statistical classification and evaluation scheme used by TSSAR for dRNA-seq-based TSS annotation
+          :figclass: m-figure m-flat
+
+Identifying bacterial transcription start sites from differential RNA-seq data used to be a painfully manual task. Researchers would inspect mapped reads in genome browsers, compare TEX-treated and untreated libraries by eye, and then decide which positions looked like genuine primary transcript starts. That process was slow, difficult to reproduce, and inevitably shaped by user-specific thresholds and biases.
+
+TSSAR was designed to solve exactly that problem. The aim was not just to call more TSS automatically, but to provide a statistically principled way to do so. Differential RNA-seq enriches primary transcripts by treating one library with terminator exonuclease, so the key signal is an excess of read starts at a genomic position in the TEX-treated sample relative to the untreated control. TSSAR turns that intuition into a formal model instead of leaving it at the level of browser-based pattern recognition.
+
+The methodological core is a local count model for read starts within transcriptionally active regions. Counts in individual libraries are modeled in a way that leads naturally to a Skellam-distributed difference between treated and untreated start counts. That provides a direct statistical basis for deciding whether an observed enrichment is likely to reflect a genuine primary transcript start rather than noise. The output is not just a list of coordinates, but an annotated classification into primary, internal, antisense, and orphan signals that can be used downstream.
+
+That combination of statistics and annotation logic is what made the tool useful in practice. TSSAR does not simply replace manual curation with a fixed arbitrary cutoff. It automates the decision process while still respecting the structure of dRNA-seq experiments. In the paper, the method is benchmarked against manual annotations and simple cutoff-based alternatives, and it performs substantially better at recovering both curated *Helicobacter pylori* TSS annotations and experimentally validated sites.
+
+One reason the paper still feels current is its software architecture. TSSAR was provided both as a standalone application for integration into larger analysis pipelines and as a RESTful web service for more interactive or lower-throughput use. That split was a smart design choice. It recognized that bioinformatics tools are used in at least two different modes: exploratory analysis by domain scientists who want a convenient interface, and scripted high-throughput processing by users who need automation and reproducibility. Many tools still struggle to support both well.
+
+From today's perspective, that architectural decision may be just as important as the underlying statistics. A method only has impact if people can actually use it. By exposing TSSAR as both a service and a pipeline-friendly tool, the project lowered the barrier for adoption while still supporting serious production use. That is one reason it remained relevant well beyond the immediate paper.
+
+The broader biological significance is also straightforward. Better TSS annotation improves our view of bacterial transcriptome architecture: operon boundaries, antisense transcription, condition-specific initiation, and the regulatory logic of promoter usage. In that sense, TSSAR is not just a niche utility for one sequencing protocol. It is infrastructure for studying how bacterial gene regulation is organized at the transcript level.
+
+For readers coming from RNA structure or landscape work elsewhere on this site, this paper is clearly a different topic. But the engineering mindset is similar. The interesting part is not only the biology; it is also how to turn a noisy, high-dimensional data source into a usable and reproducible computational workflow. That is exactly the kind of problem where good statistical assumptions, careful software design, and sensible interfaces make the difference between a promising idea and a method that people keep using.
 
 .. frame:: Abstract
 
