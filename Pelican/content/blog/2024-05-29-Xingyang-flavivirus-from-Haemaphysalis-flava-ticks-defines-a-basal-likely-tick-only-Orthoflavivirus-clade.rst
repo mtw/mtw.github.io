@@ -5,7 +5,7 @@ Xinyang flavivirus, from Haemaphysalis flava ticks in Henan Province, China, def
 :modified: 2024-09-30
 :tags: virus bioinformatics; molecular epidemiology; One Health; xrRNA; novel viruses; flavivirus; virology
 :category: publications
-:slug:
+:slug: xinyang-flavivirus-tick-only-orthoflavivirus-clade
 :author: mtw
 :summary: Xinyang flavivirus defines a basal, likely tick-only orthoflavivirus clade and expands the comparative picture of vertebrate-independent flavivirus evolution.
 :title: Xinyang flavivirus and a likely tick-only orthoflavivirus clade

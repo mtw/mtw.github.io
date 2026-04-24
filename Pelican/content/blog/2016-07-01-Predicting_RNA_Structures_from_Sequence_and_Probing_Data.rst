@@ -3,7 +3,7 @@ Predicting RNA Structures from Sequence and Probing Data
 
 :date: 2016-07-01
 :modified: 2024-10-03
-:tags: ViennaRNA; RNA design; RNA kinetics; SHAPE
+:tags: ViennaRNA; RNA design; RNA folding kinetics; SHAPE; RNA structure conservation
 :category: publications
 :slug: Predicting-RNA-Structures-from-Sequence-and-Probing-Data
 :author: mtw

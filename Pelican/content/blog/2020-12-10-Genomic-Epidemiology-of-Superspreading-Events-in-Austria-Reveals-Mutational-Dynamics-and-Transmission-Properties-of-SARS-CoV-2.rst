@@ -5,7 +5,7 @@ Genomic Epidemiology of Superspreading Events in Austria Reveals Mutational Dyna
 :modified: 2024-04-21
 :tags: molecular epidemiology; One Health; virology
 :category: publications
-:slug:
+:slug: genomic-epidemiology-sars-cov-2-austria
 :author: mtw
 :summary: This study shows how superspreading events shaped the first wave of SARS-CoV-2 in Austria, based on viral mutations and travel-linked transmission patterns.
 :title: Genomic epidemiology of SARS-CoV-2 superspreading events in Austria

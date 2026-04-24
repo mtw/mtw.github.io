@@ -5,7 +5,7 @@ RNA-Protein Complex Refinement using AI Modeling and Docking
 :modified: 2026-04-23
 :tags: new method; 3D; RNA-Protein interaction; AI
 :category: publications
-:slug:
+:slug: rna-protein-complex-refinement-musashi-1
 :author: mtw
 :summary: This article explains a workflow for refining protein-RNA complexes by combining AI-based structural models with flexible docking and enhanced sampling.
 :description: A method-focused overview of AI-assisted protein-RNA complex refinement using flexible docking and PaCS-MD.
