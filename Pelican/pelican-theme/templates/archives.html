@@ -55,6 +55,13 @@
       padding: 1.5rem;
     }
 
+    .m-blog-index .m-blog-feature-layout {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      align-items: start;
+    }
+
     .m-blog-index .m-blog-feature h1,
     .m-blog-index .m-blog-feature h2,
     .m-blog-index .m-blog-card h3,
@@ -74,6 +81,14 @@
     }
 
     .m-blog-index .m-blog-feature-summary p:last-child {
+      margin-bottom: 0;
+    }
+
+    .m-blog-index .m-blog-feature-excerpt {
+      margin-top: 1rem;
+    }
+
+    .m-blog-index .m-blog-feature-excerpt p:last-child {
       margin-bottom: 0;
     }
 
@@ -116,15 +131,33 @@
     }
 
     .m-blog-index .m-blog-card-media,
+    .m-blog-index .m-blog-feature-media,
     .m-blog-index .m-blog-placeholder {
       aspect-ratio: 16 / 9;
       width: 100%;
       background: linear-gradient(135deg, #f3f5f7 0%, #e6ebef 100%);
-      border-bottom: 1px solid var(--line-color);
       overflow: hidden;
     }
 
+    .m-blog-index .m-blog-feature-media,
+    .m-blog-index .m-blog-placeholder.m-blog-feature-placeholder {
+      border: 1px solid var(--line-color);
+      border-radius: 0.4rem;
+    }
+
+    .m-blog-index .m-blog-card-media,
+    .m-blog-index .m-blog-placeholder.m-blog-card-placeholder {
+      border-bottom: 1px solid var(--line-color);
+    }
+
     .m-blog-index .m-blog-card-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .m-blog-index .m-blog-feature-media img {
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -185,6 +218,10 @@
       .m-blog-index .m-blog-card-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
+
+      .m-blog-index .m-blog-feature-layout {
+        grid-template-columns: minmax(0, 1.35fr) minmax(16rem, 0.85fr);
+      }
     }
 
     @media screen and (max-width: 767px) {
@@ -224,22 +261,49 @@
       {% endif %}
       {% if article_list and (not articles_page or articles_page.number == 1) %}
       {% set featured = article_list[0] %}
+      {% set featured_image_url = none %}
+      {% if '<img' in featured.content and 'src="' in featured.content %}
+        {% set featured_image_url = featured.content.split('src="', 1)[1].split('"', 1)[0] %}
+      {% endif %}
+      {% set featured_excerpt = none %}
+      {% if '</p>' in featured.content %}
+        {% set featured_paragraphs = featured.content.split('</p>') %}
+        {% if featured_paragraphs|length > 1 %}
+          {% set featured_excerpt = (featured_paragraphs[0] ~ '</p>') %}
+          {% if featured_paragraphs|length > 2 %}
+            {% set featured_excerpt = featured_excerpt ~ (featured_paragraphs[1] ~ '</p>') %}
+          {% endif %}
+        {% endif %}
+      {% endif %}
       <div class="m-blog-index">
         <section class="m-blog-feature">
-          <div class="m-blog-kicker">Latest article</div>
-          <h1><a href="{{ featured.url|format_siteurl|e }}">{{ featured.title }}</a></h1>
-          <time datetime="{{ featured.date.isoformat() }}">
-            {{ featured.date.strftime('%b %d, %Y') }}
-          </time>
-          {% if featured.summary %}
-          <div class="m-blog-feature-summary">
-            {{ featured.summary }}
-            {% if featured.description and featured.description not in featured.summary %}
-            <p>{{ featured.description }}</p>
+          <div class="m-blog-feature-layout">
+            <div>
+              <div class="m-blog-kicker">Latest article</div>
+              <h1><a href="{{ featured.url|format_siteurl|e }}">{{ featured.title }}</a></h1>
+              <time datetime="{{ featured.date.isoformat() }}">
+                {{ featured.date.strftime('%b %d, %Y') }}
+              </time>
+              {% if featured.summary %}
+              <div class="m-blog-feature-summary">
+                {{ featured.summary }}
+              </div>
+              {% endif %}
+              {% if featured_excerpt %}
+              <div class="m-blog-feature-excerpt">
+                {{ featured_excerpt }}
+              </div>
+              {% endif %}
+              <p class="m-blog-link"><a href="{{ featured.url|format_siteurl|e }}">Read article &raquo;</a></p>
+            </div>
+            {% if featured_image_url %}
+            <a href="{{ featured.url|format_siteurl|e }}" class="m-blog-feature-media">
+              <img src="{{ featured_image_url|e }}" alt="" loading="lazy" />
+            </a>
+            {% else %}
+            <a href="{{ featured.url|format_siteurl|e }}" class="m-blog-placeholder m-blog-feature-placeholder">Article</a>
             {% endif %}
           </div>
-          {% endif %}
-          <p class="m-blog-link"><a href="{{ featured.url|format_siteurl|e }}">Read article &raquo;</a></p>
         </section>
 
         {% if article_list|length > 1 %}
@@ -255,7 +319,7 @@
               <img src="{{ image_url|e }}" alt="" loading="lazy" />
             </a>
             {% else %}
-            <a href="{{ article.url|format_siteurl|e }}" class="m-blog-placeholder">Article</a>
+            <a href="{{ article.url|format_siteurl|e }}" class="m-blog-placeholder m-blog-card-placeholder">Article</a>
             {% endif %}
             <div class="m-blog-card-copy">
               <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%b %d, %Y') }}</time>
