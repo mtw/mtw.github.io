@@ -78,7 +78,7 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container::  m-col-t-8
 
-      | 54. :link-flat-strong:`Identification of conserved RNA regulatory switches in living cells using RNA secondary structure ensemble mapping and covariation analysis <{filename}/publications.rst>`
+      | 54. :link-flat-strong:`Identification of conserved RNA regulatory switches in living cells using RNA secondary structure ensemble mapping and covariation analysis <{filename}/blog/2025-01-01-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst>`
       | Ivana Borovská, Chundan Zhang, Sarah-Luisa J. Dülk, Edoardo Morandi, Marta F. S. Cardoso, Billal M. Bourkia, Daphne A. L. van den Homberg, :ul:`Michael T. Wolfinger`, Willem A. Velema, Danny Incarnato
       | *Nat. Biotechnol.* (2025)
       | :doi:`doi:10.1038/s41587-025-02739-0 <https://doi.org/10.1038/s41587-025-02739-0>` | :link-flat:`PDF <{static}/files/papers/Borovska-2025.pdf>` | :label-flat-info:`Journal article`
@@ -103,7 +103,7 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container::  m-col-t-8
 
-      | 52. :link-flat-strong:`Bayesian Approximation of RNA Folding Times <https://openreview.net/forum?id=cOwOJNJijB>`
+      | 52. :link-flat-strong:`Bayesian Approximation of RNA Folding Times <{filename}/blog/2025-01-01-Bayesian-Approximation-of-RNA-Folding-Times.rst>`
       | Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, :ul:`Michael T. Wolfinger`, Christoph Flamm, Frank Hutter
       | *ICLR 2025 Workshop on AI for Nucleic Acids* (2025)
       | :doi:`doi:10.5281/zenodo.15228717 <https://doi.org/10.5281/zenodo.15228717>` | :link-flat:`PDF <{static}/files/papers/Scheuer-2025__AI4NA.pdf>` | :label-flat-info:`Conference article`
@@ -119,7 +119,7 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container::  m-col-t-8
 
-      | 51. :link-flat-strong:`KinPFN: Bayesian Approximation of RNA Folding Kinetics using Prior-Data Fitted Networks <https://openreview.net/forum?id=E1m5yGMOiV>`
+      | 51. :link-flat-strong:`KinPFN: Bayesian Approximation of RNA Folding Kinetics using Prior-Data Fitted Networks <{filename}/blog/2025-01-01-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst>`
       | Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, :ul:`Michael T. Wolfinger`, Christoph Flamm, Frank Hutter
       | *The Thirteenth International Conference on Learning Representations (ICLR'25)* (2025)
       | :doi:`doi:10.5281/zenodo.15233965 <https://doi.org/10.5281/zenodo.15233965>` | :link-flat:`PDF <{static}/files/papers/Scheuer-2025.pdf>` | :label-flat-info:`Conference article`
@@ -313,7 +313,7 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container::  m-col-t-8
 
-      | 40. :link-flat-strong:`Evolutionary traits of Tick-borne encephalitis virus: Pervasive non-coding RNA structure conservation and molecular epidemiology <{filename}blog/2021-12-17-Evolutionary-traits-of-Tick-borne-encephalitis-virus-Pervasive-non-coding-RNA-structure-conservation-and-molecular-epidemiology.rst>`
+      | 40. :link-flat-strong:`Evolutionary traits of Tick-borne encephalitis virus: Pervasive non-coding RNA structure conservation and molecular epidemiology <{filename}/blog/2021-12-17-Evolutionary-traits-of-Tick-borne-encephalitis-virus-Pervasive-non-coding-RNA-structure-conservation-and-molecular-epidemiology.rst>`
       | Lena S. Kutschera, :ul:`Michael T. Wolfinger`
       | *Virus Evol.* (8):1 veac051 (2022)
       | :doi:`doi:10.1093/ve/veac051 <https://doi.org/10.1093/ve/veac051>` | :link-flat:`PDF <{static}/files/papers/Kutschera-2022.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Kutschera-2022.pdf>` | :label-flat-info:`Journal article`
@@ -345,7 +345,7 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container::  m-col-t-8
 
-      | 38. :link-flat-strong:`Insights into the secondary and tertiary structure of the Bovine Viral Diarrhea Virus Internal Ribosome Entry Site <{filename}blog/2021-05-15-Insights-into-the-secondary-and-tertiary-structure-of-the-Bovine-Viral-Diarrhea-Virus-Internal-Ribosome-Entry-Site.rst>`
+      | 38. :link-flat-strong:`Insights into the secondary and tertiary structure of the Bovine Viral Diarrhea Virus Internal Ribosome Entry Site <{filename}/blog/2021-05-15-Insights-into-the-secondary-and-tertiary-structure-of-the-Bovine-Viral-Diarrhea-Virus-Internal-Ribosome-Entry-Site.rst>`
       | Devadatta Gosavi, Iwona Wower, Irene K. Beckmann, Ivo L. Hofacker, Jacek Wower, :ul:`Michael T. Wolfinger`, Joanna Sztuba-Solinska
       | *RNA Biol.* 19(1) 496-506 (2022)
       | :doi:`doi:10.1080/15476286.2022.2058818 <https://doi.org/10.1080/15476286.2022.2058818>` | :link-flat:`PDF <{static}/files/papers/Gosavi-2022.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Gosavi-2022.pdf>` | :label-flat-info:`Journal article`
@@ -367,7 +367,7 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container::  m-col-t-8
 
-      | 37. :link-flat-strong:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <{filename}blog/2021-09-06-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`
+      | 37. :link-flat-strong:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <{filename}/blog/2021-09-06-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`
       | :ul:`Michael T. Wolfinger`, Roman Ochsenreiter, Ivo L. Hofacker
       | In *Virus Bioinformatics*, edited by Dmitrij Frishman and Manja Marz, pp65–100. Chapman and Hall/CRC Press (2021)
       | :doi:`doi:10.1201/9781003097679-5 <https://doi.org/10.1201/9781003097679-5>` | :link-flat:`Preprint PDF <{static}/files/papers/Wolfinger-2021.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Wolfinger-2021.pdf>` | :label-flat-info:`Book chapter`
@@ -502,7 +502,7 @@ Peer-reviewed journal / conference articles and book chapters
   | *Methods* 143:70–76 (2018)
   | :doi:`doi:10.1016/j.ymeth.2018.04.036 <https://doi.org/10.1016/j.ymeth.2018.04.036>` | :link-flat:`Preprint PDF <{static}/files/papers/Wolfinger-2018__PREPRINT.pdf>` | :label-flat-info:`Journal article`
 
-  | 22. :link-flat-strong:`In Silico Design of Ligand Triggered RNA Switches <{filename}blog/2018-07-01-In-Silico-Design-of-Ligand-Triggered-RNA-Switches.rst>`
+  | 22. :link-flat-strong:`In Silico Design of Ligand Triggered RNA Switches <{filename}/blog/2018-07-01-In-Silico-Design-of-Ligand-Triggered-RNA-Switches.rst>`
   | Sven Findeiß, Stefan Hammer, :ul:`Michael T. Wolfinger`, Felix Kühnl, Christoph Flamm, Ivo L. Hofacker
   | *Methods* 143:90–101 (2018)
   | :doi:`doi:10.1016/j.ymeth.2018.04.003 <https://doi.org/10.1016/j.ymeth.2018.04.003>` | :link-flat:`Preprint PDF <{static}/files/papers/Findeiss-2018__PREPRINT.pdf>` | :label-flat-info:`Journal article`
@@ -557,7 +557,7 @@ Peer-reviewed journal / conference articles and book chapters
   | *Nucleic Acids Res.* 44 (14):6660–75 (2016)
   | :doi:`doi:10.1093/nar/gkw115 <https://doi.org/10.1093/nar/gkw115>` | :link-flat:`PDF <{static}/files/papers/Sauert-2016.pdf>` | :label-flat-info:`Journal article`
 
-  | 13. :link-flat-strong:`Predicting RNA Structures from Sequence and Probing Data <{filename}blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>`
+  | 13. :link-flat-strong:`Predicting RNA Structures from Sequence and Probing Data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>`
   | Ronny Lorenz, :ul:`Michael T. Wolfinger`, Andrea Tanzer, Ivo L. Hofacker
   | *Methods* 103:86–98 (2016)
   | :doi:`doi:10.1016/j.ymeth.2016.04.004 <https://doi.org/10.1016/j.ymeth.2016.04.004>` | :link-flat:`PDF <{static}/files/papers/Lorenz-2016.pdf>` | :label-flat-info:`Review article`
@@ -567,7 +567,7 @@ Peer-reviewed journal / conference articles and book chapters
   | *PLoS ONE* 11 (1): e0147811 (2016)
   | :doi:`doi:10.1371/journal.pone.0147811 <https://doi.org/10.1371/journal.pone.0147811>` | :link-flat:`PDF <{static}/files/papers/Tata-2016.pdf>` | :label-flat-info:`Journal article`
 
-  | 11. :link-flat-strong:`SHAPE Directed RNA Folding <{filename}blog/2015-09-02-SHAPE-directed-RNA-folding.rst>`
+  | 11. :link-flat-strong:`SHAPE Directed RNA Folding <{filename}/blog/2015-09-02-SHAPE-directed-RNA-folding.rst>`
   | Ronny Lorenz, Dominik Luntzer, Ivo L. Hofacker, Peter F. Stadler, :ul:`Michael T. Wolfinger`
   | *Bioinformatics* 32: 145–47 (2016)
   | :doi:`doi:10.1093/bioinformatics/btv523 <https://doi.org/10.1093/bioinformatics/btv523>` | :link-flat:`PDF <{static}/files/papers/Lorenz-2016a.pdf>` | :label-flat-info:`Journal article`
@@ -577,12 +577,12 @@ Peer-reviewed journal / conference articles and book chapters
 
 .. container:: refs-2015
 
-  | 10. :link-flat-strong:`General and miRNA-Mediated mRNA Degradation Occurs on Ribosome Complexes in Drosophila Cells <{filename}blog/2015-08-12-general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells.rst>`
+  | 10. :link-flat-strong:`General and miRNA-Mediated mRNA Degradation Occurs on Ribosome Complexes in Drosophila Cells <{filename}/blog/2015-08-12-general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells.rst>`
   | Sanja Antic, :ul:`Michael T. Wolfinger`, Anna Skucha, Stefanie Hosiner, Silke Dorner
   | *Mol. Cell. Biol.* MCB–01346 (2015)
   | :doi:`doi:10.1128/MCB.01346-14 <https://doi.org/10.1128/MCB.01346-14>` | :link-flat:`PDF <{static}/files/papers/Antic-2015.pdf>` | :label-flat-info:`Journal article`
 
-  | 9. :link-flat-strong:`ViennaNGS: A Toolbox for Building Efficient Next-Generation Sequencing Analysis Pipelines <{filename}blog/2015-03-02-viennangs-a-toolbox-for-building-efficient-next-generation-sequencing-analysis-pipelines.rst>`
+  | 9. :link-flat-strong:`ViennaNGS: A Toolbox for Building Efficient Next-Generation Sequencing Analysis Pipelines <{filename}/blog/2015-03-02-viennangs-a-toolbox-for-building-efficient-next-generation-sequencing-analysis-pipelines.rst>`
   | :ul:`Michael T. Wolfinger`, Jörg Fallmann, Florian Eggenhofer, Fabian Amman
   | *F1000Research* 4:50 (2015)
   | :doi:`doi:10.12688/f1000research.6157.2 <https://doi.org/10.12688/f1000research.6157.2>` | :link-flat:`PDF <{static}/files/papers/Wolfinger-2015.pdf>` | :label-flat-info:`Journal article`
@@ -592,12 +592,12 @@ Peer-reviewed journal / conference articles and book chapters
 
 .. container:: refs-2014
 
-  | 8. :link-flat-strong:`Memory Efficient RNA Energy Landscape Exploration <{filename}blog/2014-06-12-memory-efficient-RNA-energy-landscape-exploration.rst>`
+  | 8. :link-flat-strong:`Memory Efficient RNA Energy Landscape Exploration <{filename}/blog/2014-06-12-memory-efficient-RNA-energy-landscape-exploration.rst>`
   | Martin Mann, Marcel Kucharík, Christoph Flamm, :ul:`Michael T. Wolfinger`
   | *Bioinformatics* 30: 2584–91 (2014)
   | :doi:`doi:10.1093/bioinformatics/btu337 <https://doi.org/10.1093/bioinformatics/btu337>` | :link-flat:`PDF <{static}/files/papers/Mann-2014.pdf>` | :label-flat-info:`Journal article`
 
-  | 7. :link-flat-strong:`TSSAR: TSS Annotation Regime for dRNA-Seq Data <{filename}blog/2014-04-13-tssar-tss-annotation-regime-for-drna-seq-data.rst>`
+  | 7. :link-flat-strong:`TSSAR: TSS Annotation Regime for dRNA-Seq Data <{filename}/blog/2014-04-13-tssar-tss-annotation-regime-for-drna-seq-data.rst>`
   | Fabian Amman, :ul:`Michael T. Wolfinger`, Ronny. Lorenz, Ivo L. Hofacker, Peter F. Stadler, Sven Findeiß
   | *BMC Bioinformatics* 15 (1) (2014)
   | :doi:`doi:10.1186/1471-2105-15-89 <https://doi.org/10.1186/1471-2105-15-89>` | :link-flat:`PDF <{static}/files/papers/Amman-2014.pdf>` | :label-flat-info:`Journal article`
@@ -607,7 +607,7 @@ Peer-reviewed journal / conference articles and book chapters
 
 .. container:: refs-2010
 
-  | 6. **BarMap: RNA Folding on Dynamic Energy Landscapes**
+  | 6. :link-flat-strong:`BarMap: RNA Folding on Dynamic Energy Landscapes <{filename}/blog/2010-07-01-BarMap-RNA-Folding-on-Dynamic-Energy-Landscapes.rst>`
   | Ivo L. Hofacker, Christoph Flamm, Michael Heine, :ul:`Michael T. Wolfinger`, Gerik Scheuermann, Peter F. Stadler
   | *RNA* 16:1308–16 (2010)
   | :doi:`doi:10.1261/rna.2093310 <https://doi.org/10.1261/rna.2093310>` | :link-flat:`PDF <{static}/files/papers/Hofacker-2010.pdf>` | :label-flat-info:`Journal article`
@@ -617,7 +617,7 @@ Peer-reviewed journal / conference articles and book chapters
 
 .. container:: refs-2008
 
-  | 5. **Folding Kinetics of Large RNAs**
+  | 5. :link-flat-strong:`Folding Kinetics of Large RNAs <{filename}/blog/2008-06-01-Folding-Kinetics-of-Large-RNAs.rst>`
   | Michael Geis, Christoph Flamm, :ul:`Michael T. Wolfinger`, Andrea Tanzer, Ivo L. Hofacker, Martin Middendorf, Christian Mandl, Peter F. Stadler, Caroline Thurner
   | *J. Mol. Biol.* 379 (1): 160–73 (2008)
   | :doi:`doi:10.1016/j.jmb.2008.02.064 <https://doi.org/10.1016/j.jmb.2008.02.064>` | :link-flat:`Preprint PDF <{static}/files/papers/Geis-2008__PREPRINT.pdf>` | :label-flat-info:`Journal article`
@@ -627,7 +627,7 @@ Peer-reviewed journal / conference articles and book chapters
 
 .. container:: refs-2006
 
-  | 4. :link-flat-strong:`Exploring the Lower Part of Discrete Polymer Model Energy Landscapes <{filename}/blog/2006-04-14-Exploring-the-Lower-Part-of-Discrete-Polymer-Model-Energy-Landscapes.rst>``
+  | 4. :link-flat-strong:`Exploring the Lower Part of Discrete Polymer Model Energy Landscapes <{filename}/blog/2006-04-14-Exploring-the-Lower-Part-of-Discrete-Polymer-Model-Energy-Landscapes.rst>`
   | :ul:`Michael T. Wolfinger`, Sebastian Will, Ivo L. Hofacker, Rolf Backofen, Peter F. Stadler
   | *Europhys. Lett.* 74(4): 726–32 (2006)
   | :doi:`doi:10.1209/epl/i2005-10577-0 <https://doi.org/10.1209/epl/i2005-10577-0>` | :link-flat:`Preprint PDF <{static}/files/papers/Wolfinger-2006__PREPRINT.pdf>` | :label-flat-info:`Journal article`
@@ -643,7 +643,7 @@ Peer-reviewed journal / conference articles and book chapters
 
 .. container:: refs-2004
 
-  | 2. **Efficient Computation of RNA Folding Dynamics**
+  | 2. :link-flat-strong:`Efficient Computation of RNA Folding Dynamics <{filename}/blog/2004-04-14-Efficient-Computation-of-RNA-Folding-Dynamics.rst>`
   | :ul:`Michael T. Wolfinger`, W. Andreas Svrcek-Seiler, Christoph Flamm, Ivo L. Hofacker, Peter F. Stadler
   | *J. Phys. A: Math. Gen.* 37(17): 4731–41 (2004)
   | :doi:`doi:10.1088/0305-4470/37/17/005 <https://doi.org/10.1088/0305-4470/37/17/005>` | :link-flat:`PDF <{static}/files/papers/Wolfinger-2004.pdf>` | :label-flat-info:`Journal article`
