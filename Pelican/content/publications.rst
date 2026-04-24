@@ -632,7 +632,7 @@ Peer-reviewed journal / conference articles and book chapters
   | *Europhys. Lett.* 74(4): 726–32 (2006)
   | :doi:`doi:10.1209/epl/i2005-10577-0 <https://doi.org/10.1209/epl/i2005-10577-0>` | :link-flat:`Preprint PDF <{static}/files/papers/Wolfinger-2006__PREPRINT.pdf>` | :label-flat-info:`Journal article`
 
-  | 3. **Visualization of Lattice-Based Protein Folding Simulations**
+  | 3. :link-flat-strong:`Visualization of Lattice-Based Protein Folding Simulations <{filename}/blog/2006-06-01-Visualization-of-Lattice-Based-Protein-Folding-Simulations.rst>`
   | Sebastian Pötzsch, Gerik Scheuermann, Peter F. Stadler, :ul:`Michael T. Wolfinger`, Christoph Flamm
   | In *IV '06 Proceedings of the Conference on Information Visualization*, pp89–94. Washington, DC, USA: IEEE Computer Society (2006)
   | :doi:`doi:10.1109/IV.2006.127 <https://doi.org/10.1109/IV.2006.127>` | :label-flat-info:`Conference article`
