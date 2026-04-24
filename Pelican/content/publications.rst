@@ -61,7 +61,7 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container::  m-col-t-8
 
-      | 55. :link-flat-strong:`Rational design of mechanically active RNAs: de novo engineering of functional exoribonuclease-resistant RNAs <https://doi.org/10.64898/2026.01.08.698366>`
+      | 55. :link-flat-strong:`Rational design of mechanically active RNAs: de novo engineering of functional exoribonuclease-resistant RNAs <{filename}/blog/2026-01-08-Rational-design-of-mechanically-active-RNAs.rst>`
       | Jule Walter, Leonhard Sidl, Katrin Gutenbrunner, Denis Skibinski, Tim Kolberg, Ivo L. Hofacker, Hua-Ting Yao, Mario Mörl, :ul:`Michael T. Wolfinger`
       | *Nucleic Acids Res.* accepted (2026)
       | :doi:`doi:10.64898/2026.01.08.698366 <https://doi.org/10.64898/2026.01.08.698366>` | :link-flat:`Preprint PDF <{static}/files/papers/Walter-2026__PREPRINT.pdf>` | :label-flat-info:`Journal article`
