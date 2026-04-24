@@ -2,14 +2,14 @@ General and miRNA-mediated mRNA degradation occurs on ribosome complexes in Dros
 ############################################################################################
 
 :date: 2015-08-12
-:modified: 2022-10-14
+:modified: 2026-04-24
 :tags: NGS
 :category: publications
 :slug: general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells
 :author: mtw
-:summary: This study shows that general and miRNA-mediated mRNA degradation occurs on ribosome complexes in Drosophila cells.
+:summary: This study shows that bulk and miRNA-guided mRNA degradation in Drosophila cells occurs on ribosome-associated messenger ribonucleoprotein complexes, linking decay machinery, translation, and high-throughput sequencing of decapped intermediates.
 :title: mRNA degradation occurs on ribosome complexes in Drosophila cells
-:description: Explore mRNA degradation on ribosomes in Drosophila cells, revealing tight coupling with miRNA factors and bulk mRNA association.
+:description: A Drosophila study combining ribosome purification, decay-factor profiling, and sequencing of decapped intermediates to show that mRNA degradation is tightly coupled to ribosome-associated complexes.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -23,12 +23,27 @@ General and miRNA-mediated mRNA degradation occurs on ribosome complexes in Dros
 .. role:: doi(link)
   :class: doi
 
-mRNA degradation and translation are two processes crucial for
-posttranscriptional gene regulation. While the strong interconnection of
-mRNA degradation and translation has been noted for many years, it has led
-to the hypothesis that mRNAs could be degraded on the ribosome.
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
 
-In the present study we provide evidence that the ribosome is a universal site not only for general 5' to 3' mRNA degradation in *Drosophila* but also for the miRNA-mediated mRNA degradation pathway.
+   .. figure:: {static}/files/papers/preview/Preview__Antic-2015.001small.webp
+          :alt: Workflow for sequencing decapped mRNA intermediates and summary of their abundance on ribosome complexes versus whole-cell lysate
+          :figclass: m-figure m-flat
+
+This paper sits in a different part of my publication list than the RNA structure and folding work, but in hindsight it connects to it more than it may seem at first glance. Before I started to investigate viral xrRNAs and the ways in which structured RNAs can resist exonucleolytic decay, I was interested in a more general question: where does 5' to 3' mRNA degradation actually take place in the cell, and how tightly is it coupled to translation?
+
+At the time, the coupling between translation and mRNA turnover was already widely appreciated, but the physical location of that coupling was still not entirely clear. One could imagine a handoff model in which translating ribosomes and decay machineries act in sequence, or a more direct model in which degrading mRNAs remain associated with ribosome-containing complexes during turnover. This study addressed that distinction experimentally in *Drosophila* cells and asked whether the same picture also applies to miRNA-mediated decay.
+
+The approach combined several complementary readouts. Polysome profiling and ribosome affinity purification were used to isolate ribosome-associated complexes. These preparations were then probed for canonical translation factors, general deadenylation and decapping components, and key miRNA pathway proteins such as AGO1 and GW182. The crucial control was that these associations depended on intact RNA, arguing that the decay factors were not simply sticking nonspecifically to ribosomal proteins but were traveling with messenger ribonucleoprotein complexes engaged with mRNA.
+
+The most informative part of the paper, in my view, is the sequencing-based analysis of decapped degradation intermediates. The workflow captured 5' monophosphorylated mRNA fragments from ribosome complexes and compared them with corresponding fragments from whole-cell lysate. That moved the study beyond a few marker transcripts or individual immunoblots. Instead, it asked the question transcriptome-wide: are decapped intermediates generally depleted from ribosome-associated fractions, or do they remain there at similar relative abundance?
+
+The answer was strikingly broad. Roughly 93% of the detected decapped fragments were present at essentially the same relative abundance in ribosome complexes as in the total lysate. That is a strong argument against the idea that decapping is followed by rapid physical separation from translational assemblies for most transcripts. Rather, the data support a model in which bulk 5' to 3' decay commonly proceeds on ribosome-associated mRNPs, with miRNA-mediated decay fitting into the same overall framework rather than constituting a fully separate compartmentalized process.
+
+That result matters biologically because it shifts the emphasis from static cellular compartments to dynamic functional coupling. It suggests that translation, deadenylation, decapping, and exonucleolytic degradation should often be understood as parts of the same continuum of messenger RNA handling. For miRNA biology this was especially relevant: AGO1 and GW182 were not just abstract regulatory labels but factors connected to ribosome-associated decay states of target RNAs.
+
+Seen from later work on xrRNAs, this paper also sharpened the next question. If much of 5' to 3' decay is happening on ribosome-associated messenger complexes, then structured RNA elements that can impede exonucleases become even more interesting, because they do not act in an isolated degradation chamber. They act in the middle of an already crowded and highly coordinated post-transcriptional environment. In that sense, this study predates the xrRNA projects but helped define the decay-centered perspective from which those later questions became compelling.
+
+So although this is not an RNA structure paper, it is an important mechanistic one. It combines classical biochemical fractionation with a transcriptome-wide sequencing readout to make a fairly clean point: in *Drosophila* cells, both general and miRNA-mediated mRNA degradation are closely tied to ribosome-associated complexes. For anyone interested in how gene expression is controlled after transcription, that is a useful result to keep in mind.
 
 .. frame:: Abstract
 
