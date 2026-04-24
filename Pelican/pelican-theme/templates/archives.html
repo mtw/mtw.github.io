@@ -40,7 +40,7 @@
 
 {% block extra %}
   {{- super() -}}
-  {% if not articles_page or articles_page.number == 1 %}
+  {% if article_list or articles or articles_page %}
   <style>
     .m-blog-index .m-blog-feature,
     .m-blog-index .m-blog-card,
@@ -73,19 +73,31 @@
       margin-top: 1rem;
     }
 
+    .m-blog-index .m-blog-card-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
     .m-blog-index .m-blog-card {
       height: 100%;
+      display: flex;
+      flex-direction: column;
       overflow: hidden;
     }
 
     .m-blog-index .m-blog-card-copy {
       padding: 1rem 1rem 1.15rem 1rem;
+      flex: 1 1 auto;
+      display: flex;
+      flex-direction: column;
     }
 
     .m-blog-index .m-blog-card-copy h3 {
       font-size: 1.05rem;
       line-height: 1.3;
       margin-bottom: 0.35rem;
+      flex: 1 1 auto;
     }
 
     .m-blog-index .m-blog-card-media,
@@ -150,6 +162,22 @@
       margin-top: 1rem;
     }
 
+    .m-blog-index .m-blog-list h3 {
+      margin-bottom: 0.9rem;
+    }
+
+    @media screen and (min-width: 576px) {
+      .m-blog-index .m-blog-card-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      .m-blog-index .m-blog-card-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
     @media screen and (max-width: 767px) {
       .m-blog-index .m-blog-feature {
         padding: 1.15rem;
@@ -203,36 +231,34 @@
         </section>
 
         {% if article_list|length > 1 %}
-        <div class="m-row">
+        <div class="m-blog-card-grid">
           {% for article in article_list[1:4] %}
           {% set image_url = none %}
           {% if '<img' in article.content and 'src="' in article.content %}
             {% set image_url = article.content.split('src="', 1)[1].split('"', 1)[0] %}
           {% endif %}
-          <div class="m-col-t-12 m-col-s-6 m-col-m-4">
-            <article class="m-blog-card">
-              {% if image_url %}
-              <a href="{{ article.url|format_siteurl|e }}" class="m-blog-card-media">
-                <img src="{{ image_url|e }}" alt="" loading="lazy" />
-              </a>
-              {% else %}
-              <a href="{{ article.url|format_siteurl|e }}" class="m-blog-placeholder">Article</a>
-              {% endif %}
-              <div class="m-blog-card-copy">
-                <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%b %d, %Y') }}</time>
-                <h3><a href="{{ article.url|format_siteurl|e }}">{{ article.title }}</a></h3>
-              </div>
-            </article>
-          </div>
+          <article class="m-blog-card">
+            {% if image_url %}
+            <a href="{{ article.url|format_siteurl|e }}" class="m-blog-card-media">
+              <img src="{{ image_url|e }}" alt="" loading="lazy" />
+            </a>
+            {% else %}
+            <a href="{{ article.url|format_siteurl|e }}" class="m-blog-placeholder">Article</a>
+            {% endif %}
+            <div class="m-blog-card-copy">
+              <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%b %d, %Y') }}</time>
+              <h3><a href="{{ article.url|format_siteurl|e }}">{{ article.title }}</a></h3>
+            </div>
+          </article>
           {% endfor %}
         </div>
         {% endif %}
 
-        {% if article_list|length > 4 %}
+        {% if articles|length > 4 %}
         <section class="m-blog-list">
           <h3>Earlier posts</h3>
           <ol>
-            {% for article in article_list[4:9] %}
+            {% for article in articles[4:14] %}
             <li>
               <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%b %d, %Y') }}</time>
               <a href="{{ article.url|format_siteurl|e }}">{{ article.title }}</a>
@@ -248,29 +274,19 @@
         {% endif %}
       </div>
       {% else %}
-      {% for article in article_list %}
-      <article>
-        {% macro header() %}{% include "article_header.html" %}{% endmacro %}
-        {{ header()|rtrim|indent(8) }}
-        {% set show_content =
-            article.content and loop.first and (not articles_page or articles_page.number == 1) and
-            ((article.collapse_first is defined and article.collapse_first != 'True') or
-             (article.collapse_first is not defined and not M_COLLAPSE_FIRST_ARTICLE)) %}
-        {% if show_content %}
-        <div class="m-clearfix-l"></div>
-<!-- content -->
-{{ article.content|trim }}
-<!-- /content -->
-        {% endif %}
-        <footer>
-          {% macro footer() %}{% include "article_footer.html" %}{% endmacro %}
-          {{ footer()|rtrim|indent(10) }}
-        </footer>
-        {% if not show_content %}
-        <div class="m-clearfix-l"></div>
-        {% endif %}
-      </article>
-      {% endfor %}
+      <div class="m-blog-index">
+        <section class="m-blog-list">
+          <h3>{% if articles_page %}Posts on this page{% else %}Posts{% endif %}</h3>
+          <ol>
+            {% for article in article_list[:10] %}
+            <li>
+              <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%b %d, %Y') }}</time>
+              <a href="{{ article.url|format_siteurl|e }}">{{ article.title }}</a>
+            </li>
+            {% endfor %}
+          </ol>
+        </section>
+      </div>
       {% if articles_page and articles_page.has_other_pages() %}
       {% macro pagination() %}{% include 'pagination.html' %}{% endmacro %}
       {{ pagination()|rtrim|indent(6) }}
