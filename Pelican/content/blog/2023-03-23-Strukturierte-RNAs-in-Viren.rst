@@ -38,14 +38,6 @@ In this mini-review, we delve into the biophysical principles underlying exoribo
 This work relevant for a One Health systemic view as it underscores the interconnectedness of human, animal, and environmental health. The study delves into the conservation of RNA structures in viruses like dengue and Zika, which are transmitted by mosquitoes. By exploring the potential of xrRNAs as therapeutic targets, the research paves the way for the development of novel, broad-spectrum antiviral strategies that can address disease control and prevention across multiple levels of the ecosystem. Ultimately, this aligns with the One Health approach by acknowledging and addressing the intricate relationships between different facets of health within our ecosystem.
 
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Ochsenreiter-2023.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs. 
-     <a href="{static}/files/papers/Ochsenreiter-2023.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
    Evolutionarily conserved RNAs in untranslated regions are key regulators of the viral life cycle. Exoribonuclease-resistant RNAs (xrRNAs) are particularly interesting examples of structurally conserved elements because they actively dysregulate the messenger RNA (mRNA) degradation machinery of host cells, thereby mediating viral pathogenicity. We review the principles of RNA structure conservation in viruses and discuss potential applications of xrRNAs in synthetic biology and future mRNA vaccines.

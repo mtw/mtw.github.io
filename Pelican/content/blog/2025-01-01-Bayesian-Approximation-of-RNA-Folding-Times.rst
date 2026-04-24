@@ -37,14 +37,6 @@ What makes this interesting for RNA folding kinetics is the combination of speed
 
 Relative to the full conference paper, this version is shorter and more focused on the central idea, but it already makes the key argument clearly: approximating folding-time distributions can be enough for many practical tasks, and those approximations can be learned efficiently from a synthetic prior. For anyone interested in the intersection of RNA folding kinetics and AI, this paper is a useful entry point into the broader KinPFN project.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Scheuer-2025__AI4NA.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs.
-     <a href="{static}/files/papers/Scheuer-2025__AI4NA.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
    RNA is a dynamic biomolecule with its function largely determined by its folding into complex structures. During the folding process, an RNA traverses through a series of intermediate structural states, with each transition occurring at variable rates that collectively influence the time required to reach the functional form. Understanding these folding kinetics is vital for predicting RNA behavior and optimizing applications in synthetic biology and drug discovery. While in silico kinetic RNA folding simulators are often computationally intensive and time-consuming, accurate approximations of the folding times can already be very informative to assess the efficiency of the folding process. Here, we present KinPFN, a novel approach that leverages prior-data fitted networks to directly model the posterior predictive distribution of RNA folding times. Trained on synthetic data representing arbitrary prior folding times, KinPFN efficiently approximates the cumulative distribution function of RNA folding times in a single forward pass, given only a few initial folding time examples. Our method offers a modular extension to RNA kinetics algorithms, promising significant computational speed-ups orders of magnitude faster, while achieving comparable results.

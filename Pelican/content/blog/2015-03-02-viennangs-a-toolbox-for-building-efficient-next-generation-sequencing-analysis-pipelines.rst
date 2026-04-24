@@ -39,14 +39,6 @@ and wrapper routines for a set of commonly used NGS command line tools.
 
 The ViennaNGS suite is available through :link-flat:`Github <https://github.com/mtw/Bio-ViennaNGS>` and :link-flat:`CPAN <https://metacpan.org/dist/Bio-ViennaNGS>`.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Wolfinger-2015.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs. 
-     <a href="{static}/files/papers/Wolfinger-2015.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
   Recent achievements in next-generation sequencing (NGS) technologies lead to a high demand for reuseable software components to easily compile customized analysis workflows for big genomics data. We present ViennaNGS, an integrated collection of Perl modules focused on building efficient pipelines for NGS data processing. It comes with functionality for extracting and converting features from common NGS file formats, computation and evaluation of read mapping statistics, as well as normalization of RNA abundance. Moreover, ViennaNGS provides software components for identification and characterization of splice junctions from RNA-seq data, parsing and condensing sequence motif data, automated construction of Assembly and Track Hubs for the UCSC genome browser, as well as wrapper routines for a set of commonly used NGS command line tools.

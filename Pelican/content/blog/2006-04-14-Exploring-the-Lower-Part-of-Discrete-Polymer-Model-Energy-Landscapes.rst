@@ -26,14 +26,6 @@ Exploring the Lower Part of Discrete Polymer Model Energy Landscapes
 
 We propose a generic, problem-agnostic algorithm designed for global flooding of the low-energy portions of these landscapes. To demonstrate the effectiveness and versatility of our method, we apply it to lattice proteins in both two and three dimensions as an example application. This innovative algorithm allows to efficiently investigate the complex energy landscapes of discrete systems, providing valuable insights into the topological traits that impact biopolymer folding dynamics.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Wolfinger-2006__PREPRINT.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs. 
-     <a href="{static}/files/papers/Wolfinger-2006__PREPRINT.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
   We present a generic, problem-independent algorithm for exploration of the low-energy portion of the energy landscape of discrete systems and apply it to the energy landscape of lattice proteins. Starting from a set of optimal and near-optimal conformations derived from a constraint-based search technique, we are able to selectively investigate the lower part of lattice protein energy landscapes in two and three dimensions. This novel approach allows, in contrast to exhaustive enumeration, for an efficient calculation of optimal and near-optimal structures below a given energy threshold and is only limited by the available amount of memory. A straightforward application of the algorithm is the calculation of barrier trees (representing the energy landscape), which then allows dynamics studies based on landscape theory.

@@ -41,14 +41,6 @@ The paper is careful about scope. Automated lineage designation is not the same 
 
 For genomic epidemiology, this is the real value of the framework. It gives researchers a practical way to maintain phylogeny-based nomenclature under conditions where purely manual designation becomes increasingly fragile. That is useful not only for SARS-CoV-2, but also for other rapidly sampled viral systems where scale has already become the defining constraint.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/McBroome-2024.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs. 
-     <a href="{static}/files/papers/McBroome-2024.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
   Pathogen lineage nomenclature systems are a key component of effective communication and collaboration for researchers and public health workers. Since February 2021, the Pango dynamic lineage nomenclature for SARS-CoV-2 has been sustained by crowdsourced lineage proposals as new isolates were sequenced. This approach is vulnerable to time-critical delays as well as regional and personal bias. Here we developed a simple heuristic approach for dividing phylogenetic trees into lineages, including the prioritization of key mutations or genes. Our implementation is efficient on extremely large phylogenetic trees consisting of millions of sequences and produces similar results to existing manually curated lineage designations when applied to SARS-CoV-2 and other viruses including chikungunya virus, Venezuelan equine encephalitis virus complex and Zika virus. This method offers a simple, automated and consistent approach to pathogen nomenclature that can assist researchers in developing and maintaining phylogeny-based classifications in the face of ever-increasing genomic datasets.

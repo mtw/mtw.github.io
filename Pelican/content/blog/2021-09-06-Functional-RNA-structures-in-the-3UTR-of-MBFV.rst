@@ -37,14 +37,6 @@ To deepen our understanding of RNA structure conservation in MBF, we recently co
 
 This research not only expands our knowledge of how flaviviruses manipulate host cells but also opens up new avenues for antiviral strategies targeting these conserved RNA elements.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Wolfinger-2021.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs. 
-     <a href="{static}/files/papers/Wolfinger-2021.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
   Recent experimental evidence revealed a thorough understanding of the involvement of functional RNA elements in the 3’ untranslated regions (UTRs) of flaviviruses with virus tropism. Comparative genomics and thermodynamic modelling allow for the prediction and functional characterization of homologous structures in phylogenetically related viruses. We provide here a comprehensive overview of evolutionarily conserved RNAs in the 3’UTRs of mosquito-borne flaviviruses.

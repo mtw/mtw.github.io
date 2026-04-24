@@ -33,14 +33,6 @@ The eukaryotic part is equally notable. By introducing a dedicated 5'UTR-MaP str
 
 For computational RNA biology, this is an important paper because it connects three layers that are often treated separately: transcriptome-scale probing, ensemble deconvolution, and evolutionary support. It therefore sits squarely in the `RNA structure prediction` space, but in a way that moves beyond static secondary-structure models and toward experimentally anchored maps of regulatory structure dynamics in living cells.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Borovska-2025.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs.
-     <a href="{static}/files/papers/Borovska-2025.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
    RNA molecules can populate ensembles of alternative structural conformations; however, comprehensively mapping RNA conformational landscapes within living cells presents notable challenges and has, as such, so far remained elusive. Here, we generate transcriptome-scale maps of RNA secondary structure ensembles in both Escherichia coli and human cells, uncovering features of structurally heterogeneous regions. By combining ensemble deconvolution and covariation analyses, we report the discovery of several bacterial RNA thermometers in the 5′ untranslated regions (UTRs) of the cspG, cspI, cpxP and lpxP mRNAs of Escherichia coli. We mechanistically characterize how these thermometers switch structure in response to cold shock and reveal the CspE chaperone-mediated regulation of lpxP. Furthermore, we introduce a method for the transcriptome-scale mapping of 5′ UTR structures in eukaryotes and leverage it to uncover RNA structural switches regulating the differential usage of open reading frames in the 5′ UTRs of the CKS2 and TXNL4A mRNAs in HEK293 cells. Collectively, this work reveals the complexity of RNA structural dynamics in living cells and provides a resource to accelerate the discovery of regulatory RNA switches.

@@ -35,14 +35,6 @@ On a structural level, XiFV shares several characteristics with other orthoflavi
 
 As this new virus continues to be studied, it highlights the importance of understanding the diverse life cycles and evolutionary pressures shaping tick-borne viruses, which could have broader implications for public health and virology.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Wang-2024.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs. 
-     <a href="{static}/files/papers/Wang-2024.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
   Tick-borne orthoflaviviruses (TBFs) are classified into three conventional groups based on genetics and ecology: mammalian, seabird and probable-TBF group. Recently, a fourth basal group has been identified in Rhipicephalus ticks from Africa: Mpulungu flavivirus (MPFV) in Zambia and Ngoye virus (NGOV) in Senegal. Despite attempts, isolating these viruses in vertebrate and invertebrate cell lines or intracerebral injection of newborn mice with virus-containing homogenates has remained unsuccessful. In this study, we report the discovery of Xinyang flavivirus (XiFV) in Haemaphysalis flava ticks from Xìnyáng, Henan Province, China. Phylogenetic analysis shows that XiFV was most closely related to MPFV and NGOV, marking the first identification of this tick orthoflavivirus group in Asia. We developed a reverse transcriptase quantitative PCR assay to screen wild-collected ticks and egg clutches, with absolute infection rates of 20.75% in adult females and 15.19% in egg clutches, suggesting that XiFV could be potentially spread through transovarial transmission. To examine potential host range, dinucleotide composition analyses revealed that XiFV, MPFV and NGOV share a closer composition to classical insect-specific orthoflaviviruses than to vertebrate-infecting TBFs, suggesting that XiFV could be a tick-only orthoflavivirus. Additionally, both XiFV and MPFV lack a furin cleavage site in the prM protein, unlike other TBFs, suggesting these viruses might exist towards a biased immature particle state. To examine this, chimeric Binjari virus with XIFV- prME (bXiFV) was generated, purified and analysed by SDS-PAGE and negative-stain transmission electron microscopy, suggesting prototypical orthoflavivirus size (~50 nm) and bias towards uncleaved prM. In silico structural analyses of the 3'-untranslated regions show that XiFV forms up to five pseudo-knot-containing stem-loops and a prototypical orthoflavivirus dumbbell element, suggesting the potential for multiple exoribonuclease-resistant RNA structures.

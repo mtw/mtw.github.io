@@ -39,14 +39,6 @@ The real value of the approach is that it makes distribution-level reasoning abo
 
 For RNA folding kinetics this is a useful conceptual shift. It shows that machine learning can accelerate kinetic analysis without having to learn RNA folding from scratch. By focusing on posterior approximation rather than direct structure prediction, KinPFN becomes a practical tool for kinetic RNA design workflows, where many candidate sequences need to be compared quickly but full simulation remains computationally restrictive.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Scheuer-2025.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs.
-     <a href="{static}/files/papers/Scheuer-2025.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
    RNA is a dynamic biomolecule crucial for cellular regulation, with its function largely determined by its folding into complex structures, while misfolding can lead to multifaceted biological sequelae. During the folding process, RNA traverses through a series of intermediate structural states, with each transition occurring at variable rates that collectively influence the time required to reach the functional form. Understanding these folding kinetics is vital for predicting RNA behavior and optimizing applications in synthetic biology and drug discovery. While in silico kinetic RNA folding simulators are often computationally intensive and time-consuming, accurate approximations of the folding times can already be very informative to assess the efficiency of the folding process. In this work, we present KinPFN, a novel approach that leverages prior-data fitted networks to directly model the posterior predictive distribution of RNA folding times. By training on synthetic data representing arbitrary prior folding times, KinPFN efficiently approximates the cumulative distribution function of RNA folding times in a single forward pass, given only a few initial folding time examples. Our method offers a modular extension to existing RNA kinetics algorithms, promising significant computational speed-ups orders of magnitude faster, while achieving comparable results.

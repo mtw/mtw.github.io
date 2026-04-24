@@ -41,14 +41,6 @@ Users can install binary packages for several Linux distributions or build from 
 For a deep dive, don’t miss the `Supplementary Data <http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523/suppl/DC1>`_, which includes extensive background on each method, parameter details, and full benchmark results for our SHAPE-integrated algorithms. Dive into the code, explore the options, and see how experimental data can guide your next discovery in RNA structure prediction.
 
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Lorenz-2016a.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs.
-     <a href="{static}/files/papers/Lorenz-2016a.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
   Chemical mapping experiments allow for nucleotide resolution

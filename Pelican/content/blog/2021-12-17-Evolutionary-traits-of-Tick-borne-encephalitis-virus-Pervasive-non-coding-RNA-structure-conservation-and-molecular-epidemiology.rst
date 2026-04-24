@@ -37,14 +37,6 @@ From a One Health perspective, the findings of the study underscore the importan
 .. role:: doi(link)
   :class: doi
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Kutschera-2022.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs. 
-     <a href="{static}/files/papers/Kutschera-2022.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 
 .. frame:: Abstract
 
