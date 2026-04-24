@@ -487,7 +487,7 @@ Peer-reviewed journal / conference articles and book chapters
 
 .. container:: refs-2018
 
-  | 25. **Harnessing Metabolic Regulation to Increase Hfq-Dependent Antibiotic Susceptibility in Pseudomonas Aeruginosa**
+  | 25. :link-flat-strong:`Harnessing Metabolic Regulation to Increase Hfq-Dependent Antibiotic Susceptibility in Pseudomonas Aeruginosa <{filename}/blog/2018-11-09-Harnessing-Metabolic-Regulation-to-Increase-Hfq-Dependent-Antibiotic-Susceptibility-in-Pseudomonas-Aeruginosa.rst>`
   | Petra Pusic, Elisabeth Sonnleitner, Beatrice Krennmayr, Dorothea Agnes Heitzinger, :ul:`Michael T. Wolfinger`, Armin Resch, Udo Bläsi
   | *Front. Microbiol.* 9:2709 (2018)
   | :doi:`doi:10.3389/fmicb.2018.02709 <https://doi.org/10.3389/fmicb.2018.02709>` | :link-flat:`PDF <{static}/files/papers/Pusic-2018.pdf>` | :label-flat-info:`Journal article`
