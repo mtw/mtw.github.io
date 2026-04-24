@@ -31,7 +31,7 @@ That design gives the method a very different operating regime from exhaustive s
 
 The validation examples are important here. Kinwalker reproduces several experimentally studied folding scenarios, including delayed cloverleaf formation in bacteriophage RNAs, the ASR riboswitch, and the Hok system. These are exactly the kinds of RNAs where kinetic and co-transcriptional effects matter more than the equilibrium minimum free energy structure alone. In that sense, the paper is not just a scaling story; it is also a strong argument that useful kinetic prediction can come from carefully chosen heuristics when full landscape exploration is infeasible.
 
-For the site’s core topics, this paper belongs squarely in the `RNA folding kinetics` and `co-transcriptional RNA folding` cluster. It remains a useful reference point for anyone interested in how to bridge thermodynamic RNA structure prediction with folding-pathway analysis for longer molecules.
+This paper is a useful reference point for anyone interested in how to bridge thermodynamic RNA structure prediction with folding-pathway analysis for longer molecules.
 
 .. frame:: Abstract
 

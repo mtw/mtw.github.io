@@ -25,8 +25,8 @@ SHAPE directed RNA folding
 
 .. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
 
-   .. figure:: {static}/files/papers/preview/Preview__Lorenz-2016a.001small.webp
-          :alt: Example SHAPE reactivity profile mapped onto an RNA secondary structure
+   .. figure:: {static}/files/figures/deigan_method.webp
+          :alt: Deigan method adjusts the energetics of stacked base pairs
           :figclass: m-figure m-flat
 
 This is one of the papers on this site that still gets steady attention, and for good reason. It sits at a very practical intersection: people want better RNA structure prediction, they have experimental probing data in hand, and they need a principled way to combine the two. That is exactly the problem this paper addresses. Rather than proposing a completely new folding formalism, it shows how SHAPE reactivities can be integrated into the ViennaRNA Package through soft constraints, so that experimental evidence steers prediction without discarding the thermodynamic model underneath.
