@@ -33,14 +33,6 @@ The validation examples are important here. Kinwalker reproduces several experim
 
 For the site’s core topics, this paper belongs squarely in the `RNA folding kinetics` and `co-transcriptional RNA folding` cluster. It remains a useful reference point for anyone interested in how to bridge thermodynamic RNA structure prediction with folding-pathway analysis for longer molecules.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Geis-2008__PREPRINT.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs.
-     <a href="{static}/files/papers/Geis-2008__PREPRINT.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
    We introduce here a heuristic approach to kinetic RNA folding that constructs secondary structures by stepwise combination of building blocks. These blocks correspond to sub-sequences and their thermodynamically optimal structures. These are determined by the standard dynamic programming approach to RNA folding. Folding trajectories are modeled at base pair resolution using the Morgan-Higgs heuristic and a barrier tree based heuristic to connect combinations of the local building blocks. Implemented in the program Kinwalker, the algorithm allows co-transcriptional folding and can be used to fold sequences of up to about 1500 nucleotides in length. A detailed comparison with several well-studied examples from the literature, including the delayed folding of bacteriophage cloverleaf structures, the ASR riboswitch, and the Hok RNA, shows an excellent agreement of predicted trajectories and experimental evidence. The software is available as part of the Vienna RNA Package.

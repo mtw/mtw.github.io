@@ -42,14 +42,6 @@ From a computational RNA perspective, this paper is also a good example of what 
 .. role:: doi(link)
   :class: doi
 
-.. raw:: html
-
-  <object data="{static}/files/papers/deBernardiSchneider-2019b.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs. 
-     <a href="{static}/files/papers/deBernardiSchneider-2019b.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 
 .. frame:: Abstract
 

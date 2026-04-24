@@ -45,14 +45,6 @@ For RNA virology more broadly, this is exactly where computational and biochemic
 
 For teams evaluating viral RNA structure hypotheses or RNA-protein interaction models, I also offer focused technical review and advisory support through my :link-flat:`services page <{filename}/services.rst>`.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Gemmill-2024.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs. 
-     <a href="{static}/files/papers/Gemmill-2024.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
    Zika virus (ZIKV) infection remains a worldwide concern, and currently no effective treatments or vaccines are available. Novel therapeutics are an avenue of interest that could probe viral RNA-human protein communication to stop viral replication. One specific RNA structure, G-quadruplexes (G4s), possess various roles in viruses and all domains of life, including transcription and translation regulation and genome stability, and serves as nucleation points for RNA liquid-liquid phase separation. Previous G4 studies on ZIKV using a quadruplex forming G-rich sequences Mapper located a potential G-quadruplex sequence in the 3′ terminal region (TR) and was validated structurally using a 25-mer oligo. It is currently unknown if this structure is conserved and maintained in a large ZIKV RNA transcript and its specific roles in viral replication. Using bioinformatic analysis and biochemical assays, we demonstrate that the ZIKV 3′ TR G4 is conserved across all ZIKV isolates and maintains its structure in a 3′ TR full-length transcript. We further established the G4 formation using pyridostatin and the BG4 G4-recognizing antibody binding assays. Our study also demonstrates that the human DEAD-box helicases, DDX3X132-607 and DDX17135-555, bind to the 3′ TR and that DDX17135-555 unfolds the G4 present in the 3′ TR. These findings provide a path forward in potential therapeutic targeting of DDX3X or DDX17’s binding to the 3′ TR G4 region for novel treatments against ZIKV.

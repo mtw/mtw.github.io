@@ -39,14 +39,6 @@ This work is also foundational for later developments in RNA energy-landscape an
 
 For today’s readers, the paper remains relevant because it frames `RNA folding kinetics` as an energy-landscape problem rather than just a simulation problem. That perspective is still central when thinking about RNA switches, delayed folding, metastable intermediates, and the design of molecules whose function depends on how they move through structure space rather than only on where they end up.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Wolfinger-2004.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs.
-     <a href="{static}/files/papers/Wolfinger-2004.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
    Barrier trees consisting of local minima and their connecting saddle points imply a natural coarse-graining for the description of the energy landscape of RNA secondary structures. Here we show that, based on this approach, it is possible to predict the folding behaviour of RNA molecules by numerical integration. Comparison with stochastic folding simulations shows reasonable agreement of the resulting folding dynamics and a drastic increase in computational efficiency that makes it possible to investigate the folding dynamics of RNA of at least tRNA size. Our approach is readily applicable to bistable RNA molecules and promises to facilitate studies on the dynamic behaviour of RNA switches.

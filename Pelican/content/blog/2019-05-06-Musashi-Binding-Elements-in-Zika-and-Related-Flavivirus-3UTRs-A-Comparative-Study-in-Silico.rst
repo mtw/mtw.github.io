@@ -43,14 +43,6 @@ Another useful result is that Musashi binding elements are not randomly scattere
 
 Conceptually, this work is less about proving a single mechanism and more about building a tractable computational screen for host-factor compatibility in viral RNAs. Accessibility alone is not enough to predict congenital infection or neurotropism, and the paper is careful not to claim that it is. But opening-energy calculations do provide a useful way to prioritize candidate binding sites and candidate viruses for follow-up experiments. In that sense, the study connects RNA secondary-structure thermodynamics with a concrete virological question: which flaviviruses place Musashi binding motifs in structural contexts that are likely to matter biologically?
 
-.. raw:: html
-
-  <object data="{static}/files/papers/deBernardiSchneider-2019a.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs. 
-     <a href="{static}/files/papers/deBernardiSchneider-2019a.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
   Zika virus (ZIKV) belongs to a class of neurotropic viruses that have the ability to cause congenital infection, which can result in microcephaly or fetal demise. Recently, the RNA-binding protein Musashi-1 (Msi1), which mediates the maintenance and self-renewal of stem cells and acts as a translational regulator, has been associated with promoting ZIKV replication, neurotropism, and pathology. Msi1 predominantly binds to single-stranded motifs in the 3′ untranslated region (UTR) of RNA that contain a UAG trinucleotide in their core. We systematically analyzed the properties of Musashi binding elements (MBEs) in the 3′UTR of flaviviruses with a thermodynamic model for RNA folding. Our results indicate that MBEs in ZIKV 3′UTRs occur predominantly in unpaired, single-stranded structural context, thus corroborating experimental observations by a biophysical model of RNA structure formation. Statistical analysis and comparison with related viruses show that ZIKV MBEs are maximally accessible among mosquito-borne flaviviruses. Our study addresses the broader question of whether other emerging arboviruses can cause similar neurotropic effects through the same mechanism in the developing fetus by establishing a link between the biophysical properties of viral RNA and teratogenicity. Moreover, our thermodynamic model can explain recent experimental findings and predict the Msi1-related neurotropic potential of other viruses.

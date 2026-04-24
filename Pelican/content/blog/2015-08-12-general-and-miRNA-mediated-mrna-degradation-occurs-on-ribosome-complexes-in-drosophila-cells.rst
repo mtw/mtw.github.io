@@ -30,14 +30,6 @@ to the hypothesis that mRNAs could be degraded on the ribosome.
 
 In the present study we provide evidence that the ribosome is a universal site not only for general 5' to 3' mRNA degradation in *Drosophila* but also for the miRNA-mediated mRNA degradation pathway.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Antic-2015.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs. 
-     <a href="{static}/files/papers/Antic-2015.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
   The translation and degradation of mRNAs are two key steps in gene

@@ -41,14 +41,6 @@ Biologically, that matters because the Alu inverted repeats are thought to contr
 
 More broadly, this paper is useful as a methods example. Long non-coding RNAs are difficult structural targets: they are large, flexible, and hard to crystallize, while sequence-only tertiary prediction remains unreliable. The pipeline used here, combining prior secondary-structure information with AUC, SEC-MALS, SAXS, and restrained computational modeling, is a practical template for deriving experimentally grounded structural models of other lncRNAs as well.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/DSouza-2022.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs. 
-     <a href="{static}/files/papers/DSouza-2022.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
     Human Long Intergenic Noncoding RNA-p21 (LincRNA-p21) is a regulatory noncoding RNA that plays an important role in promoting apoptosis. LincRNA-p21 is also critical in down-regulating many p53 target genes through its interaction with a p53 repressive complex. The interaction between LincRNA-p21 and the repressive complex is likely dependent on the RNA tertiary structure. Previous studies have determined the two-dimensional secondary structures of the sense and antisense human LincRNA-p21 AluSx1 IRs using SHAPE. However, there were no insights into its three-dimensional structure. Therefore, we in vitro transcribed the sense and antisense regions of LincRNA-p21 AluSx1 Inverted Repeats (IRs) and performed analytical ultracentrifugation, size exclusion chromatography, light scattering, and small angle X-ray scattering (SAXS) studies. Based on these studies, we determined low-resolution, three-dimensional structures of sense and antisense LincRNA-p21. By adapting previously known two-dimensional information, we calculated their sense and antisense high-resolution models and determined that they agree with the low-resolution structures determined using SAXS. Thus, our integrated approach provides insights into the structure of LincRNA-p21 Alu IRs. Our study also offers a viable pipeline for combining the secondary structure information with biophysical and computational studies to obtain high-resolution atomistic models for long noncoding RNAs.

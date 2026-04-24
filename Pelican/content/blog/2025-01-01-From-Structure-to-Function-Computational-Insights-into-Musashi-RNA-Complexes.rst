@@ -41,14 +41,6 @@ The review also reflects a broader change in RNA structural biology. AlphaFold-c
 
 From my perspective, that is what makes this article worthwhile. It consolidates a line of work spanning Musashi binding to cellular RNAs, structural refinement of Musashi-RNA complexes, and possible links to viral pathogenesis. For readers interested in `RNA-Protein interaction`, `3D` modeling, or the realistic use of `AI` in structural biology, it provides a compact map of the field and a clear rationale for where computation can genuinely add insight.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Darai-2025.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs.
-     <a href="{static}/files/papers/Darai-2025.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
    Musashi proteins are evolutionarily conserved RNA-binding proteins that regulate mRNA translation and cell fate determination and have also been implicated in viral pathogenesis. Over the last years, computational approaches have contributed substantially to understanding how Musashi proteins recognize RNA at the structural level, how their RNA-binding domains discriminate among candidate motifs, and how these interactions may extend to viral untranslated regions. This review summarizes recent progress in modeling Musashi-RNA complexes, including molecular dynamics simulations, docking approaches, and AI-assisted structural prediction, and discusses how these methods help connect RNA recognition with regulatory and pathogenic function.

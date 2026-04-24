@@ -25,14 +25,6 @@ Predicting RNA Structures from Sequence and Probing Data
 
 We discuss how experimental techniques for chemical and enzymatic structure probing like SHAPE or PARS can provide valuable insights into RNA structure, allowing for more accurate predictions when combined with thermodynamics-only algorithms. By incorporating probing data as soft constraints or pseudo-energies in folding algorithms, we can enhance the accuracy of RNA structure models. The paper also addresses the challenges of merging these approaches and outlines future directions for improving RNA structure determination through the integration of experimental and computational methods.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Lorenz-2016.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs. 
-     <a href="{static}/files/papers/Lorenz-2016.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
   RNA secondary structures have proven essential for understanding the regulatory functions performed by RNA such as microRNAs, bacterial small RNAs, or riboswitches. This success is in part due to the availability of efficient computational methods for predicting RNA secondary structures. Recent advances focus on dealing with the inherent uncertainty of prediction by considering the ensemble of possible structures rather than the single most stable one. Moreover, the advent of high-throughput structural probing has spurred the development of computational methods that incorporate such experimental data as auxiliary information.

@@ -33,14 +33,6 @@ From a methodological perspective, this is a useful complement to trajectory-bas
 
 BarMap is therefore one of the key papers in the `co-transcriptional RNA folding` and `RNA folding kinetics` cluster. It formalizes the idea that kinetics should often be thought of as motion across a sequence of changing landscapes, not just as diffusion on a single fixed one.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Hofacker-2010.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs.
-     <a href="{static}/files/papers/Hofacker-2010.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
    Dynamical changes of RNA secondary structures play an important role in the function of many regulatory RNAs. Such kinetic effects, especially in time-variable and externally triggered systems, are usually investigated by means of extensive and expensive simulations of large sets of individual folding trajectories. Here we describe the theoretical foundations of a generic approach that not only allows the direct computation of approximate population densities but also reduces the efforts required to analyze the folding energy landscapes to a one-time preprocessing step. The basic idea is to consider the kinetics on individual landscapes and to model external triggers and environmental changes as small but discrete changes in the landscapes. A ‘‘barmap’’ links macrostates of temporally adjacent landscapes and defines the transfer of population densities from one ‘‘snapshot’’ to the next. Implemented in the BarMap software, this approach makes it feasible to study folding processes at the level of basins, saddle points, and barriers for many nonstationary scenarios, including temperature changes, cotranscriptional folding, refolding in consequence to degradation, and mechanically constrained kinetics, as in the case of the translocation of a polymer through a pore.

@@ -43,14 +43,6 @@ More broadly, this paper is a good example of how RNA-RNA interaction studies sh
 
 For teams working on viral RNA architecture, long-range RNA interactions, or structure-guided mechanistic questions, I also offer focused technical review and advisory support through my :link-flat:`services page <{filename}/services.rst>`.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Mrozowich-2023.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs. 
-     <a href="{static}/files/papers/Mrozowich-2023.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
     Numerous viruses utilize essential long-range RNA–RNA genome interactions, specifically flaviviruses. Using Japanese encephalitis virus (JEV) as a model system, we computationally predicted and then biophysically validated and characterized its long-range RNA–RNA genomic interaction. Using multiple RNA computation assessment programs, we determine the primary RNA–RNA interacting site among JEV isolates and numerous related viruses. Following in vitro transcription of RNA, we provide, for the first time, characterization of an RNA–RNA interaction using size-exclusion chromatography coupled with multi-angle light scattering and analytical ultracentrifugation. Next, we demonstrate that the 5′ and 3′ terminal regions of JEV interact with nM affinity using microscale thermophoresis, and this affinity is significantly reduced when the conserved cyclization sequence is not present. Furthermore, we perform computational kinetic analyses validating the cyclization sequence as the primary driver of this RNA–RNA interaction. Finally, we examined the 3D structure of the interaction using small-angle X-ray scattering, revealing a flexible yet stable interaction. This pathway can be adapted and utilized to study various viral and human long-non-coding RNA–RNA interactions and determine their binding affinities, a critical pharmacological property of designing potential therapeutics.

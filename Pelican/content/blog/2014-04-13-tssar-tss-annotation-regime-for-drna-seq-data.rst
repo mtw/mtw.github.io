@@ -29,14 +29,6 @@ developped `TSSAR <http://rna.tbi.univie.ac.at/TSSAR>`_, a statistical method
 for analyzing dRNA-seq data, together with colleagues from the
 Bioinformatics department at the University of Leipzig.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Amman-2014.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs. 
-     <a href="{static}/files/papers/Amman-2014.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
     **Background:** Differential RNA sequencing dRNA-seq is a high-throughput screening

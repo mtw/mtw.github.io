@@ -37,14 +37,6 @@ In this study, we employ computational modeling to assess the association comple
 
 Collaborating with esteemed researchers Thanyada Rungrotmongkol and Nitchakan Darai from Chulalongkorn University, as well as Peter Wolschann from Universität Wien, this study advances our understanding of RNA-protein interactions with profound implications for both biology and disease.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Darai-2022.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs. 
-     <a href="{static}/files/papers/Darai-2022.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 
 .. frame:: Abstract
 

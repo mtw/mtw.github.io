@@ -46,14 +46,6 @@ That makes the study best understood as a methods contribution. It shows that AI
 If your lab or company needs an external review of an RNA-protein modeling workflow, a structure-guided design problem, or a docking strategy, I also offer focused advisory support through my :link-flat:`services page <{filename}/services.rst>`.
 
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Darai-2023.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs. 
-     <a href="{static}/files/papers/Darai-2023.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
    An efficient structural refinement technique for protein-RNA complexes is proposed based on a combination of AI-based modeling and flexible docking. Specifically, an enhanced sampling method called parallel cascade selection molecular dynamics (PaCS-MD) was extended to include flexible docking to construct protein-RNA complexes from those obtained by AI-based modeling (AlphaFold2). With the present technique, the conformational sampling of flexible RNA regions is accelerated by PaCS-MD, enabling one to construct plausible models for protein-RNA complexes. For demonstration, PaCS-MD constructed several protein-RNA complexes of the RNA-binding Musashi-1 (MSI1) family of proteins, which were validated by comparing a group of crucial residues for RNA-binding with experimental complexes. Our analyses suggest that PaCS-MD improves the quality of complex modeling compared to the standard protocol based on template-based modeling (Phyre2). Furthermore, PaCS-MD could also be a beneficial technique for constructing complexes of non-native RNA-binding to proteins.

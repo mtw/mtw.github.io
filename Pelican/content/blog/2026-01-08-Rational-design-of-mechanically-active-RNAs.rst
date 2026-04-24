@@ -41,14 +41,6 @@ That last point is the conceptual center of the paper. `syn-xrRNA3` behaves like
 
 From an RNA design perspective, this is a meaningful shift. It shows that mechanically defined RNA function can be engineered rationally without relying on large multiple-sequence alignments, high-throughput selection, or strong sequence conservation. That opens interesting directions for synthetic biology and RNA therapeutics, where one may want to tune transcript stability or protect selected regions from exonucleolytic decay without inserting native viral sequences. More broadly, the work turns xrRNAs from an elegant virology story into a practical design problem, and provides a concrete framework for building mechanically active RNAs on purpose.
 
-.. raw:: html
-
-  <object data="{static}/files/papers/Walter-2026__PREPRINT.pdf" type="application/pdf" width="100%" height="1050px">
-  <p>Your browser does not support PDFs.
-     <a href="{static}/files/papers/Walter-2026__PREPRINT.pdf">Download the PDF</a>
-  </p>
-  </object> <br/><br/>
-
 .. frame:: Abstract
 
    Mechanically active RNAs represent an emerging class of biomolecules whose function derives from resisting molecular forces. Among them, exoribonuclease-resistant RNAs (xrRNAs) achieve this by folding into a ring-like topology that physically blocks 5’ → 3’ degradation. However, despite years of structural insight, the rational design of such mechanically functional RNA devices has remained elusive. Here, we describe a mechanics-aware RNA design approach that enables de novo engineering of functional xrRNAs. We first identify structural determinants of force resistance by perturbing pseudoknot architecture in a model xrRNA and quantifying resulting efficiencies in the stalling of exoribonuclease XRN1. We then implement these rules in a design framework that integrates explicit topological constraints with molecular dynamics-guided optimization. The resulting synthetic xrRNAs reproduce the ring-like architecture and stall exoribonuclease XRN1 with wild-type-like efficiency. Our top-performing constructs exhibit minimal sequence similarity to known xrRNAs and evade detection by covariance models, yet remain fully functional in vitro. Together, our results show that mechanical function can be rationally designed independent of evolutionary ancestry, laying the groundwork for the design of RNA elements that modulate decay and fine-tune the mechanical stability of engineered transcripts.
