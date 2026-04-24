@@ -87,7 +87,7 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container::  m-col-t-8
 
-      | 53. :link-flat-strong:`From Structure to Function: Computational Insights into Musashi-RNA Complexes in the Context of Viral Pathogenesis and Beyond <{filename}/publications.rst>`
+      | 53. :link-flat-strong:`From Structure to Function: Computational Insights into Musashi-RNA Complexes in the Context of Viral Pathogenesis and Beyond <{filename}/blog/2025-01-01-From-Structure-to-Function-Computational-Insights-into-Musashi-RNA-Complexes.rst>`
       | Nitchakan Darai, Leonhard Sidl, Thanyada Rungrotmongkol, Peter Wolschann, :ul:`Michael T. Wolfinger`
       | *Sci. Asia* 51S(1) 2025s013:1-10 (2025)
       | :doi:`doi:10.2306/scienceasia1513-1874.2025.s013 <https://doi.org/10.2306/scienceasia1513-1874.2025.s013>` | :link-flat:`PDF <{static}/files/papers/Darai-2025.pdf>` | :label-flat-info:`Review article`
@@ -95,9 +95,9 @@ Peer-reviewed journal / conference articles and book chapters
     .. container:: m-col-t-4
 
       .. figure:: {static}/files/papers/preview/Preview__Darai-2025.001small.webp
-          :alt: KinPFN: Training on a synthetic prior
+          :alt: Structural overview of Musashi-RNA complexes in regulatory and viral contexts
           :figclass: m-figure m-flat
-          :target: {filename}/publications.rst
+          :target: {filename}/blog/2025-01-01-From-Structure-to-Function-Computational-Insights-into-Musashi-RNA-Complexes.rst
 
   .. container:: m-row
 
