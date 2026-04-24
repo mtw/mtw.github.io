@@ -2,7 +2,7 @@ Theoretical studies on RNA recognition by Musashi 1 RNA-binding protein
 #######################################################################
 
 :date: 2022-07-26
-:modified: 2023-04-09
+:modified: 2026-04-24
 :tags: 3D; RNA-Protein interaction; AI
 :category: publications
 :slug: Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein
@@ -31,11 +31,19 @@ Theoretical studies on RNA recognition by Musashi 1 RNA-binding protein
 
 
 
-Musashi-1 (MSI1) is an RNA-binding protein involved in the maintenance and self-renewal of neural progenitor and stem cells. It has also been implicated in promoting Zika virus replication, which makes MSI1:RNA complexes relevant both for host RNA recognition and for virus-host interaction studies.
+Musashi-1 (MSI1) is an RNA-binding protein involved in stem-cell maintenance, neural development, and post-transcriptional regulation. It also became particularly interesting in the context of Zika virus biology, because Musashi proteins were proposed to interact with viral RNAs in ways that could affect replication and neuropathology. That makes the underlying recognition problem more than a narrow structural question: understanding how Musashi binds RNA is relevant both for endogenous regulation and for virus-host interaction studies.
 
-In this study, we employ computational modeling to assess the association complexes formed between the RNA-binding protein MSI1 and various target RNAs. MSI1 has two RNA-binding domains, each displaying distinct affinities for binding single-stranded RNA molecules. Utilizing molecular dynamics simulations alongside binding free energy calculations, we delve into the intricacies of MSI1:RNA complexes. This investigation holds the key to unraveling MSI1's role in congenital neuropathology, notably microcephaly.
+This paper focuses on that recognition step at the level of individual binding domains. MSI1 contains two RNA-binding domains, RBD1 and RBD2, both of which recognize short single-stranded RNA motifs centered on a UAG core. The main question is how specific that recognition really is. Sequence logos and motif descriptions are useful, but they do not explain why some candidate pentamers bind more strongly than others, or which contacts stabilize the preferred complexes.
 
-Collaborating with esteemed researchers Thanyada Rungrotmongkol and Nitchakan Darai from Chulalongkorn University, as well as Peter Wolschann from Universität Wien, this study advances our understanding of RNA-protein interactions with profound implications for both biology and disease.
+The methodological approach is straightforward but well chosen for this kind of problem. The study starts from structural models for the Musashi RNA-binding domains and combines those with several candidate RNA pentamers. These protein-RNA complexes are then evaluated using atomistic molecular dynamics simulations in explicit solvent, followed by binding free-energy estimates using the solvated interaction energy framework. In practice, that means the paper does not rely on a single static docking pose. Instead, it asks whether the complexes remain stable over time and whether the interaction energies consistently favor some RNA motifs over others.
+
+An additional point of interest is the use of AlphaFold2 to evaluate the protein side of the system. At the time, this was a useful check on whether predicted Musashi domain structures were close enough to experimentally determined conformations to support downstream simulation. The answer was essentially yes: the predicted structures aligned well with known domain architectures, which made it reasonable to use them as a basis for analyzing RNA recognition.
+
+The main finding is that Musashi binding is selective even among short, closely related RNA pentamers. Out of the four tested motifs, two showed substantially stronger calculated binding to MSI1 RBD1 and RBD2 than the others. The simulations trace that difference back to a more favorable network of stacking, hydrogen-bonding, and electrostatic interactions around the central recognition motif. In other words, the work moves the discussion from “Musashi prefers UAG-containing RNAs” to a more specific structural claim about why some local sequence contexts are better accommodated than others.
+
+That is what makes the paper useful. It does not claim to solve RNA-protein recognition in general, and it does not replace experiment. What it does provide is a mechanistic picture of how Musashi domains engage short RNA targets and how binding specificity can be compared systematically across candidate motifs. For systems where direct structural data are still incomplete, that kind of analysis is often the right intermediate step between motif discovery and functional testing.
+
+This study also laid some groundwork for later Musashi modeling efforts. Once domain-level recognition preferences are characterized at this level, it becomes easier to ask larger questions about Musashi binding to structured cellular RNAs or to viral untranslated regions, and to develop more detailed protein-RNA complex refinement workflows. In that sense, this paper is best viewed as the starting point of a broader Musashi-RNA modeling program rather than a standalone binding-energy exercise.
 
 
 .. frame:: Abstract
