@@ -451,7 +451,7 @@ Peer-reviewed journal / conference articles and book chapters
   | *Viruses* 12:1017 (2020)
   | :doi:`doi:10.3390/v12091017 <https://doi.org/10.3390/v12091017>` | :link-flat:`PDF <{static}/files/papers/Wastika-2020.pdf>` | :label-flat-info:`Journal article`
 
-  | 30. :link-flat-strong:`Distinctive Regulation of Carbapenem Susceptibility in Pseudomonas Aeruginosa by Hfq <{filename}/publications/papers/Distinctive_Regulation_of_Carbapenem_Susceptibility_in_Pseudomonas_Aeruginosa_by_Hfq.rst>`
+  | 30. :link-flat-strong:`Distinctive Regulation of Carbapenem Susceptibility in Pseudomonas Aeruginosa by Hfq <{filename}/blog/2020-05-26-Distinctive-Regulation-of-Carbapenem-Susceptibility-in-Pseudomonas-Aeruginosa-by-Hfq.rst>`
   | Elisabeth Sonnleitner, Petra Pusic, :ul:`Michael T. Wolfinger`, Udo Bläsi
   | *Front. Microbiol.* 11:1001 (2020)
   | :doi:`doi:10.3389/fmicb.2020.01001 <https://doi.org/10.3389/fmicb.2020.01001>` | :link-flat:`PDF <{static}/files/papers/Sonnleitner-2020.pdf>` | :label-flat-info:`Journal article`
