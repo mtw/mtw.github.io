@@ -2,12 +2,12 @@ NMR Structural Profiling of Transcriptional Intermediates Reveals Riboswitch Reg
 #######################################################################################################################
 
 :date: 2017-01-31
-:modified: 2024-05-18
+:modified: 2026-04-24
 :tags: bacteria; energy landscapes; synthetic biology
 :category: publications
 :slug: co-transcriptional-riboswitch-metastable-states
 :author: mtw
-:summary: This study uses NMR spectroscopy and computational modeling to show how transcript length and metastable intermediates shape ligand binding and switching in a 2'dG-sensing riboswitch.
+:summary: This paper uses NMR spectroscopy to resolve transcription intermediates of the 2'dG riboswitch at single-nucleotide resolution, showing how transcript length and metastable states govern ligand-controlled switching.
 :title: Co-transcriptional folding and metastable states in riboswitch function
 :description: NMR and computational analysis of transcription intermediates in a 2'dG-sensing riboswitch.
 
@@ -24,22 +24,23 @@ NMR Structural Profiling of Transcriptional Intermediates Reveals Riboswitch Reg
 .. role:: doi(link)
   :class: doi
 
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
+
+   .. figure:: {static}/files/papers/preview/Preview__Wolfinger-2018.001small.webp
+          :alt: Population shifts between competing conformations during cotranscriptional folding of the 2'dG riboswitch
+          :figclass: m-figure m-flat
+
 Riboswitches regulate gene expression by changing conformation in response to ligand binding, but the decisive structural events often happen while the RNA is still being transcribed. This study focuses on the type I-A 2'dG-sensing riboswitch from *Mesoplasma florum* and asks how transcript length, ligand binding, and metastable intermediates interact during that process.
 
-Investigating co-transcriptional folding
-----------------------------------------
+What makes this paper stand out is the experimental resolution of that question. Rather than inferring intermediates only indirectly, the study used NMR spectroscopy to characterize all relevant transcription intermediates of the riboswitch at single-nucleotide resolution. That provides a rare view of how the accessible conformational space changes as the RNA grows, and it shows very clearly that riboswitch function cannot be understood from the final full-length structure alone.
 
-The study focuses on the I-A type 2'dG-sensing riboswitch, exploring how it folds and functions during transcription. By mapping changes in the conformational space of transcription intermediates at single-nucleotide resolution, we provide a detailed picture of the folding process. This meticulous approach reveals a fine-tuning mechanism where ligand binding and sequence-dependent alterations of the RNA structure are closely linked to the transcript length.
+The methodological approach is worth emphasizing because it differs from many purely computational studies. The RNA was analyzed as a series of length-defined transcription intermediates, allowing the authors to ask, step by step, which helices and alternative folds become available at each stage of transcription. In effect, the work turns cotranscriptional folding into an experimentally accessible sequence of structural snapshots. That is exactly the kind of information that is usually missing when one tries to explain riboswitch behavior from equilibrium models alone.
 
-Key findings
-------------
+The main finding is that ligand responsiveness is tightly coupled to transcript length and to the presence of metastable conformations. Certain intermediates transiently expose a binding-competent arrangement, while slightly longer transcripts can already open competing structural options that redirect the switch. In other words, the riboswitch operates within a narrow kinetic window. The regulatory outcome depends on whether ligand binding happens at the right moment, before alternative folds become dominant.
 
-Using NMR spectroscopy, we analyzed transcription intermediates with single-nucleotide precision and mapped how the accessible conformational space changes during RNA synthesis. The study highlights the importance of metastable states, showing that riboswitch function depends not only on the final fold but also on transient structures that appear along the transcription pathway.
+That point matters well beyond this one riboswitch. The paper makes a broader argument that metastable RNA states are not just folding noise on the way to the “real” structure. They can be the mechanistically decisive states. For transcriptional riboswitches in particular, regulation emerges from the coupling of synthesis, folding, and binding, not from equilibrium thermodynamics alone. This is one of the clearest experimental demonstrations of that idea.
 
-Implications for synthetic biology and healthcare
--------------------------------------------------
-
-For RNA design, the key implication is straightforward: equilibrium structure alone is often not enough. If a regulatory RNA depends on the order in which conformations become available during transcription, then design and analysis have to account for that kinetic dimension as well.
+For readers interested in RNA design or synthetic biology, this is also the real lesson of the paper. If a regulatory RNA works by passing through a specific sequence of transient states, then designing only for the final minimum-free-energy structure is not enough. One has to think in terms of folding pathways and timing. That perspective became the basis for later computational work on the same 2'dG riboswitch system, including the follow-up landscape-based analysis linked below. The figure above is from that later study and illustrates the kind of population shifts that the 2017 NMR paper made experimentally interpretable in the first place.
 
 
 
@@ -64,3 +65,7 @@ See also
   | :link-flat-strong:`Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics <{filename}/blog/2018-07-01-Efficient_Computation_of_Cotranscriptional_RNA-Ligand_Interaction_Dynamics.rst>`
   | :ul:`Michael T. Wolfinger`, Christoph Flamm, Ivo L. Hofacker
   | *Methods* 143:70–76 (2018) | :doi:`doi:10.1016/j.ymeth.2018.04.036 <https://doi.org/10.1016/j.ymeth.2018.04.036>` | :link-flat:`Preprint PDF <{static}/files/papers/Wolfinger-2018__PREPRINT.pdf>`
+
+  | :link-flat-strong:`In silico design of ligand-triggered RNA switches <{filename}/blog/2018-07-01-In-Silico-Design-of-Ligand-Triggered-RNA-Switches.rst>`
+  | Sven Findeiß, Stefan Hammer, :ul:`Michael T. Wolfinger`, Felix Kühnl, Christoph Flamm, Ivo L. Hofacker
+  | *Methods* 143:90–101 (2018) | :doi:`doi:10.1016/j.ymeth.2018.04.003 <https://doi.org/10.1016/j.ymeth.2018.04.003>` | :link-flat:`Preprint PDF <{static}/files/papers/Findeiss-2018__PREPRINT.pdf>`
