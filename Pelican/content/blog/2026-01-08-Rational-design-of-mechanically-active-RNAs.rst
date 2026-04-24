@@ -3,7 +3,7 @@ Rational Design of Mechanically Active RNAs
 
 :date: 2026-01-08
 :modified: 2026-04-24
-:tags: RNA design; xrRNA; RNA folding kinetics; synthetic biology
+:tags: RNA design; xrRNA; synthetic biology
 :category: publications
 :slug: Rational-design-of-mechanically-active-RNAs
 :author: mtw

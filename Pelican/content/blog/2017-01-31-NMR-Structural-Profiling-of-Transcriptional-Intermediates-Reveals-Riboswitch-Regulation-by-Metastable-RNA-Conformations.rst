@@ -5,7 +5,7 @@ NMR Structural Profiling of Transcriptional Intermediates Reveals Riboswitch Reg
 :modified: 2024-05-18
 :tags: bacteria; energy landscapes; synthetic biology
 :category: publications
-:slug:
+:slug: co-transcriptional-riboswitch-metastable-states
 :author: mtw
 :summary: This study uses NMR spectroscopy and computational modeling to show how transcript length and metastable intermediates shape ligand binding and switching in a 2'dG-sensing riboswitch.
 :title: Co-transcriptional folding and metastable states in riboswitch function

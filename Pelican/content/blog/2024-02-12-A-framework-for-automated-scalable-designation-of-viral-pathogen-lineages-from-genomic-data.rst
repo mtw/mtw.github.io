@@ -5,7 +5,7 @@ A framework for automated scalable designation of viral pathogen lineages from g
 :modified: 2026-04-23
 :tags: virus bioinformatics; new method; tools; molecular epidemiology; One Health
 :category: publications
-:slug:
+:slug: automated-viral-lineage-designation
 :author: mtw
 :summary: This study describes an automated framework for lineage designation from phylogenetic and genomic data, designed to scale to very large viral datasets while remaining consistent and interpretable.
 :title: Automated lineage designation from viral genomic data

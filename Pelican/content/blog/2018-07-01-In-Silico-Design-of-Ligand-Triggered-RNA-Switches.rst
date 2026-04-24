@@ -3,7 +3,7 @@ In Silico Design of Ligand Triggered RNA Switches
 
 :date: 2018-07-01
 :modified: 2026-04-23
-:tags: energy landscapes; new method; RNA kinetics; RNA design; ViennaRNA; synthetic biology
+:tags: energy landscapes; new method; RNA folding kinetics; RNA design; ViennaRNA; synthetic biology; co-transcriptional RNA folding
 :category: publications
 :slug: In-Silico-Design-of-Ligand-Triggered-RNA-Switches
 :author: mtw
