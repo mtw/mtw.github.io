@@ -3,7 +3,7 @@ NMR Structural Profiling of Transcriptional Intermediates Reveals Riboswitch Reg
 
 :date: 2017-01-31
 :modified: 2026-04-24
-:tags: bacteria; energy landscapes; synthetic biology
+:tags: bacteria; energy landscapes; synthetic biology; co-transcriptional RNA folding
 :category: publications
 :slug: co-transcriptional-riboswitch-metastable-states
 :author: mtw
@@ -24,12 +24,6 @@ NMR Structural Profiling of Transcriptional Intermediates Reveals Riboswitch Reg
 .. role:: doi(link)
   :class: doi
 
-.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
-
-   .. figure:: {static}/files/papers/preview/Preview__Wolfinger-2018.001small.webp
-          :alt: Population shifts between competing conformations during cotranscriptional folding of the 2'dG riboswitch
-          :figclass: m-figure m-flat
-
 Riboswitches regulate gene expression by changing conformation in response to ligand binding, but the decisive structural events often happen while the RNA is still being transcribed. This study focuses on the type I-A 2'dG-sensing riboswitch from *Mesoplasma florum* and asks how transcript length, ligand binding, and metastable intermediates interact during that process.
 
 What makes this paper stand out is the experimental resolution of that question. Rather than inferring intermediates only indirectly, the study used NMR spectroscopy to characterize all relevant transcription intermediates of the riboswitch at single-nucleotide resolution. That provides a rare view of how the accessible conformational space changes as the RNA grows, and it shows very clearly that riboswitch function cannot be understood from the final full-length structure alone.
@@ -40,7 +34,7 @@ The main finding is that ligand responsiveness is tightly coupled to transcript 
 
 That point matters well beyond this one riboswitch. The paper makes a broader argument that metastable RNA states are not just folding noise on the way to the “real” structure. They can be the mechanistically decisive states. For transcriptional riboswitches in particular, regulation emerges from the coupling of synthesis, folding, and binding, not from equilibrium thermodynamics alone. This is one of the clearest experimental demonstrations of that idea.
 
-For readers interested in RNA design or synthetic biology, this is also the real lesson of the paper. If a regulatory RNA works by passing through a specific sequence of transient states, then designing only for the final minimum-free-energy structure is not enough. One has to think in terms of folding pathways and timing. That perspective became the basis for later computational work on the same 2'dG riboswitch system, including the follow-up landscape-based analysis linked below. The figure above is from that later study and illustrates the kind of population shifts that the 2017 NMR paper made experimentally interpretable in the first place.
+For readers interested in RNA design or synthetic biology, this is also the real lesson of the paper. If a regulatory RNA works by passing through a specific sequence of transient states, then designing only for the final minimum-free-energy structure is not enough. One has to think in terms of folding pathways and timing. That perspective became the basis for later computational work on the same 2'dG riboswitch system, including the follow-up landscape-based analysis linked below.
 
 
 

@@ -33,7 +33,7 @@ The methodological approach combines lattice-based folding simulations with inte
 
 From today's perspective, the paper is also a reminder that bioinformatics is not only about prediction accuracy or algorithmic complexity. There is a downstream interpretability problem as well. Whether one studies lattice proteins, RNA folding landscapes, or modern molecular simulations, the question remains similar: how can complex structural dynamics be turned into a form that scientists can inspect, compare, and reason about effectively? This early work tackles that question directly.
 
-For readers following the broader thread on this site, the most natural context is the sequence of papers on `energy landscapes`. Those articles develop the computational machinery for coarse-graining, exploring, and simulating folding landscapes. This one addresses the complementary issue of how to visualize such processes once the computations are done. It is therefore best read as part of that early methodological cluster rather than as an isolated visualization exercise.
+For readers following the broader thread on this site, the most natural context is the sequence of papers on :link-flat:`energy landscapes </blog/tag/energy-landscapes.html>`. Those articles develop the computational machinery for coarse-graining, exploring, and simulating folding landscapes. This one addresses the complementary issue of how to visualize such processes once the computations are done. It is therefore best read as part of that early methodological cluster rather than as an isolated visualization exercise.
 
 .. frame:: Abstract
 

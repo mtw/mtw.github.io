@@ -31,7 +31,7 @@ That is a particularly natural fit for co-transcriptional folding, where the RNA
 
 From a methodological perspective, this is a useful complement to trajectory-based simulators. It does not aim to reconstruct every folding path explicitly. Instead, it keeps the coarse-grained view at the level of basins, barriers, and saddle points, while allowing those basins themselves to change over time. That makes it possible to study larger and more complex nonstationary folding scenarios than a direct simulation strategy would usually permit.
 
-BarMap is therefore one of the key papers in the `co-transcriptional RNA folding` and `RNA folding kinetics` cluster. It formalizes the idea that kinetics should often be thought of as motion across a sequence of changing landscapes, not just as diffusion on a single fixed one.
+BarMap is therefore one of the key papers in the :link-flat:`co-transcriptional RNA folding </blog/tag/co-transcriptional-rna-folding.html>`, :link-flat:`RNA folding kinetics </blog/tag/rna-folding-kinetics.html>`, and :link-flat:`energy landscapes </blog/tag/energy-landscapes.html>` cluster. It formalizes the idea that kinetics should often be thought of as motion across a sequence of changing landscapes, not just as diffusion on a single fixed one.
 
 .. frame:: Abstract
 
@@ -43,4 +43,3 @@ Citation
   | :link-flat-strong:`BarMap: RNA Folding on Dynamic Energy Landscapes <{filename}/blog/2010-07-01-BarMap-RNA-Folding-on-Dynamic-Energy-Landscapes.rst>`
   | Ivo L. Hofacker, Christoph Flamm, Christian Heine, :ul:`Michael T. Wolfinger`, Gerik Scheuermann, Peter F. Stadler
   | *RNA* 16:1308–1316 (2010) | :doi:`doi:10.1261/rna.2093310 <https://doi.org/10.1261/rna.2093310>` | :link-flat:`PDF <{static}/files/papers/Hofacker-2010.pdf>`
-
