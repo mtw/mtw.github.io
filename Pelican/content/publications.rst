@@ -552,7 +552,7 @@ Peer-reviewed journal / conference articles and book chapters
   | *Sci. Rep.* 6 (34589) (2016)
   | :doi:`doi:10.1038/srep34589 <https://doi.org/10.1038/srep34589>` | :link-flat:`PDF <{static}/files/papers/Holzer-2016.pdf>` | :label-flat-info:`Journal article`
 
-  | 14. **The MazF-Regulon: A Toolbox for the Post-Transcriptional Stress Response in Escherichia Coli**
+  | 14. :link-flat-strong:`The MazF-Regulon: A Toolbox for the Post-Transcriptional Stress Response in Escherichia Coli <{filename}/blog/2016-07-01-The-MazF-Regulon-A-Toolbox-for-the-Post-Transcriptional-Stress-Response-in-Escherichia-Coli.rst>`
   | Martina Sauert, :ul:`Michael T. Wolfinger`, Oliver Vesper, Christian Müller, Konstantin Byrgazov, Isabella Moll
   | *Nucleic Acids Res.* 44 (14):6660–75 (2016)
   | :doi:`doi:10.1093/nar/gkw115 <https://doi.org/10.1093/nar/gkw115>` | :link-flat:`PDF <{static}/files/papers/Sauert-2016.pdf>` | :label-flat-info:`Journal article`
