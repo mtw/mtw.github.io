@@ -436,7 +436,7 @@ Peer-reviewed journal / conference articles and book chapters
 
 .. container:: refs-2020
 
-  | 33. :link-flat-strong:`Bi-Alignments as Models of Incongruent Evolution of RNA Sequence and Secondary Structure <{filename}/publications/papers/Bi-Alignments_as_Models_of_Incongruent_Evolution_of_RNA_Sequence_and_Secondary_Structure.rst>`
+  | 33. :link-flat-strong:`Bi-Alignments as Models of Incongruent Evolution of RNA Sequence and Secondary Structure <{filename}/blog/2020-11-01-Bi-Alignments-as-Models-of-Incongruent-Evolution-of-RNA-Sequence-and-Secondary-Structure.rst>`
   | Maria Waldl, Sebastian Will, :ul:`Michael T. Wolfinger`, Ivo L. Hofacker, Peter F. Stadler
   | In *Computational Intelligence Methods for Bioinformatics and Biostatistics*, pp159–70. Springer International Publishing (2020)
   | :doi:`doi:10.1007/978-3-030-63061-4_15 <https://doi.org/10.1007/978-3-030-63061-4_15>` | :link-flat:`Preprint PDF <{static}/files/papers/Waldl-2020__PREPRINT.pdf>` | :label-flat-info:`Conference article`
