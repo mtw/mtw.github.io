@@ -2,27 +2,20 @@ Caveats to deep learning approaches to RNA secondary structure prediction
 #########################################################################
 
 :date: 2021-12-16
-:modified: 2022-10-29
+:modified: 2026-04-24
 :tags: ViennaRNA; AI
 :category: publications
 :slug: Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction
 :author: mtw
 :title: Caveats in deep learning for RNA secondary structure prediction
-:description: Analysis of bias and generalization limits in deep learning models for RNA secondary structure prediction.
-:summary: This paper uses synthetic data and controlled benchmarks to show that many deep learning models for RNA secondary structure prediction generalize poorly outside biased training sets.
+:description: A closer look at why many deep learning models for RNA secondary structure prediction appear to work well, yet often fail to generalize beyond biased benchmark datasets.
+:summary: This paper shows that many deep learning models for RNA secondary structure prediction learn dataset bias more readily than RNA folding rules, and explains why that matters for the future of AI in RNA biology.
 
 .. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
 
    .. figure:: {static}/files/papers/preview/Preview__Flamm-2022.001small.webp
           :alt: Input/output encoding for predicting RNA paired/unpaired status using a BLSTM
           :figclass: m-figure m-flat
-
-
-One of the major issues we discovered is that many published AI models for RNA structure prediction rely on highly biased training sets. This bias significantly impacts the accuracy of predictions when the models are tested on RNA sequences outside of their training set. By using a technique known as inverse RNA folding—where we generate sequences that match specific structures—we created synthetic data with the same kind of bias found in these deep learning models. When we trained a neural network on this biased data, it performed well on new sequences that folded into familiar structures. However, when faced with sequences forming novel structures, the performance dropped drastically. This shows that while the network could generalize to new sequences, it struggled to predict new or unseen structures.
-
-Even more surprising is that many deep learning methods trained on unbiased data couldn't even reliably predict base pairing—a fundamental aspect of RNA structure that's simpler than the full RNA folding problem. Additionally, certain models, such as BLSTMs, predicted structural features like pseudoknots and base triplets, which don’t even appear in the ViennaRNA RNAfold ground truth. This mismatch between model output and reality underscores the limitations of these approaches.
-
-Our findings reveal significant gaps in current machine learning models for RNA structure prediction and highlight the need for more robust training methods. These insights could drive future improvements in how AI is applied to RNA biology, especially for tackling more complex tasks like RNA folding.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -36,6 +29,19 @@ Our findings reveal significant gaps in current machine learning models for RNA 
 .. role:: doi(link)
   :class: doi
 
+Deep learning for RNA secondary structure prediction has an obvious appeal: if neural networks can infer structure directly from sequence, perhaps they can leap past the limitations of classical thermodynamic folding. That promise has made the area popular, but it also created a familiar problem from other corners of machine learning: impressive benchmark numbers can hide the fact that a model has learned properties of the dataset rather than properties of the underlying biology.
+
+That is the central concern of this paper. Instead of asking only whether a model performs well on a standard test split, we ask what exactly it has learned. Has it captured transferable principles of RNA folding, or has it mostly memorized the structural biases of the RNAs it was shown during training? For RNA structure prediction, that distinction matters a great deal, because the real task is not to recognize another tRNA-like example from a familiar family. It is to say something useful about RNAs with new sequence-structure relationships.
+
+The methodological approach is deliberately controlled. We use inverse RNA folding to generate synthetic datasets with known structural properties, which lets us vary the amount of bias in the training data instead of merely inheriting whatever bias happened to be present in a benchmark collection. That setup makes it possible to compare model behavior on “more of the same” versus genuinely novel structural patterns. In other words, the paper is not simply another machine-learning benchmark. It is a stress test for generalization.
+
+The result is sobering but informative. When neural networks are trained on biased datasets, they can perform surprisingly well on held-out sequences that fold into familiar classes of structures. But once the test set contains structures that are outside those familiar patterns, performance drops sharply. The models generalize across sequence variation much more readily than they generalize across structural novelty. That is a warning sign for anyone hoping to use deep learning as a drop-in replacement for biophysical RNA folding models.
+
+An equally important observation is that removing dataset bias does not magically solve the problem. Even on unbiased synthetic data, several architectures struggle to recover basic structural constraints reliably. Some models predict pairing patterns whose scaling with sequence length is simply inconsistent with valid secondary structures. Others produce artifacts that resemble pseudoknots or base triples even when the ViennaRNA-style ground truth does not contain such features at all. These are not minor numerical errors. They point to a mismatch between model output and the combinatorial rules that define the object being predicted.
+
+That is why I still find this article useful years later. It is not an anti-AI paper. It is a paper about technical honesty. If we want machine learning to contribute meaningfully to RNA biology, we need evaluation setups that distinguish memorization from mechanism, and we need models that respect the structural constraints of RNA rather than merely fitting correlations in a benchmark. The work also argues, implicitly, for approaches that combine learning with stronger priors, explicit structure constraints, or experimental information instead of assuming that larger networks alone will fix the problem.
+
+Readers who arrive here from an AI angle may also find it useful to look at some of my other work from the opposite direction. In :link-flat:`Predicting RNA structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>`, I discuss how experimental structure probing can be integrated with computational prediction. In :link-flat:`Conserved RNA regulatory switches in living cells <{filename}/blog/2025-01-01-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst>`, the focus shifts to transcriptome-scale structural ensembles and experimentally anchored regulatory switches. And if you are more interested in dynamic folding than static structure, :link-flat:`co-transcriptional RNA-ligand interaction dynamics <{filename}/blog/2018-07-01-Efficient_Computation_of_Cotranscriptional_RNA-Ligand_Interaction_Dynamics.rst>` shows the kind of mechanistic modeling that remains hard to replace with black-box prediction alone.
 
 .. frame:: Abstract
 
