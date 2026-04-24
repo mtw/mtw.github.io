@@ -446,7 +446,7 @@ Peer-reviewed journal / conference articles and book chapters
   | *Sci. Transl. Med.* 12 (573):eabe2555 (2020)
   | :doi:`doi:10.1126/scitranslmed.abe2555 <https://doi.org/10.1126/scitranslmed.abe2555>` | :link-flat:`PDF <{static}/files/papers/Popa-2020.pdf>` | :label-flat-info:`Journal article`
 
-  | 31. :link-flat-strong:`Discoveries of Exoribonuclease-Resistant Structures of Insect-Specific Flaviviruses Isolated in Zambia <{filename}/publications/papers/Discoveries_of_Exoribonuclease-Resistant_Structures_of_Insect-Specific_Flaviviruses_Isolated_in_Zambia.rst>`
+  | 31. :link-flat-strong:`Discoveries of Exoribonuclease-Resistant Structures of Insect-Specific Flaviviruses Isolated in Zambia <{filename}/blog/2020-09-14-Discoveries-of-Exoribonuclease-Resistant-Structures-of-Insect-Specific-Flaviviruses-Isolated-in-Zambia.rst>`
   | Christida E. Wastika, Hayato Harima, Michihito Sasakai, Bernard M. Hang’ombe, Yuki Eshita, Qiu Yongjin, William W. Hall, :ul:`Michael T. Wolfinger`, Hirofumi Sawa, Yasuko Orba
   | *Viruses* 12:1017 (2020)
   | :doi:`doi:10.3390/v12091017 <https://doi.org/10.3390/v12091017>` | :link-flat:`PDF <{static}/files/papers/Wastika-2020.pdf>` | :label-flat-info:`Journal article`
