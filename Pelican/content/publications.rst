@@ -384,7 +384,7 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container::  m-col-t-8
 
-      | 36. :link-flat-strong:`Gene Expression Profiling of Pseudomonas Aeruginosa Upon Exposure to Colistin and Tobramycin  <{filename}/publications/papers/Gene_Expression_Profiling_of_Pseudomonas_Aeruginosa_Upon_Exposure_to_Colistin_and_Tobramycin.rst>`
+      | 36. :link-flat-strong:`Gene Expression Profiling of Pseudomonas Aeruginosa Upon Exposure to Colistin and Tobramycin  <{filename}/blog/2021-04-30-Gene-Expression-Profiling-of-Pseudomonas-Aeruginosa-Upon-Exposure-to-Colistin-and-Tobramycin.rst>`
       | Anastasia Cianciulli Sesso, Branislav Lilić, Fabian Amman, :ul:`Michael T. Wolfinger`, Elisabeth Sonnleitner, Udo Bläsi
       | *Front. Microbiol.* 12:937 (2021)
       | :doi:`doi:10.3389/fmicb.2021.626715 <https://doi.org/10.3389/fmicb.2021.626715>` | :link-flat:`PDF <{static}/files/papers/Sesso-2021.pdf>` | :label-flat-info:`Journal article`
@@ -394,7 +394,7 @@ Peer-reviewed journal / conference articles and book chapters
       .. figure:: {static}/files/papers/preview/Preview__Sesso-2021.001small.webp
           :alt: Pathways and functions dysregulated upon colistin treatment
           :figclass: m-figure m-flat
-          :target: {filename}/publications/papers/Gene_Expression_Profiling_of_Pseudomonas_Aeruginosa_Upon_Exposure_to_Colistin_and_Tobramycin.rst
+          :target: {filename}/blog/2021-04-30-Gene-Expression-Profiling-of-Pseudomonas-Aeruginosa-Upon-Exposure-to-Colistin-and-Tobramycin.rst
 
   .. container:: m-row
 
