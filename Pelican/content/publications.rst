@@ -507,7 +507,7 @@ Peer-reviewed journal / conference articles and book chapters
   | *Methods* 143:90–101 (2018)
   | :doi:`doi:10.1016/j.ymeth.2018.04.003 <https://doi.org/10.1016/j.ymeth.2018.04.003>` | :link-flat:`Preprint PDF <{static}/files/papers/Findeiss-2018__PREPRINT.pdf>` | :label-flat-info:`Journal article`
 
-  | 21. **Interplay Between the Catabolite Repression Control Protein Crc, Hfq and RNA in Hfq-Dependent Translational Regulation in Pseudomonas Aeruginosa**
+  | 21. :link-flat-strong:`Interplay Between the Catabolite Repression Control Protein Crc, Hfq and RNA in Hfq-Dependent Translational Regulation in Pseudomonas Aeruginosa <{filename}/blog/2018-01-29-Interplay-Between-the-Catabolite-Repression-Control-Protein-Crc-Hfq-and-RNA-in-Hfq-Dependent-Translational-Regulation-in-Pseudomonas-Aeruginosa.rst>`
   | Elisabeth Sonnleitner, Alexander Wulf, Sébastien Campagne, Xue-Yuan Pei, :ul:`Michael T. Wolfinger`, Giada Forlani, Konstantin Prindl, Laetitia Abdou, Armin Resch, Frederic Allain, Ben Luisi, Henning Urlaub, Udo Bläsi
   | *Nucleic Acids Res.* 46:1470–85 (2018)
   | :doi:`doi:10.1093/nar/gkx1245 <https://doi.org/10.1093/nar/gkx1245>` | :link-flat:`PDF <{static}/files/papers/Sonnleitner-2018.pdf>` | :label-flat-info:`Journal article`
