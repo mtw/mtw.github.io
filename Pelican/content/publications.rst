@@ -537,7 +537,7 @@ Peer-reviewed journal / conference articles and book chapters
 
 .. container:: refs-2016
 
-  | 17. **Cross-Regulation by CrcZ RNA Controls Anoxic Biofilm Formation in Pseudomonas Aeruginosa**
+  | 17. :link-flat-strong:`Cross-Regulation by CrcZ RNA Controls Anoxic Biofilm Formation in Pseudomonas Aeruginosa <{filename}/blog/2016-12-21-Cross-Regulation-by-CrcZ-RNA-Controls-Anoxic-Biofilm-Formation-in-Pseudomonas-Aeruginosa.rst>`
   | Petra Pusic, Muralidhar Tata, :ul:`Michael T. Wolfinger`, Elisabeth Sonnleitner, Susanne Häussler, Udo Bläsi
   | *Sci. Rep.* 6 (39621) (2016)
   | :doi:`doi:10.1038/srep39621 <https://doi.org/10.1038/srep39621>` | :link-flat:`PDF <{static}/files/papers/Pusic-2016.pdf>` | :label-flat-info:`Journal article`
