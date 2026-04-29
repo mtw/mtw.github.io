@@ -542,7 +542,7 @@ Peer-reviewed journal / conference articles and book chapters
   | *Sci. Rep.* 6 (39621) (2016)
   | :doi:`doi:10.1038/srep39621 <https://doi.org/10.1038/srep39621>` | :link-flat:`PDF <{static}/files/papers/Pusic-2016.pdf>` | :label-flat-info:`Journal article`
 
-  | 16. **Transcriptome-Wide Effects of Inverted SINEs on Gene Expression and Their Impact on RNA Polymerase II Activity**
+  | 16. :link-flat-strong:`Transcriptome-Wide Effects of Inverted SINEs on Gene Expression and Their Impact on RNA Polymerase II Activity <{filename}/blog/2016-10-25-Transcriptome-Wide-Effects-of-Inverted-SINEs-on-Gene-Expression-and-Their-Impact-on-RNA-Polymerase-II-Activity.rst>`
   | Mansoured Tajadodd, Andrea Tanzer, Konstantin Licht, :ul:`Michael T. Wolfinger`, Stefan Badelt, Florian Huber, Oliver Pusch, Sandy Schopoff, Ivo L. Hofacker, Michael F. Jantsch
   | *Genome Biol.* 17:220 (2016)
   | :doi:`doi:10.1186/s13059-016-1083-0 <https://doi.org/10.1186/s13059-016-1083-0>` | :link-flat:`PDF <{static}/files/papers/Tajaddod-2016.pdf>` | :label-flat-info:`Journal article`
