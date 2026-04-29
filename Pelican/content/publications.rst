@@ -517,7 +517,7 @@ Peer-reviewed journal / conference articles and book chapters
 
 .. container:: refs-2017
 
-  | 20. **The Anaerobically Induced sRNA PaiI Affects Denitrification in Pseudomonas Aeruginosa PA14**
+  | 20. :link-flat-strong:`The Anaerobically Induced sRNA PaiI Affects Denitrification in Pseudomonas Aeruginosa PA14 <{filename}/blog/2017-11-23-The-Anaerobically-Induced-sRNA-PaiI-Affects-Denitrification-in-Pseudomonas-Aeruginosa-PA14.rst>`
   | Muralidhar Tata, Fabian Amman, Vinay Pawar, :ul:`Michael T. Wolfinger`, Siegfried Weiss, Susanne Häussler, Udo Bläsi
   | *Front. Microbiol.* 8:2312 (2017)
   | :doi:`doi:10.3389/fmicb.2017.02312 <https://doi.org/10.3389/fmicb.2017.02312>` | :link-flat:`PDF <{static}/files/papers/Tata-2017.pdf>` | :label-flat-info:`Journal article`
