@@ -1,14 +1,14 @@
-Why kinetic folding still matters in RNA design
-###############################################
+Why kinetic folding matters in RNA design
+#########################################
 
 :date: 2022-12-01
 :modified: 2026-04-30
 :tags: RNA design; RNA folding kinetics; co-transcriptional RNA folding; synthetic biology
 :category: outreach
-:slug: Why-Kinetic-Folding-Still-Matters-in-RNA-Design
+:slug: Why-Kinetic-Folding-Matters-in-RNA-Design
 :author: mtw
-:summary: RNA design fails surprisingly often when equilibrium structure is treated as the whole story. Folding kinetics still matters whenever pathway, timing, or metastable intermediates shape function.
-:title: Why kinetic folding still matters in RNA design
+:summary: RNA design fails surprisingly often when equilibrium structure is treated as the whole story. Folding kinetics matters whenever pathway, timing, or metastable intermediates shape function.
+:title: Why kinetic folding matters in RNA design
 :description: A practical guide to when RNA design problems depend on folding pathways and not only on equilibrium structure.
 
 .. role:: link-flat-strong(link)
@@ -25,9 +25,9 @@ Why kinetic folding still matters in RNA design
 
 It is tempting to design RNA as if the minimum free energy structure were the whole target. Sometimes that is enough. Quite often it is not. Many RNAs function because they reach a state at the right time, avoid a competing state long enough, or switch between states under conditions where transcription, ligand binding, or cotranscriptional trapping all matter.
 
-That is why kinetic folding still matters. The question is not whether equilibrium thermodynamics remains valuable. It does. The question is whether the design objective depends only on the endpoint or on the route taken to get there. Once the route matters, sequence ranking based on static structure alone starts to miss the real failure modes.
+That is why kinetic folding matters. The question is not whether equilibrium thermodynamics remains valuable. It does. The question is whether the design objective depends only on the endpoint or on the route taken to get there. Once the route matters, sequence ranking based on static structure alone starts to miss the real failure modes.
 
-This point appears already in :link-flat:`Folding kinetics of large RNAs <{filename}/blog/2008-06-01-Folding-Kinetics-of-Large-RNAs.rst>`, where Kinwalker was designed to recover pathway structure for longer RNAs rather than only final folds. It appears again in :link-flat:`BarMap: RNA folding on dynamic energy landscapes <{filename}/blog/2010-07-01-BarMap-RNA-Folding-on-Dynamic-Energy-Landscapes.rst>`, which makes it explicit that the landscape itself changes during transcription. And it becomes especially concrete in :link-flat:`Efficient computation of cotranscriptional RNA-ligand interaction dynamics <{filename}/blog/2018-07-01-Efficient_Computation_of_Cotranscriptional_RNA-Ligand_Interaction_Dynamics.rst>`, where ligand binding has to be understood together with the emergence of binding-competent intermediates.
+This point appears already in :link-flat:`Folding kinetics of large RNAs <{filename}/blog/2008-06-01-Folding-Kinetics-of-Large-RNAs.rst>`, which lays out why pathway information becomes essential once RNA systems grow beyond the simplest toy cases. It appears again in :link-flat:`BarMap: RNA folding on dynamic energy landscapes <{filename}/blog/2010-07-01-BarMap-RNA-Folding-on-Dynamic-Energy-Landscapes.rst>`, which makes it explicit that the landscape itself changes during transcription. And it becomes especially concrete in :link-flat:`Efficient computation of cotranscriptional RNA-ligand interaction dynamics <{filename}/blog/2018-07-01-Efficient_Computation_of_Cotranscriptional_RNA-Ligand_Interaction_Dynamics.rst>`, where ligand binding has to be understood together with the emergence of binding-competent intermediates.
 
 For synthetic design, this matters most in switches, aptamer-coupled systems, and any construct where timing is part of the mechanism. A sequence can satisfy all the static constraints you asked for and still fail because the productive conformation appears too late, because a competing helix traps the transcript, or because the ligand-binding window is too narrow. These are not edge cases. They are common reasons why promising designs do not behave as expected.
 
@@ -35,6 +35,6 @@ That is also why :link-flat:`In silico design of ligand-triggered RNA switches <
 
 More recent work on :link-flat:`KinPFN: Bayesian Approximation of RNA Folding Kinetics <{filename}/blog/2025-01-01-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst>` and :link-flat:`Bayesian Approximation of RNA Folding Times <{filename}/blog/2025-01-01-Bayesian-Approximation-of-RNA-Folding-Times.rst>` points in the same direction. The practical obstacle has often been cost. Full kinetic simulations are informative, but they are slow. Approximation methods become valuable because they let you compare many more candidates while still asking the right question.
 
-The deeper issue is methodological. In RNA design, the most expensive mistake is often not a wrong prediction. It is optimizing for the wrong criterion. If the system depends on pathway behavior, a beautiful equilibrium fold can be a distraction. Kinetic reasoning does not replace design intuition, but it does stop intuition from collapsing into a static structure fetish.
+The deeper issue is methodological. In RNA design, the most expensive mistake is often not a wrong prediction. It is optimizing for the wrong criterion. If the system depends on pathway behavior, a beautiful equilibrium fold can be a distraction. Kinetic reasoning does not replace design intuition, but it does help keep attention on the mechanism that actually determines function.
 
 This is often where projects become expensive. A team may already have sequences, assays, and a plausible mechanistic story, but not a clear answer to whether the design has a folding-pathway problem or a measurement problem. That is exactly the sort of point where a structured review can save time. My :link-flat:`services page <{filename}/services.rst>` describes how I handle design reviews and advisory work for teams facing that kind of decision.
