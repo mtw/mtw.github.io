@@ -45,7 +45,7 @@ From today's perspective, that architectural decision may be just as important a
 
 The broader biological significance is also straightforward. Better TSS annotation improves our view of bacterial transcriptome architecture: operon boundaries, antisense transcription, condition-specific initiation, and the regulatory logic of promoter usage. In that sense, TSSAR is not just a niche utility for one sequencing protocol. It is infrastructure for studying how bacterial gene regulation is organized at the transcript level.
 
-For readers coming from RNA structure or landscape work elsewhere on this site, this paper is clearly a different topic. But the engineering mindset is similar. The interesting part is not only the biology; it is also how to turn a noisy, high-dimensional data source into a usable and reproducible computational workflow. That is exactly the kind of problem where good statistical assumptions, careful software design, and sensible interfaces make the difference between a promising idea and a method that people keep using.
+This paper is clearly a different topic from RNA folding or landscape analysis, but the underlying engineering mindset is similar. The interesting part is not only the biology. It is also how to turn a noisy, high-dimensional data source into a usable and reproducible computational workflow. That is exactly the kind of problem where good statistical assumptions, careful software design, and sensible interfaces make the difference between a promising idea and a method that people keep using.
 
 .. frame:: Abstract
 
