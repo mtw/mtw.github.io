@@ -88,4 +88,4 @@ Details & Submission
 Join the Conversation
 ---------------------
 
-Have questions about a potential submission, or want to discuss a cutting‑edge idea? Feel free to reach out via the :link-flat:`contact form <{filename}/contact.rst>` on this site or :link-flat-strong:`connect with me on LinkedIn <https://www.linkedin.com/in/michaelwolfinger/>`.
+Questions about a potential submission or a related research idea are always welcome. You can reach me through the :link-flat:`contact form <{filename}/contact.rst>` or :link-flat-strong:`connect with me on LinkedIn <https://www.linkedin.com/in/michaelwolfinger/>`.

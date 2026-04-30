@@ -41,7 +41,7 @@ One reason the paper still feels current is its software architecture. TSSAR was
 
 That distinction matters, because it reflects how the method was meant to be used in practice. The computationally and format-specific preprocessing stayed close to the user's data and local environment, while the web service centralized the analysis logic and reporting layer. This design reduced the burden of reproducing a fairly specialized workflow in many separate installations, but it also means the local and remote components should not be described as independently useful alternatives. The architecture is integrated by design.
 
-From today's perspective, that architectural decision may be just as important as the underlying statistics. A method only has impact if people can actually use it, and TSSAR tried to solve that by combining client-side preprocessing with a service-backed analysis workflow. That is one reason it remained relevant well beyond the immediate paper.
+That architectural decision may be just as important as the underlying statistics. A method only has impact if people can actually use it, and TSSAR addressed that by combining client-side preprocessing with a service-backed analysis workflow. That is one reason it remained relevant well beyond the immediate paper.
 
 The broader biological significance is also straightforward. Better TSS annotation improves our view of bacterial transcriptome architecture: operon boundaries, antisense transcription, condition-specific initiation, and the regulatory logic of promoter usage. In that sense, TSSAR is not just a niche utility for one sequencing protocol. It is infrastructure for studying how bacterial gene regulation is organized at the transcript level.
 
