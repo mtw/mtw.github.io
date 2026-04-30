@@ -1,7 +1,7 @@
 When SHAPE data actually improves RNA structure prediction
 ##########################################################
 
-:date: 2021-11-15
+:date: 2022-01-20
 :modified: 2026-04-30
 :tags: SHAPE; RNA structure prediction; ViennaRNA
 :category: outreach
@@ -22,6 +22,13 @@ When SHAPE data actually improves RNA structure prediction
 
 .. role:: doi(link)
   :class: doi
+
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
+
+   .. figure:: {static}/files/figures/RNA_SHAPEprofile_s.webp
+          :alt: SHAPE reactivity profile RNA secondary structure overlay
+          :figclass: m-figure m-flat
+
 
 People often talk about SHAPE-guided folding as if adding experimental data automatically solves RNA structure prediction. It does not. What SHAPE does provide is a strong extra layer of evidence about local nucleotide flexibility. In the right setting, that is enough to disambiguate near-optimal structures and to make the prediction much more useful. In the wrong setting, it can still leave the hard part unresolved.
 

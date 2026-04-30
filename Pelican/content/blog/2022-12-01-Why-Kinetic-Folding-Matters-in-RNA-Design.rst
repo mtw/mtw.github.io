@@ -1,7 +1,7 @@
 Why kinetic folding matters in RNA design
 #########################################
 
-:date: 2022-12-01
+:date: 2025-01-20
 :modified: 2026-04-30
 :tags: RNA design; RNA folding kinetics; co-transcriptional RNA folding; synthetic biology
 :category: outreach
