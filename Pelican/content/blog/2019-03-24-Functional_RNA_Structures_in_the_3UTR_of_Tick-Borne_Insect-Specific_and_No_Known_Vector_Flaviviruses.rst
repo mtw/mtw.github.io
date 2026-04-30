@@ -38,7 +38,7 @@ One of the main results is that exoribonuclease-resistant RNAs (xrRNAs), which h
 
 The study also points to a repeated or cascaded organization of duplicated RNA structures in insect-specific flaviviruses. That observation matters because it suggests that flavivirus 3' UTRs are not static collections of conserved motifs. They appear to be flexible scaffolds on which evolution can duplicate, repurpose, and elaborate structured RNA elements while maintaining core functions.
 
-This is exactly the kind of result where comparative genomics is especially valuable. In many cases, experimental structure determination across an entire viral clade is unrealistic. Sequence comparison, consensus folding, and covariation-aware reasoning make it possible to identify plausible conserved elements first, and then ask which of those structures are most worth testing in the lab.
+Comparative genomics is especially valuable for this kind of result. In many cases, experimental structure determination across an entire viral clade is unrealistic. Sequence comparison, consensus folding, and covariation-aware reasoning make it possible to identify plausible conserved elements first, and then ask which of those structures are most worth testing in the lab.
 
 For work on xrRNAs, this broader evolutionary view is particularly useful. It helps separate features that are likely to be deeply conserved from those that may have arisen independently or been remodeled in particular viral groups. That, in turn, improves how we think about structure-function relationships in flavivirus non-coding regions.
   

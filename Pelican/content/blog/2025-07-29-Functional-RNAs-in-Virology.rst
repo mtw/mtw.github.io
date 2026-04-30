@@ -83,4 +83,4 @@ Details & Submission
 Join the Conversation
 ---------------------
 
-Have questions about a potential submission or want to discuss a research idea?  Don't hesitate to :link-flat:`get in touch via the contact form <{filename}/contact.rst>` or :link-flat-strong:`connect with me on LinkedIn <https://www.linkedin.com/in/michaelwolfinger/>`.
+Questions about a potential submission or a related research idea are always welcome. You can :link-flat:`get in touch via the contact form <{filename}/contact.rst>` or :link-flat-strong:`connect with me on LinkedIn <https://www.linkedin.com/in/michaelwolfinger/>`.
