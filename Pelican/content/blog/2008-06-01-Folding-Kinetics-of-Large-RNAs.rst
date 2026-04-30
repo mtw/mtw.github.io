@@ -29,7 +29,7 @@ The algorithm starts from a simple but powerful observation: many important meta
 
 That design gives the method a very different operating regime from exhaustive simulation. Instead of aiming for exact kinetics on all possible paths, it attempts to recover the dominant trajectory structure for much larger RNAs than earlier methods could handle. The paper reports applicability to sequences of roughly 1500 nucleotides, which was a substantial extension at the time and made many biologically relevant systems computationally accessible.
 
-The validation examples are important here. Kinwalker reproduces several experimentally studied folding scenarios, including delayed cloverleaf formation in bacteriophage RNAs, the ASR riboswitch, and the Hok system. These are exactly the kinds of RNAs where kinetic and co-transcriptional effects matter more than the equilibrium minimum free energy structure alone. In that sense, the paper is not just a scaling story; it is also a strong argument that useful kinetic prediction can come from carefully chosen heuristics when full landscape exploration is infeasible.
+The validation examples are important here. Kinwalker reproduces several experimentally studied folding scenarios, including delayed cloverleaf formation in bacteriophage RNAs, the ASR riboswitch, and the Hok system. These are exactly the kinds of RNAs where kinetic and co-transcriptional effects matter more than the equilibrium minimum free energy structure alone. In that sense, the paper is not just a scaling story. It is also a strong argument that useful kinetic prediction can come from carefully chosen heuristics when full landscape exploration is infeasible.
 
 This paper is a useful reference point for anyone interested in how to bridge thermodynamic RNA structure prediction with folding-pathway analysis for longer molecules.
 
@@ -43,4 +43,3 @@ Citation
   | :link-flat-strong:`Folding Kinetics of Large RNAs <{filename}/blog/2008-06-01-Folding-Kinetics-of-Large-RNAs.rst>`
   | Michael Geis, Christoph Flamm, :ul:`Michael T. Wolfinger`, Andrea Tanzer, Ivo L. Hofacker, Martin Middendorf, Christian Mandl, Peter F. Stadler, Caroline Thurner
   | *J. Mol. Biol.* 379(1):160–173 (2008) | :doi:`doi:10.1016/j.jmb.2008.02.064 <https://doi.org/10.1016/j.jmb.2008.02.064>` | :link-flat:`Preprint PDF <{static}/files/papers/Geis-2008__PREPRINT.pdf>`
-

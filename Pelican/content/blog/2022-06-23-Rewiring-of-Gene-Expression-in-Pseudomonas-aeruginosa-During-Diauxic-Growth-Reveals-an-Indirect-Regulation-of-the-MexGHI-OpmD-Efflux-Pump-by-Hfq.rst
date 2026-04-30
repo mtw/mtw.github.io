@@ -11,15 +11,6 @@ Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reve
 :title: Hfq, Crc, and antibiotic resistance in P. aeruginosa
 :description: Here we study carbon catabolite repression and its impact on antibiotic susceptibility in the opportunistic pathogen Pseudomonas aeruginosa
 
-.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
-
-   .. figure:: {static}/files/papers/preview/Preview__Rozner-2022.001small.webp
-          :alt: Schematic of the mexGHI-opmD operon downregulation by Hfq during carbon catabolite repression
-          :figclass: m-figure m-flat
-
-
-This study on Pseudomonas aeruginosa underscores the interplay between microbial metabolism and antibiotic resistance, which has implications for human, animal, and environmental health. The observed link between carbon catabolite repression (CCR) and antibiotic susceptibility suggests that the microbial response to environmental nutrients can impact the efficacy of antibiotics. This insight is crucial as antibiotic-resistant strains can pose threats to both human healthcare and animal husbandry. Understanding such regulatory mechanisms can guide the development of targeted interventions, aligning with the One Health approach that seeks to optimize health outcomes across different domains of the ecosystem.
-
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
 
@@ -31,6 +22,29 @@ This study on Pseudomonas aeruginosa underscores the interplay between microbial
 
 .. role:: doi(link)
   :class: doi
+
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
+
+   .. figure:: {static}/files/papers/preview/Preview__Rozner-2022.001small.webp
+          :alt: Schematic of the mexGHI-opmD operon downregulation by Hfq during carbon catabolite repression
+          :figclass: m-figure m-flat
+
+
+This paper extends the `Hfq/Crc/CrcZ` story in *Pseudomonas aeruginosa* from single regulons to a dynamic physiological transition. The biological setting is diauxic growth: the bacterium first consumes a preferred carbon source and then rewires its metabolism once that source is depleted. In *Pseudomonas*, that transition is controlled in large part by carbon catabolite repression (`CCR`), with `Hfq` and `Crc` repressing many transcripts during growth on preferred substrates and the regulatory RNA `CrcZ` relieving that repression once the cell shifts to alternative nutrients.
+
+The paper asks what that transition looks like globally and whether it has consequences beyond nutrient utilization. To answer that, the study measures the transcriptome, translatome, and proteome in parallel during and after relief of `CCR`. That multi-omics design is the real strength of the work. It allows the authors to distinguish changes that occur at RNA abundance, translational efficiency, and protein output, rather than treating "gene expression" as a single layer.
+
+The main mechanistic result is that the `mexGHI-opmD` operon is upregulated after `CCR` is relieved, which in turn lowers susceptibility to norfloxacin. This is important because the operon encodes an efflux system with direct consequences for antibiotic response. The paper therefore shows that the shift from preferred to non-preferred carbon sources does not just alter metabolism. It also changes the antimicrobial phenotype of the cell.
+
+That observation fits naturally into a broader line of work on how `Hfq`, `Crc`, and `CrcZ` link metabolism to RNA control in *Pseudomonas*. The mechanistic basis is laid out in :link-flat:`Interplay Between the Catabolite Repression Control Protein Crc, Hfq and RNA in Hfq-Dependent Translational Regulation in Pseudomonas aeruginosa <{filename}/blog/2018-01-29-Interplay-Between-the-Catabolite-Repression-Control-Protein-Crc-Hfq-and-RNA-in-Hfq-Dependent-Translational-Regulation-in-Pseudomonas-Aeruginosa.rst>`, and the link to carbapenem uptake is developed further in :link-flat:`Distinctive Regulation of Carbapenem Susceptibility in Pseudomonas aeruginosa by Hfq <{filename}/blog/2020-05-26-Distinctive-Regulation-of-Carbapenem-Susceptibility-in-Pseudomonas-Aeruginosa-by-Hfq.rst>`. This paper pushes that logic one step further by showing how the same network indirectly reshapes resistance-relevant output during diauxic growth. Nutrient-state sensing and antibiotic susceptibility are tightly coupled through the same RNA-centered regulatory architecture.
+
+The word "indirect" in the title matters. The study does not claim that `Hfq` binds the `mexGHI-opmD` operon in a simple one-step regulatory interaction. Instead, the data support a more distributed model in which relief of `CCR` changes the allocation and activity of `Hfq`-dependent control, and the effect on the efflux pump emerges from that broader rewiring. That makes the paper more interesting than a straightforward target-identification study, because it emphasizes network-level consequences of post-transcriptional regulation.
+
+From a practical perspective, the result is also useful because it reminds us that antibiotic susceptibility can depend strongly on physiological state. The same bacterium can present a different drug-response profile depending on which nutrients it has consumed and which regulatory program it has entered. That is exactly the kind of context dependence that often complicates antimicrobial treatment and laboratory interpretation.
+
+Methodologically, the paper is a good example of how multi-omics becomes genuinely informative when tied to a clear transition state. Sampling during and after relief of `CCR` gives the authors a biologically meaningful perturbation, and the combined transcriptome-translatome-proteome view makes it possible to see which responses are broad and which are more specifically post-transcriptional. For readers interested in bacterial RNA regulation, that is a major part of the value.
+
+Taken together with the 2018 and 2020 studies, this paper makes the connection between metabolism, RNA control, and resistance phenotypes especially clear. It shows how the same regulatory machinery is deployed during a physiological growth transition and how that deployment feeds into efflux-mediated drug response.
 
 .. frame:: Abstract
 

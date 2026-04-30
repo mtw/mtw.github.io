@@ -113,7 +113,7 @@ Peer-reviewed journal / conference articles and book chapters
       .. figure:: {static}/files/papers/preview/Preview__Scheuer-2025__AI4NA.001small.webp
           :alt: KinPFN: Training on a synthetic prior
           :figclass: m-figure m-flat
-          :target: {filename}/publications.rst
+          :target: {filename}/blog/2025-01-01-Bayesian-Approximation-of-RNA-Folding-Times.rst
 
   .. container:: m-row
 
@@ -129,7 +129,7 @@ Peer-reviewed journal / conference articles and book chapters
       .. figure:: {static}/files/papers/preview/Preview__Scheuer-2025.001small.webp
           :alt: KinPFN: Training on a synthetic prior
           :figclass: m-figure m-flat
-          :target: {filename}/publications.rst
+          :target: {filename}/blog/2025-01-01-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst
 
 .. _year2024:
 
@@ -472,7 +472,7 @@ Peer-reviewed journal / conference articles and book chapters
   | *Sci. Rep.* 9(1):6911 (2019)
   | :doi:`doi:10.1038/s41598-019-43390-5 <https://doi.org/10.1038/s41598-019-43390-5>` | :link-flat:`PDF <{static}/files/papers/deBernardiSchneider-2019a.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__deBernardiSchneider-2019a.pdf>` | :label-flat-info:`Journal article`
 
-  | 27. :link-flat-strong:`Indications for a Moonlighting Function of Translation Factor aIF5A in the Crenarchaeum Sulfolobus Solfataricus <{filename}/publications/papers/Indications_for_a_Moonlighting_Function_of_Translation_Factor_aIF5A_in_the_Crenarchaeum_Sulfolobus_Solfataricus.rst>`
+  | 27. :link-flat-strong:`Indications for a Moonlighting Function of Translation Factor aIF5A in the Crenarchaeum Sulfolobus Solfataricus <{filename}/blog/2019-03-05-Indications-for-a-Moonlighting-Function-of-Translation-Factor-aIF5A-in-the-Crenarchaeum-Sulfolobus-Solfataricus.rst>`
   | Flavia Bassani, Isabelle Anna Zink, Thomas Pribasnig, :ul:`Michael T. Wolfinger`, Alice Romagnoli, Armin Resch, Christa Schleper, Udo Bläsi, Anna La Teana
   | *RNA Biol.* 16 (5):675–85 (2019)
   | :doi:`doi:10.1080/15476286.2019.1582953 <https://doi.org/10.1080/15476286.2019.1582953>` | :link-flat:`PDF <{static}/files/papers/Bassani-2019.pdf>` | :label-flat-info:`Journal article`
@@ -522,7 +522,7 @@ Peer-reviewed journal / conference articles and book chapters
   | *Front. Microbiol.* 8:2312 (2017)
   | :doi:`doi:10.3389/fmicb.2017.02312 <https://doi.org/10.3389/fmicb.2017.02312>` | :link-flat:`PDF <{static}/files/papers/Tata-2017.pdf>` | :label-flat-info:`Journal article`
 
-  | 19. **The SmAP1/2 Proteins of the Crenarchaeon Sulfolobus Solfataricus Interact with the Exosome and Stimulate A-Rich Tailing of Transcripts**
+  | 19. :link-flat-strong:`The SmAP1/2 Proteins of the Crenarchaeon Sulfolobus Solfataricus Interact with the Exosome and Stimulate A-Rich Tailing of Transcripts <{filename}/blog/2017-05-18-The-SmAP1-2-Proteins-of-the-Crenarchaeon-Sulfolobus-Solfataricus-Interact-with-the-Exosome-and-Stimulate-A-Rich-Tailing-of-Transcripts.rst>`
   | Birgit Märtens, Linlin Hou, Fabian Amman, :ul:`Michael T. Wolfinger`, Elena Evguenieva-Hackenberg, Udo Bläsi
   | *Nucleic Acids Res.* 45: 7938–49 (2017)
   | :doi:`doi:10.1093/nar/gkx437 <https://doi.org/10.1093/nar/gkx437>` | :link-flat:`PDF <{static}/files/papers/Maertens-2017.pdf>` | :label-flat-info:`Journal article`
@@ -547,7 +547,7 @@ Peer-reviewed journal / conference articles and book chapters
   | *Genome Biol.* 17:220 (2016)
   | :doi:`doi:10.1186/s13059-016-1083-0 <https://doi.org/10.1186/s13059-016-1083-0>` | :link-flat:`PDF <{static}/files/papers/Tajaddod-2016.pdf>` | :label-flat-info:`Journal article`
 
-  | 15. **Differential Transcriptional Responses to Ebola and Marburg Virus Infection in Bat and Human Cells**
+  | 15. :link-flat-strong:`Differential Transcriptional Responses to Ebola and Marburg Virus Infection in Bat and Human Cells <{filename}/blog/2016-10-07-Differential-Transcriptional-Responses-to-Ebola-and-Marburg-Virus-Infection-in-Bat-and-Human-Cells.rst>`
   | Martin Hölzer, Verena Krähling, Fabian Amman, Emanuel Barth, Stephan H. Bernhart, Victor Carmelo, Maximilian Collatz, Gero Doose, Florian Eggenhofer, Jan Ewald, Jörg Fallmann, Lasse M. Feldhahn, Markus Fricke, Juliane Gebauer, Andreas J. Gruber, Franziska Hufsky, Henrike Indrischek, Sabina Kanton, Jörg Linde, Nelly Mostajo, Roman Ochsenreiter, Konstantin Riege, Lorena Rivarola-Duarte, Abdullah H. Sahyoun, Sita J. Saunders, Stefan E. Seemann, Andrea Tanzer, Bertram Vogel, Stefanie Wehner, :ul:`Michael T. Wolfinger`, Rolf Backofen, Jan Gorodkin, Ivo Grosse, Ivo L. Hofacker, Steve Hoffmann, Christoph Kaleta, Peter F. Stadler, Stephan Becker, Manja Marz
   | *Sci. Rep.* 6 (34589) (2016)
   | :doi:`doi:10.1038/srep34589 <https://doi.org/10.1038/srep34589>` | :link-flat:`PDF <{static}/files/papers/Holzer-2016.pdf>` | :label-flat-info:`Journal article`
