@@ -23,6 +23,13 @@ What AI can and cannot do for RNA structure and RNA-protein modeling
 .. role:: doi(link)
   :class: doi
 
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
+
+   .. figure:: {static}/files/figures/RNP_complex_network1.webp
+          :alt: RNA protein complex embedded in a network
+          :figclass: m-figure m-flat
+
+
 AI has become impossible to ignore in RNA biology, and with good reason. Machine learning now contributes to sequence annotation, structure scoring, kinetics approximation, and the generation of candidate models for RNA-protein complexes. Trouble starts when “AI for RNA” is treated as a single activity, because those tasks differ sharply in what they can actually tell us.
 
 The first distinction that matters is between prediction and interpretation. A model may produce a plausible structure, a useful ranking, or a good benchmark score without actually resolving the biological uncertainty that motivated the analysis. :link-flat:`Caveats to deep learning approaches to RNA secondary structure prediction <{filename}/blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>` makes that point very clearly. Good performance on familiar datasets does not guarantee generalization to new sequence families, new experimental conditions, or regulatory RNAs that occupy multiple states.
