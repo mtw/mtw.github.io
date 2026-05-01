@@ -3,7 +3,7 @@ Home
 
 :save_as: index.html
 :url:
-:cover: static/bg5.webp
+:cover: static/bg6.webp
 :hide_navbar_brand: True
 :summary: About Michael Thomas Wolfinger
 :title: Michael T. Wolfinger – Computational RNA Biology & Synthetic RNA Design
@@ -24,7 +24,7 @@ Home
 
   .. container:: m-row
 
-      .. container:: m-col-l-8 m-col-m-8 m-col-s-12  m-col-t-12 m-container-inflatable
+      .. container:: m-col-l-12 m-col-m-12 m-col-s-12  m-col-t-12 m-container-inflatable
 
         .. raw:: html
 
@@ -32,11 +32,6 @@ Home
               <span class="m-landing-intro">
               <p>RNA molecules fold into precise structures that govern how they function. My work focuses on how RNA structure can be understood, predicted, and designed, at the intersection of <strong>structural biology</strong>, <strong>synthetic biology</strong>, and <strong>machine learning</strong>.</p>
               </span>
-
-      .. container:: m-col-l-4 m-col-m-4 m-push-m-0 m-col-s-7 m-push-s-3 m-col-t-10 m-push-t-1
-
-        .. figure:: static/mtw.jpg
-          :alt: Michael T. Wolfinger
 
   .. container:: m-row
 
