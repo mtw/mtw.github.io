@@ -12,10 +12,9 @@ I have been teaching computational RNA biology since 2005, at the
 :link-flat:`University of Vienna <http://www.univie.ac.at>`,
 the :link-flat:`University of Freiburg <http://uni-freiburg.de>`,
 and :link-flat:`FH Campus Wien <http://fh-campuswien.ac.at>`.
-These workshops draw on that experience and are designed for groups
-that want to build practical skills rather than just theoretical
-familiarity. Sessions are tailored to your team's background and
-goals before delivery.
+These workshops draw on that experience and are meant for groups that
+want practical skills rather than a purely theoretical overview.
+Sessions are tailored to your team's background and goals in advance.
 
 All formats are available remotely or onsite in the DACH region.
 
@@ -69,7 +68,7 @@ Who This Is For
 What Participants Should Expect
 ================================
 
-The emphasis is practical. Depending on format and audience, participants typically leave with:
+The emphasis is practical. Depending on format and audience, participants usually leave with:
 
 .. raw:: html
 
@@ -83,7 +82,7 @@ The emphasis is practical. Depending on format and audience, participants typica
 Preparation
 ============
 
-Before a workshop, I usually ask for a short description of the audience, prior experience, and the main scientific questions the group wants to address. For hands-on sessions, it also helps to know in advance whether participants will use their own data, example datasets, or a shared training environment.
+Before a workshop, I usually ask for a short description of the audience, prior experience, and the main scientific questions the group wants to address. For hands-on sessions, it also helps to know whether participants will use their own data, example datasets, or a shared training environment.
 
 Example Agenda
 ===============

@@ -9,10 +9,9 @@ Expert Services in Computational RNA Design
   :class: m-flat m-text
 
 I work with research teams and biotech companies that need focused
-expert input on RNA structure, RNA design, and computational RNA
-analysis. My goal is to combine deep domain knowledge with hands-on
-computational experience to help teams move from an RNA design question
-to a confident next step.
+input on RNA structure, RNA design, and computational RNA analysis.
+The emphasis is practical: clarify the question, identify the main
+technical risks, and decide what the next sensible step should be.
 
 All engagements are available remotely or onsite and are tailored to
 the background and goals of your group.
@@ -40,7 +39,7 @@ design concept, key risks and limitations, and recommended next steps.
 An optional follow-up call is available to discuss the findings in
 more detail.
 
-This is the right engagement for teams that want a credible second
+This is often the right format for teams that want a credible second
 opinion before committing resources, or that need focused technical
 input for a specific scientific or business decision.
 
@@ -75,11 +74,11 @@ This kind of support is usually most useful for:
 Example Review Question
 ========================
 
-A typical request might sound like this:
+A typical request sounds like this:
 
   "We have three candidate switch designs that all satisfy the same equilibrium constraints, but they differ in local alternatives around the aptamer and expression platform. Which construct is least likely to fail once folding kinetics, accessibility, and the intended assay conditions are taken into account?"
 
-That kind of question is usually less about producing one more structure plot and more about identifying which assumptions are solid enough to justify synthesis.
+Questions like that are usually less about producing one more structure plot and more about deciding which assumptions are solid enough to justify synthesis.
 
 .. raw:: html
 
@@ -123,8 +122,8 @@ Get in Touch
 =============
 
 If you are unsure which format fits your situation, write a few lines
-about what you are working on and I will suggest the most practical
-starting point.
+about what you are working on and I will suggest a sensible starting
+point.
 
 .. raw:: html
 
