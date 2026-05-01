@@ -36,6 +36,13 @@ cd Pelican && ../.venv/bin/pelican -Dlr content -o output -s pelicanconf.py
 ./scripts/cleanup.sh
 ```
 
+Source distribution:
+
+```bash
+python -m pip install build
+python -m build --sdist
+```
+
 What they do:
 
 - `./Pelican/make.sh` builds the site into `Pelican/output/`
@@ -44,6 +51,7 @@ What they do:
 - `python scripts/build_publish.py` builds the production site and minifies publish-only CSS, JS, and HTML assets
 - `pytest` runs a site smoke test that verifies a deployable build can be produced
 - `./scripts/cleanup.sh` removes generated and local-only artifacts from the working tree
+- `python -m build --sdist` creates a source tarball in `dist/` that includes the Pelican content, theme assets, configuration, scripts, and tests needed to rebuild the site
 
 ## Deployment
 
