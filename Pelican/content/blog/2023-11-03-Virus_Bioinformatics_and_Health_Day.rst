@@ -5,6 +5,7 @@ What Virus Bioinformatics Can and Cannot Tell Us About RNA Viruses
 :modified: 2026-04-23
 :tags: virus bioinformatics; One Health
 :category: outreach
+:frontpage: no
 :slug: Virus-Bioinformatics-Paving-the-Way-for-One-Health
 :author: mtw
 :title: What virus bioinformatics can and cannot tell us about RNA viruses

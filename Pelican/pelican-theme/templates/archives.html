@@ -253,6 +253,11 @@
       {% else %}
       {% set article_list = articles %}
       {% endif %}
+      {% if articles is defined and articles %}
+      {% set landing_source = articles %}
+      {% else %}
+      {% set landing_source = article_list %}
+      {% endif %}
       {% if not article_list %}
       <div class="m-note m-success">
         <h3>{{ "Congratulations!"|hyphenate(lang='en') }}</h3>
@@ -260,7 +265,17 @@
       </div>
       {% endif %}
       {% if article_list and (not articles_page or articles_page.number == 1) %}
-      {% set featured = article_list[0] %}
+      {% set ns = namespace(frontpage_articles=[]) %}
+      {% for article in landing_source %}
+        {% if article.frontpage != 'no' %}
+          {% set ns.frontpage_articles = ns.frontpage_articles + [article] %}
+        {% endif %}
+      {% endfor %}
+      {% set frontpage_articles = ns.frontpage_articles %}
+      {% if not frontpage_articles %}
+        {% set frontpage_articles = landing_source %}
+      {% endif %}
+      {% set featured = frontpage_articles[0] %}
       {% set featured_image_url = none %}
       {% if '<img' in featured.content and 'src="' in featured.content %}
         {% set featured_image_url = featured.content.split('src="', 1)[1].split('"', 1)[0] %}
@@ -306,9 +321,9 @@
           </div>
         </section>
 
-        {% if article_list|length > 1 %}
+        {% if frontpage_articles|length > 1 %}
         <div class="m-blog-card-grid">
-          {% for article in article_list[1:5] %}
+          {% for article in frontpage_articles[1:5] %}
           {% set image_url = none %}
           {% if '<img' in article.content and 'src="' in article.content %}
             {% set image_url = article.content.split('src="', 1)[1].split('"', 1)[0] %}
@@ -330,11 +345,11 @@
         </div>
         {% endif %}
 
-        {% if articles|length > 5 %}
+        {% if frontpage_articles|length > 5 %}
         <section class="m-blog-list">
           <h3>Earlier posts</h3>
           <ol>
-            {% for article in articles[5:15] %}
+            {% for article in frontpage_articles[5:15] %}
             <li>
               <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%b %d, %Y') }}</time>
               <a href="{{ article.url|format_siteurl|e }}">{{ article.title }}</a>

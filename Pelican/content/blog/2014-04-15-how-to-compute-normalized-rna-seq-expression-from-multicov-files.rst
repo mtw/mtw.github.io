@@ -5,6 +5,7 @@ How to compute normalized RNA-seq expression from multicov files
 :modified: 2022-10-14
 :tags: NGS
 :category: HOWTO
+:frontpage: no
 :slug: How-to-compute-normalized-RNA-seq-expression-from-multicov-files
 :author: mtw
 :summary: Why TPM is generally a better expression measure than RPKM, and how to compute normalized RNA-seq expression from multicov files.
