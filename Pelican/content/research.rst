@@ -12,7 +12,9 @@ Michael Thomas Wolfinger's Research
 .. role:: link-sup(link)
   :class: m-flat m-text m-footnote
 
-My research sits at the intersection of **computational RNA biology**, **data science**, and **synthetic biology**. A central theme is the relationship between *RNA structure and function*: how RNA folds, how those folds constrain regulation and evolution, and how we can use that knowledge to analyze natural systems or design new ones. Much of this work focuses on RNA viruses and structured non-coding regions, alongside method development for RNA design, folding kinetics, and structure-aware modeling.
+My research is centered on one broad question: how much biological and engineering insight can we extract once RNA structure is treated as a primary object rather than as a downstream annotation. That question runs through my work on secondary and tertiary structure prediction, folding kinetics, RNA-protein recognition, viral non-coding RNAs, and synthetic RNA design. Some projects are method-driven, others are motivated by virology or translational RNA biology, but the common aim is the same. I want computational models to say something that is mechanistically useful, not merely numerically impressive.
+
+This means combining different styles of evidence. Thermodynamic folding models, comparative sequence analysis, molecular simulation, experimental probing, and machine learning each contribute something, but none is sufficient in isolation. Much of my work is about making those pieces work together in a way that remains interpretable.
 
 Key Research Interests
 ======================
@@ -63,9 +65,25 @@ Key Research Interests
       Characterizing structured RNA elements in viral genomes, including xrRNAs and long-range interactions, and linking these features to comparative genomics and molecular epidemiology.
 
 
-Collaborative Impact
-====================
+Research Areas
+===============
+
+The strongest themes across the publication record are:
+
+.. raw:: html
+
+   <ul>
+     <li>RNA structure prediction that stays close to biophysics while taking advantage of experimental data where appropriate</li>
+     <li>kinetics-aware thinking for riboswitches, co-transcriptional folding, and RNA design problems where equilibrium alone is not enough</li>
+     <li>comparative RNA virology, especially conserved structured elements in flaviviral untranslated regions</li>
+     <li>RNA-protein recognition and structure-guided modeling in systems where sequence evidence alone is insufficient</li>
+   </ul>
+
+You can explore these threads in more detail through the :link-flat:`publication list <{filename}/publications.rst>` or the :link-flat:`blog </blog/>`, where many papers are accompanied by longer explanations and context.
+
+Collaborative Work
+==================
 
 Successful research depends on a :link-flat:`strong team <{filename}/team.rst>` and on collaborations that bring together complementary experimental and computational expertise. In addition to our internal work, I collaborate with international partners across RNA bioinformatics, structural biology, virology, and related areas.
 
-The methods and expertise underlying this research are also available through expert services in computational RNA design, including design reviews and workshops for research teams and biotech groups. :link-flat:`See what I can help with </services>`.
+Some of the same expertise is also available in workshop or design-review format for groups that need focused external input on RNA structure, modeling, or computational design strategy. That work is described on the :link-flat:`services page </services>`.

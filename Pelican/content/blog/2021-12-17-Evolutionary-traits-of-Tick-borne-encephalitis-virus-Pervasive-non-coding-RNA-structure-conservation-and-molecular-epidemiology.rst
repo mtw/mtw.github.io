@@ -11,6 +11,18 @@ Pervasive non-coding RNA structure conservation and molecular epidemiology of TB
 :description: Comparative analysis of 3' UTR RNA structure conservation and molecular epidemiology across tick-borne encephalitis virus lineages.
 :title: RNA structure conservation and molecular epidemiology of TBEV
 
+.. role:: link-flat-strong(link)
+  :class: m-flat m-text m-strong
+
+.. role:: link-flat(link)
+  :class: m-flat m-text
+
+.. role:: ul
+  :class: m-text m-ul
+
+.. role:: doi(link)
+  :class: doi
+
 .. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
 
    .. figure:: {static}/files/papers/preview/Preview__Kutschera-2022.001small.webp
@@ -29,20 +41,6 @@ The molecular epidemiology part is therefore not an add-on. By introducing `TBEV
 What I find most compelling here is the combination of scales. On one hand, the paper examines the fine-grained organization of non-coding RNA elements in the viral genome. On the other, it asks how those architectures sit inside the long-range history of the virus population. That combination is exactly what makes comparative RNA virology interesting. Structured RNA elements are not isolated curiosities. They evolve inside real lineages moving through hosts, vectors, and landscapes.
 
 For TBEV specifically, the paper provides a more coherent picture of how structural conservation and epidemiological diversification coexist. The genome is not frozen, and the 3' UTR is certainly not uniform. Even so, the range of viable architectures appears constrained enough to reveal recurring principles. That makes the study a useful bridge between comparative structure prediction and phylodynamic surveillance, and it gives the TBEV system a clearer place within the larger flavivirus RNA-structure landscape.
-
-
-.. role:: link-flat-strong(link)
-  :class: m-flat m-text m-strong
-
-.. role:: link-flat(link)
-  :class: m-flat m-text
-
-.. role:: ul
-  :class: m-text m-ul
-
-.. role:: doi(link)
-  :class: doi
-
 
 .. frame:: Abstract
 
