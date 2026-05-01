@@ -4,19 +4,62 @@ Computational RNA Workshops
 :title: Computational RNA Workshops
 :description: Hands-on workshops in RNA structure prediction, ViennaRNA, and structure-aware RNA design for research teams, academic groups, and doctoral programs. Remote and onsite.
 :breadcrumb: / Home
+:landing:
+
+  .. container:: m-row
+
+    .. container:: m-col-l-10 m-push-l-1 m-text-center
+
+      .. raw:: html
+
+        <h1>Computational RNA Workshops</h1>
+
+      I have been teaching computational RNA biology since 2005, in
+      university courses, invited workshops, and small-group training
+      settings. These sessions are built for people who want practical
+      competence rather than a purely theoretical overview.
+
+      Some groups need a compact introduction to RNA structure
+      prediction. Others want a deeper session on ViennaRNA, RNA
+      design, or therapeutic applications. In each case, the material is
+      adjusted to the background of the audience and the scientific
+      questions they actually care about.
+
+  .. container:: m-row
+
+    .. container:: m-col-l-4 m-col-m-4 m-container-inflatable
+
+      .. frame:: Practical
+
+        Workshops are built around tools, examples, and decisions that
+        participants can use again after the session.
+
+    .. container:: m-col-l-4 m-col-m-4 m-container-inflatable
+
+      .. frame:: Adapted to the Group
+
+        Content and pacing are adjusted to the audience, whether the
+        group is new to computational RNA or already working with the
+        methods.
+
+    .. container:: m-col-l-4 m-col-m-4 m-container-inflatable
+
+      .. frame:: Remote or Onsite
+
+        Sessions are available remotely and onsite, including the DACH
+        region, in formats ranging from two hours to a full day.
 
 .. role:: link-flat(link)
   :class: m-flat m-text
 
-I have been teaching computational RNA biology since 2005, at the
+I have taught computational RNA biology at the
 :link-flat:`University of Vienna <http://www.univie.ac.at>`,
 the :link-flat:`University of Freiburg <http://uni-freiburg.de>`,
 and :link-flat:`FH Campus Wien <http://fh-campuswien.ac.at>`.
-These workshops draw on that experience and are meant for groups that
-want practical skills rather than a purely theoretical overview.
-Sessions are tailored to your team's background and goals in advance.
-
-All formats are available remotely or onsite in the DACH region.
+The workshop formats below grow out of that experience and can be
+adapted to research labs, biotech teams, doctoral programmes, or
+interdisciplinary groups that want a more structured way into the
+field.
 
 Workshop Formats
 =================
@@ -68,7 +111,8 @@ Who This Is For
 What Participants Should Expect
 ================================
 
-The emphasis is practical. Depending on format and audience, participants usually leave with:
+The emphasis is practical. Depending on the format and the audience,
+participants usually leave with:
 
 .. raw:: html
 
@@ -101,10 +145,10 @@ For a half-day ``ViennaRNA in Practice`` session, a typical structure is:
 How a Workshop Is Organised
 =============================
 
-Each workshop begins with a short scoping exchange to understand your
-team's background, the tools you are already using, and what you want
-to take away. Content and pacing are adjusted accordingly. Participants
-receive materials they can continue working with after the session.
+Each workshop begins with a short scoping exchange to understand the
+background of the group, the tools already in use, and what the session
+should achieve. Content and pacing are adjusted from there. Participants
+receive materials they can continue working with after the workshop.
 
 Custom formats are available for groups with specific topics or
 time constraints outside the four standard options above.
