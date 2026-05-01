@@ -30,17 +30,17 @@ Home
 
               <br/><br/>
               <span class="m-landing-intro">
-              <p>RNA molecules fold into precise structures that govern how they function. My work focuses on how RNA structure can be understood, predicted, and designed, at the intersection of <strong>structural biology</strong>, <strong>synthetic biology</strong>, and <strong>machine learning</strong>.</p>
+              <p>Welcome. Here you will find research, papers, and essays on how RNA structure can be understood, predicted, and designed, from classical folding models to structure-aware synthetic biology and carefully chosen uses of machine learning.</p>
               </span>
 
   .. container:: m-row
 
       .. container:: m-col-l-12  m-col-m-12 m-col-s-12  m-col-t-12  m-noindent m-landing-text
 
-        If you are interested in how RNA structure shapes biological function, how computational models can be used responsibly, or how design ideas hold up before they become expensive, the best places to start are the :link-flat-strong:`research overview <{filename}/research.rst>`, the :link-flat-strong:`publications <{filename}/publications.rst>`, and the :link-flat-strong:`blog </blog/>`.
+        If you would like a structured overview, start with the :link-flat-strong:`research page <{filename}/research.rst>`. If you want the formal publication record, go to :link-flat-strong:`publications <{filename}/publications.rst>`. If you prefer a more explanatory route through the work, the :link-flat-strong:`blog </blog/>` expands many of the papers into longer articles and methodological essays.
 
-        Across my research, several themes keep returning: RNA secondary and tertiary structure prediction, folding kinetics, RNA-protein recognition, structured viral RNAs, and structure-aware RNA design. Many of the papers are accompanied by longer posts where I explain the methods, the main findings, and where they fit into the larger field.
+        Much of what you will find here revolves around a few recurring themes: RNA secondary and tertiary structure prediction, folding kinetics, RNA-protein recognition, structured viral RNAs, and structure-aware RNA design. I try to keep the scientific detail intact while also making the reasoning behind the methods and results easier to follow.
 
-        I lead research as a Principal Investigator at the University of Vienna and am affiliated with the :link-flat-strong:`Theoretical Biochemistry Group (TBI) <http://www.tbi.univie.ac.at/>`, a long-standing center for **RNA bioinformatics** and home of the :link-flat-strong:`ViennaRNA Package <http://www.tbi.univie.ac.at/RNA>`.
+        I am a Principal Investigator at the University of Vienna and affiliated with the :link-flat-strong:`Theoretical Biochemistry Group (TBI) <http://www.tbi.univie.ac.at/>`, a long-standing centre for RNA bioinformatics and home of the :link-flat-strong:`ViennaRNA Package <http://www.tbi.univie.ac.at/RNA>`. More about my background, affiliations, and broader academic profile is on the :link-flat-strong:`About page <{filename}/about.rst>`.
 
-        If your team needs focused external input, I also offer :link-flat-strong:`workshops and design reviews </services>` in computational RNA biology.
+        For teams that need focused external input, I also offer :link-flat-strong:`workshops and design reviews </services>` in computational RNA biology.
