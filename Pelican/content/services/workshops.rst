@@ -66,6 +66,25 @@ Who This Is For
      <li>Translational and interdisciplinary research groups</li>
    </ul>
 
+What Participants Should Expect
+================================
+
+The emphasis is practical. Depending on format and audience, participants typically leave with:
+
+.. raw:: html
+
+   <ul>
+     <li>a clearer understanding of what RNA structure predictions can and cannot support biologically</li>
+     <li>hands-on familiarity with relevant ViennaRNA workflows or related analysis steps</li>
+     <li>worked examples and materials that can be reused after the session</li>
+     <li>a better sense of how to connect computational output to experimental decisions</li>
+   </ul>
+
+Preparation
+============
+
+Before a workshop, I usually ask for a short description of the audience, prior experience, and the main scientific questions the group wants to address. For hands-on sessions, it also helps to know in advance whether participants will use their own data, example datasets, or a shared training environment.
+
 How a Workshop Is Organised
 =============================
 

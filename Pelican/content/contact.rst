@@ -17,7 +17,7 @@ For enquiries about workshops, RNA design reviews, or advisory engagements, writ
 Academic and Research Enquiries
 =================================
 
-For questions related to research, collaborations, or academic matters, use the contact form below or write directly to :link-flat:`michael.wolfinger@univie.ac.at <mailto:michael.wolfinger@univie.ac.at>`.
+For questions related to research, collaborations, or academic matters, write directly to :link-flat:`michael.wolfinger@univie.ac.at <mailto:michael.wolfinger@univie.ac.at>`. If you are reaching out about a possible collaboration, a short note on the scientific context is enough.
 
 
 
@@ -35,13 +35,10 @@ Find Me Online
     <li><a href="https://scholar.google.at/citations?user=w0PHGnEAAAAJ">Google Scholar</a></li>
     <li><a href="https://www.webofscience.com/wos/author/record/N-9538-2014">Web of Science</a></li>
     <li><a href="https://www.scopus.com/authid/detail.uri?authorId=6508361997">Scopus</a></li>
-    <li><a href="https://loop.frontiersin.org/people/485709/overview">Loop</a>
+    <li><a href="https://loop.frontiersin.org/people/485709/overview">Loop</a></li>
     <li><a href="https://orcid.org/0000-0003-0925-5205">ORCID</a></li>
     <li><a href="https://github.com/mtw">GitHub</a></li>
   </ul>
-
-
-
 .. container:: m-row
 
     .. container:: m-col-l-6 m-container-inflatable
@@ -59,17 +56,3 @@ Find Me Online
               1090 Vienna, Austria<br/>
               <br/>
               <a href="mailto:michael.wolfinger@univie.ac.at">Email</a> <br/>
-
-
-..
-  .. raw:: html
-
-    <h2>Contact Form</h2>
-    <script src="https://ciawftws.formester.com/widget/standard.js" type="module"></script>
-
-        <formester-standard-form
-          set-auto-height="true"
-          height="100%"
-          id="825cc2be-cbeb-44ed-9c3c-fbe4ed033e2d"
-          url="https://ciawftws.formester.com/f/825cc2be-cbeb-44ed-9c3c-fbe4ed033e2d"
-        ></formester-standard-form>
