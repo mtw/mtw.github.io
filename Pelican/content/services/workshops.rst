@@ -85,6 +85,20 @@ Preparation
 
 Before a workshop, I usually ask for a short description of the audience, prior experience, and the main scientific questions the group wants to address. For hands-on sessions, it also helps to know in advance whether participants will use their own data, example datasets, or a shared training environment.
 
+Example Agenda
+===============
+
+For a half-day ``ViennaRNA in Practice`` session, a typical structure is:
+
+.. raw:: html
+
+   <ul>
+     <li>short conceptual introduction to RNA secondary structure, ensembles, and what the command-line tools actually compute</li>
+     <li>guided walkthrough of a small ViennaRNA workflow, from sequence input to structure prediction and probability output</li>
+     <li>hands-on exercise with example sequences or a small dataset supplied by the group</li>
+     <li>discussion of interpretation, common pitfalls, and how the workflow connects to the participants' own research questions</li>
+   </ul>
+
 How a Workshop Is Organised
 =============================
 

@@ -72,6 +72,15 @@ This kind of support is usually most useful for:
      <li>teams that want an external expert view without building a full in-house RNA informatics function</li>
    </ul>
 
+Example Review Question
+========================
+
+A typical request might sound like this:
+
+  "We have three candidate switch designs that all satisfy the same equilibrium constraints, but they differ in local alternatives around the aptamer and expression platform. Which construct is least likely to fail once folding kinetics, accessibility, and the intended assay conditions are taken into account?"
+
+That kind of question is usually less about producing one more structure plot and more about identifying which assumptions are solid enough to justify synthesis.
+
 .. raw:: html
 
    <aside class="m-note m-default">
