@@ -30,7 +30,7 @@ What AI can and cannot do for RNA structure and RNA-protein modeling
           :figclass: m-figure m-flat
 
 
-AI has become impossible to ignore in RNA biology, and with good reason. Machine learning now contributes to sequence annotation, structure scoring, kinetics approximation, and the generation of candidate models for RNA-protein complexes. Trouble starts when “AI for RNA” is treated as a single activity, because those tasks differ sharply in what they can actually tell us.
+AI has become impossible to ignore in RNA biology, and with good reason. Machine learning now contributes to sequence annotation, structure scoring, kinetics approximation, and the generation of candidate models for RNA-protein complexes. Trouble starts when "AI for RNA" is treated as a single activity, because those tasks differ sharply in what they can actually tell us.
 
 For a broader view across RNA biology, beyond structure and protein-RNA modeling specifically, see :link-flat:`What AI is genuinely useful for in RNA biology <{filename}/blog/2026-03-22-What-AI-Is-Genuinely-Useful-for-in-RNA-Biology.rst>`. That piece looks more explicitly at candidate ranking, kinetics approximation, and large-scale genomic organization in addition to structural modeling.
 
