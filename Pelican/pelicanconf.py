@@ -30,6 +30,7 @@ M_CSS_FILES = ['https://fonts.googleapis.com/css?family=Roboto:300;400|Source+Co
                'static/m-light.css']
 
 M_THEME_COLOR = '#EAEAEA'
+M_DEFAULT_PAGE_COVER = 'static/bg6.webp'
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['m.htmlsanity',
