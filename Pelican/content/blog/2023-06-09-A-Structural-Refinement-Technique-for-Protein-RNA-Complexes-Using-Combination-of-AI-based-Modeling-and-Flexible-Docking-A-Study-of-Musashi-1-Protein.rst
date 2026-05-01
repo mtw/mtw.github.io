@@ -43,6 +43,8 @@ The method still has clear limits. It depends on having useful initial structura
 
 That makes the study best understood as a methods contribution. It shows that AI-derived protein models can be combined with enhanced-sampling docking to improve protein-RNA complex refinement, at least for systems like MSI1 where independent evidence exists for the binding interface. For researchers working on RNA-binding proteins, this is a more realistic and useful claim than broad promises about drug discovery.
 
+I place that point in a wider RNA-biology context in :link-flat:`What AI is genuinely useful for in RNA biology <{filename}/blog/2026-03-22-What-AI-Is-Genuinely-Useful-for-in-RNA-Biology.rst>`, where the main argument is that AI is strongest when it narrows or accelerates a meaningful analysis problem instead of pretending to replace mechanism outright.
+
 If your lab or company needs an external review of an RNA-protein modeling workflow, a structure-guided design problem, or a docking strategy, I also offer focused advisory support through my :link-flat:`services page <{filename}/services.rst>`.
 
 

@@ -45,6 +45,8 @@ That is what makes the paper useful. It does not claim to solve RNA-protein reco
 
 This study also laid some groundwork for later Musashi modeling efforts. Once domain-level recognition preferences are characterized at this level, it becomes easier to ask larger questions about Musashi binding to structured cellular RNAs or to viral untranslated regions, and to develop more detailed protein-RNA complex refinement workflows. In that sense, this paper is best viewed as the starting point of a broader Musashi-RNA modeling program rather than a standalone binding-energy exercise.
 
+For a broader view of where AI is genuinely helpful in that kind of workflow, beyond this individual Musashi case, see :link-flat:`What AI is genuinely useful for in RNA biology <{filename}/blog/2026-03-22-What-AI-Is-Genuinely-Useful-for-in-RNA-Biology.rst>`.
+
 
 .. frame:: Abstract
 

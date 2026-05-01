@@ -42,6 +42,8 @@ What I find most compelling here is the combination of scales. On one hand, the 
 
 For TBEV specifically, the paper provides a more coherent picture of how structural conservation and epidemiological diversification coexist. The genome is not frozen, and the 3' UTR is certainly not uniform. Even so, the range of viable architectures appears constrained enough to reveal recurring principles. That makes the study a useful bridge between comparative structure prediction and phylodynamic surveillance, and it gives the TBEV system a clearer place within the larger flavivirus RNA-structure landscape.
 
+That broader point is exactly what I make more explicitly in :link-flat:`When sequence conservation is not enough to find functional RNA structure <{filename}/blog/2026-04-05-When-Sequence-Conservation-Is-Not-Enough-to-Find-Functional-RNA-Structure.rst>`.
+
 .. frame:: Abstract
 
     Tick-borne encephalitis virus (TBEV) is the etiological agent of tick-borne encephalitis, an infectious disease of the central nervous system that is often associated with severe sequelae in humans. While TBEV is typically classified into three subtypes, recent evidence suggests a more varied range of TBEV subtypes and lineages that differ substantially in their 3’UTR architecture. Building on comparative genomics approaches and thermodynamic modelling, we characterize the TBEV 3’UTR structureome diversity and propose a unified picture of pervasive non-coding RNA (ncRNA) structure conservation. Moreover, we provide an updated phylogeny of TBEV, building on more than 220 publicly available complete genomes, and investigate the molecular epidemiology and phylodynamics with Nextstrain, a web-based visualization framework for real-time pathogen evolution.
