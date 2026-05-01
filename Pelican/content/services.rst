@@ -11,7 +11,7 @@ Expert Services in Computational RNA Design
 I work with research teams and biotech companies that need focused
 input on RNA structure, RNA design, and computational RNA analysis.
 The emphasis is practical: clarify the question, identify the main
-technical risks, and decide what the next sensible step should be.
+technical risks, and decide on a sensible next step.
 
 All engagements are available remotely or onsite and are tailored to
 the background and goals of your group.
@@ -41,7 +41,7 @@ more detail.
 
 This is often the right format for teams that want a credible second
 opinion before committing resources, or that need focused technical
-input for a specific scientific or business decision.
+input for a specific scientific or internal decision.
 
 What You Receive
 =================
