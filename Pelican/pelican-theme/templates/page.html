@@ -1,4 +1,5 @@
 {% set page_slug = page.slug %}
+{% set effective_page_cover = page.cover if page.cover else M_DEFAULT_PAGE_COVER if M_DEFAULT_PAGE_COVER else None %}
 {% extends "base.html" %}
 
 {% block title %}
@@ -41,15 +42,15 @@
   <meta property="og:description" content="{{ page.summary|dehyphenate|striptags|e }}" />
   <meta name="twitter:description" content="{{ page.summary|dehyphenate|striptags|e }}" />
   {% endif %}
-  {% if page.cover %}
-  <meta property="og:image" content="{{ page.cover|expand_link(page)|e }}" />
-  <meta name="twitter:image" content="{{ page.cover|expand_link(page)|e }}" />
+  {% if effective_page_cover %}
+  <meta property="og:image" content="{{ effective_page_cover|expand_link(page)|e }}" />
+  <meta name="twitter:image" content="{{ effective_page_cover|expand_link(page)|e }}" />
   <meta name="twitter:card" content="summary_large_image" />
   {% elif M_SOCIAL_IMAGE %}
   <meta property="og:image" content="{{ M_SOCIAL_IMAGE|format_siteurl }}" />
   <meta name="twitter:image" content="{{ M_SOCIAL_IMAGE|format_siteurl }}" />
   {% endif %}
-  {% if not page.cover %}
+  {% if not effective_page_cover %}
   <meta name="twitter:card" content="summary" />
   {% endif %}
   <meta property="og:type" content="page" />
@@ -102,8 +103,8 @@
 
 {% block main %}
 {% if not page.landing %}
-{% if page.cover %}
-<div id="m-cover-image" style="background-image: url('{{ page.cover|expand_link(page)|e }}');"><div></div></div>
+{% if effective_page_cover %}
+<div id="m-cover-image" style="background-image: url('{{ effective_page_cover|expand_link(page)|e }}');"><div></div></div>
 {% endif %}
 {% if page.header %}
 <div class="m-container m-container-inflatable">
@@ -119,7 +120,7 @@
 {% endif %}
 <article>
   {% if page.landing %}
-  <div id="m-landing-image"{% if page.cover %} style="background-image: url('{{ page.cover|expand_link(page)|e }}');"{% endif %}>
+  <div id="m-landing-image"{% if effective_page_cover %} style="background-image: url('{{ effective_page_cover|expand_link(page)|e }}');"{% endif %}>
     <div id="m-landing-cover">
       <div class="m-container">
 <!-- landing -->
