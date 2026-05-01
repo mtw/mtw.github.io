@@ -37,6 +37,8 @@ What makes this interesting for RNA folding kinetics is the combination of speed
 
 Relative to the full conference paper, this version is shorter and more focused on the central idea, but it already makes the key argument clearly: approximating folding-time distributions can be enough for many practical tasks, and those approximations can be learned efficiently from a synthetic prior. For anyone interested in the intersection of RNA folding kinetics and AI, this paper is a useful entry point into the broader KinPFN project.
 
+It also connects directly to :link-flat:`How to review an RNA design before synthesis <{filename}/blog/2026-03-15-How-to-Review-an-RNA-Design-Before-Synthesis.rst>`, because many design decisions do not require a perfect kinetic simulation. They require a fast and credible way to compare whether one candidate is likely to behave more cleanly than another.
+
 .. frame:: Abstract
 
    RNA is a dynamic biomolecule with its function largely determined by its folding into complex structures. During the folding process, an RNA traverses through a series of intermediate structural states, with each transition occurring at variable rates that collectively influence the time required to reach the functional form. Understanding these folding kinetics is vital for predicting RNA behavior and optimizing applications in synthetic biology and drug discovery. While in silico kinetic RNA folding simulators are often computationally intensive and time-consuming, accurate approximations of the folding times can already be very informative to assess the efficiency of the folding process. Here, we present KinPFN, a novel approach that leverages prior-data fitted networks to directly model the posterior predictive distribution of RNA folding times. Trained on synthetic data representing arbitrary prior folding times, KinPFN efficiently approximates the cumulative distribution function of RNA folding times in a single forward pass, given only a few initial folding time examples. Our method offers a modular extension to RNA kinetics algorithms, promising significant computational speed-ups orders of magnitude faster, while achieving comparable results.
@@ -47,4 +49,3 @@ Citation
   | :link-flat-strong:`Bayesian Approximation of RNA Folding Times <{filename}/blog/2025-01-01-Bayesian-Approximation-of-RNA-Folding-Times.rst>`
   | Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, :ul:`Michael T. Wolfinger`, Christoph Flamm, Frank Hutter
   | *ICLR 2025 Workshop on AI for Nucleic Acids* (2025) | :doi:`doi:10.5281/zenodo.15228717 <https://doi.org/10.5281/zenodo.15228717>` | :link-flat:`PDF <{static}/files/papers/Scheuer-2025__AI4NA.pdf>`
-

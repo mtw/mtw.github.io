@@ -4,7 +4,7 @@ When to trust RNA structure prediction for experimental decisions
 :date: 2026-03-01
 :modified: 2026-05-01
 :tags: RNA structure prediction; ViennaRNA; SHAPE; AI; RNA design
-:category: blog
+:category: outreach
 :slug: When-to-trust-RNA-structure-prediction-for-experimental-decisions
 :author: mtw
 :summary: RNA structure prediction becomes most useful when it helps rule out bad ideas, prioritize experiments, and expose uncertainty clearly. The key question is not whether a model outputs a fold, but whether the prediction is strong enough to support the next decision.

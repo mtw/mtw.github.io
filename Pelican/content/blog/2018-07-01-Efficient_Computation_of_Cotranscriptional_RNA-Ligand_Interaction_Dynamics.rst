@@ -45,6 +45,8 @@ That is why I still think this is one of the more useful methodological papers i
 
 The paper also connects two strands of RNA research that are often discussed separately: landscape-based folding kinetics and ligand-regulated RNA control. Bringing those together makes it possible to use coarse-grained kinetics not just for descriptive folding studies, but for mechanism-aware analysis of regulatory RNAs. That is a meaningful step beyond equilibrium folding and a useful basis for later in silico screening of switch designs before experimental validation.
 
+That screening logic sits very close to what I describe in :link-flat:`How to review an RNA design before synthesis <{filename}/blog/2026-03-15-How-to-Review-an-RNA-Design-Before-Synthesis.rst>`. A construct can look plausible at equilibrium and still fail once timing and pathway dependence are taken seriously.
+
 .. frame:: Abstract
 
   Riboswitches form an abundant class of cis-regulatory RNA elements that mediate gene expression by binding a small metabolite. For synthetic biology applications, they are becoming cheap and accessible systems for selectively triggering transcription or translation of downstream genes. Many riboswitches are kinetically controlled, hence knowledge of their co-transcriptional mechanisms is essential. We present here an efficient implementation for analyzing co-transcriptional RNA-ligand interaction dynamics. This approach allows for the first time to model concentration-dependent metabolite binding/unbinding kinetics. We exemplify this novel approach by means of the recently studied I-A 2′-deoxyguanosine (2′dG)-sensing riboswitch from Mesoplasma florum.
