@@ -5,6 +5,7 @@ How to Run Claude Code with a Local LLM on Apple Silicon
 :modified: 2026-04-22
 :tags: AI, Agents
 :category: howto
+:frontpage: no
 :slug: claude-code-local-llm-apple-silicon
 :author: mtw
 :title: How to Run Claude Code with a Local LLM on Apple Silicon

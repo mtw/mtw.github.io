@@ -5,6 +5,7 @@ Exploring RNA Biology with Deep Learning Algorithms
 :modified: 2026-04-30
 :tags: AI; synthetic biology
 :category: outreach
+:frontpage: no
 :slug: exploring-rna-biology-with-deep-learning
 :author: mtw
 :summary: An RNA Biology article collection on deep learning methods in transcriptomics, RNA structure prediction, and molecular design.
