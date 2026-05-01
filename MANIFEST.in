@@ -1,0 +1,24 @@
+include README.md
+include LICENSE
+include CNAME
+include pytest.ini
+include pyproject.toml
+
+recursive-include Pelican *
+recursive-include scripts *
+recursive-include tests *
+recursive-include local_docs *
+
+global-exclude .DS_Store
+global-exclude *.py[cod]
+global-exclude __pycache__
+
+prune .git
+prune .github
+prune .pytest_cache
+prune .venv
+prune michaelwolfinger_com.egg-info
+prune Pelican/__pycache__
+prune Pelican/output
+prune Pelican/content/cache
+prune Pelican/pelican-theme/test
