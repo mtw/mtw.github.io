@@ -4,17 +4,53 @@ Expert Services in Computational RNA Design
 :title: Expert Services in Computational RNA Design
 :description: RNA design reviews, ViennaRNA workshops, and advisory support for biotech teams and research groups, by Michael T. Wolfinger, computational RNA biologist at the University of Vienna.
 :breadcrumb: / Home
+:landing:
+
+  .. container:: m-row
+
+    .. container:: m-col-l-10 m-push-l-1 m-text-center
+
+      .. raw:: html
+
+        <h1>Expert Support for RNA Structure, Design, and Analysis</h1>
+
+      I work with research groups and biotech teams that need focused,
+      scientifically grounded input on RNA structure, RNA design, and
+      computational interpretation. Some projects need a second opinion
+      before synthesis. Others need practical training, or a more
+      sustained advisory exchange while a programme is still taking
+      shape.
+
+      The common aim is clarity. I help teams sort out which questions
+      matter most, where the main technical risks sit, and what the next
+      sensible step looks like.
+
+  .. container:: m-row
+
+    .. container:: m-col-l-4 m-col-m-4 m-container-inflatable
+
+      .. frame:: Design Reviews
+
+        Independent assessment of RNA constructs, design strategies, and
+        computational reasoning before resources are committed.
+
+    .. container:: m-col-l-4 m-col-m-4 m-container-inflatable
+
+      .. frame:: Workshops
+
+        Hands-on training in ViennaRNA, RNA structure prediction, and
+        structure-aware RNA design for research teams and academic groups.
+
+    .. container:: m-col-l-4 m-col-m-4 m-container-inflatable
+
+      .. frame:: Advisory Support
+
+        Ongoing expert input for teams that need regular discussion,
+        review, and technical judgment without building everything
+        in-house.
 
 .. role:: link-flat(link)
   :class: m-flat m-text
-
-I work with research teams and biotech companies that need focused
-input on RNA structure, RNA design, and computational RNA analysis.
-The emphasis is practical: clarify the question, identify the main
-technical risks, and decide on a sensible next step.
-
-All engagements are available remotely or onsite and are tailored to
-the background and goals of your group.
 
 When This Kind of Support Is Useful
 =====================================
@@ -31,17 +67,16 @@ When This Kind of Support Is Useful
 RNA Design Review
 ==================
 
-An independent written assessment of your RNA construct, design
-strategy, or computational approach. You send the relevant materials
-(sequences, design rationale, slides, or a manuscript section) and I
-deliver a structured memo covering a technical assessment of the
-design concept, key risks and limitations, and recommended next steps.
-An optional follow-up call is available to discuss the findings in
-more detail.
+An RNA design review is an independent written assessment of your
+construct, design strategy, or computational approach. You send the
+relevant materials such as sequences, design notes, slides, or a
+manuscript section. I then prepare a structured technical review that
+looks at the design logic, the main assumptions, likely weak points,
+and sensible next steps. A follow-up call can be added if discussion
+would help.
 
-This is often the right format for teams that want a credible second
-opinion before committing resources, or that need focused technical
-input for a specific scientific or internal decision.
+This format is often useful when a team wants a credible external view
+before committing time, synthesis, or experimental effort.
 
 What You Receive
 =================
@@ -91,11 +126,11 @@ Questions like that are usually less about producing one more structure plot and
 Computational RNA Workshops
 =============================
 
-Hands-on training in RNA structure prediction, ViennaRNA, and
-structure-aware RNA design for research teams, academic groups, and
-doctoral programs. Workshops are available in 2-hour, half-day, and
-full-day formats, delivered remotely or onsite, and are tailored to
-your group's background in advance.
+I also offer hands-on training in RNA structure prediction, ViennaRNA,
+and structure-aware RNA design for research teams, academic groups,
+and doctoral programmes. Workshops are available in short, half-day,
+and full-day formats, either remotely or onsite, and are scoped in
+advance to fit the background of the group.
 
 See the :link-flat:`workshops page </services/workshops/>` for full details on
 available formats and how sessions are organised.
@@ -110,13 +145,12 @@ available formats and how sessions are organised.
 Advisory Support
 =================
 
-For teams that need ongoing expert input rather than a single
-engagement, I offer selected advisory arrangements. These typically
-involve regular calls, asynchronous review of materials, and short
-written memos, all structured around the RNA design and analysis
-questions your team is actively working through. This is particularly
-useful for early-stage RNA startups or translational groups that need
-regular expert input without a full-time hire.
+For teams that need ongoing input rather than a single review or
+workshop, I offer selected advisory arrangements. These usually combine
+regular calls with asynchronous review of materials and short written
+notes. The focus stays close to the questions the team is actively
+working through, whether that is design logic, computational
+interpretation, or planning the next experimental step.
 
 Get in Touch
 =============
