@@ -37,4 +37,6 @@ More recent work on :link-flat:`KinPFN: Bayesian Approximation of RNA Folding Ki
 
 The deeper issue is methodological. In RNA design, the most expensive mistake is often not a wrong prediction. It is optimizing for the wrong criterion. If the system depends on pathway behavior, a beautiful equilibrium fold can be a distraction. Kinetic reasoning does not replace design intuition, but it does help keep attention on the mechanism that actually determines function.
 
+That same question appears again in :link-flat:`How to review an RNA design before synthesis <{filename}/blog/2026-03-15-How-to-Review-an-RNA-Design-Before-Synthesis.rst>`, where the issue is not just whether kinetics matters in principle, but how to decide which candidate designs deserve to move forward at all.
+
 This is often where projects become expensive. A team may already have sequences, assays, and a plausible mechanistic story, but not a clear answer to whether the design has a folding-pathway problem or a measurement problem. That is exactly the sort of point where a structured review can save time. My :link-flat:`services page <{filename}/services.rst>` describes how I handle design reviews and advisory work for teams facing that kind of decision.
