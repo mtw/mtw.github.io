@@ -41,6 +41,8 @@ The study also points to a repeated or cascaded organization of duplicated RNA s
 Comparative genomics is especially valuable for this kind of result. In many cases, experimental structure determination across an entire viral clade is unrealistic. Sequence comparison, consensus folding, and covariation-aware reasoning make it possible to identify plausible conserved elements first, and then ask which of those structures are most worth testing in the lab.
 
 For work on xrRNAs, this broader evolutionary view is particularly useful. It helps separate features that are likely to be deeply conserved from those that may have arisen independently or been remodeled in particular viral groups. That, in turn, improves how we think about structure-function relationships in flavivirus non-coding regions.
+
+I return to that general issue in :link-flat:`When sequence conservation is not enough to find functional RNA structure <{filename}/blog/2026-04-05-When-Sequence-Conservation-Is-Not-Enough-to-Find-Functional-RNA-Structure.rst>`, which argues that many of the most informative signals in viral untranslated regions live at the level of conserved architecture rather than primary sequence identity.
   
 .. frame:: Abstract
 

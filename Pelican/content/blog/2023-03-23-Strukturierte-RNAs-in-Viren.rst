@@ -43,6 +43,8 @@ This is also why the topic has become relevant in the context of RNA therapeutic
 
 The piece functions as a compact bridge between comparative viral RNA structure analysis, `xrRNA` discovery, and later efforts in synthetic and mechanically active RNA design. Even though the article itself is shorter and more magazine-style than a primary research paper, the underlying concept is foundational and deserves more context than a brief teaser. Readers who want to follow that thread into primary research can move from here to :link-flat:`Discoveries of Exoribonuclease-Resistant Structures of Insect-Specific Flaviviruses Isolated in Zambia <{filename}/blog/2020-09-14-Discoveries-of-Exoribonuclease-Resistant-Structures-of-Insect-Specific-Flaviviruses-Isolated-in-Zambia.rst>` or to :link-flat:`Rational design of mechanically active RNAs: de novo engineering of functional exoribonuclease-resistant RNAs <{filename}/blog/2026-01-08-Rational-design-of-mechanically-active-RNAs.rst>`.
 
+For a more general discussion of why sequence similarity alone often fails to capture these conserved viral RNA elements, see :link-flat:`When sequence conservation is not enough to find functional RNA structure <{filename}/blog/2026-04-05-When-Sequence-Conservation-Is-Not-Enough-to-Find-Functional-RNA-Structure.rst>`.
+
 
 .. frame:: Abstract
 
