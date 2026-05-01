@@ -58,6 +58,7 @@ GITHUB_URL = "https://github.com/mtw/mtw.github.io"
 #M_SITE_LOGO_TEXT = 'Your Brand'
 
 M_LINKS_NAVBAR1 = [
+                    ('About', '/about', 'about', []),
                     ('Research', '/research', 'research', [
                         ('Team', '/team', 'team'),
                     ]),
@@ -76,6 +77,7 @@ M_LINKS_NAVBAR1 = [
 #M_LINKS_NAVBAR2 = [('Blog', 'blog/', '[blog]',[])]
 
 M_LINKS_FOOTER1 = [('Home', '/'),
+                    ('About', '/about'),
                     ('Research', '/research'),
                     ('Publications', '/publications'),
                     ('Teaching', '/teaching'),
