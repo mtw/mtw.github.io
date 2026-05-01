@@ -5,6 +5,7 @@ Transcriptome-Wide Effects of Inverted SINEs on Gene Expression and Their Impact
 :modified: 2026-04-29
 :tags: non-coding RNA; RNA structure conservation
 :category: publications
+:frontpage: no
 :slug: Transcriptome-Wide-Effects-of-Inverted-SINEs-on-Gene-Expression-and-Their-Impact-on-RNA-Polymerase-II-Activity
 :author: mtw
 :summary: This paper shows that nearby inverted SINEs, especially Alu pairs in 3'UTRs, are associated with reduced gene expression and can repress transcripts by impairing RNA polymerase II elongation.

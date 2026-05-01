@@ -5,6 +5,7 @@ Why bats and humans respond differently to filovirus infection
 :modified: 2026-04-30
 :tags: virology; virus bioinformatics
 :category: publications
+:frontpage: no
 :slug: Differential-Transcriptional-Responses-to-Ebola-and-Marburg-Virus-Infection-in-Bat-and-Human-Cells
 :author: mtw
 :summary: This paper compares Ebola and Marburg virus infection in bat and human cells and shows that the transcriptional response, pathway activation, and replication dynamics differ substantially between the natural host and a susceptible human system.
