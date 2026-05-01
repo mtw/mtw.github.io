@@ -30,7 +30,7 @@ Home
 
               <br/><br/>
               <span class="m-landing-intro">
-              <p>RNA structure is not just a descriptive layer. It often decides which experiments are worth doing, which designs are likely to fail, and which biological claims can be defended. I develop computational methods to predict, interpret, and design structured RNAs, combining biophysical modeling, comparative analysis, and carefully chosen machine-learning approaches.</p>
+              <p>If you work with RNA, sooner or later structure becomes part of the problem. It shapes how regulatory elements function, how viral genomes evolve, and how far a synthetic design can be trusted before it reaches the bench. This website brings together my work on computational RNA biology, from structure prediction and folding kinetics to viral non-coding RNAs and RNA design.</p>
               </span>
 
       .. container:: m-col-l-4 m-col-m-4 m-push-m-0 m-col-s-7 m-push-s-3 m-col-t-10 m-push-t-1
@@ -42,10 +42,10 @@ Home
 
       .. container:: m-col-l-12  m-col-m-12 m-col-s-12  m-col-t-12  m-noindent m-landing-text
 
-        My research focuses on RNA as a decision problem. I work on structure prediction, folding kinetics, viral non-coding RNAs, RNA-protein recognition, and synthetic RNA design, with the aim of turning complex structural data into useful biological or engineering insight. A broader overview is on the :link-flat-strong:`research page <{filename}/research.rst>`.
+        The research collected here is centered on the relationship between RNA structure and function. Some of it is methodological, some of it is driven by virology or synthetic biology, and much of it sits in between. A broader overview is on the :link-flat-strong:`research page <{filename}/research.rst>`.
 
-        I lead research as a Principal Investigator at the University of Vienna. In 2023 and 2024, I served as a visiting professor at the University of Freiburg. I am affiliated with the :link-flat-strong:`Theoretical Biochemistry Group (TBI) <http://www.tbi.univie.ac.at/>`, a long-standing center of RNA bioinformatics and the home of the :link-flat-strong:`ViennaRNA Package <http://www.tbi.univie.ac.at/RNA>`.
+        I am a Principal Investigator at the University of Vienna and was a visiting professor at the University of Freiburg in 2023 and 2024. My affiliation with the :link-flat-strong:`Theoretical Biochemistry Group (TBI) <http://www.tbi.univie.ac.at/>` places this work in a long-standing RNA bioinformatics environment, including the development of the :link-flat-strong:`ViennaRNA Package <http://www.tbi.univie.ac.at/RNA>`.
 
-        The publication record remains the foundation of this work. You can browse the :link-flat-strong:`publications <{filename}/publications.rst>` directly, or use the :link-flat-strong:`blog </blog/>` to read fuller explanations of individual papers, methods, and broader field questions.
+        If you want the formal record, the :link-flat-strong:`publications <{filename}/publications.rst>` page is the best place to start. If you prefer a more explanatory route, the :link-flat-strong:`blog </blog/>` contains fuller discussions of individual papers, methods, and recurring questions in the field.
 
-        I also offer a small number of workshops, design reviews, and advisory engagements for research teams and biotech groups that need rigorous input on RNA structure, modeling, or design strategy. Details are on the :link-flat-strong:`services page </services>`.
+        For research groups and biotech teams that need focused external input, I also offer workshops, design reviews, and selected advisory work. Details are on the :link-flat-strong:`services page </services>`.
