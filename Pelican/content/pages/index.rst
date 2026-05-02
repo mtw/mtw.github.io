@@ -30,7 +30,7 @@ Home
 
               <br/><br/>
               <span class="m-landing-intro">
-              <p>Welcome. I am Michael T. Wolfinger, and this is where I bring together my work on RNA structure, folding, design, and computational interpretation. You can start with the research overview, move through the publication record, read longer essays that unpack individual papers, or look at workshop and advisory formats for teams that want focused external input.</p>
+              <p>RNA molecules are not defined by sequence alone. Their structure, folding paths, and molecular context often determine what they do.</p>
               </span>
 
   .. container:: m-row
@@ -80,8 +80,8 @@ Home
 
       .. container:: m-col-l-12  m-col-m-12 m-col-s-12  m-col-t-12  m-noindent m-landing-text
 
-        Much of the work presented here revolves around a few recurring themes: RNA secondary and tertiary structure prediction, folding kinetics, RNA-protein recognition, structured viral RNAs, and structure-aware RNA design. I try to keep the scientific detail intact while also making the reasoning behind the methods and results easier to follow.
+        I am Michael T. Wolfinger, and my work focuses on the computational side of that problem: structure prediction, folding kinetics, structure-aware RNA design, RNA-protein recognition, and structured viral RNAs. The aim is not only to model RNA, but to understand which models are biologically meaningful and which conclusions they can actually support.
 
-        I am a Principal Investigator at the University of Vienna and affiliated with the :link-flat-strong:`Theoretical Biochemistry Group (TBI) <http://www.tbi.univie.ac.at/>`, a long-standing centre for RNA bioinformatics and home of the :link-flat-strong:`ViennaRNA Package <http://www.tbi.univie.ac.at/RNA>`. If you would like the fuller profile view, including background and affiliations, the :link-flat-strong:`About page <{filename}/about.rst>` is the right place to continue.
+        This site brings together the underlying research, the publication record, and a growing set of essays that place individual papers in a broader scientific context. I am a Principal Investigator at the University of Vienna and affiliated with the :link-flat-strong:`Theoretical Biochemistry Group (TBI) <http://www.tbi.univie.ac.at/>`, a long-standing centre for RNA bioinformatics and home of the :link-flat-strong:`ViennaRNA Package <http://www.tbi.univie.ac.at/RNA>`.
 
-        If you already know what you are looking for, you can also go directly to :link-flat-strong:`About <{filename}/about.rst>`, :link-flat-strong:`Teaching <{filename}/teaching.rst>`, or :link-flat-strong:`Contact <{filename}/contact.rst>`.
+        For the fuller profile view, including background and affiliations, see :link-flat-strong:`About <{filename}/about.rst>`. Teaching, contact details, and workshop formats are available on the corresponding pages.
