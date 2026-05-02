@@ -22,7 +22,7 @@ About
 
               <br/><br/>
               <span class="m-landing-intro">
-              <p>I work in computational RNA biology, with a focus on RNA structure, folding kinetics, synthetic RNA design, RNA-protein recognition, and structured viral RNAs. My aim is to build models that are mechanistically useful and biologically grounded, not just computationally impressive.</p>
+              <p>I am a computational RNA biologist at the University of Vienna. My work brings together RNA structure prediction, folding kinetics, synthetic RNA design, RNA-protein recognition, and comparative RNA virology.</p>
               </span>
 
       .. container:: m-col-l-4 m-col-m-4 m-push-m-0 m-col-s-7 m-push-s-3 m-col-t-10 m-push-t-1
@@ -34,9 +34,9 @@ About
 
       .. container:: m-col-l-12  m-col-m-12 m-col-s-12  m-col-t-12  m-noindent m-landing-text
 
-        I lead research as a Principal Investigator at the University of Vienna and am affiliated with the :link-flat:`Theoretical Biochemistry Group (TBI) <http://www.tbi.univie.ac.at/>`, a long-standing center of RNA bioinformatics and home of the :link-flat:`ViennaRNA Package <http://www.tbi.univie.ac.at/RNA>`. In 2023 and 2024, I served as a visiting professor at the University of Freiburg.
+        I lead research as a Principal Investigator at the University of Vienna and am affiliated with the :link-flat:`Theoretical Biochemistry Group (TBI) <http://www.tbi.univie.ac.at/>`, a long-standing centre of RNA bioinformatics and home of the :link-flat:`ViennaRNA Package <http://www.tbi.univie.ac.at/RNA>`. In 2023 and 2024, I served as a visiting professor at the University of Freiburg.
 
-        Much of my work revolves around one recurring question: how much biological and engineering insight can we extract once RNA structure is treated as a primary object rather than as a downstream annotation. That question connects my work on secondary and tertiary structure prediction, kinetics-aware RNA design, comparative RNA virology, and structure-guided analysis of RNA-protein interactions.
+        My research is organised around a structure-aware view of RNA function, regulation, and design. That perspective connects work on secondary and tertiary structure prediction, kinetics-aware RNA design, comparative RNA virology, and structure-guided analysis of RNA-protein interactions.
 
         In addition to academic research, I founded :link-flat:`RNA Forecast <https://rnaforecast.com>`, where I offer workshops, design reviews, and focused advisory support for research groups and biotech teams that need external expertise in computational RNA biology.
 
@@ -47,7 +47,7 @@ About
 Research Profile
 ================
 
-I work at the interface of structural biology, synthetic biology, and machine learning, with RNA as the common thread. My publication record spans method development, comparative genomics, virus bioinformatics, RNA design, and molecular modeling. Across those areas, the recurring goal is to develop models that stay interpretable and remain useful in real biological settings.
+My publication record spans method development, comparative genomics, virus bioinformatics, RNA design, and molecular modelling. Across those areas, the recurring aim is to develop models that remain interpretable and useful in real biological settings.
 
 This includes work on:
 
@@ -65,8 +65,8 @@ This includes work on:
 Teaching and Collaboration
 ==========================
 
-Teaching and collaborative work are a substantial part of what I do. Over the years, I have taught computational RNA biology in academic settings and worked with collaborators across virology, structural biology, synthetic biology, and RNA bioinformatics. That breadth is reflected both in the publication record and in the workshop formats described on the :link-flat:`services page </services>`.
+Teaching and collaborative work are a substantial part of what I do. Since 2005, I have taught computational RNA biology in university courses, workshops, and small-group settings, and I have worked with collaborators across virology, structural biology, synthetic biology, and RNA bioinformatics. That breadth is reflected both in the publication record and in the workshop formats described on the :link-flat:`services page </services>`.
 
-If you are looking for a structured overview of the main scientific themes, see the :link-flat:`research page <{filename}/research.rst>`. For the formal publication record, see :link-flat:`publications <{filename}/publications.rst>`. Many of the underlying papers are discussed in more detail on the :link-flat:`blog </blog/>`.
+If you are looking for a structured overview of the scientific themes, see the :link-flat:`research page <{filename}/research.rst>`. For the formal publication record, see :link-flat:`publications <{filename}/publications.rst>`. Many of the underlying papers are discussed in more detail on the :link-flat:`blog </blog/>`.
 
-If you are looking for current group information, see the :link-flat:`team page <{filename}/team.rst>`. For workshop enquiries, advisory support, or academic contact details, use the :link-flat:`contact page <{filename}/contact.rst>`.
+Current group information is collected on the :link-flat:`team page <{filename}/team.rst>`. For workshop enquiries, advisory support, or academic contact details, use the :link-flat:`contact page <{filename}/contact.rst>`.
