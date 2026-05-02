@@ -3,7 +3,7 @@ Home
 
 :save_as: index.html
 :url:
-:cover: static/bg6.webp
+:cover: /static/bg6.webp
 :hide_navbar_brand: True
 :summary: Computational RNA biology, RNA structure, and design research by Michael T. Wolfinger
 :title: RNA Structure, Function, and Design
