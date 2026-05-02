@@ -3,7 +3,7 @@ About
 :title: About Michael T. Wolfinger
 :summary: Background, affiliations, and research profile of Michael T. Wolfinger.
 :description: Learn more about Michael T. Wolfinger, computational RNA biologist, Principal Investigator at the University of Vienna, and founder of RNA Forecast.
-:cover: static/bg6.webp
+:cover: /static/bg6.webp
 :landing:
 
   .. container:: m-row
