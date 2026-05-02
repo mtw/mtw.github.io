@@ -27,7 +27,7 @@ About
 
       .. container:: m-col-l-4 m-col-m-4 m-push-m-0 m-col-s-7 m-push-s-3 m-col-t-10 m-push-t-1
 
-        .. figure:: static/mtw.jpg
+        .. figure:: /static/mtw.jpg
           :alt: Michael T. Wolfinger
 
   .. container:: m-row
