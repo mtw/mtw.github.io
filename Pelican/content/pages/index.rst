@@ -30,17 +30,17 @@ Home
 
               <br/><br/>
               <span class="m-landing-intro">
-              <p>RNA molecules acquire structure, follow folding paths, and act in molecular contexts that shape what they do.</p>
+              <p>RNA biology becomes much more informative when structure, folding pathways, and molecular context are considered together, rather than treating sequence alone as the main source of meaning.</p>
               </span>
 
   .. container:: m-row
 
       .. container:: m-col-l-12  m-col-m-12 m-col-s-12  m-col-t-12  m-noindent m-landing-text
 
-        I am Michael T. Wolfinger, and my work focuses on the computational side of that problem: structure prediction, folding kinetics, structure-aware RNA design, RNA-protein recognition, and structured viral RNAs. The aim is not only to model RNA, but to understand which models are biologically meaningful and which conclusions they can actually support.
+        I am Michael T. Wolfinger, and my work focuses on the computational side of that problem: structure prediction, folding kinetics, structure-aware RNA design, RNA-protein recognition, and structured viral RNAs. The aim is not only to model RNA, but to understand which representations are biologically meaningful and which conclusions they can actually support.
 
-        This site brings together the underlying research, the publication record, and a growing set of essays that place individual papers in a broader scientific context. I am a Principal Investigator at the University of Vienna and affiliated with the :link-flat-strong:`Theoretical Biochemistry Group (TBI) <http://www.tbi.univie.ac.at/>`, a long-standing centre for RNA bioinformatics and home of the :link-flat-strong:`ViennaRNA Package <http://www.tbi.univie.ac.at/RNA>`.
+        The material collected here reflects that perspective across research papers, longer essays, and applied work. I am a Principal Investigator at the University of Vienna and affiliated with the :link-flat-strong:`Theoretical Biochemistry Group (TBI) <http://www.tbi.univie.ac.at/>`, a long-standing centre for RNA bioinformatics and home of the :link-flat-strong:`ViennaRNA Package <http://www.tbi.univie.ac.at/RNA>`.
 
-        The main scientific themes are outlined on the :link-flat-strong:`Research page <{filename}/research.rst>`. The formal record is collected under :link-flat-strong:`Publications <{filename}/publications.rst>`, while the :link-flat-strong:`Blog </blog/>` expands many of the papers into longer articles and methodological essays. Workshops, design reviews, and advisory work are described under :link-flat-strong:`Services </services>`.
+        The main scientific themes are outlined on the :link-flat-strong:`Research page <{filename}/research.rst>`. The formal publication record is collected under :link-flat-strong:`Publications <{filename}/publications.rst>`, while the :link-flat-strong:`Blog </blog/>` expands many of the papers into longer articles and methodological essays. Workshops, design reviews, and advisory work are described under :link-flat-strong:`Services </services>`.
 
         For the fuller profile view, including background and affiliations, see :link-flat-strong:`About <{filename}/about.rst>`. Teaching and contact details are available on the corresponding pages.
