@@ -30,51 +30,8 @@ Home
 
               <br/><br/>
               <span class="m-landing-intro">
-              <p>RNA molecules are not defined by sequence alone. Their structure, folding paths, and molecular context often determine what they do.</p>
+              <p>RNA molecules acquire structure, follow folding paths, and act in molecular contexts that shape what they do.</p>
               </span>
-
-  .. container:: m-row
-
-    .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
-
-      .. frame:: Research
-
-        An overview of the main scientific themes, from RNA structure
-        prediction and folding kinetics to viral non-coding RNAs and
-        structure-aware design.
-
-        :link-flat-strong:`Go to Research <{filename}/research.rst>`
-
-    .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
-
-      .. frame:: Publications
-
-        The formal publication record, spanning computational RNA
-        biology, synthetic biology, virology, structure prediction, and
-        molecular modeling.
-
-        :link-flat-strong:`Go to Publications <{filename}/publications.rst>`
-
-  .. container:: m-row
-
-    .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
-
-      .. frame:: Blog
-
-        Longer articles that explain methods, results, and broader
-        context in a more accessible way than a paper title or abstract
-        can.
-
-        :link-flat-strong:`Go to the Blog </blog/>`
-
-    .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
-
-      .. frame:: Services
-
-        Workshops, design reviews, and advisory support for research
-        groups and biotech teams working with computational RNA biology.
-
-        :link-flat-strong:`Go to Services </services>`
 
   .. container:: m-row
 
@@ -84,4 +41,6 @@ Home
 
         This site brings together the underlying research, the publication record, and a growing set of essays that place individual papers in a broader scientific context. I am a Principal Investigator at the University of Vienna and affiliated with the :link-flat-strong:`Theoretical Biochemistry Group (TBI) <http://www.tbi.univie.ac.at/>`, a long-standing centre for RNA bioinformatics and home of the :link-flat-strong:`ViennaRNA Package <http://www.tbi.univie.ac.at/RNA>`.
 
-        For the fuller profile view, including background and affiliations, see :link-flat-strong:`About <{filename}/about.rst>`. Teaching, contact details, and workshop formats are available on the corresponding pages.
+        The main scientific themes are outlined on the :link-flat-strong:`Research page <{filename}/research.rst>`. The formal record is collected under :link-flat-strong:`Publications <{filename}/publications.rst>`, while the :link-flat-strong:`Blog </blog/>` expands many of the papers into longer articles and methodological essays. Workshops, design reviews, and advisory work are described under :link-flat-strong:`Services </services>`.
+
+        For the fuller profile view, including background and affiliations, see :link-flat-strong:`About <{filename}/about.rst>`. Teaching and contact details are available on the corresponding pages.
