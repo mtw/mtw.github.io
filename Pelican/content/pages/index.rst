@@ -6,7 +6,7 @@ Home
 :cover: static/bg6.webp
 :hide_navbar_brand: True
 :summary: Computational RNA biology, RNA structure, and design research by Michael T. Wolfinger
-:title: Computational RNA Biology by Michael T. Wolfinger
+:title: Computational RNA Biology
 :description: Explore research, publications, essays, and services in computational RNA biology, RNA structure prediction, synthetic RNA design, and related methods.
 :hide_navbar_brand: True
 :extrahead: mtw_ldjson
@@ -20,7 +20,7 @@ Home
 
         .. raw:: html
 
-            <h1>Computational RNA Biology by Michael T. Wolfinger</h1>
+            <h1>Computational RNA Biology</h1>
 
   .. container:: m-row
 
@@ -30,7 +30,7 @@ Home
 
               <br/><br/>
               <span class="m-landing-intro">
-              <p>Welcome. This is where I bring together my work on RNA structure, folding, design, and computational interpretation. You can start with the research overview, move through the publication record, read longer essays that unpack individual papers, or look at workshop and advisory formats for teams that want focused external input.</p>
+              <p>Welcome. I am Michael T. Wolfinger, and this is where I bring together my work on RNA structure, folding, design, and computational interpretation. You can start with the research overview, move through the publication record, read longer essays that unpack individual papers, or look at workshop and advisory formats for teams that want focused external input.</p>
               </span>
 
   .. container:: m-row
