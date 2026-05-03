@@ -13,78 +13,79 @@ Michael T. Wolfinger's Research
 .. role:: link-sup(link)
   :class: m-flat m-text m-footnote
 
-My research is centered on one broad question: how much biological and engineering insight can we extract once RNA structure is treated as a primary object rather than as a downstream annotation. That question runs through my work on secondary and tertiary structure prediction, folding kinetics, RNA-protein recognition, viral non-coding RNAs, and synthetic RNA design. Some projects are method-driven, others are motivated by virology or translational RNA biology, but the common aim is the same. I want computational models to say something that is mechanistically useful, not merely numerically impressive.
+My research is concerned with the role of RNA structure in biological function, regulation, and design. I work on computational methods for RNA secondary and tertiary structure prediction, folding kinetics, RNA-protein recognition, synthetic RNA design, and structured viral RNAs. Across these areas, the central question is how far computation can take us when structural information is treated as mechanistically informative rather than as a decorative annotation on top of sequence.
 
-This means combining different styles of evidence. Thermodynamic folding models, comparative sequence analysis, molecular simulation, experimental probing, and machine learning each contribute something, but none is sufficient in isolation. A recurring part of that effort is the interpretation of chemical probing data, including SHAPE, SHAPE-MaP, and DMS-based workflows, in settings where structure needs to be inferred rather than merely annotated. Much of my work is about making those pieces work together in a way that remains interpretable.
+That work sits at the interface of method development and application. Some projects are driven by basic questions in RNA folding or RNA-protein interaction, others by comparative virology or translational RNA biology. In each case, I am interested in models that remain interpretable and that support biological judgment. Thermodynamic folding models, comparative sequence analysis, molecular simulation, chemical probing data, and machine learning all have their place, but none of them is sufficient on its own. A recurring theme in my work is how these sources of evidence can be combined without losing sight of mechanism.
 
-Key Research Interests
-======================
-
-.. container:: m-row
-
-  .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
-
-    .. frame:: RNA Structure Prediction in 2D and 3D
-
-      Developing and applying computational methods to analyze RNA folding in secondary and tertiary structure, with emphasis on interpretable models, biologically relevant constraints, and the principled use of SHAPE and related probing data.
-
-  .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
-
-    .. frame:: Synthetic Biology: De-novo RNA Design
-
-      Engineering functional RNAs and inducible molecular devices such as artificial riboswitches, with attention to both structure and folding kinetics.
-
-
-.. container:: m-row
-
-  .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
-
-     .. frame:: AI-Powered RNA Folding Dynamics
-
-      Developing machine-learning methods where they are genuinely useful for RNA problems, especially in settings where biophysical structure and kinetic constraints still need to remain explicit.
-
-  .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
-
-    .. frame:: RNA-Protein Interactions
-
-      Investigating how RNA interacts with proteins using 2D and 3D modeling, molecular simulation, and comparative analysis.
-
-
-.. container:: m-row
-
-  .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
-
-     .. frame:: Co-transcriptional RNA Folding Kinetics
-
-      Exploring how RNA folds during transcription and how folding pathways shape regulatory behavior, especially in kinetically controlled systems such as artificial riboswitches.
-
-
-  .. container:: m-col-l-6 m-col-m-6 m-container-inflatable
-
-    .. frame:: Virus Bioinformatics
-
-      Characterizing structured RNA elements in viral genomes, including xrRNAs and long-range interactions, and linking these features to comparative genomics and molecular epidemiology.
-
-
-Research Areas
+Research Themes
 ===============
 
-The strongest themes across the publication record are:
+Several lines of work have remained central over the years.
+
+RNA structure prediction remains one of them. I am interested in both
+secondary and tertiary structure, especially in settings where purely
+sequence-based inference is not enough. This includes the principled
+use of chemical probing data such as SHAPE, SHAPE-MaP, and DMS-based
+workflows, as well as comparative evidence in families where structure
+is conserved more clearly than primary sequence.
+
+Folding kinetics is another. RNA molecules are not defined by a single
+minimum-energy structure, and many regulatory or designed systems
+depend on how the folding process unfolds in time. This is particularly
+relevant for co-transcriptional folding, ligand-controlled RNAs, and
+design problems where local alternatives or metastable states are part
+of the mechanism rather than a nuisance.
+
+Synthetic RNA design provides a natural extension of these questions.
+Here the challenge is not only to predict what a sequence might do, but
+to decide which sequence representations are good enough to support
+experimental decisions. That includes design logic, accessibility,
+kinetic effects, and the interpretation of structure-guided constraints
+before constructs are taken forward.
+
+Comparative RNA virology has become a major application area. Much of
+this work focuses on conserved structured elements in flaviviral and
+related genomes, including xrRNAs, long-range interactions, and
+untranslated regions whose architecture is preserved even where raw
+sequence similarity is weak. These systems are useful both biologically
+and methodologically, because they expose the limits of sequence-only
+thinking.
+
+I also work on RNA-protein interactions and structure-guided modelling
+in systems where RNA recognition cannot be understood from motif
+matching alone. This includes the use of molecular modelling and
+simulation to connect predicted structures with plausible interaction
+geometries and functional interpretation.
+
+Selected projects use machine learning where it offers a clear
+advantage, for example in kinetic approximation or structure-guided
+analysis. The emphasis is not on AI for its own sake, but on problems
+where learned models can accelerate or refine a well-defined RNA
+question without replacing physical or mechanistic reasoning.
+
+Current Focus Areas
+===================
 
 .. raw:: html
 
    <ul>
-     <li>RNA structure prediction that stays close to biophysics while taking advantage of SHAPE, DMS, and related experimental data where appropriate</li>
-     <li>kinetics-aware thinking for riboswitches, co-transcriptional folding, and RNA design problems where equilibrium alone is not enough</li>
-     <li>comparative RNA virology, especially conserved structured elements in flaviviral untranslated regions</li>
-     <li>RNA-protein recognition and structure-guided modeling in systems where sequence evidence alone is insufficient</li>
+     <li>RNA secondary and tertiary structure prediction informed by thermodynamics, probing data, and comparative analysis</li>
+     <li>co-transcriptional folding, metastable structure, and kinetic modelling in regulatory and designed RNAs</li>
+     <li>structure-aware RNA design, especially in contexts where experimental follow-up is costly or decision-critical</li>
+     <li>comparative analysis of structured viral RNAs, with a focus on flaviviral untranslated regions and exoribonuclease-resistant elements</li>
+     <li>RNA-protein interaction modelling and machine-learning methods for well-scoped RNA inference problems</li>
    </ul>
 
-You can explore these threads in more detail through the :link-flat:`publication list <{filename}/publications.rst>` or the :link-flat:`blog </blog/>`, where many papers are accompanied by longer explanations and context.
+The :link-flat:`publication list <{filename}/publications.rst>` gives the formal record of this work. Many papers are also discussed in more detail on the :link-flat:`blog </blog/>`, where methodological and biological context can be developed more fully than in a publication list alone.
 
 Collaborative Work
 ==================
 
-Successful research depends on a :link-flat:`strong team <{filename}/team.rst>` and on collaborations that bring together complementary experimental and computational expertise. In addition to our internal work, I collaborate with international partners across RNA bioinformatics, structural biology, virology, and related areas.
+My work depends on collaboration with experimental and computational
+partners across RNA bioinformatics, structural biology, virology,
+synthetic biology, and related areas. That includes close interaction
+within my own :link-flat:`research group <{filename}/team.rst>`, but
+also longer-standing collaborations with international partners whose
+questions require a structure-aware computational perspective.
 
-Some of the same expertise is also available in workshop or design-review format for groups that need focused external input on RNA structure, modeling, or computational design strategy. That work is described on the :link-flat:`services page </services>`.
+Some of the same expertise is also available in workshop or design-review format for groups that need focused external input on RNA structure, chemical probing interpretation, modelling, or computational design strategy. That work is described on the :link-flat:`services page </services>`.
