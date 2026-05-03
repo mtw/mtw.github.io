@@ -1,8 +1,8 @@
 Contact
 #######
-:summary: Contact Michael Thomas Wolfinger
-:title: Reach out to Michael T. Wolfinger
-:description: Get in touch with Michael T. Wolfinger for workshop and services enquiries, academic collaboration, or research questions.
+:summary: Contact Michael T. Wolfinger
+:title: Contact Michael T. Wolfinger
+:description: Contact Michael T. Wolfinger about ViennaRNA workshops, RNA design reviews, SHAPE or chemical probing interpretation, academic collaboration, or research questions.
 
 :breadcrumb: / Home
 
