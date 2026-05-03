@@ -1,5 +1,5 @@
-Michael Thomas Wolfinger's Research
-###################################
+Michael T. Wolfinger's Research
+###############################
 :title: Research | Michael T. Wolfinger
 :summary: Research by Michael T. Wolfinger on RNA structure, chemical probing, viruses, and structure-aware design
 :description: Research by Michael T. Wolfinger on computational RNA biology, RNA structure, SHAPE and chemical probing interpretation, viral non-coding RNAs, and structure-aware design.
