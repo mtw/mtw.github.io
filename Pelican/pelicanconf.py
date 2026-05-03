@@ -143,6 +143,7 @@ M_BLOG_DESCRIPTION = "michaelwolfinger.com | Advancing RNA biology through the i
 M_SOCIAL_TWITTER_SITE = '@mtwolfinger'
 M_SOCIAL_TWITTER_SITE_ID = 15105886
 #M_SOCIAL_IMAGE = 'https://your.brand/static/site.png'
+M_SOCIAL_IMAGE = '/static/mtw.jpg'
 M_SOCIAL_BLOG_SUMMARY = "Unlocking the future of RNA biology through innovative AI and computational techniques"
 
 PAGE_URL = '{slug}/'

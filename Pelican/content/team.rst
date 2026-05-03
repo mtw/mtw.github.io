@@ -1,8 +1,8 @@
 Michael Thomas Wolfinger's Present and Past Group Members
 #########################################################
-:title: Team members of the Wolfinger research group
-:summary: Current and past members of the Wolfinger research group.
-:description: Present and past members of the Wolfinger research group at the University of Vienna and FH Campus Wien.
+:title: Team | Michael T. Wolfinger
+:summary: Current and past members of Michael T. Wolfinger's research group.
+:description: Current and past members of Michael T. Wolfinger's research group at the University of Vienna and FH Campus Wien.
 
 :breadcrumb: / Home
 

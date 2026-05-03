@@ -1,8 +1,8 @@
 Michael Thomas Wolfinger's Research
 ###################################
-:title: Michael Thomas Wolfinger's Research
-:summary: Synthetic Biology & RNA Science: Structure, Viruses, and Design
-:description: Research on computational RNA biology, RNA structure, viral non-coding RNAs, and structure-aware design.
+:title: Research | Michael T. Wolfinger
+:summary: Research by Michael T. Wolfinger on RNA structure, viruses, and structure-aware design
+:description: Research by Michael T. Wolfinger on computational RNA biology, RNA structure, viral non-coding RNAs, and structure-aware design.
 
 :breadcrumb: / Home
 

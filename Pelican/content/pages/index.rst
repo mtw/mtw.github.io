@@ -6,8 +6,8 @@ Home
 :cover: /static/bg6.webp
 :hide_navbar_brand: True
 :summary: Computational RNA biology, RNA structure, and design research by Michael T. Wolfinger
-:title: RNA Structure, Function, and Design
-:description: Explore research, publications, essays, and services in computational RNA biology, RNA structure prediction, synthetic RNA design, and related methods.
+:title: Michael T. Wolfinger | RNA Structure, Function, and Design
+:description: Michael T. Wolfinger is a computational RNA biologist at the University of Vienna. Explore research, publications, essays, and services in RNA structure, function, and design.
 :hide_navbar_brand: True
 :extrahead: mtw_ldjson
 :landing:

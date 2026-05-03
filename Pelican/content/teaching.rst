@@ -2,7 +2,7 @@ Teaching
 ########
 :summary: Teaching by Michael Thomas Wolfinger
 :title: Michael Thomas Wolfinger's Teaching
-:description: Discover an extensive selection of university courses and lectures by Michael T. Wolfinger on this dedicated Teaching page
+:description: Teaching by Michael T. Wolfinger, including university courses, lectures, and workshop-related training in computational RNA biology.
 
 :breadcrumb: / Home
 
