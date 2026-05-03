@@ -17,6 +17,12 @@ When sequence conservation is not enough to find functional RNA structure
 .. role:: link-flat(link)
   :class: m-flat m-text
 
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
+
+  .. figure:: {static}/files/figures/blog_img_01.webp
+        :alt: RNA multiple sequence alignment and secondary structure
+        :figclass: m-figure m-flat
+
 Sequence conservation is a useful starting point in comparative biology, but it can be a poor guide to functional RNA structure. Structured RNAs often remain under selection at the level of base pairing, topology, or higher-order organization even while their primary sequence drifts. If we insist on looking only for conserved words in the sequence, we miss some of the most interesting signals.
 
 This is especially clear in viral untranslated regions. In many RNA viruses, the non-coding parts of the genome do not merely separate coding segments or stabilize transcript ends. They carry structured elements that influence replication, cyclization, nuclease resistance, host adaptation, and regulatory timing. Those functions can remain conserved even when the underlying sequence has changed substantially.
