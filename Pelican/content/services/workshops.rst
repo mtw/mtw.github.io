@@ -63,6 +63,10 @@ adapted to research labs, biotech teams, doctoral programmes, or
 interdisciplinary groups that want a more structured way into the
 field.
 
+They have been used in university teaching, invited workshops, and
+small-group training for research teams that need hands-on RNA
+informatics rather than a general overview.
+
 Workshop Formats
 =================
 
