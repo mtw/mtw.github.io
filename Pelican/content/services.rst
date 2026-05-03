@@ -2,7 +2,7 @@ Expert Services in Computational RNA Design
 ############################################
 :summary: Expert Services in Computational RNA Design by Michael Thomas Wolfinger
 :title: RNA Design Reviews and Advisory Support | Michael T. Wolfinger
-:description: RNA design reviews, ViennaRNA workshops, and advisory support for biotech teams and research groups, by Michael T. Wolfinger, computational RNA biologist at the University of Vienna.
+:description: RNA design reviews, SHAPE and chemical probing interpretation, ViennaRNA workshops, and advisory support for biotech teams and research groups, by Michael T. Wolfinger, computational RNA biologist at the University of Vienna.
 :breadcrumb: / Home
 :landing:
 
@@ -15,11 +15,11 @@ Expert Services in Computational RNA Design
         <h1>Expert Support for RNA Structure, Design, and Analysis</h1>
 
       I work with research groups and biotech teams that need focused,
-      scientifically grounded input on RNA structure, RNA design, and
-      computational interpretation. Some projects need a second opinion
-      before synthesis. Others need practical training, or a more
-      sustained advisory exchange while a programme is still taking
-      shape.
+      scientifically grounded input on RNA structure, RNA design,
+      chemical probing analysis, and computational interpretation. Some
+      projects need a second opinion before synthesis. Others need
+      practical training, or a more sustained advisory exchange while a
+      programme is still taking shape.
 
       The common aim is clarity. I help teams sort out which questions
       matter most, where the main technical risks sit, and what the next
@@ -31,8 +31,9 @@ Expert Services in Computational RNA Design
 
       .. frame:: Design Reviews
 
-        Independent assessment of RNA constructs, design strategies, and
-        computational reasoning before resources are committed.
+        Independent assessment of RNA constructs, design strategies,
+        SHAPE- or DMS-informed interpretation, and computational
+        reasoning before resources are committed.
 
     .. container:: m-col-l-4 m-col-m-4 m-container-inflatable
 
@@ -59,8 +60,8 @@ When This Kind of Support Is Useful
 
    <ul>
      <li>You have an RNA construct or design concept and want an independent expert view before committing to synthesis or experiments.</li>
-     <li>Your team needs practical training in ViennaRNA, RNA structure prediction, or structure-aware RNA design.</li>
-     <li>You have RNA data but need mechanistic interpretation to move forward with confidence.</li>
+     <li>Your team needs practical training in ViennaRNA, RNA structure prediction, chemical probing analysis, or structure-aware RNA design.</li>
+     <li>You have RNA structure data from SHAPE, SHAPE-MaP, DMS-MaPseq, or related probing workflows and need mechanistic interpretation to move forward with confidence.</li>
      <li>You are preparing a grant, a go/no-go decision, or an internal review and need focused, credible scientific input.</li>
    </ul>
 
@@ -68,8 +69,9 @@ RNA Design Review
 ==================
 
 An RNA design review is an independent written assessment of your
-construct, design strategy, or computational approach. You send the
-relevant materials such as sequences, design notes, slides, or a
+construct, design strategy, probing-informed interpretation, or
+computational approach. You send the relevant materials such as
+sequences, SHAPE or DMS reactivity profiles, design notes, slides, or a
 manuscript section. I then prepare a structured technical review that
 looks at the design logic, the main assumptions, likely weak points,
 and sensible next steps. A follow-up call can be added if discussion
@@ -88,7 +90,7 @@ Depending on the material you provide and the scope we agree on, a design review
    <ul>
      <li>a short written memo or annotated slide deck</li>
      <li>a clear statement of the main technical risks, uncertainties, and assumptions</li>
-     <li>practical recommendations for the next computational or experimental step</li>
+     <li>practical recommendations for the next computational or experimental step, including when probing data materially changes the interpretation</li>
      <li>an optional follow-up discussion to clarify tradeoffs and priorities</li>
    </ul>
 
@@ -102,7 +104,7 @@ This kind of support is usually most useful for:
    <ul>
      <li>research groups planning a new RNA construct or assay series</li>
      <li>biotech teams making a go or no-go decision on a candidate design</li>
-     <li>projects where computational results need interpretation before further experiments are commissioned</li>
+     <li>projects where computational results or SHAPE / DMS probing data need interpretation before further experiments are commissioned</li>
      <li>teams that want an external expert view without building a full in-house RNA informatics function</li>
    </ul>
 
@@ -111,7 +113,7 @@ Example Review Question
 
 A typical request sounds like this:
 
-  "We have three candidate switch designs that all satisfy the same equilibrium constraints, but they differ in local alternatives around the aptamer and expression platform. Which construct is least likely to fail once folding kinetics, accessibility, and the intended assay conditions are taken into account?"
+  "We have three candidate switch designs that all satisfy the same equilibrium constraints, but they differ in local alternatives around the aptamer and expression platform. We also have SHAPE-MaP data that does not fully agree with the predicted fold. Which construct is least likely to fail once folding kinetics, accessibility, and the assay conditions are taken into account?"
 
 Questions like that are usually less about producing one more structure plot and more about deciding which assumptions are solid enough to justify synthesis.
 
@@ -127,10 +129,11 @@ Computational RNA Workshops
 =============================
 
 I also offer hands-on training in RNA structure prediction, ViennaRNA,
-and structure-aware RNA design for research teams, academic groups,
-and doctoral programmes. Workshops are available in short, half-day,
-and full-day formats, either remotely or onsite, and are scoped in
-advance to fit the background of the group.
+SHAPE- and DMS-guided interpretation, and structure-aware RNA design
+for research teams, academic groups, and doctoral programmes.
+Workshops are available in short, half-day, and full-day formats,
+either remotely or onsite, and are scoped in advance to fit the
+background of the group.
 
 See the :link-flat:`workshops page </services/workshops/>` for full details on
 available formats and how sessions are organised.
@@ -149,8 +152,9 @@ For teams that need ongoing input rather than a single review or
 workshop, I offer selected advisory arrangements. These usually combine
 regular calls with asynchronous review of materials and short written
 notes. The focus stays close to the questions the team is actively
-working through, whether that is design logic, computational
-interpretation, or planning the next experimental step.
+working through, whether that is design logic, SHAPE or DMS probing
+interpretation, computational analysis, or planning the next
+experimental step.
 
 Get in Touch
 =============

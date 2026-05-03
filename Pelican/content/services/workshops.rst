@@ -2,7 +2,7 @@ Computational RNA Workshops
 ############################
 :summary: Computational RNA Workshops by Michael Thomas Wolfinger
 :title: ViennaRNA Workshops and Computational RNA Training | Michael T. Wolfinger
-:description: Hands-on ViennaRNA workshops and computational RNA training by Michael T. Wolfinger, covering RNA structure prediction, structure-aware RNA design, and related methods for research teams, academic groups, and doctoral programs.
+:description: Hands-on ViennaRNA workshops and computational RNA training by Michael T. Wolfinger, covering RNA structure prediction, SHAPE and chemical probing interpretation, structure-aware RNA design, and related methods for research teams, academic groups, and doctoral programs.
 :breadcrumb: / Home
 :landing:
 
@@ -20,10 +20,11 @@ Computational RNA Workshops
       competence rather than a purely theoretical overview.
 
       Some groups need a compact introduction to RNA structure
-      prediction. Others want a deeper session on ViennaRNA, RNA
-      design, or therapeutic applications. In each case, the material is
-      adjusted to the background of the audience and the scientific
-      questions they actually care about.
+      prediction. Others want a deeper session on ViennaRNA, SHAPE or
+      DMS probing interpretation, RNA design, or therapeutic
+      applications. In each case, the material is adjusted to the
+      background of the audience and the scientific questions they
+      actually care about.
 
   .. container:: m-row
 
@@ -93,7 +94,7 @@ Workshop Formats
 
 	  .. frame:: Computational RNA for Therapeutics
 
-			A full-day workshop on computational strategies for therapeutic RNA development, covering mRNA optimisation, structure-guided sequence engineering, and the role of chemical modifications in stability and function. For groups working on RNA therapeutics who want to think more computationally about their design process.
+			A full-day workshop on computational strategies for therapeutic RNA development, covering mRNA optimisation, structure-guided sequence engineering, SHAPE- and DMS-informed interpretation, and the role of chemical modifications in stability and function. For groups working on RNA therapeutics who want to think more computationally about their design process.
 
 
 Who This Is For
@@ -118,7 +119,7 @@ participants usually leave with:
 
    <ul>
      <li>a clearer understanding of what RNA structure predictions can and cannot support biologically</li>
-     <li>hands-on familiarity with relevant ViennaRNA workflows or related analysis steps</li>
+     <li>hands-on familiarity with relevant ViennaRNA workflows, SHAPE- or DMS-guided interpretation, or related analysis steps</li>
      <li>worked examples and materials that can be reused after the session</li>
      <li>a better sense of how to connect computational output to experimental decisions</li>
    </ul>
