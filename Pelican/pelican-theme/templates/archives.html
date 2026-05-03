@@ -296,6 +296,15 @@
           {% endif %}
         {% endif %}
       {% endif %}
+      {% if featured_excerpt and '<figure' in featured_excerpt %}
+        {% set featured_excerpt = featured_excerpt.split('<figure', 1)[0] %}
+      {% endif %}
+      {% if featured_excerpt and '<div class="m-col' in featured_excerpt %}
+        {% set featured_excerpt = featured_excerpt.split('<div class="m-col', 1)[0] %}
+      {% endif %}
+      {% if featured_excerpt and '<img' in featured_excerpt %}
+        {% set featured_excerpt = featured_excerpt.split('<img', 1)[0] %}
+      {% endif %}
       <div class="m-blog-index">
         <section class="m-blog-feature">
           <div class="m-blog-feature-copy">
