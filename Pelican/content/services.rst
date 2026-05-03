@@ -26,6 +26,11 @@ Expert Services in Computational RNA Design
       matter most, where the main technical risks sit, and what the next
       sensible step looks like.
 
+      The workshop formats described here grow out of university
+      teaching at the University of Vienna, the University of Freiburg,
+      and FH Campus Wien, as well as invited training for research
+      groups and doctoral programmes.
+
   .. container:: m-row
 
     .. container:: m-col-l-4 m-col-m-4 m-container-inflatable
@@ -135,6 +140,9 @@ for research teams, academic groups, and doctoral programmes.
 Workshops are available in short, half-day, and full-day formats,
 either remotely or onsite, and are scoped in advance to fit the
 background of the group.
+
+These sessions build on formats already used in university courses,
+invited workshops, and small-group training settings.
 
 See the :link-flat:`workshops page </services/workshops/>` for full details on
 available formats and how sessions are organised.
