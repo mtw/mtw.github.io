@@ -1,8 +1,8 @@
 Computational RNA Workshops
 ############################
 :summary: Computational RNA Workshops by Michael Thomas Wolfinger
-:title: Computational RNA Workshops | Michael T. Wolfinger
-:description: Hands-on computational RNA workshops by Michael T. Wolfinger, covering RNA structure prediction, ViennaRNA, and structure-aware RNA design for research teams, academic groups, and doctoral programs.
+:title: ViennaRNA Workshops and Computational RNA Training | Michael T. Wolfinger
+:description: Hands-on ViennaRNA workshops and computational RNA training by Michael T. Wolfinger, covering RNA structure prediction, structure-aware RNA design, and related methods for research teams, academic groups, and doctoral programs.
 :breadcrumb: / Home
 :landing:
 
