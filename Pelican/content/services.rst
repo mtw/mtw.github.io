@@ -1,7 +1,7 @@
 Expert Services in Computational RNA Design
 ############################################
 :summary: Expert Services in Computational RNA Design by Michael Thomas Wolfinger
-:title: Expert Services in Computational RNA Design
+:title: RNA Design Reviews and Advisory Support | Michael T. Wolfinger
 :description: RNA design reviews, ViennaRNA workshops, and advisory support for biotech teams and research groups, by Michael T. Wolfinger, computational RNA biologist at the University of Vienna.
 :breadcrumb: / Home
 :landing:
