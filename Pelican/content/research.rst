@@ -13,9 +13,8 @@ Michael T. Wolfinger's Research
 .. role:: link-sup(link)
   :class: m-flat m-text m-footnote
 
-My research is concerned with the role of RNA structure in biological function, regulation, and design. I work on computational methods for RNA secondary and tertiary structure prediction, folding kinetics, RNA-protein recognition, synthetic RNA design, and structured viral RNAs. Across these areas, the central question is how far computation can take us when structural information is treated as mechanistically informative rather than as a decorative annotation on top of sequence.
+My research examines the role of RNA structure in biological function, regulation, and design. I work on computational methods for RNA secondary and tertiary structure prediction, folding kinetics, RNA–protein recognition, synthetic RNA design, and structured viral RNAs. This work sits at the interface of method development and application. Some projects are driven by basic questions in RNA folding or RNA–protein interaction, others by comparative virology or translational RNA biology. In each case, I am interested in interpretable models that support biological reasoning. Thermodynamic folding models, comparative sequence analysis, molecular simulation, chemical probing data, and machine learning all have their place, but none is sufficient on its own. A recurring theme in my work is how these sources of evidence can be combined without losing sight of mechanism.
 
-That work sits at the interface of method development and application. Some projects are driven by basic questions in RNA folding or RNA-protein interaction, others by comparative virology or translational RNA biology. In each case, I am interested in models that remain interpretable and that support biological judgment. Thermodynamic folding models, comparative sequence analysis, molecular simulation, chemical probing data, and machine learning all have their place, but none of them is sufficient on its own. A recurring theme in my work is how these sources of evidence can be combined without losing sight of mechanism.
 
 Research Themes
 ===============
@@ -29,19 +28,13 @@ use of chemical probing data such as SHAPE, SHAPE-MaP, and DMS-based
 workflows, as well as comparative evidence in families where structure
 is conserved more clearly than primary sequence.
 
-Folding kinetics is another. RNA molecules are not defined by a single
-minimum-energy structure, and many regulatory or designed systems
-depend on how the folding process unfolds in time. This is particularly
+Folding kinetics is another central topic. RNA molecules are not defined by a single
+minimum free energy structure, and many regulatory or designed systems
+depend on how the folding process develops in time. This is particularly
 relevant for co-transcriptional folding, ligand-controlled RNAs, and
-design problems where local alternatives or metastable states are part
-of the mechanism rather than a nuisance.
+design problems where local alternatives or metastable states are mechanistic determinants.
 
-Synthetic RNA design provides a natural extension of these questions.
-Here the challenge is not only to predict what a sequence might do, but
-to decide which sequence representations are good enough to support
-experimental decisions. That includes design logic, accessibility,
-kinetic effects, and the interpretation of structure-guided constraints
-before constructs are taken forward.
+Synthetic RNA design provides a natural extension of these questions. The challenge here is to devise sequences that fold into particular structures within a biological context. This is often accompanied by the question of which sequence qualities or representations are sufficient to support experimental decisions — including design logic, accessibility, kinetic effects, and the interpretation of structure-guided constraints before constructs are taken forward.
 
 Comparative RNA virology has become a major application area. Much of
 this work focuses on conserved structured elements in flaviviral and
