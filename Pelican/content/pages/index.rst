@@ -37,7 +37,7 @@ Home
 
       .. container:: m-col-l-12  m-col-m-12 m-col-s-12  m-col-t-12  m-noindent m-landing-text
 
-        I am Michael T. Wolfinger, and my work focuses on the computational side of that problem: structure prediction, folding kinetics, structure-aware RNA design, RNA-protein recognition, and structured viral RNAs. What interests me most is not only building models, but understanding when they are informative and when they become too coarse-grained for the question at hand.
+        I am Michael T. Wolfinger, and my work focuses on the computational side of that problem: structure prediction, folding kinetics, structure-aware RNA design, RNA-protein recognition, and structured viral RNAs. I am particularly interested in RNA systems where function depends on architecture, folding history, or interaction geometry in ways that are not obvious from sequence alone.
 
         I am a Principal Investigator at the University of Vienna and affiliated with the :link-flat-strong:`Theoretical Biochemistry Group (TBI) <http://www.tbi.univie.ac.at/>`, a long-standing centre for RNA bioinformatics and home of the :link-flat-strong:`ViennaRNA Package <http://www.tbi.univie.ac.at/RNA>`.
 
