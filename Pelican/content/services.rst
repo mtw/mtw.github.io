@@ -9,28 +9,50 @@ Expert Services in Computational RNA Design
 
   .. container:: m-row
 
-    .. container:: m-col-l-10 m-push-l-1 m-text-center
+    .. container:: m-col-l-12 m-container-inflatable
 
       .. raw:: html
 
         <h1>Expert Support for RNA Structure, Design, and Analysis</h1>
 
-      I work with research groups and biotech teams on RNA questions
-      where the computational answer is not obvious, and where getting
-      it wrong can be expensive. Some projects need a second opinion
-      before synthesis or assay development. Others need practical
-      training, or a more sustained exchange while a design or analysis
-      strategy is still taking shape.
+      .. raw:: html
+
+        <span class="m-landing-intro">
+        <p>I work with research groups and biotech teams on RNA questions where structural interpretation affects real decisions.</p>
+        </span>
+
+      Some projects need a second opinion before synthesis or assay
+      development. Others need practical training, or a more sustained
+      exchange while a design or analysis strategy is still taking
+      shape.
 
       The work is usually less about producing one more prediction than
       about deciding which structural claims are actually supported,
-      which assumptions are still weak, and which next step is worth
-      committing resources to.
+      which assumptions are still weak, and where additional
+      computation, probing, or experiment is most likely to change the
+      picture.
 
-      The workshop formats described here grow out of university
-      teaching at the University of Vienna, the University of Freiburg,
-      and FH Campus Wien, as well as invited training for research
-      groups and doctoral programmes.
+  .. container:: m-row
+
+    .. container:: m-col-l-7 m-col-m-7 m-col-s-12 m-col-t-12 m-container-inflatable
+
+      The emphasis is on hard calls: whether a construct is mature
+      enough to justify synthesis, whether SHAPE or DMS data really
+      changes the interpretation, whether a folding model is still
+      informative, or whether a local structural alternative is the
+      more serious risk.
+
+      I offer this work in three formats: independent design reviews,
+      hands-on workshops, and selected longer-running advisory support.
+
+    .. container:: m-col-l-5 m-col-m-5 m-col-s-12 m-col-t-12 m-container-inflatable
+
+      .. note-default::
+
+        The workshop formats described here grow out of university
+        teaching at the University of Vienna, the University of
+        Freiburg, and FH Campus Wien, as well as invited training for
+        research groups and doctoral programmes.
 
   .. container:: m-row
 
