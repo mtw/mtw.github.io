@@ -13,7 +13,7 @@ Michael T. Wolfinger's Research
 .. role:: link-sup(link)
   :class: m-flat m-text m-footnote
 
-My research examines the role of RNA structure in biological function, regulation, and design. I work on computational methods for RNA secondary and tertiary structure prediction, folding kinetics, RNA–protein recognition, synthetic RNA design, and structured viral RNAs. This work sits at the interface of method development and application. Some projects are driven by basic questions in RNA folding or RNA–protein interaction, others by comparative virology or translational RNA biology. In each case, I am interested in models that remain close enough to the underlying biology to be checked against experiment and used with some confidence. Thermodynamic folding models, comparative sequence analysis, molecular simulation, chemical probing data, and machine learning all have their place, but none is sufficient on its own. A recurring theme in my work is how these sources of evidence can be combined while keeping the relevant mechanism explicit.
+My research examines the role of RNA structure in biological function, regulation, and design. I work on computational methods for RNA secondary and tertiary structure prediction, folding kinetics, RNA–protein recognition, synthetic RNA design, and structured viral RNAs. Some projects are driven by basic questions in RNA folding or RNA–protein interaction, others by comparative virology or translational RNA biology. In all of them, I am interested in what can be learned once sequence alone stops being decisive. Thermodynamic folding models, comparative sequence analysis, molecular simulation, chemical probing data, and machine learning all contribute something, but none is sufficient on its own.
 
 
 Research Themes
@@ -34,15 +34,15 @@ depend on how the folding process develops in time. This is particularly
 relevant for co-transcriptional folding, ligand-controlled RNAs, and
 design problems where local alternatives or metastable states are mechanistic determinants.
 
-Synthetic RNA design provides a natural extension of these questions. The challenge here is to devise sequences that fold into particular structures within a biological context. This is often accompanied by the question of which sequence qualities or representations are sufficient to support experimental decisions — including design logic, accessibility, kinetic effects, and the interpretation of structure-guided constraints before constructs are taken forward.
+Synthetic RNA design provides a natural extension of these questions. The challenge here is to devise sequences that fold into particular structures in a biological context. That includes design logic, accessibility, kinetic effects, and the question of which constraints matter enough to justify taking a construct forward.
 
 Comparative RNA virology has become a major application area. Much of
 this work focuses on conserved structured elements in flaviviral and
 related genomes, including xrRNAs, long-range interactions, and
 untranslated regions whose architecture is preserved even where raw
-sequence similarity is weak. These systems are useful both biologically
-and methodologically, because they expose the limits of sequence-only
-thinking.
+sequence similarity is weak. These systems are informative both
+biologically and methodologically, because they make clear where
+sequence-only analysis stops being enough.
 
 I also work on RNA-protein interactions and structure-guided modelling
 in systems where RNA recognition cannot be understood from motif
@@ -52,9 +52,9 @@ geometries and functional interpretation.
 
 Selected projects use machine learning where it offers a clear
 advantage, for example in kinetic approximation or structure-guided
-analysis. The emphasis is not on AI for its own sake, but on problems
-where learned models can accelerate or refine a well-defined RNA
-question without replacing physical or mechanistic reasoning.
+analysis. The point is not to use AI everywhere, but to apply it where
+it helps with a specific RNA problem and can still be checked against
+other evidence.
 
 Current Focus Areas
 ===================
@@ -78,7 +78,7 @@ My work depends on collaboration with experimental and computational
 partners across RNA bioinformatics, structural biology, virology,
 synthetic biology, and related areas. That includes close interaction
 within my own :link-flat:`research group <{filename}/team.rst>`, but
-also longer-standing collaborations with international partners whose
-questions require a structure-aware computational perspective.
+also longer-standing collaborations with international partners working
+on questions where structure changes the biological interpretation.
 
 Some of the same expertise is also available in workshop or design-review format for groups that need focused external input on RNA structure, chemical probing interpretation, modelling, or computational design strategy. That work is described on the :link-flat:`services page </services>`.
