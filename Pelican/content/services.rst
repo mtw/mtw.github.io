@@ -7,7 +7,7 @@ Expert Services in Computational RNA Design
 :breadcrumb: / Home
 :landing:
 
-  .. container:: m-row
+  .. container:: m-row m-equal-panels
 
     .. container:: m-col-l-12 m-container-inflatable
 
