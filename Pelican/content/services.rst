@@ -15,16 +15,17 @@ Expert Services in Computational RNA Design
 
         <h1>Expert Support for RNA Structure, Design, and Analysis</h1>
 
-      I work with research groups and biotech teams that need focused,
-      scientifically grounded input on RNA structure, RNA design,
-      chemical probing analysis, and computational interpretation. Some
-      projects need a second opinion before synthesis. Others need
-      practical training, or a more sustained advisory exchange while a
-      programme is still taking shape.
+      I work with research groups and biotech teams on RNA questions
+      where the computational answer is not obvious, and where getting
+      it wrong can be expensive. Some projects need a second opinion
+      before synthesis or assay development. Others need practical
+      training, or a more sustained exchange while a design or analysis
+      strategy is still taking shape.
 
-      The common aim is clarity. I help teams sort out which questions
-      matter most, where the main technical risks sit, and what the next
-      sensible step looks like.
+      The work is usually less about producing one more prediction than
+      about deciding which structural claims are actually supported,
+      which assumptions are still weak, and which next step is worth
+      committing resources to.
 
       The workshop formats described here grow out of university
       teaching at the University of Vienna, the University of Freiburg,
@@ -79,9 +80,10 @@ construct, design strategy, probing-informed interpretation, or
 computational approach. You send the relevant materials such as
 sequences, SHAPE or DMS reactivity profiles, design notes, slides, or a
 manuscript section. I then prepare a structured technical review that
-looks at the design logic, the main assumptions, likely weak points,
-and sensible next steps. A follow-up call can be added if discussion
-would help.
+looks at the design logic, the assumptions that carry the argument, the
+points where the inference is still underdetermined, and the places
+where kinetics, accessibility, or local alternatives are likely to
+matter. A follow-up call can be added if discussion would help.
 
 This format is often useful when a team wants a credible external view
 before committing time, synthesis, or experimental effort.
@@ -121,7 +123,9 @@ A typical request sounds like this:
 
   "We have three candidate switch designs that all satisfy the same equilibrium constraints, but they differ in local alternatives around the aptamer and expression platform. We also have SHAPE-MaP data that does not fully agree with the predicted fold. Which construct is least likely to fail once folding kinetics, accessibility, and the assay conditions are taken into account?"
 
-Questions like that are usually less about producing one more structure plot and more about deciding which assumptions are solid enough to justify synthesis.
+Questions like that are usually less about producing one more structure
+plot and more about deciding whether the current evidence is strong
+enough to justify synthesis.
 
 .. raw:: html
 
@@ -160,17 +164,18 @@ Advisory Support
 For teams that need ongoing input rather than a single review or
 workshop, I offer selected advisory arrangements. These usually combine
 regular calls with asynchronous review of materials and short written
-notes. The focus stays close to the questions the team is actively
-working through, whether that is design logic, SHAPE or DMS probing
-interpretation, computational analysis, or planning the next
-experimental step.
+notes. The focus stays close to the decisions the team is actively
+working through, whether that means weighing a probing result against a
+folding model, deciding which construct variant deserves follow-up, or
+working out where additional computation is still informative and where
+it is not.
 
 Get in Touch
 =============
 
 If you are unsure which format fits your situation, write a few lines
-about what you are working on and I will suggest a sensible starting
-point.
+about the system, the current bottleneck, and the decision you are
+trying to make.
 
 .. raw:: html
 

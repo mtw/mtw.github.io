@@ -37,7 +37,7 @@ About
 
         I lead research as a Principal Investigator at the University of Vienna and am affiliated with the :link-flat:`Theoretical Biochemistry Group (TBI) <http://www.tbi.univie.ac.at/>`, a long-standing centre of RNA bioinformatics and home of the :link-flat:`ViennaRNA Package <http://www.tbi.univie.ac.at/RNA>`. In 2023 and 2024, I served as a visiting professor at the University of Freiburg.
 
-        My work spans method development and application, from RNA structure prediction and folding kinetics to synthetic RNA design, RNA-protein recognition, and comparative RNA virology.
+        My work brings together method development and biological application, with a particular focus on RNA systems where structure changes the interpretation.
 
         In addition to academic research, I founded :link-flat:`RNA Forecast <https://rnaforecast.com>`, through which I offer workshops, design reviews, and focused advisory support for research groups and biotech teams that need external expertise in computational RNA biology.
 
@@ -48,7 +48,7 @@ About
 Research Profile
 ================
 
-My publication record spans method development, comparative genomics, virus bioinformatics, RNA design, and molecular modelling. Across those areas, the recurring aim is to connect computational work to concrete biological questions.
+My publication record spans method development, comparative genomics, virus bioinformatics, RNA design, and molecular modelling. A recurring feature of that work is that it moves between formal method development and biologically concrete systems, especially where sequence alone no longer settles the question.
 
 This includes work on:
 
@@ -68,4 +68,4 @@ Teaching and Collaboration
 
 Teaching and collaborative work are a substantial part of what I do. Since 2005, I have taught computational RNA biology in university courses, workshops, and small-group settings, and I have worked with collaborators across virology, structural biology, synthetic biology, and RNA bioinformatics.
 
-For a more detailed account of the scientific themes, see the :link-flat:`research page <{filename}/research.rst>`. The formal publication record is collected under :link-flat:`publications <{filename}/publications.rst>`, and many papers are discussed at greater length on the :link-flat:`blog </blog/>`. Current group information is available on the :link-flat:`team page <{filename}/team.rst>`. For workshop enquiries, advisory support, or academic contact details, use the :link-flat:`contact page <{filename}/contact.rst>`.
+Much of that work sits at the boundary between computation and experiment: helping define which structural questions can be answered computationally, which ones need additional evidence, and how both sides can be brought into a usable workflow.
