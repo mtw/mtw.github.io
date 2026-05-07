@@ -155,17 +155,3 @@
   --dim-filled-link-active-color: #949494;
   --dim-button-active-color: #c0c0c0;
 }
-
-/* Equal-height landing panels with predictable wrapping */
-.m-equal-panels > [class*='m-col-'] {
-  display: flex;
-}
-
-.m-equal-panels > [class*='m-col-'] > .m-frame {
-  display: flex;
-  flex: 1 1 auto;
-  flex-direction: column;
-  overflow-wrap: anywhere;
-  word-break: normal;
-  hyphens: auto;
-}
