@@ -48,7 +48,7 @@ About
 Research Profile
 ================
 
-My publication record spans method development, comparative genomics, virus bioinformatics, RNA design, and molecular modelling. Across those areas, the recurring aim is to develop computational models that remain interpretable and useful in real biological settings.
+My publication record spans method development, comparative genomics, virus bioinformatics, RNA design, and molecular modelling. Across those areas, the recurring aim is to develop computational models that are relevant to concrete biological questions and robust enough to be tested against data.
 
 This includes work on:
 
