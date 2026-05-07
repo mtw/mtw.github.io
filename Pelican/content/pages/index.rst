@@ -30,14 +30,14 @@ Home
 
               <br/><br/>
               <span class="m-landing-intro">
-              <p>RNA biology becomes much more informative when structure, folding pathways, and molecular context are considered together, rather than treating sequence alone as the main source of meaning.</p>
+              <p>Much of RNA biology only comes into focus once structure, folding, and molecular context are taken seriously.</p>
               </span>
 
   .. container:: m-row
 
       .. container:: m-col-l-12  m-col-m-12 m-col-s-12  m-col-t-12  m-noindent m-landing-text
 
-        I am Michael T. Wolfinger, and my work focuses on the computational side of that problem: structure prediction, folding kinetics, structure-aware RNA design, RNA-protein recognition, and structured viral RNAs. The aim is not only to model RNA, but to judge which abstractions are adequate for a given question and where their limits begin.
+        I am Michael T. Wolfinger, and my work focuses on the computational side of that problem: structure prediction, folding kinetics, structure-aware RNA design, RNA-protein recognition, and structured viral RNAs. What interests me most is not only building models, but understanding when they are informative and when they become too coarse-grained for the question at hand.
 
         I am a Principal Investigator at the University of Vienna and affiliated with the :link-flat-strong:`Theoretical Biochemistry Group (TBI) <http://www.tbi.univie.ac.at/>`, a long-standing centre for RNA bioinformatics and home of the :link-flat-strong:`ViennaRNA Package <http://www.tbi.univie.ac.at/RNA>`.
 
