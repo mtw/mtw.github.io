@@ -21,29 +21,22 @@ Expert Services in Computational RNA Design
         <p>I work with research groups and biotech teams on RNA questions where structural interpretation affects real decisions.</p>
         </span>
 
-      Some projects need a second opinion before synthesis or assay
-      development. Others need practical training, or a more sustained
-      exchange while a design or analysis strategy is still taking
-      shape.
-
       The work is usually less about producing one more prediction than
-      about deciding which structural claims are actually supported,
-      which assumptions are still weak, and where additional
-      computation, probing, or experiment is most likely to change the
-      picture.
+      about deciding whether a structural claim is strong enough to act
+      on.
 
   .. container:: m-row
 
     .. container:: m-col-l-7 m-col-m-7 m-col-s-12 m-col-t-12 m-container-inflatable
 
-      The emphasis is on hard calls: whether a construct is mature
-      enough to justify synthesis, whether SHAPE or DMS data really
-      changes the interpretation, whether a folding model is still
-      informative, or whether a local structural alternative is the
+      Typical questions are whether a construct is mature enough to
+      justify synthesis, whether SHAPE or DMS data really changes the
+      interpretation, and whether a local structural alternative is the
       more serious risk.
 
-      I offer this work in three formats: independent design reviews,
-      hands-on workshops, and selected longer-running advisory support.
+      The work is available in three formats: independent design
+      reviews, hands-on workshops, and selected longer-running advisory
+      support.
 
     .. container:: m-col-l-5 m-col-m-5 m-col-s-12 m-col-t-12 m-container-inflatable
 
@@ -145,9 +138,8 @@ A typical request sounds like this:
 
   "We have three candidate switch designs that all satisfy the same equilibrium constraints, but they differ in local alternatives around the aptamer and expression platform. We also have SHAPE-MaP data that does not fully agree with the predicted fold. Which construct is least likely to fail once folding kinetics, accessibility, and the assay conditions are taken into account?"
 
-Questions like that are usually less about producing one more structure
-plot and more about deciding whether the current evidence is strong
-enough to justify synthesis.
+Questions like that are usually really about whether the current
+evidence is strong enough to justify synthesis.
 
 .. raw:: html
 
