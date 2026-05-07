@@ -54,8 +54,8 @@ Expert Services in Computational RNA Design
       .. frame:: Design Reviews
 
         Independent assessment of RNA constructs, design strategies,
-        SHAPE- or DMS-informed interpretation, and computational
-        reasoning before resources are committed.
+        SHAPE- or DMS-informed interpretation, and computational review
+        before resources are committed.
 
     .. container:: m-col-l-4 m-col-m-4 m-container-inflatable
 
