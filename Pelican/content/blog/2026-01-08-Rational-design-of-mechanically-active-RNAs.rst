@@ -42,13 +42,13 @@ examples of mechanically active RNAs. Their function depends on a
 ring-like topology that blocks 5' to 3' decay by enzymes such as XRN1.
 That makes them attractive design targets, but also difficult ones,
 because the relevant features are not captured well by conventional
-secondary-structure design alone.
+secondary structure design alone.
 
-At the preprint stage, the main interest of this work was whether that
+The main interest of this work was whether that
 kind of function could be approached rationally. The study starts from
 topology rather than sequence conservation and asks which structural
 elements are indispensable for XRN1 resistance. In the Aroa virus xrRNA
-used as a benchmark, the two pseudoknots do not contribute equally:
+used as a benchmark, the two pseudoknots in the xrRNA do not contribute equally:
 pseudoknot 2 behaves as the decisive gatekeeper of mechanical
 resistance, whereas pseudoknot 1 is important but less determinant on
 its own.
@@ -59,30 +59,26 @@ representation that preserves the three-way junction, the two
 pseudoknots, and characteristic length constraints between structural
 elements. Sequence generation was carried out with explicit structural
 and topological constraints, followed by ensemble-based refinement,
-SimRNA modelling, and molecular-dynamics screening for ring closure and
+SimRNA modelling, and molecular dynamics screening for ring closure and
 directional force resistance. The point was not simply to inverse-fold a
 target secondary structure, but to make topology part of the design
 objective.
 
 The synthetic constructs provide a useful progression. `syn-xrRNA1`
-captured the general architecture in silico but remained too weak
+captured the general architecture `in silico` but remained too weak
 experimentally. `syn-xrRNA2` strengthened the crucial topological region
 and reached wild-type-like XRN1 resistance. `syn-xrRNA3` then removed
 most of the familiar evolutionary sequence signal while preserving the
 geometric and energetic requirements for function. Even in that reduced
-form, the construct still folded into a threaded xrRNA architecture and
+form, the construct still folded into a bona fidae xrRNA architecture and
 stalled XRN1 efficiently.
 
-At the time of the preprint, that was the main conceptual result:
+The main conceptual result of the preprint is the following:
 mechanical RNA function could be approached through topology and
 geometry without relying on obvious sequence ancestry. The broader
 implications for synthetic biology and transcript engineering are
 better discussed in the forthcoming publication post, once the
 peer-reviewed paper is available in final form.
-
-.. frame:: Abstract
-
-   Mechanically active RNAs represent an emerging class of biomolecules whose function derives from resisting molecular forces. Among them, exoribonuclease-resistant RNAs (xrRNAs) achieve this by folding into a ring-like topology that physically blocks 5’ → 3’ degradation. However, despite years of structural insight, the rational design of such mechanically functional RNA devices has remained elusive. Here, we describe a mechanics-aware RNA design approach that enables de novo engineering of functional xrRNAs. We first identify structural determinants of force resistance by perturbing pseudoknot architecture in a model xrRNA and quantifying resulting efficiencies in the stalling of exoribonuclease XRN1. We then implement these rules in a design framework that integrates explicit topological constraints with molecular dynamics-guided optimization. The resulting synthetic xrRNAs reproduce the ring-like architecture and stall exoribonuclease XRN1 with wild-type-like efficiency. Our top-performing constructs exhibit minimal sequence similarity to known xrRNAs and evade detection by covariance models, yet remain fully functional in vitro. Together, our results show that mechanical function can be rationally designed independent of evolutionary ancestry, laying the groundwork for the design of RNA elements that modulate decay and fine-tune the mechanical stability of engineered transcripts.
 
 Citation
 ========
