@@ -9,11 +9,11 @@ Michael Thomas Wolfinger's Present and Past Group Members
 .. role:: link-sup(link)
   :class: m-flat m-text m-footnote
 
-This page lists current and past members of the Wolfinger research group. Our work depends on a mix of computational, biochemical, and virological expertise, and the group has benefited from contributions at many different career stages.
+This page lists current and past members of the Wolfinger research group.
 
-As a group, we work on problems in computational RNA biology, with a particular focus on RNA structure prediction, RNA design, structured viral RNAs, RNA-protein interactions, and folding kinetics. That means the team often brings together students and researchers with backgrounds in bioinformatics, chemistry, molecular biology, physics, and data analysis.
+The group works on problems in computational RNA biology, with a focus on RNA structure prediction, RNA design, structured viral RNAs, RNA-protein interactions, and folding kinetics. Team members come from backgrounds including bioinformatics, chemistry, molecular biology, physics, and data analysis.
 
-Many projects in the group sit at the boundary between method development and biological application. Some are strongly algorithmic, for example in RNA folding, kinetics, or design. Others are driven by concrete biological systems such as flaviviral non-coding RNAs, riboswitches, or RNA-binding proteins. In practice, the group works best when these perspectives meet: computational models stay grounded in biological questions, and biological interpretation stays explicit about what the models can and cannot show.
+Some projects are strongly methodological, for example in RNA folding, kinetics, or design. Others are driven by concrete biological systems such as flaviviral non-coding RNAs, riboswitches, or RNA-binding proteins.
 
 
 Current Team Members
