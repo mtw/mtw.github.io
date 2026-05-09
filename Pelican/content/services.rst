@@ -13,39 +13,24 @@ Expert Services in Computational RNA Design
 
       .. raw:: html
 
-        <h1>Expert Support for RNA Structure, Design, and Analysis</h1>
+        <h1>RNA Design Reviews, Workshops, and Advisory Support</h1>
 
       .. raw:: html
 
         <span class="m-landing-intro">
-        <p>I work with research groups and biotech teams on RNA questions where structural interpretation affects real decisions.</p>
+        <p>I work with research groups and biotech teams on RNA questions where the bottleneck is no longer computation itself, but deciding what the current structural evidence really supports.</p>
         </span>
+
+      Sometimes that means deciding whether a construct is mature enough
+      to justify synthesis. Sometimes it means working out whether SHAPE
+      or DMS data really changes the interpretation, or whether a local
+      structural alternative is the more serious risk.
 
       The work is usually less about producing one more prediction than
       about deciding whether a structural claim is strong enough to act
-      on.
-
-  .. container:: m-row
-
-    .. container:: m-col-l-7 m-col-m-7 m-col-s-12 m-col-t-12 m-container-inflatable
-
-      Typical questions are whether a construct is mature enough to
-      justify synthesis, whether SHAPE or DMS data really changes the
-      interpretation, and whether a local structural alternative is the
-      more serious risk.
-
-      The work is available in three formats: independent design
+      on. I offer that support in three formats: independent design
       reviews, hands-on workshops, and selected longer-running advisory
       support.
-
-    .. container:: m-col-l-5 m-col-m-5 m-col-s-12 m-col-t-12 m-container-inflatable
-
-      .. note-default::
-
-        The workshop formats described here grow out of university
-        teaching at the University of Vienna, the University of
-        Freiburg, and FH Campus Wien, as well as invited training for
-        research groups and doctoral programmes.
 
   .. container:: m-row
 
@@ -53,9 +38,8 @@ Expert Services in Computational RNA Design
 
       .. frame:: Design Reviews
 
-        Independent assessment of RNA constructs, design strategies,
-        and SHAPE- or DMS-informed interpretation before resources are
-        committed.
+        Independent review of RNA constructs, design logic, and
+        probing-informed interpretation before resources are committed.
 
     .. container:: m-col-l-4 m-col-m-4 m-container-inflatable
 
@@ -159,8 +143,9 @@ Workshops are available in short, half-day, and full-day formats,
 either remotely or onsite, and are scoped in advance to fit the
 background of the group.
 
-These sessions build on formats already used in university courses,
-invited workshops, and small-group training settings.
+These sessions build on formats already used in university courses at
+the University of Vienna, the University of Freiburg, and FH Campus
+Wien, as well as invited workshops and small-group training settings.
 
 See the :link-flat:`workshops page </services/workshops/>` for full details on
 available formats and how sessions are organised.
