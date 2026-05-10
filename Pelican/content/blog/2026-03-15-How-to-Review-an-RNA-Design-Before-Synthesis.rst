@@ -19,7 +19,7 @@ How to review an RNA design before synthesis
 
 An RNA design often looks best when it is still a clean cartoon on a slide. The intended fold is easy to explain, the mechanistic story sounds coherent, and the sequence appears to satisfy the formal constraints. The weaknesses usually show up later. The productive structure may not be populated strongly enough, an alternative conformation may compete more effectively than expected, or the whole construct may depend on a kinetic pathway that nobody really examined.
 
-A review before synthesis is worth doing for exactly that reason. The point is not to prove that a design will work. Very few serious RNA projects offer that kind of certainty. The point is to decide whether the design logic is strong enough that the next experiment is worth its cost.
+A review before synthesis is worth doing for exactly that reason. Very few serious RNA projects offer certainty at that stage. What can be assessed, however, is whether the design logic is coherent enough for the next experiment to justify its cost.
 
 One of the first things worth checking is whether the objective has been stated clearly enough. Sometimes that simply means a single dominant fold. In more interesting systems, it is usually more specific. One conformation should stay accessible, another should be suppressed under defined conditions, or a binding-competent state should appear within a useful time window. Designs fail surprisingly often because the real objective was never written down sharply enough to rank candidates consistently.
 

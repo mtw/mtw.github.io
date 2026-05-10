@@ -7,7 +7,7 @@ When to trust RNA structure prediction for experimental decisions
 :category: outreach
 :slug: When-to-trust-RNA-structure-prediction-for-experimental-decisions
 :author: mtw
-:summary: RNA structure prediction becomes most useful when it helps rule out bad ideas, prioritize experiments, and expose uncertainty clearly. The key question is not whether a model outputs a fold, but whether the prediction is strong enough to support the next decision.
+:summary: RNA structure prediction is most useful when it narrows the experimental space, exposes uncertainty clearly, and helps determine when the available structural evidence is sufficient for the next step.
 :title: When to trust RNA structure prediction for experimental decisions
 :description: A practical guide to when RNA secondary structure prediction is reliable enough to support experimental choices, and when additional probing, comparative evidence, or more careful modeling is needed.
 
@@ -83,11 +83,11 @@ This is also why kinetics keeps reappearing in design-oriented problems.
 A construct can appear plausible at equilibrium and still behave
 differently once the folding pathway becomes mechanistically relevant. I
 discuss that in more detail in :link-flat:`Why kinetic folding matters in RNA design <{filename}/blog/2025-01-20-Why-Kinetic-Folding-Matters-in-RNA-Design.rst>`.
-The point is not that equilibrium folding is uninformative, but that
+Equilibrium folding remains informative, but
 some experimental decisions depend on aspects of the system that a
 single static structure cannot represent adequately.
 
-The practical conclusion is therefore rather modest. RNA structure
+RNA structure
 prediction is most trustworthy when it narrows the experimental space in
 a transparent way, when independent evidence points toward the same
 structural interpretation, and when the remaining uncertainty has been
