@@ -23,7 +23,7 @@ Identification of Conserved RNA Regulatory Switches in Living Cells
 .. role:: doi(link)
   :class: doi
 
-Most transcriptome-wide RNA structure studies still summarize each RNA with a single consensus structure. This paper tackles the more difficult and more realistic problem: many RNAs populate ensembles of alternative conformations, and some of those alternative states act as regulatory switches in living cells. The key question is how to recover such ensembles at transcriptome scale and distinguish functional structural heterogeneity from background noise.
+Most transcriptome-wide RNA structure studies still summarize each RNA with a single consensus structure. This paper tackles the more difficult and more realistic problem: many RNAs populate ensembles of alternative conformations, and some of those alternative states act as regulatory switches in living cells. The challenge is to recover such ensembles at transcriptome scale and distinguish functional structural heterogeneity from background noise.
 
 The study combines two ingredients. First, transcriptome-wide MaP-based structure probing data are deconvolved with the DRACO algorithm to infer RNA secondary structure ensembles rather than single structures. Second, the resulting conformations are filtered with an automated conservation framework, DeConStruct, which uses covariation and comparative analysis to prioritize candidate regulatory structures. This combination makes it possible to move from transcriptome-wide structural profiling to the systematic discovery of conserved RNA switches.
 
