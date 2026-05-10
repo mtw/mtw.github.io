@@ -29,9 +29,21 @@ SHAPE directed RNA folding
           :alt: Deigan method adjusts the energetics of stacked base pairs
           :figclass: m-figure m-flat
 
-This paper still gets steady attention, and for good reason. It sits at a practical intersection. People want better RNA structure prediction, they have probing data in hand, and they need a principled way to combine the two. Rather than introducing a wholly new folding formalism, the paper shows how SHAPE reactivities can be fed into the ViennaRNA Package through soft constraints, so experimental evidence can steer prediction without displacing the thermodynamic model underneath.
+This paper sits at a practical intersection. One has a sequence,
+probing data, and the need to combine both in a single folding model.
+Rather than introducing a wholly new formalism, the paper shows how
+SHAPE reactivities can be incorporated into the ViennaRNA Package
+through soft constraints, so experimental evidence can steer prediction
+without displacing the thermodynamic model underneath.
 
-That is also why the paper has held up so well. Sequence-based folding is often not enough, especially for larger RNAs, regulatory elements, or transcripts with several plausible alternatives. At the same time, probing experiments do not hand over a finished secondary structure. They report on local flexibility and structural context nucleotide by nucleotide. The hard part is turning those measurements into something a folding algorithm can use without pretending the data are exact. This paper is useful because it stays in that narrow but important space between experiment and model.
+Sequence-based folding is often not enough, especially for larger RNAs,
+regulatory elements, or transcripts with several plausible
+alternatives. At the same time, probing experiments do not hand over a
+finished secondary structure. They report on local flexibility and
+structural context nucleotide by nucleotide. The central task is to
+turn those measurements into something a folding algorithm can use
+without pretending the data are exact. The paper stays in that narrow
+space between experiment and model.
 
 Methodologically, the paper compares three influential SHAPE-integration strategies and implements them in a common ViennaRNA framework. The Deigan approach converts reactivities into pseudo-energies that act mainly on stacked pairs, which makes it direct and relatively light. The Zarringhalam method reads reactivities in terms of paired and unpaired propensities and spreads penalties more broadly across the structure. The Washietl approach takes a more global view and infers a perturbation of the energy model that reconciles thermodynamic folding with the probing signal while keeping the intervention small. Seeing these methods side by side in one software environment makes their assumptions much easier to compare.
 
@@ -39,7 +51,11 @@ That comparative aspect is one of the strongest features of the paper. It does n
 
 The benchmark section matters for the same reason. The paper evaluates the methods on RNAs with known reference structures and looks not only at minimum-free-energy predictions but also at ensemble properties derived from partition function calculations. That broader view is important. SHAPE data do not simply improve one final fold. Very often they sharpen the whole distribution of plausible structures, which makes base-pair probabilities and structural uncertainty more informative. In practice, careful SHAPE-guided folding does better than sequence-only thermodynamic prediction, particularly when several folds are close in free energy.
 
-For many readers, this paper is also a useful introduction to ViennaRNA itself. It shows that the package is more than a set of folding executables. It is a framework in which the energy model can be extended in a controlled way. That software angle explains part of the paper's long life. Published SHAPE datasets can be reanalyzed, methods can be compared under the same machinery, and users are not forced into one opaque implementation.
+The paper also makes clear that ViennaRNA is more than a set of folding
+executables. It is a framework in which the energy model can be
+extended in a controlled way. Published SHAPE datasets can be
+reanalyzed, methods can be compared under the same machinery, and users
+are not forced into one opaque implementation.
 
 The paper is also a reminder that some of the best progress in RNA structure prediction comes from combining different kinds of evidence rather than replacing one paradigm with another. Even now, that lesson still holds. Experimental probing, ensemble thinking, and physically interpretable constraints remain central when the goal is biological understanding rather than a better benchmark number.
 
@@ -47,7 +63,10 @@ I discuss the broader issue of experimental confidence in :link-flat:`When to tr
 
 For a more direct discussion of what SHAPE and related chemical probing results can and cannot justify in practice, see :link-flat:`How to interpret SHAPE and chemical probing data for RNA structure decisions <{filename}/blog/2026-05-09-How-to-Interpret-SHAPE-and-Chemical-Probing-Data-for-RNA-Structure-Decisions.rst>`.
 
-Two useful follow-ups are :link-flat:`Predicting RNA structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>`, which places SHAPE integration into the larger classical RNA-structure field, and :link-flat:`Caveats to deep learning approaches to RNA secondary structure prediction <{filename}/blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>`, which carries the discussion into the later AI period and shows why the underlying inference problem is still harder than many benchmark tables suggest.
+:link-flat:`Predicting RNA structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>` places SHAPE integration into the larger classical
+RNA-structure field, and :link-flat:`Caveats to deep learning approaches to RNA secondary structure prediction <{filename}/blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>`
+carries the discussion into the later AI period, where the same
+inference problem reappears in a different modeling language.
 
 For a deeper methodological breakdown, the `Supplementary Data <http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523/suppl/DC1>`_ remain worth reading. They contain the detailed parameter choices, benchmark setup, and implementation notes behind the SHAPE-directed folding routines.
 
