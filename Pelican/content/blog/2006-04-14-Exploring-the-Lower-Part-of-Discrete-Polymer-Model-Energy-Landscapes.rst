@@ -34,7 +34,7 @@ What makes this useful is that the low-energy region is often exactly where the 
 
 This is also why the work became relevant beyond lattice proteins. The algorithm is presented in a problem-independent way and helped shape later approaches for RNA landscape exploration, where the same tension appears again: the full structure space is enormous, but the subset relevant for folding kinetics is much smaller and more structured. In that sense, the paper is part of the conceptual path from discrete polymer models to later RNA-focused landscape methods.
 
-For readers looking back from today's perspective, the significance of this work is not that it solves all exploration problems once and for all. It does something more realistic and more durable: it shows how to target the informative part of a large landscape efficiently enough that subsequent topology and dynamics analysis become possible. That remains one of the central engineering challenges in landscape analysis, regardless of whether the underlying system is a lattice polymer, an RNA secondary-structure ensemble, or some other discrete configuration space.
+For readers looking back from today's perspective, the significance of this work is not that it solves all exploration problems once and for all. It does something more realistic and more durable: it shows how to target the informative part of a large landscape efficiently enough that subsequent topology and dynamics analysis become possible. That remains one of the central engineering challenges in landscape analysis, regardless of whether the underlying system is a lattice polymer, an RNA secondary structure ensemble, or some other discrete configuration space.
 
 .. frame:: Abstract
 

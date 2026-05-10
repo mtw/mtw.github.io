@@ -23,7 +23,7 @@ Bi-Alignments as Models of Incongruent Evolution of RNA Sequence and Secondary S
 .. role:: doi(link)
   :class: doi
 
-This paper addresses a subtle but important problem in comparative RNA analysis. Many RNA alignment methods assume that sequence evolution and secondary-structure evolution are congruent, meaning that homologous nucleotides also remain in corresponding structural roles. That assumption is often useful, and for many classical RNA families it works well enough to support consensus-structure prediction, covariance modeling, and structure-aware multiple alignment. But biology is not always that tidy.
+This paper addresses a subtle but important problem in comparative RNA analysis. Many RNA alignment methods assume that sequence evolution and secondary structure evolution are congruent, meaning that homologous nucleotides also remain in corresponding structural roles. That assumption is often useful, and for many classical RNA families it works well enough to support consensus-structure prediction, covariance modeling, and structure-aware multiple alignment. But biology is not always that tidy.
 
 The motivating observation here is that structured RNAs can preserve a recognizable fold even when the exact pairing register has shifted relative to the underlying sequence. In that situation, analogous base pairs are no longer formed by homologous nucleotides, and a single alignment cannot simultaneously do justice to both sequence similarity and structural correspondence. If one insists on aligning the homologous sequence blocks, the structural match degrades. If one instead aligns the analogous stem or loop positions, the sequence alignment begins to look wrong. That is the kind of incongruence this paper sets out to model explicitly.
 

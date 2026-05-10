@@ -31,7 +31,7 @@ In bacteria, the approach identified a substantial set of regions that populate 
 
 The eukaryotic part is equally notable. By introducing a dedicated 5'UTR-MaP strategy, the paper extends ensemble-scale RNA structure mapping into human 5' UTRs and identifies structural switches connected to differential open reading frame usage in transcripts such as *CKS2* and *TXNL4A*. This is a useful reminder that RNA structure prediction becomes more powerful when it is treated as an ensemble problem rather than a single-structure problem, especially in regulatory regions where alternative conformations can alter translation behavior.
 
-For computational RNA biology, this is an important paper because it brings together transcriptome-scale probing, ensemble deconvolution, and evolutionary support, which are often treated as separate layers. It therefore sits squarely in the `RNA structure prediction` space, but in a way that moves beyond static secondary-structure models and toward experimentally anchored maps of regulatory structure dynamics in living cells.
+For computational RNA biology, this is an important paper because it brings together transcriptome-scale probing, ensemble deconvolution, and evolutionary support, which are often treated as separate layers. It therefore sits squarely in the `RNA structure prediction` space, but in a way that moves beyond static secondary structure models and toward experimentally anchored maps of regulatory structure dynamics in living cells.
 
 .. frame:: Abstract
 

@@ -29,14 +29,14 @@ Classical thermodynamic prediction is often enough to establish a useful
 mechanistic picture. Compact RNAs, shorter motifs, and systems with one
 dominant conformational regime can often be analysed productively in
 that framework. Even then, the ensemble is usually more informative
-than a single minimum-free-energy structure, because the mechanistically
+than a single minimum free energy structure, because the mechanistically
 relevant issue is often whether a helix, junction, or competing
 alternative is stable enough to matter.
 
 The situation changes once the mechanism depends strongly on context.
 Ligand binding, protein occupancy, co-transcriptional folding,
 long-range interactions, and metastable states are difficult to
-represent in a static secondary-structure model. :link-flat:`Predicting RNA structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>` is still an important reference precisely because it does not obscure that
+represent in a static secondary structure model. :link-flat:`Predicting RNA structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>` is still an important reference precisely because it does not obscure that
 point. Thermodynamic folding gains substantially from experimental
 constraints, but the additional data do not eliminate the need for
 interpretation.

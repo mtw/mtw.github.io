@@ -34,7 +34,7 @@ without mistaking benchmark performance for mechanistic understanding.
 
 The review begins from the classical thermodynamic view of RNA folding.
 Dynamic programming algorithms can efficiently compute
-minimum-free-energy structures, base-pairing probabilities, and
+minimum free energy structures, base-pairing probabilities, and
 partition-function ensembles under a well-defined energy model. These
 methods remain powerful because they do more than output a single
 structure. They give an explicit physical interpretation of structural

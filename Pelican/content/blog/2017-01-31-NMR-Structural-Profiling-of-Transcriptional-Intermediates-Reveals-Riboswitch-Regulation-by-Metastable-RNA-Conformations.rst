@@ -34,7 +34,7 @@ The main finding is that ligand responsiveness is tightly coupled to transcript 
 
 That point matters well beyond this one riboswitch. The paper makes a broader argument that metastable RNA states are not just folding noise on the way to the “real” structure. They can be the mechanistically decisive states. For transcriptional riboswitches in particular, regulation emerges from the coupling of synthesis, folding, and binding, not from equilibrium thermodynamics alone. This is one of the clearest experimental demonstrations of that idea.
 
-For readers interested in RNA design or synthetic biology, this is also the real lesson of the paper. If a regulatory RNA works by passing through a specific sequence of transient states, then designing only for the final minimum-free-energy structure is not enough. One has to think in terms of folding pathways and timing. That perspective became the basis for later computational work on the same 2'dG riboswitch system, including the follow-up landscape-based analysis linked below.
+For readers interested in RNA design or synthetic biology, this is also the real lesson of the paper. If a regulatory RNA works by passing through a specific sequence of transient states, then designing only for the final minimum free energy structure is not enough. One has to think in terms of folding pathways and timing. That perspective became the basis for later computational work on the same 2'dG riboswitch system, including the follow-up landscape-based analysis linked below.
 
 
 
