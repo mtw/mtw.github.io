@@ -39,7 +39,7 @@ The real value of the approach is that it makes distribution-level reasoning abo
 
 For RNA folding kinetics this is a useful conceptual shift. It shows that machine learning can accelerate kinetic analysis without having to learn RNA folding from scratch. By focusing on posterior approximation rather than direct structure prediction, KinPFN becomes a practical tool for kinetic RNA design workflows, where many candidate sequences need to be compared quickly but full simulation remains computationally restrictive.
 
-That is also why it fits naturally with :link-flat:`How to review an RNA design before synthesis <{filename}/blog/2026-03-15-How-to-Review-an-RNA-Design-Before-Synthesis.rst>`. In both cases, the practical value comes from deciding which candidates deserve closer attention before a project becomes expensive.
+That is also why it fits naturally with :link-flat:`Why kinetic folding matters in RNA design <{filename}/blog/2025-01-20-Why-Kinetic-Folding-Matters-in-RNA-Design.rst>`. In both cases, the practical value comes from deciding which candidates deserve closer attention before a project becomes expensive.
 
 .. frame:: Abstract
 

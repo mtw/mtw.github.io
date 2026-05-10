@@ -45,7 +45,7 @@ I still think this is one of the more useful methodological papers in the ribosw
 
 The paper also connects two strands of RNA research that are often discussed separately: landscape-based folding kinetics and ligand-regulated RNA control. Bringing them together makes it possible to use coarse-grained kinetics not just for descriptive folding studies, but for mechanism-aware analysis of regulatory RNAs. That is a meaningful step beyond equilibrium folding and a useful basis for later in silico screening of switch designs before experimental validation.
 
-That screening logic sits very close to what I describe in :link-flat:`How to review an RNA design before synthesis <{filename}/blog/2026-03-15-How-to-Review-an-RNA-Design-Before-Synthesis.rst>`. A construct can look plausible at equilibrium and still fail once timing and pathway dependence are taken seriously.
+That screening logic sits very close to :link-flat:`Why kinetic folding matters in RNA design <{filename}/blog/2025-01-20-Why-Kinetic-Folding-Matters-in-RNA-Design.rst>`. A construct can look plausible at equilibrium and still fail once timing and pathway dependence are taken seriously.
 
 .. frame:: Abstract
 

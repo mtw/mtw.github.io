@@ -36,9 +36,6 @@ generation of candidate models for RNA-protein complexes. Treating
 "AI for RNA" as a single activity obscures the fact that these tasks
 operate at different levels of inference.
 
-For a broader view across RNA biology, beyond structure and protein-RNA
-modeling specifically, see :link-flat:`What AI is genuinely useful for in RNA biology <{filename}/blog/2026-03-22-What-AI-Is-Genuinely-Useful-for-in-RNA-Biology.rst>`.
-
 One distinction that matters is between output generation and
 interpretation. A model may produce a plausible structure, a ranking,
 or a strong benchmark score without resolving the biological

@@ -5,6 +5,7 @@ What AI is genuinely useful for in RNA biology
 :modified: 2026-05-01
 :tags: AI; RNA structure prediction; RNA folding kinetics; RNA-Protein interaction; virus bioinformatics
 :category: outreach
+:status: skip
 :slug: What-AI-Is-Genuinely-Useful-for-in-RNA-Biology
 :author: mtw
 :summary: AI enters RNA biology at several distinct levels, including candidate ranking, kinetics approximation, geometry generation, and large-scale classification, but the underlying biological question remains different in each case.

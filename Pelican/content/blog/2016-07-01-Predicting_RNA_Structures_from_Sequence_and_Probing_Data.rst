@@ -70,7 +70,10 @@ Prediction improves when models encode the right constraints and when
 external evidence is incorporated thoughtfully, not simply when another
 layer of complexity is added.
 
-The same issue comes up whenever a computational result is used to justify an experimental move. In :link-flat:`When to trust RNA structure prediction for experimental decisions <{filename}/blog/2026-03-01-When-to-Trust-RNA-Structure-Prediction-for-Experimental-Decisions.rst>`, I take that one step further and ask what level of structural evidence is actually enough for a design choice, a mutational plan, or a mechanistic claim.
+The same issue comes up whenever a computational result is used to
+justify an experimental move. At that point the question is what level
+of structural evidence is actually enough for a design choice, a
+mutational plan, or a mechanistic claim.
 
 The review connects several levels of the field at once, from classical
 RNA folding algorithms and ensemble thinking to experimental probing
