@@ -51,10 +51,9 @@ but its performance depends on the chosen parameters. Those parameters
 are not universal.
 
 We discussed this broader framework in :link-flat:`Predicting RNA structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>`.
-Thermodynamic RNA folding remains useful because it keeps alternative
-structures explicit. Probing data can then shift the balance between
-those alternatives toward what the molecule appears to do under the
-measured condition.
+Thermodynamic RNA folding keeps the alternative structures explicit.
+Probing data can then shift the balance between those alternatives
+toward what the molecule appears to do under the measured condition.
 
 Two questions are often mixed together. One is whether probing data
 improve a structure prediction at all. I discuss that question in

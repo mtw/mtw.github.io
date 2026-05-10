@@ -36,12 +36,20 @@ One issue is whether the biological problem is actually one of local secondary s
 
 Another issue is how the probing data are being integrated. This is where :link-flat:`SHAPE directed RNA folding <{filename}/blog/2015-09-02-SHAPE-directed-RNA-folding.rst>` still matters. The central point of that paper is not simply that ViennaRNA can read SHAPE values. It is that there are different ways to translate reactivities into folding constraints, and those choices affect the result. Soft constraints and pseudo-energies work precisely because they let the thermodynamic model and the experiment inform one another instead of pretending that either one is perfect on its own.
 
-That broader logic is laid out in :link-flat:`Predicting RNA structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>`. Thermodynamic folding remains useful because it gives an explicit model of structural alternatives and energetic tradeoffs. Probing data remain useful because they move the prediction toward what the molecule is doing under the measured condition. The practical gain comes from the combination.
+That broader logic is laid out in :link-flat:`Predicting RNA structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>`. Thermodynamic folding provides an explicit model of structural
+alternatives and energetic tradeoffs. Probing data move that prediction
+toward what the molecule is doing under the measured condition. The
+practical gain comes from the combination.
 
 Where people still get misled is in the interpretation of success. A cleaner fold on a figure is not the same as a solved biological question. SHAPE can improve the ranking of secondary-structure candidates and sharpen how one reads the ensemble. It can also expose where a sequence-only model is systematically wrong. What it usually cannot do by itself is tell you whether a regulatory switch depends on kinetics, protein occupancy, or a conformation that lies outside the measured state.
 
 That point becomes even more important now that AI models are routinely evaluated against RNA structure benchmarks. The critique in :link-flat:`Caveats to deep learning approaches to RNA secondary structure prediction <{filename}/blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>` is relevant here. Better benchmark scores do not remove the need for careful inference. If a model generalizes poorly, or if the training data do not reflect the biological regime of interest, experimental constraints can still be more informative than a confident-looking prediction.
 
-In practice, SHAPE helps most when the structural question is well defined, when the experiment is performed under a condition that genuinely matches that question, and when the computational interpretation respects the fact that the data are informative but incomplete. That claim is narrower than the usual marketing language around “data-driven structure prediction,” but it is closer to how good results are actually obtained.
+In practice, SHAPE helps most when the structural question is well
+defined, when the experiment is performed under a condition that
+genuinely matches that question, and when the computational
+interpretation respects the fact that the data are informative but
+incomplete. In those cases, the prediction is not replaced. It is
+strengthened.
 
 This is also where many teams hit a decision point. Sometimes the issue is not whether SHAPE is useful in principle, but whether the current construct, probing design, and analysis setup are coherent enough to justify the next experiment. That is often the stage where an external technical review or a focused training session can help, especially if the group is deciding between a quick sequence-only analysis and a more serious structure-guided workflow. My :link-flat:`services page <{filename}/services.rst>` outlines the formats I use for that kind of design review and workshop support.
