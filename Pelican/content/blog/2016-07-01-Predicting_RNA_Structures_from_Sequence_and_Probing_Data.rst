@@ -29,7 +29,7 @@ The field did not develop that way. Long before the current
 machine-learning wave, RNA bioinformatics had already built a
 sophisticated toolkit around thermodynamic folding, ensemble analysis,
 comparative evidence, and experimental structure probing. This review
-comes from that earlier period, which is exactly why it remains useful.
+comes from that earlier period, which is exactly why it still matters.
 It explains the core logic of the field without mistaking benchmark
 performance for mechanistic understanding.
 

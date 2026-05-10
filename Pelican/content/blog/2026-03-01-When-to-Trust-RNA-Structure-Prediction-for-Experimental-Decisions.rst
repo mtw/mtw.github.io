@@ -17,24 +17,26 @@ When to trust RNA structure prediction for experimental decisions
 .. role:: link-flat(link)
   :class: m-flat m-text
 
-RNA structure prediction is useful in its own right, because it is a
-cheap and efficient way to obtain a first structural approximation. For
-experimental work, the more specific question is how far that
-approximation can be taken. The usual performance measures are
+RNA structure prediction is the natural starting point for mechanistic
+work on RNA, because it is a cheap and efficient way to obtain an
+explicit structural hypothesis. For experimental work, the relevant
+question is whether the current prediction is already sufficient to
+explain the mechanism at issue, or whether the interpretation still
+depends on additional constraints. The usual performance measures are
 informative, but they do not answer that question directly.
 
-Classical thermodynamic prediction remains adequate in many settings.
-Compact RNAs, shorter motifs, and systems with one dominant
-conformational regime can often be analysed productively in that
-framework. Even then, the ensemble is usually more informative than a
-single minimum-free-energy structure, because the relevant question is
-often whether a helix, junction, or competing alternative is stable
-enough to matter.
+Classical thermodynamic prediction is often enough to establish a useful
+mechanistic picture. Compact RNAs, shorter motifs, and systems with one
+dominant conformational regime can often be analysed productively in
+that framework. Even then, the ensemble is usually more informative
+than a single minimum-free-energy structure, because the mechanistically
+relevant issue is often whether a helix, junction, or competing
+alternative is stable enough to matter.
 
 The situation changes once the mechanism depends strongly on context.
 Ligand binding, protein occupancy, co-transcriptional folding,
 long-range interactions, and metastable states are difficult to
-represent in a static secondary-structure model. :link-flat:`Predicting RNA structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>` remains useful precisely because it does not obscure that
+represent in a static secondary-structure model. :link-flat:`Predicting RNA structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>` is still an important reference precisely because it does not obscure that
 point. Thermodynamic folding gains substantially from experimental
 constraints, but the additional data do not eliminate the need for
 interpretation.
@@ -52,11 +54,11 @@ same caution as any other predictor when the sequence class is unusual,
 when the mechanism depends on context, or when the experimental cost of
 an incorrect inference is high.
 
-What matters experimentally is whether the structurally relevant feature
-persists under modest perturbations of sequence or model assumptions,
-whether competing structures remain close enough in free energy to alter
-the interpretation, and whether independent evidence supports the same
-conclusion. The required level of support depends on cost. A weakly
+What matters experimentally is whether the prediction explains the
+relevant structural feature in a stable way, whether competing
+structures remain close enough in free energy to alter the
+interpretation, and whether independent evidence supports the same
+conclusion. The required level of support depends on cost. A partly
 resolved prediction may be acceptable before a cheap follow-up
 experiment. The same level of uncertainty is often inadequate before a
 costly design cycle or a stronger mechanistic claim.
@@ -68,6 +70,7 @@ becomes mechanistically relevant. I discuss that in more detail in
 static structure cannot represent adequately.
 
 The practical difficulty is usually not the software itself. It is the
-judgment of how far a given structural interpretation can be taken with
-the available evidence. That is the type of question I address in
+judgment of whether a given prediction already explains the mechanism
+well enough, or whether the interpretation still depends on additional
+evidence. That is the type of question I address in
 :link-flat:`design reviews and advisory work </services>`.

@@ -31,8 +31,8 @@ conditions in which transcription, ligand binding, and cotranscriptional
 trapping matter.
 
 Kinetic folding becomes relevant whenever the route matters as much as
-the endpoint. Equilibrium thermodynamics remains useful, but it does not
-cover every design objective.
+the endpoint. Equilibrium thermodynamics is often the right starting
+point, but it does not cover every design objective.
 
 This point appears already in :link-flat:`Folding kinetics of large RNAs <{filename}/blog/2008-06-01-Folding-Kinetics-of-Large-RNAs.rst>`, which lays out why pathway information becomes essential once RNA systems grow beyond the simplest toy cases. It appears again in :link-flat:`BarMap: RNA folding on dynamic energy landscapes <{filename}/blog/2010-07-01-BarMap-RNA-Folding-on-Dynamic-Energy-Landscapes.rst>`, which makes it explicit that the landscape itself changes during transcription. And it becomes especially concrete in :link-flat:`Efficient computation of cotranscriptional RNA-ligand interaction dynamics <{filename}/blog/2018-07-01-Efficient_Computation_of_Cotranscriptional_RNA-Ligand_Interaction_Dynamics.rst>`, where ligand binding has to be understood together with the emergence of binding-competent intermediates.
 
