@@ -29,9 +29,8 @@ The field did not develop that way. Long before the current
 machine-learning wave, RNA bioinformatics had already built a
 sophisticated toolkit around thermodynamic folding, ensemble analysis,
 comparative evidence, and experimental structure probing. This review
-comes from that earlier period, which is exactly why it still matters.
-It explains the core logic of the field without mistaking benchmark
-performance for mechanistic understanding.
+comes from that earlier period and explains the core logic of the field
+without mistaking benchmark performance for mechanistic understanding.
 
 The review begins from the classical thermodynamic view of RNA folding.
 Dynamic programming algorithms can efficiently compute
@@ -43,7 +42,13 @@ alternatives, uncertainty, and energetic tradeoffs. RNA structure
 prediction therefore cannot be reduced to "find the one correct fold".
 For many RNAs, the ensemble itself is the relevant biological object.
 
-At the same time, purely sequence-based thermodynamic prediction has obvious limits. Energy parameters are imperfect, tertiary interactions are usually treated only indirectly, and the energetically optimal structure is not always the biologically realized one. This becomes especially clear for regulatory RNAs, long transcripts, and systems shaped by kinetics, ligand binding, proteins, or cellular context. The review lays out these limitations clearly, which is one reason it has remained a useful reference.
+At the same time, purely sequence-based thermodynamic prediction has
+obvious limits. Energy parameters are imperfect, tertiary interactions
+are usually treated only indirectly, and the energetically optimal
+structure is not always the biologically realized one. This becomes
+especially clear for regulatory RNAs, long transcripts, and systems
+shaped by kinetics, ligand binding, proteins, or cellular context. The
+review lays out these limitations clearly.
 
 The article provides an overview of how chemical and enzymatic
 structure probing can be integrated with folding algorithms. Methods
@@ -59,23 +64,25 @@ result.
 
 This combination of experiment and computation was, and remains, one of the most productive ideas in RNA structure prediction. Probing data can help discriminate among near-optimal folds, recover structures that sequence-only models miss, and improve the interpretation of structural ensembles. The review does not oversell the approach, though. Experimental data are noisy, condition-dependent, and often indirect. A reactivity profile is not itself a structure. It still has to be interpreted through a model, and the quality of the result depends on both the experiment and the computational framework used to incorporate it.
 
-That balance is one reason the article has aged well. It is optimistic
-about combining data with theory, but it does not pretend that more
-data automatically solve the inference problem. Prediction improves
-when models encode the right constraints and when external evidence is
-incorporated thoughtfully, not simply when another layer of complexity
-is added.
+The article is optimistic about combining data with theory, but it does
+not pretend that more data automatically solve the inference problem.
+Prediction improves when models encode the right constraints and when
+external evidence is incorporated thoughtfully, not simply when another
+layer of complexity is added.
 
 The same issue comes up whenever a computational result is used to justify an experimental move. In :link-flat:`When to trust RNA structure prediction for experimental decisions <{filename}/blog/2026-03-01-When-to-Trust-RNA-Structure-Prediction-for-Experimental-Decisions.rst>`, I take that one step further and ask what level of structural evidence is actually enough for a design choice, a mutational plan, or a mechanistic claim.
 
-This review is a good entry point because it connects several levels of
-the field at once, from classical RNA folding algorithms and ensemble
-thinking to experimental probing and the practical business of
-combining them. It also remains a reminder that the most reliable
-structural insight often comes from combining complementary sources of
-information rather than choosing between "physics" and "data".
+The review connects several levels of the field at once, from classical
+RNA folding algorithms and ensemble thinking to experimental probing
+and the practical business of combining them. It also remains a
+reminder that the most reliable structural insight often comes from
+combining complementary sources of information rather than choosing
+between "physics" and "data".
 
-Two natural follow-ups are :link-flat:`SHAPE directed RNA folding with the ViennaRNA Package <{filename}/blog/2015-09-02-SHAPE-directed-RNA-folding.rst>`, which is the more implementation-focused companion piece describing specific SHAPE integration strategies in ViennaRNA, and :link-flat:`Caveats in deep learning for RNA secondary structure prediction <{filename}/blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>`, which picks up the story from the later AI period and shows why data-driven models still benefit from the classical structural thinking summarized here.
+:link-flat:`SHAPE directed RNA folding with the ViennaRNA Package <{filename}/blog/2015-09-02-SHAPE-directed-RNA-folding.rst>` is the more implementation-focused companion piece describing
+specific SHAPE integration strategies in ViennaRNA, and
+:link-flat:`Caveats in deep learning for RNA secondary structure prediction <{filename}/blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>`
+picks up the same problem from the later AI period.
 
 .. frame:: Abstract
 
