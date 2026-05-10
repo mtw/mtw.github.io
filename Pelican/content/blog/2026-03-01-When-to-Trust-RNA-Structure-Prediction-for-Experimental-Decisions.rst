@@ -17,80 +17,56 @@ When to trust RNA structure prediction for experimental decisions
 .. role:: link-flat(link)
   :class: m-flat m-text
 
-The usefulness of RNA structure prediction is often discussed in terms
-of nominal accuracy or benchmark performance. For experimental work, the
-more relevant issue is narrower. One needs to know under which
-conditions a predicted structure can support construct design,
-mutational analysis, or the choice of a follow-up experiment.
+For experimental work, RNA structure prediction is useful only to the
+extent that it constrains the structural interpretation relevant to the
+next step. The usual performance measures are informative, but they do
+not answer that question directly.
 
-In many practical settings, prediction is already useful when it
-reduces the set of plausible structural alternatives. A unique
-secondary structure is not required. It is sufficient that the
-structurally relevant features remain stable enough to constrain the
-next step.
+Classical thermodynamic prediction remains adequate in many settings.
+Compact RNAs, shorter motifs, and systems with one dominant
+conformational regime can often be analysed productively in that
+framework. Even then, the ensemble is usually more informative than a
+single minimum-free-energy structure, because the relevant question is
+often whether a helix, junction, or competing alternative is stable
+enough to matter.
 
-There are many settings in which classical RNA structure prediction
-still performs well by that standard. Compact RNAs, shorter structural
-motifs, and systems with a reasonably dominant conformational regime are
-often amenable to thermodynamic analysis. The same applies when the aim
-is not to assert one final fold, but to identify stable helices,
-candidate pairing regions, or structural alternatives that can be taken
-forward experimentally. In such cases, ensemble properties are often
-more informative than the minimum-free-energy structure alone.
+The situation changes once the mechanism depends strongly on context.
+Ligand binding, protein occupancy, co-transcriptional folding,
+long-range interactions, and metastable states are difficult to
+represent in a static secondary-structure model. :link-flat:`Predicting RNA structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>` remains useful precisely because it does not obscure that
+point. Thermodynamic folding gains substantially from experimental
+constraints, but the additional data do not eliminate the need for
+interpretation.
 
-The situation becomes less straightforward once the biology depends more
-strongly on context. Ligand binding, protein occupancy,
-co-transcriptional folding, long-range interactions, and metastable
-states all complicate the interpretation of a static secondary
-structure. This is one reason :link-flat:`Predicting RNA structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>` remains such a useful review. It makes clear that thermodynamic models
-become substantially more informative when combined with experimental
-evidence, but also that the additional data do not remove the need for
-structural interpretation.
-
-Confidence increases when a structural conclusion remains stable under
-several, partly independent lines of evidence.
-:link-flat:`SHAPE directed RNA folding with the ViennaRNA Package <{filename}/blog/2015-09-02-SHAPE-directed-RNA-folding.rst>` is instructive in that regard. SHAPE reactivities do not reveal a finished
-secondary structure. They constrain the set of structures that remain
-plausible once nucleotide flexibility is taken into account. When the
-sequence-only model and the probing data support the same structural
-features, the prediction becomes considerably more useful for
-experimental planning.
+The same applies to probing-guided analyses. :link-flat:`SHAPE directed RNA folding with the ViennaRNA Package <{filename}/blog/2015-09-02-SHAPE-directed-RNA-folding.rst>` is relevant here because SHAPE reactivities do not yield a
+secondary structure directly. They alter the set of structures that
+remain plausible once nucleotide flexibility has been taken into
+account. When sequence-based folding and probing data support the same
+structural features, the resulting inference becomes much stronger.
 
 The current machine-learning literature changes the tooling but not the
-underlying problem. As discussed in :link-flat:`Caveats in deep learning for RNA secondary structure prediction <{filename}/blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>`, strong performance on benchmark sets is not equivalent to robust
+underlying problem. As discussed in :link-flat:`Caveats in deep learning for RNA secondary structure prediction <{filename}/blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>`, strong benchmark performance is not equivalent to robust
 structural inference. Sequence-only neural models therefore require the
 same caution as any other predictor when the sequence class is unusual,
 when the mechanism depends on context, or when the experimental cost of
-a wrong inference is high.
+an incorrect inference is high.
 
-The useful questions are more specific than any headline performance
-number. One needs to know whether the relevant structural feature
+What matters experimentally is whether the structurally relevant feature
 persists under modest perturbations of sequence or model assumptions,
 whether competing structures remain close enough in free energy to alter
-the biological interpretation, and whether probing, comparative, or
-biochemical data support the same conclusion. The threshold also
-depends on cost. Weak support may be acceptable when the next
-experiment is cheap, but not when a design cycle is costly or when a
-broader biological claim rests on the result.
+the interpretation, and whether independent evidence supports the same
+conclusion. The required level of support depends on cost. A weakly
+resolved prediction may be acceptable before a cheap follow-up
+experiment. The same level of uncertainty is often inadequate before a
+costly design cycle or a stronger mechanistic claim.
 
-Kinetics therefore keeps reappearing in design-oriented problems.
-A construct can appear plausible at equilibrium and still behave
-differently once the folding pathway becomes mechanistically relevant. I
-discuss that in more detail in :link-flat:`Why kinetic folding matters in RNA design <{filename}/blog/2025-01-20-Why-Kinetic-Folding-Matters-in-RNA-Design.rst>`.
-Equilibrium folding remains informative, but
-some experimental decisions depend on aspects of the system that a
-single static structure cannot represent adequately.
+This is also the point at which kinetics enters. A construct may look
+convincing at equilibrium and still fail once the folding pathway
+becomes mechanistically relevant. I discuss that in more detail in
+:link-flat:`Why kinetic folding matters in RNA design <{filename}/blog/2025-01-20-Why-Kinetic-Folding-Matters-in-RNA-Design.rst>`. Some experimental decisions depend on features that a single
+static structure cannot represent adequately.
 
-RNA structure prediction is most useful when it reduces the experimental
-space in a transparent way and when independent evidence supports the
-same structural interpretation. It deserves more caution when the
-mechanism is strongly context-dependent, when structural alternatives
-remain poorly resolved, or when the cost of a wrong inference is
-substantial.
-
-For groups working near that boundary between useful prediction and
-overinterpretation, an external technical review can be helpful. The
-difficulty is rarely the execution of the software itself. It is the
-judgment of which structural claims are already strong enough to support
-action and which still require an additional layer of evidence. That is
-the kind of question I address in :link-flat:`design reviews and advisory work </services>`.
+The practical difficulty is usually not the software itself. It is the
+judgment of how far a given structural interpretation can be taken with
+the available evidence. That is the type of question I address in
+:link-flat:`design reviews and advisory work </services>`.
