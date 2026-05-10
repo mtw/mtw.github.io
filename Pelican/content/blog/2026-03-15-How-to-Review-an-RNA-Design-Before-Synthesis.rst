@@ -17,17 +17,15 @@ How to review an RNA design before synthesis
 .. role:: link-flat(link)
   :class: m-flat m-text
 
-An RNA design often appears most convincing before it is examined in
+RNA designs often look most convincing before they are examined in
 detail. The intended fold is easy to sketch, the mechanism sounds
 plausible, and the sequence appears to satisfy the formal constraints.
 The problems usually emerge later. The productive state may not be
 populated strongly enough, an alternative conformation may compete more
 effectively than expected, or the design may depend on a folding
-pathway that has not been analysed.
-
-A review before synthesis is useful for exactly that reason. At that
-stage, certainty is rarely possible. What can be assessed is whether
-the design logic is coherent enough to justify the next experiment.
+pathway that has not been analysed. A review before synthesis therefore
+asks whether the design logic is already coherent enough to justify the
+next experiment.
 
 The objective has to be stated clearly enough to evaluate candidates at
 all. Sometimes that simply means a single dominant fold. In more
@@ -38,7 +36,9 @@ time window. Designs fail surprisingly often because the actual
 objective was never stated sharply enough to rank candidates
 consistently.
 
-:link-flat:`In silico design of ligand-triggered RNA switches <{filename}/blog/2018-07-01-In-Silico-Design-of-Ligand-Triggered-RNA-Switches.rst>` addresses exactly that point. Its value is not merely the workflow itself. The design objective is made explicit, and once the mechanism has been translated into structural and kinetic criteria, candidate selection becomes more defensible.
+:link-flat:`In silico design of ligand-triggered RNA switches <{filename}/blog/2018-07-01-In-Silico-Design-of-Ligand-Triggered-RNA-Switches.rst>` addresses exactly that point. The design objective is made
+explicit, and once the mechanism has been translated into structural and
+kinetic criteria, candidate selection becomes more defensible.
 
 The structural case also has to be strong enough. A predicted fold may
 look attractive and still rest on a very shallow margin over competing
@@ -54,7 +54,12 @@ intermediates, static structure alone may be an inadequate screening
 criterion. I discuss that broader point in :link-flat:`Why kinetic folding matters in RNA design <{filename}/blog/2025-01-20-Why-Kinetic-Folding-Matters-in-RNA-Design.rst>`. Many disappointing RNA constructs are not structurally
 impossible. They are simply mistimed.
 
-That does not mean every project needs a full kinetic analysis. It does mean some signs should trigger extra scrutiny. Competing local helices, long-range interactions that require transcript completion, or mechanisms that depend on narrow binding windows all suggest that endpoint prediction is not enough. In those cases, a design review should ask whether the mechanism still makes sense once the folding pathway is taken seriously.
+Not every project requires a full kinetic analysis. Some features,
+however, should trigger closer scrutiny. Competing local helices,
+long-range interactions that require transcript completion, and
+mechanisms that depend on narrow binding windows all suggest that
+endpoint prediction is not enough. In those cases, the design has to be
+examined against the folding pathway as part of the mechanism itself.
 
 The sequence should also be stress-tested against nearby variants. Small
 synonymous or compensatory changes can be informative even before any
@@ -63,15 +68,21 @@ perturbation, the design is probably too brittle. If sensible variants
 preserve the desired behaviour, confidence improves even without any
 claim of certainty.
 
-Computational prediction is useful here in a limited but important way.
-The relevant issue is which assumptions are robust, which are weakly
-supported, and which have not yet been tested. That is close in spirit
-to :link-flat:`When to trust RNA structure prediction for experimental decisions <{filename}/blog/2026-03-01-When-to-Trust-RNA-Structure-Prediction-for-Experimental-Decisions.rst>`, where the same question appears from the experimental side.
+Computational prediction enters here as the first mechanistic model of
+the construct. The relevant issue is which assumptions are robust, which
+are weakly supported, and which have not yet been tested. That is close
+in spirit to :link-flat:`When to trust RNA structure prediction for experimental decisions <{filename}/blog/2026-03-01-When-to-Trust-RNA-Structure-Prediction-for-Experimental-Decisions.rst>`, where the same question appears from the experimental
+side.
 
-Before synthesis, I would want a few basics on the table: a clear mechanistic objective, a structural analysis that goes beyond a single favorite fold, an honest judgment about whether kinetics matters, and a realistic view of the main failure modes. None of that guarantees success. It does reduce the chance of spending time and money on a construct whose weaknesses were visible from the start.
+Before synthesis, the design should at least have a clear mechanistic
+objective, a structural analysis that goes beyond a single favourite
+fold, an explicit judgment about whether kinetics matters, and a
+realistic view of the main failure modes. None of that guarantees
+success, but it reduces the chance of spending time and money on a
+construct whose weaknesses were visible from the start.
 
 I also offer :link-flat:`design reviews and advisory support </services>`
-for teams working at exactly that stage. What is usually needed is a
+for teams working at exactly that stage. The main requirement is often a
 structured examination of which assumptions behind a candidate design
 are well supported, which remain doubtful, and what should be checked
 before synthesis begins.
