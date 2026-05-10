@@ -17,10 +17,11 @@ When to trust RNA structure prediction for experimental decisions
 .. role:: link-flat(link)
   :class: m-flat m-text
 
-For experimental work, RNA structure prediction is useful only to the
-extent that it constrains the structural interpretation relevant to the
-next step. The usual performance measures are informative, but they do
-not answer that question directly.
+RNA structure prediction is useful in its own right, because it is a
+cheap and efficient way to obtain a first structural approximation. For
+experimental work, the more specific question is how far that
+approximation can be taken. The usual performance measures are
+informative, but they do not answer that question directly.
 
 Classical thermodynamic prediction remains adequate in many settings.
 Compact RNAs, shorter motifs, and systems with one dominant
