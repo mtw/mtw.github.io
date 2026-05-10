@@ -59,7 +59,9 @@ are not forced into one opaque implementation.
 
 The paper is also a reminder that some of the best progress in RNA structure prediction comes from combining different kinds of evidence rather than replacing one paradigm with another. Even now, that lesson still holds. Experimental probing, ensemble thinking, and physically interpretable constraints remain central when the goal is biological understanding rather than a better benchmark number.
 
-I discuss the broader issue of experimental confidence in :link-flat:`When to trust RNA structure prediction for experimental decisions <{filename}/blog/2026-03-01-When-to-Trust-RNA-Structure-Prediction-for-Experimental-Decisions.rst>`. This SHAPE paper belongs squarely in that territory, because its value lies in changing which structural hypotheses remain plausible once experimental data are brought in.
+This SHAPE paper belongs squarely in that territory, because its value
+lies in changing which structural hypotheses remain plausible once
+experimental data are brought in.
 
 For a more direct discussion of what SHAPE and related chemical probing results can and cannot justify in practice, see :link-flat:`How to interpret SHAPE and chemical probing data for RNA structure decisions <{filename}/blog/2026-05-09-How-to-Interpret-SHAPE-and-Chemical-Probing-Data-for-RNA-Structure-Decisions.rst>`.
 

@@ -58,7 +58,8 @@ Kinetic reasoning does not replace design intuition, but it can prevent
 attention from drifting away from the mechanism that determines
 function.
 
-That same question appears again in :link-flat:`How to review an RNA design before synthesis <{filename}/blog/2026-03-15-How-to-Review-an-RNA-Design-Before-Synthesis.rst>`, where the issue is not just whether kinetics matters in principle, but how to decide which candidate designs deserve to move forward at all.
+That same problem appears whenever one has to decide which candidate
+designs deserve to move forward at all.
 
 Projects often become expensive at exactly that point. A team may
 already have sequences, assays, and a plausible mechanistic story, but

@@ -5,6 +5,7 @@ How to review an RNA design before synthesis
 :modified: 2026-05-01
 :tags: RNA design; RNA structure prediction; RNA folding kinetics; synthetic biology; ViennaRNA
 :category: outreach
+:status: skip
 :slug: How-to-review-an-RNA-design-before-synthesis
 :author: mtw
 :summary: Many RNA designs fail for reasons that are visible long before the first synthesis order is placed. A careful review can expose mismatched objectives, weak structural assumptions, and overlooked kinetic failure modes before they become expensive.

@@ -41,7 +41,9 @@ The paper is careful about scope. Automated lineage designation is not the same 
 
 For genomic epidemiology, this is the real value of the framework. It gives researchers a practical way to maintain phylogeny-based nomenclature under conditions where purely manual designation becomes increasingly fragile. That is useful not only for SARS-CoV-2, but also for other rapidly sampled viral systems where scale has already become the defining constraint.
 
-This is also one of the examples I discuss in :link-flat:`What AI is genuinely useful for in RNA biology <{filename}/blog/2026-03-22-What-AI-Is-Genuinely-Useful-for-in-RNA-Biology.rst>`, because it shows a case where automation helps with a real bottleneck without pretending to resolve molecular mechanism by itself.
+This is also one of the clearest cases in which automation addresses a
+real bottleneck without pretending to resolve molecular mechanism by
+itself.
 
 .. frame:: Abstract
 

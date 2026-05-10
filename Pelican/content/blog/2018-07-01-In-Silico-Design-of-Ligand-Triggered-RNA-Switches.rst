@@ -35,7 +35,9 @@ The result is a design pipeline that helps filter and rank candidate sequences b
 
 For computational RNA biology, that is the real value of this kind of work. It turns riboswitch design from an intuition-led exercise into an optimization problem with explicit structural and kinetic criteria. That framing also makes the workflow adaptable. Once the design assumptions are clear, the same logic can be extended to other aptamers, other switching scenarios, and more elaborate regulatory mechanisms.
 
-I expand that broader pre-synthesis question in :link-flat:`How to review an RNA design before synthesis <{filename}/blog/2026-03-15-How-to-Review-an-RNA-Design-Before-Synthesis.rst>`, which focuses on how to examine design objectives, competing folds, and likely failure modes before a candidate sequence becomes expensive.
+The same pre-synthesis question appears whenever design objectives,
+competing folds, and likely failure modes have to be examined before a
+candidate sequence becomes expensive.
 
 If you are evaluating an RNA switch, riboswitch, or structure-aware design workflow, I also offer independent design reviews for research teams and biotech groups through my :link-flat:`services page <{filename}/services.rst>`.
 
