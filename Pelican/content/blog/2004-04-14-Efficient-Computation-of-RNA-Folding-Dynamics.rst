@@ -9,7 +9,7 @@ Efficient Computation of RNA Folding Dynamics
 :author: mtw
 :summary: This paper shows how barrier trees and numerical integration can approximate RNA folding dynamics efficiently enough to analyze bistable molecules and RNA switches on biologically relevant timescales.
 :title: Efficient computation of RNA folding dynamics
-:description: A barrier-tree based approach for efficient approximation of RNA folding dynamics within the secondary-structure energy landscape.
+:description: A barrier-tree based approach for efficient approximation of RNA folding dynamics within the secondary structure energy landscape.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -29,7 +29,7 @@ Efficient Computation of RNA Folding Dynamics
           :alt: RNA folding dynamics on a coarse-grained energy landscape
           :figclass: m-figure m-flat
 
-This paper addresses a classical problem in RNA folding kinetics: exact or near-exact stochastic simulation quickly becomes expensive, but many biologically interesting questions depend on the dynamic behavior of secondary-structure landscapes rather than on a single minimum-energy fold. The solution proposed here is to coarse-grain the secondary-structure landscape using barrier trees built from local minima and their connecting saddle points.
+This paper addresses a classical problem in RNA folding kinetics: exact or near-exact stochastic simulation quickly becomes expensive, but many biologically interesting questions depend on the dynamic behavior of secondary structure landscapes rather than on a single minimum-energy fold. The solution proposed here is to coarse-grain the secondary structure landscape using barrier trees built from local minima and their connecting saddle points.
 
 Within that framework, RNA folding dynamics can be approximated by a master-equation approach on macrostates rather than on the full structure space. Instead of simulating huge numbers of trajectories, one numerically integrates the population flow between barrier-separated basins of attraction. This makes it possible to recover the folding behavior of bistable RNAs and metastable switches with much higher computational efficiency than direct trajectory-based simulations.
 
@@ -49,4 +49,3 @@ Citation
   | :link-flat-strong:`Efficient Computation of RNA Folding Dynamics <{filename}/blog/2004-04-14-Efficient-Computation-of-RNA-Folding-Dynamics.rst>`
   | :ul:`Michael T. Wolfinger`, W. Andreas Svrcek-Seiler, Christoph Flamm, Ivo L. Hofacker, Peter F. Stadler
   | *J. Phys. A: Math. Gen.* 37(17):4731–4741 (2004) | :doi:`doi:10.1088/0305-4470/37/17/005 <https://doi.org/10.1088/0305-4470/37/17/005>` | :link-flat:`PDF <{static}/files/papers/Wolfinger-2004.pdf>`
-

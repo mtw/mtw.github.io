@@ -43,7 +43,7 @@ kinetic criteria, candidate selection becomes more defensible.
 The structural case also has to be strong enough. A predicted fold may
 look attractive and still rest on a very shallow margin over competing
 alternatives. For that reason, I prefer to examine ensembles rather
-than a single minimum-free-energy structure whenever possible. A
+than a single minimum free energy structure whenever possible. A
 construct that looks tidy in one representative fold can become much
 less convincing if the ensemble remains diffuse or if small
 perturbations reshuffle the ranking of alternatives.
