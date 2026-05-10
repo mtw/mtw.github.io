@@ -29,27 +29,49 @@ A review before synthesis is useful for exactly that reason. At that
 stage, certainty is rarely possible. What can be assessed is whether
 the design logic is coherent enough to justify the next experiment.
 
-One of the first things worth checking is whether the objective has been stated clearly enough. Sometimes that simply means a single dominant fold. In more interesting systems, it is usually more specific. One conformation should stay accessible, another should be suppressed under defined conditions, or a binding-competent state should appear within a useful time window. Designs fail surprisingly often because the real objective was never written down sharply enough to rank candidates consistently.
+The objective has to be stated clearly enough to evaluate candidates at
+all. Sometimes that simply means a single dominant fold. In more
+interesting systems, the criterion is narrower. One conformation should
+remain accessible, another should be suppressed under defined
+conditions, or a binding-competent state should appear within a useful
+time window. Designs fail surprisingly often because the actual
+objective was never stated sharply enough to rank candidates
+consistently.
 
-That issue sits at the center of :link-flat:`In silico design of ligand-triggered RNA switches <{filename}/blog/2018-07-01-In-Silico-Design-of-Ligand-Triggered-RNA-Switches.rst>`. The value of that work is not merely the workflow itself. It makes the design objective explicit. Once the mechanism has been translated into structural and kinetic criteria, candidate selection becomes more defensible.
+:link-flat:`In silico design of ligand-triggered RNA switches <{filename}/blog/2018-07-01-In-Silico-Design-of-Ligand-Triggered-RNA-Switches.rst>` addresses exactly that point. Its value is not merely the workflow itself. The design objective is made explicit, and once the mechanism has been translated into structural and kinetic criteria, candidate selection becomes more defensible.
 
-Another check is whether the structural case is genuinely strong enough. A predicted fold may look attractive and still rest on a very shallow margin over competing alternatives. That is why I prefer to look at ensembles rather than a single minimum-free-energy structure whenever possible. A construct that looks tidy in one representative fold can become much less convincing if the ensemble remains diffuse or if small perturbations immediately reshuffle the ranking of alternatives.
+The structural case also has to be strong enough. A predicted fold may
+look attractive and still rest on a very shallow margin over competing
+alternatives. For that reason, I prefer to examine ensembles rather
+than a single minimum-free-energy structure whenever possible. A
+construct that looks tidy in one representative fold can become much
+less convincing if the ensemble remains diffuse or if small
+perturbations reshuffle the ranking of alternatives.
 
-It is also worth asking whether equilibrium is even the right lens. If the design depends on transcriptional timing, ligand capture, switching order, or metastable intermediates, then static structure alone may be the wrong screening criterion. I discuss that broader point in :link-flat:`Why kinetic folding matters in RNA design <{filename}/blog/2025-01-20-Why-Kinetic-Folding-Matters-in-RNA-Design.rst>`. Many disappointing RNA constructs are not structurally impossible. They are simply mistimed.
+Equilibrium may also be the wrong lens. If the design depends on
+transcriptional timing, ligand capture, switching order, or metastable
+intermediates, static structure alone may be an inadequate screening
+criterion. I discuss that broader point in :link-flat:`Why kinetic folding matters in RNA design <{filename}/blog/2025-01-20-Why-Kinetic-Folding-Matters-in-RNA-Design.rst>`. Many disappointing RNA constructs are not structurally
+impossible. They are simply mistimed.
 
 That does not mean every project needs a full kinetic analysis. It does mean some signs should trigger extra scrutiny. Competing local helices, long-range interactions that require transcript completion, or mechanisms that depend on narrow binding windows all suggest that endpoint prediction is not enough. In those cases, a design review should ask whether the mechanism still makes sense once the folding pathway is taken seriously.
 
-It is also useful to ask whether the sequence has been stress-tested against nearby variants. Small synonymous or compensatory changes can be informative even before any experiment is run. If the intended mechanism collapses under minimal perturbation, that is often a warning that the design is too brittle. If the design survives sensible variants and still preserves the desired behavior, confidence improves even without any claim of certainty.
+The sequence should also be stress-tested against nearby variants. Small
+synonymous or compensatory changes can be informative even before any
+experiment is run. If the intended mechanism collapses under minimal
+perturbation, the design is probably too brittle. If sensible variants
+preserve the desired behaviour, confidence improves even without any
+claim of certainty.
 
-This is also where computational prediction can be used productively.
+Computational prediction is useful here in a limited but important way.
 The relevant issue is which assumptions are robust, which are weakly
 supported, and which have not yet been tested. That is close in spirit
 to :link-flat:`When to trust RNA structure prediction for experimental decisions <{filename}/blog/2026-03-01-When-to-Trust-RNA-Structure-Prediction-for-Experimental-Decisions.rst>`, where the same question appears from the experimental side.
 
 Before synthesis, I would want a few basics on the table: a clear mechanistic objective, a structural analysis that goes beyond a single favorite fold, an honest judgment about whether kinetics matters, and a realistic view of the main failure modes. None of that guarantees success. It does reduce the chance of spending time and money on a construct whose weaknesses were visible from the start.
 
-For teams working through exactly that stage, I also offer
-:link-flat:`design reviews and advisory support </services>`. What is
-usually needed is a structured examination of which assumptions behind a
-candidate design are well supported, which remain doubtful, and what
-should be checked before synthesis begins.
+I also offer :link-flat:`design reviews and advisory support </services>`
+for teams working at exactly that stage. What is usually needed is a
+structured examination of which assumptions behind a candidate design
+are well supported, which remain doubtful, and what should be checked
+before synthesis begins.

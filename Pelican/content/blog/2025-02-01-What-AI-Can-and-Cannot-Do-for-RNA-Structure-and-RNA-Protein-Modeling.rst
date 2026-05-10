@@ -39,21 +39,20 @@ substantially in what they can actually tell us.
 
 For a broader view across RNA biology, beyond structure and protein-RNA modeling specifically, see :link-flat:`What AI is genuinely useful for in RNA biology <{filename}/blog/2026-03-22-What-AI-Is-Genuinely-Useful-for-in-RNA-Biology.rst>`. That piece looks more explicitly at candidate ranking, kinetics approximation, and large-scale genomic organization in addition to structural modeling.
 
-The first distinction that matters is between prediction and
-interpretation. A model may produce a plausible structure, a useful
+One distinction that matters is between prediction and interpretation. A model may produce a plausible structure, a useful
 ranking, or a good benchmark score without resolving the biological
 uncertainty that motivated the analysis. :link-flat:`Caveats to deep learning approaches to RNA secondary structure prediction <{filename}/blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>` makes that point very clearly. Good performance
 on familiar datasets does not guarantee generalization to new sequence
 families, new experimental conditions, or regulatory RNAs that occupy
 multiple states.
 
-The second distinction is between static coordinates and mechanistic
+Another distinction is between static coordinates and mechanistic
 explanation. In RNA-protein systems, AI-derived models can be useful as
 starting points. They can place domains sensibly, suggest contact
 regions, and reduce the search space. They often do not settle whether
 the proposed geometry explains specificity, accessibility, competition,
-or function. That is why :link-flat:`A structural refinement technique for protein-RNA complexes using a combination of AI-based modeling and flexible docking <{filename}/blog/2023-06-09-A-Structural-Refinement-Technique-for-Protein-RNA-Complexes-Using-Combination-of-AI-based-Modeling-and-Flexible-Docking-A-Study-of-Musashi-1-Protein.rst>` matters. Refinement, docking, and consistency checks still change the
-conclusion.
+or function. :link-flat:`A structural refinement technique for protein-RNA complexes using a combination of AI-based modeling and flexible docking <{filename}/blog/2023-06-09-A-Structural-Refinement-Technique-for-Protein-RNA-Complexes-Using-Combination-of-AI-based-Modeling-and-Flexible-Docking-A-Study-of-Musashi-1-Protein.rst>` is relevant here because refinement, docking, and consistency
+checks still change the conclusion.
 
 The Musashi line of work makes this especially clear. :link-flat:`Theoretical studies on RNA recognition by Musashi1 RNA-binding protein <{filename}/blog/2022-07-26-Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein.rst>` asks which motifs bind better and why. :link-flat:`From Structure to Function: Computational Insights into Musashi-RNA Complexes <{filename}/blog/2025-01-01-From-Structure-to-Function-Computational-Insights-into-Musashi-RNA-Complexes.rst>` then steps back and asks how those structural observations connect to a broader functional picture. AI helps in that workflow, but it does not replace the need for energetic reasoning, dynamics, or biological interpretation.
 
@@ -62,7 +61,7 @@ solve folding physics from scratch. It uses AI as an approximation
 layer on top of a physically meaningful problem. In RNA work, that is
 often the most convincing role for machine learning.
 
-At present, AI is most useful when the task is to rank candidates,
+AI is most useful when the task is to rank candidates,
 propose starting models, or shorten an otherwise expensive round of
 inference. It is also easier to trust when there is still a clear route
 back to physics, experiment, or comparative evidence. Confidence scores
