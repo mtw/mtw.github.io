@@ -17,22 +17,87 @@ When to trust RNA structure prediction for experimental decisions
 .. role:: link-flat(link)
   :class: m-flat m-text
 
-Discussions of RNA structure prediction often drift toward the wrong question. People ask whether a method is accurate, modern, or state of the art. In the lab, the issue is usually simpler. Is the prediction good enough to justify the next construct, the next mutational series, or the next round of measurements.
+The usefulness of RNA structure prediction is often discussed in terms
+of nominal accuracy or benchmark performance. For experimental work,
+however, the more relevant question is narrower. Under what conditions
+does a predicted structure provide enough support for the next decision,
+whether that decision concerns construct design, mutational analysis, or
+the choice of a follow-up experiment.
 
-That shifts the standard immediately. A prediction does not need to be perfect to be useful. It does, however, need to be honest about its uncertainty. If several alternative folds remain plausible, that ambiguity matters. If a predicted stem survives small perturbations, comparative evidence, and a change in modeling assumptions, then it is often safe to treat it as a serious working hypothesis. The real issue is not whether software returns a structure. It is whether the evidence is strong enough that acting on the result is cheaper than staying uncertain.
+This immediately shifts the standard. In most practical settings, a
+prediction does not have to identify one exact structure in order to be
+useful. It has to delimit a plausible structural space, expose the
+relevant uncertainties, and rule out enough weak alternatives that an
+experimental choice becomes more disciplined. The critical point is
+therefore not whether a folding algorithm returns a structure, but
+whether the current combination of evidence is strong enough that acting
+on the prediction is preferable to remaining uncertain.
 
-There are settings where classical RNA structure prediction remains very useful. Shorter RNAs, compact motifs, and systems with a reasonably dominant fold are often good candidates. The same is true when the goal is not to claim a single exact structure, but to identify likely pairing regions, stable motifs, or candidate structural alternatives worth testing. In those cases, ensemble information can be more informative than the minimum-free-energy structure by itself.
+There are many settings in which classical RNA structure prediction
+still performs well by that standard. Compact RNAs, shorter structural
+motifs, and systems with a reasonably dominant conformational regime are
+often amenable to thermodynamic analysis. The same applies when the aim
+is not to assert one final fold, but to identify stable helices,
+candidate pairing regions, or structural alternatives that can be taken
+forward experimentally. In such cases, ensemble properties are often
+more informative than the minimum-free-energy structure alone.
 
-Things become less straightforward when the biology depends on context. Ligands, proteins, co-transcriptional folding, long-range interactions, or competing metastable states can all change the interpretation. That is one reason I still consider :link-flat:`Predicting RNA structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>` such an important review. It explains why prediction improves when thermodynamic models are combined with experimental evidence, but it also makes clear that probing data do not remove the need for interpretation.
+The situation becomes less straightforward once the biology depends more
+strongly on context. Ligand binding, protein occupancy,
+co-transcriptional folding, long-range interactions, and metastable
+states all complicate the interpretation of a static secondary
+structure. This is one reason :link-flat:`Predicting RNA structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>` remains such a useful review. It makes clear that thermodynamic models
+become substantially more informative when combined with experimental
+evidence, but also that the additional data do not remove the need for
+structural interpretation.
 
-The most reliable step up in confidence often comes from asking whether a prediction remains stable when different kinds of evidence are brought in. :link-flat:`SHAPE directed RNA folding with the ViennaRNA Package <{filename}/blog/2015-09-02-SHAPE-directed-RNA-folding.rst>` is a good example. SHAPE data do not hand you the true secondary structure, but they can suppress implausible folds and strengthen alternatives that sequence-only prediction underweights. Used well, that changes the quality of the decision. Instead of asking whether a model guessed the fold correctly, you can ask whether the proposed structure is still plausible once experimental accessibility data are taken seriously.
+In practice, confidence increases most when a structural conclusion
+remains stable under several, partly independent lines of evidence.
+:link-flat:`SHAPE directed RNA folding with the ViennaRNA Package <{filename}/blog/2015-09-02-SHAPE-directed-RNA-folding.rst>` is instructive in that regard. SHAPE reactivities do not reveal a finished
+secondary structure. They constrain the set of structures that remain
+plausible once nucleotide accessibility is taken into account. When the
+sequence-only model and the probing data support the same structural
+features, the prediction becomes considerably more useful for
+experimental planning.
 
-The current AI wave changes the tooling, but not the underlying judgment call. As discussed in :link-flat:`Caveats in deep learning for RNA secondary structure prediction <{filename}/blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>`, strong benchmark performance can still reflect familiarity with the dataset more than real structural understanding. Sequence-only neural predictions therefore deserve caution when the design space is unfamiliar, the structural class is unusual, or the next experiment is costly.
+The current machine-learning literature changes the tooling but not the
+underlying inferential problem. As discussed in :link-flat:`Caveats in deep learning for RNA secondary structure prediction <{filename}/blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>`, strong performance on benchmark sets is not equivalent to robust
+structural understanding. Sequence-only neural models therefore require
+the same caution as any other predictor when the sequence class is
+unusual, when the relevant mechanism depends on context, or when the
+experimental cost of a wrong inference is high.
 
-What matters more than any benchmark headline is whether the result stays stable when you push on it a little. Does the predicted feature survive small parameter changes or nearby variants. Are competing structures still close enough in energy to alter the interpretation. Is there probing, comparative, or biochemical evidence that nudges the analysis in one direction. And, just as important, how expensive would it be to be wrong. If the next experiment is cheap, a weaker prediction may still be worth acting on. If the next step is a costly synthesis or a translational claim, the bar should be much higher.
+From that perspective, several practical criteria become more relevant
+than any headline performance number. One is whether the predicted
+feature remains stable under modest perturbations of the sequence or the
+model assumptions. Another is whether competing structures remain close
+enough in free energy to alter the biological interpretation. A third is
+whether probing, comparative, or biochemical evidence moves the analysis
+consistently in one direction. Finally, the threshold for action depends
+on the cost of being wrong. A weaker prediction may be acceptable when
+the next experiment is cheap. The same level of support may be
+inadequate when a design cycle is costly or when a broader biological
+claim rests on the result.
 
-This is also why kinetics keeps reappearing in design problems. A construct can look perfectly reasonable at equilibrium and still behave differently once the folding pathway matters. I discuss that in more detail in :link-flat:`Why kinetic folding matters in RNA design <{filename}/blog/2025-01-20-Why-Kinetic-Folding-Matters-in-RNA-Design.rst>`. The point is not that equilibrium prediction is useless. It is that some decisions require a richer model of the system than a single static fold can provide.
+This is also why kinetics keeps reappearing in design-oriented problems.
+A construct can appear plausible at equilibrium and still behave
+differently once the folding pathway becomes mechanistically relevant. I
+discuss that in more detail in :link-flat:`Why kinetic folding matters in RNA design <{filename}/blog/2025-01-20-Why-Kinetic-Folding-Matters-in-RNA-Design.rst>`.
+The point is not that equilibrium folding is uninformative, but that
+some experimental decisions depend on aspects of the system that a
+single static structure cannot represent adequately.
 
-The practical conclusion is fairly simple. Trust RNA structure prediction most when it narrows the experimental space in a transparent way, when independent evidence points in the same direction, and when uncertainty has been made explicit rather than hidden. Be more cautious when the biology is context-heavy, when the prediction depends on a narrow benchmark logic, or when the cost of a wrong inference is large.
+The practical conclusion is therefore rather modest. RNA structure
+prediction is most trustworthy when it narrows the experimental space in
+a transparent way, when independent evidence points toward the same
+structural interpretation, and when the remaining uncertainty has been
+made explicit. It deserves more caution when the relevant mechanism is
+context-heavy, when structural alternatives remain poorly resolved, or
+when the cost of a wrong inference is substantial.
 
-For groups working near that boundary between useful prediction and overinterpretation, an external technical review can be useful. Often the difficulty is not running the software. It is deciding which structural claims are firm enough to act on and which still need another layer of evidence. That is the sort of question I take up in :link-flat:`design reviews and advisory work </services>`.
+For groups working near that boundary between useful prediction and
+overinterpretation, an external technical review can be helpful. The
+difficulty is rarely the execution of the software itself. It is the
+judgment of which structural claims are already strong enough to support
+action and which still require an additional layer of evidence. That is
+the kind of question I address in :link-flat:`design reviews and advisory work </services>`.
