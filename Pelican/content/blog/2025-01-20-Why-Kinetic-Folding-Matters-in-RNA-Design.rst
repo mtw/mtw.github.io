@@ -7,9 +7,9 @@ Why kinetic folding matters in RNA design
 :category: outreach
 :slug: Why-Kinetic-Folding-Matters-in-RNA-Design
 :author: mtw
-:summary: RNA design fails surprisingly often when equilibrium structure is treated as the whole story. Folding kinetics matters whenever pathway, timing, or metastable intermediates shape function.
+:summary: RNA design is incomplete when equilibrium structure is treated as the sole criterion. Folding kinetics becomes essential whenever pathway, timing, or metastable intermediates contribute to function.
 :title: Why kinetic folding matters in RNA design
-:description: A practical guide to when RNA design problems depend on folding pathways and not only on equilibrium structure.
+:description: A practical perspective on RNA design problems in which folding pathways, cotranscriptional effects, and kinetic accessibility are as important as the equilibrium structure.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -23,47 +23,57 @@ Why kinetic folding matters in RNA design
 .. role:: doi(link)
   :class: doi
 
-RNA is often designed as if the minimum free energy structure were the
-whole target. That can work in simple cases, but many RNAs function
-because they reach a state at the right time, avoid a competing state
-for long enough, or switch between states under conditions in which
-transcription, ligand binding, and cotranscriptional trapping matter.
+RNA design is frequently formulated as a problem of specifying a target
+structure and identifying sequences that adopt this structure with high
+thermodynamic stability. In many cases, this is a useful and necessary
+starting point. However, it is not a complete description of function.
+Many RNAs are not defined only by their equilibrium structure, but by the
+pathway through which this structure is reached. Both the time at which a
+functional conformation becomes available, and the persistence of
+metastable states can become integral determinants of RNA stability.
 
-Kinetic folding becomes relevant whenever the route matters as much as
-the endpoint. Equilibrium thermodynamics is often the right starting
-point, but it does not cover every design objective.
+Kinetic folding therefore becomes important whenever the route (often referred to as folding path) to a
+structure contributes to the mechanism. Equilibrium thermodynamics
+describes the relative stability of states. It does not, by itself,
+describe whether a transcript can reach a productive state within the
+relevant time frame, whether a competing structure blocks this route,
+or whether cotranscriptional folding traps the molecule before the
+intended conformation becomes accessible.
 
-This point appears already in :link-flat:`Folding kinetics of large RNAs <{filename}/blog/2008-06-01-Folding-Kinetics-of-Large-RNAs.rst>`, which lays out why pathway information becomes essential once RNA systems grow beyond the simplest toy cases. It appears again in :link-flat:`BarMap: RNA folding on dynamic energy landscapes <{filename}/blog/2010-07-01-BarMap-RNA-Folding-on-Dynamic-Energy-Landscapes.rst>`, which makes it explicit that the landscape itself changes during transcription. It becomes especially concrete in :link-flat:`Efficient computation of cotranscriptional RNA-ligand interaction dynamics <{filename}/blog/2018-07-01-Efficient_Computation_of_Cotranscriptional_RNA-Ligand_Interaction_Dynamics.rst>`, where ligand binding has to be understood together with the emergence of binding-competent intermediates.
+This distinction has been central to several earlier studies. The post
+:link-flat:`Folding kinetics of large RNAs <{filename}/blog/2008-06-01-Folding-Kinetics-of-Large-RNAs.rst>` discusses why pathway information becomes increasingly important for RNA systems that extend beyond small model examples. Likewise,
+:link-flat:`BarMap: RNA folding on dynamic energy landscapes <{filename}/blog/2010-07-01-BarMap-RNA-Folding-on-Dynamic-Energy-Landscapes.rst>` emphasizes that the folding landscape is not fixed during transcription, but changes as the nascent RNA chain grows. This becomes particularly relevant in
+:link-flat:`Efficient computation of cotranscriptional RNA-ligand interaction dynamics <{filename}/blog/2018-07-01-Efficient_Computation_of_Cotranscriptional_RNA-Ligand_Interaction_Dynamics.rst>`, where ligand binding must be considered together with the transient formation of binding-competent intermediates.
 
-For synthetic design, this matters most in switches, aptamer-coupled
-systems, and related constructs in which timing is part of the
-mechanism. A sequence can satisfy all static constraints and still fail
-because the productive conformation appears too late, a competing helix
-traps the transcript, or the ligand-binding window is too narrow.
+For synthetic RNA design, these issues are especially relevant for
+switches, aptamer-coupled systems, regulatory elements, and other
+constructs in which timing is part of the functional mechanism. A
+candidate sequence may satisfy all static structural constraints and
+nevertheless fail experimentally. The active conformation may form
+too late, a competing helix may sequester essential nucleotides, or the
+ligand-binding state may exist only outside the relevant temporal
+window. In such cases, the design has not failed because the target
+structure was incorrectly specified, but because the design objective did
+not sufficiently represent the mechanism.
 
-:link-flat:`In silico design of ligand-triggered RNA switches <{filename}/blog/2018-07-01-In-Silico-Design-of-Ligand-Triggered-RNA-Switches.rst>` makes the same point from the design side. A credible
-objective function has to encode the intended mechanism, not just a
-target fold. Once the objective is stated properly, kinetics becomes a
-design filter rather than an afterthought.
+The same principle applies from the design perspective in
+:link-flat:`In silico design of ligand-triggered RNA switches <{filename}/blog/2018-07-01-In-Silico-Design-of-Ligand-Triggered-RNA-Switches.rst>`. A meaningful objective function must encode the intended functional logic, not merely a desired endpoint structure. Once this objective is formulated in mechanistic terms, kinetic information becomes a design criterion rather than a post hoc explanation for failure.
 
-More recent work on :link-flat:`KinPFN: Bayesian Approximation of RNA Folding Kinetics <{filename}/blog/2025-01-01-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst>` and :link-flat:`Bayesian Approximation of RNA Folding Times <{filename}/blog/2025-01-01-Bayesian-Approximation-of-RNA-Folding-Times.rst>` points in the same direction. The practical obstacle has often been
-cost. Full kinetic simulations are informative, but they are slow.
-Approximation methods matter because they allow many more candidates to
-be compared without abandoning the mechanistic question.
+Recent work on :link-flat:`KinPFN: Bayesian Approximation of RNA Folding Kinetics <{filename}/blog/2025-01-01-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst>` and :link-flat:`Bayesian Approximation of RNA Folding Times <{filename}/blog/2025-01-01-Bayesian-Approximation-of-RNA-Folding-Times.rst>` addresses a practical limitation that has long constrained this area. Detailed kinetic simulations can be highly informative, but their computational cost limits their routine use in large design spaces. Approximation methods are valuable because they allow folding-time information to be incorporated earlier in the design process, where many alternative sequences still have to be compared.
 
-The methodological problem is straightforward. In RNA design, one can
-optimize the wrong criterion. If the system depends on pathway
-behaviour, a convincing equilibrium fold may still be irrelevant.
-Kinetic reasoning does not replace design intuition, but it can prevent
-attention from drifting away from the mechanism that determines
-function.
+The central methodological risk is therefore clear. RNA design can
+optimize the wrong criterion. If function depends on pathway behaviour,
+then a convincing equilibrium fold may still be insufficient. Kinetic
+reasoning does not replace thermodynamic design, comparative analysis,
+or experimental validation. Instead, it adds a necessary layer of
+interpretation whenever timing, accessibility, or transient states are
+part of the mechanism.
 
-That same problem appears whenever one has to decide which candidate
-designs deserve to move forward at all.
-
-Projects often become expensive at exactly that point. A team may
-already have sequences, assays, and a plausible mechanistic story, but
-no clear answer to whether the design has a folding-pathway problem or a
-measurement problem. In that situation, a structured review can save
-time. My :link-flat:`services page <{filename}/services.rst>` describes how I handle design reviews and advisory work for teams
-facing that kind of decision.
+This becomes particularly important when candidate designs have to be
+prioritized before experimental resources are committed. At this stage,
+a project may already have plausible sequences, an assay strategy, and a
+mechanistic hypothesis, but still lack a clear distinction between a
+folding-pathway problem, a sequence-design problem, and a measurement
+problem. A structured review can help clarify this distinction and
+identify which candidates are most informative to test next. My
+:link-flat:`services page <{filename}/services.rst>` describes how I approach design reviews and advisory work for teams facing this type of decision.
