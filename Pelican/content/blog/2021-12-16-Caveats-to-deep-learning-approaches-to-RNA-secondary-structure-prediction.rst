@@ -39,9 +39,21 @@ The result is sobering but informative. When neural networks are trained on bias
 
 An equally important observation is that removing dataset bias does not magically solve the problem. Even on unbiased synthetic data, several architectures struggle to recover basic structural constraints reliably. Some models predict pairing patterns whose scaling with sequence length is inconsistent with valid secondary structures. Others produce artifacts that resemble pseudoknots or base triples even when the ViennaRNA-style ground truth does not contain such features at all. These are not minor numerical errors. They point to a mismatch between model output and the combinatorial rules that define the object being predicted.
 
-I still find the article useful years later because it is not an anti-AI paper. It is a paper about technical honesty. If machine learning is going to contribute meaningfully to RNA biology, we need evaluation setups that distinguish memorization from mechanism. We also need models that respect the structural constraints of RNA rather than merely fitting correlations in a benchmark. The work argues, implicitly, for approaches that combine learning with stronger priors, explicit structure constraints, or experimental information instead of assuming that larger networks alone will fix the problem.
+I still find the article important years later because it is not an
+anti-AI paper. It is a paper about technical honesty. If machine
+learning is going to contribute meaningfully to RNA biology, evaluation
+has to distinguish memorization from mechanism. The models also have to
+respect the structural constraints of RNA rather than merely fitting
+correlations in a benchmark. The work argues, implicitly, for
+approaches that combine learning with stronger priors, explicit
+structure constraints, or experimental information instead of assuming
+that larger networks alone will fix the problem.
 
-The related practical question is when a structure predictor deserves enough trust to influence an experimental decision. I discuss that more directly in :link-flat:`When to trust RNA structure prediction for experimental decisions <{filename}/blog/2026-03-01-When-to-Trust-RNA-Structure-Prediction-for-Experimental-Decisions.rst>`. The answer depends less on whether a model is branded as AI and more on whether the evidence is robust, interpretable, and proportionate to the cost of the next step.
+The related practical question is when a structure predictor explains a
+mechanism well enough to influence an experimental decision. I discuss
+that more directly in :link-flat:`When to trust RNA structure prediction for experimental decisions <{filename}/blog/2026-03-01-When-to-Trust-RNA-Structure-Prediction-for-Experimental-Decisions.rst>`. The answer depends less on whether a model is branded as AI and more
+on whether the evidence is robust, interpretable, and proportionate to
+the cost of the next step.
 
 For a broader assessment of where machine learning is genuinely helping across RNA biology, not just in secondary structure prediction, see :link-flat:`What AI is genuinely useful for in RNA biology <{filename}/blog/2026-03-22-What-AI-Is-Genuinely-Useful-for-in-RNA-Biology.rst>`.
 
