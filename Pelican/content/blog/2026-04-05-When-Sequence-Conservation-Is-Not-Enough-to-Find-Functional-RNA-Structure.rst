@@ -30,7 +30,13 @@ pairing, topology, or higher-order organization even while their
 primary sequence drifts. A sequence-only view will miss part of that
 signal.
 
-This is especially clear in viral untranslated regions. In many RNA viruses, the non-coding parts of the genome do not merely separate coding segments or stabilize transcript ends. They carry structured elements that influence replication, cyclization, nuclease resistance, host adaptation, and regulatory timing. Those functions can remain conserved even when the underlying sequence has changed substantially.
+The point becomes especially clear in viral untranslated regions. In
+many RNA viruses, the non-coding parts of the genome do not merely
+separate coding segments or stabilize transcript ends. They carry
+structured elements that influence replication, cyclization, nuclease
+resistance, host adaptation, and regulatory timing. Those functions can
+remain conserved even when the underlying sequence has changed
+substantially.
 
 Comparative RNA analysis therefore has to ask a different question.
 Instead of following sequence identity alone, it has to examine whether
@@ -42,7 +48,7 @@ The flavivirus `3'UTR` provides a particularly good example. In :link-flat:`Comp
 
 The same logic becomes even clearer in the mosquito-borne branch. :link-flat:`Functional RNA structures in the 3'UTR of Mosquito-Borne Flaviviruses <{filename}/blog/2021-09-06-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>` shows that these genomes are built from a recurring structural vocabulary, including xrRNAs, dumbbells, and terminal stem-loops, yet the number, arrangement, and detailed realization of those elements vary across groups. A sequence-based comparison alone would flatten that picture. Structural comparison reveals the lineage-specific architecture.
 
-This matters because functional RNA elements are not always portable as
+Functional RNA elements are not always portable as
 simple motifs. An xrRNA is not defined by a short consensus sequence. It
 is defined by a fold that creates a physical barrier to exonuclease
 progression. The same is true more broadly for many structured elements
@@ -52,12 +58,11 @@ Tick-borne flaviviruses offer a useful intermediate case. In :link-flat:`RNA str
 
 The same principle also explains why newly discovered lineages can be so informative. In :link-flat:`Mpulungu virus and unique xrRNAs in a novel African tick flavivirus <{filename}/blog/2021-03-01-An_African_Tick_Flavivirus_Forming_an_Independent_Clade_Exhibits_Unique_Exoribonuclease-Resistant_RNA_Structures_in_the_Genomic_three_prime-Untranslated_Region.rst>` and the later :link-flat:`Xinyang flavivirus clade paper <{filename}/blog/2024-05-29-Xingyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade.rst>`, the genomes look unusual at the sequence level, yet the untranslated regions still preserve recognizable structured-RNA strategies. That kind of result would be very hard to see if one were only searching for clean sequence conservation.
 
-For me, this is one of the more important conceptual shifts in RNA
-virology. It changes what counts as homology, what counts as
-divergence, and what kinds of questions can be asked about function.
-Sequence divergence does not imply that structure has been lost. In many
-cases, the function has been re-encoded in a different sequence
-realization.
+This is one of the more important conceptual shifts in RNA virology. It
+changes what counts as homology, what counts as divergence, and what
+kinds of questions can be asked about function. Sequence divergence
+does not imply that structure has been lost. In many cases, the
+function has been re-encoded in a different sequence realization.
 
 When the biology depends on structured RNA, sequence alignment is
 usually the beginning of the analysis rather than the end.

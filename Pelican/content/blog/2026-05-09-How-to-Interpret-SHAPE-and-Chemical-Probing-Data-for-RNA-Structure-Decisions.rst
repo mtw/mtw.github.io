@@ -59,8 +59,9 @@ measured condition.
 Two questions are often mixed together. One is whether probing data
 improve a structure prediction at all. I discuss that question in
 :link-flat:`When SHAPE data actually improves RNA structure prediction <{filename}/blog/2022-10-20-When-SHAPE-Data-Actually-Improves-RNA-Structure-Prediction.rst>`.
-The other is what those data allow one to conclude. In practice, the
-second question is often the more important one.
+The other is what those data allow one to conclude. The second question
+is often the more important one because it determines how far the
+analysis can be taken.
 
 DMS, SHAPE-MaP, DMS-MaPseq, and related workflows differ in chemistry
 and readout, but the interpretive issue is similar. They are most useful
@@ -80,8 +81,8 @@ posed, the experiment matches that question, and the computational
 interpretation remains conservative about what is still unresolved.
 Otherwise the analysis can start to look more definitive than it is.
 
-That is often the point at which groups benefit from a technical review
-or a focused training session. The issue is usually whether the current
-design, probing setup, and computational interpretation are coherent
-enough to support the next experimental decision. That is exactly the
-kind of question I take up in :link-flat:`design reviews, workshops, and advisory work </services>`.
+At that stage, groups often benefit from a technical review or a focused
+training session. The issue is usually whether the current design,
+probing setup, and computational interpretation are coherent enough to
+support the next experimental decision. That is the kind of question I
+take up in :link-flat:`design reviews, workshops, and advisory work </services>`.
