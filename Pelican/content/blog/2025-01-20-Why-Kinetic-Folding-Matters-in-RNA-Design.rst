@@ -23,9 +23,16 @@ Why kinetic folding matters in RNA design
 .. role:: doi(link)
   :class: doi
 
-It is tempting to design RNA as if the minimum free energy structure were the whole target. That can work for simple cases, but many RNAs function because they reach a state at the right time, avoid a competing state long enough, or switch between states under conditions where transcription, ligand binding, and cotranscriptional trapping all matter.
+It is tempting to design RNA as if the minimum free energy structure
+were the whole target. That can work in simple cases, but many RNAs
+function because they reach a state at the right time, avoid a
+competing state for long enough, or switch between states under
+conditions in which transcription, ligand binding, and cotranscriptional
+trapping matter.
 
-That is why kinetic folding matters. Equilibrium thermodynamics remains valuable, but it does not cover every design objective. Once success depends on the route taken rather than only on the endpoint, sequence ranking based on static structure alone starts to miss the relevant failure modes.
+Kinetic folding becomes relevant whenever the route matters as much as
+the endpoint. Equilibrium thermodynamics remains useful, but it does not
+cover every design objective.
 
 This point appears already in :link-flat:`Folding kinetics of large RNAs <{filename}/blog/2008-06-01-Folding-Kinetics-of-Large-RNAs.rst>`, which lays out why pathway information becomes essential once RNA systems grow beyond the simplest toy cases. It appears again in :link-flat:`BarMap: RNA folding on dynamic energy landscapes <{filename}/blog/2010-07-01-BarMap-RNA-Folding-on-Dynamic-Energy-Landscapes.rst>`, which makes it explicit that the landscape itself changes during transcription. And it becomes especially concrete in :link-flat:`Efficient computation of cotranscriptional RNA-ligand interaction dynamics <{filename}/blog/2018-07-01-Efficient_Computation_of_Cotranscriptional_RNA-Ligand_Interaction_Dynamics.rst>`, where ligand binding has to be understood together with the emergence of binding-competent intermediates.
 
@@ -35,8 +42,17 @@ That is also why :link-flat:`In silico design of ligand-triggered RNA switches <
 
 More recent work on :link-flat:`KinPFN: Bayesian Approximation of RNA Folding Kinetics <{filename}/blog/2025-01-01-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst>` and :link-flat:`Bayesian Approximation of RNA Folding Times <{filename}/blog/2025-01-01-Bayesian-Approximation-of-RNA-Folding-Times.rst>` points in the same direction. The practical obstacle has often been cost. Full kinetic simulations are informative, but they are slow. Approximation methods matter because they let you compare many more candidates while still asking the right question.
 
-The deeper issue is methodological. In RNA design, the most expensive mistake is often not a wrong prediction. It is optimizing for the wrong criterion. If the system depends on pathway behavior, a beautiful equilibrium fold can become a distraction. Kinetic reasoning does not replace design intuition, but it does help keep attention on the mechanism that actually determines function.
+The deeper issue is methodological. In RNA design, one can optimize the
+wrong criterion. If the system depends on pathway behaviour, a
+convincing equilibrium fold may still be irrelevant. Kinetic reasoning
+does not replace design intuition, but it can prevent attention from
+drifting away from the mechanism that determines function.
 
 That same question appears again in :link-flat:`How to review an RNA design before synthesis <{filename}/blog/2026-03-15-How-to-Review-an-RNA-Design-Before-Synthesis.rst>`, where the issue is not just whether kinetics matters in principle, but how to decide which candidate designs deserve to move forward at all.
 
-This is often where projects become expensive. A team may already have sequences, assays, and a plausible mechanistic story, but not a clear answer to whether the design has a folding-pathway problem or a measurement problem. That is the sort of point where a structured review can save time. My :link-flat:`services page <{filename}/services.rst>` describes how I handle design reviews and advisory work for teams facing that kind of decision.
+This is often the point at which projects become expensive. A team may
+already have sequences, assays, and a plausible mechanistic story, but
+no clear answer to whether the design has a folding-pathway problem or a
+measurement problem. That is the sort of situation in which a
+structured review can save time. My :link-flat:`services page <{filename}/services.rst>` describes how I handle design reviews and advisory
+work for teams facing that kind of decision.
