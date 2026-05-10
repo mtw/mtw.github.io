@@ -7,9 +7,9 @@ What AI can and cannot do for RNA structure and RNA-protein modeling
 :category: outreach
 :slug: What-AI-Can-and-Cannot-Do-for-RNA-Structure-and-RNA-Protein-Modeling
 :author: mtw
-:summary: AI has become useful in RNA structure and RNA-protein modeling, but its real value depends on where the biological uncertainty lies and how the models are checked against physics and experiment.
+:summary: AI affects RNA structure and RNA-protein modeling in very different ways depending on whether the task concerns ranking, geometry generation, or mechanistic inference, and whether the output remains anchored in physics and experiment.
 :title: What AI can and cannot do for RNA structure and RNA-protein modeling
-:description: A researcher’s view on where AI helps in RNA structure prediction and RNA-protein complex modeling, and where it still needs experimental and physical grounding.
+:description: A researcher’s view on which AI-based models address ranking or geometry generation in RNA biology, and where mechanistic inference still depends on physical and experimental constraints.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -30,48 +30,47 @@ What AI can and cannot do for RNA structure and RNA-protein modeling
           :figclass: m-figure m-flat
 
 
-AI has become impossible to ignore in RNA biology, and with good
-reason. Machine learning now contributes to sequence annotation,
-structure scoring, kinetics approximation, and the generation of
-candidate models for RNA-protein complexes. The difficulty begins when
-"AI for RNA" is treated as a single activity, because those tasks differ
-substantially in what they can actually tell us.
+AI now appears in several distinct parts of RNA biology, including
+sequence annotation, structure scoring, kinetics approximation, and the
+generation of candidate models for RNA-protein complexes. Treating
+"AI for RNA" as a single activity obscures the fact that these tasks
+operate at different levels of inference.
 
-For a broader view across RNA biology, beyond structure and protein-RNA modeling specifically, see :link-flat:`What AI is genuinely useful for in RNA biology <{filename}/blog/2026-03-22-What-AI-Is-Genuinely-Useful-for-in-RNA-Biology.rst>`. That piece looks more explicitly at candidate ranking, kinetics approximation, and large-scale genomic organization in addition to structural modeling.
+For a broader view across RNA biology, beyond structure and protein-RNA
+modeling specifically, see :link-flat:`What AI is genuinely useful for in RNA biology <{filename}/blog/2026-03-22-What-AI-Is-Genuinely-Useful-for-in-RNA-Biology.rst>`.
 
-One distinction that matters is between prediction and interpretation. A model may produce a plausible structure, a useful
-ranking, or a good benchmark score without resolving the biological
-uncertainty that motivated the analysis. :link-flat:`Caveats to deep learning approaches to RNA secondary structure prediction <{filename}/blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>` makes that point very clearly. Good performance
-on familiar datasets does not guarantee generalization to new sequence
-families, new experimental conditions, or regulatory RNAs that occupy
-multiple states.
+One distinction that matters is between output generation and
+interpretation. A model may produce a plausible structure, a ranking,
+or a strong benchmark score without resolving the biological
+uncertainty that motivated the analysis. :link-flat:`Caveats to deep learning approaches to RNA secondary structure prediction <{filename}/blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>` makes that point very clearly. Good performance on familiar datasets
+does not guarantee generalization to new sequence families, new
+experimental conditions, or regulatory RNAs that occupy multiple
+states.
 
-Another distinction is between static coordinates and mechanistic
-explanation. In RNA-protein systems, AI-derived models can be useful as
-starting points. They can place domains sensibly, suggest contact
-regions, and reduce the search space. They often do not settle whether
-the proposed geometry explains specificity, accessibility, competition,
-or function. :link-flat:`A structural refinement technique for protein-RNA complexes using a combination of AI-based modeling and flexible docking <{filename}/blog/2023-06-09-A-Structural-Refinement-Technique-for-Protein-RNA-Complexes-Using-Combination-of-AI-based-Modeling-and-Flexible-Docking-A-Study-of-Musashi-1-Protein.rst>` is relevant here because refinement, docking, and consistency
-checks still change the conclusion.
+Another distinction is between coordinate generation and mechanistic
+explanation. In RNA-protein systems, AI-derived models can place domains
+sensibly, suggest contact regions, and reduce the search space. They do
+not necessarily settle whether the proposed geometry explains
+specificity, accessibility, competition, or function. :link-flat:`A structural refinement technique for protein-RNA complexes using a combination of AI-based modeling and flexible docking <{filename}/blog/2023-06-09-A-Structural-Refinement-Technique-for-Protein-RNA-Complexes-Using-Combination-of-AI-based-Modeling-and-Flexible-Docking-A-Study-of-Musashi-1-Protein.rst>` is relevant here because refinement, docking, and consistency checks
+still change the conclusion.
 
-The Musashi line of work makes this especially clear. :link-flat:`Theoretical studies on RNA recognition by Musashi1 RNA-binding protein <{filename}/blog/2022-07-26-Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein.rst>` asks which motifs bind better and why. :link-flat:`From Structure to Function: Computational Insights into Musashi-RNA Complexes <{filename}/blog/2025-01-01-From-Structure-to-Function-Computational-Insights-into-Musashi-RNA-Complexes.rst>` then steps back and asks how those structural observations connect to a broader functional picture. AI helps in that workflow, but it does not replace the need for energetic reasoning, dynamics, or biological interpretation.
+The Musashi line of work makes this especially clear. :link-flat:`Theoretical studies on RNA recognition by Musashi1 RNA-binding protein <{filename}/blog/2022-07-26-Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein.rst>` asks which motifs bind better and why. :link-flat:`From Structure to Function: Computational Insights into Musashi-RNA Complexes <{filename}/blog/2025-01-01-From-Structure-to-Function-Computational-Insights-into-Musashi-RNA-Complexes.rst>` then steps back and asks how those structural observations connect to a broader functional picture. AI enters that workflow at the model-generation stage, not at the level of final interpretation.
 
-Kinetics offers a similar lesson. :link-flat:`KinPFN: Bayesian Approximation of RNA Folding Kinetics <{filename}/blog/2025-01-01-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst>` is interesting precisely because it does not pretend to
-solve folding physics from scratch. It uses AI as an approximation
-layer on top of a physically meaningful problem. In RNA work, that is
-often the most convincing role for machine learning.
+Kinetics offers a similar lesson. :link-flat:`KinPFN: Bayesian Approximation of RNA Folding Kinetics <{filename}/blog/2025-01-01-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst>` is interesting precisely because it does not pretend to solve folding
+physics from scratch. It uses AI as an approximation layer on top of a
+physically meaningful problem.
 
-AI is most useful when the task is to rank candidates,
-propose starting models, or shorten an otherwise expensive round of
-inference. It is also easier to trust when there is still a clear route
-back to physics, experiment, or comparative evidence. Confidence scores
-alone are much less persuasive.
+The most convincing use cases are therefore those in which AI addresses
+ranking, initialization, or approximation, while the mechanistic
+interpretation remains anchored in physics, experiment, or comparative
+evidence. Confidence scores alone are much less informative than that
+broader context.
 
-For researchers and teams, the practical issue is usually where AI can
-be trusted, where it needs stronger stress testing, and where it has to
-be combined with other forms of evidence. That judgment becomes
-especially difficult when the output looks polished and the project is
-under time pressure. In that situation, a careful review of the
-modelling assumptions and likely failure modes is usually more useful
-than enthusiasm. My :link-flat:`services page <{filename}/services.rst>` describes the formats I use for that kind of focused review
-and advisory support.
+For researchers and teams, the practical issue is usually which part of
+the inference has actually been automated, and which part still depends
+on stronger stress testing or on additional evidence. That judgment
+becomes especially difficult when the output looks polished and the
+project is under time pressure. In that situation, a careful review of
+the modelling assumptions and likely failure modes is usually more
+valuable than enthusiasm. My :link-flat:`services page <{filename}/services.rst>` describes the formats I use for that kind of focused
+review and advisory support.
