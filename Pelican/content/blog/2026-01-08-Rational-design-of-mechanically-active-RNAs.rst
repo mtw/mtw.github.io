@@ -28,7 +28,7 @@ Rational Design of Mechanically Active RNAs
    This post was written when the manuscript first appeared as a
    preprint in January 2026. The peer-reviewed paper has since appeared
    in *Nucleic Acids Research*. The final publication is discussed in
-   :link-flat:`Published in NAR: rational design of mechanically active RNAs <{filename}/blog/2026-05-14-Rational-design-of-mechanically-active-RNAs-in-Nucleic-Acids-Research.rst>`.
+   :link-flat:`Rational design of mechanically active RNAs <{filename}/blog/2026-05-12-Rational-design-of-mechanically-active-RNAs-in-Nucleic-Acids-Research.rst>`.
 
 .. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
 
