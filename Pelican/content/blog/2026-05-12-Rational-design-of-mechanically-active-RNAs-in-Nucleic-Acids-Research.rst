@@ -41,12 +41,20 @@ To my knowledge, this is the first example of a fully *de novo* designed RNA in 
 
 For synthetic biology and therapeutic RNA engineering, this opens the possibility of tuning decay resistance and transcript stability without importing long native viral sequence segments wholesale. At the same time, the work remains fundamentally a study in RNA architecture. The main result is that mechanical function can be preserved even after evolutionary sequence ancestry has effectively been removed.
 
-The present study also closes a conceptual loop with earlier work on natural xrRNAs and structured viral RNAs. Comparative analysis originally established the relevant folds in nature. The current paper asks which parts of that function survive once sequence history is removed and only the underlying topological logic is retained.
+The broader implications extend well beyond flavivirus RNA biology. If
+mechanically active RNA elements can be specified de novo, then decay
+control becomes an engineering variable rather than a borrowed viral
+feature. That changes how one can think about stabilizing synthetic
+transcripts, shaping RNA lifetime in therapeutic settings, or
+introducing programmable decay barriers into larger regulatory designs.
+In RNA therapeutics, where persistence, dosage, and degradation
+behaviour are often as important as coding capacity, this kind of
+design principle could become a useful addition to the current
+toolbox. More generally, the work shows that higher-order RNA
+architecture itself can be treated as a design substrate, not only as
+something discovered retrospectively in natural molecules.
 
-The earlier comparative side of that story runs through
-:link-flat:`Discoveries of Exoribonuclease-Resistant Structures of Insect-Specific Flaviviruses Isolated in Zambia <{filename}/blog/2020-09-14-Discoveries-of-Exoribonuclease-Resistant-Structures-of-Insect-Specific-Flaviviruses-Isolated-in-Zambia.rst>`,
-:link-flat:`Mpulungu virus and unique xrRNAs in a novel African tick flavivirus <{filename}/blog/2021-03-01-An_African_Tick_Flavivirus_Forming_an_Independent_Clade_Exhibits_Unique_Exoribonuclease-Resistant_RNA_Structures_in_the_Genomic_three_prime-Untranslated_Region.rst>`,
-and :link-flat:`Strukturierte RNAs in Viren <{filename}/blog/2023-03-23-Strukturierte-RNAs-in-Viren.rst>`.
+The present study also closes a conceptual loop with earlier work on natural xrRNAs and structured viral RNAs. Comparative analysis originally established the relevant folds in nature. The current paper asks which parts of that function survive once sequence history is removed and only the underlying topological logic is retained.
 
 The January :link-flat:`preprint-stage note <{filename}/blog/2026-01-08-Rational-design-of-mechanically-active-RNAs.rst>` remains online as a shorter record of how the project was framed before the peer-review process.
 
