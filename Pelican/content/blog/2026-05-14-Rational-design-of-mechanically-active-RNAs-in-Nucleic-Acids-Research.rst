@@ -1,8 +1,8 @@
 Rational Design of Mechanically Active RNAs in Nucleic Acids Research
 #####################################################################
 
-:date: 2026-05-14
-:modified: 2026-05-07
+:date: 2026-05-12
+:modified: 2026-05-12
 :tags: RNA design; xrRNA; synthetic biology
 :category: publications
 :slug: Rational-design-of-mechanically-active-RNAs-in-Nucleic-Acids-Research
@@ -10,7 +10,6 @@ Rational Design of Mechanically Active RNAs in Nucleic Acids Research
 :summary: The peer-reviewed NAR paper shows that synthetic xrRNAs can be designed from topological rules and validated experimentally as mechanically active RNAs.
 :title: Published in NAR: rational design of mechanically active RNAs
 :description: Final publication post for the Nucleic Acids Research paper on synthetic xrRNAs, topological RNA design, and experimentally validated mechanical resistance.
-:status: skip
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -76,17 +75,15 @@ that function once the sequence history is stripped away and only the
 topological logic is kept. That shift from description to design is
 what makes the paper especially satisfying.
 
-.. frame:: Publication Note
-
-   This post is prepared for the final journal publication of the paper
-   in *Nucleic Acids Research*. When the article goes live, the formal
-   citation, DOI, and PDF link should be updated here and the
-   corresponding entry in ``publications.rst`` should be redirected from
-   the January preprint note to this page.
+The earlier comparative side of that story runs through
+:link-flat:`Discoveries of Exoribonuclease-Resistant Structures of Insect-Specific Flaviviruses Isolated in Zambia <{filename}/blog/2020-09-14-Discoveries-of-Exoribonuclease-Resistant-Structures-of-Insect-Specific-Flaviviruses-Isolated-in-Zambia.rst>`,
+:link-flat:`Mpulungu virus and unique xrRNAs in a novel African tick flavivirus <{filename}/blog/2021-03-01-An_African_Tick_Flavivirus_Forming_an_Independent_Clade_Exhibits_Unique_Exoribonuclease-Resistant_RNA_Structures_in_the_Genomic_three_prime-Untranslated_Region.rst>`,
+and :link-flat:`Strukturierte RNAs in Viren <{filename}/blog/2023-03-23-Strukturierte-RNAs-in-Viren.rst>`.
+The January :link-flat:`preprint-stage note <{filename}/blog/2026-01-08-Rational-design-of-mechanically-active-RNAs.rst>` remains online as a shorter record of how the project was framed before peer-reviewed publication.
 
 Citation
 ========
 
-  | :link-flat-strong:`Rational design of mechanically active RNAs: de novo engineering of functional exoribonuclease-resistant RNAs <{filename}/blog/2026-05-14-Rational-design-of-mechanically-active-RNAs-in-Nucleic-Acids-Research.rst>`
+  | :link-flat-strong:`Rational design of mechanically active RNAs: de novo engineering of functional exoribonuclease-resistant RNAs <https://academic.oup.com/nar/article/54/9/gkag473/8676204>`
   | Jule Walter, Leonhard Sidl, Katrin Gutenbrunner, Denis Skibinski, Tim Kolberg, Ivo L. Hofacker, Hua-Ting Yao, Mario Mörl, :ul:`Michael T. Wolfinger`
-  | *Nucleic Acids Res.* (2026) | final DOI and PDF link to be added when the journal version is live
+  | *Nucleic Acids Res.* 54(9):gkag473 (2026) | :doi:`doi:10.1093/nar/gkag473 <https://doi.org/10.1093/nar/gkag473>` | :link-flat:`Article <https://academic.oup.com/nar/article/54/9/gkag473/8676204>`
