@@ -1,7 +1,7 @@
 Identification of Conserved RNA Regulatory Switches in Living Cells
 ###################################################################
 
-:date: 2025-01-01
+:date: 2025-06-17
 :modified: 2026-04-24
 :tags: RNA structure prediction; RNA structure conservation
 :category: publications
