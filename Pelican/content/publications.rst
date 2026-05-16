@@ -66,6 +66,13 @@ Peer-reviewed journal / conference articles and book chapters
       | *Nucleic Acids Res.* 54(9):gkag473 (2026)
       | :doi:`doi:10.1093/nar/gkag473 <https://doi.org/10.1093/nar/gkag473>` | :link-flat:`Article <https://academic.oup.com/nar/article/54/9/gkag473/8676204>` | :link-flat:`PDF <{static}/files/papers/Walter-2026.pdf>` | :label-flat-info:`Journal article`
 
+    .. container:: m-col-t-4
+
+      .. figure:: {static}/files/papers/preview/Preview__Walter-2026.001small.webp
+          :alt: Graphical abstract of the 2026 xrRNA Design paper
+          :figclass: m-figure m-flat
+          :target: {filename}/blog/2026-05-12-Rational-design-of-mechanically-active-RNAs-in-Nucleic-Acids-Research.rst
+
 .. _year2025:
 
 `2025`_
@@ -82,6 +89,13 @@ Peer-reviewed journal / conference articles and book chapters
       | Ivana Borovská, Chundan Zhang, Sarah-Luisa J. Dülk, Edoardo Morandi, Marta F. S. Cardoso, Billal M. Bourkia, Daphne A. L. van den Homberg, :ul:`Michael T. Wolfinger`, Willem A. Velema, Danny Incarnato
       | *Nat. Biotechnol.* (2025)
       | :doi:`doi:10.1038/s41587-025-02739-0 <https://doi.org/10.1038/s41587-025-02739-0>` | :link-flat:`PDF <{static}/files/papers/Borovska-2025.pdf>` | :label-flat-info:`Journal article`
+
+    .. container:: m-col-t-4
+
+      .. figure:: {static}/files/papers/preview/Preview__Borovska-2025.001small.webp
+          :alt: Ensemble deconvolution and temperature dependencey of RNA structure
+          :figclass: m-figure m-flat
+          :target: {filename}/blog/2025-01-01-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst
 
   .. container:: m-row
 
