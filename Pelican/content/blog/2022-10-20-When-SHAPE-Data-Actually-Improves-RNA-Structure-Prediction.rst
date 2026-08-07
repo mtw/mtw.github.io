@@ -1,6 +1,7 @@
 When SHAPE data actually improves RNA structure prediction
 ##########################################################
 
+:status: hidden
 :date: 2022-10-20
 :modified: 2026-04-30
 :tags: SHAPE; RNA structure prediction; ViennaRNA
