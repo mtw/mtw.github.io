@@ -69,9 +69,6 @@ M_LINKS_NAVBAR1 = [
                         ('Posters', 'publications/posters', 'publications/posters'),
                         ]),
                     ('Teaching', '/teaching', 'teaching', []),
-                    ('Services', '/services', 'services', [
-                        ('Workshops', 'services/workshops', 'services/workshops'),
-                    ]),
                     ('Contact', '/contact', 'contact', []),
                     ('Blog', 'blog/', '[blog]',[])]
 
@@ -87,8 +84,8 @@ M_LINKS_FOOTER1 = [('Home', '/'),
                     ]
 
 M_LINKS_FOOTER2 = [('Services', ''),
-                    ('Expert Services', '/services'),
-                    ('RNA Workshops', 'services/workshops'),
+                    ('Expert Services', '/'),
+                    ('RNA Workshops', '/'),
                     ('RNA Forecast', 'https://rnaforecast.com'),
 		            ('Contact', '/contact'),
                     ('Legal Note','/legal'),
