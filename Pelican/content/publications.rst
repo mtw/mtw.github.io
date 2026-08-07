@@ -31,6 +31,15 @@ Submitted Manuscripts / Preprints
 
     .. container::  m-col-t-8
 
+      | 58. :link-flat-strong:`Computational Analysis of Sequence Editability in the Theophylline RNA Aptamer as a Functional RNA Molecule <{filename}/publications.rst>`
+      | Aamir Aman, Leonhard Sidl, Nitchakan Darai, Peter Wolschann, Thanyada Rungrotmongkol, :ul:`Michael T. Wolfinger`
+      | Submitted manuscript (2026)
+
+
+  .. container:: m-row
+
+    .. container::  m-col-t-8
+
       | 57. :link-flat-strong:`Identification of a region within the 5’UTR of of Interleukin–2 mRNA offers a promising strategy for drug development for autoimmune disorders <{filename}/publications.rst>`
       | Katarzyna M. Gluchowska, Krzysztofa Odzywol, Agnieszka Zagozdzon, Tomasz K. Wirecki, Chandran Nithin, Bartlomiej Surpeta, Xiaobing Zhang, Jannan Zhao, Lukasz Joachimiak, Bartlomiej Hofman, Joanna Sztuba-Solinska, Katarzyna Drzewicka, Angelika Muchowicz, :ul:`Michael T. Wolfinger`, Roman Blaszczyk, Irina Tuszynska, Janusz M. Bujnicki, and Zbigniew Zaslona
       | Submitted manuscript (2026)
@@ -41,7 +50,7 @@ Submitted Manuscripts / Preprints
 
       | 56. :link-flat-strong:`“Circle ofLife” - Zika virus genomic cyclization is controlled by sequence specificity <{filename}/publications.rst>`
       | Liam Kerr, Danielle L. Gemmill, Higor S. Pereira, :ul:`Michael T. Wolfinger`, Trushar R. Patel
-      | Submitted manuscript (2025)
+      | Submitted manuscript (2026)
 
 
 .. transition::  - - -
