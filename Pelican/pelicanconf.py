@@ -77,40 +77,23 @@ M_LINKS_NAVBAR1 = [
 
 #M_LINKS_NAVBAR2 = [('Blog', 'blog/', '[blog]',[])]
 
-M_LINKS_FOOTER1 = [('Home', '/'),
-                    ('About', '/about'),
-                    ('Research', '/research'),
-                    ('Publications', '/publications'),
-                    ('Teaching', '/teaching'),
-                    ('Team', '/team'),
-                    ('Blog', '/blog'),
-                    ]
-
-M_LINKS_FOOTER2 = [('Services', ''),
-                    ('Expert Services', '/'),
-                    ('RNA Workshops', '/'),
-                    ('RNA Forecast', 'https://rnaforecast.com'),
-		            ('Contact', '/contact'),
-                    ('Legal Note','/legal'),
-                    ]
-
-M_LINKS_FOOTER3 = [('My Profiles',''),
+# Footer: the mockups show one short row of profile links and a single fine-print
+# line (no link columns). Legal Note is kept at the end of the row.
+M_LINKS_FOOTER1 = [('ORCID', 'https://orcid.org/0000-0003-0925-5205'),
                     ('Google Scholar', 'https://scholar.google.at/citations?user=w0PHGnEAAAAJ&hl=en'),
-                    ('ResearchGate', 'https://www.researchgate.net/profile/Michael-Wolfinger'),
+                    ('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/?term=Wolfinger+MT'),
                     ('Scopus', 'https://www.scopus.com/authid/detail.uri?authorId=6508361997'),
-                    ('Loop', 'https://loop.frontiersin.org/people/485709/overview'),
-                    ]
-
-M_LINKS_FOOTER4 = [('Social', ''),
-                    ('Linkedin', 'https://www.linkedin.com/in/michaelwolfinger/'),
-                    ('Bluesky', 'https://bsky.app/profile/mtwolfinger.bsky.social'),
                     ('GitHub', 'https://github.com/mtw'),
-                    ('ORCID', 'https://orcid.org/0000-0003-0925-5205'),
+                    ('LinkedIn', 'https://www.linkedin.com/in/michaelwolfinger/'),
+                    ('RNA Forecast', 'https://rnaforecast.com'),
+                    ('Legal Note', '/legal'),
                     ]
 
-M_FINE_PRINT =  """
-| © 2026 Michael T. Wolfinger | All rights reserved
-"""
+M_LINKS_FOOTER2 = []
+M_LINKS_FOOTER3 = []
+M_LINKS_FOOTER4 = []
+
+M_FINE_PRINT = "© 2026 Michael T. Wolfinger · Vienna, Austria · michael@rnaforecast.com"
 
 STATIC_PATHS = ['static', 'extra/CNAME', 'extra/robots.txt', 'extra/favicon.ico']
 EXTRA_PATH_METADATA = {
