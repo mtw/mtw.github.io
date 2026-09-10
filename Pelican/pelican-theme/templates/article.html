@@ -35,6 +35,11 @@
   <meta property="og:type" content="article" />
 {% endblock %}
 
+{% block extra %}
+  {% import '_ldjson.html' as ld with context %}
+  {{ ld.article_graph(article) }}
+{% endblock %}
+
 {% block main %}
 <article>
   {% if article.cover %}

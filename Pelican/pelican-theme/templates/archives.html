@@ -20,6 +20,10 @@
   {% block social_url %}{% if M_BLOG_URL %}<meta property="og:url" content="{{ M_BLOG_URL|format_siteurl|e }}" />{% endif %}{% endblock %}
 {% endblock %}
 
+{% block extra %}
+  {% block blog_ldjson %}{% import '_ldjson.html' as ld with context %}{{ ld.listing_graph(M_BLOG_NAME, (M_BLOG_URL or (SITEURL ~ '/blog')).rstrip('/') ~ '/', M_BLOG_DESCRIPTION or M_BLOG_NAME, true) }}{% endblock %}
+{% endblock %}
+
 {% block main %}
 <article class="page page-blog">
   <div class="m-container">
