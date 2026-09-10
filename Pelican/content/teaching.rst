@@ -1,10 +1,11 @@
 Teaching
 ########
-:summary: Teaching by Michael Thomas Wolfinger
+:summary: This page is the authoritative archive of Michael T. Wolfinger's university teaching, courses, workshops, and invited teaching in computational RNA biology and bioinformatics. Advanced training offered through RNA Forecast links back to this fuller record.
 :title: Michael Thomas Wolfinger's Teaching
+:hero_eyebrow: Teaching
+:hero_title: Teaching & Workshops
 :description: Teaching by Michael T. Wolfinger, including university courses, lectures, and workshop-related training in computational RNA biology.
 
-:breadcrumb: / Home
 
 .. role:: link-flat(link)
   :class: m-flat m-text

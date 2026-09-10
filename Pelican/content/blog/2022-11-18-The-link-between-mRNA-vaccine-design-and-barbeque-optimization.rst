@@ -5,6 +5,7 @@ The link between mRNA vaccine design and barbeque optimization
 :modified: 2022-11-28
 :tags: RNA design; synthetic biology
 :category: outreach
+:section: essays
 :frontpage: no
 :slug: The-link-between-mRNA-vaccine-design-and-barbeque-optimization
 :author: mtw

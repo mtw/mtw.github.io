@@ -72,4 +72,4 @@ Citation
 
   | :link-flat-strong:`Insights into the secondary and tertiary structure of the Bovine Viral Diarrhea Virus Internal Ribosome Entry Site <https://doi.org/10.1080/15476286.2022.2058818>`
   | Devadatta Gosavi, Iwona Wower, Irene K Beckmann, Ivo L Hofacker, Jacek Wower, :ul:`Michael T Wolfinger`, Joanna Sztuba-Solinska
-  | *RNA Biol.* 19(1) 496-506 (2022) | :doi:`doi:10.1080/15476286.2022.2058818 <https://doi.org/10.1080/15476286.2022.2058818>` | :link-flat:`PDF <{static}/files/papers/Gosavi-2022.pdf>`
+  | *RNA Biol.* 19(1) 496-506 (2022) | :doi:`doi:10.1080/15476286.2022.2058818 <https://doi.org/10.1080/15476286.2022.2058818>` | :link-flat:`PDF <{static}/files/papers/Gosavi-2022.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Gosavi-2022.pdf>`

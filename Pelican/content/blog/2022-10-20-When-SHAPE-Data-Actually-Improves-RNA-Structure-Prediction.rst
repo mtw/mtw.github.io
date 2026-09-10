@@ -6,6 +6,7 @@ When SHAPE data actually improves RNA structure prediction
 :modified: 2026-04-30
 :tags: SHAPE; RNA structure prediction; ViennaRNA
 :category: outreach
+:section: guides
 :slug: When-SHAPE-Data-Actually-Improves-RNA-Structure-Prediction
 :author: mtw
 :summary: SHAPE data can improve RNA structure prediction substantially, but only when the experiment, the model, and the biological question line up in the right way.

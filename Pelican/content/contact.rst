@@ -3,56 +3,52 @@ Contact
 :summary: Contact Michael T. Wolfinger
 :title: Contact Michael T. Wolfinger
 :description: Contact Michael T. Wolfinger about ViennaRNA workshops, RNA design reviews, SHAPE or chemical probing interpretation, academic collaboration, or research questions.
+:hero_eyebrow: Contact
+:hero_title: Get in touch
+:hide_summary: True
 
-:breadcrumb: / Home
-
-.. role:: link-flat(link)
-  :class: m-flat m-text
-
-Workshops, Design Reviews, and Services
-=========================================
-
-For enquiries about workshops, RNA design reviews, or advisory engagements, write to :link-flat:`hello@rnaforecast.com <mailto:hello@rnaforecast.com?subject=Services Inquiry>`. A brief description of your team and what you are working on is enough to get started.
-
-Academic and Research Enquiries
-=================================
-
-For questions related to research, collaborations, or academic matters, write directly to :link-flat:`michael.wolfinger@univie.ac.at <mailto:michael.wolfinger@univie.ac.at>`. If you are reaching out about a possible collaboration, a short note on the scientific context is enough.
-
-
-
-
-Find Me Online
-===============
+.. Layout note: the two-column contact layout (details card on the left, dark
+   services card and links panel on the right) is one raw-HTML block on purpose.
+   The prose is plain <p> text and stays editable.
 
 .. raw:: html
 
-  <ul>
-    <li><a href="https://www.linkedin.com/in/michaelwolfinger/">LinkedIn</a></li>
-    <li><a href="https://twitter.com/mtwolfinger">Twitter</a></li>
-    <li><a href="https://bsky.app/profile/mtwolfinger.bsky.social">Bluesky</a></li>
-    <li><a href="https://www.researchgate.net/profile/Michael-Wolfinger">ResearchGate</a></li>
-    <li><a href="https://scholar.google.at/citations?user=w0PHGnEAAAAJ">Google Scholar</a></li>
-    <li><a href="https://www.webofscience.com/wos/author/record/N-9538-2014">Web of Science</a></li>
-    <li><a href="https://www.scopus.com/authid/detail.uri?authorId=6508361997">Scopus</a></li>
-    <li><a href="https://loop.frontiersin.org/people/485709/overview">Loop</a></li>
-    <li><a href="https://orcid.org/0000-0003-0925-5205">ORCID</a></li>
-    <li><a href="https://github.com/mtw">GitHub</a></li>
-  </ul>
-.. container:: m-row
+   <div class="contact-grid">
+     <div>
+       <p class="lede">Michael T. Wolfinger is an independent Principal Investigator in computational RNA biology, based in Vienna, Austria.</p>
 
-    .. container:: m-col-l-6 m-container-inflatable
+       <div class="detail-card">
+         <div class="row"><span class="k">Name</span><span class="v">Michael T. Wolfinger</span></div>
+         <div class="row"><span class="k">Role</span><span class="v">Independent Principal Investigator</span></div>
+         <div class="row"><span class="k">Email</span><span class="v"><a href="mailto:michael.wolfinger@univie.ac.at">michael.wolfinger@univie.ac.at</a></span></div>
+         <div class="row"><span class="k">Location</span><span class="v">Vienna, Austria</span></div>
+         <div class="row"><span class="k">Mail</span><span class="v">Theoretical Biochemistry Group (TBI)<br>Department of Theoretical Chemistry, Faculty of Chemistry<br>University of Vienna<br>W&auml;hringer Strasse 17, 1090 Vienna, Austria</span></div>
+       </div>
 
-      .. block-default:: Michael T. Wolfinger
+       <p class="small-print" style="margin-top:22px">For questions related to research, collaborations, or academic matters, write directly to <a href="mailto:michael.wolfinger@univie.ac.at">michael.wolfinger@univie.ac.at</a>. If you are reaching out about a possible collaboration, a short note on the scientific context is enough.</p>
+     </div>
 
-          .. raw:: html
-
-              Theoretical Biochemistry Group TBI<br/>
-              Department of Theoretical Chemistry<br/>
-              Faculty of Chemistry<br />
-              University of Vienna<br/>
-              <br />
-              Währinger Strasse 17<br/>
-              1090 Vienna, Austria<br/>
-              <br/>
-              <a href="mailto:michael.wolfinger@univie.ac.at">Email</a> <br/>
+     <div class="card-stack">
+       <div class="card-dark">
+         <div class="eyebrow">Workshops, design reviews &amp; services</div>
+         <p>For enquiries about workshops, RNA design reviews, or advisory engagements, write to hello@rnaforecast.com. A brief description of your team and what you are working on is enough to get started.</p>
+         <a class="btn-light" href="mailto:hello@rnaforecast.com?subject=Services Inquiry">hello@rnaforecast.com &rarr;</a>
+       </div>
+       <div class="card-panel">
+         <div class="eyebrow">Find me online</div>
+         <div class="links">
+           <a href="https://orcid.org/0000-0003-0925-5205">ORCID &rarr; 0000-0003-0925-5205</a>
+           <a href="https://scholar.google.at/citations?user=w0PHGnEAAAAJ">Google Scholar &rarr;</a>
+           <a href="https://github.com/mtw">GitHub &rarr;</a>
+           <a href="https://www.linkedin.com/in/michaelwolfinger/">LinkedIn &rarr;</a>
+           <a href="https://bsky.app/profile/mtwolfinger.bsky.social">Bluesky &rarr;</a>
+           <a href="https://twitter.com/mtwolfinger">Twitter &rarr;</a>
+           <a href="https://www.researchgate.net/profile/Michael-Wolfinger">ResearchGate &rarr;</a>
+           <a href="https://www.webofscience.com/wos/author/record/N-9538-2014">Web of Science &rarr;</a>
+           <a href="https://www.scopus.com/authid/detail.uri?authorId=6508361997">Scopus &rarr;</a>
+           <a href="https://loop.frontiersin.org/people/485709/overview">Loop &rarr;</a>
+           <a href="https://rnaforecast.com">RNA Forecast &rarr;</a>
+         </div>
+       </div>
+     </div>
+   </div>

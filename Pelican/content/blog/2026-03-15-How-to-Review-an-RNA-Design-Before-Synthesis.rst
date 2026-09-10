@@ -5,6 +5,7 @@ How to review an RNA design before synthesis
 :modified: 2026-05-01
 :tags: RNA design; RNA structure prediction; RNA folding kinetics; synthetic biology; ViennaRNA
 :category: outreach
+:section: guides
 :status: skip
 :slug: How-to-review-an-RNA-design-before-synthesis
 :author: mtw

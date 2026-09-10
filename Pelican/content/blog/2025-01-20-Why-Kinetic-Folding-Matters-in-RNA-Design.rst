@@ -6,6 +6,7 @@ Why kinetic folding matters in RNA design
 :modified: 2026-04-30
 :tags: RNA design; RNA folding kinetics; co-transcriptional RNA folding; synthetic biology
 :category: outreach
+:section: essays
 :slug: Why-Kinetic-Folding-Matters-in-RNA-Design
 :author: mtw
 :summary: RNA design is incomplete when equilibrium structure is treated as the sole criterion. Folding kinetics becomes essential whenever pathway, timing, or metastable intermediates contribute to function.
