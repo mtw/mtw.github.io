@@ -26,11 +26,14 @@ DIRECT_TEMPLATES = ['index']
 
 FORMATTED_FIELDS = ['summary', 'landing', 'header', 'footer', 'description', 'badge']
 
-M_CSS_FILES = ['https://fonts.googleapis.com/css?family=Roboto:300;400|Source+Code+Pro:200:300,400|Source+Sans+Pro:300,400',
-               'static/m-light.css']
+M_CSS_FILES = [
+    'https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800',
+    'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600',
+    'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500',
+    'static/mtw.css',
+]
 
-M_THEME_COLOR = '#EAEAEA'
-M_DEFAULT_PAGE_COVER = '/static/bg6.webp'
+M_THEME_COLOR = '#f1f0ec'
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['m.htmlsanity',
@@ -70,7 +73,7 @@ M_LINKS_NAVBAR1 = [
                         ]),
                     ('Teaching', '/teaching', 'teaching', []),
                     ('Contact', '/contact', 'contact', []),
-                    ('Blog', 'blog/', '[blog]',[])]
+                    ('Writing', 'blog/', '[blog]',[])]
 
 #M_LINKS_NAVBAR2 = [('Blog', 'blog/', '[blog]',[])]
 
@@ -135,7 +138,8 @@ TWITTER_USERNAME = 'mtwolfinger'
 
 M_BLOG_NAME = "michaelwolfinger.com Bioinformatics Blog"
 M_BLOG_URL = 'https://michaelwolfinger.com/blog'
-M_BLOG_DESCRIPTION = "michaelwolfinger.com | Advancing RNA biology through the innovative application of AI and computational techniques"
+M_BLOG_DESCRIPTION = "michaelwolfinger.com | Computational RNA biology: RNA structure, folding dynamics, functional RNA design, and structured viral RNAs"
+M_SOCIAL_BLOG_SUMMARY = "Computational RNA biology — RNA structure, folding dynamics, functional RNA design, and structured viral RNAs"
 
 M_SOCIAL_TWITTER_SITE = '@mtwolfinger'
 M_SOCIAL_TWITTER_SITE_ID = 15105886

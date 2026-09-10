@@ -6,6 +6,7 @@ When sequence conservation is not enough to find functional RNA structure
 :modified: 2026-05-01
 :tags: RNA structure conservation; virus bioinformatics; xrRNA; flavivirus; non-coding RNA
 :category: outreach
+:section: guides
 :slug: When-sequence-conservation-is-not-enough-to-find-functional-RNA-structure
 :author: mtw
 :summary: Functional RNA structures are often preserved long after primary sequence similarity becomes weak or misleading. In those cases, comparative analysis has to look for conserved architecture, compensatory change, and shared structural logic rather than sequence identity alone.

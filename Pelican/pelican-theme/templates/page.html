@@ -1,14 +1,11 @@
 {% set page_slug = page.slug %}
-{% set effective_page_cover = page.cover if page.cover else M_DEFAULT_PAGE_COVER if M_DEFAULT_PAGE_COVER else None %}
+{# Only an explicit per-page :cover: may override the hero's gradient ground. The old
+   theme's M_DEFAULT_PAGE_COVER fallback is deliberately NOT honoured here — it applied
+   bg6.webp site-wide, which is what the gradient replaces. #}
+{% set effective_page_cover = page.cover %}
 {% extends "base.html" %}
 
-{% block title %}
-{% if page.title == SITENAME|e %}
-{{ page.title -}}
-{% else %}
-{{ page.title }}
-{% endif %}
-{% endblock %}
+{% block title %}{% if page.title == SITENAME|e %}{{ page.title -}}{% else %}{{ page.title }}{% endif %}{% endblock %}
 
 {% block head_links %}
   {% if page.css %}
@@ -17,20 +14,13 @@
   <link rel="stylesheet" href="{{ style|expand_link(page)|e }}" />
   {% endfor %}
   {% endif %}
-  {% if M_FAVICON %}
-  <link rel="icon" href="{{ M_FAVICON[0]|format_siteurl|e }}" type="{{ M_FAVICON[1]|e }}" />
-  {% endif %}
-  {% if page.canonical_url %}
-    <link rel="canonical" href="{{ page.canonical_url }}">
-  {% else %}
-    <link rel="canonical" href="{{ page.url|format_siteurl|e }}" />
-  {% endif %}
+  {% if M_FAVICON %}<link rel="icon" href="{{ M_FAVICON[0]|format_siteurl|e }}" type="{{ M_FAVICON[1]|e }}" />{% endif %}
+  {% if page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}">
+  {% else %}<link rel="canonical" href="{{ page.url|format_siteurl|e }}" />{% endif %}
 {% endblock %}
 
 {% block meta %}
-  {% if page.description %}
-  <meta name="description" content="{{ page.description|dehyphenate|striptags|e }}" />
-  {% endif %}
+  {% if page.description %}<meta name="description" content="{{ page.description|dehyphenate|striptags|e }}" />{% endif %}
 {% endblock %}
 
 {% block social %}
@@ -42,15 +32,11 @@
   <meta property="og:description" content="{{ page.summary|dehyphenate|striptags|e }}" />
   <meta name="twitter:description" content="{{ page.summary|dehyphenate|striptags|e }}" />
   {% endif %}
-  {% if effective_page_cover %}
-  <meta property="og:image" content="{{ effective_page_cover|expand_link(page)|e }}" />
-  <meta name="twitter:image" content="{{ effective_page_cover|expand_link(page)|e }}" />
-  <meta name="twitter:card" content="summary_large_image" />
-  {% elif M_SOCIAL_IMAGE %}
+  {% if M_SOCIAL_IMAGE %}
   <meta property="og:image" content="{{ M_SOCIAL_IMAGE|format_siteurl }}" />
   <meta name="twitter:image" content="{{ M_SOCIAL_IMAGE|format_siteurl }}" />
-  {% endif %}
-  {% if not effective_page_cover %}
+  <meta name="twitter:card" content="summary_large_image" />
+  {% else %}
   <meta name="twitter:card" content="summary" />
   {% endif %}
   <meta property="og:type" content="page" />
@@ -63,83 +49,46 @@
   <script src="{{ script|expand_link(page)|e }}"></script>
   {% endfor %}
   {% endif %}
-  {% if page.html_header %}
-  {{ page.html_header|rtrim|indent(2) }}
-  {% endif %}
+  {% if page.html_header %}{{ page.html_header|rtrim|indent(2) }}{% endif %}
   {% if page.extrahead == 'mtw_ldjson' %}
-    {% raw%}
+    {% raw %}
       <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
+  "@type": ["Person", "ProfilePage"],
   "@id": "https://michaelwolfinger.com/#michaelwolfinger",
   "name": "Michael T. Wolfinger",
   "url": "https://michaelwolfinger.com/",
   "mainEntityOfPage": "https://michaelwolfinger.com/",
   "image": "https://michaelwolfinger.com/static/mtw.jpg",
-  "identifier": {
-    "@type": "PropertyValue",
-    "propertyID": "ORCID",
-    "value": "https://orcid.org/0000-0003-0925-5205"
-  },
+  "identifier": {"@type": "PropertyValue", "propertyID": "ORCID", "value": "https://orcid.org/0000-0003-0925-5205"},
   "orcid": "https://orcid.org/0000-0003-0925-5205",
-  "jobTitle": "Principal Investigator, Computational RNA Biology",
-  "affiliation": [
-    {
-      "@type": "CollegeOrUniversity",
-      "name": "University of Vienna",
-      "url": "https://www.univie.ac.at/"
-    },
-    {
-      "@type": "ResearchOrganization",
-      "name": "Theoretical Biochemistry Group (TBI)",
-      "url": "https://www.tbi.univie.ac.at/"
-    }
-  ],
-  "worksFor": {
-    "@type": "Organization",
-    "name": "University of Vienna",
-    "url": "https://www.univie.ac.at/"
-  },
-  "memberOf": {
-    "@type": "ResearchOrganization",
-    "name": "Theoretical Biochemistry Group (TBI)",
-    "url": "https://www.tbi.univie.ac.at/"
-  },
-  "knowsAbout": ["RNA structure", "RNA folding kinetics", "Synthetic RNA design", "Virus bioinformatics", "ViennaRNA", "mRNA vaccines"],
+  "jobTitle": "Independent Principal Investigator, Computational RNA Biology",
+  "knowsAbout": ["RNA structure", "RNA folding kinetics", "Functional RNA design", "Viral RNA biology", "RNA-protein recognition", "ViennaRNA", "Computational methods"],
   "sameAs": [
     "https://rnaforecast.com",
-    "https://www.linkedin.com/in/michaelwolfinger/",
-    "https://scholar.google.at/citations?user=w0PHGnEAAAAJ",
     "https://orcid.org/0000-0003-0925-5205",
+    "https://scholar.google.at/citations?user=w0PHGnEAAAAJ&hl=en",
+    "https://www.scopus.com/authid/detail.uri?authorId=6508361997",
+    "https://www.researchgate.net/profile/Michael-Wolfinger",
+    "https://loop.frontiersin.org/people/485709/overview",
+    "https://pubmed.ncbi.nlm.nih.gov/?term=Wolfinger+MT",
+    "https://www.linkedin.com/in/michaelwolfinger/",
+    "https://bsky.app/profile/mtwolfinger.bsky.social",
     "https://github.com/mtw"
   ]
 }
       </script>
-    {% endraw%}
+    {% endraw %}
   {% endif %}
 {% endblock %}
 
 {% block main %}
-{% if not page.landing %}
-{% if effective_page_cover %}
-<div id="m-cover-image" style="background-image: url('{{ effective_page_cover|expand_link(page)|e }}');"><div></div></div>
-{% endif %}
-{% if page.header %}
-<div class="m-container m-container-inflatable">
-  <div class="m-row">
-    <div class="m-col-l-10 m-push-l-1 m-nopadb">
-<!-- header -->
-{{ page.header|trim|expand_links(page) }}
-<!-- /header -->
-    </div>
-  </div>
-</div>
-{% endif %}
-{% endif %}
-<article>
+{% set _rna = 'GGGCGUAGCUCAGCUGGGAGAGCGCCUGCUUUGCACGCAGGAGGUCUGCGGUUCGAUCCCGCAUAGCUCCACCA (((((((..((((........)))).(((((.......))))).....(((((.......)))))))))))).... ACGUAGGCUUAAGGCACCGGUAUUCGUACGAUCGAUCGAUCGGCUACG ..((((...))))..((((....))))..(((....)))..(((((...))))).. GCUUACGGUAGCUAGCUAGCUAGGCUACGUAGCUAGCUAGCUAGGCUA ((((((....))))))...((((.....))))...((...))..(((....))) UUAACCGGUUAACCGGAUCGAUCGGCUAGCAUCGAUCGGCAUCGGCUA .((((((....)))))).(((...)))..((((....))))..((....)) GGCACCGUAGGCUACGUAGCUAGGCUACGGAUCGGCUAGCUAGGCAUCG (((((((..((((........)))).(((((.......))))).....(((((.......))))))))))))....' %}
+<article class="page page-{{ page.slug }}{% if page.landing %} page-landing{% endif %}">
   {% if page.landing %}
   <div id="m-landing-image"{% if effective_page_cover %} style="background-image: url('{{ effective_page_cover|expand_link(page)|e }}');"{% endif %}>
+    <div class="hero-rna" aria-hidden="true">{{ _rna }}</div>
     <div id="m-landing-cover">
       <div class="m-container">
 <!-- landing -->
@@ -148,26 +97,9 @@
       </div>
     </div>
   </div>
-  {% endif %}
   <div class="m-container m-container-inflatable">
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
-        {% if not page.landing %}
-        {% if page.breadcrumb %}
-        <h1>
-          <span class="m-breadcrumb">
-            {% set breadcrumbs = page.breadcrumb.strip().split('\n') %}
-            {% for i in breadcrumbs %}
-            {% set url, _, title = i.strip().partition(' ') %}
-            <a href="{{ url|expand_link(page)|e }}">{{ title|e }}</a> &raquo;
-            {% endfor %}
-          </span>
-          {{ page.title }}
-        </h1>
-        {% else %}
-        <h1>{{ page.title }}</h1>
-        {% endif %}
-        {% endif %}
         {% if page.content %}
 <!-- content -->
 {% block page_content -%}
@@ -180,28 +112,66 @@
     {% if page.save_as == 'index.html' and not page.url and M_NEWS_ON_INDEX %}
     <div class="m-row">
       <div class="m-col-l-8 m-push-l-2">
-        <div><div class="m-note m-default m-landing-news">
+        <div class="m-note">
           <h3><a href="{{ M_BLOG_URL|format_siteurl|e }}">{{ M_NEWS_ON_INDEX[0]|e }} &raquo;</a></h3>
-          <ul class="m-unstyled">
+          <ul>
             {% for article in articles[0:M_NEWS_ON_INDEX[1]] %}
-            <li><time class="m-text m-dim" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time><a href="{{ article.url }}">{{ article.title|e }}</a></li>
+            <li><time class="m-dim" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time> &nbsp; <a href="{{ article.url }}">{{ article.title|e }}</a></li>
             {% endfor %}
           </ul>
         </div>
-      </div></div>
+      </div>
     </div>
     {% endif %}
   </div>
-</article>
-{% if page.footer %}
-<div class="m-container m-container-inflatable">
-  <div class="m-row">
-    <div class="m-col-l-10 m-push-l-1 m-nopadt">
-<!-- footer -->
-{{ page.footer|trim|expand_links(page) }}
-<!-- /footer -->
+  {% else %}
+  {#- Compact interior page-head: eyebrow, optional breadcrumb, H1, lede. Spans the full
+      container like the mockups (no pushed 10/12 column). -#}
+  <div class="m-container">
+    <div class="page-head">
+      {% if page.hero_eyebrow %}<div class="page-eyebrow">{{ page.hero_eyebrow }}</div>
+      {% else %}<div class="page-eyebrow">{{ page.title }}</div>{% endif %}
+      {% if page.breadcrumb %}
+      <h1><span class="m-breadcrumb">
+        {% set breadcrumbs = page.breadcrumb.strip().split('\n') %}
+        {% for i in breadcrumbs %}
+        {% set url, _, title = i.strip().partition(' ') %}
+        <a href="{{ url|expand_link(page)|e }}">{{ title|e }}</a> &raquo;
+        {% endfor %}
+      </span>{{ page.hero_title or page.title }}</h1>
+      {% else %}
+      <h1>{{ page.hero_title or page.title }}</h1>
+      {% endif %}
+      {% if page.summary and (page.hide_summary is not defined or page.hide_summary != 'True') %}
+      <p class="page-lede">{{ page.summary|striptags|e }}</p>
+      {% endif %}
     </div>
   </div>
+  <div class="m-container m-container-inflatable page-body">
+    {% if page.content %}
+<!-- content -->
+{{ page.content|trim }}
+<!-- /content -->
+    {% endif %}
+  </div>
+  {#- Optional full-bleed dark RNA Forecast band, driven by page metadata:
+      :rf_band: <sentence>  :rf_band_url: <href>  :rf_band_label: <button text> -#}
+  {% if page.rf_band %}
+  <section class="rf-band">
+    <div class="inner">
+      <div>
+        <div class="eyebrow">{{ page.rf_band_eyebrow or 'Independent research platform' }}</div>
+        <p>{{ page.rf_band|striptags }}</p>
+      </div>
+      <a class="btn-light" href="{{ page.rf_band_url or 'https://rnaforecast.com' }}">{{ page.rf_band_label or 'RNA Forecast' }} &rarr;</a>
+    </div>
+  </section>
+  {% endif %}
+  {% endif %}
+</article>
+{% if page.footer %}
+<div class="m-container page-body m-nopadt">
+{{ page.footer|trim|expand_links(page) }}
 </div>
 {% endif %}
 {% endblock %}

@@ -5,6 +5,7 @@ Functional RNAs in Virology
 :modified: 2025-07-30
 :tags: novel viruses; virus bioinformatics; non-coding RNA; xrRNA; flavivirus; alphavirus; virology;
 :category: outreach
+:section: talks
 :frontpage: no
 :slug: functional-rnas-in-virology
 :author: mtw

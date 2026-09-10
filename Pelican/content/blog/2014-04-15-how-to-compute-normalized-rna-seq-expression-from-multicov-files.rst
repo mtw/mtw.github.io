@@ -4,7 +4,8 @@ How to compute normalized RNA-seq expression from multicov files
 :date: 2014-04-15
 :modified: 2022-10-14
 :tags: NGS
-:category: HOWTO
+:category: howto
+:section: guides
 :frontpage: no
 :slug: How-to-compute-normalized-RNA-seq-expression-from-multicov-files
 :author: mtw

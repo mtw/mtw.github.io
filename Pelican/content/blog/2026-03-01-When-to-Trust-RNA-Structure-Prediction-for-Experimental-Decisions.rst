@@ -5,6 +5,7 @@ When to trust RNA structure prediction for experimental decisions
 :modified: 2026-05-01
 :tags: RNA structure prediction; ViennaRNA; SHAPE; AI; RNA design
 :category: outreach
+:section: guides
 :status: skip
 :slug: When-to-trust-RNA-structure-prediction-for-experimental-decisions
 :author: mtw

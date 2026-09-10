@@ -1,33 +1,21 @@
-{% extends "base_blog.html" %}
-
-{%- macro article_content_block() -%}
-  {% block article_content -%}
-    {{- article.content|trim -}}
-  {%- endblock %}
-{%- endmacro -%}
+{% set page_slug = '[blog]' %}
+{% extends "base.html" %}
 
 {% block title %}{{ article.title }}{% endblock %}
 
 {% block head_links %}
-  {{- super() -}}
-  {# don't mind me, I'm just fixing whitespace from the previous line #}
+  {% if M_BLOG_FAVICON %}<link rel="icon" href="{{ M_BLOG_FAVICON[0]|format_siteurl|e }}" type="{{ M_BLOG_FAVICON[1]|e }}" />
+  {% elif M_FAVICON %}<link rel="icon" href="{{ M_FAVICON[0]|format_siteurl|e }}" type="{{ M_FAVICON[1]|e }}" />{% endif %}
   <link rel="canonical" href="{{ article.url|format_siteurl|e }}" />
 {% endblock %}
 
 {% block meta %}
-  {% if article.description %}
-  <meta name="description" content="{{ article.description|dehyphenate|striptags|e }}" />
-  {% endif %}
+  {% if article.description %}<meta name="description" content="{{ article.description|dehyphenate|striptags|e }}" />
+  {% elif article.summary %}<meta name="description" content="{{ article.summary|dehyphenate|striptags|truncate(300)|e }}" />{% endif %}
 {% endblock %}
 
 {% block social %}
-  {{- super() -}}
-  {% if article.author and article.author.twitter %}
-  <meta name="twitter:creator" content="{{ article.author.twitter }}" />
-  {% endif %}
-  {% if article.author and article.author.twitter_id %}
-  <meta name="twitter:creator:id" content="{{ article.author.twitter_id }}" />
-  {% endif %}
+  <meta property="og:site_name" content="{{ M_BLOG_NAME|e }}" />
   <meta property="og:title" content="{{ article.title }}" />
   <meta name="twitter:title" content="{{ article.title }}" />
   <meta property="og:url" content="{{ article.url|format_siteurl|e }}" />
@@ -39,104 +27,72 @@
   <meta property="og:image" content="{{ article.cover|expand_link(article)|e }}" />
   <meta name="twitter:image" content="{{ article.cover|expand_link(article)|e }}" />
   <meta name="twitter:card" content="summary_large_image" />
-  {% elif article.category.image %}
-  <meta property="og:image" content="{{ article.category.image|expand_link(article)|e }}" />
-  <meta name="twitter:image" content="{{ article.category.image|expand_link(article)|e }}" />
   {% elif M_SOCIAL_IMAGE %}
   <meta property="og:image" content="{{ M_SOCIAL_IMAGE|format_siteurl|e }}" />
   <meta name="twitter:image" content="{{ M_SOCIAL_IMAGE|format_siteurl|e }}" />
-  {% endif %}
-  {% if not article.cover %}
   <meta name="twitter:card" content="summary" />
   {% endif %}
   <meta property="og:type" content="article" />
 {% endblock %}
 
-{% macro badges() %}{% include "article_badges.html" %}{% endmacro %}
-
-{% block content %}
+{% block main %}
+<article>
   {% if article.cover %}
-  <article id="m-jumbo"{% if article.class %} class="{{ article.class }}"{% endif %}>
-    <header>
-      <div id="m-jumbo-image" style="background-image: url('{{ article.cover|expand_link(article)|e }}');">
-        <div id="m-jumbo-cover">
-          <div class="m-container">
-            <div class="m-row">
-              <div class="{% if article.authors %}m-col-t-6 m-col-s-5{% else %}m-col-t-12 m-col-s-10{% endif %} m-push-s-1 m-text-left">{{ article.locale_date|e }}{% if article.status == 'draft' %} <span class="m-label m-dim">draft</span>{% endif %}</div>
-              {% if article.authors %}
-              <div class="m-col-t-6 m-col-s-5 m-push-s-1 m-text-right">{% for author in article.authors %}<a href="{{ author.url|format_siteurl|e }}">{{ author|e }}</a>{% endfor %}</div>
-              {% endif %}
-            </div>
-            <div class="m-row">
-              <div class="m-col-t-12 m-col-s-10 m-push-s-1 m-col-m-8 m-push-m-2">
-                {% set title = article.title.split(' — ') %}
-                <h1><a href="{{ article.url|format_siteurl|e }}" rel="bookmark" title="Permalink to {{ article.title }}">{{ title[0] }}</a></h1>
-                {% if title|length >= 2 %}
-                <h2>{{ title[1] }}</h2>
-                {% endif %}
-              </div>
-            </div>
+  <div id="m-jumbo">
+    <div id="m-jumbo-image" style="background-image: url('{{ article.cover|expand_link(article)|e }}');">
+      <div id="m-jumbo-cover">
+        <div class="m-container">
+          {% if article.category %}<div class="article-eyebrow" style="color:#9dbfd8">{{ article.category|e }}</div>{% endif %}
+          <h1>{{ article.title }}</h1>
+          <div class="article-meta" style="border-color:rgba(255,255,255,.25);color:#cfd8e0">
+            <span>{{ article.locale_date|e }}</span>
+            {% if article.authors %}<span class="dot"></span><span>{% for author in article.authors %}{{ AUTHOR|e if author.name == 'mtw' else author|e }}{% endfor %}</span>{% endif %}
+            {% if article.status == 'draft' %}<span class="dot"></span><span class="m-label m-dim">draft</span>{% endif %}
           </div>
-        </div>
-      </div>
-      {% if article.summary and
-            ((article.hide_summary is defined and article.hide_summary != 'True') or
-             (article.hide_summary is not defined and not M_HIDE_ARTICLE_SUMMARY)) %}
-      <div class="m-container">
-        <div class="m-row">
-          <div class="m-col-m-10 m-push-m-1 m-nopady">
-            {{ article.summary|trim|indent(12) }}
-          </div>
-        </div>
-      </div>
-      {% endif %}
-    </header>
-    {% if article.content %}
-    <div class="m-container m-container-inflatable">
-      <div class="m-row">
-        <div class="m-col-m-10 m-push-m-1 m-nopady">
-          {% if article.archived == 'True' and M_ARCHIVED_ARTICLE_BADGE %}
-          {{ M_ARCHIVED_ARTICLE_BADGE|render_rst|replace('{year}', article.date.year)|indent(8) }}
-          {% endif %}
-<!-- content -->
-{{ article_content_block() }}
-<!-- /content -->
-          {% if article.category.badge or (article.author and article.author.badge) %}
-          {{ badges()|rtrim|indent(10) }}
-          {% endif %}
         </div>
       </div>
     </div>
-    {% endif %}
-    <footer class="m-container">
-      <div class="m-row">
-        <div class="m-col-m-10 m-push-m-1 m-nopadb">
-          {% macro footer() %}{% include "article_footer.html" %}{% endmacro %}
-          {{ footer()|rtrim|indent(10) }}
-        </div>
-      </div>
-    </footer>
-  </article>
+  </div>
   {% else %}
-    <article class="m-col-m-10 m-nopadb">
-      {% macro header() %}{% include "article_header.html" %}{% endmacro %}
-      {{ header()|rtrim|indent(6) }}
-      <div class="m-clearfix-l"></div>
-      {% if article.archived == 'True' and M_ARCHIVED_ARTICLE_BADGE %}
-      {{ M_ARCHIVED_ARTICLE_BADGE|render_rst|replace('{year}', article.date.year)|rtrim|indent(6) }}
-      {% endif %}
-      {% if article.content %}
+  <div class="article-head">
+    <a href="{{ M_BLOG_URL|format_siteurl|e if M_BLOG_URL else SITEURL + '/blog/' }}" style="font-size:.85rem;font-weight:500">&larr; Back to Blog</a>
+    {% if article.category %}<div class="article-eyebrow" style="margin-top:1.4rem">{{ article.category|e }}</div>{% endif %}
+    <h1>{{ article.title }}</h1>
+    <div class="article-meta">
+      {#- posts carry the short author handle 'mtw'; show the site author's full name for it -#}
+      {% if article.authors %}<span>{% for author in article.authors %}{{ AUTHOR|e if author.name == 'mtw' else author|e }}{% endfor %}</span><span class="dot"></span>{% else %}<span>{{ AUTHOR|e }}</span><span class="dot"></span>{% endif %}
+      <span>{{ article.locale_date|e }}</span>
+      {% if article.status == 'draft' %}<span class="dot"></span><span class="m-label m-dim">draft</span>{% endif %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if article.summary and ((article.hide_summary is defined and article.hide_summary != 'True') or (article.hide_summary is not defined and not M_HIDE_ARTICLE_SUMMARY)) %}
+  <div class="article-body" style="padding-bottom:0">
+    <p class="page-lede">{{ article.summary|striptags|e }}</p>
+  </div>
+  {% endif %}
+
+  {% if article.content %}
+  <div class="article-body">
 <!-- content -->
-{{ article_content_block() }}
+{{ article.content|trim }}
 <!-- /content -->
-      {% endif %}
-      {% if article.category.badge or (article.author and article.author.badge) %}
-      {{ badges()|rtrim|indent(6) }}
-      {% endif %}
-      <footer>
-        {% macro footer() %}{% include "article_footer.html" %}{% endmacro %}
-        {{ footer()|rtrim|indent(8) }}
-      </footer>
-    </article>
+  </div>
+  {% endif %}
+
+  <div class="article-footer">
+    {% if article.tags %}
+    <div class="tag-row">
+      {% for tag in article.tags %}<a href="{{ tag.url|format_siteurl|e }}">{{ tag|e }}</a>{% endfor %}
+    </div>
     {% endif %}
+    {% if article.prev_article or article.next_article %}
+    <nav style="display:flex;justify-content:space-between;gap:20px;margin-top:1.6rem;font-family:'Archivo',sans-serif;font-size:.9rem">
+      <span>{% if article.next_article %}<a href="{{ article.next_article.url|format_siteurl|e }}">&larr; {{ article.next_article.title|striptags|truncate(48)|e }}</a>{% endif %}</span>
+      <span style="text-align:right">{% if article.prev_article %}<a href="{{ article.prev_article.url|format_siteurl|e }}">{{ article.prev_article.title|striptags|truncate(48)|e }} &rarr;</a>{% endif %}</span>
+    </nav>
+    {% endif %}
+  </div>
+</article>
 {% endblock %}

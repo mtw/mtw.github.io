@@ -1,400 +1,147 @@
-{% extends "base_blog.html" %}
+{# Blog listing — used by index (blog/index.html), and extended by tag/category/author #}
+{% set page_slug = '[blog]' %}
+{% if not M_BLOG_NAME %}{% set M_BLOG_NAME = SITENAME %}{% endif %}
+{% extends "base.html" %}
 
-{% block title %}{{ M_BLOG_NAME|e }}{% endblock %}
+{% block title %}{% block blog_title %}{{ M_BLOG_NAME|e }}{% endblock %}{% endblock %}
 
 {% block head_links %}
-  {{- super() -}}
-  {% if articles_page and articles_page.has_previous() %}
-  <link rel="prev" href="{{ articles_previous_page.url|format_siteurl|e }}" />
-  {% endif %}
-  {% if articles_page and articles_page.has_next() %}
-  <link rel="next" href="{{ articles_next_page.url|format_siteurl|e }}" />
-  {% endif %}
+  {% block blog_canonical %}{% if M_BLOG_URL %}<link rel="canonical" href="{{ M_BLOG_URL|format_siteurl|e }}" />{% endif %}{% endblock %}
+  {% if M_BLOG_FAVICON %}<link rel="icon" href="{{ M_BLOG_FAVICON[0]|format_siteurl|e }}" type="{{ M_BLOG_FAVICON[1]|e }}" />
+  {% elif M_FAVICON %}<link rel="icon" href="{{ M_FAVICON[0]|format_siteurl|e }}" type="{{ M_FAVICON[1]|e }}" />{% endif %}
 {% endblock %}
 
 {% block meta %}
-  {% if M_BLOG_DESCRIPTION %}
-  <meta name="description" content="{{ M_BLOG_DESCRIPTION|e }}" />
-  {% endif %}
+  {% if M_BLOG_DESCRIPTION %}<meta name="description" content="{{ M_BLOG_DESCRIPTION|e }}" />{% endif %}
 {% endblock %}
 
 {% block social %}
-  {{- super() -}}
-  {# this has to be here otherwise the spacing is all wrong. fuck. #}
-  <meta property="og:title" content="{{ M_BLOG_NAME|e }}" />
-  <meta name="twitter:title" content="{{ M_BLOG_NAME|e }}" />
-  {% block social_url %}
-  <meta property="og:url" content="{{ M_BLOG_URL|format_siteurl|e }}" />
-  {% endblock %}
-  {% if M_SOCIAL_BLOG_SUMMARY %}
-  <meta property="og:description" content="{{ M_SOCIAL_BLOG_SUMMARY|e }}" />
-  <meta name="twitter:description" content="{{ M_SOCIAL_BLOG_SUMMARY|e }}" />
-  {% endif %}
-  {% if M_SOCIAL_IMAGE %}
-  <meta property="og:image" content="{{ M_SOCIAL_IMAGE|format_siteurl|e }}" />
-  <meta name="twitter:image" content="{{ M_SOCIAL_IMAGE|format_siteurl|e }}" />
-  {% endif %}
-  <meta name="twitter:card" content="summary" />
-  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="{{ M_BLOG_NAME|e }}" />
+  {% block social_url %}{% if M_BLOG_URL %}<meta property="og:url" content="{{ M_BLOG_URL|format_siteurl|e }}" />{% endif %}{% endblock %}
 {% endblock %}
 
-{% block extra %}
-  {{- super() -}}
-  {% if article_list or articles or articles_page %}
-  <style>
-    .m-blog-index .m-blog-feature,
-    .m-blog-index .m-blog-card,
-    .m-blog-index .m-blog-list {
-      background-color: var(--background-color);
-      border: 1px solid var(--line-color);
-      border-radius: 0.5rem;
-      box-shadow: 0 0.35rem 1rem rgba(0, 0, 0, 0.04);
-    }
-
-    .m-blog-index .m-blog-feature {
-      padding: 1.5rem;
-    }
-
-    .m-blog-index .m-blog-feature h1,
-    .m-blog-index .m-blog-feature h2,
-    .m-blog-index .m-blog-card h3,
-    .m-blog-index .m-blog-list h3 {
-      margin-top: 0;
-    }
-
-    .m-blog-index .m-blog-kicker,
-    .m-blog-index .m-blog-list time,
-    .m-blog-index .m-blog-card time {
-      color: var(--dim-color);
-      font-size: 0.9rem;
-    }
-
-    .m-blog-index .m-blog-feature-summary {
-      margin-top: 1rem;
-    }
-
-    .m-blog-index .m-blog-feature-summary p:last-child {
-      margin-bottom: 0;
-    }
-
-    .m-blog-index .m-blog-feature-excerpt {
-      margin-top: 1rem;
-    }
-
-    .m-blog-index .m-blog-feature-excerpt p:last-child {
-      margin-bottom: 0;
-    }
-
-    .m-blog-index .m-blog-feature-copy::after {
-      content: "";
-      display: block;
-      clear: both;
-    }
-
-    .m-blog-index > .m-blog-feature,
-    .m-blog-index > .m-blog-card-grid,
-    .m-blog-index > .m-blog-list,
-    .m-blog-index > .m-article-pagination {
-      margin-bottom: 1.5rem;
-    }
-
-    .m-blog-index > :last-child {
-      margin-bottom: 0;
-    }
-
-    .m-blog-index .m-blog-card-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 2rem;
-    }
-
-    .m-blog-index .m-blog-card {
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-    }
-
-    .m-blog-index .m-blog-card-copy {
-      padding: 1rem 1rem 1.15rem 1rem;
-      flex: 1 1 auto;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .m-blog-index .m-blog-card-copy h3 {
-      font-size: 1.05rem;
-      line-height: 1.3;
-      margin-bottom: 0.35rem;
-      flex: 1 1 auto;
-    }
-
-    .m-blog-index .m-blog-card-media,
-    .m-blog-index .m-blog-feature-media,
-    .m-blog-index .m-blog-placeholder {
-      aspect-ratio: 16 / 9;
-      width: 100%;
-      background: linear-gradient(135deg, #f3f5f7 0%, #e6ebef 100%);
-      overflow: hidden;
-    }
-
-    .m-blog-index .m-blog-feature-media,
-    .m-blog-index .m-blog-placeholder.m-blog-feature-placeholder {
-      border: 1px solid var(--line-color);
-      border-radius: 0.4rem;
-      float: right;
-      width: min(38%, 22rem);
-      margin: 0 0 1rem 1.5rem;
-    }
-
-    .m-blog-index .m-blog-card-media,
-    .m-blog-index .m-blog-placeholder.m-blog-card-placeholder {
-      border-bottom: 1px solid var(--line-color);
-    }
-
-    .m-blog-index .m-blog-card-media img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-    }
-
-    .m-blog-index .m-blog-feature-media img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-    }
-
-    .m-blog-index .m-blog-placeholder {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--dim-color);
-      font-size: 0.9rem;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-    }
-
-    .m-blog-index .m-blog-list {
-      padding: 1.25rem 1.5rem;
-    }
-
-    .m-blog-index .m-blog-list ol {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    .m-blog-index .m-blog-list li {
-      display: flex;
-      gap: 1rem;
-      align-items: baseline;
-      padding: 0.7rem 0;
-      border-top: 1px solid var(--line-color);
-    }
-
-    .m-blog-index .m-blog-list li:first-child {
-      border-top: 0;
-      padding-top: 0;
-    }
-
-    .m-blog-index .m-blog-list time {
-      flex: 0 0 7rem;
-      white-space: nowrap;
-    }
-
-    .m-blog-index .m-blog-list a {
-      font-weight: 500;
-    }
-
-    .m-blog-index .m-blog-link {
-      margin-top: 1rem;
-    }
-
-    .m-blog-index .m-blog-list h3 {
-      margin-bottom: 0.9rem;
-    }
-
-    @media screen and (min-width: 576px) {
-      .m-blog-index .m-blog-card-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-
-    }
-
-    @media screen and (max-width: 767px) {
-      .m-blog-index .m-blog-feature {
-        padding: 1.15rem;
-      }
-
-      .m-blog-index .m-blog-feature-media,
-      .m-blog-index .m-blog-placeholder.m-blog-feature-placeholder {
-        float: none;
-        width: 100%;
-        margin: 1rem 0 0 0;
-      }
-
-      .m-blog-index .m-blog-list {
-        padding: 1rem 1.15rem;
-      }
-
-      .m-blog-index .m-blog-list li {
-        display: block;
-      }
-
-      .m-blog-index .m-blog-list time {
-        display: block;
-        margin-bottom: 0.2rem;
-      }
-    }
-  </style>
-  {% endif %}
-{% endblock %}
-
-{% block content %}
-    <div class="m-col-m-10">
-      {% if articles_page %}
-      {% set article_list = articles_page.object_list %}
-      {% else %}
-      {% set article_list = articles %}
-      {% endif %}
-      {% if articles is defined and articles %}
-      {% set landing_source = articles %}
-      {% else %}
-      {% set landing_source = article_list %}
-      {% endif %}
-      {% if not article_list %}
-      <div class="m-note m-success">
-        <h3>{{ "Congratulations!"|hyphenate(lang='en') }}</h3>
-        {{ "The m.css theme is alive and kicking! Now, feed it some articles so it doesn't feel so empty :)"|hyphenate(lang='en') }}
-      </div>
-      {% endif %}
-      {% if article_list and (not articles_page or articles_page.number == 1) %}
-      {% set ns = namespace(frontpage_articles=[]) %}
-      {% for article in landing_source %}
-        {% if article.frontpage != 'no' %}
-          {% set ns.frontpage_articles = ns.frontpage_articles + [article] %}
-        {% endif %}
-      {% endfor %}
-      {% set frontpage_articles = ns.frontpage_articles %}
-      {% if not frontpage_articles %}
-        {% set frontpage_articles = landing_source %}
-      {% endif %}
-      {% set featured = frontpage_articles[0] %}
-      {% set featured_image_url = none %}
-      {% if '<img' in featured.content and 'src="' in featured.content %}
-        {% set featured_image_url = featured.content.split('src="', 1)[1].split('"', 1)[0] %}
-      {% endif %}
-      {% set featured_excerpt = none %}
-      {% if '</p>' in featured.content %}
-        {% set featured_paragraphs = featured.content.split('</p>') %}
-        {% if featured_paragraphs|length > 1 %}
-          {% set featured_excerpt = (featured_paragraphs[0] ~ '</p>') %}
-          {% if featured_paragraphs|length > 2 %}
-            {% set featured_excerpt = featured_excerpt ~ (featured_paragraphs[1] ~ '</p>') %}
-          {% endif %}
-        {% endif %}
-      {% endif %}
-      {% if featured_excerpt and '<figure' in featured_excerpt %}
-        {% set featured_excerpt = featured_excerpt.split('<figure', 1)[0] %}
-      {% endif %}
-      {% if featured_excerpt and '<div class="m-col' in featured_excerpt %}
-        {% set featured_excerpt = featured_excerpt.split('<div class="m-col', 1)[0] %}
-      {% endif %}
-      {% if featured_excerpt and '<img' in featured_excerpt %}
-        {% set featured_excerpt = featured_excerpt.split('<img', 1)[0] %}
-      {% endif %}
-      <div class="m-blog-index">
-        <section class="m-blog-feature">
-          <div class="m-blog-feature-copy">
-            {% if featured_image_url %}
-            <a href="{{ featured.url|format_siteurl|e }}" class="m-blog-feature-media">
-              <img src="{{ featured_image_url|e }}" alt="" loading="lazy" />
-            </a>
-            {% else %}
-            <a href="{{ featured.url|format_siteurl|e }}" class="m-blog-placeholder m-blog-feature-placeholder">Article</a>
-            {% endif %}
-              <div class="m-blog-kicker">Latest article</div>
-              <h1><a href="{{ featured.url|format_siteurl|e }}">{{ featured.title }}</a></h1>
-              <time datetime="{{ featured.date.isoformat() }}">
-                {{ featured.date.strftime('%b %d, %Y') }}
-              </time>
-              {% if featured.summary %}
-              <div class="m-blog-feature-summary">
-                {{ featured.summary }}
-              </div>
-              {% endif %}
-              {% if featured_excerpt %}
-              <div class="m-blog-feature-excerpt">
-                {{ featured_excerpt }}
-              </div>
-              {% endif %}
-              <p class="m-blog-link"><a href="{{ featured.url|format_siteurl|e }}">Read article &raquo;</a></p>
-          </div>
-        </section>
-
-        {% if frontpage_articles|length > 1 %}
-        <div class="m-blog-card-grid">
-          {% for article in frontpage_articles[1:5] %}
-          {% set image_url = none %}
-          {% if '<img' in article.content and 'src="' in article.content %}
-            {% set image_url = article.content.split('src="', 1)[1].split('"', 1)[0] %}
-          {% endif %}
-          <article class="m-blog-card">
-            {% if image_url %}
-            <a href="{{ article.url|format_siteurl|e }}" class="m-blog-card-media">
-              <img src="{{ image_url|e }}" alt="" loading="lazy" />
-            </a>
-            {% else %}
-            <a href="{{ article.url|format_siteurl|e }}" class="m-blog-placeholder m-blog-card-placeholder">Article</a>
-            {% endif %}
-            <div class="m-blog-card-copy">
-              <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%b %d, %Y') }}</time>
-              <h3><a href="{{ article.url|format_siteurl|e }}">{{ article.title }}</a></h3>
-            </div>
-          </article>
-          {% endfor %}
-        </div>
-        {% endif %}
-
-        {% if frontpage_articles|length > 5 %}
-        <section class="m-blog-list">
-          <h3>Earlier posts</h3>
-          <ol>
-            {% for article in frontpage_articles[5:15] %}
-            <li>
-              <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%b %d, %Y') }}</time>
-              <a href="{{ article.url|format_siteurl|e }}">{{ article.title }}</a>
-            </li>
-            {% endfor %}
-          </ol>
-        </section>
-        {% endif %}
-
-        {% if articles_page and articles_page.has_other_pages() %}
-        {% macro pagination() %}{% include 'pagination.html' %}{% endmacro %}
-        {{ pagination()|rtrim|indent(8) }}
-        {% endif %}
-      </div>
-      {% else %}
-      <div class="m-blog-index">
-        <section class="m-blog-list">
-          <h3>{% if articles_page %}Posts on this page{% else %}Posts{% endif %}</h3>
-          <ol>
-            {% for article in article_list[:10] %}
-            <li>
-              <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%b %d, %Y') }}</time>
-              <a href="{{ article.url|format_siteurl|e }}">{{ article.title }}</a>
-            </li>
-            {% endfor %}
-          </ol>
-        </section>
-      </div>
-      {% if articles_page and articles_page.has_other_pages() %}
-      {% macro pagination() %}{% include 'pagination.html' %}{% endmacro %}
-      {{ pagination()|rtrim|indent(6) }}
-      {% endif %}
-      {% endif %}
+{% block main %}
+<article class="page page-blog">
+  <div class="m-container">
+    <div class="page-head">
+      <div class="page-eyebrow">{% block blog_eyebrow %}Blog{% endblock %}</div>
+      <h1>{% block blog_heading %}Notes &amp; Writing{% endblock %}</h1>
+      {% block blog_lede %}
+      <p class="page-lede">Occasional notes on computational RNA biology, scientific software, reproducible research practice, and the wider RNA field. Longer methodological writing appears here; software releases and project updates are cross-posted from <a href="https://rnaforecast.com">RNA Forecast</a>.</p>
+      {% endblock %}
     </div>
+  </div>
+
+  {#- Publications posts are the canonical paper pages and are listed on /publications/.
+      They stay reachable at their own URLs and via /blog/category/publications.html, but are
+      not repeated in this listing. Category/tag/author pages must keep listing everything,
+      so the filter applies only to the plain blog index. -#}
+  {% set _hide_pubs = not (category is defined or tag is defined or author is defined) %}
+  {#- The plain index groups the complete non-publication set by :section:, so it must see
+      every article rather than the current 5-article page. Paged copies (index2.html ...)
+      keep their URLs but render the same grouped list and point their canonical at /blog/. -#}
+  {% set _all = articles if _hide_pubs else (articles_page.object_list if articles_page else articles) %}
+  {% if _hide_pubs %}
+  {% set _articles = _all|rejectattr('category.name', 'equalto', 'publications')|list %}
+  {% else %}
+  {% set _articles = _all %}
+  {% endif %}
+  <div class="blog-list">
+    {% if tags %}
+    <div class="tag-row blog-tags">
+      <a href="{{ M_BLOG_URL|format_siteurl|e if M_BLOG_URL else SITEURL + '/blog/' }}">All</a>
+      {% for tag, tag_articles in tags|sort(attribute='0') %}
+      <a href="{{ tag.url|format_siteurl|e }}">{{ tag|e }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if _articles and (_hide_pubs or not articles_page or (articles_page and articles_page.number == 1)) %}
+    {% set featured = _articles[0] %}
+    <a class="blog-featured" href="{{ featured.url|format_siteurl|e }}">
+      <div class="cap">
+        <div class="fe">Featured{% if featured.category %} &middot; {{ featured.category|e }}{% endif %}</div>
+        <h2>{{ featured.title }}</h2>
+        {% if featured.summary %}<p class="b-summary" style="font-size:1rem">{{ featured.summary|striptags|truncate(200)|e }}</p>{% endif %}
+        <div class="b-date">{{ featured.locale_date }}</div>
+      </div>
+    </a>
+    {% set _rest = _articles[1:] %}
+    {% else %}
+    {% set _rest = _articles %}
+    {% endif %}
+    {#- Group by the :section: field when we are on the plain index. Sections generate no
+        URLs of their own, so this grouping is purely presentational. -#}
+    {% if _hide_pubs %}
+    {% set _sections = [('guides', 'Guides'), ('essays', 'Essays'), ('talks', 'Talks &amp; events')] %}
+    {% set _known = ['guides', 'essays', 'talks'] %}
+    {% for _key, _label in _sections %}
+    {% set _group = _rest|selectattr('section', 'defined')|selectattr('section', 'equalto', _key)|list %}
+    {% if _group %}
+    <div class="sec-label" style="margin:2.4rem 0 0">{{ _label }}</div>
+    {% for article in _group %}
+    <a class="blog-item" href="{{ article.url|format_siteurl|e }}">
+      <div>
+        <div class="b-date">{{ article.locale_date }}</div>
+        {% if article.category %}<div class="b-cat">{{ article.category|e }}</div>{% endif %}
+      </div>
+      <div>
+        <h3>{{ article.title }}</h3>
+        {% if article.summary %}<p class="b-summary">{{ article.summary|striptags|truncate(220)|e }}</p>{% endif %}
+      </div>
+      <div class="b-read">{% if article.status == 'draft' %}<span class="m-label m-dim">draft</span>{% endif %}Read &rarr;</div>
+    </a>
+    {% endfor %}
+    {% endif %}
+    {% endfor %}
+    {% set _ungrouped = _rest|rejectattr('section', 'defined')|list + _rest|selectattr('section', 'defined')|rejectattr('section', 'in', _known)|list %}
+    {% if _ungrouped %}
+    <div class="sec-label" style="margin:2.4rem 0 0">More</div>
+    {% for article in _ungrouped %}
+    <a class="blog-item" href="{{ article.url|format_siteurl|e }}">
+      <div>
+        <div class="b-date">{{ article.locale_date }}</div>
+        {% if article.category %}<div class="b-cat">{{ article.category|e }}</div>{% endif %}
+      </div>
+      <div>
+        <h3>{{ article.title }}</h3>
+        {% if article.summary %}<p class="b-summary">{{ article.summary|striptags|truncate(220)|e }}</p>{% endif %}
+      </div>
+      <div class="b-read">{% if article.status == 'draft' %}<span class="m-label m-dim">draft</span>{% endif %}Read &rarr;</div>
+    </a>
+    {% endfor %}
+    {% endif %}
+    {% else %}
+    <div class="sec-label" style="margin:2rem 0 0">All posts</div>
+    {% for article in _rest %}
+    <a class="blog-item" href="{{ article.url|format_siteurl|e }}">
+      <div>
+        <div class="b-date">{{ article.locale_date }}</div>
+        {% if article.category %}<div class="b-cat">{{ article.category|e }}</div>{% endif %}
+      </div>
+      <div>
+        <h3>{{ article.title }}</h3>
+        {% if article.summary %}<p class="b-summary">{{ article.summary|striptags|truncate(220)|e }}</p>{% endif %}
+      </div>
+      <div class="b-read">{% if article.status == 'draft' %}<span class="m-label m-dim">draft</span>{% endif %}Read &rarr;</div>
+    </a>
+    {% endfor %}
+    {% endif %}
+
+    {% if _hide_pubs %}
+    <div class="m-note m-info" style="margin-top:2.4rem">
+      <p>Paper announcements are listed on the <a href="{{ SITEURL }}/publications/">publications</a> page, which links each paper to its own page and DOI.</p>
+    </div>
+    {% endif %}
+  </div>
+
+  {% if not _hide_pubs and articles_paginator and articles_paginator.num_pages > 1 %}
+  <div class="m-container" style="padding-top:2rem;padding-bottom:1rem">
+    <nav class="pagination" style="display:flex;gap:14px;align-items:center;font-family:'Archivo',sans-serif;font-size:.85rem">
+      {% if articles_page.has_previous() %}<a href="{{ SITEURL }}/{{ articles_previous_page.url }}">&larr; Newer</a>{% endif %}
+      <span class="m-dim">Page {{ articles_page.number }} / {{ articles_paginator.num_pages }}</span>
+      {% if articles_page.has_next() %}<a href="{{ SITEURL }}/{{ articles_next_page.url }}">Older &rarr;</a>{% endif %}
+    </nav>
+  </div>
+  {% endif %}
+</article>
 {% endblock %}

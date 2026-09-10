@@ -6,6 +6,7 @@ How to interpret SHAPE and chemical probing data for RNA structure decisions
 :modified: 2026-05-09
 :tags: SHAPE; RNA structure prediction; ViennaRNA
 :category: outreach
+:section: guides
 :slug: How-to-Interpret-SHAPE-and-Chemical-Probing-Data-for-RNA-Structure-Decisions
 :author: mtw
 :summary: SHAPE, DMS, and related probing experiments can sharpen RNA structure analysis substantially, but only if the data are interpreted as evidence with limits rather than as a direct readout of base pairing.
