@@ -54,6 +54,7 @@ About
 
      <aside class="side-col">
        <div class="side-card">
+         <img class="side-portrait" src="/static/mtw.jpg" alt="Portrait of Michael T. Wolfinger" width="240" height="317" loading="lazy">
          <div class="side-card-head">Profile</div>
          <div class="side-card-body">
            <div class="kv"><div class="kv-k">Name</div><div class="kv-v">Michael T. Wolfinger</div></div>
