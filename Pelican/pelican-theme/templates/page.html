@@ -50,37 +50,8 @@
   {% endfor %}
   {% endif %}
   {% if page.html_header %}{{ page.html_header|rtrim|indent(2) }}{% endif %}
-  {% if page.extrahead == 'mtw_ldjson' %}
-    {% raw %}
-      <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": ["Person", "ProfilePage"],
-  "@id": "https://michaelwolfinger.com/#michaelwolfinger",
-  "name": "Michael T. Wolfinger",
-  "url": "https://michaelwolfinger.com/",
-  "mainEntityOfPage": "https://michaelwolfinger.com/",
-  "image": "https://michaelwolfinger.com/static/mtw.jpg",
-  "identifier": {"@type": "PropertyValue", "propertyID": "ORCID", "value": "https://orcid.org/0000-0003-0925-5205"},
-  "orcid": "https://orcid.org/0000-0003-0925-5205",
-  "jobTitle": "Independent Principal Investigator, Computational RNA Biology",
-  "knowsAbout": ["RNA structure", "RNA folding kinetics", "Functional RNA design", "Viral RNA biology", "RNA-protein recognition", "ViennaRNA", "Computational methods"],
-  "sameAs": [
-    "https://rnaforecast.com",
-    "https://orcid.org/0000-0003-0925-5205",
-    "https://scholar.google.at/citations?user=w0PHGnEAAAAJ&hl=en",
-    "https://www.scopus.com/authid/detail.uri?authorId=6508361997",
-    "https://www.researchgate.net/profile/Michael-Wolfinger",
-    "https://loop.frontiersin.org/people/485709/overview",
-    "https://pubmed.ncbi.nlm.nih.gov/?term=Wolfinger+MT",
-    "https://www.linkedin.com/in/michaelwolfinger/",
-    "https://bsky.app/profile/mtwolfinger.bsky.social",
-    "https://github.com/mtw"
-  ]
-}
-      </script>
-    {% endraw %}
-  {% endif %}
+  {% import '_ldjson.html' as ld with context %}
+  {{ ld.page_graph(page) }}
 {% endblock %}
 
 {% block main %}

@@ -30,7 +30,7 @@ M_CSS_FILES = [
     'https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800',
     'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600',
     'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500',
-    'static/mtw.css',
+    'static/m-mtw.css',
 ]
 
 M_THEME_COLOR = '#f1f0ec'

@@ -1,0 +1,137 @@
+{#- Structured data (JSON-LD) macros. Every string value passes through |tojson, so the
+    emitted script is always valid JSON. URLs are absolute via SITEURL, which publishconf
+    sets to https://michaelwolfinger.com. -#}
+{% set _site = SITEURL ~ '/' %}
+{% set _person_id = SITEURL ~ '/#person' %}
+{% set _site_id = SITEURL ~ '/#website' %}
+{% set _blog_url = (M_BLOG_URL or (SITEURL ~ '/blog')).rstrip('/') ~ '/' %}
+
+{%- macro person() -%}
+{"@type": "Person",
+ "@id": {{ _person_id|tojson }},
+ "name": {{ AUTHOR|tojson }},
+ "givenName": "Michael",
+ "familyName": "Wolfinger",
+ "url": {{ _site|tojson }},
+ "image": {{ (SITEURL ~ M_SOCIAL_IMAGE)|tojson }},
+ "jobTitle": "Independent Principal Investigator, Computational RNA Biology",
+ "description": "Independent Principal Investigator in computational RNA biology based in Vienna, Austria: RNA structure, folding kinetics, functional RNA design, and structured viral RNAs.",
+ "email": "michael@rnaforecast.com",
+ "address": {"@type": "PostalAddress", "addressLocality": "Vienna", "addressCountry": "AT"},
+ "identifier": {"@type": "PropertyValue", "propertyID": "ORCID", "value": "https://orcid.org/0000-0003-0925-5205"},
+ "knowsAbout": ["RNA structure", "RNA folding kinetics", "Functional RNA design", "Viral RNA biology", "RNA-protein recognition", "ViennaRNA", "Computational methods"],
+ "affiliation": {"@type": "Organization", "name": "RNA Forecast", "url": "https://rnaforecast.com"},
+ "sameAs": [
+  "https://rnaforecast.com",
+  "https://orcid.org/0000-0003-0925-5205",
+  "https://scholar.google.at/citations?user=w0PHGnEAAAAJ&hl=en",
+  "https://www.scopus.com/authid/detail.uri?authorId=6508361997",
+  "https://www.researchgate.net/profile/Michael-Wolfinger",
+  "https://loop.frontiersin.org/people/485709/overview",
+  "https://pubmed.ncbi.nlm.nih.gov/?term=Wolfinger+MT",
+  "https://www.linkedin.com/in/michaelwolfinger/",
+  "https://bsky.app/profile/mtwolfinger.bsky.social",
+  "https://github.com/mtw"
+ ]}
+{%- endmacro -%}
+
+{%- macro website() -%}
+{"@type": "WebSite",
+ "@id": {{ _site_id|tojson }},
+ "name": {{ SITENAME|tojson }},
+ "url": {{ _site|tojson }},
+ "description": {{ (M_BLOG_DESCRIPTION or SITENAME)|tojson }},
+ "inLanguage": {{ (DEFAULT_LANG or 'en')|tojson }},
+ "author": {"@id": {{ _person_id|tojson }}},
+ "publisher": {"@id": {{ _person_id|tojson }}}}
+{%- endmacro -%}
+
+{%- macro breadcrumbs(items) -%}
+{"@type": "BreadcrumbList", "itemListElement": [
+{%- for name, url in items %}
+ {"@type": "ListItem", "position": {{ loop.index }}, "name": {{ name|striptags|tojson }}, "item": {{ url|tojson }}}{% if not loop.last %},{% endif %}
+{%- endfor %}
+]}
+{%- endmacro -%}
+
+{#- Pages: home -> WebSite + Person + WebPage; about -> ProfilePage; others -> WebPage. -#}
+{%- macro page_graph(page) -%}
+{% set url = SITEURL ~ '/' ~ page.url %}
+{% set desc = (page.description or page.summary or '')|dehyphenate|striptags|trim %}
+{% set is_home = page.save_as == 'index.html' %}
+{% set is_about = page.slug == 'about' %}
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [
+ {{ website() }},
+ {{ person() }},
+ {"@type": {% if is_home %}["WebPage", "CollectionPage"]{% elif is_about %}["WebPage", "ProfilePage"]{% else %}"WebPage"{% endif %},
+  "@id": {{ url|tojson }},
+  "url": {{ url|tojson }},
+  "name": {{ (page.hero_title or page.title)|striptags|tojson }},
+  "headline": {{ page.title|striptags|tojson }},
+  "description": {{ desc|tojson }},
+  "inLanguage": {{ (page.lang or DEFAULT_LANG or 'en')|tojson }},
+  "isPartOf": {"@id": {{ _site_id|tojson }}},
+  "about": {"@id": {{ _person_id|tojson }}},
+  {% if is_about %}"mainEntity": {"@id": {{ _person_id|tojson }}},{% endif %}
+  "author": {"@id": {{ _person_id|tojson }}},
+  "primaryImageOfPage": {"@type": "ImageObject", "url": {{ (SITEURL ~ M_SOCIAL_IMAGE)|tojson }}}
+  {%- if page.date %}, "datePublished": {{ page.date.isoformat()|tojson }}{% endif %}
+  {%- if page.modified %}, "dateModified": {{ page.modified.isoformat()|tojson }}{% elif page.date %}, "dateModified": {{ page.date.isoformat()|tojson }}{% endif %}
+ }{% if not is_home %},
+ {{ breadcrumbs([('Home', _site), (page.title|striptags, url)]) }}{% endif %}
+]}
+</script>
+{%- endmacro -%}
+
+{#- Blog posts -> BlogPosting with author, dates, keywords, section, word count, breadcrumbs. -#}
+{%- macro article_graph(article) -%}
+{% set url = SITEURL ~ '/' ~ article.url %}
+{% set desc = (article.description or article.summary or '')|dehyphenate|striptags|trim %}
+{% set blog_url = _blog_url %}
+{% if article.cover %}{% set image = article.cover|expand_link(article) %}{% else %}{% set image = SITEURL ~ M_SOCIAL_IMAGE %}{% endif %}
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [
+ {{ website() }},
+ {{ person() }},
+ {"@type": "BlogPosting",
+  "@id": {{ url|tojson }},
+  "url": {{ url|tojson }},
+  "mainEntityOfPage": {"@type": "WebPage", "@id": {{ url|tojson }}},
+  "headline": {{ article.title|striptags|tojson }},
+  "description": {{ desc|tojson }},
+  "image": {{ image|tojson }},
+  "datePublished": {{ article.date.isoformat()|tojson }},
+  "dateModified": {{ (article.modified.isoformat() if article.modified else article.date.isoformat())|tojson }},
+  "author": {"@id": {{ _person_id|tojson }}},
+  "publisher": {"@id": {{ _person_id|tojson }}},
+  "isPartOf": {"@type": "Blog", "@id": {{ blog_url|tojson }}, "name": {{ M_BLOG_NAME|tojson }}},
+  "inLanguage": {{ (article.lang or DEFAULT_LANG or 'en')|tojson }},
+  {% if article.category %}"articleSection": {{ article.category|string|tojson }},{% endif %}
+  {% if article.tags %}"keywords": {{ article.tags|map('string')|join(', ')|tojson }},{% endif %}
+  "wordCount": {{ article.content|striptags|wordcount }}
+ },
+ {{ breadcrumbs([('Home', _site), ('Writing', blog_url), (article.title|striptags, url)]) }}
+]}
+</script>
+{%- endmacro -%}
+
+{#- Blog index and tag/category/author listings -> Blog / CollectionPage. -#}
+{%- macro listing_graph(name, url, description, is_blog_root) -%}
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [
+ {{ website() }},
+ {{ person() }},
+ {"@type": {% if is_blog_root %}["Blog", "CollectionPage"]{% else %}"CollectionPage"{% endif %},
+  "@id": {{ url|tojson }},
+  "url": {{ url|tojson }},
+  "name": {{ name|striptags|tojson }},
+  "description": {{ description|striptags|tojson }},
+  "inLanguage": {{ (DEFAULT_LANG or 'en')|tojson }},
+  "isPartOf": {"@id": {{ _site_id|tojson }}},
+  "author": {"@id": {{ _person_id|tojson }}}
+ },
+ {{ breadcrumbs([('Home', _site), ('Writing', _blog_url)] + ([] if is_blog_root else [(name|striptags, url)])) }}
+]}
+</script>
+{%- endmacro -%}
