@@ -582,6 +582,7 @@ figure.m-figure figcaption,.m-figure figcaption{font-family:'IBM Plex Sans',sans
 
 .side-col{position:sticky;top:24px}
 .side-card{border:1px solid var(--border);background:var(--panel)}
+.side-card .side-portrait{display:block;width:100%;height:auto;border-bottom:1px solid var(--border-2)}
 .side-card-head{padding:14px 20px;border-bottom:1px solid var(--border-2);font-family:'Archivo',sans-serif;font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
 .side-card-body{padding:4px 20px 18px}
 .kv{padding:12px 0;border-bottom:1px solid var(--hair)}
