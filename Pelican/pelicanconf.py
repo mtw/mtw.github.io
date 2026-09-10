@@ -77,21 +77,38 @@ M_LINKS_NAVBAR1 = [
 
 #M_LINKS_NAVBAR2 = [('Blog', 'blog/', '[blog]',[])]
 
-# Footer: the mockups show one short row of profile links and a single fine-print
-# line (no link columns). Legal Note is kept at the end of the row.
-M_LINKS_FOOTER1 = [('ORCID', 'https://orcid.org/0000-0003-0925-5205'),
-                    ('Google Scholar', 'https://scholar.google.at/citations?user=w0PHGnEAAAAJ&hl=en'),
-                    ('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/?term=Wolfinger+MT'),
-                    ('Scopus', 'https://www.scopus.com/authid/detail.uri?authorId=6508361997'),
-                    ('GitHub', 'https://github.com/mtw'),
-                    ('LinkedIn', 'https://www.linkedin.com/in/michaelwolfinger/'),
+# Footer: four link columns as in the mockups. The first entry of each list is the
+# column heading (linked when it has a URL).
+M_LINKS_FOOTER1 = [('Home', '/'),
+                    ('About', '/about'),
+                    ('Research', '/research'),
+                    ('Publications', '/publications'),
+                    ('Teaching', '/teaching'),
+                    ('People & Supervision', '/team'),
+                    ('Writing', '/blog/'),
+                    ]
+
+M_LINKS_FOOTER2 = [('Services', ''),
+                    ('Expert Services', 'https://rnaforecast.com'),
+                    ('RNA Workshops', 'https://rnaforecast.com'),
                     ('RNA Forecast', 'https://rnaforecast.com'),
+                    ('Contact', '/contact'),
                     ('Legal Note', '/legal'),
                     ]
 
-M_LINKS_FOOTER2 = []
-M_LINKS_FOOTER3 = []
-M_LINKS_FOOTER4 = []
+M_LINKS_FOOTER3 = [('My Profiles', ''),
+                    ('Google Scholar', 'https://scholar.google.at/citations?user=w0PHGnEAAAAJ&hl=en'),
+                    ('ResearchGate', 'https://www.researchgate.net/profile/Michael-Wolfinger'),
+                    ('Scopus', 'https://www.scopus.com/authid/detail.uri?authorId=6508361997'),
+                    ('Loop', 'https://loop.frontiersin.org/people/485709/overview'),
+                    ]
+
+M_LINKS_FOOTER4 = [('Social', ''),
+                    ('LinkedIn', 'https://www.linkedin.com/in/michaelwolfinger/'),
+                    ('Bluesky', 'https://bsky.app/profile/mtwolfinger.bsky.social'),
+                    ('GitHub', 'https://github.com/mtw'),
+                    ('ORCID', 'https://orcid.org/0000-0003-0925-5205'),
+                    ]
 
 M_FINE_PRINT = "© 2026 Michael T. Wolfinger · Vienna, Austria · michael@rnaforecast.com"
 
