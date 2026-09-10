@@ -18,8 +18,6 @@ People & Supervision
      <div class="group-head"><h2>Current supervision</h2><span class="note">researchers currently supervised or co-supervised</span></div>
      <div class="people-grid">
        <div class="person"><div><div class="n">Leonhard Sidl</div><div class="r">PhD student</div></div><span class="y">University of Vienna</span></div>
-       <div class="person"><div><div class="n">Katrin Gutenbrunner</div><div class="r">Master student</div></div><span class="y">University of Vienna</span></div>
-       <div class="person"><div><div class="n">Florentina Bayer</div><div class="r">Master student</div></div><span class="y">University of Vienna</span></div>
        <div class="person"><div><div class="n">Yannick Seitz</div><div class="r">Master student</div></div><span class="y">University of Vienna</span></div>
        <div class="person"><div><div class="n">Milan Geyer</div><div class="r">Master student</div></div><span class="y">University of Vienna</span></div>
      </div>
@@ -39,6 +37,8 @@ People & Supervision
    <div class="people-group">
      <div class="group-head"><h2>Former group members</h2><span class="note">supervised at the University of Vienna and FH Campus Wien</span></div>
      <div class="people-grid">
+       <div class="person"><div><div class="n">Katrin Gutenbrunner</div><div class="r">Master student</div></div><span class="y">University of Vienna</span></div>
+       <div class="person"><div><div class="n">Florentina Bayer</div><div class="r">Master student</div></div><span class="y">University of Vienna</span></div>
        <div class="person"><div><div class="n">Denis Skibinski</div></div><span class="y">University of Vienna</span></div>
        <div class="person"><div><div class="n">Teodora Bucaciuc</div></div><span class="y">University of Vienna</span></div>
        <div class="person"><div><div class="n">Michael Kail</div></div><span class="y">University of Vienna</span></div>
