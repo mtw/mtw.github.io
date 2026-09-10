@@ -152,6 +152,7 @@ footer .m-container{padding-top:40px;padding-bottom:52px}
 .foot-links a{color:var(--accent)}
 .fine-print{color:var(--faint);font-size:.78rem;margin-top:24px}
 .fine-print p{margin:0}
+.fine-print a{color:inherit}
 .fine-print p{margin:0}
 
 /* ---- m-grid shim (mobile-first; larger breakpoints override) ---- */
