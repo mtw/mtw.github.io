@@ -92,10 +92,23 @@
 <footer><nav>
   <div class="m-container">
     {% if M_LINKS_FOOTER1 or M_LINKS_FOOTER2 or M_LINKS_FOOTER3 or M_LINKS_FOOTER4 %}
-    <div class="foot-links">
-      {%- for group in [M_LINKS_FOOTER1, M_LINKS_FOOTER2, M_LINKS_FOOTER3, M_LINKS_FOOTER4] %}{% if group %}
-      {%- for title, link in group %}{% if title and link %}
-      <a href="{{ link|format_siteurl|e }}">{{ title|e }}</a>{% endif %}{% endfor %}{% endif %}{% endfor %}
+    <div class="foot-grid">
+      {% for group in [M_LINKS_FOOTER1, M_LINKS_FOOTER2, M_LINKS_FOOTER3, M_LINKS_FOOTER4] %}
+      {% if group %}
+      <div class="foot-col">
+        <h3>
+          {%- if group[0][1] %}<a href="{{ group[0][1]|format_siteurl|e }}">{% endif %}
+          {{- group[0][0]|e -}}
+          {% if group[0][1] %}</a>{% endif -%}
+        </h3>
+        <ul>
+          {% for title, link in group %}{% if loop.index0 != 0 %}
+          <li>{% if title %}<a href="{{ link|format_siteurl|e }}">{{ title|e }}</a>{% else %}&nbsp;{% endif %}</li>
+          {% endif %}{% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      {% endfor %}
     </div>
     {% endif %}
     {% if not M_FINE_PRINT is defined or M_FINE_PRINT %}
