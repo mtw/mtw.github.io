@@ -1,10 +1,10 @@
 Teaching
 ########
-:summary: This page is the authoritative archive of Michael T. Wolfinger's university teaching, courses, workshops, and invited teaching in computational RNA biology and bioinformatics. Advanced training offered through RNA Forecast links back to this fuller record.
+:summary: This page is the authoritative archive of Michael T. Wolfinger's university teaching, courses, lectures, and invited teaching in computational RNA biology and bioinformatics.
 :title: Michael Thomas Wolfinger's Teaching
 :hero_eyebrow: Teaching
-:hero_title: Teaching & Workshops
-:description: Teaching by Michael T. Wolfinger, including university courses, lectures, and workshop-related training in computational RNA biology.
+:hero_title: Teaching
+:description: Teaching by Michael T. Wolfinger, including university courses, lectures, and invited teaching in computational RNA biology.
 
 
 .. role:: link-flat(link)
@@ -15,9 +15,6 @@ Teaching
     :class: m-block m-default
 
 I am passionate about sharing knowledge and inspiring curiosity in **bioinformatics**, **computational biology**, and **data science**. My teaching highlights the interdisciplinary nature of these fields, integrating data analysis techniques into my courses. I aim to create an engaging and supportive learning environment that fosters critical thinking and encourages exploration. My goal is to empower students with the skills and confidence to analyze complex scientific problems and develop innovative solutions.
-
-I also offer private training workshops in computational RNA design and ViennaRNA for biotech teams and research groups. See the
-:link-flat:`services page </services>` for details and available formats.
 
 Here is a compilation of the courses that I have given over the past years at renowned academic institutions like the :link-flat:`University of Vienna <https://www.univie.ac.at>` (UNIVIE), :link-flat:`Albert-Ludwigs-University Freiburg <https://uni-freiburg.de>` (UFR), and :link-flat:`University of Applied Sciences Vienna - Fachhochschule Campus Wien <https://fh-campuswien.ac.at>` (FHCW).
 

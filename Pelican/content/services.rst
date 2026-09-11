@@ -1,12 +1,16 @@
 Expert Services in Computational RNA Design
 ############################################
-:services: draft
+:template: redirect
+:redirect_to: /
 :summary: Expert Services in Computational RNA Design by Michael Thomas Wolfinger
 :title: RNA Design Reviews and Advisory Support | Michael T. Wolfinger
 :description: RNA design reviews, SHAPE and chemical probing interpretation, ViennaRNA workshops, and advisory support for biotech teams and research groups, by Michael T. Wolfinger, computational RNA biologist at the University of Vienna.
 :extrahead: mtw_ldjson
 :breadcrumb: / Home
 :landing:
+
+.. Not public before the business launch in December 2026: the URL stays live as a
+   no-index redirect to the homepage (template: redirect); the page body below is kept.
 
   .. container:: m-row
 

@@ -99,6 +99,6 @@ Research
 
    <p>The <a href="/publications/">publication list</a> gives the formal record of this work. Many papers are also discussed in more detail on the <a href="/blog/">blog</a>, where methodological and biological context can be developed more fully than in a publication list alone.</p>
 
-   <p>I pursue independently led research through <a href="https://rnaforecast.com">RNA Forecast</a>, the platform for my software development, collaborations, advanced training, and selected scientific services. Current independently led projects, research themes, and RNA Forecast-affiliated publications are maintained there.</p>
+   <p>I pursue independently led research through <a href="https://rnaforecast.com">RNA Forecast</a>, the platform for my software development and collaborations. Current independently led projects, research themes, and RNA Forecast-affiliated publications are maintained there.</p>
 
    <p>My work depends on collaboration with experimental and computational partners across RNA bioinformatics, structural biology, virology, synthetic biology, and related areas. That includes long-standing collaborations with the <a href="https://www.tbi.univie.ac.at/">Theoretical Biochemistry Group (TBI)</a> at the University of Vienna and with colleagues working on structural questions that cut across disciplinary boundaries. Current supervision and collaborators are listed on the <a href="/team/">people and supervision</a> page.</p>

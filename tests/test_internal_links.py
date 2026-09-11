@@ -9,7 +9,6 @@ SITE_HOSTS = {"michaelwolfinger.com", "www.michaelwolfinger.com"}
 EXPECTED_HOME_LINK_TARGETS = {
     "/research",
     "/publications",
-    "/services",
     "/contact",
     "/blog",
 }

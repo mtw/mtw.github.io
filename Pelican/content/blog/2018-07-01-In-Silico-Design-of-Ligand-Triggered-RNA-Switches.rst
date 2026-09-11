@@ -39,8 +39,6 @@ The same pre-synthesis question appears whenever design objectives,
 competing folds, and likely failure modes have to be examined before a
 candidate sequence becomes expensive.
 
-If you are evaluating an RNA switch, riboswitch, or structure-aware design workflow, I also offer independent design reviews for research teams and biotech groups through my :link-flat:`services page <{filename}/services.rst>`.
-
 .. frame:: Abstract
 
   This contribution sketches a work flow to design an RNA switch that is able to adapt two structural conformations in a ligand-dependent way. A well characterized RNA aptamer, i.e., knowing its Kd and adaptive structural features, is an essential ingredient of the described design process. We exemplify the principles using the well-known theophylline aptamer throughout this work. The aptamer in its ligand-binding competent structure represents one structural conformation of the switch while an alternative fold that disrupts the binding-competent structure forms the other conformation. To keep it simple we do not incorporate any regulatory mechanism to control transcription or translation. We elucidate a commonly used design process by explicitly dissecting and explaining the necessary steps in detail. We developed a novel objective function which specifies the mechanistics of this simple, ligand-triggered riboswitch and describe an extensive in silico analysis pipeline to evaluate important kinetic properties of the designed sequences. This protocol and the developed software can be easily extended or adapted to fit novel design scenarios and thus can serve as a template for future needs.

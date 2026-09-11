@@ -71,5 +71,4 @@ on stronger stress testing or on additional evidence. That judgment
 becomes especially difficult when the output looks polished and the
 project is under time pressure. In that situation, a careful review of
 the modelling assumptions and likely failure modes is usually more
-valuable than enthusiasm. My :link-flat:`services page <{filename}/services.rst>` describes the formats I use for that kind of focused
-review and advisory support.
+valuable than enthusiasm.
