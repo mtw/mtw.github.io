@@ -45,8 +45,6 @@ That makes the study best understood as a methods contribution. It shows that AI
 
 I place that point in a wider modeling context in :link-flat:`What AI can and cannot do for RNA structure and RNA-protein modeling <{filename}/blog/2025-02-01-What-AI-Can-and-Cannot-Do-for-RNA-Structure-and-RNA-Protein-Modeling.rst>`.
 
-If your lab or company needs an external review of an RNA-protein modeling workflow, a structure-guided design problem, or a docking strategy, I also offer focused advisory support through my :link-flat:`services page <{filename}/services.rst>`.
-
 
 .. frame:: Abstract
 

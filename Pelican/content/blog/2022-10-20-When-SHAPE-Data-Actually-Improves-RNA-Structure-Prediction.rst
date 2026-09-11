@@ -53,5 +53,3 @@ genuinely matches that question, and when the computational
 interpretation respects the fact that the data are informative but
 incomplete. In those cases, the prediction is not replaced. It is
 strengthened.
-
-This is also where many teams hit a decision point. Sometimes the issue is not whether SHAPE is useful in principle, but whether the current construct, probing design, and analysis setup are coherent enough to justify the next experiment. That is often the stage where an external technical review or a focused training session can help, especially if the group is deciding between a quick sequence-only analysis and a more serious structure-guided workflow. My :link-flat:`services page <{filename}/services.rst>` outlines the formats I use for that kind of design review and workshop support.

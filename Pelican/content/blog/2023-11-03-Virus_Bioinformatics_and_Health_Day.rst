@@ -69,5 +69,3 @@ Why This Matters
 For RNA virology, computation is no longer just a supporting activity. It is often the layer that connects large public sequence collections, mechanistic RNA hypotheses, and experimental prioritization. Done carefully, it helps us decide which genomes to compare, which structures to test, and which lineage-specific patterns are worth following up.
 
 That is also where a broader One Health perspective becomes genuinely relevant. When viruses move across hosts, vectors, and ecological settings, sequence data alone are not enough and isolated mechanistic results are not enough either. The useful view comes from connecting evolutionary context with molecular interpretation.
-
-If your group is working on structured viral RNAs and needs help evaluating computational evidence, you can also :link-flat:`see my services page <{filename}/services.rst>`.

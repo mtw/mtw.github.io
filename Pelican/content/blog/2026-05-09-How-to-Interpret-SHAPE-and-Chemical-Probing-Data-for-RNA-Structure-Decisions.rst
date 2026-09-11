@@ -81,9 +81,3 @@ Probing data are most helpful when the structural question is well
 posed, the experiment matches that question, and the computational
 interpretation remains conservative about what is still unresolved.
 Otherwise the analysis can start to look more definitive than it is.
-
-At that stage, groups often benefit from a technical review or a focused
-training session. The issue is usually whether the current design,
-probing setup, and computational interpretation are coherent enough to
-support the next experimental decision. That is the kind of question I
-take up in :link-flat:`design reviews, workshops, and advisory work </services>`.

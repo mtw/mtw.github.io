@@ -56,7 +56,7 @@ SITEMAP = {
         "indexes": "always",
         "pages": "always"
     },
-    "exclude": ["blog/archive/", "blog/author/", "authors", "index", "legal"]
+    "exclude": ["services", "consulting", "blog/archive/", "blog/author/", "authors", "index", "legal"]
 }
 
 GITHUB_URL = "https://github.com/mtw/mtw.github.io"
@@ -90,9 +90,7 @@ M_LINKS_FOOTER1 = [('Home', '/'),
                     ('Writing', '/blog/'),
                     ]
 
-M_LINKS_FOOTER2 = [('Services', ''),
-                    ('Expert Services', 'https://rnaforecast.com'),
-                    ('RNA Workshops', 'https://rnaforecast.com'),
+M_LINKS_FOOTER2 = [('More', ''),
                     ('RNA Forecast', 'https://rnaforecast.com'),
                     ('Contact', '/contact'),
                     ('Legal Note', '/legal'),

@@ -2,13 +2,13 @@ Contact
 #######
 :summary: Contact Michael T. Wolfinger
 :title: Contact Michael T. Wolfinger
-:description: Contact Michael T. Wolfinger about ViennaRNA workshops, RNA design reviews, SHAPE or chemical probing interpretation, academic collaboration, or research questions.
+:description: Contact Michael T. Wolfinger about research questions, academic collaboration, and supervision in computational RNA biology.
 :hero_eyebrow: Contact
 :hero_title: Get in touch
 :hide_summary: True
 
 .. Layout note: the two-column contact layout (details card on the left, dark
-   services card and links panel on the right) is one raw-HTML block on purpose.
+   RNA Forecast card and links panel on the right) is one raw-HTML block on purpose.
    The prose is plain <p> text and stays editable.
 
 .. raw:: html
@@ -30,9 +30,9 @@ Contact
 
      <div class="card-stack">
        <div class="card-dark">
-         <div class="eyebrow">Workshops, design reviews &amp; services</div>
-         <p>For enquiries about workshops, RNA design reviews, or advisory engagements, write to hello@rnaforecast.com. A brief description of your team and what you are working on is enough to get started.</p>
-         <a class="btn-light" href="mailto:hello@rnaforecast.com?subject=Services Inquiry">hello@rnaforecast.com &rarr;</a>
+         <div class="eyebrow">Independent research platform</div>
+         <p>Independently led research, software development, and collaborations are maintained on RNA Forecast.</p>
+         <a class="btn-light" href="https://rnaforecast.com">RNA Forecast &rarr;</a>
        </div>
        <div class="card-panel">
          <div class="eyebrow">Find me online</div>

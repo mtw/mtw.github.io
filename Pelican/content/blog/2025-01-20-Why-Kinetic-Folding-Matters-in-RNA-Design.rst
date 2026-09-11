@@ -77,5 +77,4 @@ a project may already have plausible sequences, an assay strategy, and a
 mechanistic hypothesis, but still lack a clear distinction between a
 folding-pathway problem, a sequence-design problem, and a measurement
 problem. A structured review can help clarify this distinction and
-identify which candidates are most informative to test next. My
-:link-flat:`services page <{filename}/services.rst>` describes how I approach design reviews and advisory work for teams facing this type of decision.
+identify which candidates are most informative to test next.
