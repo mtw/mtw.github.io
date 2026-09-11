@@ -3,6 +3,7 @@ Bi-Alignments as Models of Incongruent Evolution of RNA Sequence and Secondary S
 :summary: Bi-Alignments as Models of Incongruent Evolution of RNA Sequence and Secondary Structure
 :title: Bi-alignments model incongruent evolution on RNA sequence and structure
 :description: Bi-Alignments are useful for modeling independent selection pressures on RNA sequence and structure evolution
+:canonical_url: https://michaelwolfinger.com/blog/2020/Bi-Alignments-as-Models-of-Incongruent-Evolution-of-RNA-Sequence-and-Secondary-Structure/
 
 
 :breadcrumb: / Home

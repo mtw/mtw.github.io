@@ -16,4 +16,4 @@ else
 fi
 
 cd "$script_dir"
-"$pelican" content -D -vv -o output -s "$settings_file"
+"$pelican" content -d -D -vv -o output -s "$settings_file"

@@ -3,6 +3,7 @@ Distinctive Regulation of Carbapenem Susceptibility in Pseudomonas Aeruginosa by
 :summary: Distinctive Regulation of Carbapenem Susceptibility in Pseudomonas Aeruginosa by Hfq
 :title: Chaperone Hfq regulates carbapenem susceptibility in Pseudomonas aeruginosa
 :description: Chaperone Hfq regulates carbapenem antibiotic susceptibility in the opportunistic human pathogen Pseudomonas aeruginosa
+:canonical_url: https://michaelwolfinger.com/blog/2020/Distinctive-Regulation-of-Carbapenem-Susceptibility-in-Pseudomonas-Aeruginosa-by-Hfq/
 
 
 :breadcrumb: / Home

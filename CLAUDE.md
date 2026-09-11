@@ -1,30 +1,15 @@
-<!--
-# CLAUDE.md
+# Project notes for Claude
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
--->
-## Quick Commands
-- **Build Site**: `pelican` or `python -m pelican --output=output`
-- **Serve While Editing** (use your theme template): `python -m pelican --listen=0.0.0.0:8000 --template="themes/mytheme/templates/article.html"
-- **Clean Output**: `rm -rf output/*`
-- **Check Git Status**: `git status`
-- **Commit Changes** (after refining with `Read`/`Edit`): `git add <file>\n git commit -m "[Auto] Description"`
+The authoritative instructions are in `AGENTS.md` and `README.md`; this file only adds pointers.
 
-## Big-Picture Architecture
-This is a Pelican-based static site:
-- **Content**: Markdown/ReST files in `content/` (or repo root)
-- **Templates**: HTML templates under `themes/mytheme/templates/`
-- **Output**: `output/` (default Pelican output)
-- **Configuration**: `_config.yml` or `pelican.conf.py`
-
-## Notable Files/Pipelines
-- `.github/workflows/validate.yml`
-- `.github/workflows/static.yml`
-- `.github/dependabot.yml`
-- `themes/mytheme/templates/*` (render your content)
-
-## Notes
-- Never commit generated outputs (`output/*`)—Pelican rebuilds them on each build.
-- Adjust theme templates in `themes/mytheme/` for UI changes.
-- Use descriptive commit messages focusing on why changes were made.
-- If you’d like to add a new post, create a Markdown file in `content/` with appropriate front matter.
+- Pelican project: `Pelican/` (content in `Pelican/content/`, theme in `Pelican/pelican-theme/`,
+  settings in `Pelican/pelicanconf.py` with `Pelican/publishconf.py` for production builds).
+- Build locally: `cd Pelican && ../.venv/bin/pelican content -s pelicanconf.py -o output`
+  (or `./Pelican/make.sh`). Production build as used by CI: `python scripts/build_publish.py`.
+- Validate: `./.venv/bin/python -m pytest` from the repository root.
+- Never commit `Pelican/output/`; it is generated.
+- No output URL may change. Check with a clean publish build of `master` and of the branch and
+  diff `find . -type f | sort` of both trees; the diff must be empty.
+- The served stylesheet is `Pelican/pelican-theme/static/m-mtw.css` (the path pre-dates the
+  2026 relaunch, which is why the relaunch added no new URL).
+- Structured data comes from `Pelican/pelican-theme/templates/_ldjson.html`.

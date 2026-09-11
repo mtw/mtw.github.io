@@ -13,7 +13,7 @@
  "givenName": "Michael",
  "familyName": "Wolfinger",
  "url": {{ _site|tojson }},
- "image": {{ (SITEURL ~ M_SOCIAL_IMAGE)|tojson }},
+ "image": {{ (M_SOCIAL_IMAGE|format_siteurl)|tojson }},
  "jobTitle": "Independent Principal Investigator, Computational RNA Biology",
  "description": "Independent Principal Investigator in computational RNA biology based in Vienna, Austria: RNA structure, folding kinetics, functional RNA design, and structured viral RNAs.",
  "email": "michael@rnaforecast.com",
@@ -75,7 +75,7 @@
   "about": {"@id": {{ _person_id|tojson }}},
   {% if is_about %}"mainEntity": {"@id": {{ _person_id|tojson }}},{% endif %}
   "author": {"@id": {{ _person_id|tojson }}},
-  "primaryImageOfPage": {"@type": "ImageObject", "url": {{ (SITEURL ~ M_SOCIAL_IMAGE)|tojson }}}
+  "primaryImageOfPage": {"@type": "ImageObject", "url": {{ (M_SOCIAL_IMAGE|format_siteurl)|tojson }}}
   {%- if page.date %}, "datePublished": {{ page.date.isoformat()|tojson }}{% endif %}
   {%- if page.modified %}, "dateModified": {{ page.modified.isoformat()|tojson }}{% elif page.date %}, "dateModified": {{ page.date.isoformat()|tojson }}{% endif %}
  }{% if not is_home %},
@@ -89,7 +89,7 @@
 {% set url = SITEURL ~ '/' ~ article.url %}
 {% set desc = (article.description or article.summary or '')|dehyphenate|striptags|trim %}
 {% set blog_url = _blog_url %}
-{% if article.cover %}{% set image = article.cover|expand_link(article) %}{% else %}{% set image = SITEURL ~ M_SOCIAL_IMAGE %}{% endif %}
+{% if article.cover %}{% set image = article.cover|expand_link(article) %}{% else %}{% set image = M_SOCIAL_IMAGE|format_siteurl %}{% endif %}
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@graph": [
  {{ website() }},
@@ -105,7 +105,7 @@
   "dateModified": {{ (article.modified.isoformat() if article.modified else article.date.isoformat())|tojson }},
   "author": {"@id": {{ _person_id|tojson }}},
   "publisher": {"@id": {{ _person_id|tojson }}},
-  "isPartOf": {"@type": "Blog", "@id": {{ blog_url|tojson }}, "name": {{ M_BLOG_NAME|tojson }}},
+  "isPartOf": {"@type": "Blog", "@id": {{ blog_url|tojson }}, "name": {{ (M_BLOG_NAME or SITENAME)|tojson }}},
   "inLanguage": {{ (article.lang or DEFAULT_LANG or 'en')|tojson }},
   {% if article.category %}"articleSection": {{ article.category|string|tojson }},{% endif %}
   {% if article.tags %}"keywords": {{ article.tags|map('string')|join(', ')|tojson }},{% endif %}

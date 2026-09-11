@@ -25,6 +25,7 @@
 
 import copy
 import os
+import re
 from docutils.parsers import rst
 from docutils.parsers.rst import Directive
 from docutils.parsers.rst import directives, states
@@ -264,7 +265,12 @@ class ImageGrid(rst.Directive):
 
             for uri, rel_width, caption in row:
                 image_reference = rst.directives.uri(uri)
-                image_node = nodes.image('', uri=image_reference)
+                # Every grid image gets an alt: the caption, or a name derived from the file
+                # ("QuickSlide__Flamm-2022.003" -> "Flamm-2022 slide 003").
+                base = os.path.splitext(os.path.basename(image_reference))[0]
+                m_slide = re.match(r'^(?:QuickSlide__)?(.+?)\.(\d+)$', base)
+                alt_text = caption or (f'{m_slide.group(1)} slide {m_slide.group(2)}' if m_slide else base.replace('_', ' ').replace('-', ' '))
+                image_node = nodes.image('', uri=image_reference, alt=alt_text)
 
                 # <figurecaption> in case there's a caption
                 if caption:

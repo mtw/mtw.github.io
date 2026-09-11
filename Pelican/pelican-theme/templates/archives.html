@@ -17,6 +17,12 @@
 
 {% block social %}
   <meta property="og:site_name" content="{{ M_BLOG_NAME|e }}" />
+  <meta property="og:title" content="{{ self.blog_title()|striptags|e }}" />
+  <meta name="twitter:title" content="{{ self.blog_title()|striptags|e }}" />
+  {% if M_BLOG_DESCRIPTION %}<meta property="og:description" content="{{ M_BLOG_DESCRIPTION|e }}" />
+  <meta name="twitter:description" content="{{ M_BLOG_DESCRIPTION|e }}" />{% endif %}
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
   {% block social_url %}{% if M_BLOG_URL %}<meta property="og:url" content="{{ M_BLOG_URL|format_siteurl|e }}" />{% endif %}{% endblock %}
 {% endblock %}
 
@@ -53,7 +59,7 @@
   <div class="blog-list">
     {% if tags %}
     <div class="tag-row blog-tags">
-      <a href="{{ M_BLOG_URL|format_siteurl|e if M_BLOG_URL else SITEURL + '/blog/' }}">All</a>
+      <a href="{{ SITEURL }}/blog/">All</a>
       {% for tag, tag_articles in tags|sort(attribute='0') %}
       <a href="{{ tag.url|format_siteurl|e }}">{{ tag|e }}</a>
       {% endfor %}
@@ -92,12 +98,12 @@
         <h3>{{ article.title }}</h3>
         {% if article.summary %}<p class="b-summary">{{ article.summary|striptags|truncate(220)|e }}</p>{% endif %}
       </div>
-      <div class="b-read">{% if article.status == 'draft' %}<span class="m-label m-dim">draft</span>{% endif %}Read &rarr;</div>
+      <div class="b-read">{% if article.status == 'draft' %}<span class="m-label m-dim">draft</span> {% endif %}Read &rarr;</div>
     </a>
     {% endfor %}
     {% endif %}
     {% endfor %}
-    {% set _ungrouped = _rest|rejectattr('section', 'defined')|list + _rest|selectattr('section', 'defined')|rejectattr('section', 'in', _known)|list %}
+    {% set _ungrouped = (_rest|rejectattr('section', 'defined')|list + _rest|selectattr('section', 'defined')|rejectattr('section', 'in', _known)|list)|sort(attribute='date', reverse=true) %}
     {% if _ungrouped %}
     <div class="sec-label" style="margin:2.4rem 0 0">More</div>
     {% for article in _ungrouped %}
@@ -110,11 +116,11 @@
         <h3>{{ article.title }}</h3>
         {% if article.summary %}<p class="b-summary">{{ article.summary|striptags|truncate(220)|e }}</p>{% endif %}
       </div>
-      <div class="b-read">{% if article.status == 'draft' %}<span class="m-label m-dim">draft</span>{% endif %}Read &rarr;</div>
+      <div class="b-read">{% if article.status == 'draft' %}<span class="m-label m-dim">draft</span> {% endif %}Read &rarr;</div>
     </a>
     {% endfor %}
     {% endif %}
-    {% else %}
+    {% elif _rest %}
     <div class="sec-label" style="margin:2rem 0 0">All posts</div>
     {% for article in _rest %}
     <a class="blog-item" href="{{ article.url|format_siteurl|e }}">
@@ -126,7 +132,7 @@
         <h3>{{ article.title }}</h3>
         {% if article.summary %}<p class="b-summary">{{ article.summary|striptags|truncate(220)|e }}</p>{% endif %}
       </div>
-      <div class="b-read">{% if article.status == 'draft' %}<span class="m-label m-dim">draft</span>{% endif %}Read &rarr;</div>
+      <div class="b-read">{% if article.status == 'draft' %}<span class="m-label m-dim">draft</span> {% endif %}Read &rarr;</div>
     </a>
     {% endfor %}
     {% endif %}

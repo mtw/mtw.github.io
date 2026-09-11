@@ -1,7 +1,7 @@
 {% set page_slug = '[blog]' %}
 {% extends "base.html" %}
 
-{% block title %}{{ article.title }}{% endblock %}
+{% block title %}{{ article.title|striptags|e }}{% endblock %}
 
 {% block head_links %}
   {% if M_BLOG_FAVICON %}<link rel="icon" href="{{ M_BLOG_FAVICON[0]|format_siteurl|e }}" type="{{ M_BLOG_FAVICON[1]|e }}" />
@@ -16,8 +16,8 @@
 
 {% block social %}
   <meta property="og:site_name" content="{{ M_BLOG_NAME|e }}" />
-  <meta property="og:title" content="{{ article.title }}" />
-  <meta name="twitter:title" content="{{ article.title }}" />
+  <meta property="og:title" content="{{ article.title|striptags|e }}" />
+  <meta name="twitter:title" content="{{ article.title|striptags|e }}" />
   <meta property="og:url" content="{{ article.url|format_siteurl|e }}" />
   {% if article.summary %}
   <meta property="og:description" content="{{ article.summary|dehyphenate|striptags|e }}" />
@@ -51,21 +51,22 @@
           <h1>{{ article.title }}</h1>
           <div class="article-meta" style="border-color:rgba(255,255,255,.25);color:#cfd8e0">
             <span>{{ article.locale_date|e }}</span>
-            {% if article.authors %}<span class="dot"></span><span>{% for author in article.authors %}{{ AUTHOR|e if author.name == 'mtw' else author|e }}{% endfor %}</span>{% endif %}
+            <span class="dot"></span><span>{% if article.authors %}{% for author in article.authors %}{{ AUTHOR|e if author.name == 'mtw' else author|e }}{% if not loop.last %}, {% endif %}{% endfor %}{% else %}{{ AUTHOR|e }}{% endif %}</span>
             {% if article.status == 'draft' %}<span class="dot"></span><span class="m-label m-dim">draft</span>{% endif %}
           </div>
+          <a href="{{ SITEURL }}/blog/" class="jumbo-back">&larr; Back to Blog</a>
         </div>
       </div>
     </div>
   </div>
   {% else %}
   <div class="article-head">
-    <a href="{{ M_BLOG_URL|format_siteurl|e if M_BLOG_URL else SITEURL + '/blog/' }}" style="font-size:.85rem;font-weight:500">&larr; Back to Blog</a>
+    <a href="{{ SITEURL }}/blog/" style="font-size:.85rem;font-weight:500">&larr; Back to Blog</a>
     {% if article.category %}<div class="article-eyebrow" style="margin-top:1.4rem">{{ article.category|e }}</div>{% endif %}
     <h1>{{ article.title }}</h1>
     <div class="article-meta">
       {#- posts carry the short author handle 'mtw'; show the site author's full name for it -#}
-      {% if article.authors %}<span>{% for author in article.authors %}{{ AUTHOR|e if author.name == 'mtw' else author|e }}{% endfor %}</span><span class="dot"></span>{% else %}<span>{{ AUTHOR|e }}</span><span class="dot"></span>{% endif %}
+      <span>{% if article.authors %}{% for author in article.authors %}{{ AUTHOR|e if author.name == 'mtw' else author|e }}{% if not loop.last %}, {% endif %}{% endfor %}{% else %}{{ AUTHOR|e }}{% endif %}</span><span class="dot"></span>
       <span>{{ article.locale_date|e }}</span>
       {% if article.status == 'draft' %}<span class="dot"></span><span class="m-label m-dim">draft</span>{% endif %}
     </div>
@@ -92,10 +93,14 @@
       {% for tag in article.tags %}<a href="{{ tag.url|format_siteurl|e }}">{{ tag|e }}</a>{% endfor %}
     </div>
     {% endif %}
-    {% if article.prev_article or article.next_article %}
-    <nav style="display:flex;justify-content:space-between;gap:20px;margin-top:1.6rem;font-family:'Archivo',sans-serif;font-size:.9rem">
-      <span>{% if article.next_article %}<a href="{{ article.next_article.url|format_siteurl|e }}">&larr; {{ article.next_article.title|striptags|truncate(48)|e }}</a>{% endif %}</span>
-      <span style="text-align:right">{% if article.prev_article %}<a href="{{ article.prev_article.url|format_siteurl|e }}">{{ article.prev_article.title|striptags|truncate(48)|e }} &rarr;</a>{% endif %}</span>
+    {#- Pelican core has no prev/next attributes; derive the neighbours from the
+        date-sorted article list (newer = previous item, older = next item). -#}
+    {% set nb = namespace(newer=None, older=None) %}
+    {% for a in articles %}{% if a.url == article.url %}{% set nb.newer = loop.previtem if not loop.first else None %}{% set nb.older = loop.nextitem if not loop.last else None %}{% endif %}{% endfor %}
+    {% if nb.newer or nb.older %}
+    <nav class="post-nav" aria-label="Neighbouring posts">
+      <span>{% if nb.newer %}<a href="{{ nb.newer.url|format_siteurl|e }}">&larr; {{ nb.newer.title|striptags|truncate(48)|e }}</a>{% endif %}</span>
+      <span style="text-align:right">{% if nb.older %}<a href="{{ nb.older.url|format_siteurl|e }}">{{ nb.older.title|striptags|truncate(48)|e }} &rarr;</a>{% endif %}</span>
     </nav>
     {% endif %}
   </div>
