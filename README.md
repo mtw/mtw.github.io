@@ -85,10 +85,10 @@ Theme CSS files used in production must exist as real files inside `Pelican/peli
 If you update the light theme styles:
 
 1. edit the relevant CSS in `Pelican/pelican-theme/static/`
-2. regenerate the compiled stylesheet with `cd Pelican/pelican-theme/static && ../../../.venv/bin/python postprocess.py m-light.css`
-3. rebuild locally and confirm `Pelican/output/static/m-light.compiled.css` is present
+2. edit `Pelican/pelican-theme/static/m-mtw.css` directly (plain CSS, no compile step)
+3. rebuild locally and confirm `Pelican/output/static/m-mtw.css` is present
 
-GitHub Actions also regenerates `m-light.compiled.css` and minifies publish assets during the deploy build, so production does not depend on the checked-in compiled stylesheet staying fresh. Local development remains on the unminified `static/m-light.css` from `pelicanconf.py`.
+GitHub Actions minifies publish assets during the deploy build, so production does not depend on the checked-in compiled stylesheet staying fresh. Local development remains on the unminified `static/m-light.css` from `pelicanconf.py`.
 
 `./Pelican/make.sh` intentionally defaults to `pelicanconf.py` so local preview output keeps local asset URLs instead of pointing at the deployed site.
 

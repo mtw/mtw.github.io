@@ -89,7 +89,7 @@ For a deeper methodological breakdown, the `Supplementary Data <http://bioinform
   The capability for SHAPE directed RNA
   folding is part of the upcoming release of the ViennaRNA Package 2.2, for
   which a preliminary release is already freely available at
-  http://www.tbi.univie.ac.at/RNA.
+  `https://www.tbi.univie.ac.at/RNA <https://www.tbi.univie.ac.at/RNA>`_.
 
 
 Citation

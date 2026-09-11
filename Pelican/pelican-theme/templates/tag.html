@@ -4,5 +4,5 @@
 {% block blog_heading %}{{ tag|e }}{% endblock %}
 {% block blog_lede %}<p class="page-lede" style="max-width:66ch">Posts tagged &ldquo;{{ tag|e }}&rdquo;.</p>{% endblock %}
 {% block social_url %}<meta property="og:url" content="{{ tag.url|format_siteurl|e }}" />{% endblock %}
-{% block blog_canonical %}<link rel="canonical" href="{{ tag.url|format_siteurl|e }}" />{% endblock %}
+{% block blog_canonical %}<link rel="canonical" href="{{ (articles_page.url if articles_page and articles_page.number > 1 else tag.url)|format_siteurl|e }}" />{% endblock %}
 {% block blog_ldjson %}{% import '_ldjson.html' as ld with context %}{{ ld.listing_graph(tag|string, SITEURL ~ '/' ~ tag.url, 'Posts tagged ' ~ tag|string, false) }}{% endblock %}

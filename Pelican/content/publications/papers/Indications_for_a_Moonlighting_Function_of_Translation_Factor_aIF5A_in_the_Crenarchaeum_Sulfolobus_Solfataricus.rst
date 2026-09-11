@@ -3,6 +3,7 @@ Indications for a Moonlighting Function of Translation Factor aIF5A in the Crena
 :summary: Indications for a Moonlighting Function of Translation Factor aIF5A in the Crenarchaeum Sulfolobus Solfataricus
 :title: A novel function of translation factor aIF5A in Sulfolobus solfataricus
 :description: Eukarya and Archaea share the conserved translation factor a/eIF5A, suggesting its potential dual role in both protein synthesis and RNA metabolism
+:canonical_url: https://michaelwolfinger.com/blog/2019/Indications-for-a-Moonlighting-Function-of-Translation-Factor-aIF5A-in-the-Crenarchaeum-Sulfolobus-Solfataricus/
 
 
 :breadcrumb: / Home

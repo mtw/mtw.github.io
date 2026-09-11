@@ -24,7 +24,7 @@ Selected Posters
 | :link-flat-strong:`Designing Artificial xrRNA Structures for Regulation of Gene Expression <{static}/files/posters/2025-06-24-Poznan.pdf>`
 | Jule Walter, Leonhard Sidl, Denis Skibinski, Heike Betat, Mario Mörl, :ul:`Michael T. Wolfinger`
 | Presented at the *2nd Polish RNA Meeting*
-| Poznan, Poland. June 2025 | `doi:10.13140/RG.2.2.25319.76968 <http://dx.doi.org/10.13140/RG.2.2.25319.76968>`_
+| Poznan, Poland. June 2025 | `doi:10.13140/RG.2.2.25319.76968 <https://doi.org/10.13140/RG.2.2.25319.76968>`_
 
 .. _iclr2025ai4na:
 
@@ -163,7 +163,7 @@ Selected Posters
 
 | :strong:`mRNA degradation on the ribosome in Drosophila cells`
 | Silke Dorner, Sanja Antic, Anna Skucha, :ul:`Michael T. Wolfinger`
-| Presented at the the *Complex Life of mRNA EMBO EMBL Symposia*
+| Presented at the *Complex Life of mRNA EMBO EMBL Symposia*
 | Heidelberg, Germany. 5 October 2014
 
 .. _cshm2014:

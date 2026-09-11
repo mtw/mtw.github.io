@@ -12,6 +12,7 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+  "docutils>=0.21,<1",
   "minify-html>=0.15",
   "pelican>=4.11,<5",
   "Pillow>=10",

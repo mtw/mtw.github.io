@@ -13,6 +13,8 @@ ARTICLE_PATHS = ['blog']
 ARTICLE_EXCLUDES = ['blog/authors','blog/category','blog/tag']
 PAGE_PATHS = ['']
 
+# Explicit so local and CI builds render dates identically regardless of locale.
+DEFAULT_DATE_FORMAT = '%a %d %B %Y'
 TIMEZONE = 'Europe/Vienna'
 DEFAULT_DATE = None
 
@@ -117,7 +119,6 @@ EXTRA_PATH_METADATA = {
                         'extra/CNAME': {'path': 'CNAME'},
                         'extra/robots.txt': {'path': 'robots.txt'},
                         'extra/favicon.ico': {'path': 'favicon.ico'},
-                        'static/academicons.min.css': {'path': 'static/academicons.min.css'}
                         }
 
 DISPLAY_PAGES_ON_MENU = True
@@ -137,15 +138,14 @@ AUTHOR_FEED_RSS = None
 TWITTER_USERNAME = 'mtwolfinger'
 
 M_BLOG_NAME = "michaelwolfinger.com Bioinformatics Blog"
-M_BLOG_URL = 'https://michaelwolfinger.com/blog'
+M_BLOG_URL = 'https://michaelwolfinger.com/blog/'
 M_BLOG_DESCRIPTION = "michaelwolfinger.com | Computational RNA biology: RNA structure, folding dynamics, functional RNA design, and structured viral RNAs"
-M_SOCIAL_BLOG_SUMMARY = "Computational RNA biology — RNA structure, folding dynamics, functional RNA design, and structured viral RNAs"
 
 M_SOCIAL_TWITTER_SITE = '@mtwolfinger'
 M_SOCIAL_TWITTER_SITE_ID = 15105886
 #M_SOCIAL_IMAGE = 'https://your.brand/static/site.png'
 M_SOCIAL_IMAGE = '/static/mtw.jpg'
-M_SOCIAL_BLOG_SUMMARY = "Unlocking the future of RNA biology through innovative AI and computational techniques"
+M_SOCIAL_BLOG_SUMMARY = "Computational RNA biology — RNA structure, folding dynamics, functional RNA design, and structured viral RNAs"
 
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'

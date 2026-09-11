@@ -19,7 +19,7 @@ I am passionate about sharing knowledge and inspiring curiosity in **bioinformat
 I also offer private training workshops in computational RNA design and ViennaRNA for biotech teams and research groups. See the
 :link-flat:`services page </services>` for details and available formats.
 
-Here is a compilation of the courses that I have given over the past years at renowned academic institutions like the :link-flat:`University of Vienna <http://www.univie.ac.at>` (UNIVIE), :link-flat:`Albert-Ludwigs-University Freiburg <http://uni-freiburg.de>` (UFR), and :link-flat:`University of Applied Sciences Vienna - Fachhochschule Campus Wien <http://fh-campuswien.ac.at>` (FHCW).
+Here is a compilation of the courses that I have given over the past years at renowned academic institutions like the :link-flat:`University of Vienna <https://www.univie.ac.at>` (UNIVIE), :link-flat:`Albert-Ludwigs-University Freiburg <https://uni-freiburg.de>` (UFR), and :link-flat:`University of Applied Sciences Vienna - Fachhochschule Campus Wien <https://fh-campuswien.ac.at>` (FHCW).
 
 
 Lecture and course directory

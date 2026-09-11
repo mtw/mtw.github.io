@@ -23,9 +23,9 @@ CSS assets
 
 Theme CSS files used in production must exist as real files in ``pelican-theme/static/``. Do not replace them with symlinks to repo-root files.
 
-When editing the light theme CSS, regenerate the compiled stylesheet with
-``cd pelican-theme/static && ../../../.venv/bin/python postprocess.py m-light.css``.
+The site loads a single stylesheet, ``pelican-theme/static/m-mtw.css`` (plain CSS with custom
+properties, no build step). The old m.css files next to it are unused legacy assets.
 
-GitHub Actions also regenerates ``m-light.compiled.css`` and minifies publish-only CSS, JS, and HTML output during the production build. Local development continues to use the unminified ``m-light.css`` from ``pelicanconf.py``.
+GitHub Actions minifies publish-only CSS, JS, and HTML output during the production build. Local development continues to use the unminified ``m-light.css`` from ``pelicanconf.py``.
 
 ``./make.sh`` now defaults to ``pelicanconf.py`` so local output keeps local asset URLs and preview styling. Pass ``publishconf.py`` explicitly only when you want a non-minified production-style build in ``output/``.

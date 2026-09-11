@@ -73,7 +73,7 @@ Citation
 ========
 
   | :link-flat-strong:`Theoretical studies on RNA recognition by Musashi 1 RNA–binding protein <https://doi.org/10.1038/s41598-022-16252-w>`
-  | Nitchakan Darai, Panupong Mahalapbutr, Peter Wolschann, Vannajan Sanghiran Lee, :ul:`Michael T. Wolﬁnger`, Thanyada Rungrotmongkol
+  | Nitchakan Darai, Panupong Mahalapbutr, Peter Wolschann, Vannajan Sanghiran Lee, :ul:`Michael T. Wolfinger`, Thanyada Rungrotmongkol
   | *Sci. Rep.* 12:12137 (2022) | :doi:`doi:10.1038/s41598-022-16252-w <https://doi.org/10.1038/s41598-022-16252-w>` | :link-flat:`PDF <{static}/files/papers/Darai-2022.pdf>`
 
 See Also

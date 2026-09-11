@@ -56,9 +56,9 @@ Computational RNA Workshops
   :class: m-flat m-text
 
 I have taught computational RNA biology at the
-:link-flat:`University of Vienna <http://www.univie.ac.at>`,
-the :link-flat:`University of Freiburg <http://uni-freiburg.de>`,
-and :link-flat:`FH Campus Wien <http://fh-campuswien.ac.at>`.
+:link-flat:`University of Vienna <https://www.univie.ac.at>`,
+the :link-flat:`University of Freiburg <https://uni-freiburg.de>`,
+and :link-flat:`FH Campus Wien <https://fh-campuswien.ac.at>`.
 The workshop formats below grow out of that experience and can be
 adapted to research labs, biotech teams, doctoral programmes, or
 interdisciplinary groups that want a more structured way into the

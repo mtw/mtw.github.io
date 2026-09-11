@@ -41,7 +41,7 @@ Submitted Manuscripts / Preprints
 
     .. container::  m-col-t-8
 
-      | 57. :link-flat-strong:`Identification of a region within the 5’UTR of of Interleukin–2 mRNA offers a promising strategy for drug development for autoimmune disorders <{filename}/publications.rst>`
+      | 57. :link-flat-strong:`Identification of a region within the 5’UTR of Interleukin–2 mRNA offers a promising strategy for drug development for autoimmune disorders <{filename}/publications.rst>`
       | Katarzyna M. Gluchowska, Krzysztofa Odzywol, Agnieszka Zagozdzon, Tomasz K. Wirecki, Chandran Nithin, Bartlomiej Surpeta, Xiaobing Zhang, Jannan Zhao, Lukasz Joachimiak, Bartlomiej Hofman, Joanna Sztuba-Solinska, Katarzyna Drzewicka, Angelika Muchowicz, :ul:`Michael T. Wolfinger`, Roman Blaszczyk, Irina Tuszynska, Janusz M. Bujnicki, and Zbigniew Zaslona
       | Submitted manuscript (2026)
 
@@ -290,7 +290,7 @@ Peer-reviewed journal / conference articles and book chapters
     .. container::  m-col-t-8
 
       | 43. :link-flat-strong:`Theoretical studies on RNA recognition by Musashi 1 RNA–binding protein <{filename}/blog/2022-07-26-Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein.rst>`
-      | Nitchakan Darai, Panupong Mahalapbutr, Peter Wolschann, Vannajan Sanghiran Lee, :ul:`Michael T. Wolﬁnger`, Thanyada Rungrotmongkol
+      | Nitchakan Darai, Panupong Mahalapbutr, Peter Wolschann, Vannajan Sanghiran Lee, :ul:`Michael T. Wolfinger`, Thanyada Rungrotmongkol
       | *Sci. Rep.* 12:12137 (2022)
       | :doi:`doi:10.1038/s41598-022-16252-w <https://doi.org/10.1038/s41598-022-16252-w>` | :label-flat-info:`Journal article`
 
@@ -643,7 +643,7 @@ Peer-reviewed journal / conference articles and book chapters
 
   | 5. :link-flat-strong:`Folding Kinetics of Large RNAs <{filename}/blog/2008-06-01-Folding-Kinetics-of-Large-RNAs.rst>`
   | Michael Geis, Christoph Flamm, :ul:`Michael T. Wolfinger`, Andrea Tanzer, Ivo L. Hofacker, Martin Middendorf, Christian Mandl, Peter F. Stadler, Caroline Thurner
-  | *J. Mol. Biol.* 379 (1): 160–73 (2008)
+  | *J. Mol. Biol.* 379 (1): 160–73 (2008)
   | :doi:`doi:10.1016/j.jmb.2008.02.064 <https://doi.org/10.1016/j.jmb.2008.02.064>` | :label-flat-info:`Journal article`
 
 `2006`_
@@ -679,7 +679,7 @@ Peer-reviewed journal / conference articles and book chapters
 
   | 1. :link-flat-strong:`Barrier Trees of Degenerate Landscapes <{filename}/blog/2002-07-01-Barrier_Trees_of_Degenerate_Landscapes.rst>`
   | Christoph Flamm, Ivo L. Hofacker, Peter F. Stadler, :ul:`Michael T. Wolfinger`
-  | *Z. Phys. Chem.* 216: 155–73 (2002)
+  | *Z. Phys. Chem.* 216: 155–73 (2002)
   | :doi:`doi:10.1524/zpch.2002.216.2.155 <https://doi.org/10.1524/zpch.2002.216.2.155>` | :label-flat-info:`Journal article`
 
 

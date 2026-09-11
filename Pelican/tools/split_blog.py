@@ -73,9 +73,10 @@ SECTIONS = {
     ],
 }
 
-CATEGORY_RE = re.compile(r"^:category:\s*(.+?)\s*$", re.MULTILINE)
+CATEGORY_RE = re.compile(r"^:category:[ \t]*(.+?)[ \t]*$", re.MULTILINE)
 SECTION_RE = re.compile(r"^:section:\s*(.+?)\s*$", re.MULTILINE)
 CANONICAL_RE = re.compile(r"^:canonical_url:\s*(.+?)\s*$", re.MULTILINE)
+SLUG_RE = re.compile(r"^:slug:\s*(.+?)\s*$", re.MULTILINE)
 FILENAME_REF_RE = re.compile(r"\{filename\}/blog/(?P<name>[^<>`\s]+?)\.rst")
 
 
@@ -152,8 +153,8 @@ def do_canonicals(dry_run):
             continue
         ref = FILENAME_REF_RE.search(text)
         if not ref:
-            print(f"  NO BLOG REFERENCE  {path.name}")
-            problems += 1
+            print(f"  NO BLOG REFERENCE  {path.name} (skipped: not a moved-post stub)")
+            skipped += 1
             continue
         name = ref.group("name")
         year = name[:4]
@@ -161,7 +162,12 @@ def do_canonicals(dry_run):
             print(f"  CANNOT DERIVE YEAR  {path.name} -> {name}")
             problems += 1
             continue
-        canonical = f"https://michaelwolfinger.com/blog/{year}/{name}/"
+        # ARTICLE_URL is blog/{year}/{slug}/ and every post sets :slug: explicitly, so the
+        # URL segment is the post's slug, not its file name (which carries a date prefix).
+        post = BLOG / f"{name}.rst"
+        slug_match = SLUG_RE.search(post.read_text(encoding="utf-8")) if post.exists() else None
+        slug = slug_match.group(1) if slug_match else re.sub(r"^\d{4}-\d{2}-\d{2}-", "", name)
+        canonical = f"https://michaelwolfinger.com/blog/{year}/{slug}/"
         # place the canonical right after the :description: line, or the title block
         anchor = re.search(r"^:description:.*$", text, re.MULTILINE)
         if anchor:

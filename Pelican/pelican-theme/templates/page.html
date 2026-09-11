@@ -5,7 +5,7 @@
 {% set effective_page_cover = page.cover %}
 {% extends "base.html" %}
 
-{% block title %}{% if page.title == SITENAME|e %}{{ page.title -}}{% else %}{{ page.title }}{% endif %}{% endblock %}
+{% block title %}{{ page.title|striptags|e }}{% endblock %}
 
 {% block head_links %}
   {% if page.css %}
@@ -25,8 +25,8 @@
 
 {% block social %}
   <meta property="og:site_name" content="{{ SITENAME|e }}" />
-  <meta property="og:title" content="{{ page.title }}" />
-  <meta name="twitter:title" content="{{ page.title }}" />
+  <meta property="og:title" content="{{ page.title|striptags|e }}" />
+  <meta name="twitter:title" content="{{ page.title|striptags|e }}" />
   <meta property="og:url" content="{{ page.url|format_siteurl|e }}" />
   {% if page.summary %}
   <meta property="og:description" content="{{ page.summary|dehyphenate|striptags|e }}" />
@@ -39,7 +39,7 @@
   {% else %}
   <meta name="twitter:card" content="summary" />
   {% endif %}
-  <meta property="og:type" content="page" />
+  <meta property="og:type" content="{% if page.slug == 'about' %}profile{% else %}website{% endif %}" />
 {% endblock %}
 
 {% block extra %}
@@ -107,7 +107,7 @@
         {% set breadcrumbs = page.breadcrumb.strip().split('\n') %}
         {% for i in breadcrumbs %}
         {% set url, _, title = i.strip().partition(' ') %}
-        <a href="{{ url|expand_link(page)|e }}">{{ title|e }}</a> &raquo;
+        {% if title %}<a href="{{ url|expand_link(page)|e }}">{{ title|e }}</a> &raquo;{% endif %}
         {% endfor %}
       </span>{{ page.hero_title or page.title }}</h1>
       {% else %}
