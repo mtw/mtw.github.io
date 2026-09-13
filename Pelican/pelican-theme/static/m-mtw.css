@@ -712,3 +712,16 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
   #m-landing-cover h1,#m-landing-cover p,.rf-band p,.rf-band .eyebrow,.card-dark p,.card-dark .eyebrow,pre a{color:#000!important}
   a{color:#000;text-decoration:underline}
 }
+
+/* ---- post preview figures ("quickview" graphical abstracts) ----
+   43 paper posts open with a figure wrapped in the old m.css column classes, which
+   rendered as a small, right-aligned image under the lede. Narrow screens: centred
+   at its natural width above the text. Wide screens: a side column to the right of
+   the prose; several figures stack there. -- */
+.article-body>[class*="m-col-"].m-right-m{flex:none;float:none;width:100%;max-width:480px;margin:0 auto 1.8rem}
+.article-body>[class*="m-col-"].m-right-m figure.m-figure{margin:0}
+@media (min-width:1100px){
+  .article-head,.article-body,.article-footer{max-width:1040px;padding-right:calc(var(--gutter) + 320px)}
+  .article-body>[class*="m-col-"].m-right-m{float:right;clear:right;width:280px;max-width:280px;margin:.35rem -320px 1.4rem 0}
+  .article-body>[class*="m-col-"].m-right-m figcaption{font-family:'IBM Plex Mono',monospace;font-size:.72rem;color:var(--muted);margin-top:.5rem}
+}
