@@ -33,4 +33,12 @@ jobs:
           test -f Pelican/output/index.html
           test -f Pelican/output/sitemap.xml
           test -f Pelican/output/robots.txt
+          test -f Pelican/output/CNAME
+          test -f Pelican/output/static/m-mtw.css
           test -d Pelican/output/static
+
+      # The suite builds the site with publishconf.py (the deploy configuration), checks
+      # every URL from the live sitemap still resolves, validates internal links and
+      # content metadata, and exercises the publish-time minification.
+      - name: Run test suite
+        run: python -m pytest -q
