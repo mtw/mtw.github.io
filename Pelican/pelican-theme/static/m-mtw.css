@@ -522,6 +522,12 @@ article>.m-container:first-child{padding-top:0}
 .blog-featured .fe{font-family:'Archivo',sans-serif;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:14px}
 .blog-featured h2{font-family:'Archivo',sans-serif;font-size:2rem;font-weight:700;line-height:1.08;letter-spacing:-0.01em;margin:0 0 1rem;text-transform:none}
 .blog-featured .b-date{margin-top:.2rem}
+/* make the featured card read as a link: explicit cue + hover/focus state */
+.blog-featured .fe-read{display:inline-block;margin-top:14px;font-family:'Archivo',sans-serif;font-size:.85rem;font-weight:600;color:var(--accent);border-bottom:1px solid rgba(58,92,125,.35);padding-bottom:2px;transition:border-color .15s}
+.blog-featured h2{transition:color .15s}
+.blog-featured:hover h2,.blog-featured:focus-visible h2{color:var(--accent)}
+.blog-featured:hover .fe-read,.blog-featured:focus-visible .fe-read{border-bottom-color:var(--accent)}
+.blog-featured:focus-visible{outline:2px solid var(--accent);outline-offset:6px}
 
 /* ---- article (blog post) ---- */
 .article-body .page-lede{font-size:clamp(1.15rem,2.6vw,1.25rem);color:#2b271f;font-weight:400}
