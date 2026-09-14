@@ -195,6 +195,12 @@ class Figure(Image):
                 return [figure_node, error]
             if len(node) > 1:
                 figure_node += nodes.legend('', *node[1:])
+        elif image_node.get('alt') and 'm-right-m' in self.state.parent.get('classes', []):
+            # Paper posts open with a preview figure inside a right-aligned column
+            # container and give it only an :alt:. Show that text as the visible caption
+            # too, so the figure is labelled in the side column as well as for readers
+            # of the alt text.
+            figure_node += nodes.caption('', image_node['alt'])
         return [figure_node]
 
 # Adapter to accommodate breaking change in Pillow 7.2

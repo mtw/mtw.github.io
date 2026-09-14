@@ -26,7 +26,7 @@ Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Vari
 .. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
 
     .. figure:: {static}/files/papers/preview/Preview__Spicher-2021.001small.webp
-          :alt: Enselble properties of a lineage-specific structured RNA in Chikungunya virus
+          :alt: Ensemble properties of a lineage-specific structured RNA in Chikungunya virus
           :figclass: m-figure m-flat
 
 

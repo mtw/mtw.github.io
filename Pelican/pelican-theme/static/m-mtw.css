@@ -720,8 +720,9 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
    the prose; several figures stack there. -- */
 .article-body>[class*="m-col-"].m-right-m{flex:none;float:none;width:100%;max-width:480px;margin:0 auto 1.8rem}
 .article-body>[class*="m-col-"].m-right-m figure.m-figure{margin:0}
+.article-body>[class*="m-col-"].m-right-m figcaption{font-family:'IBM Plex Mono',monospace;font-size:.72rem;line-height:1.5;color:var(--muted);margin-top:.55rem;padding:0;text-align:center}
+@media (min-width:1100px){.article-body>[class*="m-col-"].m-right-m figcaption{text-align:left}}
 @media (min-width:1100px){
   .article-head,.article-body,.article-footer{max-width:1040px;padding-right:calc(var(--gutter) + 320px)}
   .article-body>[class*="m-col-"].m-right-m{float:right;clear:right;width:280px;max-width:280px;margin:.35rem -320px 1.4rem 0}
-  .article-body>[class*="m-col-"].m-right-m figcaption{font-family:'IBM Plex Mono',monospace;font-size:.72rem;color:var(--muted);margin-top:.5rem}
 }
