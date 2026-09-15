@@ -54,9 +54,6 @@ mechanism well enough to influence an experimental decision. The answer depends 
 on whether the evidence is robust, interpretable, and proportionate to
 the cost of the next step.
 
-For a broader assessment of how machine learning enters RNA biology
-beyond secondary structure prediction, see :link-flat:`What AI can and cannot do for RNA structure and RNA-protein modeling <{filename}/blog/2025-02-01-What-AI-Can-and-Cannot-Do-for-RNA-Structure-and-RNA-Protein-Modeling.rst>`.
-
 Readers who arrive here from an AI angle may also want to look at some of my other work from the opposite direction. In :link-flat:`Predicting RNA structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>`, I discuss how experimental structure probing can be integrated with computational prediction. In :link-flat:`Conserved RNA regulatory switches in living cells <{filename}/blog/2025-01-01-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst>`, the focus shifts to transcriptome-scale structural ensembles and experimentally anchored regulatory switches. If you are more interested in dynamic folding than static structure, :link-flat:`co-transcriptional RNA-ligand interaction dynamics <{filename}/blog/2018-07-01-Efficient_Computation_of_Cotranscriptional_RNA-Ligand_Interaction_Dynamics.rst>` shows the kind of mechanistic modeling that remains hard to replace with black-box prediction alone.
 
 .. frame:: Abstract

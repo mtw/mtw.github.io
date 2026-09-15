@@ -26,7 +26,7 @@ Pan-flavivirus analysis reveals sfRNA-independent 3' UTR-biased siRNA production
 .. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
 
   .. figure:: {static}/files/papers/preview/Preview__Besson-2024.001small.webp
-    :alt: 3UTR of KRV, CFAV, and CxFV
+    :alt: Secondary structure plots of selected insect-specific flaviviruses 
     :figclass: m-figure m-flat
 
 Mosquito antiviral immunity is dominated by RNA interference, so the distribution of viral siRNAs can be read as a footprint of how the host sees and processes viral RNA. In many flaviviruses, that footprint is fairly diffuse across the genome. This paper starts from the question of whether that is a general rule or whether different flavivirus groups leave different small-RNA signatures in mosquito cells. The answer is that most flaviviruses do behave broadly as expected, but classical insect-specific flaviviruses stand out sharply, and Kamiti River virus stands out even within that subset.

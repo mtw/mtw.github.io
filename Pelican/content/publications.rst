@@ -4,7 +4,7 @@ Papers
 :title: Publications by Michael T. Wolfinger
 :hero_eyebrow: Publications
 :hero_title: Complete Publication Record
-:description: Discover Michael T. Wolfinger's research publications on RNA structure, viral bioinformatics, computational & synthetic biology
+:description: My research publications on RNA structure, viral bioinformatics, computational and synthetic biology. Michael T. Wolfinger, complete publication record.
 
 
 
@@ -21,7 +21,7 @@ Papers
   :class: doi
 
 .. note-info::
-   Download :link-flat:`Michael T. Wolfinger's publication list as PDF <{static}/files/MTW_PublicationList.pdf>`
+   Download :link-flat:`my publication list as PDF <{static}/files/MTW_PublicationList.pdf>`
 
 Submitted Manuscripts / Preprints
 =================================

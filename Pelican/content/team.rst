@@ -1,8 +1,8 @@
 People & Supervision
 ####################
 :title: People & Supervision | Michael T. Wolfinger
-:summary: Michael T. Wolfinger supervises and mentors researchers and collaborates with groups internationally. The people below are grouped by their current relationship to his work. Collaborators and former group members are independent researchers and are not employees of RNA Forecast.
-:description: Current supervision, collaborators, and former group members associated with Michael T. Wolfinger's work in computational RNA biology.
+:summary: I supervise and mentor researchers and collaborate with groups internationally. The people below are grouped by their current relationship to my work. Collaborators and former group members are independent researchers and are not employees of RNA Forecast.
+:description: Current supervision, collaborators, and former group members associated with my work in computational RNA biology. Michael T. Wolfinger, Vienna.
 :hero_eyebrow: People & Supervision
 :hero_title: People & Supervision
 
@@ -21,7 +21,7 @@ People & Supervision
        <div class="person"><div><div class="n">Yannick Seitz</div><div class="r">Master student</div></div><span class="y">University of Vienna</span></div>
        <div class="person"><div><div class="n">Milan Geyer</div><div class="r">Master student</div></div><span class="y">University of Vienna</span></div>
      </div>
-     <p class="small-print" style="margin-top:18px">Supervision is carried out in the context of ongoing academic collaborations. The institutional affiliation noted for each researcher reflects where they are enrolled or based, not employment by Michael T. Wolfinger or by RNA Forecast.</p>
+     <p class="small-print" style="margin-top:18px">Supervision is carried out in the context of ongoing academic collaborations. The institutional affiliation noted for each researcher reflects where they are enrolled or based, not employment by me or by RNA Forecast.</p>
    </div>
 
    <div class="people-group">
@@ -50,7 +50,7 @@ People & Supervision
        <div class="person"><div><div class="n">Daniel Hooker</div></div><span class="y">FH Campus Wien</span></div>
        <div class="person"><div><div class="n">Christian Mayr</div></div><span class="y">FH Campus Wien</span></div>
      </div>
-     <p class="small-print" style="margin-top:18px">Researchers previously supervised, at the University of Vienna and FH Campus Wien. Affiliations reflect the period of supervision and do not imply current membership of any group led by Michael T. Wolfinger.</p>
+     <p class="small-print" style="margin-top:18px">Researchers previously supervised, at the University of Vienna and FH Campus Wien. Affiliations reflect the period of supervision and do not imply current membership of any group I lead.</p>
    </div>
 
    <h2 class="sec-head">Supervision &amp; collaboration enquiries</h2>

@@ -25,7 +25,7 @@ RNA–RNA interaction analysis of Japanese encephalitis virus
 .. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
 
   .. figure:: {static}/files/papers/preview/Preview__Mrozowich-2023.001small.webp
-        :alt: Graphical abstract of doi:10.1093/nar/gkad223
+        :alt: Graphical abstract
         :figclass: m-figure m-flat
 
 
