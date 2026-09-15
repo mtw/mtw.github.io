@@ -64,7 +64,7 @@ The same principle applies from the design perspective in
 Recent work on :link-flat:`KinPFN: Bayesian Approximation of RNA Folding Kinetics <{filename}/blog/2025-01-01-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst>` and :link-flat:`Bayesian Approximation of RNA Folding Times <{filename}/blog/2025-01-01-Bayesian-Approximation-of-RNA-Folding-Times.rst>` addresses a practical limitation that has long constrained this area. Detailed kinetic simulations can be highly informative, but their computational cost limits their routine use in large design spaces. Approximation methods are valuable because they allow folding-time information to be incorporated earlier in the design process, where many alternative sequences still have to be compared.
 
 The central methodological risk is therefore clear. RNA design can
-optimize the wrong criterion. If function depends on pathway behaviour,
+optimize the wrong criterion. If function depends on pathway behavior,
 then a convincing equilibrium fold may still be insufficient. Kinetic
 reasoning does not replace thermodynamic design, comparative analysis,
 or experimental validation. Instead, it adds a necessary layer of

@@ -143,7 +143,7 @@ Computational RNA Workshops
 
 I also offer hands-on training in RNA structure prediction, ViennaRNA,
 SHAPE- and DMS-guided interpretation, and structure-aware RNA design
-for research teams, academic groups, and doctoral programmes.
+for research teams, academic groups, and doctoral programs.
 Workshops are available in short, half-day, and full-day formats,
 either remotely or onsite, and are scoped in advance to fit the
 background of the group.
@@ -153,7 +153,7 @@ the University of Vienna, the University of Freiburg, and FH Campus
 Wien, as well as invited workshops and small-group training settings.
 
 See the :link-flat:`workshops page </services/workshops/>` for full details on
-available formats and how sessions are organised.
+available formats and how sessions are organized.
 
 .. raw:: html
 

@@ -70,5 +70,5 @@ the inference has actually been automated, and which part still depends
 on stronger stress testing or on additional evidence. That judgment
 becomes especially difficult when the output looks polished and the
 project is under time pressure. In that situation, a careful review of
-the modelling assumptions and likely failure modes is usually more
+the modeling assumptions and likely failure modes is usually more
 valuable than enthusiasm.

@@ -93,12 +93,12 @@
       {% for tag in article.tags %}<a href="{{ tag.url|format_siteurl|e }}">{{ tag|e }}</a>{% endfor %}
     </div>
     {% endif %}
-    {#- Pelican core has no prev/next attributes; derive the neighbours from the
+    {#- Pelican core has no prev/next attributes; derive the neighbors from the
         date-sorted article list (newer = previous item, older = next item). -#}
     {% set nb = namespace(newer=None, older=None) %}
     {% for a in articles %}{% if a.url == article.url %}{% set nb.newer = loop.previtem if not loop.first else None %}{% set nb.older = loop.nextitem if not loop.last else None %}{% endif %}{% endfor %}
     {% if nb.newer or nb.older %}
-    <nav class="post-nav" aria-label="Neighbouring posts">
+    <nav class="post-nav" aria-label="Neighboring posts">
       <span>{% if nb.newer %}<a href="{{ nb.newer.url|format_siteurl|e }}">&larr; {{ nb.newer.title|striptags|truncate(48)|e }}</a>{% endif %}</span>
       <span style="text-align:right">{% if nb.older %}<a href="{{ nb.older.url|format_siteurl|e }}">{{ nb.older.title|striptags|truncate(48)|e }} &rarr;</a>{% endif %}</span>
     </nav>

@@ -31,7 +31,7 @@ Rational Design of Mechanically Active RNAs
 
 This paper extends the xrRNA story from comparative RNA virology into explicit RNA engineering. Exoribonuclease-resistant RNAs are structured viral elements that stall 5' to 3' decay through a threaded, mechanically resistant fold. The central question addressed here is whether that function can be specified de novo, rather than inherited from a natural sequence that already encodes it.
 
-The work approaches topology as part of the design objective. Structural features relevant for XRN1 resistance are reduced to an explicit symbolic model, which is then used to generate synthetic candidates that are filtered computationally and validated experimentally. The resulting workflow combines structural constraints, ensemble-based screening, three-dimensional modelling, and molecular-dynamics selection for ring closure and directional force resistance.
+The work approaches topology as part of the design objective. Structural features relevant for XRN1 resistance are reduced to an explicit symbolic model, which is then used to generate synthetic candidates that are filtered computationally and validated experimentally. The resulting workflow combines structural constraints, ensemble-based screening, three-dimensional modeling, and molecular-dynamics selection for ring closure and directional force resistance.
 
 One of the clearest mechanistic observations concerns the unequal contribution of the two pseudoknots to xrRNA stability. Pseudoknot 2 acts as the decisive gatekeeper of mechanical resistance, whereas pseudoknot 1 contributes additional stabilization once the fold is established. This distinction turns what initially appears as a descriptive structural feature into a tractable design rule.
 
@@ -48,7 +48,7 @@ feature. That changes how one can think about stabilizing synthetic
 transcripts, shaping RNA lifetime in therapeutic settings, or
 introducing programmable decay barriers into larger regulatory designs.
 In RNA therapeutics, where persistence, dosage, and degradation
-behaviour are often as important as coding capacity, this kind of
+behavior are often as important as coding capacity, this kind of
 design principle could become a useful addition to the current
 toolbox. More generally, the work shows that higher-order RNA
 architecture itself can be treated as a design substrate, not only as

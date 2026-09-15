@@ -1,7 +1,7 @@
 Research
 ########
 :title: Research | Michael T. Wolfinger
-:summary: My research programme spans several connected areas of computational RNA biology, linked by a common focus on how RNA structure, dynamics, evolution, and function relate. Each area is grounded in peer-reviewed results, open software, and collaborative work rather than a single staffed laboratory.
+:summary: My research program spans several connected areas of computational RNA biology, linked by a common focus on how RNA structure, dynamics, evolution, and function relate. Each area is grounded in peer-reviewed results, open software, and collaborative work rather than a single staffed laboratory.
 :description: Research by Michael T. Wolfinger on computational RNA biology, RNA structure, SHAPE and chemical probing interpretation, folding kinetics, functional RNA design, viral non-coding RNAs, and RNA-protein recognition.
 :hero_eyebrow: Research
 :hero_title: Computational RNA Biology
@@ -17,7 +17,7 @@ Research
 
 .. raw:: html
 
-   <p class="page-intro">What connects these areas is a simple observation: many RNA questions are no longer well served by sequence analysis alone. Structural inference, comparative evidence, chemical probing, molecular modelling, and selected machine-learning methods each capture part of the problem. My work is concerned with how these lines of evidence can be used in ways that remain scientifically defensible.</p>
+   <p class="page-intro">What connects these areas is a simple observation: many RNA questions are no longer well served by sequence analysis alone. Structural inference, comparative evidence, chemical probing, molecular modeling, and selected machine-learning methods each capture part of the problem. My work is concerned with how these lines of evidence can be used in ways that remain scientifically defensible.</p>
 
    <div class="research-areas">
 
@@ -37,7 +37,7 @@ Research
        <span class="num">02</span>
        <div>
          <h2>RNA folding kinetics</h2>
-         <p>Folding kinetics is another long-standing focus. Many regulatory RNAs and many designed RNAs cannot be understood from an equilibrium structure alone. They depend on how folding proceeds in time, which alternatives remain accessible, and which metastable states persist long enough to matter. This is particularly relevant in co-transcriptional folding, ligand-controlled systems, and synthetic constructs whose behaviour depends on local alternatives rather than a single dominant fold.</p>
+         <p>Folding kinetics is another long-standing focus. Many regulatory RNAs and many designed RNAs cannot be understood from an equilibrium structure alone. They depend on how folding proceeds in time, which alternatives remain accessible, and which metastable states persist long enough to matter. This is particularly relevant in co-transcriptional folding, ligand-controlled systems, and synthetic constructs whose behavior depends on local alternatives rather than a single dominant fold.</p>
          <div class="meta-2">
            <div><div class="k">Software</div><div>BarMap &middot; treekin &middot; barriers</div></div>
            <div><div class="k">Collaboration</div><div>Theoretical Biochemistry Group (TBI), University of Vienna</div></div>
@@ -49,7 +49,7 @@ Research
        <span class="num">03</span>
        <div>
          <h2>Functional RNA design</h2>
-         <p>These questions lead naturally into functional RNA design. I am interested in design problems where structure has to be engineered with a specific use in mind, whether that means preserving accessibility, controlling kinetic behaviour, or deciding which sequence constraints actually matter before experimental work begins.</p>
+         <p>These questions lead naturally into functional RNA design. I am interested in design problems where structure has to be engineered with a specific use in mind, whether that means preserving accessibility, controlling kinetic behavior, or deciding which sequence constraints actually matter before experimental work begins.</p>
          <div class="meta-2">
            <div><div class="k">Software</div><div>ViennaRNA design routines</div></div>
            <div><div class="k">Collaboration</div><div>University of Vienna &middot; University of Leipzig</div></div>
@@ -73,9 +73,9 @@ Research
        <span class="num">05</span>
        <div>
          <h2>RNA&ndash;protein recognition</h2>
-         <p>I also work on RNA&ndash;protein interactions and structure-guided modelling in systems where RNA recognition cannot be reduced to motif matching alone. This includes molecular modelling and simulation approaches that help connect predicted structures with plausible interaction geometries in biologically concrete systems.</p>
+         <p>I also work on RNA&ndash;protein interactions and structure-guided modeling in systems where RNA recognition cannot be reduced to motif matching alone. This includes molecular modeling and simulation approaches that help connect predicted structures with plausible interaction geometries in biologically concrete systems.</p>
          <div class="meta-2">
-           <div><div class="k">Software</div><div>Molecular modelling and simulation workflows</div></div>
+           <div><div class="k">Software</div><div>Molecular modeling and simulation workflows</div></div>
            <div><div class="k">Collaboration</div><div>International partners</div></div>
          </div>
        </div>

@@ -29,7 +29,7 @@ informative, but they do not answer that question directly.
 
 Classical thermodynamic prediction is often enough to establish a useful
 mechanistic picture. Compact RNAs, shorter motifs, and systems with one
-dominant conformational regime can often be analysed productively in
+dominant conformational regime can often be analyzed productively in
 that framework. Even then, the ensemble is usually more informative
 than a single minimum free energy structure, because the mechanistically
 relevant issue is often whether a helix, junction, or competing

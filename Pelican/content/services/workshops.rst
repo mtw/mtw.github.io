@@ -60,7 +60,7 @@ I have taught computational RNA biology at the
 the :link-flat:`University of Freiburg <https://uni-freiburg.de>`,
 and :link-flat:`FH Campus Wien <https://fh-campuswien.ac.at>`.
 The workshop formats below grow out of that experience and can be
-adapted to research labs, biotech teams, doctoral programmes, or
+adapted to research labs, biotech teams, doctoral programs, or
 interdisciplinary groups that want a more structured way into the
 field.
 
@@ -100,7 +100,7 @@ Workshop Formats
 
 	  .. frame:: Computational RNA for Therapeutics
 
-			A full-day workshop on computational strategies for therapeutic RNA development, covering mRNA optimisation, structure-guided sequence engineering, SHAPE- and DMS-informed interpretation, and the role of chemical modifications in stability and function. For groups working on RNA therapeutics who want to think more computationally about their design process.
+			A full-day workshop on computational strategies for therapeutic RNA development, covering mRNA optimization, structure-guided sequence engineering, SHAPE- and DMS-informed interpretation, and the role of chemical modifications in stability and function. For groups working on RNA therapeutics who want to think more computationally about their design process.
 
 
 Who This Is For
@@ -149,7 +149,7 @@ For a half-day ``ViennaRNA in Practice`` session, a typical structure is:
      <li>discussion of interpretation, common pitfalls, and how the workflow connects to the participants' own research questions</li>
    </ul>
 
-How a Workshop Is Organised
+How a Workshop Is Organized
 =============================
 
 Each workshop begins with a short scoping exchange to understand the
