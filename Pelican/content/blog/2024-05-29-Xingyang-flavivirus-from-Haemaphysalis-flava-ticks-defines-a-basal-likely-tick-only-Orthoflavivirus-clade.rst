@@ -26,7 +26,7 @@ Xinyang flavivirus, from Haemaphysalis flava ticks in Henan Province, China, def
 .. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
 
   .. figure:: {static}/files/papers/preview/Preview__Wang-2024.001small.webp
-      :alt: Figure 2 from Wang et al. (2024) doi:10.1099/jgv.0.001991
+      :alt: Structural proteins of Xinyang flavivirus
       :figclass: m-figure m-flat
 
 This paper is interesting because it changes the comparative picture of tick-borne orthoflaviviruses in two ways at once. First, it adds a new geographic data point. Xinyang flavivirus was detected in *Haemaphysalis flava* ticks in China and groups with Mpulungu flavivirus from Zambia and Ngoye virus from Senegal. That means the basal clade defined earlier from African ticks is not a local curiosity. It extends at least into Asia and looks increasingly like a real, ecologically coherent lineage.

@@ -1,8 +1,8 @@
 About
 #####
 :title: About Michael T. Wolfinger
-:summary: Michael T. Wolfinger is an independent Principal Investigator in computational RNA biology based in Vienna, Austria. Over more than two decades he has worked on how RNA molecules fold, function, and evolve, combining biophysical modelling, algorithm development, and reproducible scientific software.
-:description: Michael T. Wolfinger is an independent Principal Investigator in computational RNA biology, based in Vienna, Austria. He pursues independently led research through RNA Forecast and maintains long-standing collaborations with academic groups including the Theoretical Biochemistry Group at the University of Vienna.
+:summary: I am an independent Principal Investigator in computational RNA biology based in Vienna, Austria. Over more than two decades I have worked on how RNA molecules fold, function, and evolve, combining biophysical modelling, algorithm development, and reproducible scientific software.
+:description: I am Michael T. Wolfinger, an independent Principal Investigator in computational RNA biology based in Vienna, Austria. I pursue independently led research through RNA Forecast and maintain long-standing collaborations with academic groups including the Theoretical Biochemistry Group at the University of Vienna.
 :hero_eyebrow: About
 :hero_title: Independent Principal Investigator in Computational RNA Biology
 :hide_summary: True
@@ -18,13 +18,13 @@ About
 
    <div class="page-grid">
      <div>
-       <p class="lede">Michael T. Wolfinger is an independent Principal Investigator in computational RNA biology based in Vienna, Austria. Over more than two decades he has worked on how RNA molecules fold, function, and evolve, combining biophysical modelling, algorithm development, and reproducible scientific software.</p>
+       <p class="lede">I am an independent Principal Investigator in computational RNA biology based in Vienna, Austria. Over more than two decades I have worked on how RNA molecules fold, function, and evolve, combining biophysical modelling, algorithm development, and reproducible scientific software.</p>
 
-       <p>Since 2025 he has pursued independently led research through <a href="https://rnaforecast.com">RNA Forecast</a>, the platform through which he conducts research, software development, and collaborations. He maintains long-standing collaborations with academic groups, including the <a href="https://www.tbi.univie.ac.at/">Theoretical Biochemistry Group (TBI)</a> at the University of Vienna, a long-standing centre of RNA bioinformatics and home of the <a href="https://www.tbi.univie.ac.at/RNA">ViennaRNA Package</a>.</p>
+       <p>Since 2025 I have pursued independently led research through <a href="https://rnaforecast.com">RNA Forecast</a>, the platform through which I conduct research, software development, and collaborations. I maintain long-standing collaborations with academic groups, including the <a href="https://www.tbi.univie.ac.at/">Theoretical Biochemistry Group (TBI)</a> at the University of Vienna, a long-standing centre of RNA bioinformatics and home of the <a href="https://www.tbi.univie.ac.at/RNA">ViennaRNA Package</a>.</p>
 
-       <p>In 2023 and 2024 he held a Visiting Professorship as W2 Substitute Chair at the University of Freiburg. From 2019 to 2025 he was a University Assistant and Principal Investigator at the University of Vienna, following postdoctoral positions at the University of Vienna and the Medical University of Vienna.</p>
+       <p>In 2023 and 2024 I held a Visiting Professorship as W2 Substitute Chair at the University of Freiburg. From 2019 to 2025 I was a University Assistant and Principal Investigator at the University of Vienna, following postdoctoral positions at the University of Vienna and the Medical University of Vienna.</p>
 
-       <p>His current research spans RNA secondary structure, folding kinetics, functional RNA design, viral RNA biology, RNA evolution, RNA&ndash;protein recognition, and computational methods, with machine learning applied where it is scientifically warranted.</p>
+       <p>My current research spans RNA secondary structure, folding kinetics, functional RNA design, viral RNA biology, RNA evolution, RNA&ndash;protein recognition, and computational methods, with machine learning applied where it is scientifically warranted.</p>
 
        <h2 class="sec-head">Current research themes</h2>
        <div class="theme-grid">
@@ -49,7 +49,7 @@ About
        </div>
 
        <h2 class="sec-head">Service, supervision &amp; collaboration</h2>
-       <p>He serves as Associate Editor and on editorial boards for several journals and reviews regularly for leading venues in RNA biology and bioinformatics. He supervises and mentors researchers at doctoral and Master level, teaches at university and in workshops, and sustains international collaborations across Europe and beyond. A fuller account is available on the <a href="/teaching/">teaching</a> and <a href="/team/">people and supervision</a> pages, and the <a href="/publications/">publication list</a> gives the formal record of this work.</p>
+       <p>I serve as Associate Editor and on editorial boards for several journals and review regularly for leading venues in RNA biology and bioinformatics. I supervise and mentor researchers at doctoral and Master level, teach at university and in workshops, and sustain international collaborations across Europe and beyond. A fuller account is on the <a href="/teaching/">teaching</a> and <a href="/team/">people and supervision</a> pages, and the <a href="/publications/">publication list</a> gives the formal record of this work.</p>
      </div>
 
      <aside class="side-col">

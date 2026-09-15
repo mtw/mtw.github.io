@@ -1,7 +1,7 @@
 Teaching
 ########
-:summary: This page is the authoritative archive of Michael T. Wolfinger's university teaching, courses, lectures, and invited teaching in computational RNA biology and bioinformatics.
-:title: Michael Thomas Wolfinger's Teaching
+:summary: This page is the complete archive of my university teaching, courses, lectures, and invited teaching in computational RNA biology and bioinformatics.
+:title: Teaching | Michael T. Wolfinger
 :hero_eyebrow: Teaching
 :hero_title: Teaching
 :description: Teaching by Michael T. Wolfinger, including university courses, lectures, and invited teaching in computational RNA biology.

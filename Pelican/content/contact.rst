@@ -15,7 +15,7 @@ Contact
 
    <div class="contact-grid">
      <div>
-       <p class="lede">Michael T. Wolfinger is an independent Principal Investigator in computational RNA biology, based in Vienna, Austria.</p>
+       <p class="lede">I am an independent Principal Investigator in computational RNA biology, based in Vienna, Austria.</p>
 
        <div class="detail-card">
          <div class="row"><span class="k">Name</span><span class="v">Michael T. Wolfinger</span></div>
