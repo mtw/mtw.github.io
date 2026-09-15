@@ -58,7 +58,7 @@ representation that preserves the three-way junction, the two
 pseudoknots, and characteristic length constraints between structural
 elements. Sequence generation was carried out with explicit structural
 and topological constraints, followed by ensemble-based refinement,
-SimRNA modelling, and molecular dynamics screening for ring closure and
+SimRNA modeling, and molecular dynamics screening for ring closure and
 directional force resistance. The point was not simply to inverse-fold a
 target secondary structure, but to make topology part of the design
 objective.

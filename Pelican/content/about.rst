@@ -1,7 +1,7 @@
 About
 #####
 :title: About Michael T. Wolfinger
-:summary: I am an independent Principal Investigator in computational RNA biology based in Vienna, Austria. Over more than two decades I have worked on how RNA molecules fold, function, and evolve, combining biophysical modelling, algorithm development, and reproducible scientific software.
+:summary: I am an independent Principal Investigator in computational RNA biology based in Vienna, Austria. Over more than two decades I have worked on how RNA molecules fold, function, and evolve, combining biophysical modeling, algorithm development, and reproducible scientific software.
 :description: I am Michael T. Wolfinger, an independent Principal Investigator in computational RNA biology based in Vienna, Austria. I pursue independently led research through RNA Forecast and maintain long-standing collaborations with academic groups including the Theoretical Biochemistry Group at the University of Vienna.
 :hero_eyebrow: About
 :hero_title: Independent Principal Investigator in Computational RNA Biology
@@ -18,9 +18,9 @@ About
 
    <div class="page-grid">
      <div>
-       <p class="lede">I am an independent Principal Investigator in computational RNA biology based in Vienna, Austria. Over more than two decades I have worked on how RNA molecules fold, function, and evolve, combining biophysical modelling, algorithm development, and reproducible scientific software.</p>
+       <p class="lede">I am an independent Principal Investigator in computational RNA biology based in Vienna, Austria. Over more than two decades I have worked on how RNA molecules fold, function, and evolve, combining biophysical modeling, algorithm development, and reproducible scientific software.</p>
 
-       <p>Since 2025 I have pursued independently led research through <a href="https://rnaforecast.com">RNA Forecast</a>, the platform through which I conduct research, software development, and collaborations. I maintain long-standing collaborations with academic groups, including the <a href="https://www.tbi.univie.ac.at/">Theoretical Biochemistry Group (TBI)</a> at the University of Vienna, a long-standing centre of RNA bioinformatics and home of the <a href="https://www.tbi.univie.ac.at/RNA">ViennaRNA Package</a>.</p>
+       <p>Since 2025 I have pursued independently led research through <a href="https://rnaforecast.com">RNA Forecast</a>, the platform through which I conduct research, software development, and collaborations. I maintain long-standing collaborations with academic groups, including the <a href="https://www.tbi.univie.ac.at/">Theoretical Biochemistry Group (TBI)</a> at the University of Vienna, a long-standing center of RNA bioinformatics and home of the <a href="https://www.tbi.univie.ac.at/RNA">ViennaRNA Package</a>.</p>
 
        <p>In 2023 and 2024 I held a Visiting Professorship as W2 Substitute Chair at the University of Freiburg. From 2019 to 2025 I was a University Assistant and Principal Investigator at the University of Vienna, following postdoctoral positions at the University of Vienna and the Medical University of Vienna.</p>
 

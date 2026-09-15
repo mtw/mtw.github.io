@@ -25,7 +25,7 @@ plausible, and the sequence appears to satisfy the formal constraints.
 The problems usually emerge later. The productive state may not be
 populated strongly enough, an alternative conformation may compete more
 effectively than expected, or the design may depend on a folding
-pathway that has not been analysed. A review before synthesis therefore
+pathway that has not been analyzed. A review before synthesis therefore
 asks whether the design logic is already coherent enough to justify the
 next experiment.
 
@@ -67,7 +67,7 @@ The sequence should also be stress-tested against nearby variants. Small
 synonymous or compensatory changes can be informative even before any
 experiment is run. If the intended mechanism collapses under minimal
 perturbation, the design is probably too brittle. If sensible variants
-preserve the desired behaviour, confidence improves even without any
+preserve the desired behavior, confidence improves even without any
 claim of certainty.
 
 Computational prediction enters here as the first mechanistic model of
@@ -77,7 +77,7 @@ in spirit to :link-flat:`When to trust RNA structure prediction for experimental
 side.
 
 Before synthesis, the design should at least have a clear mechanistic
-objective, a structural analysis that goes beyond a single favourite
+objective, a structural analysis that goes beyond a single favorite
 fold, an explicit judgment about whether kinetics matters, and a
 realistic view of the main failure modes. None of that guarantees
 success, but it reduces the chance of spending time and money on a

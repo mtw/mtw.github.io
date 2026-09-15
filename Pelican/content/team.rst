@@ -53,7 +53,7 @@ People & Supervision
      <p class="small-print" style="margin-top:18px">Researchers previously supervised, at the University of Vienna and FH Campus Wien. Affiliations reflect the period of supervision and do not imply current membership of any group I lead.</p>
    </div>
 
-   <h2 class="sec-head">Supervision &amp; collaboration enquiries</h2>
+   <h2 class="sec-head">Supervision &amp; collaboration inquiries</h2>
 
    <p>I regularly supervise students and collaborate on projects that fit these core themes. Good fits usually include an interest in RNA structure and function, comfort with quantitative or computational work, and a willingness to work across disciplinary boundaries.</p>
 
