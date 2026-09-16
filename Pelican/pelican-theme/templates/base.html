@@ -18,6 +18,7 @@
   {% if M_THEME_COLOR %}<meta name="theme-color" content="{{ M_THEME_COLOR }}" />{% endif %}
   {% block meta %}{% endblock meta %}
   {% if not M_DISABLE_SOCIAL_META_TAGS %}
+  <meta property="og:locale" content="{{ (OG_LOCALE or "en_US")|e }}" />
   {% if M_SOCIAL_TWITTER_SITE %}<meta name="twitter:site" content="{{ M_SOCIAL_TWITTER_SITE }}" />{% endif %}
   {% if M_SOCIAL_TWITTER_SITE_ID %}<meta name="twitter:site:id" content="{{ M_SOCIAL_TWITTER_SITE_ID }}" />{% endif %}
   {% block social %}{% endblock social %}

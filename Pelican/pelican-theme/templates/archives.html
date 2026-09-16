@@ -22,7 +22,15 @@
   {% if M_BLOG_DESCRIPTION %}<meta property="og:description" content="{{ M_BLOG_DESCRIPTION|e }}" />
   <meta name="twitter:description" content="{{ M_BLOG_DESCRIPTION|e }}" />{% endif %}
   <meta property="og:type" content="website" />
+  {% if M_SOCIAL_IMAGE %}
+  <meta property="og:image" content="{{ M_SOCIAL_IMAGE|format_siteurl }}" />
+  <meta property="og:image:width" content="{{ M_SOCIAL_IMAGE_WIDTH or 240 }}" />
+  <meta property="og:image:height" content="{{ M_SOCIAL_IMAGE_HEIGHT or 317 }}" />
+  <meta property="og:image:alt" content="{{ (M_SOCIAL_IMAGE_ALT or 'Portrait of ' ~ AUTHOR)|e }}" />
+  <meta name="twitter:image" content="{{ M_SOCIAL_IMAGE|format_siteurl }}" />
+  <meta name="twitter:image:alt" content="{{ (M_SOCIAL_IMAGE_ALT or 'Portrait of ' ~ AUTHOR)|e }}" />
   <meta name="twitter:card" content="summary" />
+  {% else %}<meta name="twitter:card" content="summary" />{% endif %}
   {% block social_url %}{% if M_BLOG_URL %}<meta property="og:url" content="{{ M_BLOG_URL|format_siteurl|e }}" />{% endif %}{% endblock %}
 {% endblock %}
 

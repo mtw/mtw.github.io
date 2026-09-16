@@ -25,14 +25,26 @@
   {% endif %}
   {% if article.cover %}
   <meta property="og:image" content="{{ article.cover|expand_link(article)|e }}" />
+  <meta property="og:image:alt" content="{{ article.title|striptags|e }}" />
   <meta name="twitter:image" content="{{ article.cover|expand_link(article)|e }}" />
+  <meta name="twitter:image:alt" content="{{ article.title|striptags|e }}" />
   <meta name="twitter:card" content="summary_large_image" />
   {% elif M_SOCIAL_IMAGE %}
-  <meta property="og:image" content="{{ M_SOCIAL_IMAGE|format_siteurl|e }}" />
-  <meta name="twitter:image" content="{{ M_SOCIAL_IMAGE|format_siteurl|e }}" />
+  <meta property="og:image" content="{{ M_SOCIAL_IMAGE|format_siteurl }}" />
+  <meta property="og:image:width" content="{{ M_SOCIAL_IMAGE_WIDTH or 240 }}" />
+  <meta property="og:image:height" content="{{ M_SOCIAL_IMAGE_HEIGHT or 317 }}" />
+  <meta property="og:image:alt" content="{{ (M_SOCIAL_IMAGE_ALT or 'Portrait of ' ~ AUTHOR)|e }}" />
+  <meta name="twitter:image" content="{{ M_SOCIAL_IMAGE|format_siteurl }}" />
+  <meta name="twitter:image:alt" content="{{ (M_SOCIAL_IMAGE_ALT or 'Portrait of ' ~ AUTHOR)|e }}" />
   <meta name="twitter:card" content="summary" />
   {% endif %}
   <meta property="og:type" content="article" />
+  <meta property="article:published_time" content="{{ article.date.isoformat() }}" />
+  <meta property="article:modified_time" content="{{ (article.modified.isoformat() if article.modified else article.date.isoformat()) }}" />
+  <meta property="article:author" content="{{ SITEURL }}/about/" />
+  {% if article.category %}<meta property="article:section" content="{{ article.category|e }}" />{% endif %}
+  {% for tag in article.tags %}<meta property="article:tag" content="{{ tag|e }}" />
+  {% endfor %}
 {% endblock %}
 
 {% block extra %}

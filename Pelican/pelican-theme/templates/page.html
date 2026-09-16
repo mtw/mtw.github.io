@@ -34,8 +34,12 @@
   {% endif %}
   {% if M_SOCIAL_IMAGE %}
   <meta property="og:image" content="{{ M_SOCIAL_IMAGE|format_siteurl }}" />
+  <meta property="og:image:width" content="{{ M_SOCIAL_IMAGE_WIDTH or 240 }}" />
+  <meta property="og:image:height" content="{{ M_SOCIAL_IMAGE_HEIGHT or 317 }}" />
+  <meta property="og:image:alt" content="{{ (M_SOCIAL_IMAGE_ALT or 'Portrait of ' ~ AUTHOR)|e }}" />
   <meta name="twitter:image" content="{{ M_SOCIAL_IMAGE|format_siteurl }}" />
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image:alt" content="{{ (M_SOCIAL_IMAGE_ALT or 'Portrait of ' ~ AUTHOR)|e }}" />
+  <meta name="twitter:card" content="summary" />
   {% else %}
   <meta name="twitter:card" content="summary" />
   {% endif %}
