@@ -1,7 +1,7 @@
 Research
 ########
 :title: Research | Michael T. Wolfinger
-:summary: My research program spans several connected areas of computational RNA biology, linked by a common focus on how RNA structure, dynamics, evolution, and function relate. Each area is grounded in peer-reviewed results, open software, and collaborative work rather than a single staffed laboratory.
+:summary: My research program spans several connected areas of computational RNA biology, linked by a common focus on how RNA structure, dynamics, evolution, and function relate.
 :description: Research by Michael T. Wolfinger on computational RNA biology, RNA structure, SHAPE and chemical probing interpretation, folding kinetics, functional RNA design, viral non-coding RNAs, and RNA-protein recognition.
 :hero_eyebrow: Research
 :hero_title: Computational RNA Biology
@@ -17,7 +17,7 @@ Research
 
 .. raw:: html
 
-   <p class="page-intro">What connects these areas is a simple observation: many RNA questions are no longer well served by sequence analysis alone. Structural inference, comparative evidence, chemical probing, molecular modeling, and selected machine-learning methods each capture part of the problem. My work is concerned with how these lines of evidence can be used in ways that remain scientifically defensible.</p>
+   <p class="page-intro">What connects these areas is the observation that many RNA questions are no longer well served by sequence analysis alone. Structural inference, comparative evidence, chemical probing, molecular modeling, and selected machine-learning methods each capture part of the problem. My work is concerned with how these lines of evidence can be used in ways that remain scientifically defensible.</p>
 
    <div class="research-areas">
 
@@ -73,7 +73,7 @@ Research
        <span class="num">05</span>
        <div>
          <h2>RNA&ndash;protein recognition</h2>
-         <p>I also work on RNA&ndash;protein interactions and structure-guided modeling in systems where RNA recognition cannot be reduced to motif matching alone. This includes molecular modeling and simulation approaches that help connect predicted structures with plausible interaction geometries in biologically concrete systems.</p>
+         <p>I also work on RNA&ndash;protein interactions and structure-guided modeling in systems where RNA recognition cannot be reduced to motif matching alone. This includes molecular modeling and simulation approaches that help connect predicted structures with plausible interaction geometries.</p>
          <div class="meta-2">
            <div><div class="k">Software</div><div>Molecular modeling and simulation workflows</div></div>
            <div><div class="k">Collaboration</div><div>International partners</div></div>
@@ -95,10 +95,24 @@ Research
 
    </div>
 
+   <h2 class="sec-head">Collaborations</h2>
+
+   <p>Selected research collaborations with groups in Europe, Asia and Australia. Each is a project with its own timeline, and each has produced joint publications.</p>
+
+   <div class="people-grid collab-grid">
+       <div class="person"><div><div class="n">Theoretical Biochemistry Group (TBI), University of Vienna</div><div class="r">ViennaRNA and RNA bioinformatics</div></div><span class="y">ongoing</span></div>
+       <div class="person"><div><div class="n">Leipzig University</div><div class="r">Structure, mechanics and engineering of exoribonuclease-resistant RNAs</div></div><span class="y">2023&ndash;present</span></div>
+       <div class="person"><div><div class="n">University of Groningen</div><div class="r">RNA structure ensemble mapping and conserved regulatory switches in living cells</div></div><span class="y">2022&ndash;present</span></div>
+       <div class="person"><div><div class="n">Radboud University Nijmegen</div><div class="r">Small RNA responses and subgenomic RNAs in insect-specific flaviviruses</div></div><span class="y">2020&ndash;2024</span></div>
+       <div class="person"><div><div class="n">University of Freiburg, Machine Learning</div><div class="r">Machine learning for approximating RNA folding kinetics</div></div><span class="y">2023&ndash;2025</span></div>
+       <div class="person"><div><div class="n">Chulalongkorn University, Bangkok</div><div class="r">Computational analysis of Musashi RNA complexes in viral pathogenesis</div></div><span class="y">2018&ndash;present</span></div>
+       <div class="person"><div><div class="n">The University of Queensland</div><div class="r">Discovery and phylogenetic placement of novel tick-associated flaviviruses</div></div><span class="y">2022&ndash;present</span></div>
+   </div>
+
    <h2 class="sec-head">Independent research &amp; collaboration</h2>
 
-   <p>The <a href="/publications/">publication list</a> gives the formal record of this work. Many papers are also discussed in more detail on the <a href="/blog/">blog</a>, where methodological and biological context can be developed more fully than in a publication list alone.</p>
+   <p>The <a href="/publications/">publication list</a> gives the formal record of this work. Many of the papers also have a <a href="/blog/">blog post</a> that explains the methods and the biological context in more depth.</p>
 
    <p>I pursue independently led research through <a href="https://rnaforecast.com">RNA Forecast</a>, the platform for my software development and collaborations. Current independently led projects, research themes, and RNA Forecast-affiliated publications are maintained there.</p>
 
-   <p>My work depends on collaboration with experimental and computational partners across RNA bioinformatics, structural biology, virology, synthetic biology, and related areas. That includes long-standing collaborations with the <a href="https://www.tbi.univie.ac.at/">Theoretical Biochemistry Group (TBI)</a> at the University of Vienna and with colleagues working on structural questions that cut across disciplinary boundaries. Current supervision and collaborators are listed on the <a href="/team/">people and supervision</a> page.</p>
+   <p>My work depends on collaboration with experimental and computational partners across RNA bioinformatics, structural biology, virology, synthetic biology, and related areas. That includes long-standing collaborations with the <a href="https://www.tbi.univie.ac.at/">Theoretical Biochemistry Group (TBI)</a> at the University of Vienna and with colleagues working on structural questions that cut across disciplinary boundaries. Current supervision is listed on the <a href="/team/">people and supervision</a> page.</p>

@@ -646,6 +646,7 @@ article>.m-container.page-body>:first-child{margin-top:0}
 
 /* people & supervision groups */
 .people-group{margin:0 0 48px}
+.collab-grid{margin:.2rem 0 1.8rem}
 .people-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 48px}
 .person{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:baseline;padding:15px 0;border-bottom:1px solid var(--border-2)}
 .person .n{font-family:'Archivo',sans-serif;font-size:.97rem;font-weight:600;color:var(--ink)}
