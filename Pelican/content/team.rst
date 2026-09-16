@@ -27,8 +27,8 @@ People & Supervision
    <div class="people-group">
      <div class="group-head"><h2>Former group members</h2><span class="note">supervised at the University of Vienna and FH Campus Wien</span></div>
      <div class="people-grid">
-       <div class="person"><div><div class="n">Katrin Gutenbrunner</div><div class="r">Master student</div></div><span class="y">University of Vienna</span></div>
-       <div class="person"><div><div class="n">Florentina Bayer</div><div class="r">Master student</div></div><span class="y">University of Vienna</span></div>
+       <div class="person"><div><div class="n">Katrin Gutenbrunner</div></div><span class="y">University of Vienna</span></div>
+       <div class="person"><div><div class="n">Florentina Bayer</div></div><span class="y">University of Vienna</span></div>
        <div class="person"><div><div class="n">Denis Skibinski</div></div><span class="y">University of Vienna</span></div>
        <div class="person"><div><div class="n">Teodora Bucaciuc</div></div><span class="y">University of Vienna</span></div>
        <div class="person"><div><div class="n">Michael Kail</div></div><span class="y">University of Vienna</span></div>
@@ -43,10 +43,8 @@ People & Supervision
      <p class="small-print" style="margin-top:18px">Researchers previously supervised, at the University of Vienna and FH Campus Wien. Affiliations reflect the period of supervision and do not imply current membership of any group I lead.</p>
    </div>
 
-   <h2 class="sec-head">Supervision &amp; collaboration inquiries</h2>
+   <h2 class="sec-head">Supervision inquiries</h2>
 
-   <p>I regularly supervise students and collaborate on projects that fit these core themes. Good fits usually include an interest in RNA structure and function, comfort with quantitative or computational work, and a willingness to work across disciplinary boundaries.</p>
+   <p>I regularly supervise students on topics in RNA structure prediction, folding kinetics, functional RNA design, viral RNA biology, and RNA&ndash;protein recognition, the areas described on the <a href="/research/">research page</a>. Good fits usually bring an interest in RNA structure and function, comfort with quantitative or computational work, and a willingness to work across disciplinary boundaries.</p>
 
-   <p>If you are interested, it helps to briefly describe your background, current stage, and which research directions are most relevant to you. For students, that can mean a thesis topic in computational RNA biology, virology, or RNA design. For collaborators, it is useful to outline the biological system or methodological question you are working on.</p>
-
-   <p>If that sounds relevant, please <a href="/contact/">get in touch</a>.</p>
+   <p>If you are interested, briefly describe your background, current stage, and the directions most relevant to you; a thesis topic in computational RNA biology, virology, or RNA design is a typical starting point. Please <a href="/contact/">get in touch</a>.</p>

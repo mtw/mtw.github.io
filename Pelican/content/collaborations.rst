@@ -26,4 +26,8 @@ Collaborations
      </div>
    </div>
 
-   <p>These collaborations run alongside the <a href="/research/">research areas</a> described on this site; the people I currently supervise and former group members are listed on the <a href="/team/">people and supervision</a> page. Joint work with each group appears in the <a href="/publications/">publication list</a>.</p>
+   <p>These collaborations run alongside the <a href="/research/">research areas</a> described on this site, and the joint work with each group appears in the <a href="/publications/">publication list</a>. The people I currently supervise are listed on the <a href="/team/">people and supervision</a> page.</p>
+
+   <h2 class="sec-head">Collaboration inquiries</h2>
+
+   <p>If you work on a related biological system or a methodological question and see an overlap with these areas, it is useful to outline the system or question you are working on and what kind of computational input would help. Please <a href="/contact/">get in touch</a>.</p>
