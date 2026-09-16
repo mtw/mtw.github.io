@@ -47,4 +47,4 @@ People & Supervision
 
    <p>I regularly supervise students on topics in RNA structure prediction, folding kinetics, functional RNA design, viral RNA biology, and RNA&ndash;protein recognition, the areas described on the <a href="/research/">research page</a>. Good fits usually bring an interest in RNA structure and function, comfort with quantitative or computational work, and a willingness to work across disciplinary boundaries.</p>
 
-   <p>If you are interested, briefly describe your background, current stage, and the directions most relevant to you; a thesis topic in computational RNA biology, virology, or RNA design is a typical starting point. Please <a href="/contact/">get in touch</a>.</p>
+   <p>If you are interested, briefly describe your background, current stage, and the directions most relevant to you. A thesis topic in computational RNA biology, virology, or RNA design is a typical starting point. Please <a href="/contact/">get in touch</a>.</p>
