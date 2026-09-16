@@ -1,7 +1,7 @@
 People & Supervision
 ####################
 :title: People & Supervision | Michael T. Wolfinger
-:summary: I supervise and mentor researchers and collaborate with groups internationally. The people below are grouped by their current relationship to my work. Collaborators and former group members are independent researchers and are not employees of RNA Forecast.
+:summary: I supervise and mentor researchers and collaborate with groups internationally. The people below are grouped by their current relationship to my work.
 :description: Current supervision, collaborators, and former group members associated with my work in computational RNA biology. Michael T. Wolfinger, Vienna.
 :hero_eyebrow: People & Supervision
 :hero_title: People & Supervision
@@ -21,16 +21,19 @@ People & Supervision
        <div class="person"><div><div class="n">Yannick Seitz</div><div class="r">Master student</div></div><span class="y">University of Vienna</span></div>
        <div class="person"><div><div class="n">Milan Geyer</div><div class="r">Master student</div></div><span class="y">University of Vienna</span></div>
      </div>
-     <p class="small-print" style="margin-top:18px">Supervision is carried out in the context of ongoing academic collaborations. The institutional affiliation noted for each researcher reflects where they are enrolled or based, not employment by me or by RNA Forecast.</p>
+     <p class="small-print" style="margin-top:18px">Affiliations show where each researcher is enrolled. I supervise them through ongoing collaborations with those institutions.</p>
    </div>
 
    <div class="people-group">
-     <div class="group-head"><h2>Collaborators</h2><span class="note">independent researchers and groups with shared projects</span></div>
+     <div class="group-head"><h2>Collaborations</h2><span class="note">selected research collaborations with groups in Europe, Asia and Australia; each has produced joint publications</span></div>
      <div class="people-grid">
-       <div class="person"><div><div class="n">Theoretical Biochemistry Group (TBI)</div><div class="r">University of Vienna &mdash; ViennaRNA and RNA bioinformatics</div></div><span class="y">ongoing</span></div>
-       <div class="person"><div><div class="n">Ivo L. Hofacker</div><div class="r">University of Vienna &mdash; RNA structure and thermodynamics</div></div><span class="y">ongoing</span></div>
-       <div class="person"><div><div class="n">Christoph Flamm</div><div class="r">University of Vienna &mdash; folding kinetics and RNA design</div></div><span class="y">ongoing</span></div>
-       <div class="person"><div><div class="n">Collaborating groups across Europe</div><div class="r">virology, structural biology, and synthetic biology</div></div><span class="y">ongoing</span></div>
+       <div class="person"><div><div class="n">Theoretical Biochemistry Group (TBI), University of Vienna</div><div class="r">ViennaRNA and RNA bioinformatics</div></div><span class="y">ongoing</span></div>
+       <div class="person"><div><div class="n">Leipzig University</div><div class="r">Structure, mechanics and engineering of exoribonuclease-resistant RNAs</div></div><span class="y">2023&ndash;present</span></div>
+       <div class="person"><div><div class="n">University of Groningen</div><div class="r">RNA structure ensemble mapping and conserved regulatory switches in living cells</div></div><span class="y">2022&ndash;present</span></div>
+       <div class="person"><div><div class="n">Radboud University Nijmegen</div><div class="r">Small RNA responses and subgenomic RNAs in insect-specific flaviviruses</div></div><span class="y">2020&ndash;2024</span></div>
+       <div class="person"><div><div class="n">University of Freiburg, Machine Learning</div><div class="r">Machine learning for approximating RNA folding kinetics</div></div><span class="y">2023&ndash;2025</span></div>
+       <div class="person"><div><div class="n">Chulalongkorn University, Bangkok</div><div class="r">Computational analysis of Musashi RNA complexes in viral pathogenesis</div></div><span class="y">2018&ndash;present</span></div>
+       <div class="person"><div><div class="n">The University of Queensland</div><div class="r">Discovery and phylogenetic placement of novel tick-associated flaviviruses</div></div><span class="y">2022&ndash;present</span></div>
      </div>
    </div>
 
