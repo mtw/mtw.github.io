@@ -726,3 +726,19 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
   .article-head,.article-body,.article-footer{max-width:1040px;padding-right:calc(var(--gutter) + 320px)}
   .article-body>[class*="m-col-"].m-right-m{float:right;clear:right;width:280px;max-width:280px;margin:.35rem -320px 1.4rem 0}
 }
+
+/* ---- citation block at the foot of paper posts ----
+   The citation is written as an indented block, which docutils renders as a blockquote,
+   so it inherited the pull-quote look (Archivo, 1.2rem, thick accent bar). A reference
+   wants the opposite: small, quiet, panel-toned. Scoped to the "Citation" section so real
+   pull quotes elsewhere keep their style. Applies to every blockquote that carries citation
+   links (Citation, See Also, related-work sections); a plain quotation keeps the pull-quote look. -- */
+.article-body #citation>h2,.article-body #see-also>h2,.article-body #landscape-context>h2,.article-body #related-follow-up>h2{font-family:'Archivo',sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:2.6rem 0 .8rem;padding-top:.9rem;border-top:1px solid var(--border)}
+.article-body blockquote:has(a.doi,a.m-strong){border:1px solid var(--border-2);border-left:1px solid var(--border-2);background:var(--panel);padding:16px 20px;margin:0 0 1.2rem}
+.article-body blockquote:has(a.doi,a.m-strong) p{font-family:'IBM Plex Sans',system-ui,sans-serif;font-size:.9rem;font-weight:400;line-height:1.65;color:var(--sub);margin:0}
+.article-body blockquote:has(a.doi,a.m-strong) p+p{margin-top:14px;padding-top:14px;border-top:1px solid var(--hair)}
+.article-body blockquote:has(a.doi,a.m-strong) a.m-strong{font-weight:600;font-size:.97rem;color:var(--ink);line-height:1.4}
+.article-body blockquote:has(a.doi,a.m-strong) a.m-strong:hover{color:var(--accent)}
+.article-body blockquote:has(a.doi,a.m-strong) .m-ul{text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:3px;color:var(--ink)}
+.article-body blockquote:has(a.doi,a.m-strong) em{color:var(--ink)}
+.article-body blockquote:has(a.doi,a.m-strong) a.doi{font-size:.78rem}
