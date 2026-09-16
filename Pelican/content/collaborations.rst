@@ -8,7 +8,7 @@ Collaborations
 :highlight: collaborations
 
 .. Layout note: the collaboration rows (institution, project topic, years) are one
-   raw-HTML block on purpose; the list mirrors the Collaborations section on
+   raw-HTML block on purpose. The list mirrors the Collaborations section on
    rnaforecast.com and should be kept in step with it.
 
 .. raw:: html
