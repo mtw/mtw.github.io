@@ -67,6 +67,7 @@ M_LINKS_NAVBAR1 = [
                     ('About', '/about', 'about', []),
                     ('Research', '/research', 'research', [
                         ('Team', '/team', 'team'),
+                        ('Collaborations', '/collaborations/', 'collaborations'),
                     ]),
                     ('Publications', '/publications', 'publications', [
                         ('Papers', '/publications', 'papers'),

@@ -95,24 +95,10 @@ Research
 
    </div>
 
-   <h2 class="sec-head">Collaborations</h2>
-
-   <p>Selected research collaborations with groups in Europe, Asia and Australia. Each is a project with its own timeline, and each has produced joint publications.</p>
-
-   <div class="people-grid collab-grid">
-       <div class="person"><div><div class="n">Theoretical Biochemistry Group (TBI), University of Vienna</div><div class="r">ViennaRNA and RNA bioinformatics</div></div><span class="y">ongoing</span></div>
-       <div class="person"><div><div class="n">Leipzig University</div><div class="r">Structure, mechanics and engineering of exoribonuclease-resistant RNAs</div></div><span class="y">2023&ndash;present</span></div>
-       <div class="person"><div><div class="n">University of Groningen</div><div class="r">RNA structure ensemble mapping and conserved regulatory switches in living cells</div></div><span class="y">2022&ndash;present</span></div>
-       <div class="person"><div><div class="n">Radboud University Nijmegen</div><div class="r">Small RNA responses and subgenomic RNAs in insect-specific flaviviruses</div></div><span class="y">2020&ndash;2024</span></div>
-       <div class="person"><div><div class="n">University of Freiburg, Machine Learning</div><div class="r">Machine learning for approximating RNA folding kinetics</div></div><span class="y">2023&ndash;2025</span></div>
-       <div class="person"><div><div class="n">Chulalongkorn University, Bangkok</div><div class="r">Computational analysis of Musashi RNA complexes in viral pathogenesis</div></div><span class="y">2018&ndash;present</span></div>
-       <div class="person"><div><div class="n">The University of Queensland</div><div class="r">Discovery and phylogenetic placement of novel tick-associated flaviviruses</div></div><span class="y">2022&ndash;present</span></div>
-   </div>
-
    <h2 class="sec-head">Independent research &amp; collaboration</h2>
 
    <p>The <a href="/publications/">publication list</a> gives the formal record of this work. Many of the papers also have a <a href="/blog/">blog post</a> that explains the methods and the biological context in more depth.</p>
 
    <p>I pursue independently led research through <a href="https://rnaforecast.com">RNA Forecast</a>, the platform for my software development and collaborations. Current independently led projects, research themes, and RNA Forecast-affiliated publications are maintained there.</p>
 
-   <p>My work depends on collaboration with experimental and computational partners across RNA bioinformatics, structural biology, virology, synthetic biology, and related areas. That includes long-standing collaborations with the <a href="https://www.tbi.univie.ac.at/">Theoretical Biochemistry Group (TBI)</a> at the University of Vienna and with colleagues working on structural questions that cut across disciplinary boundaries. Current supervision is listed on the <a href="/team/">people and supervision</a> page.</p>
+   <p>My work depends on collaboration with experimental and computational partners across RNA bioinformatics, structural biology, virology, synthetic biology, and related areas. That includes long-standing collaborations with the <a href="https://www.tbi.univie.ac.at/">Theoretical Biochemistry Group (TBI)</a> at the University of Vienna and with colleagues working on structural questions that cut across disciplinary boundaries. Research collaborations are listed on the <a href="/collaborations/">collaborations</a> page, and current supervision on the <a href="/team/">people and supervision</a> page.</p>
