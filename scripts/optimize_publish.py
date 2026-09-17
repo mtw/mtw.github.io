@@ -7,6 +7,9 @@ import subprocess
 import sys
 from pathlib import Path
 
+import json
+import re
+
 import minify_html
 import rcssmin
 import rjsmin
@@ -24,11 +27,25 @@ def minify_js_files(output_dir: Path) -> None:
         path.write_text(rjsmin.jsmin(path.read_text(encoding="utf-8")), encoding="utf-8")
 
 
+LDJSON = re.compile(r'(<script type="?application/ld\+json"?>)(.*?)(</script>)', re.S)
+
+
+def compact_ldjson(html: str) -> str:
+    """Rewrite each JSON-LD block as compact JSON; the HTML minifier leaves them alone."""
+    def repl(m):
+        try:
+            data = json.loads(m.group(2))
+        except json.JSONDecodeError:
+            return m.group(0)
+        return m.group(1) + json.dumps(data, separators=(",", ":"), ensure_ascii=False) + m.group(3)
+    return LDJSON.sub(repl, html)
+
+
 def minify_html_files(output_dir: Path) -> None:
     for path in output_dir.rglob("*.html"):
         path.write_text(
             minify_html.minify(
-                path.read_text(encoding="utf-8"),
+                compact_ldjson(path.read_text(encoding="utf-8")),
                 minify_doctype=False,
                 minify_css=True,
                 minify_js=True,
