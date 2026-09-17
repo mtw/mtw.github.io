@@ -1,7 +1,7 @@
 {% set page_slug = page.slug %}
 {# Only an explicit per-page :cover: may override the hero's gradient ground. The old
    theme's M_DEFAULT_PAGE_COVER fallback is deliberately NOT honored here — it applied
-   bg6.webp site-wide, which is what the gradient replaces. #}
+   a background image site-wide, which is what the gradient replaces. #}
 {% set effective_page_cover = page.cover %}
 {% extends "base.html" %}
 

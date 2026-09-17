@@ -25,5 +25,4 @@ prune michaelwolfinger_com.egg-info
 prune output
 prune output-publish
 prune content/cache
-prune pelican-theme/test
 prune design_handoff
