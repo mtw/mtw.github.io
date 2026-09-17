@@ -6,7 +6,7 @@
    ===================================================================== */
 
 :root{
-  --bg:#f1f0ec; --ink:#1c1c1a; --sub:#55534c; --muted:#89867d; --faint:#a29f95;
+  --bg:#f1f0ec; --ink:#1c1c1a; --sub:#55534c; --muted:#6b6860; --faint:#73706a;  /* darkened from the mockup tokens (#89867d, #a29f95) for WCAG AA contrast: 4.9:1 and 4.3:1 on the page ground */
   --accent:#3a5c7d; --accent-dark:#2a4560; --dark:#26333f; --panel:#f6f5f1;
   --border:#dedcd4; --border-2:#e6e4dc; --hair:#ecebe4;
   --maxw:1120px; --gutter:44px; --measure:70ch;
