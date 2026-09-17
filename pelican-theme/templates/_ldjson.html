@@ -13,7 +13,7 @@
  "givenName": "Michael",
  "familyName": "Wolfinger",
  "url": {{ _site|tojson }},
- "image": {{ (M_SOCIAL_IMAGE|format_siteurl)|tojson }},
+ "image": {{ ((M_PERSON_IMAGE or M_SOCIAL_IMAGE)|format_siteurl)|tojson }},
  "jobTitle": "Independent Principal Investigator, Computational RNA Biology",
  "description": "Independent Principal Investigator in computational RNA biology based in Vienna, Austria: RNA structure, folding kinetics, functional RNA design, and structured viral RNAs.",
  "email": "michael.wolfinger@rnaforecast.com",

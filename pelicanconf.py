@@ -143,7 +143,14 @@ M_BLOG_DESCRIPTION = "michaelwolfinger.com | Computational RNA biology: RNA stru
 M_SOCIAL_TWITTER_SITE = '@mtwolfinger'
 M_SOCIAL_TWITTER_SITE_ID = 15105886
 #M_SOCIAL_IMAGE = 'https://your.brand/static/site.png'
-M_SOCIAL_IMAGE = '/static/mtw.jpg'
+# Link-preview card (Open Graph / Twitter), 1200x630; source in tools/og-cards-source.html.
+M_SOCIAL_IMAGE = '/static/og-wide-1200x630.png'
+M_SOCIAL_IMAGE_WIDTH = 1200
+M_SOCIAL_IMAGE_HEIGHT = 630
+M_SOCIAL_IMAGE_ALT = 'RNA Structure, Function & Design - Michael T. Wolfinger, michaelwolfinger.com'
+M_SOCIAL_CARD = 'summary_large_image'
+# Portrait used as the Person image in structured data.
+M_PERSON_IMAGE = '/static/mtw.jpg'
 M_SOCIAL_BLOG_SUMMARY = "Computational RNA biology — RNA structure, folding dynamics, functional RNA design, and structured viral RNAs"
 
 PAGE_URL = '{slug}/'
