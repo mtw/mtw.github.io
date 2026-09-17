@@ -12,22 +12,6 @@ import rcssmin
 import rjsmin
 
 
-def compile_theme_css(source_static_dir: Path, output_dir: Path) -> None:
-    source_css = source_static_dir / "m-light.css"
-    compiled_css = output_dir / "static" / "m-light.compiled.css"
-    compiled_css.parent.mkdir(parents=True, exist_ok=True)
-
-    subprocess.run(
-        [
-            sys.executable,
-            str(source_static_dir / "postprocess.py"),
-            source_css.name,
-            "-o",
-            str(compiled_css),
-        ],
-        cwd=source_static_dir,
-        check=True,
-    )
 
 
 def minify_css_files(output_dir: Path) -> None:
@@ -53,8 +37,7 @@ def minify_html_files(output_dir: Path) -> None:
         )
 
 
-def optimize_publish(output_dir: Path, source_static_dir: Path) -> None:
-    compile_theme_css(source_static_dir, output_dir)
+def optimize_publish(output_dir: Path) -> None:
     minify_css_files(output_dir)
     minify_js_files(output_dir)
     minify_html_files(output_dir)
@@ -62,18 +45,12 @@ def optimize_publish(output_dir: Path, source_static_dir: Path) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Compile and minify publish-only CSS/JS/HTML assets in a Pelican output directory."
+        description="Minify CSS/JS/HTML in a Pelican output directory."
     )
     parser.add_argument("output_dir", type=Path, help="Pelican output directory")
-    parser.add_argument(
-        "--source-static-dir",
-        type=Path,
-        default=Path("pelican-theme/static"),
-        help="Theme static source directory containing m-light.css and postprocess.py",
-    )
     args = parser.parse_args()
 
-    optimize_publish(args.output_dir.resolve(), args.source_static_dir.resolve())
+    optimize_publish(args.output_dir.resolve())
     return 0
 
 

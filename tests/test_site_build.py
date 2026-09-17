@@ -30,11 +30,7 @@ def test_key_pages_and_assets_exist(tmp_path):
         output_dir / "favicon.ico",
         output_dir / "robots.txt",
         output_dir / "sitemap.xml",
-        output_dir / "static" / "m-light.compiled.css",
-        output_dir / "static" / "m-light.css",
-        output_dir / "static" / "m-layout.css",
-        output_dir / "static" / "m-grid.css",
-        output_dir / "static" / "m-components.css",
+        output_dir / "static" / "m-mtw.css",
     ]
 
     for path in required_pages + required_assets:
