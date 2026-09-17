@@ -2,7 +2,7 @@ About
 #####
 :title: About Michael T. Wolfinger
 :summary: I am an independent Principal Investigator in computational RNA biology based in Vienna, Austria. Over more than two decades I have worked on how RNA molecules fold, function, and evolve, combining biophysical modeling, algorithm development, and reproducible scientific software.
-:description: I am Michael T. Wolfinger, an independent Principal Investigator in computational RNA biology based in Vienna, Austria. I pursue independently led research through RNA Forecast and maintain long-standing collaborations with academic groups including the Theoretical Biochemistry Group at the University of Vienna.
+:description: I am Michael T. Wolfinger, an independent Principal Investigator in computational RNA biology in Vienna, working on RNA structure, folding, design, and viral RNAs.
 :hero_eyebrow: About
 :hero_title: Independent Principal Investigator in Computational RNA Biology
 :hide_summary: True
