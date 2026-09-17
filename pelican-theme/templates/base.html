@@ -1,0 +1,124 @@
+{# michaelwolfinger.com — base layout (Homepage2026 design) #}
+<!DOCTYPE html>
+<html lang="{% if page and page.lang %}{{ page.lang }}{% elif article and article.lang %}{{ article.lang }}{% else %}{{ DEFAULT_LANG }}{% endif %}"{% if not M_DISABLE_SOCIAL_META_TAGS %} prefix="og: http://ogp.me/ns#"{% endif %}>
+<head>
+  <meta charset="UTF-8" />
+  <title>{% block title %}{% endblock title %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {% for href in M_CSS_FILES %}
+  <link rel="stylesheet" href="{{ href|format_siteurl|e }}" />
+  {% endfor %}
+  {% block head_links %}{% endblock head_links %}
+  {% if FEED_ALL_ATOM_URL %}
+  <link href="{{ FEED_ALL_ATOM_URL|format_siteurl|e }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME|e }}" />
+  {% elif FEED_ALL_ATOM %}
+  <link href="{{ FEED_ALL_ATOM|format_siteurl|e }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME|e }}" />
+  {% endif %}
+  <meta name="author" content="{{ AUTHOR|e }}" />
+  {% if M_THEME_COLOR %}<meta name="theme-color" content="{{ M_THEME_COLOR }}" />{% endif %}
+  {% block meta %}{% endblock meta %}
+  {% if not M_DISABLE_SOCIAL_META_TAGS %}
+  <meta property="og:locale" content="{{ (OG_LOCALE or "en_US")|e }}" />
+  {% if M_SOCIAL_TWITTER_SITE %}<meta name="twitter:site" content="{{ M_SOCIAL_TWITTER_SITE }}" />{% endif %}
+  {% if M_SOCIAL_TWITTER_SITE_ID %}<meta name="twitter:site:id" content="{{ M_SOCIAL_TWITTER_SITE_ID }}" />{% endif %}
+  {% block social %}{% endblock social %}
+  {% endif %}
+  {% block extra %}{% endblock extra %}
+  {% if M_HTML_HEADER %}{{ M_HTML_HEADER|rtrim|indent(2) }}{% endif %}
+  {% if GOOGLE_ANALYTICS %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{GOOGLE_ANALYTICS}}"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{GOOGLE_ANALYTICS}}');
+  </script>
+  {% endif %}
+</head>
+<body>
+<header><nav id="navigation">
+  <div class="m-container">
+    <div class="m-row">
+      <a href="{{ SITEURL }}/" id="m-navbar-brand">
+        {%- if M_SITE_LOGO %}<img src="{{ M_SITE_LOGO|format_siteurl|e }}" alt="" />{% endif -%}
+        {{- (M_SITE_LOGO_TEXT or SITENAME)|e -}}
+      </a>
+      {% if M_LINKS_NAVBAR1 or M_LINKS_NAVBAR2 %}
+      <a id="m-navbar-show" href="#navigation" title="Show navigation" aria-label="Show navigation">&#9776;</a>
+      <a id="m-navbar-hide" href="#" title="Hide navigation" aria-label="Hide navigation">&#10005;</a>
+      <div id="m-navbar-collapse">
+        <div class="m-row">
+          <ol>
+            {% for title, link, slug, sub in M_LINKS_NAVBAR1 %}
+            {% if not sub %}
+            <li><a href="{{ link|format_siteurl|e }}"{% if (page and page.highlight == slug) or slug == page_slug %} id="m-navbar-current"{% endif %}>{{ title|e }}</a></li>
+            {% else %}
+            <li>
+              <a href="{{ link|format_siteurl|e }}"{% if (page and page.highlight == slug) or slug == page_slug %} id="m-navbar-current"{% endif %}>{{ title|e }}</a>
+              <ol>
+                {% for title, link, slug in sub %}
+                <li><a href="{{ link|format_siteurl|e }}"{% if (page and page.highlight == slug) or slug == page_slug %} id="m-navbar-current"{% endif %}>{{ title|e }}</a></li>
+                {% endfor %}
+              </ol>
+            </li>
+            {% endif %}
+            {% endfor %}
+            {% if M_LINKS_NAVBAR2 %}
+            {% for title, link, slug, sub in M_LINKS_NAVBAR2 %}
+            {% if not sub %}
+            <li><a href="{{ link|format_siteurl|e }}"{% if (page and page.highlight == slug) or slug == page_slug %} id="m-navbar-current"{% endif %}>{{ title|e }}</a></li>
+            {% else %}
+            <li>
+              <a href="{{ link|format_siteurl|e }}"{% if (page and page.highlight == slug) or slug == page_slug %} id="m-navbar-current"{% endif %}>{{ title|e }}</a>
+              <ol>
+                {% for title, link, slug in sub %}
+                <li><a href="{{ link|format_siteurl|e }}"{% if (page and page.highlight == slug) or slug == page_slug %} id="m-navbar-current"{% endif %}>{{ title|e }}</a></li>
+                {% endfor %}
+              </ol>
+            </li>
+            {% endif %}
+            {% endfor %}
+            {% endif %}
+          </ol>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</nav></header>
+<main>
+{% block main %}{% endblock %}
+</main>
+{% if M_LINKS_FOOTER1 or M_LINKS_FOOTER2 or M_LINKS_FOOTER3 or M_LINKS_FOOTER4 or not M_FINE_PRINT is defined or M_FINE_PRINT %}
+<footer><nav>
+  <div class="m-container">
+    {% if M_LINKS_FOOTER1 or M_LINKS_FOOTER2 or M_LINKS_FOOTER3 or M_LINKS_FOOTER4 %}
+    <div class="foot-grid">
+      {% for group in [M_LINKS_FOOTER1, M_LINKS_FOOTER2, M_LINKS_FOOTER3, M_LINKS_FOOTER4] %}
+      {% if group %}
+      <div class="foot-col">
+        <h3>
+          {%- if group[0][1] %}<a href="{{ group[0][1]|format_siteurl|e }}">{% endif %}
+          {{- group[0][0]|e -}}
+          {% if group[0][1] %}</a>{% endif -%}
+        </h3>
+        <ul>
+          {% for title, link in group %}{% if loop.index0 != 0 %}
+          <li>{% if title %}<a href="{{ link|format_siteurl|e }}">{{ title|e }}</a>{% else %}&nbsp;{% endif %}</li>
+          {% endif %}{% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if not M_FINE_PRINT is defined or M_FINE_PRINT %}
+    <div class="fine-print">
+      {{ (M_FINE_PRINT or SITENAME + ". Powered by `Pelican <https://getpelican.com>`_.")|render_rst|rtrim|indent(6) }}
+    </div>
+    {% endif %}
+  </div>
+</nav></footer>
+{% endif %}
+</body>
+</html>

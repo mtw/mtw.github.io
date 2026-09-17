@@ -14,18 +14,18 @@ def main() -> int:
     )
     parser.add_argument(
         "--output-dir",
-        default="output",
-        help="Output directory relative to Pelican/ or an absolute path",
+        default="output-publish",
+        help="Output directory relative to the repository root or an absolute path",
     )
     parser.add_argument(
         "--settings",
         default="publishconf.py",
-        help="Pelican settings file relative to Pelican/",
+        help="Pelican settings file relative to the repository root",
     )
     args = parser.parse_args()
 
     repo_root = Path(__file__).resolve().parents[1]
-    pelican_dir = repo_root / "Pelican"
+    pelican_dir = repo_root
     output_dir = Path(args.output_dir)
     if not output_dir.is_absolute():
         output_dir = pelican_dir / output_dir
@@ -50,7 +50,7 @@ def main() -> int:
             str(repo_root / "scripts" / "optimize_publish.py"),
             str(output_dir),
             "--source-static-dir",
-            str(pelican_dir / "pelican-theme" / "static"),
+            str(repo_root / "pelican-theme" / "static"),
         ],
         cwd=repo_root,
         check=True,

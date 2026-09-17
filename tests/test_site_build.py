@@ -19,7 +19,7 @@ def test_key_pages_and_assets_exist(tmp_path):
 
     required_pages = [
         output_dir / "index.html",
-        output_dir / "services" / "index.html",
+        output_dir / "about" / "index.html",   # /services/ is a bare redirect until the business launch
         output_dir / "contact" / "index.html",
         output_dir / "research" / "index.html",
         output_dir / "legal" / "index.html",
@@ -46,7 +46,7 @@ def test_key_pages_reference_existing_local_assets(tmp_path):
 
     html_pages = [
         output_dir / "index.html",
-        output_dir / "services" / "index.html",
+        output_dir / "about" / "index.html",   # /services/ is a bare redirect until the business launch
         output_dir / "contact" / "index.html",
         output_dir / "research" / "index.html",
     ]
@@ -67,7 +67,7 @@ def test_key_pages_reference_existing_local_assets(tmp_path):
             if path.startswith("static/") or path in {"favicon.ico"}:
                 local_asset_urls.append(path)
 
-        assert "static/m-light.compiled.css" in local_asset_urls, page
+        assert "static/m-mtw.css" in local_asset_urls, page
 
         for asset_path in local_asset_urls:
             resolved = output_dir / asset_path

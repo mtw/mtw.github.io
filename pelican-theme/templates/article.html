@@ -1,0 +1,120 @@
+{% set page_slug = '[blog]' %}
+{% extends "base.html" %}
+
+{% block title %}{{ article.title|striptags|e }}{% endblock %}
+
+{% block head_links %}
+  {% if M_BLOG_FAVICON %}<link rel="icon" href="{{ M_BLOG_FAVICON[0]|format_siteurl|e }}" type="{{ M_BLOG_FAVICON[1]|e }}" />
+  {% elif M_FAVICON %}<link rel="icon" href="{{ M_FAVICON[0]|format_siteurl|e }}" type="{{ M_FAVICON[1]|e }}" />{% endif %}
+  <link rel="canonical" href="{{ article.url|format_siteurl|e }}" />
+{% endblock %}
+
+{% block meta %}
+  {% if article.description %}<meta name="description" content="{{ article.description|dehyphenate|striptags|e }}" />
+  {% elif article.summary %}<meta name="description" content="{{ article.summary|dehyphenate|striptags|truncate(300)|e }}" />{% endif %}
+{% endblock %}
+
+{% block social %}
+  <meta property="og:site_name" content="{{ M_BLOG_NAME|e }}" />
+  <meta property="og:title" content="{{ article.title|striptags|e }}" />
+  <meta name="twitter:title" content="{{ article.title|striptags|e }}" />
+  <meta property="og:url" content="{{ article.url|format_siteurl|e }}" />
+  {% if article.summary %}
+  <meta property="og:description" content="{{ article.summary|dehyphenate|striptags|e }}" />
+  <meta name="twitter:description" content="{{ article.summary|dehyphenate|striptags|e }}" />
+  {% endif %}
+  {% if article.cover %}
+  <meta property="og:image" content="{{ article.cover|expand_link(article)|e }}" />
+  <meta property="og:image:alt" content="{{ article.title|striptags|e }}" />
+  <meta name="twitter:image" content="{{ article.cover|expand_link(article)|e }}" />
+  <meta name="twitter:image:alt" content="{{ article.title|striptags|e }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  {% elif M_SOCIAL_IMAGE %}
+  <meta property="og:image" content="{{ M_SOCIAL_IMAGE|format_siteurl }}" />
+  <meta property="og:image:width" content="{{ M_SOCIAL_IMAGE_WIDTH or 240 }}" />
+  <meta property="og:image:height" content="{{ M_SOCIAL_IMAGE_HEIGHT or 317 }}" />
+  <meta property="og:image:alt" content="{{ (M_SOCIAL_IMAGE_ALT or 'Portrait of ' ~ AUTHOR)|e }}" />
+  <meta name="twitter:image" content="{{ M_SOCIAL_IMAGE|format_siteurl }}" />
+  <meta name="twitter:image:alt" content="{{ (M_SOCIAL_IMAGE_ALT or 'Portrait of ' ~ AUTHOR)|e }}" />
+  <meta name="twitter:card" content="{{ M_SOCIAL_CARD or 'summary' }}" />
+  {% endif %}
+  <meta property="og:type" content="article" />
+  <meta property="article:published_time" content="{{ article.date.isoformat() }}" />
+  <meta property="article:modified_time" content="{{ (article.modified.isoformat() if article.modified else article.date.isoformat()) }}" />
+  <meta property="article:author" content="{{ SITEURL }}/about/" />
+  {% if article.category %}<meta property="article:section" content="{{ article.category|e }}" />{% endif %}
+  {% for tag in article.tags %}<meta property="article:tag" content="{{ tag|e }}" />
+  {% endfor %}
+{% endblock %}
+
+{% block extra %}
+  {% import '_ldjson.html' as ld with context %}
+  {{ ld.article_graph(article) }}
+{% endblock %}
+
+{% block main %}
+<article>
+  {% if article.cover %}
+  <div id="m-jumbo">
+    <div id="m-jumbo-image" style="background-image: url('{{ article.cover|expand_link(article)|e }}');">
+      <div id="m-jumbo-cover">
+        <div class="m-container">
+          {% if article.category %}<div class="article-eyebrow" style="color:#9dbfd8">{{ article.category|e }}</div>{% endif %}
+          <h1>{{ article.title }}</h1>
+          <div class="article-meta" style="border-color:rgba(255,255,255,.25);color:#cfd8e0">
+            <span>{{ article.locale_date|e }}</span>
+            <span class="dot"></span><span>{% if article.authors %}{% for author in article.authors %}{{ AUTHOR|e if author.name == 'mtw' else author|e }}{% if not loop.last %}, {% endif %}{% endfor %}{% else %}{{ AUTHOR|e }}{% endif %}</span>
+            {% if article.status == 'draft' %}<span class="dot"></span><span class="m-label m-dim">draft</span>{% endif %}
+          </div>
+          <a href="{{ SITEURL }}/blog/" class="jumbo-back">&larr; Back to Blog</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% else %}
+  <div class="article-head">
+    <a href="{{ SITEURL }}/blog/" style="font-size:.85rem;font-weight:500">&larr; Back to Blog</a>
+    {% if article.category %}<div class="article-eyebrow" style="margin-top:1.4rem">{{ article.category|e }}</div>{% endif %}
+    <h1>{{ article.title }}</h1>
+    <div class="article-meta">
+      {#- posts carry the short author handle 'mtw'; show the site author's full name for it -#}
+      <span>{% if article.authors %}{% for author in article.authors %}{{ AUTHOR|e if author.name == 'mtw' else author|e }}{% if not loop.last %}, {% endif %}{% endfor %}{% else %}{{ AUTHOR|e }}{% endif %}</span><span class="dot"></span>
+      <span>{{ article.locale_date|e }}</span>
+      {% if article.status == 'draft' %}<span class="dot"></span><span class="m-label m-dim">draft</span>{% endif %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if article.summary and ((article.hide_summary is defined and article.hide_summary != 'True') or (article.hide_summary is not defined and not M_HIDE_ARTICLE_SUMMARY)) %}
+  <div class="article-body" style="padding-bottom:0">
+    <p class="page-lede">{{ article.summary|striptags|e }}</p>
+  </div>
+  {% endif %}
+
+  {% if article.content %}
+  <div class="article-body">
+<!-- content -->
+{{ article.content|trim }}
+<!-- /content -->
+  </div>
+  {% endif %}
+
+  <div class="article-footer">
+    {% if article.tags %}
+    <div class="tag-row">
+      {% for tag in article.tags %}<a href="{{ tag.url|format_siteurl|e }}">{{ tag|e }}</a>{% endfor %}
+    </div>
+    {% endif %}
+    {#- Pelican core has no prev/next attributes; derive the neighbors from the
+        date-sorted article list (newer = previous item, older = next item). -#}
+    {% set nb = namespace(newer=None, older=None) %}
+    {% for a in articles %}{% if a.url == article.url %}{% set nb.newer = loop.previtem if not loop.first else None %}{% set nb.older = loop.nextitem if not loop.last else None %}{% endif %}{% endfor %}
+    {% if nb.newer or nb.older %}
+    <nav class="post-nav" aria-label="Neighboring posts">
+      <span>{% if nb.newer %}<a href="{{ nb.newer.url|format_siteurl|e }}">&larr; {{ nb.newer.title|striptags|truncate(48)|e }}</a>{% endif %}</span>
+      <span style="text-align:right">{% if nb.older %}<a href="{{ nb.older.url|format_siteurl|e }}">{{ nb.older.title|striptags|truncate(48)|e }} &rarr;</a>{% endif %}</span>
+    </nav>
+    {% endif %}
+  </div>
+</article>
+{% endblock %}

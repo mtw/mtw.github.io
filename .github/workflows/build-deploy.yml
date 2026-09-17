@@ -1,0 +1,65 @@
+# Build the Pelican site and publish it to GitHub Pages.
+#
+# The build runs on every push and pull request; only pushes to master deploy.
+# A build that fails, emits a Pelican warning, or fails the test suite never
+# reaches the deploy job.
+name: Build and deploy
+
+on:
+  push:
+    branches: ["master"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - name: Install
+        run: pip install -e ".[dev,test]"
+
+      - name: Test
+        run: make test
+
+      # Production build under --fatal warnings, minified, smoke-checked.
+      - name: Build and check
+        run: make check
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output-publish
+
+  deploy:
+    # Pull requests build and test, but never publish.
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
