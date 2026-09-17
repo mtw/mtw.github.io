@@ -17,6 +17,8 @@ Dependencies are managed through `pyproject.toml`.
 
 ## Local Development
 
+Pelican only finds its settings inside `Pelican/`, so `pelican -Dlr` at the repository root fails. Use `./dev.sh` from the root instead: it changes into `Pelican/`, builds, serves on http://127.0.0.1:8000 and rebuilds on change (`./dev.sh publishconf.py` for the production settings). The root `Makefile` offers the same targets (`make devserver`, `make html`, `make publish`, `make test`) where GNU make is available.
+
 Create or activate the repository virtual environment before building:
 
 ```bash
@@ -97,3 +99,4 @@ Do not replace theme CSS files with symlinks to repo-root assets. GitHub Pages d
 ## License
 
 This project is licensed under the GNU Affero General Public License. See `LICENSE`.
+
