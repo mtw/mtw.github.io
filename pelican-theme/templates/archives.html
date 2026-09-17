@@ -29,7 +29,7 @@
   <meta property="og:image:alt" content="{{ (M_SOCIAL_IMAGE_ALT or 'Portrait of ' ~ AUTHOR)|e }}" />
   <meta name="twitter:image" content="{{ M_SOCIAL_IMAGE|format_siteurl }}" />
   <meta name="twitter:image:alt" content="{{ (M_SOCIAL_IMAGE_ALT or 'Portrait of ' ~ AUTHOR)|e }}" />
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="{{ M_SOCIAL_CARD or 'summary' }}" />
   {% else %}<meta name="twitter:card" content="summary" />{% endif %}
   {% block social_url %}{% if M_BLOG_URL %}<meta property="og:url" content="{{ M_BLOG_URL|format_siteurl|e }}" />{% endif %}{% endblock %}
 {% endblock %}
