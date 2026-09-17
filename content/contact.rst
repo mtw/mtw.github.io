@@ -20,13 +20,13 @@ Contact
        <div class="detail-card">
          <div class="row"><span class="k">Name</span><span class="v">Michael T. Wolfinger</span></div>
          <div class="row"><span class="k">Role</span><span class="v">Independent Principal Investigator</span></div>
-         <div class="row"><span class="k">Academic email</span><span class="v"><a href="mailto:michael.wolfinger@univie.ac.at">michael.wolfinger@univie.ac.at</a></span></div>
-         <div class="row"><span class="k">General email</span><span class="v"><a href="mailto:michael.wolfinger@rnaforecast.com">michael.wolfinger@rnaforecast.com</a></span></div>
+         <div class="row"><span class="k">Email</span><span class="v"><a href="mailto:michael.wolfinger@rnaforecast.com">michael.wolfinger@rnaforecast.com</a></span></div>
+         <div class="row"><span class="k">University collaboration contact</span><span class="v"><a href="mailto:michael.wolfinger@univie.ac.at">michael.wolfinger@univie.ac.at</a></span></div>
          <div class="row"><span class="k">Location</span><span class="v">Vienna, Austria</span></div>
          <div class="row"><span class="k">Mail</span><span class="v">Theoretical Biochemistry Group (TBI)<br>Department of Theoretical Chemistry, Faculty of Chemistry<br>University of Vienna<br>W&auml;hringer Strasse 17, 1090 Vienna, Austria</span></div>
        </div>
 
-       <p class="small-print" style="margin-top:22px">For research questions, collaborations, supervision, and other academic matters, write to the University of Vienna address. Everything else reaches me at <a href="mailto:michael.wolfinger@rnaforecast.com">michael.wolfinger@rnaforecast.com</a>. If you are reaching out about a possible collaboration, a short note on the scientific context is enough.</p>
+       <p class="small-print" style="margin-top:22px">The primary address is <a href="mailto:michael.wolfinger@rnaforecast.com">michael.wolfinger@rnaforecast.com</a>. For matters that run through the University of Vienna, such as supervision of enrolled students and joint projects with the Theoretical Biochemistry Group, the university address can be used as well. If you are reaching out about a possible collaboration, a short note on the scientific context is enough.</p>
      </div>
 
      <div class="card-stack">
