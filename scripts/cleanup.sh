@@ -11,7 +11,6 @@ rm -rf \
   output \
   output-publish \
   plugins/m/__pycache__ \
-  pelican-theme/test/__pycache__ \
   tests/__pycache__
 
 find . \

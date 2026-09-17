@@ -48,9 +48,7 @@ def main() -> int:
         [
             sys.executable,
             str(repo_root / "scripts" / "optimize_publish.py"),
-            str(output_dir),
-            "--source-static-dir",
-            str(repo_root / "pelican-theme" / "static"),
+            str(output_dir)
         ],
         cwd=repo_root,
         check=True,
