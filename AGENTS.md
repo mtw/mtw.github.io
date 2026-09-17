@@ -6,23 +6,28 @@ These instructions apply to the whole repository.
 
 ## Repository Layout
 
-- `Pelican/` is the source of truth for site content, theme assets, and build configuration.
-- The repository root is infrastructure-only. Do not reintroduce checked-in generated site output at the root.
+- A plain Pelican project at the repository root: `content/`, `pelican-theme/`, `plugins/`,
+  `pelicanconf.py`, `publishconf.py`, `Makefile`.
+- `output/` and `output-publish/` are generated and never committed.
+- `design_handoff/` (untracked) holds the 2026 design mockups for reference only.
 
 ## Build and Validation
 
-- Prefer repository-relevant smoke tests over the bundled upstream theme snapshot suite in `Pelican/pelican-theme/test`.
-- Default validation is `./.venv/bin/python -m pytest`.
-- For local site checks, use `./Pelican/make.sh` or `cd Pelican && ../.venv/bin/pelican -Dlr content -o output -s pelicanconf.py`.
+- `make devserver` for local work, `make check` for a production build, `make test` for the
+  test suite (default validation: `./.venv/bin/python -m pytest`).
+- Prefer the repository tests over the bundled upstream theme suite in `pelican-theme/test`.
+- No output URL may change. `tests/test_live_urls.py` enforces the live sitemap; an intended
+  new page must be added to its allow-list.
 
 ## Deployment
 
-- GitHub Pages deployment is handled by GitHub Actions.
-- Publish by committing to `master` and pushing `origin/master`.
+- GitHub Pages deployment is handled by `.github/workflows/build-deploy.yml`.
+- Publish by merging to `master`; pull requests build and test but do not deploy.
 - Do not use local `gh-pages` publishing flows unless the user explicitly asks for them.
 
 ## Workflow
 
 - Stage and commit completed changes by default unless the user explicitly asks not to.
 - Keep changes focused; do not mix unrelated cleanup into the same commit.
-- When a change affects build or deployment, prefer updating the root documentation as part of the same task.
+- Never add Claude attribution trailers to commit messages or pull requests.
+- Nothing about commercial services or workshops may be visible before December 2026.

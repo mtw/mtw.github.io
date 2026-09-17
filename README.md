@@ -1,23 +1,23 @@
 # michaelwolfinger.com
 
-Source repository for the static site at <https://michaelwolfinger.com>.
-
-The site is built with Pelican. All source content, theme assets, and build configuration live under `Pelican/`.
-
-Dependencies are managed through `pyproject.toml`.
+Source repository for the static site at <https://michaelwolfinger.com>, built with Pelican.
+The layout is a plain Pelican project at the repository root; dependencies are managed
+through `pyproject.toml`.
 
 ## Repository Layout
 
-- `Pelican/content/`: pages, blog posts, files, and static content source
-- `Pelican/pelican-theme/`: theme templates and theme-owned static assets
-- `Pelican/pelicanconf.py`: local development settings
-- `Pelican/publishconf.py`: production build settings
-- `.github/workflows/`: validation and GitHub Pages deployment
-- `tests/`: site-level smoke tests
+- `content/`: pages, blog posts, files, and static content source
+- `pelican-theme/`: theme templates and the stylesheet (`static/m-mtw.css`)
+- `plugins/`: the m.css plugins the content relies on
+- `pelicanconf.py`: local development settings; `publishconf.py`: production settings
+- `scripts/`: the publish-time minification step
+- `tests/`: site tests (build, internal links, live URLs, content metadata)
+- `tools/`: content migration helpers
+- `.github/workflows/build-deploy.yml`: build, test and GitHub Pages deployment
 
 ## Local Development
 
-Create or activate the repository virtual environment before building:
+Create or activate the virtual environment once:
 
 ```bash
 python -m venv .venv
@@ -25,74 +25,41 @@ source .venv/bin/activate
 python -m pip install -e ".[dev,test]"
 ```
 
-Useful commands:
+Then, from the repository root:
 
 ```bash
-./Pelican/make.sh
-./Pelican/make.sh publishconf.py
-cd Pelican && ../.venv/bin/pelican -Dlr content -o output -s pelicanconf.py
-./.venv/bin/python scripts/build_publish.py
-./.venv/bin/python -m pytest
-./scripts/cleanup.sh
+make devserver          # build, serve http://localhost:8000, rebuild on change
+make html               # development build into output/
+make publish            # production build into output-publish/, minified
+make check              # production build under --fatal warnings + smoke checks
+make test               # run the test suite
+make clean              # remove output/ and output-publish/
 ```
 
-Source distribution:
+`pelican -lr` from the root does the same as `make devserver`. `./make.sh` runs a
+development build and a production build in one go. On macOS `make` needs the Xcode
+command line tools (`xcode-select --install`).
 
-```bash
-python -m pip install build
-python -m build --sdist
-```
+The development build uses relative URLs and goes to `output/`; the production build
+carries absolute URLs and goes to `output-publish/`, so the two never mix.
 
-What they do:
+## Tests
 
-- `./Pelican/make.sh` builds the site into `Pelican/output/`
-- `./Pelican/make.sh publishconf.py` builds `Pelican/output/` with production URL settings but without the publish minification step
-- `pelican -Dlr` runs a local development server with live regeneration
-- `python scripts/build_publish.py` builds the production site and minifies publish-only CSS, JS, and HTML assets
-- `pytest` runs a site smoke test that verifies a deployable build can be produced
-- `./scripts/cleanup.sh` removes generated and local-only artifacts from the working tree
-- `python -m build --sdist` creates a source tarball in `dist/` that includes the Pelican content, theme assets, configuration, scripts, and tests needed to rebuild the site
+`make test` builds the site with the production settings and checks that every URL of
+the live site (fixture in `tests/fixtures/`) still resolves, that internal links and
+anchors exist, that content metadata is complete, and that publish-time minification
+works. No output URL may change; the tests are the gate.
 
 ## Deployment
 
-Deployment is handled by GitHub Actions and GitHub Pages.
+GitHub Actions builds, tests and deploys. Every push and pull request runs the build and
+the tests; only a push to `master` deploys to GitHub Pages.
 
-Workflow:
+1. Commit content or theme changes.
+2. Open a pull request, or push `master` directly.
+3. The `Build and deploy` workflow publishes `output-publish/`.
 
-1. Edit content or theme files under `Pelican/`
-2. Validate locally if needed
-3. Commit changes
-4. Push `master`
-
-```bash
-git push origin master
-```
-
-The Pages workflow builds `Pelican/output/` from `publishconf.py` and deploys that artifact. There is no need to run a local `gh-pages` publish step.
-
-## Legacy Entry Points
-
-Legacy local entry points still exist in `Pelican/Makefile` and `Pelican/tasks.py`.
-
-- Keep using GitHub Actions on `master` as the canonical deploy path.
-- Treat `Pelican/make.sh` as the canonical local build entry point.
-- Treat `Makefile` and `tasks.py` as legacy compatibility interfaces unless they are explicitly being modernized.
-
-## CSS Assets
-
-Theme CSS files used in production must exist as real files inside `Pelican/pelican-theme/static/`.
-
-If you update the light theme styles:
-
-1. edit the relevant CSS in `Pelican/pelican-theme/static/`
-2. regenerate the compiled stylesheet with `cd Pelican/pelican-theme/static && ../../../.venv/bin/python postprocess.py m-light.css`
-3. rebuild locally and confirm `Pelican/output/static/m-light.compiled.css` is present
-
-GitHub Actions also regenerates `m-light.compiled.css` and minifies publish assets during the deploy build, so production does not depend on the checked-in compiled stylesheet staying fresh. Local development remains on the unminified `static/m-light.css` from `pelicanconf.py`.
-
-`./Pelican/make.sh` intentionally defaults to `pelicanconf.py` so local preview output keeps local asset URLs instead of pointing at the deployed site.
-
-Do not replace theme CSS files with symlinks to repo-root assets. GitHub Pages deployment depends on the theme shipping its own static files.
+There is no local `gh-pages` step.
 
 ## License
 

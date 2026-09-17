@@ -3,7 +3,7 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-PELICAN_DIR = REPO_ROOT / "Pelican"
+PELICAN_DIR = REPO_ROOT
 PUBLICATIONS_RST = PELICAN_DIR / "content" / "publications.rst"
 BLOG_DIR = PELICAN_DIR / "content" / "blog"
 

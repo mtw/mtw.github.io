@@ -1,0 +1,166 @@
+{# Blog listing — used by index (blog/index.html), and extended by tag/category/author #}
+{% set page_slug = '[blog]' %}
+{% if not M_BLOG_NAME %}{% set M_BLOG_NAME = SITENAME %}{% endif %}
+{% extends "base.html" %}
+
+{% block title %}{% block blog_title %}{{ M_BLOG_NAME|e }}{% endblock %}{% endblock %}
+
+{% block head_links %}
+  {% block blog_canonical %}{% if M_BLOG_URL %}<link rel="canonical" href="{{ M_BLOG_URL|format_siteurl|e }}" />{% endif %}{% endblock %}
+  {% if M_BLOG_FAVICON %}<link rel="icon" href="{{ M_BLOG_FAVICON[0]|format_siteurl|e }}" type="{{ M_BLOG_FAVICON[1]|e }}" />
+  {% elif M_FAVICON %}<link rel="icon" href="{{ M_FAVICON[0]|format_siteurl|e }}" type="{{ M_FAVICON[1]|e }}" />{% endif %}
+{% endblock %}
+
+{% block meta %}
+  {% if M_BLOG_DESCRIPTION %}<meta name="description" content="{{ M_BLOG_DESCRIPTION|e }}" />{% endif %}
+{% endblock %}
+
+{% block social %}
+  <meta property="og:site_name" content="{{ M_BLOG_NAME|e }}" />
+  <meta property="og:title" content="{{ self.blog_title()|striptags|e }}" />
+  <meta name="twitter:title" content="{{ self.blog_title()|striptags|e }}" />
+  {% if M_BLOG_DESCRIPTION %}<meta property="og:description" content="{{ M_BLOG_DESCRIPTION|e }}" />
+  <meta name="twitter:description" content="{{ M_BLOG_DESCRIPTION|e }}" />{% endif %}
+  <meta property="og:type" content="website" />
+  {% if M_SOCIAL_IMAGE %}
+  <meta property="og:image" content="{{ M_SOCIAL_IMAGE|format_siteurl }}" />
+  <meta property="og:image:width" content="{{ M_SOCIAL_IMAGE_WIDTH or 240 }}" />
+  <meta property="og:image:height" content="{{ M_SOCIAL_IMAGE_HEIGHT or 317 }}" />
+  <meta property="og:image:alt" content="{{ (M_SOCIAL_IMAGE_ALT or 'Portrait of ' ~ AUTHOR)|e }}" />
+  <meta name="twitter:image" content="{{ M_SOCIAL_IMAGE|format_siteurl }}" />
+  <meta name="twitter:image:alt" content="{{ (M_SOCIAL_IMAGE_ALT or 'Portrait of ' ~ AUTHOR)|e }}" />
+  <meta name="twitter:card" content="{{ M_SOCIAL_CARD or 'summary' }}" />
+  {% else %}<meta name="twitter:card" content="summary" />{% endif %}
+  {% block social_url %}{% if M_BLOG_URL %}<meta property="og:url" content="{{ M_BLOG_URL|format_siteurl|e }}" />{% endif %}{% endblock %}
+{% endblock %}
+
+{% block extra %}
+  {% block blog_ldjson %}{% import '_ldjson.html' as ld with context %}{{ ld.listing_graph(M_BLOG_NAME, (M_BLOG_URL or (SITEURL ~ '/blog')).rstrip('/') ~ '/', M_BLOG_DESCRIPTION or M_BLOG_NAME, true) }}{% endblock %}
+{% endblock %}
+
+{% block main %}
+<article class="page page-blog">
+  <div class="m-container">
+    <div class="page-head">
+      <div class="page-eyebrow">{% block blog_eyebrow %}Blog{% endblock %}</div>
+      <h1>{% block blog_heading %}Notes &amp; Writing{% endblock %}</h1>
+      {% block blog_lede %}
+      <p class="page-lede">Occasional notes on computational RNA biology, scientific software, reproducible research practice, and the wider RNA field. Longer methodological writing appears here; software releases and project updates are cross-posted from <a href="https://rnaforecast.com">RNA Forecast</a>.</p>
+      {% endblock %}
+    </div>
+  </div>
+
+  {#- Publications posts are the canonical paper pages and are listed on /publications/.
+      They stay reachable at their own URLs and via /blog/category/publications.html, but are
+      not repeated in this listing. Category/tag/author pages must keep listing everything,
+      so the filter applies only to the plain blog index. -#}
+  {% set _hide_pubs = not (category is defined or tag is defined or author is defined) %}
+  {#- The plain index groups the complete non-publication set by :section:, so it must see
+      every article rather than the current 5-article page. Paged copies (index2.html ...)
+      keep their URLs but render the same grouped list and point their canonical at /blog/. -#}
+  {% set _all = articles if _hide_pubs else (articles_page.object_list if articles_page else articles) %}
+  {% if _hide_pubs %}
+  {% set _articles = _all|rejectattr('category.name', 'equalto', 'publications')|list %}
+  {% else %}
+  {% set _articles = _all %}
+  {% endif %}
+  <div class="blog-list">
+    {% if tags %}
+    <div class="tag-row blog-tags">
+      <a href="{{ SITEURL }}/blog/">All</a>
+      {% for tag, tag_articles in tags|sort(attribute='0') %}
+      <a href="{{ tag.url|format_siteurl|e }}">{{ tag|e }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if _articles and (_hide_pubs or not articles_page or (articles_page and articles_page.number == 1)) %}
+    {% set featured = _articles[0] %}
+    <a class="blog-featured" href="{{ featured.url|format_siteurl|e }}">
+      <div class="cap">
+        <div class="fe">Featured{% if featured.category %} &middot; {{ featured.category|e }}{% endif %}</div>
+        <h2>{{ featured.title }}</h2>
+        {% if featured.summary %}<p class="b-summary" style="font-size:1rem">{{ featured.summary|striptags|truncate(200)|e }}</p>{% endif %}
+        <div class="b-date">{{ featured.locale_date }}</div>
+        <div class="fe-read">Read the post &rarr;</div>
+      </div>
+    </a>
+    {% set _rest = _articles[1:] %}
+    {% else %}
+    {% set _rest = _articles %}
+    {% endif %}
+    {#- Group by the :section: field when we are on the plain index. Sections generate no
+        URLs of their own, so this grouping is purely presentational. -#}
+    {% if _hide_pubs %}
+    {% set _sections = [('guides', 'Guides'), ('essays', 'Essays'), ('talks', 'Talks &amp; events')] %}
+    {% set _known = ['guides', 'essays', 'talks'] %}
+    {% for _key, _label in _sections %}
+    {% set _group = _rest|selectattr('section', 'defined')|selectattr('section', 'equalto', _key)|list %}
+    {% if _group %}
+    <div class="sec-label" style="margin:2.4rem 0 0">{{ _label }}</div>
+    {% for article in _group %}
+    <a class="blog-item" href="{{ article.url|format_siteurl|e }}">
+      <div>
+        <div class="b-date">{{ article.locale_date }}</div>
+        {% if article.category %}<div class="b-cat">{{ article.category|e }}</div>{% endif %}
+      </div>
+      <div>
+        <h3>{{ article.title }}</h3>
+        {% if article.summary %}<p class="b-summary">{{ article.summary|striptags|truncate(220)|e }}</p>{% endif %}
+      </div>
+      <div class="b-read">{% if article.status == 'draft' %}<span class="m-label m-dim">draft</span> {% endif %}Read &rarr;</div>
+    </a>
+    {% endfor %}
+    {% endif %}
+    {% endfor %}
+    {% set _ungrouped = (_rest|rejectattr('section', 'defined')|list + _rest|selectattr('section', 'defined')|rejectattr('section', 'in', _known)|list)|sort(attribute='date', reverse=true) %}
+    {% if _ungrouped %}
+    <div class="sec-label" style="margin:2.4rem 0 0">More</div>
+    {% for article in _ungrouped %}
+    <a class="blog-item" href="{{ article.url|format_siteurl|e }}">
+      <div>
+        <div class="b-date">{{ article.locale_date }}</div>
+        {% if article.category %}<div class="b-cat">{{ article.category|e }}</div>{% endif %}
+      </div>
+      <div>
+        <h3>{{ article.title }}</h3>
+        {% if article.summary %}<p class="b-summary">{{ article.summary|striptags|truncate(220)|e }}</p>{% endif %}
+      </div>
+      <div class="b-read">{% if article.status == 'draft' %}<span class="m-label m-dim">draft</span> {% endif %}Read &rarr;</div>
+    </a>
+    {% endfor %}
+    {% endif %}
+    {% elif _rest %}
+    <div class="sec-label" style="margin:2rem 0 0">All posts</div>
+    {% for article in _rest %}
+    <a class="blog-item" href="{{ article.url|format_siteurl|e }}">
+      <div>
+        <div class="b-date">{{ article.locale_date }}</div>
+        {% if article.category %}<div class="b-cat">{{ article.category|e }}</div>{% endif %}
+      </div>
+      <div>
+        <h3>{{ article.title }}</h3>
+        {% if article.summary %}<p class="b-summary">{{ article.summary|striptags|truncate(220)|e }}</p>{% endif %}
+      </div>
+      <div class="b-read">{% if article.status == 'draft' %}<span class="m-label m-dim">draft</span> {% endif %}Read &rarr;</div>
+    </a>
+    {% endfor %}
+    {% endif %}
+
+    {% if _hide_pubs %}
+    <div class="m-note m-info" style="margin-top:2.4rem">
+      <p>Paper announcements are listed on the <a href="{{ SITEURL }}/publications/">publications</a> page, which links each paper to its own page and DOI.</p>
+    </div>
+    {% endif %}
+  </div>
+
+  {% if not _hide_pubs and articles_paginator and articles_paginator.num_pages > 1 %}
+  <div class="m-container" style="padding-top:2rem;padding-bottom:1rem">
+    <nav class="pagination" style="display:flex;gap:14px;align-items:center;font-family:'Archivo',sans-serif;font-size:.85rem">
+      {% if articles_page.has_previous() %}<a href="{{ SITEURL }}/{{ articles_previous_page.url }}">&larr; Newer</a>{% endif %}
+      <span class="m-dim">Page {{ articles_page.number }} / {{ articles_paginator.num_pages }}</span>
+      {% if articles_page.has_next() %}<a href="{{ SITEURL }}/{{ articles_next_page.url }}">Older &rarr;</a>{% endif %}
+    </nav>
+  </div>
+  {% endif %}
+</article>
+{% endblock %}

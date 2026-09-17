@@ -68,7 +68,7 @@ def main() -> int:
     parser.add_argument(
         "--source-static-dir",
         type=Path,
-        default=Path("Pelican/pelican-theme/static"),
+        default=Path("pelican-theme/static"),
         help="Theme static source directory containing m-light.css and postprocess.py",
     )
     args = parser.parse_args()
