@@ -4,7 +4,11 @@ include CNAME
 include pytest.ini
 include pyproject.toml
 
-recursive-include Pelican *
+recursive-include content *
+recursive-include pelican-theme *
+recursive-include plugins *
+recursive-include tools *
+include pelicanconf.py publishconf.py Makefile make.sh
 recursive-include scripts *
 recursive-include tests *
 recursive-include local_docs *
@@ -18,7 +22,8 @@ prune .github
 prune .pytest_cache
 prune .venv
 prune michaelwolfinger_com.egg-info
-prune Pelican/__pycache__
-prune Pelican/output
-prune Pelican/content/cache
-prune Pelican/pelican-theme/test
+prune output
+prune output-publish
+prune content/cache
+prune pelican-theme/test
+prune design_handoff

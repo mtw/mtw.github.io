@@ -11,7 +11,7 @@ from pathlib import Path
 
 import pytest
 
-BLOG_DIR = Path(__file__).resolve().parents[1] / "Pelican" / "content" / "blog"
+BLOG_DIR = Path(__file__).resolve().parents[1] / "content" / "blog"
 REQUIRED = ("date", "slug", "category", "tags", "summary", "description", "author")
 SECTIONS = {"guides", "essays", "talks"}
 FIELD_RE = re.compile(r"^:(?P<key>[a-z_]+):\s*(?P<value>.*?)\s*$", re.MULTILINE)

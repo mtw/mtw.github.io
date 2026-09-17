@@ -4,7 +4,7 @@ import sys
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-PELICAN_DIR = REPO_ROOT / "Pelican"
+PELICAN_DIR = REPO_ROOT
 
 
 def build_site(tmp_path: Path, settings_file: str) -> Path:
