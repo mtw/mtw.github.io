@@ -6,11 +6,9 @@ SITENAME = "Michael T. Wolfinger"
 SITEURL = ''
 OUTPUT_PATH = 'output'
 
-STATIC_URL = '{path}'
 
 PATH = 'content'
 ARTICLE_PATHS = ['blog']
-ARTICLE_EXCLUDES = ['blog/authors','blog/category','blog/tag']
 PAGE_PATHS = ['']
 
 # Explicit so local and CI builds render dates identically regardless of locale.
@@ -28,10 +26,10 @@ DIRECT_TEMPLATES = ['index']
 
 FORMATTED_FIELDS = ['summary', 'landing', 'header', 'footer', 'description', 'badge']
 
+# One font request instead of three; the template escapes the ampersands once, so they
+# must be plain '&' here (a pre-escaped '&amp;' would come out double-escaped).
 M_CSS_FILES = [
-    'https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800',
-    'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600',
-    'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500',
+    'https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap',
     'static/m-mtw.css',
 ]
 
@@ -59,7 +57,6 @@ SITEMAP = {
     "exclude": ["services", "consulting", "blog/archive/", "blog/author/", "authors", "index", "legal"]
 }
 
-GITHUB_URL = "https://github.com/mtw/mtw.github.io"
 
 #M_SITE_LOGO_TEXT = 'Your Brand'
 
@@ -120,7 +117,6 @@ EXTRA_PATH_METADATA = {
                         'extra/favicon.ico': {'path': 'favicon.ico'},
                         }
 
-DISPLAY_PAGES_ON_MENU = True
 
 #M_HTML_HEADER = '<link rel="stylesheet" href="extra/css/extra.css"'
 
@@ -134,7 +130,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-TWITTER_USERNAME = 'mtwolfinger'
 
 M_BLOG_NAME = "michaelwolfinger.com Bioinformatics Blog"
 M_BLOG_URL = 'https://michaelwolfinger.com/blog/'
@@ -175,5 +170,3 @@ PATH_METADATA = '(?P<slug>.+).rst'
 
 DEFAULT_PAGINATION = 5
 
-CSS_MIN = True
-HTML_MIN = True
