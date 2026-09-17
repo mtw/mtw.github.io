@@ -111,7 +111,7 @@ M_LINKS_FOOTER4 = [('Social', ''),
                     ('ORCID', 'https://orcid.org/0000-0003-0925-5205'),
                     ]
 
-M_FINE_PRINT = "© 2026 Michael T. Wolfinger · Vienna, Austria · michael@rnaforecast.com"
+M_FINE_PRINT = "© 2026 Michael T. Wolfinger · Vienna, Austria · michael.wolfinger@rnaforecast.com"
 
 STATIC_PATHS = ['static', 'extra/CNAME', 'extra/robots.txt', 'extra/favicon.ico']
 EXTRA_PATH_METADATA = {
