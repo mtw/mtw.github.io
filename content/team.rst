@@ -40,7 +40,6 @@ People & Supervision
        <div class="person"><div><div class="n">Daniel Hooker</div></div><span class="y">FH Campus Wien</span></div>
        <div class="person"><div><div class="n">Christian Mayr</div></div><span class="y">FH Campus Wien</span></div>
      </div>
-     <p class="small-print" style="margin-top:18px">Researchers previously supervised, at the University of Vienna and FH Campus Wien. Affiliations reflect the period of supervision and do not imply current membership of any group I lead.</p>
    </div>
 
    <h2 class="sec-head">Supervision inquiries</h2>

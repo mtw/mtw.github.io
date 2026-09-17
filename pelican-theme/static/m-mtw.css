@@ -488,6 +488,8 @@ article>.m-container:first-child{padding-top:0}
 .research-area h2,.research-area h3{font-family:'Archivo',sans-serif;font-size:1.35rem;font-weight:700;text-transform:uppercase;letter-spacing:.01em;margin:0 0 .7rem}
 .meta-2{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--border-2);background:var(--panel);margin-top:.6rem}
 .meta-2>div{padding:14px 18px}
+.meta-1{border:1px solid var(--border-2);background:var(--panel);margin-top:.6rem;padding:14px 18px}
+.meta-1 .k{font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);font-weight:700;margin-bottom:5px}
 .meta-2>div:first-child{border-right:1px solid var(--border-2)}
 .meta-2 .k{font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);font-weight:700;margin-bottom:5px}
 
