@@ -3,7 +3,7 @@
 {% if not M_BLOG_NAME %}{% set M_BLOG_NAME = SITENAME %}{% endif %}
 {% extends "base.html" %}
 
-{% block title %}{% block blog_title %}{{ M_BLOG_NAME|e }}{% endblock %}{% endblock %}
+{% block title %}{% block blog_title %}{{ M_BLOG_NAME|e }}{% endblock %}{% if articles_page and articles_page.number > 1 %} (page {{ articles_page.number }}){% endif %}{% endblock %}
 
 {% block head_links %}
   {% block blog_canonical %}{% if M_BLOG_URL %}<link rel="canonical" href="{{ M_BLOG_URL|format_siteurl|e }}" />{% endif %}{% endblock %}
