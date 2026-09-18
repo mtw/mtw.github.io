@@ -23,6 +23,10 @@ Presentations
 Selected oral presentations and invited talks
 =============================================
 
+| :strong:`Enhanced RNA Structure Prediction Through Modified Base Integration`
+| Presented at *RNA Leaders Europe*
+| Vienna, Austria. 18 March 2026 | :label-flat-info:`Invited talk`
+
 | :strong:`Viral or Artificial? xrRNAs Just Say NO to Exonucleases`
 | Presented at the *RNA Modelling Across Scales Meeting*
 | Trieste, Italy. 22 May 2025 | :label-flat-info:`Invited talk`
