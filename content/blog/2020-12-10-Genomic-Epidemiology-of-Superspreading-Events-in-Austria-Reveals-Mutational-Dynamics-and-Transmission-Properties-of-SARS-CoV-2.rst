@@ -9,7 +9,6 @@ Genomic Epidemiology of Superspreading Events in Austria Reveals Mutational Dyna
 :journal: Sci. Transl. Med.
 :year: 2020
 :paper_authors: Alexandra Popa, Jakob-Wendelin Genger, Michael D. Nicholson, Thomas Penz, Daniela Schmid, Stephan W Aberle, Benedikt Agerer, Alexander Lercher, Lukas Endler, Henrique Colaco, Mark Smyth, Michael Schuster, Miguel L. Grau, Francisco Martínez-Jiménez, Oriol Pich, Wegene Borena, Erich Pawelka, Zsofia Keszei, Martin Senekowitsch, Jan Laine, Judith H Aberle, Monika Redlberger-Fritz, Mario Karolyi, Alexander Zoufaly, Sabine Maritschnik, Martin Borkovec, Peter Hufnagl, Manfred Nairz, Günter Weiss, Michael T. Wolfinger, Dorothee von Laer, Giulio Superti-Furga, Nuria Lopez-Bigas, Elisabeth Puchhammer-Stöckl, Franz Allerberger, Franziska Michor, Christoph Bock, Andreas Bergthaler
-:frontpage: no
 :slug: genomic-epidemiology-sars-cov-2-austria
 :summary: This study shows how superspreading events shaped the first wave of SARS-CoV-2 in Austria, based on viral mutations and travel-linked transmission patterns.
 :title: Genomic epidemiology of SARS-CoV-2 superspreading events in Austria

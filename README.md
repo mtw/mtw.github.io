@@ -12,7 +12,7 @@ through `pyproject.toml`.
 - `pelicanconf.py`: local development settings; `publishconf.py`: production settings
 - `scripts/`: the publish-time minification step
 - `tests/`: site tests (build, internal links, live URLs, content metadata)
-- `tools/`: content migration helpers
+- `tools/`: source of the social-card images (`og-cards-source.html`)
 - `.github/workflows/build-deploy.yml`: build, test and GitHub Pages deployment
 
 ## Local Development
@@ -36,8 +36,7 @@ make test               # run the test suite
 make clean              # remove output/ and output-publish/
 ```
 
-`pelican -lr` from the root does the same as `make devserver`. `./make.sh` runs a
-development build and a production build in one go. On macOS `make` needs the Xcode
+`pelican -lr` from the root does the same as `make devserver`. On macOS `make` needs the Xcode
 command line tools (`xcode-select --install`).
 
 The development build uses relative URLs and goes to `output/`; the production build

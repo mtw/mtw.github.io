@@ -8,7 +8,6 @@ Transcriptome-Wide Effects of Inverted SINEs on Gene Expression and Their Impact
 :journal: Genome Biol.
 :year: 2016
 :paper_authors: Mansoureh Tajaddod, Andrea Tanzer, Konstantin Licht, Michael T. Wolfinger, Stefan Badelt, Florian Huber, Oliver Pusch, Sandy Schopoff, Michael Janisiw, Ivo Hofacker, Michael F. Jantsch
-:frontpage: no
 :slug: Transcriptome-Wide-Effects-of-Inverted-SINEs-on-Gene-Expression-and-Their-Impact-on-RNA-Polymerase-II-Activity
 :summary: This paper shows that nearby inverted SINEs, especially Alu pairs in 3'UTRs, are associated with reduced gene expression and can repress transcripts by impairing RNA polymerase II elongation.
 :title: How inverted SINEs repress gene expression
