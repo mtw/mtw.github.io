@@ -96,7 +96,7 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container::  m-col-t-8
 
-      | 54. :link-flat-strong:`Identification of conserved RNA regulatory switches in living cells using RNA secondary structure ensemble mapping and covariation analysis <{filename}/blog/2025-01-01-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst>`
+      | 54. :link-flat-strong:`Identification of conserved RNA regulatory switches in living cells using RNA secondary structure ensemble mapping and covariation analysis <{filename}/blog/2025-06-17-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst>`
       | Ivana Borovská, Chundan Zhang, Sarah-Luisa J. Dülk, Edoardo Morandi, Marta F. S. Cardoso, Billal M. Bourkia, Daphne A. L. van den Homberg, :ul:`Michael T. Wolfinger`, Willem A. Velema, Danny Incarnato
       | *Nat. Biotechnol.* 44(6):989–1001 (2025)
       | :doi:`doi:10.1038/s41587-025-02739-0 <https://doi.org/10.1038/s41587-025-02739-0>` | :label-flat-info:`Journal article`
@@ -106,13 +106,13 @@ Peer-reviewed journal / conference articles and book chapters
       .. figure:: {static}/files/papers/preview/Preview__Borovska-2025.001small.webp
           :alt: Ensemble deconvolution and temperature dependencey of RNA structure
           :figclass: m-figure m-flat
-          :target: {filename}/blog/2025-01-01-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst
+          :target: {filename}/blog/2025-06-17-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst
 
   .. container:: m-row
 
     .. container::  m-col-t-8
 
-      | 53. :link-flat-strong:`From Structure to Function: Computational Insights into Musashi-RNA Complexes in the Context of Viral Pathogenesis and Beyond <{filename}/blog/2025-01-01-From-Structure-to-Function-Computational-Insights-into-Musashi-RNA-Complexes.rst>`
+      | 53. :link-flat-strong:`From Structure to Function: Computational Insights into Musashi-RNA Complexes in the Context of Viral Pathogenesis and Beyond <{filename}/blog/2025-06-25-From-Structure-to-Function-Computational-Insights-into-Musashi-RNA-Complexes.rst>`
       | Nitchakan Darai, Leonhard Sidl, Thanyada Rungrotmongkol, Peter Wolschann, :ul:`Michael T. Wolfinger`
       | *Sci. Asia* 51S(1) 2025s013:1-10 (2025)
       | :doi:`doi:10.2306/scienceasia1513-1874.2025.s013 <https://doi.org/10.2306/scienceasia1513-1874.2025.s013>` | :label-flat-info:`Review article`
@@ -122,13 +122,13 @@ Peer-reviewed journal / conference articles and book chapters
       .. figure:: {static}/files/papers/preview/Preview__Darai-2025.001small.webp
           :alt: Structural overview of Musashi-RNA complexes in regulatory and viral contexts
           :figclass: m-figure m-flat
-          :target: {filename}/blog/2025-01-01-From-Structure-to-Function-Computational-Insights-into-Musashi-RNA-Complexes.rst
+          :target: {filename}/blog/2025-06-25-From-Structure-to-Function-Computational-Insights-into-Musashi-RNA-Complexes.rst
 
   .. container:: m-row
 
     .. container::  m-col-t-8
 
-      | 52. :link-flat-strong:`Bayesian Approximation of RNA Folding Times <{filename}/blog/2025-01-01-Bayesian-Approximation-of-RNA-Folding-Times.rst>`
+      | 52. :link-flat-strong:`Bayesian Approximation of RNA Folding Times <{filename}/blog/2025-03-05-Bayesian-Approximation-of-RNA-Folding-Times.rst>`
       | Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, :ul:`Michael T. Wolfinger`, Christoph Flamm, Frank Hutter
       | *ICLR 2025 Workshop on AI for Nucleic Acids* (2025)
       | :doi:`doi:10.5281/zenodo.15228717 <https://doi.org/10.5281/zenodo.15228717>` | :label-flat-info:`Conference article`
@@ -138,13 +138,13 @@ Peer-reviewed journal / conference articles and book chapters
       .. figure:: {static}/files/papers/preview/Preview__Scheuer-2025__AI4NA.001small.webp
           :alt: KinPFN: Training on a synthetic prior
           :figclass: m-figure m-flat
-          :target: {filename}/blog/2025-01-01-Bayesian-Approximation-of-RNA-Folding-Times.rst
+          :target: {filename}/blog/2025-03-05-Bayesian-Approximation-of-RNA-Folding-Times.rst
 
   .. container:: m-row
 
     .. container::  m-col-t-8
 
-      | 51. :link-flat-strong:`KinPFN: Bayesian Approximation of RNA Folding Kinetics using Prior-Data Fitted Networks <{filename}/blog/2025-01-01-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst>`
+      | 51. :link-flat-strong:`KinPFN: Bayesian Approximation of RNA Folding Kinetics using Prior-Data Fitted Networks <{filename}/blog/2025-01-22-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst>`
       | Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, :ul:`Michael T. Wolfinger`, Christoph Flamm, Frank Hutter
       | *The Thirteenth International Conference on Learning Representations (ICLR'25)* (2025)
       | :doi:`doi:10.5281/zenodo.15233965 <https://doi.org/10.5281/zenodo.15233965>` | :label-flat-info:`Conference article`
@@ -154,7 +154,7 @@ Peer-reviewed journal / conference articles and book chapters
       .. figure:: {static}/files/papers/preview/Preview__Scheuer-2025.001small.webp
           :alt: KinPFN: Training on a synthetic prior
           :figclass: m-figure m-flat
-          :target: {filename}/blog/2025-01-01-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst
+          :target: {filename}/blog/2025-01-22-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst
 
 .. _year2024:
 

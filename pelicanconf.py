@@ -100,7 +100,7 @@ M_LINKS_FOOTER1 = [('Home', '/'),
 M_LINKS_FOOTER2 = [('More', ''),
                     ('RNA Forecast', 'https://rnaforecast.com'),
                     ('Contact', '/contact/'),
-                    ('Legal Note', '/legal/'),
+                    ('Impressum', '/legal/'),
                     ]
 
 M_LINKS_FOOTER3 = [('My Profiles', ''),

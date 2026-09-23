@@ -1,6 +1,6 @@
 {# michaelwolfinger.com — base layout (Homepage2026 design) #}
 <!DOCTYPE html>
-<html lang="{% if page and page.lang %}{{ page.lang }}{% elif article and article.lang %}{{ article.lang }}{% else %}{{ DEFAULT_LANG }}{% endif %}"{% if not M_DISABLE_SOCIAL_META_TAGS %} prefix="og: http://ogp.me/ns#"{% endif %}>
+<html lang="{% if page and page.html_lang %}{{ page.html_lang }}{% elif page and page.lang %}{{ page.lang }}{% elif article and article.lang %}{{ article.lang }}{% else %}{{ DEFAULT_LANG }}{% endif %}"{% if not M_DISABLE_SOCIAL_META_TAGS %} prefix="og: http://ogp.me/ns#"{% endif %}>
 <head>
   <meta charset="UTF-8" />
   <title>{% block title %}{% endblock title %}</title>

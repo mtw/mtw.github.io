@@ -11,6 +11,7 @@
 {"@type": "Person",
  "@id": {{ _person_id|tojson }},
  "name": {{ AUTHOR|tojson }},
+ "honorificPrefix": "Dr.",
  "givenName": "Michael",
  "familyName": "Wolfinger",
  "url": {{ _site|tojson }},
@@ -24,6 +25,8 @@
  "worksFor": {"@id": {{ _org_id|tojson }}},
  "affiliation": {"@id": {{ _org_id|tojson }}},
  "knowsLanguage": ["en", "de"],
+ "nationality": {"@type": "Country", "name": "Austria"},
+ "alumniOf": {"@type": "CollegeOrUniversity", "name": "University of Vienna", "sameAs": "https://www.univie.ac.at/"},
  "sameAs": [
   "https://rnaforecast.com",
   "https://twitter.com/mtwolfinger",

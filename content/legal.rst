@@ -1,34 +1,56 @@
-Legal Information / Impressum
-######################################
-:summary: Legal notice (Impressum) for michaelwolfinger.com
-:title: Legal Note | Michael T. Wolfinger
-:description: Legal notice (Impressum) for michaelwolfinger.com: site operator, contact, copyright, and liability information.
-
-
-.. role:: link-flat-strong(link)
-  :class: m-flat m-text m-strong
+Impressum
+#########
+:title: Impressum | Michael T. Wolfinger
+:summary: Impressum und Offenlegung gemäß § 5 ECG und § 25 MedienG
+:description: Impressum von michaelwolfinger.com: Medieninhaber, Kontakt, Blattlinie, Urheberrecht und Haftung gemäß § 5 ECG und § 25 MedienG.
+:html_lang: de
 
 .. role:: link-flat(link)
   :class: m-flat m-text
 
+.. Die Seite ist auf Deutsch, da sie ausschließlich der Erfüllung der österreichischen
+   Offenlegungspflichten dient. Sobald die geschäftliche Tätigkeit sichtbar wird (ab
+   Dezember 2026), sind zusätzlich die Angaben nach § 14 UGB und § 5 ECG für Unternehmen
+   zu ergänzen (siehe die auskommentierten Zeilen unten) und die Seite ist aus robots.txt
+   und aus dem Sitemap-Ausschluss zu nehmen.
 
-Informationen und Offenlegung gemäß §5 (1) ECG, § 25 MedienG, § 63 GewO und § 14 UGB
+Informationen und Offenlegung gemäß § 5 Abs. 1 ECG und § 25 MedienG.
 
-Websitebetreiber und Medieninhaber
-----------------------------------
+Medieninhaber, Herausgeber und Websitebetreiber
+-----------------------------------------------
 
-Michael T. Wolfinger
+| Dr. Michael T. Wolfinger
+| Wien, Österreich
 
-Kontaktdaten
-------------
+.. Anschrift (§ 5 Abs. 1 Z 2 ECG) ergänzen:
+   | Straße Hausnummer
+   | PLZ Wien
 
-:link-flat:`Contact <{filename}contact.rst>`
+Kontakt
+-------
 
-Anwendbare Rechtsvorschrift
----------------------------
+| E-Mail: michael.wolfinger@rnaforecast.com
+| Weitere Kontaktmöglichkeiten: :link-flat:`Kontaktseite <{filename}contact.rst>`
 
-https://www.ris.bka.gv.at
+.. Unternehmensdaten (ab Aufnahme der geschäftlichen Tätigkeit, § 5 ECG / § 14 UGB):
+   | Firma: RNA Forecast e.U.
+   | Firmenbuchnummer: FN ......
+   | Firmenbuchgericht: Handelsgericht Wien
+   | UID-Nummer: ATU........
+   | Gewerbebehörde: Magistrat der Stadt Wien
+   | Mitglied der Wirtschaftskammer Wien
 
+Unternehmensgegenstand und Blattlinie
+-------------------------------------
+
+Die Website informiert über die wissenschaftliche Tätigkeit von Michael T. Wolfinger:
+Forschung, Publikationen, Vorträge und Lehre auf dem Gebiet der computergestützten
+RNA-Biologie und Bioinformatik.
+
+Anwendbare Rechtsvorschriften
+-----------------------------
+
+Rechtsinformationssystem des Bundes: https://www.ris.bka.gv.at
 
 Urheberrecht
 ------------

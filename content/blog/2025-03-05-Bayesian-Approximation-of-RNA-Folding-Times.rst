@@ -1,7 +1,7 @@
 Bayesian Approximation of RNA Folding Times
 ###########################################
 
-:date: 2025-01-01
+:date: 2025-03-05
 :modified: 2026-04-24
 :tags: RNA folding kinetics; AI
 :category: publications
@@ -49,6 +49,6 @@ It also connects directly to kinetics-aware RNA design, because many design deci
 Citation
 ========
 
-  | :link-flat-strong:`Bayesian Approximation of RNA Folding Times <{filename}/blog/2025-01-01-Bayesian-Approximation-of-RNA-Folding-Times.rst>`
+  | :link-flat-strong:`Bayesian Approximation of RNA Folding Times <{filename}/blog/2025-03-05-Bayesian-Approximation-of-RNA-Folding-Times.rst>`
   | Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, :ul:`Michael T. Wolfinger`, Christoph Flamm, Frank Hutter
   | *ICLR 2025 Workshop on AI for Nucleic Acids* (2025) | :doi:`doi:10.5281/zenodo.15228717 <https://doi.org/10.5281/zenodo.15228717>` | :link-flat:`PDF <{static}/files/papers/Scheuer-2025__AI4NA.pdf>`
