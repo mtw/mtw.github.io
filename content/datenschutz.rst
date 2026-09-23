@@ -42,8 +42,8 @@ eingebunden.
 ===========================
 
 Ohne Ihre Einwilligung setzt diese Website keine Cookies und speichert nichts in Ihrem
-Browser. Beim ersten Besuch fragt ein Banner, ob Google Analytics eingesetzt werden
-darf. Ihre Entscheidung (Zustimmung oder Ablehnung) wird im Local Storage Ihres
+Browser. Beim ersten Besuch fragt ein Banner, ob anonyme Nutzungsstatistiken (Google
+Analytics, siehe Punkt 4) erhoben werden dürfen. Ihre Entscheidung (Zustimmung oder Ablehnung) wird im Local Storage Ihres
 Browsers unter dem Schlüssel ``mtw-consent`` für zwölf Monate gespeichert, damit das
 Banner nicht erneut erscheint. Eine Ablehnung hat keinerlei Auswirkungen auf die
 Nutzung der Website.
