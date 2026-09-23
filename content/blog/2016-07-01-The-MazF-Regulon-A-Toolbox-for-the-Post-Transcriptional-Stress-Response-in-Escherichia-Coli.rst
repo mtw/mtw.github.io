@@ -5,8 +5,8 @@ The MazF-Regulon: A Toolbox for the Post-Transcriptional Stress Response in Esch
 :modified: 2026-04-24
 :tags: bacteria
 :category: publications
+:doi: 10.1093/nar/gkw115
 :slug: The-MazF-Regulon-A-Toolbox-for-the-Post-Transcriptional-Stress-Response-in-Escherichia-Coli
-:author: mtw
 :summary: This paper uses Poly-seq to define the MazF regulon in Escherichia coli, showing how MazF reshapes both mRNA processing and ribosome specificity to reprogram translation during harsh stress.
 :title: The MazF regulon and post-transcriptional stress adaptation in Escherichia coli
 :description: A mechanistic study of MazF-dependent translational reprogramming in E. coli, combining polysome-associated RNA sequencing with analysis of stress-ribosome formation and selective mRNA processing.

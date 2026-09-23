@@ -8,7 +8,6 @@ What Virus Bioinformatics Can and Cannot Tell Us About RNA Viruses
 :section: talks
 :frontpage: no
 :slug: Virus-Bioinformatics-Paving-the-Way-for-One-Health
-:author: mtw
 :title: What virus bioinformatics can and cannot tell us about RNA viruses
 :summary: Virus bioinformatics helps us compare genomes, track outbreaks, and identify conserved RNA elements, but its value depends on careful interpretation rather than broad claims.
 :description: A practical overview of how comparative genomics, RNA structure prediction, and genomic epidemiology contribute to RNA virus research.

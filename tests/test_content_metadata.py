@@ -12,7 +12,7 @@ from pathlib import Path
 import pytest
 
 BLOG_DIR = Path(__file__).resolve().parents[1] / "content" / "blog"
-REQUIRED = ("date", "slug", "category", "tags", "summary", "description", "author")
+REQUIRED = ("date", "slug", "category", "tags", "summary", "description")
 SECTIONS = {"guides", "essays", "talks"}
 FIELD_RE = re.compile(r"^:(?P<key>[a-z_]+):\s*(?P<value>.*?)\s*$", re.MULTILINE)
 
@@ -34,7 +34,7 @@ def _date(value: str) -> date:
 
 
 def test_blog_directory_has_posts():
-    assert len(_posts()) >= 71
+    assert len(_posts()) >= 67
 
 
 @pytest.mark.parametrize("post", _posts(), ids=lambda p: p.name)

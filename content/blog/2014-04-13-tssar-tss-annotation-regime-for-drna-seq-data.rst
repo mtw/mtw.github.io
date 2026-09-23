@@ -5,8 +5,8 @@ TSSAR: TSS annotation regime for dRNA-seq data
 :modified: 2026-04-24
 :tags: NGS; bacteria; new method; tools
 :category: publications
+:doi: 10.1186/1471-2105-15-89
 :slug: TSSAR-tss-annotation-regime-for-drna-seq-data
-:author: mtw
 :summary: TSSAR introduced statistically grounded, automated annotation of bacterial transcription start sites from dRNA-seq data and packaged it as both a RESTful web service and a standalone tool.
 :description: Automated bacterial TSS annotation from dRNA-seq data using a statistical model of TEX-treated versus untreated libraries, exposed through both web and command-line workflows.
 :title: Bacterial transcription start site annotation from dRNA-seq data

@@ -5,8 +5,8 @@ ViennaNGS: A toolbox for building efficient next-generation sequencing analysis 
 :modified: 2026-04-24
 :tags: NGS; tools
 :category: publications
+:doi: 10.12688/f1000research.6157.2
 :slug: ViennaNGS-a-toolbox-for-building-efficient-next-generation-sequencing-analysis-pipelines
-:author: mtw
 :title: Building efficient NGS analysis pipelines with ViennaNGS
 :summary: ViennaNGS is a modular toolbox for building reproducible NGS analysis workflows, combining Perl library code, utility scripts, and browser-oriented data-export components for early high-throughput genomics pipelines.
 :description: A modular Perl toolbox for next-generation sequencing analysis, designed to make custom NGS pipelines easier to build, reuse, and reproduce.

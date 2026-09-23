@@ -5,9 +5,9 @@ General and miRNA-mediated mRNA degradation occurs on ribosome complexes in Dros
 :modified: 2026-04-24
 :tags: NGS
 :category: publications
+:doi: 10.1128/MCB.01346-14
 :frontpage: no
 :slug: general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells
-:author: mtw
 :summary: This study shows that bulk and miRNA-guided mRNA degradation in Drosophila cells occurs on ribosome-associated messenger ribonucleoprotein complexes, linking decay machinery, translation, and high-throughput sequencing of decapped intermediates.
 :title: mRNA degradation occurs on ribosome complexes in Drosophila cells
 :description: A Drosophila study combining ribosome purification, decay-factor profiling, and sequencing of decapped intermediates to show that mRNA degradation is tightly coupled to ribosome-associated complexes.

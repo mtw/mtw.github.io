@@ -5,8 +5,8 @@ TERribly Difficult: Searching for Telomerase RNAs in Saccharomycetes
 :modified: 2022-10-14
 :tags: non-coding RNA
 :category: publications
+:doi: 10.3390/genes9080372
 :slug: TERribly-Difficult-Searching-for-Telomerase-RNAs-in-Saccharomycetes
-:author: mtw
 :summary: Telomerase RNAs are difficult to detect by homology search alone. This study reports an annotation strategy for Saccharomycetaceae using ViennaRNA-based methods.
 :title: Searching for Telomerase RNAs in Saccharomycetes is TERribly difficult
 :description: Finding and annotating Telomerase RNAs in phylogenetically related subgroups of yeasts is TERribly difficult

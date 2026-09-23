@@ -5,8 +5,8 @@ Rational Design of Mechanically Active RNAs
 :modified: 2026-05-12
 :tags: RNA design; xrRNA; synthetic biology
 :category: publications
+:doi: 10.1093/nar/gkag473
 :slug: Rational-design-of-mechanically-active-RNAs-in-Nucleic-Acids-Research
-:author: mtw
 :summary: This Nucleic Acids Research paper shows that synthetic xrRNAs can be designed from topological rules and validated experimentally as mechanically active RNAs.
 :title: Rational design of mechanically active RNAs
 :description: Nucleic Acids Research paper on synthetic xrRNAs, topological RNA design, and experimentally validated mechanical resistance.

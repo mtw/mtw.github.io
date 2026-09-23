@@ -5,8 +5,8 @@ Bi-Alignments as Models of Incongruent Evolution of RNA Sequence and Secondary S
 :modified: 2026-04-24
 :tags: non-coding RNA; new method; RNA structure conservation
 :category: publications
+:doi: 10.1007/978-3-030-63061-4_15
 :slug: Bi-Alignments-as-Models-of-Incongruent-Evolution-of-RNA-Sequence-and-Secondary-Structure
-:author: mtw
 :summary: This paper introduces bi-alignments, a formal framework for cases where RNA sequence homology and RNA structural homology cannot be captured by the same alignment.
 :title: Bi-alignments for incongruent RNA sequence and structure evolution
 :description: A methods paper on how to model structured RNAs when conserved sequence and conserved base-pairing patterns have shifted relative to each other.

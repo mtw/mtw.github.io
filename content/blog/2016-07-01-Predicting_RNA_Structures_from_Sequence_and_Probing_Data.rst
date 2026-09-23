@@ -5,8 +5,8 @@ Predicting RNA Structures from Sequence and Probing Data
 :modified: 2026-04-24
 :tags: ViennaRNA; RNA design; RNA folding kinetics; SHAPE; RNA structure conservation; RNA structure prediction
 :category: publications
+:doi: 10.1016/j.ymeth.2016.04.004
 :slug: Predicting-RNA-Structures-from-Sequence-and-Probing-Data
-:author: mtw
 :summary: This review explains how classical thermodynamic RNA folding models can be improved with chemical probing data, and why that combination remains one of the most reliable routes to biologically useful structure prediction.
 :title: Predicting RNA structures from sequence and probing data
 :description: A review of classical RNA secondary structure prediction, ensemble-based folding, and the integration of SHAPE and related probing data into thermodynamic models.

@@ -5,8 +5,8 @@ How archaeal Sm-like proteins shape RNA tailing
 :modified: 2026-04-30
 :tags: RNA-Protein interaction; non-coding RNA
 :category: publications
+:doi: 10.1093/nar/gkx437
 :slug: The-SmAP1-2-Proteins-of-the-Crenarchaeon-Sulfolobus-Solfataricus-Interact-with-the-Exosome-and-Stimulate-A-Rich-Tailing-of-Transcripts
-:author: mtw
 :summary: This paper shows that the archaeal Sm-like proteins SmAP1 and SmAP2 in Sulfolobus solfataricus interact with the exosome and stimulate A-rich tailing of transcripts, linking RNA-binding proteins to RNA turnover in archaea.
 :title: How archaeal Sm-like proteins shape RNA tailing
 :description: A study of SmAP1 and SmAP2 in Sulfolobus solfataricus showing their physical and functional connection to the archaeal exosome and transcript tailing.

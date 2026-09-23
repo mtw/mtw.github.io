@@ -5,8 +5,8 @@ Discoveries of Exoribonuclease-Resistant Structures of Insect-Specific Flaviviru
 :modified: 2026-04-24
 :tags: virus bioinformatics; non-coding RNA; xrRNA; flavivirus; virology
 :category: publications
+:doi: 10.3390/v12091017
 :slug: Discoveries-of-Exoribonuclease-Resistant-Structures-of-Insect-Specific-Flaviviruses-Isolated-in-Zambia
-:author: mtw
 :summary: This study isolates two insect-specific flaviviruses from mosquitoes in Zambia and shows that their 3'UTRs contain functional xrRNA-like elements that stall Xrn1.
 :title: Insect-specific flaviviruses from Zambia and their exoribonuclease-resistant RNAs
 :description: Isolation, comparative genomics, and functional validation of conserved xrRNA-like structures in the 3'UTRs of two insect-specific flaviviruses from Zambia.

@@ -5,8 +5,8 @@ In Silico Design of Ligand Triggered RNA Switches
 :modified: 2026-04-23
 :tags: energy landscapes; new method; RNA folding kinetics; RNA design; ViennaRNA; synthetic biology; co-transcriptional RNA folding
 :category: publications
+:doi: 10.1016/j.ymeth.2018.04.003
 :slug: In-Silico-Design-of-Ligand-Triggered-RNA-Switches
-:author: mtw
 :summary: A computational workflow for designing ligand-triggered RNA switches, with emphasis on sequence design, folding kinetics, and candidate prioritization.
 :title: In silico design of ligand-triggered RNA switches
 :description: Designing ligand-triggered riboswitches: Computational workflow and in silico analysis for studying the RNA folding kinetics of rationally designed sequences

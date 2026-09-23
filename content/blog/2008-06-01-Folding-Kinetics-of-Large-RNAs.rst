@@ -5,8 +5,8 @@ Folding Kinetics of Large RNAs
 :modified: 2026-04-24
 :tags: RNA folding kinetics; co-transcriptional RNA folding
 :category: publications
+:doi: 10.1016/j.jmb.2008.02.064
 :slug: folding-kinetics-of-large-rnas
-:author: mtw
 :summary: Kinwalker predicts folding trajectories of large RNAs by combining locally optimal substructures and kinetic heuristics, making co-transcriptional folding analysis feasible for molecules up to about 1500 nucleotides.
 :title: Folding kinetics of large RNAs
 :description: A heuristic approach to RNA folding kinetics that enables co-transcriptional folding predictions for much longer sequences than earlier methods.

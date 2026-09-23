@@ -5,8 +5,8 @@ Musashi Binding Elements in Zika Virus 3'UTR
 :modified: 2023-04-09
 :tags: non-coding RNA; virus bioinformatics; ViennaRNA; RNA-Protein interaction; flavivirus
 :category: publications
+:doi: 10.1038/s41598-019-43390-5
 :slug: Musashi-Binding-Elements-in-Zika-and-Related-Flavivirus-3UTRs-A-Comparative-Study-in-Silico
-:author: mtw
 :summary: A comparative analysis of Musashi binding element accessibility in Zika virus and related flavivirus 3' UTRs using thermodynamic RNA structure modeling.
 :description: Comparative thermodynamic analysis of Musashi binding elements in flavivirus 3' UTRs, with a focus on accessibility in Zika virus.
 :title: Musashi binding elements in Zika virus 3'UTR

@@ -5,8 +5,8 @@ Identification of Conserved RNA Regulatory Switches in Living Cells
 :modified: 2026-04-24
 :tags: RNA structure prediction; RNA structure conservation
 :category: publications
+:doi: 10.1038/s41587-025-02739-0
 :slug: conserved-rna-regulatory-switches-in-living-cells
-:author: mtw
 :summary: Transcriptome-scale ensemble mapping combined with covariation analysis reveals conserved RNA thermometers in bacteria and regulatory 5' UTR switches in human cells.
 :title: Conserved RNA regulatory switches in living cells
 :description: Transcriptome-wide mapping of RNA structural ensembles in living cells reveals conserved bacterial RNA thermometers and regulatory 5' UTR switches in human cells.
