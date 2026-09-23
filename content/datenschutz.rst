@@ -83,12 +83,17 @@ diese Angebote gelten die Datenschutzbestimmungen der jeweiligen Betreiber.
 6. Ihre Rechte
 ==============
 
-Ihnen stehen die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der
-Verarbeitung, Datenübertragbarkeit und Widerspruch zu; eine erteilte Einwilligung
-können Sie jederzeit mit Wirkung für die Zukunft widerrufen. Wenden Sie sich dazu an
-die oben genannte E-Mail-Adresse. Sie haben außerdem das Recht, sich bei der
-Aufsichtsbehörde zu beschweren: Österreichische Datenschutzbehörde, Barichgasse
-40–42, 1030 Wien, `dsb.gv.at <https://www.dsb.gv.at>`_.
+Nach der DSGVO haben Sie das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung
+der Verarbeitung, Datenübertragbarkeit und Widerspruch. Ich selbst speichere keine
+Daten, die sich einer Person zuordnen lassen: Die Server-Logfiles führen die
+Hosting-Anbieter, und die Google-Analytics-Daten sind pseudonym. Die Rechte nach
+Art. 15 bis 20 DSGVO können daher nur wahrgenommen werden, wenn Sie mir Angaben zur
+Identifizierung Ihrer Daten liefern (Art. 11 DSGVO). Wirksam in der Hand haben Sie
+Folgendes: Eine erteilte Einwilligung widerrufen Sie jederzeit über **Cookie
+settings** in der Fußzeile; die Google-Analytics-Cookies löschen Sie in Ihrem
+Browser. Fragen und Anträge richten Sie an die oben genannte E-Mail-Adresse.
+Beschwerden nimmt die Österreichische Datenschutzbehörde entgegen (Barichgasse 40–42,
+1030 Wien, `dsb.gv.at <https://www.dsb.gv.at>`_).
 
 7. Änderungen
 =============
