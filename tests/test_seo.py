@@ -51,7 +51,7 @@ def test_every_page_has_valid_jsonld_with_one_person(output_dir):
         for node in nodes:
             for key in ("url", "@id"):
                 value = node.get(key)
-                if isinstance(value, str) and not value.startswith("https://doi.org/"):
+                if isinstance(value, str) and not value.startswith(("https://doi.org/", "https://rnaforecast.com")):
                     assert value.startswith(SITEURL), f"{page}: relative {key} {value}"
         persons.add(json.dumps(next(n for n in nodes if "Person" in _types(n)), sort_keys=True))
     assert len(persons) == 1, "Person node differs between pages"
@@ -73,6 +73,8 @@ def test_paper_posts_carry_scholarly_article_with_doi(output_dir):
             assert doi.startswith("10."), doi
             assert scholarly[0]["@id"] == f"https://doi.org/{doi}"
             assert posting["about"]["@id"] == scholarly[0]["@id"]
+            assert isinstance(scholarly[0]["author"], list) and len(scholarly[0]["author"]) >= 1
+            assert scholarly[0]["isPartOf"]["name"] and re.match(r"^\d{4}$", scholarly[0]["datePublished"])
     assert with_doi >= 50, with_doi
 
 
@@ -83,6 +85,29 @@ def test_publications_page_lists_papers(output_dir):
     assert item_list["numberOfItems"] == len(items) >= 50
     assert [i["position"] for i in items] == list(range(1, len(items) + 1))
     assert all(i["item"]["@id"].startswith("https://doi.org/10.") for i in items)
+
+
+def test_talks_and_posters_are_event_lists(output_dir):
+    for path, minimum in (("presentations", 15), ("posters", 20)):
+        nodes = _graph(output_dir / "publications" / path / "index.html")
+        item_list = next(n for n in nodes if "ItemList" in _types(n))
+        items = item_list["itemListElement"]
+        assert len(items) >= minimum, (path, len(items))
+        for entry in items:
+            event = entry["item"]
+            assert event["@type"] == "Event" and event["name"] and event["location"]["address"]
+            assert re.match(r"^\d{4}-\d{2}(-\d{2})?$", event["startDate"]), event
+            if "workFeatured" in event and "url" in event["workFeatured"]:
+                url = event["workFeatured"]["url"]
+                assert url.startswith(SITEURL) and (output_dir / url[len(SITEURL) + 1:]).is_file(), url
+
+
+def test_llms_full_lists_papers_and_talks(output_dir):
+    text = (output_dir / "llms-full.txt").read_text(encoding="utf-8")
+    for heading in ("## Publications", "## Talks and Presentations", "## Posters", "## Writing"):
+        assert heading in text, heading
+    assert text.count("https://doi.org/10.") >= 60
+    assert text.count("\n- ") >= 90
 
 
 def _sitemap_urls(output_dir: Path) -> list[tuple[str, str]]:
