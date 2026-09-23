@@ -11,6 +11,7 @@ OUTPUT_PATH = 'output'
 PATH = 'content'
 ARTICLE_PATHS = ['blog']
 PAGE_PATHS = ['']
+PAGE_EXCLUDES = ['extra']   # static extras (robots, redirects, ...) are not pages
 
 # Explicit so local and CI builds render dates identically regardless of locale.
 DEFAULT_DATE_FORMAT = '%a %d %B %Y'
@@ -119,13 +120,19 @@ M_LINKS_FOOTER4 = [('Social', ''),
 M_FINE_PRINT = "© %d Michael T. Wolfinger · Vienna, Austria · michael.wolfinger@rnaforecast.com" % datetime.date.today().year
 
 STATIC_PATHS = ['static', 'extra/CNAME', 'extra/robots.txt', 'extra/favicon.ico',
-                'extra/llms.txt', 'extra/site.webmanifest']
+                'extra/llms.txt', 'extra/site.webmanifest', 'extra/redirects']
 EXTRA_PATH_METADATA = {
                         'extra/CNAME': {'path': 'CNAME'},
                         'extra/robots.txt': {'path': 'robots.txt'},
                         'extra/favicon.ico': {'path': 'favicon.ico'},
                         'extra/llms.txt': {'path': 'llms.txt'},
                         'extra/site.webmanifest': {'path': 'site.webmanifest'},
+                        # merged tags: the old tag URLs redirect to the surviving tag
+                        'extra/redirects/tag-virology.html': {'path': 'blog/tag/virology.html'},
+                        'extra/redirects/tag-virology2.html': {'path': 'blog/tag/virology2.html'},
+                        'extra/redirects/tag-virology3.html': {'path': 'blog/tag/virology3.html'},
+                        'extra/redirects/tag-novel-viruses.html': {'path': 'blog/tag/novel-viruses.html'},
+                        'extra/redirects/tag-agents.html': {'path': 'blog/tag/agents.html'},
                         }
 
 

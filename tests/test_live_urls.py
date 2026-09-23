@@ -45,6 +45,8 @@ def test_new_sitemap_adds_no_unknown_urls_and_drops_only_hidden_pages(tmp_path):
     # Category listings are disallowed in robots.txt, and the publications/papers/ stubs are
     # canonicalised to their blog posts; both still build, neither is advertised any more.
     allowed_to_leave |= {url for url in live if "/blog/category/" in url or "/publications/papers/" in url}
+    # Merged tags: their pages are now redirects to the surviving tag.
+    allowed_to_leave |= {f"https://michaelwolfinger.com/blog/tag/{t}.html" for t in ("virology", "novel-viruses", "agents")}
     dropped = live - new - allowed_to_leave
     assert not dropped, f"URLs dropped from the sitemap: {sorted(dropped)}"
     # Pages added on purpose after the September 2026 snapshot.
