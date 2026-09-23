@@ -1,8 +1,11 @@
 {% extends "archives.html" %}
-{% block blog_title %}{{ category|e }} | {{ M_BLOG_NAME|e }}{% endblock %}
+{% set _self_url = (articles_page.url if articles_page and articles_page.number > 1 else category.url) %}
+{% set _cat_label = (M_CATEGORY_LABELS or {}).get(category.name, category|string) %}
+{% block blog_title %}{{ _cat_label|e }} posts | {{ SITENAME|e }}{% endblock %}
 {% block blog_eyebrow %}Category{% endblock %}
-{% block blog_heading %}{{ category|e }}{% endblock %}
-{% block blog_lede %}<p class="page-lede" style="max-width:66ch">Posts in &ldquo;{{ category|e }}&rdquo;.</p>{% endblock %}
-{% block social_url %}<meta property="og:url" content="{{ category.url|format_siteurl|e }}" />{% endblock %}
-{% block blog_canonical %}<link rel="canonical" href="{{ (articles_page.url if articles_page and articles_page.number > 1 else category.url)|format_siteurl|e }}" />{% endblock %}
-{% block blog_ldjson %}{% import '_ldjson.html' as ld with context %}{{ ld.listing_graph(category|string, SITEURL ~ '/' ~ category.url, 'Posts in ' ~ category|string, false) }}{% endblock %}
+{% block blog_heading %}{{ _cat_label|e }}{% endblock %}
+{% block blog_lede %}<p class="page-lede" style="max-width:66ch">Posts in the &ldquo;{{ _cat_label|e }}&rdquo; category.</p>{% endblock %}
+{% block social_url %}<meta property="og:url" content="{{ _self_url|format_siteurl|e }}" />{% endblock %}
+{% block blog_canonical %}<link rel="canonical" href="{{ _self_url|format_siteurl|e }}" />{% endblock %}
+{% block blog_description %}Posts in the “{{ _cat_label }}” category of the michaelwolfinger.com blog by Michael T. Wolfinger.{% endblock %}
+{% block blog_ldjson %}{% import '_ldjson.html' as ld with context %}{{ ld.listing_graph(_cat_label, SITEURL ~ '/' ~ _self_url, self.blog_description(), false) }}{% endblock %}

@@ -1,7 +1,7 @@
 Papers
 ######
 :summary: This page holds the complete scholarly record of Michael T. Wolfinger, including journal articles, conference contributions, and preprints. RNA Forecast lists the subset of this work carrying the RNA Forecast affiliation.
-:title: Publications by Michael T. Wolfinger
+:title: Publications | Michael T. Wolfinger
 :hero_eyebrow: Publications
 :hero_title: Complete Publication Record
 :description: My research publications on RNA structure, viral bioinformatics, computational and synthetic biology. Michael T. Wolfinger, complete publication record.
@@ -32,7 +32,7 @@ Submitted Manuscripts / Preprints
 
     .. container::  m-col-t-8
 
-      | 58. :link-flat-strong:`Identification of a region within the 5’UTR of Interleukin–2 mRNA offers a promising strategy for drug development for autoimmune disorders <{filename}/publications.rst>`
+      | 58. :strong:`Identification of a region within the 5’UTR of Interleukin–2 mRNA offers a promising strategy for drug development for autoimmune disorders`
       | Katarzyna M. Gluchowska, Krzysztofa Odzywol, Agnieszka Zagozdzon, Tomasz K. Wirecki, Chandran Nithin, Bartlomiej Surpeta, Xiaobing Zhang, Jannan Zhao, Lukasz Joachimiak, Bartlomiej Hofman, Joanna Sztuba-Solinska, Katarzyna Drzewicka, Angelika Muchowicz, :ul:`Michael T. Wolfinger`, Roman Blaszczyk, Irina Tuszynska, Janusz M. Bujnicki, and Zbigniew Zaslona
       | Submitted manuscript (2026)
 
@@ -40,7 +40,7 @@ Submitted Manuscripts / Preprints
 
     .. container::  m-col-t-8
 
-      | 57. :link-flat-strong:`“Circle ofLife” - Zika virus genomic cyclization is controlled by sequence specificity <{filename}/publications.rst>`
+      | 57. :strong:`“Circle ofLife” - Zika virus genomic cyclization is controlled by sequence specificity`
       | Liam Kerr, Danielle L. Gemmill, Higor S. Pereira, :ul:`Michael T. Wolfinger`, Trushar R. Patel
       | Submitted manuscript (2026)
 
@@ -62,7 +62,7 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container::  m-col-t-8
 
-      | 56. :link-flat-strong:`Computational Analysis of Sequence Editability in the Theophylline RNA Aptamer as a Functional RNA Module <{filename}/publications.rst>`
+      | 56. :link-flat-strong:`Computational Analysis of Sequence Editability in the Theophylline RNA Aptamer as a Functional RNA Module <https://doi.org/10.3390/ijms27167228>`
       | Aamir Aman, Leonhard Sidl, Nitchakan Darai, Peter Wolschann, Thanyada Rungrotmongkol, :ul:`Michael T. Wolfinger`
       | *Int. J. Mol. Sci.* 27(16):7228 (2026)
       | :doi:`doi:10.3390/ijms27167228 <https://doi.org/10.3390/ijms27167228>` | :link-flat:`Article <https://www.mdpi.com/1422-0067/27/16/7228>` | :label-flat-info:`Journal article`
@@ -183,7 +183,7 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container:: m-col-t-8
 
-      | 49. :link-flat-strong:`Xinyang flavivirus, from Haemaphysalis flava ticks in Henan province, China, defines a basal, likely tick-only flavivirus clade <{filename}/blog/2024-05-29-Xingyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade.rst>`
+      | 49. :link-flat-strong:`Xinyang flavivirus, from Haemaphysalis flava ticks in Henan province, China, defines a basal, likely tick-only Orthoflavivirus clade <{filename}/blog/2024-05-29-Xinyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade.rst>`
       | Lan-Lan Wang, Qia Cheng, Natalee D. Newton, :ul:`Michael T. Wolfinger`, Mahali S. Morgan, Andrii Slonchak, Alexander A. Khromykh, Tian-Yin Cheng, Rhys H. Parry
       | *J. Gen. Virol.* 105(5) (2024)
       | :doi:`doi:10.1099/jgv.0.001991 <https://doi.org/10.1099/jgv.0.001991>` | :label-flat-info:`Journal article`
@@ -193,7 +193,7 @@ Peer-reviewed journal / conference articles and book chapters
       .. figure:: {static}/files/papers/preview/Preview__Wang-2024.001small.webp
           :alt: Figure 2 from Wang et al. (2024) doi:10.1099/jgv.0.001991
           :figclass: m-figure m-flat
-          :target: {filename}/blog/2024-05-29-Xingyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade.rst
+          :target: {filename}/blog/2024-05-29-Xinyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade.rst
 
   .. container:: m-row
 
@@ -272,7 +272,7 @@ Peer-reviewed journal / conference articles and book chapters
       | 44. :link-flat-strong:`Strukturierte RNAs in Viren <{filename}/blog/2023-03-23-Strukturierte-RNAs-in-Viren.rst>` (in German)
       | Roman Ochsenreiter, :ul:`Michael T. Wolfinger`
       | *Biospektrum* 29(2):156-158 (2023)
-      | :doi:`doi:10.1007/s12268-023-1907-x <https://www.biospektrum.de/magazinartikel/strukturierte-rnas-viren>` | :label-flat-info:`Review article`
+      | :doi:`doi:10.1007/s12268-023-1907-x <https://doi.org/10.1007/s12268-023-1907-x>` | :link-flat:`Article <https://www.biospektrum.de/magazinartikel/strukturierte-rnas-viren>` | :label-flat-info:`Review article`
 
     .. container:: m-col-t-4
 

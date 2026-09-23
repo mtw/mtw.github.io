@@ -2,11 +2,13 @@ Theoretical studies on RNA recognition by Musashi 1 RNA-binding protein
 #######################################################################
 
 :date: 2022-07-26
-:modified: 2026-04-24
-:tags: 3D; RNA-Protein interaction; AI
+:tags: 3D; RNA-protein interaction; AI
 :category: publications
+:doi: 10.1038/s41598-022-16252-w
+:journal: Sci. Rep.
+:year: 2022
+:paper_authors: Nitchakan Darai, Panupong Mahalapbutr, Peter Wolschann, Vannajan Sanghiran Lee, Michael T. Wolfinger, Thanyada Rungrotmongkol
 :slug: Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein
-:author: mtw
 :summary: Molecular dynamics and binding-energy calculations are used here to compare how Musashi-1 recognizes different RNA motifs and to identify determinants of binding specificity.
 :title: RNA recognition by Musashi-1
 :description: Computational analysis of Musashi-1 RNA recognition using molecular dynamics simulations and binding-energy calculations.

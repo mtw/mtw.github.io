@@ -5,8 +5,11 @@ Xinyang flavivirus, from Haemaphysalis flava ticks in Henan Province, China, def
 :modified: 2024-09-30
 :tags: virus bioinformatics; molecular epidemiology; One Health; xrRNA; novel viruses; flavivirus; virology
 :category: publications
+:doi: 10.1099/jgv.0.001991
+:journal: J. Gen. Virol.
+:year: 2024
+:paper_authors: Lan-Lan Wang, Qia Cheng, Natalee D. Newton, Michael T. Wolfinger, Mahali S. Morgan, Andrii Slonchak, Alexander A. Khromykh, Tian-Yin Cheng, Rhys H. Parry
 :slug: xinyang-flavivirus-tick-only-orthoflavivirus-clade
-:author: mtw
 :summary: Xinyang flavivirus defines a basal, likely tick-only orthoflavivirus clade and expands the comparative picture of vertebrate-independent flavivirus evolution.
 :title: Xinyang flavivirus and a likely tick-only orthoflavivirus clade
 :description: Xinyang flavivirus (XiFV) is a newly discovered virus in ticks, shedding light on tick-borne transmission
@@ -39,7 +42,7 @@ This connects naturally to the earlier :link-flat:`Mpulungu virus study <{filena
 
 What makes XiFV especially useful is that it sits at the intersection of discovery, comparative genomics, and evolutionary interpretation. The virus broadens the known distribution of this basal clade, supports the idea of a vertebrate-independent tick-only branch, and adds another structured 3' UTR to the small but growing set of non-coding regions that can be compared across unusual orthoflaviviruses. That combination makes the paper more than a geographic range extension. It is a clearer statement that the ecological diversity of tick-borne flaviviruses is wider than the classical vertebrate-centered model suggests.
 
-It also fits naturally with :link-flat:`When sequence conservation is not enough to find functional RNA structure <{filename}/blog/2026-04-05-When-Sequence-Conservation-Is-Not-Enough-to-Find-Functional-RNA-Structure.rst>`, because XiFV reinforces how much of the informative signal sits at the level of conserved architecture rather than straightforward sequence identity.
+XiFV also reinforces how much of the informative signal sits at the level of conserved architecture rather than straightforward sequence identity.
 
 .. frame:: Abstract
 

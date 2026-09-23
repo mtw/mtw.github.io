@@ -2,11 +2,13 @@ Harnessing Metabolic Regulation to Increase Hfq-Dependent Antibiotic Susceptibil
 #############################################################################################################
 
 :date: 2018-11-09
-:modified: 2026-04-24
 :tags: bacteria; One Health
 :category: publications
+:doi: 10.3389/fmicb.2018.02709
+:journal: Front. Microbiol.
+:year: 2018
+:paper_authors: Petra Pusic, Elisabeth Sonnleitner, Beatrice Krennmayr, Dorothea Agnes Heitzinger, Michael T. Wolfinger, Armin Resch, Udo Blasi
 :slug: Harnessing-Metabolic-Regulation-to-Increase-Hfq-Dependent-Antibiotic-Susceptibility-in-Pseudomonas-Aeruginosa
-:author: mtw
 :summary: This paper asks whether the Hfq/Crc/CrcZ metabolic control system can be used to make Pseudomonas aeruginosa more sensitive to antibiotics, and shows that the answer is yes.
 :title: Metabolic control of Hfq-dependent antibiotic susceptibility in Pseudomonas aeruginosa
 :description: A study linking Hfq, CrcZ, carbon source, c-di-GMP, and antibiotic susceptibility in Pseudomonas aeruginosa, with an eye toward metabolic re-sensitization.

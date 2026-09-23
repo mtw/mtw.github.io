@@ -3,13 +3,16 @@ From Structure to Function in Musashi-RNA Complexes
 
 :date: 2025-01-01
 :modified: 2026-04-24
-:tags: 3D; RNA-Protein interaction; AI
+:tags: 3D; RNA-protein interaction; AI
 :category: publications
+:doi: 10.2306/scienceasia1513-1874.2025.s013
+:journal: Sci. Asia
+:year: 2025
+:paper_authors: Nitchakan Darai, Leonhard Sidl, Thanyada Rungrotmongkol, Peter Wolschann, Michael T. Wolfinger
 :slug: From-Structure-to-Function-Computational-Insights-into-Musashi-RNA-Complexes
-:author: mtw
 :summary: This review article surveys how computational modeling, molecular dynamics, and AI-derived structures help explain Musashi-RNA recognition in both cellular regulation and viral pathogenesis.
 :title: From structure to function in Musashi-RNA complexes
-:description: A review of computational work on Musashi-RNA complexes, covering binding specificity, structural modeling, viral RNA interactions, and the functional implications of Musashi-mediated recognition.
+:description: Review of computational work on Musashi-RNA complexes: binding specificity, structural modeling, viral RNA interactions, and functional implications.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -39,7 +42,7 @@ For that reason, the paper is best read as a bridge between atomistic modeling a
 
 The review also reflects a broader change in RNA structural biology. AlphaFold-class models, improved docking strategies, and longer-timescale simulation workflows have made it easier to generate mechanistic hypotheses for RNA-protein complexes, but the hard part remains interpretation. In the Musashi field, the important advance is not simply higher-confidence coordinates. It is the ability to move from static structural models toward more explicit explanations of specificity, competition, and context dependence in RNA recognition.
 
-From my perspective, that is what makes this article worthwhile. It consolidates a line of work spanning Musashi binding to cellular RNAs, structural refinement of Musashi-RNA complexes, and possible links to viral pathogenesis. For readers interested in `RNA-Protein interaction`, `3D` modeling, or the realistic use of `AI` in structural biology, it provides a compact map of the field and a clear rationale for where computation can genuinely add insight.
+From my perspective, that is what makes this article worthwhile. It consolidates a line of work spanning Musashi binding to cellular RNAs, structural refinement of Musashi-RNA complexes, and possible links to viral pathogenesis. For readers interested in `RNA-protein interaction`, `3D` modeling, or the realistic use of `AI` in structural biology, it provides a compact map of the field and a clear rationale for where computation can genuinely add insight.
 
 .. frame:: Abstract
 

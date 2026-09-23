@@ -2,10 +2,9 @@ Research
 ########
 :title: Research | Michael T. Wolfinger
 :summary: My research program spans several connected areas of computational RNA biology, linked by a common focus on how RNA structure, dynamics, evolution, and function relate.
-:description: My research in computational RNA biology: RNA structure prediction, folding kinetics, functional RNA design, viral RNA biology, and RNA-protein recognition.
+:description: Research in computational RNA biology: RNA structure prediction, folding kinetics, functional RNA design, viral RNA biology, and RNA-protein recognition.
 :hero_eyebrow: Research
 :hero_title: Computational RNA Biology
-:extrahead: mtw_ldjson
 :rf_band: Current independently led projects, research themes, and affiliated publications are maintained on RNA Forecast.
 :rf_band_url: https://rnaforecast.com/research
 :rf_band_label: RNA Forecast research

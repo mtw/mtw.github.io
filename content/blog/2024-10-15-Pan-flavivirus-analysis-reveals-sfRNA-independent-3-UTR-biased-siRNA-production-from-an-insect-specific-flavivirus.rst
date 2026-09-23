@@ -5,8 +5,11 @@ Pan-flavivirus analysis reveals sfRNA-independent 3' UTR-biased siRNA production
 :modified: 2024-10-31
 :tags: virus bioinformatics; xrRNA; flavivirus; virology
 :category: publications
+:doi: 10.1128/jvi.01215-24
+:journal: J. Virol.
+:year: 2024
+:paper_authors: Benoit Besson, Gijs J. Overheul, Michael T. Wolfinger, Sandra Junglen, Ronald P. van Rij
 :slug: pan-flavivirus-sirna-production-in-insect-specific-flavivirus
-:author: mtw
 :summary: A comparative analysis of vsiRNA profiles across insect-specific flaviviruses reveals unusually strong 3' UTR-biased siRNA production that is independent of sfRNA formation.
 :title: 3' UTR-biased siRNA production in an insect-specific flavivirus
 :description: This study uncovers a distinctive siRNA response in Kamiti River virus, an insect-specific flavivirus that has a particularly long structured 3'UTR

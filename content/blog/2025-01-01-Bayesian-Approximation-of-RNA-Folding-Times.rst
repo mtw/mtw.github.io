@@ -5,8 +5,11 @@ Bayesian Approximation of RNA Folding Times
 :modified: 2026-04-24
 :tags: RNA folding kinetics; AI
 :category: publications
+:doi: 10.5281/zenodo.15228717
+:journal: ICLR 2025 Workshop on AI for Nucleic Acids
+:year: 2025
+:paper_authors: Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, Michael T. Wolfinger, Christoph Flamm, Frank Hutter
 :slug: bayesian-approximation-rna-folding-times
-:author: mtw
 :summary: This workshop paper introduces the core KinPFN idea: approximating RNA first-passage-time distributions with a prior-data fitted network trained on synthetic folding-time priors.
 :title: Bayesian approximation of RNA folding times
 :description: A workshop paper on using prior-data fitted networks to approximate RNA folding-time distributions from a few context examples.
@@ -37,7 +40,7 @@ What makes this interesting for RNA folding kinetics is the combination of speed
 
 Relative to the full conference paper, this version is shorter and more focused on the central idea, but it already makes the key argument clearly: approximating folding-time distributions can be enough for many practical tasks, and those approximations can be learned efficiently from a synthetic prior. For anyone interested in the intersection of RNA folding kinetics and AI, this paper is a useful entry point into the broader KinPFN project.
 
-It also connects directly to :link-flat:`Why kinetic folding matters in RNA design <{filename}/blog/2025-01-20-Why-Kinetic-Folding-Matters-in-RNA-Design.rst>`, because many design decisions do not require a perfect kinetic simulation. They require a fast and credible way to compare whether one candidate is likely to behave more cleanly than another.
+It also connects directly to kinetics-aware RNA design, because many design decisions do not require a perfect kinetic simulation. They require a fast and credible way to compare whether one candidate is likely to behave more cleanly than another.
 
 .. frame:: Abstract
 

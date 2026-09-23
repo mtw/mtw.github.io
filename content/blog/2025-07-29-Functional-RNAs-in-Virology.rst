@@ -3,12 +3,11 @@ Functional RNAs in Virology
 
 :date: 2025-07-29
 :modified: 2025-07-30
-:tags: novel viruses; virus bioinformatics; non-coding RNA; xrRNA; flavivirus; alphavirus; virology;
+:tags: novel viruses; virus bioinformatics; non-coding RNA; xrRNA; flavivirus; alphavirus; virology
 :category: outreach
 :section: talks
 :frontpage: no
 :slug: functional-rnas-in-virology
-:author: mtw
 :title: Functional RNAs in Virology Special Issue
 :summary: A Viruses Special Issue on functional RNAs in virology, covering structured RNAs, RNA-protein interactions, and RNA-based regulation in viral infection.
 :description: Submit your work to the Viruses Special Issue on RNA-based regulation in viruses. Covering RNA structure, xrRNAs, RNA–protein interactions and more
@@ -27,7 +26,7 @@ Functional RNAs in Virology
 
 I’m honored to serve as Guest Editor of the :link-flat-strong:`Functional RNAs in Virology <https://www.mdpi.com/journal/viruses/special_issues/3R6GL2NBRK>` Special Issue. My goal is to curate a collection of high-quality articles that explore how viral RNAs, both structured and unstructured, control translation, replication, genome packaging, immune evasion, and host adaptation.
 
-.. image:: {static}/files/figures/FuctionalRNAsInVirology2025_banner.png
+.. image:: {static}/files/figures/FunctionalRNAsInVirology2025_banner.png
   :alt: Functional RNAs in Virology banner image
 
 Understanding the Role of RNA in Viruses

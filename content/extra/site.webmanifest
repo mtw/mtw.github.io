@@ -1,0 +1,14 @@
+{
+  "name": "Michael T. Wolfinger",
+  "short_name": "MTW",
+  "description": "Computational RNA biology: RNA structure, folding kinetics, functional RNA design, and structured viral RNAs.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f1f0ec",
+  "theme_color": "#f1f0ec",
+  "icons": [
+    { "src": "/static/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/static/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/static/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

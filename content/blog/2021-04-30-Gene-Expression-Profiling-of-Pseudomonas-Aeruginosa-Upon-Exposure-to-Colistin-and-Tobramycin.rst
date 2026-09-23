@@ -2,14 +2,16 @@ Gene Expression Profiling of Pseudomonas Aeruginosa Upon Exposure to Colistin an
 ############################################################################################
 
 :date: 2021-04-30
-:modified: 2026-04-29
 :tags: bacteria; NGS
 :category: publications
+:doi: 10.3389/fmicb.2021.626715
+:journal: Front. Microbiol.
+:year: 2021
+:paper_authors: Anastasia Cianciulli Sesso, Branislav Lilic, Fabian Amman, Michael T. Wolfinger, Elisabeth Sonnleitner, Udo Blasi
 :slug: Gene-Expression-Profiling-of-Pseudomonas-Aeruginosa-Upon-Exposure-to-Colistin-and-Tobramycin
-:author: mtw
 :summary: This study combines RNA-seq and ribosome profiling to show how Pseudomonas aeruginosa rewires both transcription and translation when challenged with the last-resort antibiotics colistin and tobramycin.
 :title: How Pseudomonas aeruginosa responds to colistin and tobramycin
-:description: Parallel transcriptome and translatome profiling in cystic-fibrosis-like medium reveals distinct regulatory responses of Pseudomonas aeruginosa to colistin and tobramycin.
+:description: Transcriptome and translatome profiling reveals distinct responses of Pseudomonas aeruginosa to colistin and tobramycin in cystic-fibrosis-like medium.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong

@@ -2,11 +2,13 @@ NMR Structural Profiling of Transcriptional Intermediates Reveals Riboswitch Reg
 #######################################################################################################################
 
 :date: 2017-01-31
-:modified: 2026-04-24
 :tags: bacteria; energy landscapes; synthetic biology; co-transcriptional RNA folding
 :category: publications
+:doi: 10.1021/jacs.6b10429
+:journal: J. Am. Chem. Soc.
+:year: 2017
+:paper_authors: Christina Helmling, Anna Wacker, Michael T. Wolfinger, Ivo L. Hofacker, Martin Hengsbach, Boris Fürtig, Harald Schwalbe
 :slug: co-transcriptional-riboswitch-metastable-states
-:author: mtw
 :summary: This paper uses NMR spectroscopy to resolve transcription intermediates of the 2'dG riboswitch at single-nucleotide resolution, showing how transcript length and metastable states govern ligand-controlled switching.
 :title: Co-transcriptional folding and metastable states in riboswitch function
 :description: NMR and computational analysis of transcription intermediates in a 2'dG-sensing riboswitch.

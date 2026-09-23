@@ -558,9 +558,12 @@ class SaneHtmlTranslator(HTMLTranslator):
         check_id = 0  # TODO: is this a bool (False) or a counter?
         close_tag = '</p>\n'
         if isinstance(node.parent, nodes.topic):
+            # One level below the enclosing section (h2 at the top of an article body),
+            # so a frame such as "Abstract" does not skip from h1 to h3.
+            t_level = min(self.section_level + self.initial_header_level, 6)
             self.body.append(
-                  self.starttag(node, 'h3', ''))
-            close_tag = '</h3>\n'
+                  self.starttag(node, 'h%s' % t_level, ''))
+            close_tag = '</h%s>\n' % t_level
         elif isinstance(node.parent, nodes.sidebar):
             self.body.append(
                   self.starttag(node, 'p', '', CLASS='sidebar-title'))

@@ -2,11 +2,13 @@ Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics
 ##########################################################################
 
 :date: 2018-07-01
-:modified: 2026-04-24
 :tags: energy landscapes; new method; RNA folding kinetics; ViennaRNA; synthetic biology; co-transcriptional RNA folding
 :category: publications
+:doi: 10.1021/jacs.6b10429
+:journal: J. Am. Chem. Soc.
+:year: 2017
+:paper_authors: Christina Helmling, Anna Wacker, Michael T. Wolfinger, Ivo L. Hofacker, Martin Hengsbach, Boris Fürtig, Harald Schwalbe
 :slug: Efficient-Computation-of-Cotranscriptional-RNA-Ligand-Interaction-Dynamics
-:author: mtw
 :summary: A landscape-based method for modeling how cotranscriptional folding and ligand binding interact in kinetically controlled riboswitches, illustrated with the 2'dG riboswitch from Mesoplasma florum.
 :title: Co-transcriptional riboswitch modeling with ViennaRNA
 :description: Co-transcriptional RNA folding under kinetic control can be efficiently modeled with computational approaches for the 2'dG riboswitch.
@@ -45,7 +47,7 @@ I still think this is one of the more useful methodological papers in the ribosw
 
 The paper also connects two strands of RNA research that are often discussed separately: landscape-based folding kinetics and ligand-regulated RNA control. Bringing them together makes it possible to use coarse-grained kinetics not just for descriptive folding studies, but for mechanism-aware analysis of regulatory RNAs. That is a meaningful step beyond equilibrium folding and a useful basis for later in silico screening of switch designs before experimental validation.
 
-That screening logic sits very close to :link-flat:`Why kinetic folding matters in RNA design <{filename}/blog/2025-01-20-Why-Kinetic-Folding-Matters-in-RNA-Design.rst>`. A construct can look plausible at equilibrium and still fail once timing and pathway dependence are taken seriously.
+That screening logic is exactly why kinetic folding matters in RNA design. A construct can look plausible at equilibrium and still fail once timing and pathway dependence are taken seriously.
 
 .. frame:: Abstract
 

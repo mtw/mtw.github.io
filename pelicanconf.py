@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+import datetime
 
 AUTHOR = 'Michael T. Wolfinger'
 SITENAME = "Michael T. Wolfinger"
@@ -23,13 +24,14 @@ THEME_STATIC_DIR = 'static'
 THEME_STATIC_PATHS = ['static']
 
 DIRECT_TEMPLATES = ['index']
+# Plain-text companion to llms.txt, rendered from the article and page metadata.
+TEMPLATE_PAGES = {'llms-full.txt': 'llms-full.txt'}
 
 FORMATTED_FIELDS = ['summary', 'landing', 'header', 'footer', 'description', 'badge']
 
-# One font request instead of three; the template escapes the ampersands once, so they
-# must be plain '&' here (a pre-escaped '&amp;' would come out double-escaped).
+# The web fonts are self-hosted (static/fonts/, declared at the top of m-mtw.css), so the
+# stylesheet is the only CSS request and nothing is fetched from Google.
 M_CSS_FILES = [
-    'https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap',
     'static/m-mtw.css',
 ]
 
@@ -40,8 +42,11 @@ PLUGINS = ['m.htmlsanity',
            'm.components',
            'm.link',
            'm.sitemap',
-           'm.images']
+           'm.images',
+           'mtw_meta']
 
+# Category listings are disallowed in robots.txt and the publications/papers/ stubs are
+# canonicalised to their blog posts, so neither belongs in the sitemap.
 SITEMAP = {
     "format": "xml",
     "priorities": {
@@ -50,48 +55,51 @@ SITEMAP = {
         "pages": 0.5
     },
     "changefreqs": {
-        "articles": "always",
-        "indexes": "always",
-        "pages": "always"
+        "articles": "monthly",
+        "indexes": "weekly",
+        "pages": "monthly"
     },
-    "exclude": ["services", "consulting", "blog/archive/", "blog/author/", "authors", "index", "legal"]
+    "exclude": ["services", "consulting", "blog/archive/", "blog/author/", "blog/category/",
+                "authors", "index", "legal", "publications/papers/", "404", "llms"]
 }
 
 
 #M_SITE_LOGO_TEXT = 'Your Brand'
 
+# Links carry the trailing slash: that is the canonical form of every page URL, and the
+# slash-less form costs a redirect on GitHub Pages.
 M_LINKS_NAVBAR1 = [
-                    ('About', '/about', 'about', []),
-                    ('Research', '/research', 'research', [
-                        ('Team', '/team', 'team'),
+                    ('About', '/about/', 'about', []),
+                    ('Research', '/research/', 'research', [
+                        ('Team', '/team/', 'team'),
                         ('Collaborations', '/collaborations/', 'collaborations'),
                     ]),
-                    ('Publications', '/publications', 'publications', [
-                        ('Papers', '/publications', 'papers'),
-                        ('Presentations', 'publications/presentations', 'publications/presentations'),
-                        ('Posters', 'publications/posters', 'publications/posters'),
+                    ('Publications', '/publications/', 'publications', [
+                        ('Papers', '/publications/', 'papers'),
+                        ('Presentations', '/publications/presentations/', 'publications/presentations'),
+                        ('Posters', '/publications/posters/', 'publications/posters'),
                         ]),
-                    ('Teaching', '/teaching', 'teaching', []),
-                    ('Contact', '/contact', 'contact', []),
-                    ('Writing', 'blog/', '[blog]',[])]
+                    ('Teaching', '/teaching/', 'teaching', []),
+                    ('Contact', '/contact/', 'contact', []),
+                    ('Writing', '/blog/', '[blog]',[])]
 
 #M_LINKS_NAVBAR2 = [('Blog', 'blog/', '[blog]',[])]
 
 # Footer: four link columns as in the mockups. The first entry of each list is the
 # column heading (linked when it has a URL).
 M_LINKS_FOOTER1 = [('Home', '/'),
-                    ('About', '/about'),
-                    ('Research', '/research'),
-                    ('Publications', '/publications'),
-                    ('Teaching', '/teaching'),
-                    ('People & Supervision', '/team'),
+                    ('About', '/about/'),
+                    ('Research', '/research/'),
+                    ('Publications', '/publications/'),
+                    ('Teaching', '/teaching/'),
+                    ('People & Supervision', '/team/'),
                     ('Writing', '/blog/'),
                     ]
 
 M_LINKS_FOOTER2 = [('More', ''),
                     ('RNA Forecast', 'https://rnaforecast.com'),
-                    ('Contact', '/contact'),
-                    ('Legal Note', '/legal'),
+                    ('Contact', '/contact/'),
+                    ('Legal Note', '/legal/'),
                     ]
 
 M_LINKS_FOOTER3 = [('My Profiles', ''),
@@ -108,13 +116,16 @@ M_LINKS_FOOTER4 = [('Social', ''),
                     ('ORCID', 'https://orcid.org/0000-0003-0925-5205'),
                     ]
 
-M_FINE_PRINT = "© 2026 Michael T. Wolfinger · Vienna, Austria · michael.wolfinger@rnaforecast.com"
+M_FINE_PRINT = "© %d Michael T. Wolfinger · Vienna, Austria · michael.wolfinger@rnaforecast.com" % datetime.date.today().year
 
-STATIC_PATHS = ['static', 'extra/CNAME', 'extra/robots.txt', 'extra/favicon.ico']
+STATIC_PATHS = ['static', 'extra/CNAME', 'extra/robots.txt', 'extra/favicon.ico',
+                'extra/llms.txt', 'extra/site.webmanifest']
 EXTRA_PATH_METADATA = {
                         'extra/CNAME': {'path': 'CNAME'},
                         'extra/robots.txt': {'path': 'robots.txt'},
                         'extra/favicon.ico': {'path': 'favicon.ico'},
+                        'extra/llms.txt': {'path': 'llms.txt'},
+                        'extra/site.webmanifest': {'path': 'site.webmanifest'},
                         }
 
 
@@ -131,9 +142,12 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 
-M_BLOG_NAME = "michaelwolfinger.com Bioinformatics Blog"
+# Display names for the blog categories (the category slug stays as it is).
+M_CATEGORY_LABELS = {'howto': 'How-to', 'outreach': 'Outreach', 'publications': 'Publications'}
+
+M_BLOG_NAME = "Notes & Writing"   # matches the nav entry "Writing" and the blog H1
 M_BLOG_URL = 'https://michaelwolfinger.com/blog/'
-M_BLOG_DESCRIPTION = "michaelwolfinger.com | Computational RNA biology: RNA structure, folding dynamics, functional RNA design, and structured viral RNAs"
+M_BLOG_DESCRIPTION = "Notes on computational RNA biology by Michael T. Wolfinger: RNA structure, folding dynamics, functional RNA design, and structured viral RNAs."
 
 M_SOCIAL_TWITTER_SITE = '@mtwolfinger'
 M_SOCIAL_TWITTER_SITE_ID = 15105886
@@ -160,6 +174,7 @@ CATEGORY_URL = 'blog/category/{slug}.html'
 CATEGORY_SAVE_AS = 'blog/category/{slug}.html'
 TAG_URL = 'blog/tag/{slug}.html'
 TAG_SAVE_AS = 'blog/tag/{slug}.html'
+INDEX_URL = 'blog/'   # read by the sitemap plugin; without it the blog index is written as '/'
 INDEX_SAVE_AS = 'blog/index.html'
 
 #YEAR_ARCHIVE_URL = 'blog/archives/{date:%Y}.html'

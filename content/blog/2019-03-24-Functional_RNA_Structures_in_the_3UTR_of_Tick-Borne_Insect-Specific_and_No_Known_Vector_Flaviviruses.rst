@@ -2,11 +2,13 @@ Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No K
 ######################################################################################################
 
 :date: 2019-03-25
-:modified: 2026-04-23
 :tags: virus bioinformatics; One Health; xrRNA; flavivirus; synthetic biology; virology; RNA structure conservation
 :category: publications
+:doi: 10.3390/v11030298
+:journal: Viruses
+:year: 2019
+:paper_authors: Roman Ochsenreiter, Ivo L. Hofacker, Michael T. Wolfinger
 :slug: Functional_RNA_Structures_in_the_three_prime_UTR_of_Flaviviruses
-:author: mtw
 :title: Comparative genomics of flavivirus 3' UTR RNA structures
 :summary: A comparative genomics analysis of flavivirus 3' UTRs that identifies conserved exoribonuclease-resistant RNAs and lineage-specific architectural variation across tick-borne, insect-specific, and no-known-vector flaviviruses.
 :description: Comparative analysis of conserved RNA structures and xrRNAs in the 3' UTRs of diverse flaviviruses.
@@ -42,7 +44,7 @@ Comparative genomics is especially valuable for this kind of result. In many cas
 
 For work on xrRNAs, this broader evolutionary view is particularly useful. It helps separate features that are likely to be deeply conserved from those that may have arisen independently or been remodeled in particular viral groups. In turn, that sharpens how we think about structure-function relationships in flavivirus non-coding regions.
 
-I return to that general issue in :link-flat:`When sequence conservation is not enough to find functional RNA structure <{filename}/blog/2026-04-05-When-Sequence-Conservation-Is-Not-Enough-to-Find-Functional-RNA-Structure.rst>`, which argues that many of the most informative signals in viral untranslated regions live at the level of conserved architecture rather than primary sequence identity.
+The general lesson is that many of the most informative signals in viral untranslated regions live at the level of conserved architecture rather than primary sequence identity.
   
 .. frame:: Abstract
 

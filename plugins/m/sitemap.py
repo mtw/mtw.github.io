@@ -56,12 +56,12 @@ class SitemapGenerator(object):
 
         self.output_path = output_path
         self.context = context
-        self.now = datetime.now()
         self.siteurl = settings.get("SITEURL")
 
         self.default_timezone = settings.get("TIMEZONE", "UTC")
         self.timezone = getattr(self, "timezone", self.default_timezone)
         self.timezone = timezone(self.timezone)
+        self.now = datetime.now(self.timezone)
 
         self.format = "xml"
 
@@ -193,20 +193,28 @@ class SitemapGenerator(object):
         else:
             return default
 
+    def _aware(self, value):
+        if value.tzinfo is None:
+            return self.timezone.localize(value)
+        return value
+
     def set_url_wrappers_modification_date(self, wrappers):
         for (wrapper, articles) in wrappers:
-            lastmod = datetime.min.replace(tzinfo=self.timezone)
+            # Article dates are already timezone-aware; re-attaching a pytz zone with
+            # replace() would pick the zone's historic LMT offset (+01:05 for Vienna).
+            lastmod = None
             for article in articles:
-                lastmod = max(lastmod, article.date.replace(tzinfo=self.timezone))
+                candidates = [article.date]
                 try:
-                    modified = self.get_date_modified(article, datetime.min).replace(
-                        tzinfo=self.timezone
-                    )
-                    lastmod = max(lastmod, modified)
+                    candidates.append(self.get_date_modified(article, article.date))
                 except ValueError:
                     # Supressed: user will be notified.
                     pass
-            setattr(wrapper, "modified", str(lastmod))
+                for value in candidates:
+                    value = self._aware(value)
+                    if lastmod is None or value > lastmod:
+                        lastmod = value
+            setattr(wrapper, "modified", str(lastmod or self.now))
 
     def generate_output(self, writer):
         path = os.path.join(self.output_path, "sitemap.{0}".format(self.format))
