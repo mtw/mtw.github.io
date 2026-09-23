@@ -5,7 +5,7 @@ Rational Design of Mechanically Active RNAs
 :modified: 2026-05-07
 :tags: RNA design; xrRNA; synthetic biology
 :category: publications
-:doi: 10.1101/2026.01.08.698366
+:doi: 10.64898/2026.01.08.698366
 :journal: bioRxiv
 :year: 2026
 :paper_authors: Jule Walter, Leonhard Sidl, Katrin Gutenbrunner, Denis Skibinski, Tim Kolberg, Ivo L. Hofacker, Hua-Ting Yao, Mario Mörl, Michael T. Wolfinger
@@ -85,6 +85,6 @@ peer-reviewed paper is available in final form.
 Citation
 ========
 
-  | :link-flat-strong:`Rational design of mechanically active RNAs: de novo engineering of functional exoribonuclease-resistant RNAs <https://doi.org/10.1101/2026.01.08.698366>`
+  | :link-flat-strong:`Rational design of mechanically active RNAs: de novo engineering of functional exoribonuclease-resistant RNAs <https://doi.org/10.64898/2026.01.08.698366>`
   | Jule Walter, Leonhard Sidl, Katrin Gutenbrunner, Denis Skibinski, Tim Kolberg, Ivo L. Hofacker, Hua-Ting Yao, Mario Mörl, :ul:`Michael T. Wolfinger`
-  | *bioRxiv* 2026.01.08.698366 (2026) | :doi:`doi:10.1101/2026.01.08.698366 <https://doi.org/10.1101/2026.01.08.698366>` | :link-flat:`Preprint PDF <{static}/files/papers/Walter-2026__PREPRINT.pdf>`
+  | *bioRxiv* 2026.01.08.698366 (2026) | :doi:`doi:10.64898/2026.01.08.698366 <https://doi.org/10.64898/2026.01.08.698366>` | :link-flat:`Preprint PDF <{static}/files/papers/Walter-2026__PREPRINT.pdf>`
