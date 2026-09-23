@@ -42,9 +42,13 @@ def test_new_sitemap_adds_no_unknown_urls_and_drops_only_hidden_pages(tmp_path):
     live = set(_live_urls())
     # Pages hidden on purpose until the business launch may leave the sitemap, nothing else may.
     allowed_to_leave = {"https://michaelwolfinger.com/services/"}
+    # Category listings are disallowed in robots.txt, and the publications/papers/ stubs are
+    # canonicalised to their blog posts; both still build, neither is advertised any more.
+    allowed_to_leave |= {url for url in live if "/blog/category/" in url or "/publications/papers/" in url}
     dropped = live - new - allowed_to_leave
     assert not dropped, f"URLs dropped from the sitemap: {sorted(dropped)}"
     # Pages added on purpose after the September 2026 snapshot.
-    intended_additions = {"https://michaelwolfinger.com/collaborations/"}
+    intended_additions = {"https://michaelwolfinger.com/collaborations/",
+                          "https://michaelwolfinger.com/blog/"}   # was missing: INDEX_URL now set
     added = new - live - intended_additions
     assert not added, f"unexpected new sitemap URLs (fine if intended, then update the fixture): {sorted(added)}"
