@@ -23,6 +23,7 @@ Identifiers: ORCID https://orcid.org/0000-0003-0925-5205 · Google Scholar https
 - [Blog](https://michaelwolfinger.com/blog/): notes on RNA structure prediction, folding kinetics, RNA design, viral RNAs, and scientific software
 - [Atom feed](https://michaelwolfinger.com/feeds/all.atom.xml): full-text feed of all posts, including the paper announcements
 - [Sitemap](https://michaelwolfinger.com/sitemap.xml)
+- [llms-full.txt](https://michaelwolfinger.com/llms-full.txt): plain-text list of all papers (with DOIs), talks, posters, and posts
 
 ## Structured data
 
