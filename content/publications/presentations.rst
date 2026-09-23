@@ -55,7 +55,7 @@ Selected oral presentations and invited talks
 | Presented at *Chulalongkorn University*
 | Bangkok, Thailand. 11 March 2020 | :doi:`doi:10.13140/RG.2.2.31355.67367 <https://doi.org/10.13140/RG.2.2.31355.67367>` | :label-flat-info:`Invited talk`
 
-| :link-flat-strong:`The quest for conserved RNAs in viral genomes <{static}/files/presentations/2020-10-15-Kent.pdf>`
+| :link-flat-strong:`The quest for conserved RNAs in viral genomes <{static}/files/presentations/2019-10-15-Kent.pdf>`
 | Presented at the *School of Biosciences, University of Kent*
 | Canterbury, UK. 15 October 2019 | :doi:`doi:10.13140/RG.2.2.36590.15683 <https://doi.org/10.13140/RG.2.2.36590.15683>` | :label-flat-info:`Invited talk`
 
@@ -87,7 +87,7 @@ Selected oral presentations and invited talks
 | Presented at the *RNA-REG Meeting*
 | Aflenz, Austria. 10 May 2012 | :label-flat-info:`Conference talk`
 
-| :link-flat-strong:`Energy Landscapes and Dynamics of Biopolymers <{static}/files/presentations/2013-03-05-CIBIV.pdf>`
+| :link-flat-strong:`Energy Landscapes and Dynamics of Biopolymers <{static}/files/presentations/2012-03-05-CIBIV.pdf>`
 | Presented at the *Center for Integrative Bioinformatics Vienna (CIBIV)*
 | Vienna, Austria. 05 March 2012 | :label-flat-info:`Seminar talk`
 

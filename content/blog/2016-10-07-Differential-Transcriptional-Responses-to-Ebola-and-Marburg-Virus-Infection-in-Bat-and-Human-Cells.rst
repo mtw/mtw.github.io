@@ -2,7 +2,7 @@ Why bats and humans respond differently to filovirus infection
 ##############################################################
 
 :date: 2016-10-07
-:tags: virology; virus bioinformatics
+:tags: virus bioinformatics
 :category: publications
 :doi: 10.1038/srep34589
 :journal: Sci. Rep.

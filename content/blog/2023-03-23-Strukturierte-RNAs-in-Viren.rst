@@ -3,7 +3,7 @@ Strukturierte RNAs in Viren (in German)
 
 :date: 2023-03-23
 :modified: 2023-04-07
-:tags: virus bioinformatics; RNA design; xrRNA; synthetic biology; virology
+:tags: virus bioinformatics; RNA design; xrRNA; synthetic biology
 :category: publications
 :slug: Strukturierte-RNAs-in-Viren
 :summary: In this mini-review we discuss the concept of RNA structure conservation in viruses, using exoribonuclease-resistant RNAs from flaviviruses as prominent examples
