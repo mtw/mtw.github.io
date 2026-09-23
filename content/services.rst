@@ -5,7 +5,6 @@ Expert Services in Computational RNA Design
 :summary: Expert Services in Computational RNA Design by Michael Thomas Wolfinger
 :title: RNA Design Reviews and Advisory Support | Michael T. Wolfinger
 :description: RNA design reviews, SHAPE and chemical probing interpretation, ViennaRNA workshops, and advisory support for biotech teams and research groups.
-:extrahead: mtw_ldjson
 :breadcrumb: / Home
 :landing:
 

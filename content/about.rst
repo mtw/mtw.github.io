@@ -6,7 +6,6 @@ About
 :hero_eyebrow: About
 :hero_title: Independent Principal Investigator in Computational RNA Biology
 :hide_summary: True
-:extrahead: mtw_ldjson
 
 
 .. Layout note: this page is one raw-HTML block on purpose. The two-column

@@ -43,7 +43,7 @@
   <meta property="article:modified_time" content="{{ (article.modified.isoformat() if article.modified else article.date.isoformat()) }}" />
   <meta property="article:author" content="{{ SITEURL }}/about/" />
   {% if M_SOCIAL_TWITTER_SITE %}<meta name="twitter:creator" content="{{ M_SOCIAL_TWITTER_SITE }}" />{% endif %}
-  {% if article.category %}<meta property="article:section" content="{{ article.category|e }}" />{% endif %}
+  {% if article.category %}<meta property="article:section" content="{{ (M_CATEGORY_LABELS or {}).get(article.category.name, article.category|string)|e }}" />{% endif %}
   {% for tag in article.tags %}<meta property="article:tag" content="{{ tag|e }}" />
   {% endfor %}
 {% endblock %}
@@ -60,7 +60,7 @@
     <div id="m-jumbo-image" style="background-image: url('{{ article.cover|expand_link(article)|e }}');">
       <div id="m-jumbo-cover">
         <div class="m-container">
-          {% if article.category %}<div class="article-eyebrow" style="color:#9dbfd8">{{ article.category|e }}</div>{% endif %}
+          {% if article.category %}<div class="article-eyebrow" style="color:#9dbfd8">{{ (M_CATEGORY_LABELS or {}).get(article.category.name, article.category|string)|e }}</div>{% endif %}
           <h1>{{ article.title }}</h1>
           <div class="article-meta" style="border-color:rgba(255,255,255,.25);color:#cfd8e0">
             <span><time datetime="{{ article.date.isoformat() }}">{{ article.locale_date|e }}</time></span>
@@ -75,7 +75,7 @@
   {% else %}
   <div class="article-head">
     <a href="{{ SITEURL }}/blog/" style="font-size:.85rem;font-weight:500">&larr; Back to Blog</a>
-    {% if article.category %}<div class="article-eyebrow" style="margin-top:1.4rem">{{ article.category|e }}</div>{% endif %}
+    {% if article.category %}<div class="article-eyebrow" style="margin-top:1.4rem">{{ (M_CATEGORY_LABELS or {}).get(article.category.name, article.category|string)|e }}</div>{% endif %}
     <h1>{{ article.title }}</h1>
     <div class="article-meta">
       <span><a rel="author" href="{{ SITEURL }}/about/">{{ article.author|e }}</a></span><span class="dot"></span>
