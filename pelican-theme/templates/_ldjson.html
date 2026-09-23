@@ -46,6 +46,21 @@
  "publisher": {"@id": {{ _person_id|tojson }}}}
 {%- endmacro -%}
 
+{#- A paper post carries its DOI in :doi:; the paper itself is a ScholarlyArticle whose @id is
+    the DOI URL, so every page that mentions it refers to the same node. -#}
+{%- macro scholarly(article) -%}
+{% set doi_url = 'https://doi.org/' ~ article.doi %}
+{"@type": "ScholarlyArticle",
+ "@id": {{ doi_url|tojson }},
+ "url": {{ doi_url|tojson }},
+ "sameAs": {{ doi_url|tojson }},
+ "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": {{ article.doi|tojson }}},
+ "headline": {{ article.title|striptags|tojson }},
+ "author": {"@id": {{ _person_id|tojson }}},
+ "datePublished": {{ article.date.strftime('%Y-%m-%d')|tojson }},
+ "subjectOf": {"@id": {{ (SITEURL ~ '/' ~ article.url)|tojson }}}}
+{%- endmacro -%}
+
 {%- macro breadcrumbs(items) -%}
 {"@type": "BreadcrumbList", "itemListElement": [
 {%- for name, url in items %}
@@ -60,6 +75,8 @@
 {% set desc = (page.description or page.summary or '')|dehyphenate|striptags|trim %}
 {% set is_home = page.save_as == 'index.html' %}
 {% set is_about = page.slug == 'about' %}
+{% set is_publications = page.slug == 'publications' %}
+{% set papers = articles|selectattr('doi', 'defined')|selectattr('category.name', 'equalto', 'publications')|list %}
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@graph": [
  {{ website() }},
@@ -74,12 +91,23 @@
   "isPartOf": {"@id": {{ _site_id|tojson }}},
   "about": {"@id": {{ _person_id|tojson }}},
   {% if is_about %}"mainEntity": {"@id": {{ _person_id|tojson }}},{% endif %}
+  {% if is_publications %}"mainEntity": {"@id": {{ (url ~ '#papers')|tojson }}},{% endif %}
   "author": {"@id": {{ _person_id|tojson }}},
   "primaryImageOfPage": {"@type": "ImageObject", "url": {{ (M_SOCIAL_IMAGE|format_siteurl)|tojson }}}
   {%- if page.date %}, "datePublished": {{ page.date.isoformat()|tojson }}{% endif %}
   {%- if page.modified %}, "dateModified": {{ page.modified.isoformat()|tojson }}{% elif page.date %}, "dateModified": {{ page.date.isoformat()|tojson }}{% endif %}
  }{% if not is_home %},
  {{ breadcrumbs([('Home', _site), (page.title|striptags, url)]) }}{% endif %}
+ {%- if is_publications and papers %},
+ {"@type": "ItemList",
+  "@id": {{ (url ~ '#papers')|tojson }},
+  "name": "Publications by Michael T. Wolfinger",
+  "numberOfItems": {{ papers|length }},
+  "itemListElement": [
+  {%- for paper in papers %}
+   {"@type": "ListItem", "position": {{ loop.index }}, "item": {{ scholarly(paper) }}}{% if not loop.last %},{% endif %}
+  {%- endfor %}
+  ]}{% endif %}
 ]}
 </script>
 {%- endmacro -%}
@@ -109,8 +137,12 @@
   "inLanguage": {{ (article.lang or DEFAULT_LANG or 'en')|tojson }},
   {% if article.category %}"articleSection": {{ article.category|string|tojson }},{% endif %}
   {% if article.tags %}"keywords": {{ article.tags|map('string')|join(', ')|tojson }},{% endif %}
+  {% if article.doi %}"about": {"@id": {{ ('https://doi.org/' ~ article.doi)|tojson }}},
+  "citation": {"@id": {{ ('https://doi.org/' ~ article.doi)|tojson }}},{% endif %}
   "wordCount": {{ article.content|striptags|wordcount }}
  },
+ {%- if article.doi %}
+ {{ scholarly(article) }},{% endif %}
  {{ breadcrumbs([('Home', _site), ('Writing', blog_url), (article.title|striptags, url)]) }}
 ]}
 </script>
