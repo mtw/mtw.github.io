@@ -47,7 +47,8 @@ PLUGINS = ['m.htmlsanity',
            'mtw_meta']
 
 # Category listings are disallowed in robots.txt and the publications/papers/ stubs are
-# canonicalised to their blog posts, so neither belongs in the sitemap.
+# canonicalised to their blog posts, so neither belongs in the sitemap. (Redirect stubs
+# under extra/redirects/ are static files and never reach the sitemap generator.)
 SITEMAP = {
     "format": "xml",
     "priorities": {
@@ -60,7 +61,7 @@ SITEMAP = {
         "indexes": "weekly",
         "pages": "monthly"
     },
-    "exclude": ["services", "consulting", "blog/archive/", "blog/author/", "blog/category/",
+    "exclude": ["blog/archive/", "blog/author/", "blog/category/",
                 "authors", "index", "publications/papers/", "404", "llms"]
 }
 
@@ -129,6 +130,8 @@ EXTRA_PATH_METADATA = {
                         'extra/favicon.ico': {'path': 'favicon.ico'},
                         'extra/llms.txt': {'path': 'llms.txt'},
                         'extra/site.webmanifest': {'path': 'site.webmanifest'},
+                        # /services/ once existed; the URL stays alive as a no-index redirect to the home page
+                        'extra/redirects/services.html': {'path': 'services/index.html'},
                         # merged tags: the old tag URLs redirect to the surviving tag
                         'extra/redirects/tag-virology.html': {'path': 'blog/tag/virology.html'},
                         'extra/redirects/tag-virology2.html': {'path': 'blog/tag/virology2.html'},
