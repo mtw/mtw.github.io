@@ -6,7 +6,6 @@ The link between mRNA vaccine design and barbeque optimization
 :tags: RNA design; synthetic biology
 :category: outreach
 :section: essays
-:frontpage: no
 :slug: The-link-between-mRNA-vaccine-design-and-barbeque-optimization
 :summary: A short podcast appearance on optimization, data sharing, and what mRNA design can teach us about iterative engineering problems.
 :description: Podcast conversation on mRNA design, optimization, and data sharing.

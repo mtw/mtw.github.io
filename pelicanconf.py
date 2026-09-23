@@ -7,7 +7,6 @@ SITENAME = "Michael T. Wolfinger"
 SITEURL = ''
 OUTPUT_PATH = 'output'
 
-
 PATH = 'content'
 ARTICLE_PATHS = ['blog']
 PAGE_PATHS = ['']
@@ -28,7 +27,7 @@ DIRECT_TEMPLATES = ['index']
 # Plain-text companion to llms.txt, rendered from the article and page metadata.
 TEMPLATE_PAGES = {'llms-full.txt': 'llms-full.txt'}
 
-FORMATTED_FIELDS = ['summary', 'landing', 'header', 'footer', 'description', 'badge']
+FORMATTED_FIELDS = ['summary', 'landing', 'footer', 'description']
 
 # The web fonts are self-hosted (static/fonts/, declared at the top of m-mtw.css), so the
 # stylesheet is the only CSS request and nothing is fetched from Google.
@@ -65,9 +64,6 @@ SITEMAP = {
                 "authors", "index", "publications/papers/", "404", "llms"]
 }
 
-
-#M_SITE_LOGO_TEXT = 'Your Brand'
-
 # Links carry the trailing slash: that is the canonical form of every page URL, and the
 # slash-less form costs a redirect on GitHub Pages.
 M_LINKS_NAVBAR1 = [
@@ -84,8 +80,6 @@ M_LINKS_NAVBAR1 = [
                     ('Teaching', '/teaching/', 'teaching', []),
                     ('Contact', '/contact/', 'contact', []),
                     ('Writing', '/blog/', '[blog]',[])]
-
-#M_LINKS_NAVBAR2 = [('Blog', 'blog/', '[blog]',[])]
 
 # Footer: four link columns as in the mockups. The first entry of each list is the
 # column heading (linked when it has a URL).
@@ -140,10 +134,6 @@ EXTRA_PATH_METADATA = {
                         'extra/redirects/tag-agents.html': {'path': 'blog/tag/agents.html'},
                         }
 
-
-#M_HTML_HEADER = '<link rel="stylesheet" href="extra/css/extra.css"'
-
-# Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = False
 
 # Feed generation is usually not desired when developing
@@ -152,7 +142,6 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-
 
 # Display names for the blog categories (the category slug stays as it is).
 M_CATEGORY_LABELS = {'howto': 'How-to', 'outreach': 'Outreach', 'publications': 'Publications'}
@@ -163,7 +152,6 @@ M_BLOG_DESCRIPTION = "Notes on computational RNA biology by Michael T. Wolfinger
 
 M_SOCIAL_TWITTER_SITE = '@mtwolfinger'
 M_SOCIAL_TWITTER_SITE_ID = 15105886
-#M_SOCIAL_IMAGE = 'https://your.brand/static/site.png'
 # Link-preview card (Open Graph / Twitter), 1200x630; source in tools/og-cards-source.html.
 M_SOCIAL_IMAGE = '/static/og-wide-1200x630.png'
 M_SOCIAL_IMAGE_WIDTH = 1200
@@ -172,12 +160,9 @@ M_SOCIAL_IMAGE_ALT = 'RNA Structure, Function & Design - Michael T. Wolfinger, m
 M_SOCIAL_CARD = 'summary_large_image'
 # Portrait used as the Person image in structured data.
 M_PERSON_IMAGE = '/static/mtw.jpg'
-M_SOCIAL_BLOG_SUMMARY = "Computational RNA biology — RNA structure, folding dynamics, functional RNA design, and structured viral RNAs"
 
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
-#ARCHIVES_URL = 'blog/archives/archives.html'
-#ARCHIVES_SAVE_AS = 'blog/archives/archives.html'
 ARTICLE_URL = 'blog/{date:%Y}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{slug}/index.html'
 AUTHOR_URL = 'blog/author/{slug}/'
@@ -188,9 +173,6 @@ TAG_URL = 'blog/tag/{slug}.html'
 TAG_SAVE_AS = 'blog/tag/{slug}.html'
 INDEX_URL = 'blog/'   # read by the sitemap plugin; without it the blog index is written as '/'
 INDEX_SAVE_AS = 'blog/index.html'
-
-#YEAR_ARCHIVE_URL = 'blog/archives/{date:%Y}.html'
-#YEAR_ARCHIVE_SAVE_AS = 'blog/archives/{date:%Y}.html'
 
 SLUGIFY_SOURCE = 'basename'
 PATH_METADATA = '(?P<slug>.+).rst'

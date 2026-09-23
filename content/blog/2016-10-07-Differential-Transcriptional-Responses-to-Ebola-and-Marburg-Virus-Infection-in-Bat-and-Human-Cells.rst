@@ -8,7 +8,6 @@ Why bats and humans respond differently to filovirus infection
 :journal: Sci. Rep.
 :year: 2016
 :paper_authors: Martin Hölzer, Verena Krähling, Fabian Amman, Emanuel Barth, Stephan H. Bernhart, Victor Carmelo, Maximilian Collatz, Gero Doose, Florian Eggenhofer, Jan Ewald, Jörg Fallmann, Lasse M. Feldhahn, Markus Fricke, Juliane Gebauer, Andreas J. Gruber, Franziska Hufsky, Henrike Indrischek, Sabina Kanton, Jörg Linde, Nelly Mostajo, Roman Ochsenreiter, Konstantin Riege, Lorena Rivarola-Duarte, Abdullah H. Sahyoun, Sita J. Saunders, Stefan E. Seemann, Andrea Tanzer, Bertram Vogel, Stefanie Wehner, Michael T. Wolfinger, Rolf Backofen, Jan Gorodkin, Ivo Grosse, Ivo L. Hofacker, Steve Hoffmann, Christoph Kaleta, Peter F. Stadler, Stephan Becker, Manja Marz
-:frontpage: no
 :slug: Differential-Transcriptional-Responses-to-Ebola-and-Marburg-Virus-Infection-in-Bat-and-Human-Cells
 :summary: This paper compares Ebola and Marburg virus infection in bat and human cells and shows that the transcriptional response, pathway activation, and replication dynamics differ substantially between the natural host and a susceptible human system.
 :title: Why bats and humans respond differently to filovirus infection
