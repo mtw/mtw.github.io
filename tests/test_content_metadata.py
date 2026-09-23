@@ -68,3 +68,12 @@ def test_canonical_urls_on_paper_stubs_point_at_existing_posts():
         match = re.search(r"/blog/(\d{4})/([^/]+)/?$", canonical)
         assert match, f"{stub.name}: unexpected canonical {canonical}"
         assert (int(match.group(1)), match.group(2)) in slugs, f"{stub.name}: canonical does not match a post: {canonical}"
+
+
+STATUSES = {"published", "draft", "hidden", "skip"}
+
+
+@pytest.mark.parametrize("source", sorted((BLOG_DIR.parent).rglob("*.rst")), ids=lambda p: p.name)
+def test_status_values_are_known(source):
+    status = _fields(source).get("status")
+    assert status is None or status in STATUSES, f"{source.name}: unknown :status: {status!r}"
