@@ -57,7 +57,7 @@ Selected oral presentations and invited talks
 
 | :link-flat-strong:`The quest for conserved RNAs in viral genomes <{static}/files/presentations/2020-10-15-Kent.pdf>`
 | Presented at the *School of Biosciences, University of Kent*
-| Canterbury, UK. 15 October 2019 | :doi:`doi:10.13140/RG.2.2.36590.15683 <https://doi.org/10.13140/RG.2.2.36590.15683>` | :label-flat-info:`invited talk`
+| Canterbury, UK. 15 October 2019 | :doi:`doi:10.13140/RG.2.2.36590.15683 <https://doi.org/10.13140/RG.2.2.36590.15683>` | :label-flat-info:`Invited talk`
 
 | :link-flat-strong:`Evolutionary traits in Chikungunya virus untranslated regions <{static}/files/presentations/2019-06-26-Mondsee.pdf>`
 | Presented at the :raw-html:`<em>4<sup>th</sup> VDS 'Molecules of Life' Meeting</em>`
