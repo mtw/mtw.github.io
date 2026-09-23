@@ -45,6 +45,7 @@ Contact
            <a href="https://bsky.app/profile/mtwolfinger.bsky.social" rel="me">Bluesky &rarr;</a>
            <a href="https://twitter.com/mtwolfinger" rel="me">Twitter &rarr;</a>
            <a href="https://www.researchgate.net/profile/Michael-Wolfinger" rel="me">ResearchGate &rarr;</a>
+           <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Wolfinger+MT" rel="me">PubMed &rarr;</a>
            <a href="https://www.webofscience.com/wos/author/record/N-9538-2014" rel="me">Web of Science &rarr;</a>
            <a href="https://www.scopus.com/authid/detail.uri?authorId=6508361997" rel="me">Scopus &rarr;</a>
            <a href="https://loop.frontiersin.org/people/485709/overview" rel="me">Loop &rarr;</a>

@@ -1,0 +1,25 @@
+{#- Pelican's Jinja environment trims block lines, so every line break is emitted explicitly. -#}
+{%- set NL = "\n" -%}
+# Michael T. Wolfinger — full-text companion to https://michaelwolfinger.com/llms.txt
+
+Independent Principal Investigator in computational RNA biology, Vienna, Austria. Research on RNA secondary structure, folding kinetics, functional RNA design, RNA-protein recognition, and structured viral RNAs. Independent research is conducted through RNA Forecast (https://rnaforecast.com).
+ORCID: https://orcid.org/0000-0003-0925-5205 · Contact: michael.wolfinger@rnaforecast.com
+Site: https://michaelwolfinger.com/ · Blog feed: https://michaelwolfinger.com/feeds/all.atom.xml
+
+## Publications
+
+{%- for article in articles if article.doi and article.category.name == 'publications' %}
+- {{ article.year or article.date.year }}: {{ article.title|striptags }}{{ NL }}
+{{- '  ' }}{% if article.paper_authors %}{{ article.paper_authors }}. {% endif %}{% if article.journal %}{{ article.journal.rstrip('.') }}. {% endif %}https://doi.org/{{ article.doi }}{{ NL }}
+{{- '  Summary and abstract: ' }}{{ SITEURL }}/{{ article.url }}{{ NL }}
+{%- endfor %}
+{%- for page in pages if page.events is defined %}
+{{ NL }}## {{ (page.title|striptags).split(' | ')[0] }}{{ NL }}{{ NL }}
+{%- for ev in page.events %}
+- {{ ev.date }}: {{ ev.name }}{% if ev.authors %} ({{ ev.authors }}){% endif %}. {{ ev.label or ('Poster' if ev.kind == 'poster' else 'Talk') }} at the {{ ev.venue }}, {{ ev.place }}.{% if ev.doi %} https://doi.org/{{ ev.doi }}{% endif %}{% if ev.pdf %} PDF: {{ ev.pdf|format_siteurl }}{% endif %}{{ NL }}
+{%- endfor %}
+{%- endfor %}
+{{ NL }}## Writing{{ NL }}{{ NL }}
+{%- for article in articles if article.category.name != 'publications' %}
+- {{ article.date.strftime('%Y-%m-%d') }}: {{ article.title|striptags }} — {{ (article.description or article.summary)|striptags }} {{ SITEURL }}/{{ article.url }}{{ NL }}
+{%- endfor %}

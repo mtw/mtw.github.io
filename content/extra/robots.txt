@@ -3,5 +3,15 @@ Disallow: /blog/category/*
 Disallow: /legal
 Disallow: /services
 
+# AI and answer-engine crawlers are welcome to index the whole site.
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: PerplexityBot
+User-agent: Google-Extended
+User-agent: CCBot
+User-agent: Applebot-Extended
+Allow: /
+
 Sitemap: https://michaelwolfinger.com/sitemap.xml
 
