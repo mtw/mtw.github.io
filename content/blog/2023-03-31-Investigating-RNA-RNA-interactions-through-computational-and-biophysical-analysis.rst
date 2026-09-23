@@ -5,6 +5,9 @@ RNA–RNA interaction analysis of Japanese encephalitis virus
 :tags: RNA-RNA interaction; non-coding RNA; virus bioinformatics; 3D; flavivirus
 :category: publications
 :doi: 10.1093/nar/gkad223
+:journal: Nucleic Acids Res.
+:year: 2023
+:paper_authors: Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke De Klerk, Borries Demeler, Ivo L. Hofacker, Michael T. Wolfinger, Trushar R. Patel
 :slug: Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis
 :summary: This study combines computational and biophysical analysis to characterize a long-range RNA-RNA interaction in Japanese encephalitis virus and to test the role of the conserved cyclization sequence.
 :description: A combined computational and biophysical analysis of long-range RNA-RNA interactions in Japanese encephalitis virus.

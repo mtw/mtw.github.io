@@ -5,6 +5,9 @@ Barrier Trees of Degenerate Landscapes
 :tags: energy landscapes; new method; tools
 :category: publications
 :doi: 10.1524/zpch.2002.216.2.155
+:journal: Z. Phys. Chem.
+:year: 2002
+:paper_authors: Christoph Flamm, Ivo L. Hofacker, Peter F. Stadler, Michael T. Wolfinger
 :slug: Barrier-Trees-of-Degenerate-Landscapes
 :summary: This paper develops the barrier-tree formalism for degenerate landscapes and helped establish a general language for analyzing basins, saddle points, and transition barriers in complex discrete systems.
 :title: Barrier Trees of Degenerate Landscapes

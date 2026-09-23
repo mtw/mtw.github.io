@@ -6,6 +6,9 @@ Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Invert
 :tags: 3D; non-coding RNA
 :category: publications
 :doi: 10.1093/nar/gkac414
+:journal: Nucleic Acids Res.
+:year: 2022
+:paper_authors: Michael H. D’Souza, Tyler Mrozowich, Maulik D. Badmalia, Mitchell Geeraert, Angela Frederickson, Amy Henrickson, Borries Demeler, Michael T. Wolfinger, Trushar R. Patel
 :slug: Biophysical-Characterisation-of-Human-LincRNA-p21-Sense-and-Antisense-Alu-Inverted-Repeats
 :summary: Biophysical and computational characterization of the tertiary structure of sense and antisense lincRNA-p21 Alu inverted repeats.
 :title: Biophysical characterization of human lincRNA-p21 Alu inverted repeats

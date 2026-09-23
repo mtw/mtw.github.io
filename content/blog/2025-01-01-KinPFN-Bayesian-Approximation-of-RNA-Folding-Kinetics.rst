@@ -6,6 +6,9 @@ KinPFN: Bayesian Approximation of RNA Folding Kinetics
 :tags: RNA folding kinetics; AI
 :category: publications
 :doi: 10.5281/zenodo.15233965
+:journal: The Thirteenth International Conference on Learning Representations (ICLR'25)
+:year: 2025
+:paper_authors: Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, Michael T. Wolfinger, Christoph Flamm, Frank Hutter
 :slug: kinpfn-rna-folding-kinetics
 :summary: KinPFN uses prior-data fitted networks to approximate first-passage-time distributions for RNA folding kinetics orders of magnitude faster than direct simulation.
 :title: KinPFN for RNA folding kinetics

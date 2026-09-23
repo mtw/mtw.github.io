@@ -5,6 +5,9 @@ TSSAR: TSS annotation regime for dRNA-seq data
 :tags: NGS; bacteria; new method; tools
 :category: publications
 :doi: 10.1186/1471-2105-15-89
+:journal: BMC Bioinformatics
+:year: 2014
+:paper_authors: Fabian Amman, Michael T. Wolfinger, Ronny Lorenz, Ivo L. Hofacker, Peter F. Stadler, Sven Findeiß
 :slug: TSSAR-tss-annotation-regime-for-drna-seq-data
 :summary: TSSAR introduced statistically grounded, automated annotation of bacterial transcription start sites from dRNA-seq data and packaged it as both a RESTful web service and a standalone tool.
 :description: Automated bacterial TSS annotation from dRNA-seq data with a statistical model of TEX-treated versus untreated libraries, via web and command line.

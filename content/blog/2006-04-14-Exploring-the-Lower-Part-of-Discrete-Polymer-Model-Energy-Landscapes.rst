@@ -5,6 +5,9 @@ Exploring the Lower Part of Discrete Polymer Model Energy Landscapes
 :tags: energy landscapes; new method; tools
 :category: publications
 :doi: 10.1209/epl/i2005-10577-0
+:journal: Europhys. Lett.
+:year: 2006
+:paper_authors: Michael T. Wolfinger, Sebastian Will, Ivo L. Hofacker, Rolf Backofen, Peter F. Stadler
 :slug: Exploring-the-Lower-Part-of-Discrete-Polymer-Model-Energy-Landscapes
 :summary: This paper develops an efficient flooding-style algorithm for exploring the low-energy part of discrete polymer landscapes, making barrier-tree analysis feasible without exhaustive enumeration.
 :title: Exploring the Lower Part of Discrete Polymer Model Energy Landscapes
