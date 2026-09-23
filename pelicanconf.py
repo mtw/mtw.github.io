@@ -139,9 +139,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 
-M_BLOG_NAME = "michaelwolfinger.com Bioinformatics Blog"
+M_BLOG_NAME = "Notes & Writing"   # matches the nav entry "Writing" and the blog H1
 M_BLOG_URL = 'https://michaelwolfinger.com/blog/'
-M_BLOG_DESCRIPTION = "michaelwolfinger.com | Computational RNA biology: RNA structure, folding dynamics, functional RNA design, and structured viral RNAs"
+M_BLOG_DESCRIPTION = "Notes on computational RNA biology by Michael T. Wolfinger: RNA structure, folding dynamics, functional RNA design, and structured viral RNAs."
 
 M_SOCIAL_TWITTER_SITE = '@mtwolfinger'
 M_SOCIAL_TWITTER_SITE_ID = 15105886

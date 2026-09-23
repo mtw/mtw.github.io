@@ -15,7 +15,7 @@
 {% endblock %}
 
 {% block social %}
-  <meta property="og:site_name" content="{{ M_BLOG_NAME|e }}" />
+  <meta property="og:site_name" content="{{ SITENAME|e }}" />
   <meta property="og:title" content="{{ article.title|striptags|e }}" />
   <meta name="twitter:title" content="{{ article.title|striptags|e }}" />
   <meta property="og:url" content="{{ article.url|format_siteurl|e }}" />

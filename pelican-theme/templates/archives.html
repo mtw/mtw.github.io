@@ -7,7 +7,7 @@
 {% set _dup_page = _plain_index and articles_page and articles_page.number > 1 %}
 {% extends "base.html" %}
 
-{% block title %}{% block blog_title %}{{ M_BLOG_NAME|e }}{% endblock %}{% if articles_page and articles_page.number > 1 %} (page {{ articles_page.number }}){% endif %}{% endblock %}
+{% block title %}{% block blog_title %}{{ M_BLOG_NAME|e }} | {{ SITENAME|e }}{% endblock %}{% if articles_page and articles_page.number > 1 %} (page {{ articles_page.number }}){% endif %}{% endblock %}
 
 {% block head_links %}
   {% block blog_canonical %}{% if M_BLOG_URL %}<link rel="canonical" href="{{ M_BLOG_URL|format_siteurl|e }}" />{% endif %}{% endblock %}
@@ -24,9 +24,9 @@
 {% endblock %}
 
 {% block social %}
-  <meta property="og:site_name" content="{{ M_BLOG_NAME|e }}" />
-  <meta property="og:title" content="{{ self.blog_title()|striptags|e }}" />
-  <meta name="twitter:title" content="{{ self.blog_title()|striptags|e }}" />
+  <meta property="og:site_name" content="{{ SITENAME|e }}" />
+  <meta property="og:title" content="{{ self.title()|striptags|e }}" />
+  <meta name="twitter:title" content="{{ self.title()|striptags|e }}" />
   {% if _listing_description|trim %}<meta property="og:description" content="{{ _listing_description|trim|e }}" />
   <meta name="twitter:description" content="{{ _listing_description|trim|e }}" />{% endif %}
   <meta property="og:type" content="website" />
@@ -43,7 +43,7 @@
 {% endblock %}
 
 {% block extra %}
-  {% block blog_ldjson %}{% import '_ldjson.html' as ld with context %}{{ ld.listing_graph(M_BLOG_NAME, (M_BLOG_URL or (SITEURL ~ '/blog')).rstrip('/') ~ '/', M_BLOG_DESCRIPTION or M_BLOG_NAME, true) }}{% endblock %}
+  {% block blog_ldjson %}{% import '_ldjson.html' as ld with context %}{{ ld.listing_graph(M_BLOG_NAME, (M_BLOG_URL or (SITEURL ~ '/blog')).rstrip('/') ~ '/', _listing_description|trim, true) }}{% endblock %}
 {% endblock %}
 
 {% block main %}
