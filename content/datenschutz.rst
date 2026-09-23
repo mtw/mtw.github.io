@@ -19,20 +19,24 @@ Stand: 23. September 2026
 | Purkersdorf, Österreich
 | E-Mail: michael.wolfinger@rnaforecast.com
 
-2. Hosting und Server-Logfiles
-==============================
+2. Hosting, CDN und Server-Logfiles
+===================================
 
-Diese Website wird als statische Seite bei **GitHub Pages** (GitHub, Inc., 88 Colin P.
-Kelly Jr. Street, San Francisco, CA 94107, USA) gehostet. Beim Aufruf einer Seite
-verarbeitet GitHub die technisch notwendigen Verbindungsdaten (IP-Adresse, aufgerufene
-Seite, Datum und Uhrzeit, Referrer, Browser- und Betriebssystemkennung) in
-Server-Logfiles, um den Dienst bereitzustellen und abzusichern. Rechtsgrundlage ist
-das berechtigte Interesse am sicheren Betrieb der Website (Art. 6 Abs. 1 lit. f
-DSGVO). GitHub, Inc. ist nach dem EU-US Data Privacy Framework zertifiziert. Näheres:
-`GitHub Privacy Statement <https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement>`_.
+Die Website wird als statische Seite bei **GitHub Pages** (GitHub, Inc., 88 Colin P.
+Kelly Jr. Street, San Francisco, CA 94107, USA) gehostet und über das Content Delivery
+Network von **Cloudflare** (Cloudflare, Inc., 101 Townsend Street, San Francisco, CA
+94107, USA) ausgeliefert, das die Domain gegen Angriffe absichert. Beim Aufruf einer
+Seite verarbeiten beide Anbieter die technisch notwendigen Verbindungsdaten
+(IP-Adresse, aufgerufene Seite, Datum und Uhrzeit, Referrer, Browser- und
+Betriebssystemkennung) in Server-Logfiles, um den Dienst bereitzustellen und
+abzusichern. Rechtsgrundlage ist das berechtigte Interesse am sicheren Betrieb der
+Website (Art. 6 Abs. 1 lit. f DSGVO). GitHub, Inc. und Cloudflare, Inc. sind nach dem
+EU-US Data Privacy Framework zertifiziert. Näheres:
+`GitHub Privacy Statement <https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement>`_,
+`Cloudflare Privacy Policy <https://www.cloudflare.com/privacypolicy/>`_.
 
-Schriften werden von dieser Domain ausgeliefert; es werden keine Inhalte von anderen
-Anbietern eingebunden.
+Schriften werden von dieser Domain ausgeliefert; Inhalte anderer Anbieter werden nicht
+eingebunden.
 
 3. Cookies und Einwilligung
 ===========================
