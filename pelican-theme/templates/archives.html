@@ -19,7 +19,7 @@
     page has its own text; paged copies get the page number appended. -#}
 {% set _listing_description %}{% block blog_description %}{{ M_BLOG_DESCRIPTION }}{% endblock %}{% if articles_page and articles_page.number > 1 %} (page {{ articles_page.number }}){% endif %}{% endset %}
 {% block meta %}
-  {% if _dup_page %}<meta name="robots" content="noindex, follow" />{% endif %}
+  {% if articles_page and articles_page.number > 1 %}<meta name="robots" content="noindex, follow" />{% endif %}
   {% if _listing_description|trim %}<meta name="description" content="{{ _listing_description|trim|e }}" />{% endif %}
 {% endblock %}
 
@@ -96,7 +96,7 @@
     {% set featured = _articles[0] %}
     <a class="blog-featured" href="{{ featured.url|format_siteurl|e }}">
       <div class="cap">
-        <div class="fe">Featured{% if featured.category %} &middot; {{ featured.category|e }}{% endif %}</div>
+        <div class="fe">Featured{% if featured.category %} &middot; {{ (M_CATEGORY_LABELS or {}).get(featured.category.name, featured.category|string)|e }}{% endif %}</div>
         <h2>{{ featured.title }}</h2>
         {% if featured.summary %}<p class="b-summary" style="font-size:1rem">{{ featured.summary|striptags|truncate(200)|e }}</p>{% endif %}
         <div class="b-date">{{ featured.locale_date }}</div>
@@ -120,7 +120,7 @@
     <a class="blog-item" href="{{ article.url|format_siteurl|e }}">
       <div>
         <div class="b-date">{{ article.locale_date }}</div>
-        {% if article.category %}<div class="b-cat">{{ article.category|e }}</div>{% endif %}
+        {% if article.category %}<div class="b-cat">{{ (M_CATEGORY_LABELS or {}).get(article.category.name, article.category|string)|e }}</div>{% endif %}
       </div>
       <div>
         <h3>{{ article.title }}</h3>
@@ -138,7 +138,7 @@
     <a class="blog-item" href="{{ article.url|format_siteurl|e }}">
       <div>
         <div class="b-date">{{ article.locale_date }}</div>
-        {% if article.category %}<div class="b-cat">{{ article.category|e }}</div>{% endif %}
+        {% if article.category %}<div class="b-cat">{{ (M_CATEGORY_LABELS or {}).get(article.category.name, article.category|string)|e }}</div>{% endif %}
       </div>
       <div>
         <h3>{{ article.title }}</h3>
@@ -154,7 +154,7 @@
     <a class="blog-item" href="{{ article.url|format_siteurl|e }}">
       <div>
         <div class="b-date">{{ article.locale_date }}</div>
-        {% if article.category %}<div class="b-cat">{{ article.category|e }}</div>{% endif %}
+        {% if article.category %}<div class="b-cat">{{ (M_CATEGORY_LABELS or {}).get(article.category.name, article.category|string)|e }}</div>{% endif %}
       </div>
       <div>
         <h3>{{ article.title }}</h3>

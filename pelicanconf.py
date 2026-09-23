@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+import datetime
 
 AUTHOR = 'Michael T. Wolfinger'
 SITENAME = "Michael T. Wolfinger"
@@ -115,7 +116,7 @@ M_LINKS_FOOTER4 = [('Social', ''),
                     ('ORCID', 'https://orcid.org/0000-0003-0925-5205'),
                     ]
 
-M_FINE_PRINT = "© 2026 Michael T. Wolfinger · Vienna, Austria · michael.wolfinger@rnaforecast.com"
+M_FINE_PRINT = "© %d Michael T. Wolfinger · Vienna, Austria · michael.wolfinger@rnaforecast.com" % datetime.date.today().year
 
 STATIC_PATHS = ['static', 'extra/CNAME', 'extra/robots.txt', 'extra/favicon.ico',
                 'extra/llms.txt', 'extra/site.webmanifest']
@@ -140,6 +141,9 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+
+# Display names for the blog categories (the category slug stays as it is).
+M_CATEGORY_LABELS = {'howto': 'How-to', 'outreach': 'Outreach', 'publications': 'Publications'}
 
 M_BLOG_NAME = "Notes & Writing"   # matches the nav entry "Writing" and the blog H1
 M_BLOG_URL = 'https://michaelwolfinger.com/blog/'
