@@ -20,7 +20,7 @@ Bi-Alignments as Models of Incongruent Evolution of RNA Sequence and Secondary S
 
 .. container:: m-row
 
-    .. container:: m-col-l-9 m-container-inflatable
+    .. container:: m-col-l-12 m-container-inflatable
 
         Maria Waldl, Sebastian Will, :ul:`Michael T. Wolfinger`, Ivo L. Hofacker, Peter F. Stadler
 
@@ -28,13 +28,6 @@ Bi-Alignments as Models of Incongruent Evolution of RNA Sequence and Secondary S
 
         Download: :link-flat-strong:`Preprint PDF <{static}/files/papers/Waldl-2020__PREPRINT.pdf>`
 
-    .. container:: m-col-l-3 m-container-inflatable
-
-      .. container:: m-label
-
-         .. raw:: html
-
-           <span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-030-63061-4_15" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 
 

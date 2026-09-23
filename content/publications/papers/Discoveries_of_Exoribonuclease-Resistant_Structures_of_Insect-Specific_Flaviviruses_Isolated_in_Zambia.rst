@@ -20,7 +20,7 @@ Discoveries of Exoribonuclease-Resistant Structures of Insect-Specific Flaviviru
 
 .. container:: m-row
 
-    .. container:: m-col-l-9 m-col-m-9 m-container-inflatable
+    .. container:: m-col-l-12 m-container-inflatable
 
           Christida E. Wastika, Hayato Harima, Michihito Sasakai, Bernard M. Hang’ombe, Yuki Eshita, Qiu Yongjin, William W. Hall, :ul:`Michael T. Wolfinger`, Hirofumi Sawa, Yasuko Orba
 
@@ -28,13 +28,6 @@ Discoveries of Exoribonuclease-Resistant Structures of Insect-Specific Flaviviru
 
           Download: :link-flat-strong:`PDF <{static}/files/papers/Wastika-2020.pdf>`
 
-    .. container:: m-col-l-3 m-col-m-3 m-container-inflatable
-
-      .. container:: m-label
-
-        .. raw:: html
-
-          <span class="__dimensions_badge_embed__" data-doi="10.3390/v12091017" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 
 Abstract
