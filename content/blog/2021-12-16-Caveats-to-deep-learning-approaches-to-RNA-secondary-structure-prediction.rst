@@ -88,12 +88,4 @@ Citation
   | Christoph Flamm, Julia Wielach, :ul:`Michael T. Wolfinger`, Stefan Badelt, Ronny Lorenz, Ivo L. Hofacker
   | *Front. Bioinform.* 2:835422 (2022) | :doi:`doi:10.3389/fbinf.2022.835422 <https://doi.org/10.3389/fbinf.2022.835422>` | :link-flat:`PDF <{static}/files/papers/Flamm-2022.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Flamm-2022.pdf>`
 
-..
-  .. block-info:: Citations
-
-      .. container:: m-label
-
-          .. raw:: html
-
-            <span class="__dimensions_badge_embed__" data-doi="10.3389/fbinf.2022.835422" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 

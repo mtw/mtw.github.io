@@ -20,7 +20,7 @@ Distinctive Regulation of Carbapenem Susceptibility in Pseudomonas Aeruginosa by
 
 .. container:: m-row
 
-   .. container:: m-col-l-9 m-col-m-9 m-container-inflatable
+   .. container:: m-col-l-12 m-container-inflatable
 
         Elisabeth Sonnleitner, Petra Pusic, :ul:`Michael T. Wolfinger`, Udo Bläsi
 
@@ -28,13 +28,6 @@ Distinctive Regulation of Carbapenem Susceptibility in Pseudomonas Aeruginosa by
 
         Download: :link-flat-strong:`PDF <{static}/files/papers/Sonnleitner-2020.pdf>`
 
-   .. container:: m-col-l-3 m-col-m-3 m-container-inflatable
-
-     .. container:: m-label
-
-        .. raw:: html
-
-           <span class="__dimensions_badge_embed__" data-doi="10.3389/fmicb.2020.01001" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 
 
