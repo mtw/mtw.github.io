@@ -1,0 +1,29 @@
+# Michael T. Wolfinger
+
+> Independent Principal Investigator in computational RNA biology, based in Vienna, Austria. Research on RNA secondary structure, folding kinetics, functional RNA design, RNA-protein recognition, and structured viral RNAs; author of tools in the ViennaRNA ecosystem. Independent research is conducted through RNA Forecast (https://rnaforecast.com).
+
+Michael T. Wolfinger held positions at the University of Vienna (University Assistant and Principal Investigator, 2019-2025), a Visiting Professorship (W2 Substitute Chair) at the University of Freiburg (2023-2024), and postdoctoral positions at the University of Vienna and the Medical University of Vienna. Since 2025 he pursues independently led research and collaborates with academic groups, including the Theoretical Biochemistry Group at the University of Vienna.
+
+Identifiers: ORCID https://orcid.org/0000-0003-0925-5205 · Google Scholar https://scholar.google.at/citations?user=w0PHGnEAAAAJ · Contact michael.wolfinger@rnaforecast.com
+
+## Main pages
+
+- [About](https://michaelwolfinger.com/about/): biography, positions, research themes, service, and supervision
+- [Research](https://michaelwolfinger.com/research/): current research directions in computational RNA biology
+- [Publications](https://michaelwolfinger.com/publications/): complete list of peer-reviewed papers, each linking to a dedicated page with abstract and DOI
+- [Presentations](https://michaelwolfinger.com/publications/presentations/): invited and conference talks
+- [Posters](https://michaelwolfinger.com/publications/posters/): conference posters
+- [Teaching](https://michaelwolfinger.com/teaching/): university courses taught since 2005
+- [Team and supervision](https://michaelwolfinger.com/team/): supervised students and group members
+- [Collaborations](https://michaelwolfinger.com/collaborations/): academic collaboration partners
+- [Contact](https://michaelwolfinger.com/contact/): email addresses and profiles
+
+## Writing
+
+- [Blog](https://michaelwolfinger.com/blog/): notes on RNA structure prediction, folding kinetics, RNA design, viral RNAs, and scientific software
+- [Atom feed](https://michaelwolfinger.com/feeds/all.atom.xml): full-text feed of all posts, including the paper announcements
+- [Sitemap](https://michaelwolfinger.com/sitemap.xml)
+
+## Structured data
+
+Every page embeds schema.org JSON-LD: a Person node (https://michaelwolfinger.com/#person) with ORCID and profile links, BlogPosting nodes for posts, ScholarlyArticle nodes keyed by DOI for papers, and an ItemList of all papers on the publications page.
