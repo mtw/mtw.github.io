@@ -3,7 +3,7 @@ How to Run Claude Code with a Local LLM on Apple Silicon
 
 :date: 2026-04-17
 :modified: 2026-04-22
-:tags: AI, Agents
+:tags: AI; Agents
 :category: howto
 :section: guides
 :frontpage: no

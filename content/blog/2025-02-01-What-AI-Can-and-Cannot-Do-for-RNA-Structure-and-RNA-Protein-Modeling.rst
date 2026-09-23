@@ -4,7 +4,7 @@ What AI can and cannot do for RNA structure and RNA-protein modeling
 :status: skip
 :date: 2025-02-01
 :modified: 2026-04-30
-:tags: AI; RNA structure prediction; RNA-Protein interaction; 3D
+:tags: AI; RNA structure prediction; RNA-protein interaction; 3D
 :category: outreach
 :section: essays
 :slug: What-AI-Can-and-Cannot-Do-for-RNA-Structure-and-RNA-Protein-Modeling

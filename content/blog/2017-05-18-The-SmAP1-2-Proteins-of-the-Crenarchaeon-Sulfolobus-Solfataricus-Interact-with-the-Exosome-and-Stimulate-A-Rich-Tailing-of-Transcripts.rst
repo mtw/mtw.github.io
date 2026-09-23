@@ -2,7 +2,7 @@ How archaeal Sm-like proteins shape RNA tailing
 ###############################################
 
 :date: 2017-05-18
-:tags: RNA-Protein interaction; non-coding RNA
+:tags: RNA-protein interaction; non-coding RNA
 :category: publications
 :doi: 10.1093/nar/gkx437
 :journal: Nucleic Acids Res.

@@ -3,7 +3,7 @@ What AI is genuinely useful for in RNA biology
 
 :date: 2026-03-22
 :modified: 2026-05-01
-:tags: AI; RNA structure prediction; RNA folding kinetics; RNA-Protein interaction; virus bioinformatics
+:tags: AI; RNA structure prediction; RNA folding kinetics; RNA-protein interaction; virus bioinformatics
 :category: outreach
 :section: essays
 :status: skip
