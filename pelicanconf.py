@@ -42,6 +42,8 @@ PLUGINS = ['m.htmlsanity',
            'm.sitemap',
            'm.images']
 
+# Category listings are disallowed in robots.txt and the publications/papers/ stubs are
+# canonicalised to their blog posts, so neither belongs in the sitemap.
 SITEMAP = {
     "format": "xml",
     "priorities": {
@@ -50,48 +52,51 @@ SITEMAP = {
         "pages": 0.5
     },
     "changefreqs": {
-        "articles": "always",
-        "indexes": "always",
-        "pages": "always"
+        "articles": "monthly",
+        "indexes": "weekly",
+        "pages": "monthly"
     },
-    "exclude": ["services", "consulting", "blog/archive/", "blog/author/", "authors", "index", "legal"]
+    "exclude": ["services", "consulting", "blog/archive/", "blog/author/", "blog/category/",
+                "authors", "index", "legal", "publications/papers/", "404"]
 }
 
 
 #M_SITE_LOGO_TEXT = 'Your Brand'
 
+# Links carry the trailing slash: that is the canonical form of every page URL, and the
+# slash-less form costs a redirect on GitHub Pages.
 M_LINKS_NAVBAR1 = [
-                    ('About', '/about', 'about', []),
-                    ('Research', '/research', 'research', [
-                        ('Team', '/team', 'team'),
+                    ('About', '/about/', 'about', []),
+                    ('Research', '/research/', 'research', [
+                        ('Team', '/team/', 'team'),
                         ('Collaborations', '/collaborations/', 'collaborations'),
                     ]),
-                    ('Publications', '/publications', 'publications', [
-                        ('Papers', '/publications', 'papers'),
-                        ('Presentations', 'publications/presentations', 'publications/presentations'),
-                        ('Posters', 'publications/posters', 'publications/posters'),
+                    ('Publications', '/publications/', 'publications', [
+                        ('Papers', '/publications/', 'papers'),
+                        ('Presentations', '/publications/presentations/', 'publications/presentations'),
+                        ('Posters', '/publications/posters/', 'publications/posters'),
                         ]),
-                    ('Teaching', '/teaching', 'teaching', []),
-                    ('Contact', '/contact', 'contact', []),
-                    ('Writing', 'blog/', '[blog]',[])]
+                    ('Teaching', '/teaching/', 'teaching', []),
+                    ('Contact', '/contact/', 'contact', []),
+                    ('Writing', '/blog/', '[blog]',[])]
 
 #M_LINKS_NAVBAR2 = [('Blog', 'blog/', '[blog]',[])]
 
 # Footer: four link columns as in the mockups. The first entry of each list is the
 # column heading (linked when it has a URL).
 M_LINKS_FOOTER1 = [('Home', '/'),
-                    ('About', '/about'),
-                    ('Research', '/research'),
-                    ('Publications', '/publications'),
-                    ('Teaching', '/teaching'),
-                    ('People & Supervision', '/team'),
+                    ('About', '/about/'),
+                    ('Research', '/research/'),
+                    ('Publications', '/publications/'),
+                    ('Teaching', '/teaching/'),
+                    ('People & Supervision', '/team/'),
                     ('Writing', '/blog/'),
                     ]
 
 M_LINKS_FOOTER2 = [('More', ''),
                     ('RNA Forecast', 'https://rnaforecast.com'),
-                    ('Contact', '/contact'),
-                    ('Legal Note', '/legal'),
+                    ('Contact', '/contact/'),
+                    ('Legal Note', '/legal/'),
                     ]
 
 M_LINKS_FOOTER3 = [('My Profiles', ''),
@@ -110,11 +115,14 @@ M_LINKS_FOOTER4 = [('Social', ''),
 
 M_FINE_PRINT = "© 2026 Michael T. Wolfinger · Vienna, Austria · michael.wolfinger@rnaforecast.com"
 
-STATIC_PATHS = ['static', 'extra/CNAME', 'extra/robots.txt', 'extra/favicon.ico']
+STATIC_PATHS = ['static', 'extra/CNAME', 'extra/robots.txt', 'extra/favicon.ico',
+                'extra/llms.txt', 'extra/site.webmanifest']
 EXTRA_PATH_METADATA = {
                         'extra/CNAME': {'path': 'CNAME'},
                         'extra/robots.txt': {'path': 'robots.txt'},
                         'extra/favicon.ico': {'path': 'favicon.ico'},
+                        'extra/llms.txt': {'path': 'llms.txt'},
+                        'extra/site.webmanifest': {'path': 'site.webmanifest'},
                         }
 
 
@@ -160,6 +168,7 @@ CATEGORY_URL = 'blog/category/{slug}.html'
 CATEGORY_SAVE_AS = 'blog/category/{slug}.html'
 TAG_URL = 'blog/tag/{slug}.html'
 TAG_SAVE_AS = 'blog/tag/{slug}.html'
+INDEX_URL = 'blog/'   # read by the sitemap plugin; without it the blog index is written as '/'
 INDEX_SAVE_AS = 'blog/index.html'
 
 #YEAR_ARCHIVE_URL = 'blog/archives/{date:%Y}.html'

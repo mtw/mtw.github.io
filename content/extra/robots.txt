@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /blog/archive/*
 Disallow: /blog/category/*
 Disallow: /legal
 Disallow: /services
