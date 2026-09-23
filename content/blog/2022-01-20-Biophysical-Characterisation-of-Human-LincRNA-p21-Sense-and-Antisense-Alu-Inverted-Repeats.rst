@@ -5,8 +5,8 @@ Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Invert
 :modified: 2022-10-14
 :tags: 3D; non-coding RNA
 :category: publications
+:doi: 10.1093/nar/gkac414
 :slug: Biophysical-Characterisation-of-Human-LincRNA-p21-Sense-and-Antisense-Alu-Inverted-Repeats
-:author: mtw
 :summary: Biophysical and computational characterization of the tertiary structure of sense and antisense lincRNA-p21 Alu inverted repeats.
 :title: Biophysical characterization of human lincRNA-p21 Alu inverted repeats
 :description: In this study we determine the tertiary structure of human LincRNA-p21 Alu Inverted Repeats with biophysical and computational approaches

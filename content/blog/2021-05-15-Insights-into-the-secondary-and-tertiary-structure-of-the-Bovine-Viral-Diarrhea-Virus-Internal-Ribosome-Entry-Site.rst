@@ -5,8 +5,8 @@ Insights into the secondary and tertiary structure of the BVDV Internal Ribosome
 :modified: 2026-04-23
 :tags: 3D; SHAPE; virus bioinformatics; non-coding RNA; flavivirus; virology
 :category: publications
+:doi: 10.1080/15476286.2022.2058818
 :slug: Insights-into-the-secondary-and-tertiary-structure-of-the-Bovine-Viral-Diarrhea-Virus-Internal-Ribosome-Entry-Site
-:author: mtw
 :description: Characterization of a pseudoknot in the 5'UTR Internal Ribosome Entry Site (IRES) of Bovine Viral Diarrhea Virus (BVDV)
 :title: Secondary and tertiary structure of the BVDV IRES
 :summary: This post summarizes what SHAPE-guided modeling and 3D analysis reveal about a pseudoknot in the BVDV internal ribosome entry site and why that matters for IRES function.

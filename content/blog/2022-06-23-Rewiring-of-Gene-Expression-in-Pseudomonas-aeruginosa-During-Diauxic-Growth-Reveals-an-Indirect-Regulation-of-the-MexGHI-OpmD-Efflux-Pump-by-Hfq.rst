@@ -5,8 +5,8 @@ Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reve
 :modified: 2022-10-14
 :tags: bacteria; NGS; One Health
 :category: publications
+:doi: 10.3389/fmicb.2022.919539
 :slug: Rewiring-of-Gene-Expression-in-Pseudomonas-aeruginosa
-:author: mtw
 :summary: This study examines carbon catabolite repression and its indirect effects on antibiotic susceptibility in Pseudomonas aeruginosa.
 :title: Hfq, Crc, and antibiotic resistance in P. aeruginosa
 :description: Here we study carbon catabolite repression and its impact on antibiotic susceptibility in the opportunistic pathogen Pseudomonas aeruginosa

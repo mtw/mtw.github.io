@@ -5,8 +5,8 @@ Barrier Trees of Degenerate Landscapes
 :modified: 2026-04-24
 :tags: energy landscapes; new method; tools
 :category: publications
+:doi: 10.1524/zpch.2002.216.2.155
 :slug: Barrier-Trees-of-Degenerate-Landscapes
-:author: mtw
 :summary: This paper develops the barrier-tree formalism for degenerate landscapes and helped establish a general language for analyzing basins, saddle points, and transition barriers in complex discrete systems.
 :title: Barrier Trees of Degenerate Landscapes
 :description: A foundational paper on barrier trees for degenerate landscapes and on the barriers software for coarse-grained energy-landscape analysis.

@@ -5,8 +5,8 @@ An African Tick Flavivirus Forming an Independent Clade Exhibits Unique Exoribon
 :modified: 2023-11-02
 :tags: novel viruses; xrRNA; flavivirus; virology; RNA structure conservation
 :category: publications
+:doi: 10.1099/jgv.0.001991
 :slug: Mpulungu_Virus_is_a_novel_tick_flavivirus_from_Africa
-:author: mtw
 :title: Mpulungu virus and unique xrRNAs in a novel African tick flavivirus
 :summary: This study describes Mpulungu virus, a novel African tick flavivirus, and characterizes unusual exoribonuclease-resistant RNA structures in its 3' UTR.
 :description: Genome analysis of Mpulungu virus reveals an independent flavivirus lineage and distinctive xrRNA structures in the 3' UTR.
@@ -42,7 +42,7 @@ This also places MPFV naturally beside the :link-flat:`Zambian insect-specific f
 
 I would now read this paper less as a warning about an immediate public-health threat and more as a foundational comparative RNA virology study. It identified a novel lineage, mapped its structured 3' UTR, and showed that even in a phylogenetically unusual branch, xrRNA function remains central enough to be retained. That is the kind of result that makes later ecological and evolutionary reinterpretation possible.
 
-It is also a good example of the argument in :link-flat:`When sequence conservation is not enough to find functional RNA structure <{filename}/blog/2026-04-05-When-Sequence-Conservation-Is-Not-Enough-to-Find-Functional-RNA-Structure.rst>`, because the deeper commonality here emerges from preserved structured-RNA logic rather than from easy sequence similarity alone.
+It is also a good example of why sequence conservation alone is not enough to find functional RNA structure: the deeper commonality here emerges from preserved structured-RNA logic rather than from easy sequence similarity alone.
 
 .. frame:: Abstract
 

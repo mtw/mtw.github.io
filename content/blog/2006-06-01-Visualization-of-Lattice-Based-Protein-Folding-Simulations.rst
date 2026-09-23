@@ -5,8 +5,8 @@ Visualization of Lattice-Based Protein Folding Simulations
 :modified: 2026-04-24
 :tags: energy landscapes; tools
 :category: publications
+:doi: 10.1109/IV.2006.127
 :slug: Visualization-of-Lattice-Based-Protein-Folding-Simulations
-:author: mtw
 :summary: This conference paper presents visualization strategies for lattice-based protein folding simulations, turning complex folding trajectories and energy-landscape transitions into interpretable interactive representations.
 :title: Visualization of lattice-based protein folding simulations
 :description: A visualization-focused paper on how to inspect lattice-based protein folding simulations and energy-landscape trajectories more effectively.

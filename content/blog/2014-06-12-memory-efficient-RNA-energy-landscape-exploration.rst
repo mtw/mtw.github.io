@@ -5,8 +5,8 @@ Memory-efficient-RNA-energy-landscape-exploration
 :modified: 2026-04-24
 :tags: energy landscapes; new method; tools
 :category: publications
+:doi: 10.1524/zpch.2002.216.2.155
 :slug: Memory-efficient-RNA-energy-landscape-exploration
-:author: mtw
 :summary: This paper revisits the earlier flooding-based landscape methods and adapts them to RNA secondary structures with a local, memory-efficient enumeration strategy.
 :description: A local flooding variant for memory-efficient exploration of RNA energy landscapes, building on the earlier barrier-tree and low-energy landscape work.
 :title: Memory-efficient exploration of RNA energy landscapes

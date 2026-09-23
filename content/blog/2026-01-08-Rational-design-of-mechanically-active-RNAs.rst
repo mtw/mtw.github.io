@@ -5,8 +5,8 @@ Rational Design of Mechanically Active RNAs
 :modified: 2026-05-07
 :tags: RNA design; xrRNA; synthetic biology
 :category: publications
+:doi: 10.1101/2026.01.08.698366
 :slug: Rational-design-of-mechanically-active-RNAs
-:author: mtw
 :summary: A preprint-stage note on the design logic behind synthetic xrRNAs and mechanically active RNAs.
 :title: A first look at rational design of mechanically active RNAs
 :description: Preprint-stage overview of a mechanics-aware workflow for designing synthetic xrRNAs and probing how topology controls XRN1 resistance.

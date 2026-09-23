@@ -8,7 +8,6 @@ How to review an RNA design before synthesis
 :section: guides
 :status: skip
 :slug: How-to-review-an-RNA-design-before-synthesis
-:author: mtw
 :summary: Many RNA designs fail for reasons that are visible long before the first synthesis order is placed. A careful review can expose mismatched objectives, weak structural assumptions, and overlooked kinetic failure modes before they become expensive.
 :title: How to review an RNA design before synthesis
 :description: A practical guide to evaluating RNA constructs before synthesis, with attention to structure prediction, folding kinetics, mechanism, and candidate prioritization.
@@ -53,7 +52,7 @@ perturbations reshuffle the ranking of alternatives.
 Equilibrium may also be the wrong lens. If the design depends on
 transcriptional timing, ligand capture, switching order, or metastable
 intermediates, static structure alone may be an inadequate screening
-criterion. I discuss that broader point in :link-flat:`Why kinetic folding matters in RNA design <{filename}/blog/2025-01-20-Why-Kinetic-Folding-Matters-in-RNA-Design.rst>`. Many disappointing RNA constructs are not structurally
+criterion. Many disappointing RNA constructs are not structurally
 impossible. They are simply mistimed.
 
 Not every project requires a full kinetic analysis. Some features,

@@ -5,8 +5,8 @@ Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses
 :modified: 2022-11-01
 :tags: virus bioinformatics; non-coding RNA; xrRNA; flavivirus; RNA structure conservation
 :category: publications
+:doi: 10.3390/v11030298
 :slug: Functional-RNA-Structures-in-the-3UTR-of-Mosquito-Borne-Flaviviruses
-:author: mtw
 :summary: This chapter compares conserved functional RNA elements in the 3' UTRs of mosquito-borne flaviviruses, including xrRNAs, dumbbells, and terminal stem-loops.
 :title: Functional RNA structures in the 3'UTR of Mosquito-Borne Flaviviruses
 :description: Comparative overview of conserved functional RNA elements in the 3' UTRs of mosquito-borne flaviviruses.
@@ -41,7 +41,7 @@ That narrower focus also helps frame later, more specific papers. The logic of c
 
 For me, that is the real contribution of this chapter. It provides a map of the conserved structural vocabulary in mosquito-borne flavivirus 3' UTRs and makes it easier to ask which of those motifs are ancient, which are lineage-specific, and which are most likely to carry experimentally testable function. As a synthesis piece, it is less about a single new mechanistic claim than about organizing a rapidly expanding field into a coherent comparative picture.
 
-That broader comparative point is also the theme of :link-flat:`When sequence conservation is not enough to find functional RNA structure <{filename}/blog/2026-04-05-When-Sequence-Conservation-Is-Not-Enough-to-Find-Functional-RNA-Structure.rst>`, which makes explicit why flaviviral `3'UTRs` so often have to be read at the level of structural architecture rather than sequence similarity alone.
+That broader comparative point is why flaviviral `3'UTRs` so often have to be read at the level of structural architecture rather than sequence similarity alone.
 
 .. frame:: Abstract
 
