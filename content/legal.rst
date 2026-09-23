@@ -13,8 +13,6 @@ Impressum
    kleine Websites (§ 25 Abs. 5 MedienG). Kommerzielle Angebote gibt es ausschließlich
    auf rnaforecast.com, dessen Impressum die Unternehmensdaten enthält.
 
-Offenlegung gemäß § 25 MedienG
-
 | Medieninhaber: Dr. Michael T. Wolfinger
 | Wohnort: Purkersdorf, Österreich
 | E-Mail: michael.wolfinger@rnaforecast.com
