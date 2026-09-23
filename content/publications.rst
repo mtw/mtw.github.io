@@ -38,7 +38,7 @@ The subset of this work carrying the RNA Forecast affiliation is also listed on
    | Liam Kerr, Danielle L. Gemmill, Higor S. Pereira, :ul:`Michael T. Wolfinger`, Trushar R. Patel · submitted 2026
 
    | Identification of a region within the 5’UTR of Interleukin-2 mRNA offers a promising strategy for drug development for autoimmune disorders
-   | Katarzyna M. Gluchowska, Krzysztofa Odzywol, Agnieszka Zagozdzon, Tomasz K. Wirecki, Chandran Nithin, Bartlomiej Surpeta, Xiaobing Zhang, Jannan Zhao, Lukasz Joachimiak, Bartlomiej Hofman, Joanna Sztuba-Solinska, Katarzyna Drzewicka, Angelika Muchowicz, :ul:`Michael T. Wolfinger`, Roman Blaszczyk, Irina Tuszynska, Janusz M. Bujnicki, Zbigniew Zaslona · submitted 2026
+   | Martyna Nowacka, Julita Nowicka, Joanna Grochowska, Magdalena Kulma, Agnieszka Belczyk-Ciesielska, Katarzyna M. Gluchowska, Krzysztofa Odrzywol, Agnieszka Zagozdzon, Tomasz K. Wirecki, Chandran Nithin, Bartlomiej Surpeta, Xiaobing Zhang, Jiannan Zhao, Wojciech Czestkowski, Sylwia Olejniczak, Lukasz Joachimiak, Bartlomiej Hofman, Joanna Sztuba-Solinska, Katarzyna Drzewicka, Angelika Muchowicz, :ul:`Michael T. Wolfinger`, Roman Blaszczyk, Irina Tuszynska, Janusz M. Bujnicki, Zbigniew Zaslona · submitted 2026
 
 Peer-reviewed journal / conference articles and book chapters
 =============================================================
