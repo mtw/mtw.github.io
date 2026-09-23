@@ -111,7 +111,7 @@
         </div>
         <ul>
           {% for title, link in group %}{% if loop.index0 != 0 %}
-          <li>{% if title %}<a href="{{ link|format_siteurl|e }}">{{ title|e }}</a>{% else %}&nbsp;{% endif %}</li>
+          <li>{% if title %}<a href="{{ link|format_siteurl|e }}"{% if link.startswith('http') %} rel="me"{% endif %}>{{ title|e }}</a>{% else %}&nbsp;{% endif %}</li>
           {% endif %}{% endfor %}
         </ul>
       </div>

@@ -117,7 +117,8 @@
 {% set url = SITEURL ~ '/' ~ article.url %}
 {% set desc = (article.description or article.summary or '')|dehyphenate|striptags|trim %}
 {% set blog_url = _blog_url %}
-{% if article.cover %}{% set image = article.cover|expand_link(article) %}{% else %}{% set image = M_SOCIAL_IMAGE|format_siteurl %}{% endif %}
+{#- Without a per-post cover, offer the wide and the square site card (Google asks for several aspect ratios). -#}
+{% if article.cover %}{% set image = article.cover|expand_link(article) %}{% else %}{% set image = [M_SOCIAL_IMAGE|format_siteurl, '/static/og-square-1200x1200.png'|format_siteurl] %}{% endif %}
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@graph": [
  {{ website() }},
