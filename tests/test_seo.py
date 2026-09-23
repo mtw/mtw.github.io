@@ -24,7 +24,10 @@ def output_dir(tmp_path_factory) -> Path:
 
 
 def _html_pages(output_dir: Path) -> list[Path]:
-    return sorted(p for p in output_dir.rglob("*.html") if p.name != "404.html" and "services" not in p.parts)
+    """Real pages: not the 404 page, the services stub, or a redirect stub."""
+    return sorted(p for p in output_dir.rglob("*.html")
+                  if p.name != "404.html" and "services" not in p.parts
+                  and "http-equiv=refresh" not in p.read_text(encoding="utf-8"))
 
 
 def _graph(page: Path) -> list[dict]:
