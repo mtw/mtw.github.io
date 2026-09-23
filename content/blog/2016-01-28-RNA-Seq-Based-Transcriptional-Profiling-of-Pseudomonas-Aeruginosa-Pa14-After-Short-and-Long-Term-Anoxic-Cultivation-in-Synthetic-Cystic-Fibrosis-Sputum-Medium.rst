@@ -5,6 +5,9 @@ RNA-Seq Based Transcriptional Profiling of Pseudomonas Aeruginosa Pa14 After Sho
 :tags: bacteria; NGS
 :category: publications
 :doi: 10.1371/journal.pone.0147811
+:journal: PLoS ONE
+:year: 2016
+:paper_authors: Muralidhar Tata, Michael T. Wolfinger, Fabian Amman, Nicole Roschanski, Andreas Dötsch, Elisabeth Sonnleitner, Susanne Häussler, Udo Bläsi
 :slug: RNA-Seq-Based-Transcriptional-Profiling-of-Pseudomonas-Aeruginosa-Pa14-After-Short-and-Long-Term-Anoxic-Cultivation-in-Synthetic-Cystic-Fibrosis-Sputum-Medium
 :summary: This study uses RNA-seq to compare planktonic, short-term anoxic, and long-term anoxic biofilm states of Pseudomonas aeruginosa PA14 in synthetic cystic fibrosis sputum medium, revealing transcriptomic changes linked to denitrification, chronic adaptation, and antibiotic tolerance.
 :title: RNA-seq profiling of Pseudomonas aeruginosa under anoxic cystic fibrosis-like growth

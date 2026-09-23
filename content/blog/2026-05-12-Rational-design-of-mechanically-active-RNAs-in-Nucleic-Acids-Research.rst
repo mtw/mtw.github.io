@@ -6,6 +6,9 @@ Rational Design of Mechanically Active RNAs
 :tags: RNA design; xrRNA; synthetic biology
 :category: publications
 :doi: 10.1093/nar/gkag473
+:journal: Nucleic Acids Res.
+:year: 2026
+:paper_authors: Jule Walter, Leonhard Sidl, Katrin Gutenbrunner, Denis Skibinski, Tim Kolberg, Ivo L. Hofacker, Hua-Ting Yao, Mario Mörl, Michael T. Wolfinger
 :slug: Rational-design-of-mechanically-active-RNAs-in-Nucleic-Acids-Research
 :summary: This Nucleic Acids Research paper shows that synthetic xrRNAs can be designed from topological rules and validated experimentally as mechanically active RNAs.
 :title: Rational design of mechanically active RNAs

@@ -6,6 +6,9 @@ Bayesian Approximation of RNA Folding Times
 :tags: RNA folding kinetics; AI
 :category: publications
 :doi: 10.5281/zenodo.15228717
+:journal: ICLR 2025 Workshop on AI for Nucleic Acids
+:year: 2025
+:paper_authors: Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, Michael T. Wolfinger, Christoph Flamm, Frank Hutter
 :slug: bayesian-approximation-rna-folding-times
 :summary: This workshop paper introduces the core KinPFN idea: approximating RNA first-passage-time distributions with a prior-data fitted network trained on synthetic folding-time priors.
 :title: Bayesian approximation of RNA folding times

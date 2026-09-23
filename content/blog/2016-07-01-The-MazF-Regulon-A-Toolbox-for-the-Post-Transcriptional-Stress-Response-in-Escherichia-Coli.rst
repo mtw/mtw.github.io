@@ -5,6 +5,9 @@ The MazF-Regulon: A Toolbox for the Post-Transcriptional Stress Response in Esch
 :tags: bacteria
 :category: publications
 :doi: 10.1093/nar/gkw115
+:journal: Nucleic Acids Res.
+:year: 2016
+:paper_authors: Martina Sauert, Michael T. Wolfinger, Oliver Vesper, Christian Müller, Konstantin Byrgazov, Isabella Moll
 :slug: The-MazF-Regulon-A-Toolbox-for-the-Post-Transcriptional-Stress-Response-in-Escherichia-Coli
 :summary: This paper uses Poly-seq to define the MazF regulon in Escherichia coli, showing how MazF reshapes both mRNA processing and ribosome specificity to reprogram translation during harsh stress.
 :title: The MazF regulon and post-transcriptional stress adaptation in Escherichia coli

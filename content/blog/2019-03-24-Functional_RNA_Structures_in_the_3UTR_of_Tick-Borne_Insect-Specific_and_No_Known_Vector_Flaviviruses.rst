@@ -5,6 +5,9 @@ Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No K
 :tags: virus bioinformatics; One Health; xrRNA; flavivirus; synthetic biology; virology; RNA structure conservation
 :category: publications
 :doi: 10.3390/v11030298
+:journal: Viruses
+:year: 2019
+:paper_authors: Roman Ochsenreiter, Ivo L. Hofacker, Michael T. Wolfinger
 :slug: Functional_RNA_Structures_in_the_three_prime_UTR_of_Flaviviruses
 :title: Comparative genomics of flavivirus 3' UTR RNA structures
 :summary: A comparative genomics analysis of flavivirus 3' UTRs that identifies conserved exoribonuclease-resistant RNAs and lineage-specific architectural variation across tick-borne, insect-specific, and no-known-vector flaviviruses.

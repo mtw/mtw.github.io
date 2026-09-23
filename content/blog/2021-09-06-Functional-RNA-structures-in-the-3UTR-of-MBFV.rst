@@ -6,6 +6,9 @@ Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses
 :tags: virus bioinformatics; non-coding RNA; xrRNA; flavivirus; RNA structure conservation
 :category: publications
 :doi: 10.3390/v11030298
+:journal: Viruses
+:year: 2019
+:paper_authors: Roman Ochsenreiter, Ivo L. Hofacker, Michael T. Wolfinger
 :slug: Functional-RNA-Structures-in-the-3UTR-of-Mosquito-Borne-Flaviviruses
 :summary: This chapter compares conserved functional RNA elements in the 3' UTRs of mosquito-borne flaviviruses, including xrRNAs, dumbbells, and terminal stem-loops.
 :title: Functional RNA structures in the 3'UTR of Mosquito-Borne Flaviviruses

@@ -6,6 +6,9 @@ From Structure to Function in Musashi-RNA Complexes
 :tags: 3D; RNA-Protein interaction; AI
 :category: publications
 :doi: 10.2306/scienceasia1513-1874.2025.s013
+:journal: Sci. Asia
+:year: 2025
+:paper_authors: Nitchakan Darai, Leonhard Sidl, Thanyada Rungrotmongkol, Peter Wolschann, Michael T. Wolfinger
 :slug: From-Structure-to-Function-Computational-Insights-into-Musashi-RNA-Complexes
 :summary: This review article surveys how computational modeling, molecular dynamics, and AI-derived structures help explain Musashi-RNA recognition in both cellular regulation and viral pathogenesis.
 :title: From structure to function in Musashi-RNA complexes

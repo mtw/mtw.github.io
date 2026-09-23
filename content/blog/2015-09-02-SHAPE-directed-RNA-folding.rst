@@ -5,6 +5,9 @@ SHAPE directed RNA folding
 :tags: ViennaRNA; SHAPE; new method; tools; RNA structure prediction
 :category: publications
 :doi: 10.1093/bioinformatics/btv523
+:journal: Bioinformatics
+:year: 2016
+:paper_authors: Ronny Lorenz, Dominik Luntzer, Ivo L. Hofacker, Peter F. Stadler, Michael T. Wolfinger
 :slug: SHAPE-directed-RNA-folding
 :summary: This paper shows how SHAPE-guided RNA folding is implemented in the ViennaRNA Package, comparing three widely used strategies for turning nucleotide reactivities into soft constraints that improve thermodynamic structure prediction.
 :title: SHAPE directed RNA folding with the ViennaRNA Package
