@@ -101,7 +101,7 @@ M_LINKS_FOOTER2 = [('More', ''),
                     ('RNA Forecast', 'https://rnaforecast.com'),
                     ('Contact', '/contact/'),
                     ('Impressum', '/legal/'),
-                    ('Privacy', '/privacy/'),
+                    ('Datenschutz', '/datenschutz/'),
                     ('Cookie settings', '#cookie-settings'),
                     ]
 
