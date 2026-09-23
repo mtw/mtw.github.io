@@ -21,7 +21,7 @@ Medieninhaber, Herausgeber und Websitebetreiber
 -----------------------------------------------
 
 | Dr. Michael T. Wolfinger
-| Wien, Österreich
+| Purkersdorf, Österreich
 
 .. Anschrift (§ 5 Abs. 1 Z 2 ECG) ergänzen:
    | Straße Hausnummer

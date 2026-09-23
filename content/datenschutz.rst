@@ -16,7 +16,7 @@ Stand: 23. September 2026
 ===================
 
 | Dr. Michael T. Wolfinger
-| Wien, Österreich
+| Purkersdorf, Österreich
 | E-Mail: michael.wolfinger@rnaforecast.com
 
 2. Hosting und Server-Logfiles
