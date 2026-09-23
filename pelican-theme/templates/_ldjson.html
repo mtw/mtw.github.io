@@ -118,7 +118,7 @@
   "name": {{ (page.hero_title or page.title)|striptags|tojson }},
   "headline": {{ page.title|striptags|tojson }},
   "description": {{ desc|tojson }},
-  "inLanguage": {{ (page.lang or DEFAULT_LANG or 'en')|tojson }},
+  "inLanguage": {{ (page.html_lang or page.lang or DEFAULT_LANG or 'en')|tojson }},
   "isPartOf": {"@id": {{ _site_id|tojson }}},
   "about": {"@id": {{ _person_id|tojson }}},
   {% if is_about %}"mainEntity": {"@id": {{ _person_id|tojson }}},{% endif %}
