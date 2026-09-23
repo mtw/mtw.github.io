@@ -25,7 +25,7 @@ Exploring RNA Biology with Deep Learning Algorithms
   :class: doi
 
 
-I will be serving as Guest Editor for the :link-flat-strong:`RNA Biology article collection “Exploring RNA Biology with Deep Learning Algorithms” <https://think.taylorandfrancis.com/article_collections/exploring-rna-biology-with-deep-learning-algorithms/>`. My aim is to curate articles that showcase how machine learning models can reveal hidden patterns in sequencing data, predict complex three dimensional RNA shapes with high accuracy and guide the design of novel RNA molecules for both research and therapeutic use.
+I will be serving as Guest Editor for the :strong:`RNA Biology article collection “Exploring RNA Biology with Deep Learning Algorithms”`. My aim is to curate articles that showcase how machine learning models can reveal hidden patterns in sequencing data, predict complex three dimensional RNA shapes with high accuracy and guide the design of novel RNA molecules for both research and therapeutic use.
 
 .. image:: {static}/files/figures/RNABiolDL2025_banner.jpg
   :alt: Exploring RNA Biology with Deep Learning Algorithms banner image
@@ -77,7 +77,7 @@ I’m pleased to be joined by two leading experts in RNA science as Guest Adviso
 
       .. block-info:: Submission
 
-        :link-flat:`Submit Link <https://think.taylorandfrancis.com/article_collections/exploring-rna-biology-with-deep-learning-algorithms>`
+        Submission closed (the publisher has removed the collection page).
 
     .. container:: m-col-l-4 m-col-m-4 m-container-inflatable
 
