@@ -2,7 +2,7 @@ Insights into the secondary and tertiary structure of the BVDV Internal Ribosome
 ##################################################################################################################
 
 :date: 2021-05-15
-:tags: 3D; SHAPE; virus bioinformatics; non-coding RNA; flavivirus; virology
+:tags: 3D; SHAPE; virus bioinformatics; non-coding RNA; flavivirus
 :category: publications
 :doi: 10.1080/15476286.2022.2058818
 :journal: RNA Biol.

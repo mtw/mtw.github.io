@@ -2,7 +2,7 @@ Discoveries of Exoribonuclease-Resistant Structures of Insect-Specific Flaviviru
 ######################################################################################################
 
 :date: 2020-09-14
-:tags: virus bioinformatics; non-coding RNA; xrRNA; flavivirus; virology
+:tags: virus bioinformatics; non-coding RNA; xrRNA; flavivirus
 :category: publications
 :doi: 10.3390/v12091017
 :journal: Viruses
@@ -41,7 +41,7 @@ The main result is that the 3'UTRs of both Zambian isolates contain a recognizab
 
 The paper then takes the crucial extra step and tests the predicted xrRNA candidates experimentally. In vitro Xrn1 resistance assays show that the proposed elements are not just plausible folds on paper. They are able to stall the host exoribonuclease. That functional validation is important. It turns a comparative prediction into evidence that these insect-specific viruses likely generate protected decay intermediates in the same general way as other flaviviruses with established xrRNA biology.
 
-This study helped sharpen a recurring theme in flavivirus RNA biology: structured RNAs in viral UTRs are not decorative sequence features. They are conserved control elements, and they remain informative even in relatively under-sampled corners of flavivirus diversity. The Zambia isolates expanded that picture by showing that xrRNA-associated architecture is not restricted to the most intensively studied human pathogens. It is also present in insect-specific lineages, where it can be studied in an evolutionary context that is less confounded by vertebrate pathogenicity. For a broader comparative view, this paper pairs naturally with :link-flat:`Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No Known Vector Flaviviruses <{filename}/blog/2019-03-24-Functional_RNA_Structures_in_the_3UTR_of_Tick-Borne_Insect-Specific_and_No_Known_Vector_Flaviviruses.rst>` and :link-flat:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <{filename}/blog/2021-09-06-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`.
+This study helped sharpen a recurring theme in flavivirus RNA biology: structured RNAs in viral UTRs are not decorative sequence features. They are conserved control elements, and they remain informative even in relatively under-sampled corners of flavivirus diversity. The Zambia isolates expanded that picture by showing that xrRNA-associated architecture is not restricted to the most intensively studied human pathogens. It is also present in insect-specific lineages, where it can be studied in an evolutionary context that is less confounded by vertebrate pathogenicity. For a broader comparative view, this paper pairs naturally with :link-flat:`Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No Known Vector Flaviviruses <{filename}/blog/2019-03-25-Functional_RNA_Structures_in_the_3UTR_of_Tick-Borne_Insect-Specific_and_No_Known_Vector_Flaviviruses.rst>` and :link-flat:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <{filename}/blog/2021-09-02-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`.
 
 This also makes the paper a useful bridge between virus discovery and comparative RNA biology. It starts with surveillance and isolation, but it ends with a mechanistic claim about structured non-coding RNA. That combination is one reason why insect-specific flaviviruses remain so informative: they provide natural experiments in how conserved RNA elements are maintained, duplicated, or remodeled across different ecological niches.
 
@@ -61,10 +61,10 @@ Citation
 See Also
 ========
 
-  | :link-flat-strong:`Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No Known Vector Flaviviruses <{filename}/blog/2019-03-24-Functional_RNA_Structures_in_the_3UTR_of_Tick-Borne_Insect-Specific_and_No_Known_Vector_Flaviviruses.rst>`
+  | :link-flat-strong:`Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No Known Vector Flaviviruses <{filename}/blog/2019-03-25-Functional_RNA_Structures_in_the_3UTR_of_Tick-Borne_Insect-Specific_and_No_Known_Vector_Flaviviruses.rst>`
   | Roman Ochsenreiter, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`
   | *Viruses* 11:298 (2019) | :doi:`doi:10.3390/v11030298 <https://doi.org/10.3390/v11030298>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2019.pdf>`
 
-  | :link-flat-strong:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <{filename}/blog/2021-09-06-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`
+  | :link-flat-strong:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <{filename}/blog/2021-09-02-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`
   | Michael T. Wolfinger, Roman Ochsenreiter, Ivo L. Hofacker
   | In *Virus Bioinformatics*, pp65-100. Chapman and Hall/CRC Press (2021) | :doi:`doi:10.1201/9781003097679-5 <https://doi.org/10.1201/9781003097679-5>` | :link-flat:`PDF <{static}/files/papers/Wolfinger-2021.pdf>`
