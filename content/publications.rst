@@ -30,9 +30,10 @@ Papers
 The subset of this work carrying the RNA Forecast affiliation is also listed on
 :link-flat:`rnaforecast.com <https://rnaforecast.com/publications/>`.
 
-.. container:: under-review
+Manuscripts under review
+========================
 
-   :strong:`Manuscripts under review`
+.. container:: under-review
 
    | :strong:`“Circle of Life” – Zika virus genomic cyclization is controlled by sequence specificity`
    | Liam Kerr, Danielle L. Gemmill, Higor S. Pereira, :ul:`Michael T. Wolfinger`, Trushar R. Patel · submitted 2026
