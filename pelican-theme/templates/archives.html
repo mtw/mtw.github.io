@@ -1,6 +1,10 @@
 {# Blog listing — used by index (blog/index.html), and extended by tag/category/author #}
 {% set page_slug = '[blog]' %}
 {% if not M_BLOG_NAME %}{% set M_BLOG_NAME = SITENAME %}{% endif %}
+{#- The plain index shows the complete list on page 1, so its paged copies (index2.html ...)
+    are duplicates. They keep their URLs but render as no-index stubs. -#}
+{% set _plain_index = not (category is defined or tag is defined or author is defined) %}
+{% set _dup_page = _plain_index and articles_page and articles_page.number > 1 %}
 {% extends "base.html" %}
 
 {% block title %}{% block blog_title %}{{ M_BLOG_NAME|e }}{% endblock %}{% if articles_page and articles_page.number > 1 %} (page {{ articles_page.number }}){% endif %}{% endblock %}
@@ -11,16 +15,20 @@
   {% elif M_FAVICON %}<link rel="icon" href="{{ M_FAVICON[0]|format_siteurl|e }}" type="{{ M_FAVICON[1]|e }}" />{% endif %}
 {% endblock %}
 
+{#- Listing description: overridden by tag/category/author templates so that every listing
+    page has its own text; paged copies get the page number appended. -#}
+{% set _listing_description %}{% block blog_description %}{{ M_BLOG_DESCRIPTION }}{% endblock %}{% if articles_page and articles_page.number > 1 %} (page {{ articles_page.number }}){% endif %}{% endset %}
 {% block meta %}
-  {% if M_BLOG_DESCRIPTION %}<meta name="description" content="{{ M_BLOG_DESCRIPTION|e }}" />{% endif %}
+  {% if _dup_page %}<meta name="robots" content="noindex, follow" />{% endif %}
+  {% if _listing_description|trim %}<meta name="description" content="{{ _listing_description|trim|e }}" />{% endif %}
 {% endblock %}
 
 {% block social %}
   <meta property="og:site_name" content="{{ M_BLOG_NAME|e }}" />
   <meta property="og:title" content="{{ self.blog_title()|striptags|e }}" />
   <meta name="twitter:title" content="{{ self.blog_title()|striptags|e }}" />
-  {% if M_BLOG_DESCRIPTION %}<meta property="og:description" content="{{ M_BLOG_DESCRIPTION|e }}" />
-  <meta name="twitter:description" content="{{ M_BLOG_DESCRIPTION|e }}" />{% endif %}
+  {% if _listing_description|trim %}<meta property="og:description" content="{{ _listing_description|trim|e }}" />
+  <meta name="twitter:description" content="{{ _listing_description|trim|e }}" />{% endif %}
   <meta property="og:type" content="website" />
   {% if M_SOCIAL_IMAGE %}
   <meta property="og:image" content="{{ M_SOCIAL_IMAGE|format_siteurl }}" />
@@ -39,6 +47,17 @@
 {% endblock %}
 
 {% block main %}
+{% if _dup_page %}
+<article class="page page-blog">
+  <div class="m-container">
+    <div class="page-head">
+      <div class="page-eyebrow">Blog</div>
+      <h1>Notes &amp; Writing</h1>
+      <p class="page-lede">All posts are listed on <a href="{{ SITEURL }}/blog/">the blog index</a>.</p>
+    </div>
+  </div>
+</article>
+{% else %}
 <article class="page page-blog">
   <div class="m-container">
     <div class="page-head">
@@ -163,4 +182,5 @@
   </div>
   {% endif %}
 </article>
+{% endif %}
 {% endblock %}
