@@ -23,6 +23,8 @@ THEME_STATIC_DIR = 'static'
 THEME_STATIC_PATHS = ['static']
 
 DIRECT_TEMPLATES = ['index']
+# Plain-text companion to llms.txt, rendered from the article and page metadata.
+TEMPLATE_PAGES = {'llms-full.txt': 'llms-full.txt'}
 
 FORMATTED_FIELDS = ['summary', 'landing', 'header', 'footer', 'description', 'badge']
 
@@ -40,7 +42,8 @@ PLUGINS = ['m.htmlsanity',
            'm.components',
            'm.link',
            'm.sitemap',
-           'm.images']
+           'm.images',
+           'mtw_meta']
 
 # Category listings are disallowed in robots.txt and the publications/papers/ stubs are
 # canonicalised to their blog posts, so neither belongs in the sitemap.
@@ -57,7 +60,7 @@ SITEMAP = {
         "pages": "monthly"
     },
     "exclude": ["services", "consulting", "blog/archive/", "blog/author/", "blog/category/",
-                "authors", "index", "legal", "publications/papers/", "404"]
+                "authors", "index", "legal", "publications/papers/", "404", "llms"]
 }
 
 

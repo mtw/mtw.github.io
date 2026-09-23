@@ -24,6 +24,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # page dateModified comes from git history (plugins/mtw_meta.py)
 
       - name: Set up Python
         uses: actions/setup-python@v5
