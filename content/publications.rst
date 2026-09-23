@@ -20,14 +20,18 @@ Papers
 .. role:: doi(link)
   :class: doi
 
-.. note-info::
-   Download :link-flat:`my publication list as PDF <{static}/files/MTW_PublicationList.pdf>`
+.. role:: btn(link)
+  :class: btn
 
-Submitted Manuscripts / Preprints
-=================================
+.. container:: btn-row
+
+   :btn:`Publication list (PDF) <{static}/files/MTW_PublicationList.pdf>` :btn:`Google Scholar <https://scholar.google.at/citations?user=w0PHGnEAAAAJ&hl=en>` :btn:`ORCID <https://orcid.org/0000-0003-0925-5205>`
 
 The subset of this work carrying the RNA Forecast affiliation is also listed on
 :link-flat:`rnaforecast.com <https://rnaforecast.com/publications/>`.
+
+Submitted Manuscripts / Preprints
+=================================
 
 .. container:: preprints
 
