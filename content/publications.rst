@@ -1,6 +1,6 @@
 Papers
 ######
-:summary: Every paper I have co-authored since 2002, from journal articles and conference contributions to book chapters and preprints, listed newest first. Each entry leads to a short page with the abstract, the DOI, and, where available, the PDF.
+:summary: This page lists my publications from 2002 to today, newest first. It covers journal articles, conference papers, book chapters, and preprints, and every entry opens a page with the abstract and DOI.
 :title: Publications | Michael T. Wolfinger
 :hero_eyebrow: Publications
 :hero_title: Complete Publication Record
