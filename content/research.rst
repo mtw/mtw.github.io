@@ -37,7 +37,7 @@ Research
          <h2>RNA folding kinetics</h2>
          <p>Folding kinetics is another long-standing focus. Many regulatory RNAs and many designed RNAs cannot be understood from an equilibrium structure alone. They depend on how folding proceeds in time, which alternatives remain accessible, and which metastable states persist long enough to matter. This is particularly relevant in co-transcriptional folding, ligand-controlled systems, and synthetic constructs whose behavior depends on local alternatives rather than a single dominant fold.</p>
          <div class="meta-1">
-           <div class="k">Collaboration</div><div>Theoretical Biochemistry Group (TBI), University of Vienna &middot; University of Freiburg</div>
+           <div class="k">Collaboration</div><div>Theoretical Biochemistry Group (TBI), University of Vienna &middot; University of Freiburg (2023&ndash;2025)</div>
          </div>
        </div>
      </div>

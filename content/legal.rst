@@ -1,41 +1,25 @@
-Legal Information / Impressum
-######################################
-:summary: Legal notice (Impressum) for michaelwolfinger.com
-:title: Legal Note | Michael T. Wolfinger
-:description: Legal notice (Impressum) for michaelwolfinger.com: site operator, contact, copyright, and liability information.
-
-
-.. role:: link-flat-strong(link)
-  :class: m-flat m-text m-strong
+Impressum
+#########
+:title: Impressum | Michael T. Wolfinger
+:hero_title: Impressum
+:summary: Offenlegung gemäß § 25 MedienG
+:description: Impressum von michaelwolfinger.com, der persönlichen akademischen Website von Michael T. Wolfinger: Offenlegung gemäß § 25 MedienG.
+:html_lang: de
 
 .. role:: link-flat(link)
   :class: m-flat m-text
 
+.. Persönliche, nicht-kommerzielle Website: es gilt nur die Offenlegungspflicht für
+   kleine Websites (§ 25 Abs. 5 MedienG). Kommerzielle Angebote gibt es ausschließlich
+   auf rnaforecast.com, dessen Impressum die Unternehmensdaten enthält.
 
-Informationen und Offenlegung gemäß §5 (1) ECG, § 25 MedienG, § 63 GewO und § 14 UGB
+| Medieninhaber: Dr. Michael T. Wolfinger
+| Wohnort: Purkersdorf, Österreich
+| E-Mail: michael.wolfinger@rnaforecast.com
 
-Websitebetreiber und Medieninhaber
-----------------------------------
+Grundlegende Richtung: persönliche akademische Website mit Informationen über
+Forschung, Publikationen, Vorträge und Lehre von Michael T. Wolfinger auf dem Gebiet
+der computergestützten RNA-Biologie und Bioinformatik. Die Website enthält keine
+kommerziellen Angebote.
 
-Michael T. Wolfinger
-
-Kontaktdaten
-------------
-
-:link-flat:`Contact <{filename}contact.rst>`
-
-Anwendbare Rechtsvorschrift
----------------------------
-
-https://www.ris.bka.gv.at
-
-
-Urheberrecht
-------------
-
-Die Inhalte dieser Website unterliegen, soweit dies rechtlich möglich ist, diversen Schutzrechten (u.a. dem Urheberrecht). Jegliche Verwendung und/oder Verbreitung von bereitgestelltem Material, welche urheberrechtlich untersagt ist, bedarf schriftlicher Zustimmung des Websitebetreibers.
-
-Haftungsausschluss
-------------------
-
-Trotz sorgfältiger inhaltlicher Kontrolle übernimmt der Websitebetreiber dieser Website keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich. Sollten Sie dennoch auf ausgehende Links aufmerksam werden, welche auf eine Website mit rechtswidriger Tätigkeit/Information verweisen, ersuchen wir um dementsprechenden Hinweis, um diese nach § 17 Abs. 2 ECG umgehend zu entfernen. Die Urheberrechte Dritter werden vom Betreiber dieser Website mit größter Sorgfalt beachtet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden derartiger Rechtsverletzungen werden wir den betroffenen Inhalt umgehend entfernen.
+:link-flat:`Datenschutzerklärung <{filename}datenschutz.rst>`

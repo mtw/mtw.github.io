@@ -56,7 +56,7 @@ mechanism well enough to influence an experimental decision. The answer depends 
 on whether the evidence is robust, interpretable, and proportionate to
 the cost of the next step.
 
-Readers who arrive here from an AI angle may also want to look at some of my other work from the opposite direction. In :link-flat:`Predicting RNA structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>`, I discuss how experimental structure probing can be integrated with computational prediction. In :link-flat:`Conserved RNA regulatory switches in living cells <{filename}/blog/2025-01-01-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst>`, the focus shifts to transcriptome-scale structural ensembles and experimentally anchored regulatory switches. If you are more interested in dynamic folding than static structure, :link-flat:`co-transcriptional RNA-ligand interaction dynamics <{filename}/blog/2018-07-01-Efficient_Computation_of_Cotranscriptional_RNA-Ligand_Interaction_Dynamics.rst>` shows the kind of mechanistic modeling that remains hard to replace with black-box prediction alone.
+Readers who arrive here from an AI angle may also want to look at some of my other work from the opposite direction. In :link-flat:`Predicting RNA structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>`, I discuss how experimental structure probing can be integrated with computational prediction. In :link-flat:`Conserved RNA regulatory switches in living cells <{filename}/blog/2025-06-17-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst>`, the focus shifts to transcriptome-scale structural ensembles and experimentally anchored regulatory switches. If you are more interested in dynamic folding than static structure, :link-flat:`co-transcriptional RNA-ligand interaction dynamics <{filename}/blog/2018-07-01-Efficient_Computation_of_Cotranscriptional_RNA-Ligand_Interaction_Dynamics.rst>` shows the kind of mechanistic modeling that remains hard to replace with black-box prediction alone.
 
 .. frame:: Abstract
 
@@ -88,17 +88,4 @@ Citation
   | Christoph Flamm, Julia Wielach, :ul:`Michael T. Wolfinger`, Stefan Badelt, Ronny Lorenz, Ivo L. Hofacker
   | *Front. Bioinform.* 2:835422 (2022) | :doi:`doi:10.3389/fbinf.2022.835422 <https://doi.org/10.3389/fbinf.2022.835422>` | :link-flat:`PDF <{static}/files/papers/Flamm-2022.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Flamm-2022.pdf>`
 
-..
-  .. block-info:: Citations
 
-      .. container:: m-label
-
-          .. raw:: html
-
-            <span class="__dimensions_badge_embed__" data-doi="10.3389/fbinf.2022.835422" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-      .. container:: m-label
-
-          .. raw:: html
-
-            <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.3389/fbinf.2022.835422"></div>

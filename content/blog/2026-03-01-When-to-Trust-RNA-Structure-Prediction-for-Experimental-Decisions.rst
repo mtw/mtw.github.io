@@ -73,4 +73,4 @@ The practical difficulty is usually not the software itself. It is the
 judgment of whether a given prediction already explains the mechanism
 well enough, or whether the interpretation still depends on additional
 evidence. That is the type of question I address in
-:link-flat:`design reviews and advisory work </services>`.
+:link-flat:`design reviews and advisory work <https://rnaforecast.com>`.

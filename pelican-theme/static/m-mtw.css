@@ -474,6 +474,7 @@ article>.m-container:first-child{padding-top:0}
 
 /* ---- pill button row (publications header links) ---- */
 .btn-row{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 1.6rem}
+.btn-row>p{display:contents}   /* rst wraps the links in a paragraph; keep them as flex items */
 .btn,a.btn{border:1px solid #d3d0c7;background:var(--panel);padding:9px 16px;font-size:.82rem;font-weight:500;color:#33322d;text-decoration:none;border-radius:2px;display:inline-block}
 .btn:hover,a.btn:hover{background:#eae8e0;text-decoration:none}
 .btn.btn-primary,a.btn.btn-primary{border-color:var(--accent);background:var(--accent);color:#f1f0ec;font-weight:600}
@@ -756,3 +757,19 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 .article-body blockquote:has(a.doi,a.m-strong) .m-ul{text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:3px;color:var(--ink)}
 .article-body blockquote:has(a.doi,a.m-strong) em{color:var(--ink)}
 .article-body blockquote:has(a.doi,a.m-strong) a.doi{font-size:.78rem}
+
+/* ---- consent banner ---- */
+.consent{position:fixed;left:16px;right:16px;bottom:16px;z-index:50;max-width:640px;margin:0 auto;background:var(--panel);border:1px solid var(--border);border-radius:4px;box-shadow:0 8px 30px rgba(28,28,26,.14);padding:16px 18px;font-size:.9rem;line-height:1.5}
+.consent[hidden]{display:none}
+.consent p{margin:0 0 12px}
+.consent a{color:var(--accent)}
+.consent-actions{display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap}
+.consent-btn{font:inherit;font-size:.85rem;font-weight:600;padding:9px 18px;border-radius:2px;border:1px solid var(--dark);background:#fff;color:var(--dark);cursor:pointer}
+.consent-btn:hover{background:var(--hair)}
+.consent-accept{background:var(--dark);color:#fff}
+.consent-accept:hover{background:var(--accent-dark)}
+/* ---- manuscripts under review: present but secondary to the peer-reviewed list ---- */
+.under-review{font-size:.88rem;line-height:1.5;color:var(--sub);border-left:2px solid var(--border);padding:2px 0 2px 16px;margin:1.4rem 0 2.4rem;max-width:var(--measure)}
+.under-review p{margin:0 0 .7rem}
+.under-review strong{font-weight:600;color:var(--ink)}
+.under-review .m-ul{font-weight:600;color:var(--ink)}

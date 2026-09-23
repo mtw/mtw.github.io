@@ -82,7 +82,7 @@ realistic view of the main failure modes. None of that guarantees
 success, but it reduces the chance of spending time and money on a
 construct whose weaknesses were visible from the start.
 
-I also offer :link-flat:`design reviews and advisory support </services>`
+I also offer :link-flat:`design reviews and advisory support <https://rnaforecast.com>`
 for teams working at exactly that stage. The main requirement is often a
 structured examination of which assumptions behind a candidate design
 are well supported, which remain doubtful, and what should be checked

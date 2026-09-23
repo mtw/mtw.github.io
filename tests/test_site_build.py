@@ -19,7 +19,7 @@ def test_key_pages_and_assets_exist(tmp_path):
 
     required_pages = [
         output_dir / "index.html",
-        output_dir / "about" / "index.html",   # /services/ is a bare redirect until the business launch
+        output_dir / "about" / "index.html",   # /services/ is only a no-index redirect stub
         output_dir / "contact" / "index.html",
         output_dir / "research" / "index.html",
         output_dir / "legal" / "index.html",
@@ -42,7 +42,7 @@ def test_key_pages_reference_existing_local_assets(tmp_path):
 
     html_pages = [
         output_dir / "index.html",
-        output_dir / "about" / "index.html",   # /services/ is a bare redirect until the business launch
+        output_dir / "about" / "index.html",   # /services/ is only a no-index redirect stub
         output_dir / "contact" / "index.html",
         output_dir / "research" / "index.html",
     ]
