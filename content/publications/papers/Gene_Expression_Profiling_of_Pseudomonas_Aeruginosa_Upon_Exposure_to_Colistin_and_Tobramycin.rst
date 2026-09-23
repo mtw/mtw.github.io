@@ -44,8 +44,3 @@ Pseudomonas aeruginosa (Pae) is notorious for its high-level resistance toward c
 
             <span class="__dimensions_badge_embed__" data-doi="10.3389/fmicb.2021.626715" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-      .. container:: m-label
-
-          .. raw:: html
-
-            <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-doi="10.3389/fmicb.2021.626715"></div>

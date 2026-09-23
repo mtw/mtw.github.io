@@ -36,11 +36,6 @@ Indications for a Moonlighting Function of Translation Factor aIF5A in the Crena
 
          <span class="__dimensions_badge_embed__" data-doi="10.1080/15476286.2019.1582953" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-     .. container:: m-label
-
-       .. raw:: html
-
-         <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="2" data-badge-popover="bottom" data-doi="10.1080/15476286.2019.1582953"></div>
 
 
 Abstract

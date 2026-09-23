@@ -78,8 +78,8 @@ Embedded third-party content
 A few pages embed content from other providers, which is loaded when you open that
 page and lets the provider see your IP address and browser data:
 
-- **Publication badges** by Altmetric (Digital Science & Research Solutions Ltd.) and
-  Dimensions (Digital Science) on some paper pages.
+- **Citation badges** by Dimensions (Digital Science & Research Solutions Ltd.) on
+  some paper pages.
 - **One video** embedded from YouTube in privacy-enhanced mode
   (``youtube-nocookie.com``, Google Ireland Limited), which sets no cookies until you
   start playback.
