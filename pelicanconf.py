@@ -61,7 +61,7 @@ SITEMAP = {
         "pages": "monthly"
     },
     "exclude": ["services", "consulting", "blog/archive/", "blog/author/", "blog/category/",
-                "authors", "index", "legal", "publications/papers/", "404", "llms"]
+                "authors", "index", "publications/papers/", "404", "llms"]
 }
 
 

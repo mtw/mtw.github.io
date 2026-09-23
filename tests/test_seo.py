@@ -132,7 +132,7 @@ def test_sitemap_is_sane(output_dir):
             target = target / "index.html"
         assert target.is_file(), f"sitemap lists {url} but no file exists"
         assert LASTMOD_RE.match(lastmod), f"{url}: bad lastmod {lastmod}"
-    for excluded in ("/blog/category/", "/publications/papers/", "/services/", "/legal/", "/404"):
+    for excluded in ("/blog/category/", "/publications/papers/", "/services/", "/404"):
         assert not any(excluded in u for u in urls), f"{excluded} must not be in the sitemap"
 
 
