@@ -75,12 +75,9 @@ block Google Analytics in every browser with the `Google Analytics opt-out add-o
 Embedded third-party content
 ============================
 
-One page embeds a video from YouTube in privacy-enhanced mode
-(``youtube-nocookie.com``, Google Ireland Limited). Opening that page loads the player
-from Google, which then sees your IP address and browser data; cookies are set only
-when you start playback. Legal basis: legitimate interest in presenting the recorded
-conversation (Art. 6(1)(f) GDPR). Google's privacy policy applies to that processing.
-No other page loads content from third parties.
+No page loads content from third parties. Where a post refers to a video or a
+publication, it shows a local image or a plain link; the external site is only
+contacted when you follow the link.
 
 Links to other sites
 ====================
