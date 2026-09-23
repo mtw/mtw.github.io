@@ -1,6 +1,6 @@
 Papers
 ######
-:summary: The complete scholarly record of Michael T. Wolfinger: journal articles, conference contributions, book chapters, and preprints.
+:summary: Every paper I have co-authored since 2002, from journal articles and conference contributions to book chapters and preprints, listed newest first. Each entry leads to a short page with the abstract, the DOI, and, where available, the PDF.
 :title: Publications | Michael T. Wolfinger
 :hero_eyebrow: Publications
 :hero_title: Complete Publication Record
