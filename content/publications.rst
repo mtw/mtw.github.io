@@ -1,6 +1,6 @@
 Papers
 ######
-:summary: This page holds the complete scholarly record of Michael T. Wolfinger, including journal articles, conference contributions, and preprints. RNA Forecast lists the subset of this work carrying the RNA Forecast affiliation.
+:summary: The complete scholarly record of Michael T. Wolfinger: journal articles, conference contributions, book chapters, and preprints.
 :title: Publications | Michael T. Wolfinger
 :hero_eyebrow: Publications
 :hero_title: Complete Publication Record
@@ -25,6 +25,9 @@ Papers
 
 Submitted Manuscripts / Preprints
 =================================
+
+The subset of this work carrying the RNA Forecast affiliation is also listed on
+:link-flat:`rnaforecast.com <https://rnaforecast.com/publications/>`.
 
 .. container:: preprints
 
