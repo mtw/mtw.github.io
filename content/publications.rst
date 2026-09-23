@@ -72,22 +72,7 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container::  m-col-t-8
 
-      | 55. :link-flat-strong:`Rational design of mechanically active RNAs: de novo engineering of functional exoribonuclease-resistant RNAs <{filename}/blog/2026-05-12-Rational-design-of-mechanically-active-RNAs-in-Nucleic-Acids-Research.rst>`
-      | Jule Walter, Leonhard Sidl, Katrin Gutenbrunner, Denis Skibinski, Tim Kolberg, Ivo L. Hofacker, Hua-Ting Yao, Mario Mörl, :ul:`Michael T. Wolfinger`
-      | *Nucleic Acids Res.* 54(9):gkag473 (2026)
-      | :doi:`doi:10.1093/nar/gkag473 <https://doi.org/10.1093/nar/gkag473>` | :link-flat:`Article <https://academic.oup.com/nar/article/54/9/gkag473/8676204>` | :label-flat-info:`Journal article`
-
-    .. container:: m-col-t-4
-
-      .. figure:: {static}/files/papers/preview/Preview__Walter-2026.001small.webp
-          :alt: Graphical abstract of the 2026 xrRNA Design paper
-          :figclass: m-figure m-flat
-          :target: {filename}/blog/2026-05-12-Rational-design-of-mechanically-active-RNAs-in-Nucleic-Acids-Research.rst
-  .. container:: m-row
-
-    .. container::  m-col-t-8
-
-      | 54. :link-flat-strong:`Identification of conserved RNA regulatory switches in living cells using RNA secondary structure ensemble mapping and covariation analysis <{filename}/blog/2025-06-17-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst>`
+      | 55. :link-flat-strong:`Identification of conserved RNA regulatory switches in living cells using RNA secondary structure ensemble mapping and covariation analysis <{filename}/blog/2025-06-17-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst>`
       | Ivana Borovská, Chundan Zhang, Sarah-Luisa J. Dülk, Edoardo Morandi, Marta F. S. Cardoso, Billal M. Bourkia, Daphne A. L. van den Homberg, :ul:`Michael T. Wolfinger`, Willem A. Velema, Danny Incarnato
       | *Nat. Biotechnol.* 44(6):989–1001 (2026)
       | :doi:`doi:10.1038/s41587-025-02739-0 <https://doi.org/10.1038/s41587-025-02739-0>` | :label-flat-info:`Journal article`
@@ -99,6 +84,21 @@ Peer-reviewed journal / conference articles and book chapters
           :figclass: m-figure m-flat
           :target: {filename}/blog/2025-06-17-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst
 
+  .. container:: m-row
+
+    .. container::  m-col-t-8
+
+      | 54. :link-flat-strong:`Rational design of mechanically active RNAs: de novo engineering of functional exoribonuclease-resistant RNAs <{filename}/blog/2026-05-12-Rational-design-of-mechanically-active-RNAs-in-Nucleic-Acids-Research.rst>`
+      | Jule Walter, Leonhard Sidl, Katrin Gutenbrunner, Denis Skibinski, Tim Kolberg, Ivo L. Hofacker, Hua-Ting Yao, Mario Mörl, :ul:`Michael T. Wolfinger`
+      | *Nucleic Acids Res.* 54(9):gkag473 (2026)
+      | :doi:`doi:10.1093/nar/gkag473 <https://doi.org/10.1093/nar/gkag473>` | :link-flat:`Article <https://academic.oup.com/nar/article/54/9/gkag473/8676204>` | :label-flat-info:`Journal article`
+
+    .. container:: m-col-t-4
+
+      .. figure:: {static}/files/papers/preview/Preview__Walter-2026.001small.webp
+          :alt: Graphical abstract of the 2026 xrRNA Design paper
+          :figclass: m-figure m-flat
+          :target: {filename}/blog/2026-05-12-Rational-design-of-mechanically-active-RNAs-in-Nucleic-Acids-Research.rst
 
 .. _year2025:
 
