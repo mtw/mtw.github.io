@@ -1,6 +1,6 @@
 {# michaelwolfinger.com — base layout (Homepage2026 design) #}
 <!DOCTYPE html>
-<html lang="{% if page and page.lang %}{{ page.lang }}{% elif article and article.lang %}{{ article.lang }}{% else %}{{ DEFAULT_LANG }}{% endif %}"{% if not M_DISABLE_SOCIAL_META_TAGS %} prefix="og: http://ogp.me/ns#"{% endif %}>
+<html lang="{% if page and page.html_lang %}{{ page.html_lang }}{% elif page and page.lang %}{{ page.lang }}{% elif article and article.lang %}{{ article.lang }}{% else %}{{ DEFAULT_LANG }}{% endif %}"{% if not M_DISABLE_SOCIAL_META_TAGS %} prefix="og: http://ogp.me/ns#"{% endif %}>
 <head>
   <meta charset="UTF-8" />
   <title>{% block title %}{% endblock title %}</title>
@@ -32,12 +32,34 @@
   {% block extra %}{% endblock extra %}
   {% if M_HTML_HEADER %}{{ M_HTML_HEADER|rtrim|indent(2) }}{% endif %}
   {% if GOOGLE_ANALYTICS %}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{GOOGLE_ANALYTICS}}"></script>
+  {#- Consent-gated analytics: nothing from Google is requested before the visitor accepts.
+      The choice lives in localStorage for a year; "Cookie settings" in the footer reopens
+      the banner; a Global Privacy Control signal counts as a decline. -#}
   <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', '{{GOOGLE_ANALYTICS}}');
+  (function(){
+    var KEY='mtw-consent', ID='{{GOOGLE_ANALYTICS}}', MAX=365*24*3600*1000;
+    function read(){try{var v=JSON.parse(localStorage.getItem(KEY));if(v&&v.t&&Date.now()-v.t<MAX)return v.analytics;}catch(e){}return null;}
+    function write(v){try{localStorage.setItem(KEY,JSON.stringify({analytics:v,t:Date.now()}));}catch(e){}}
+    function banner(){return document.getElementById('cookie-settings');}
+    function load(){
+      if(window.mtwGaLoaded)return; window.mtwGaLoaded=true;
+      window.dataLayer=window.dataLayer||[]; window.gtag=function(){dataLayer.push(arguments);};
+      gtag('js',new Date()); gtag('config',ID);
+      var s=document.createElement('script'); s.async=true; s.src='https://www.googletagmanager.com/gtag/js?id='+ID; document.head.appendChild(s);
+    }
+    window.mtwConsent={
+      accept:function(){write(true); banner().hidden=true; load();},
+      decline:function(){write(false); banner().hidden=true;},
+      open:function(){banner().hidden=false;}
+    };
+    document.addEventListener('DOMContentLoaded',function(){
+      var links=document.querySelectorAll('a[href$="#cookie-settings"]');
+      for(var i=0;i<links.length;i++)links[i].addEventListener('click',function(e){e.preventDefault(); mtwConsent.open();});
+      var c=read();
+      if(c===true)load();
+      else if(c===null&&navigator.globalPrivacyControl!==true)mtwConsent.open();
+    });
+  })();
   </script>
   {% endif %}
 </head>
@@ -95,6 +117,15 @@
 <main>
 {% block main %}{% endblock %}
 </main>
+{% if GOOGLE_ANALYTICS %}
+<div id="cookie-settings" class="consent" hidden role="dialog" aria-label="Cookie settings">
+  <p><strong>Analytics cookies?</strong> This site uses Google Analytics only if you agree; declining changes nothing about the site. <a href="{{ SITEURL }}/datenschutz/">Privacy policy (Datenschutzerklärung)</a></p>
+  <div class="consent-actions">
+    <button type="button" class="consent-btn" onclick="mtwConsent.decline()">Decline</button>
+    <button type="button" class="consent-btn consent-accept" onclick="mtwConsent.accept()">Accept</button>
+  </div>
+</div>
+{% endif %}
 {% if M_LINKS_FOOTER1 or M_LINKS_FOOTER2 or M_LINKS_FOOTER3 or M_LINKS_FOOTER4 or not M_FINE_PRINT is defined or M_FINE_PRINT %}
 <footer><nav>
   <div class="m-container">

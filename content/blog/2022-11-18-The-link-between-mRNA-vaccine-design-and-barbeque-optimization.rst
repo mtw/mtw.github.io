@@ -25,8 +25,9 @@ The link between mRNA vaccine design and barbeque optimization
 
 I have been discussing questions around the interface of RNA bioinformatics and Data with :link-flat:`Jonas Rashedi <https://www.linkedin.com/in/jonasrashedi/>` in his :link-flat:`My Data is better than yours <https://www.linkedin.com/company/my-data-is-better-than-yours/>` podcast.
 
-.. raw:: html
+.. figure:: {static}/files/figures/podcast_my-data-is-better-than-yours_2022.jpg
+    :alt: Video still of the podcast conversation with Jonas Rashedi
+    :target: https://www.youtube.com/watch?v=y4ILL_GviGI
+    :figclass: m-figure m-flat
 
-    <div class="m-button">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/y4ILL_GviGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    Watch the conversation on YouTube (opens youtube.com).

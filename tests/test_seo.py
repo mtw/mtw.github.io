@@ -132,7 +132,7 @@ def test_sitemap_is_sane(output_dir):
             target = target / "index.html"
         assert target.is_file(), f"sitemap lists {url} but no file exists"
         assert LASTMOD_RE.match(lastmod), f"{url}: bad lastmod {lastmod}"
-    for excluded in ("/blog/category/", "/publications/papers/", "/services/", "/legal/", "/404"):
+    for excluded in ("/blog/category/", "/publications/papers/", "/services/", "/404"):
         assert not any(excluded in u for u in urls), f"{excluded} must not be in the sitemap"
 
 
@@ -202,10 +202,24 @@ def test_fonts_are_self_hosted(output_dir):
         assert "fonts.gstatic.com" not in page.read_text(encoding="utf-8"), page
 
 
+def test_analytics_are_consent_gated(output_dir):
+    """No Google request before consent: gtag.js is never a static <script src>, the banner
+    and the privacy page exist, and the footer offers a way to change the choice."""
+    for page in output_dir.rglob("*.html"):
+        html = page.read_text(encoding="utf-8")
+        assert not re.search(r"<script[^>]*src=[\"']?https://www\.googletagmanager\.com", html), page
+    home = (output_dir / "index.html").read_text(encoding="utf-8")
+    assert "mtw-consent" in home and 'id=cookie-settings' in home.replace('"', "")
+    assert "#cookie-settings" in home and "/datenschutz/" in home
+    privacy = (output_dir / "datenschutz" / "index.html").read_text(encoding="utf-8")
+    assert "Google Analytics" in privacy and "Datenschutzbehörde" in privacy
+
+
 def test_commercial_pages_stay_hidden(output_dir):
-    # AGENTS.md: nothing commercial before the December 2026 launch.
+    # AGENTS.md: a personal academic site with no commercial offer; /services/ is only a redirect.
     services = (output_dir / "services" / "index.html").read_text(encoding="utf-8")
-    assert "noindex" in services
-    assert not (output_dir / "consulting").exists()
+    assert "noindex" in services and "http-equiv=refresh" in services
+    assert not (output_dir / "consulting").exists() and not (output_dir / "services" / "workshops").exists()
+    assert not list(output_dir.glob("content/services*"))
     for page in output_dir.rglob("*.html"):
         assert "hello@rnaforecast.com" not in page.read_text(encoding="utf-8"), page

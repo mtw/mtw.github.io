@@ -1,7 +1,7 @@
 From Structure to Function in Musashi-RNA Complexes
 ###################################################
 
-:date: 2025-01-01
+:date: 2025-06-25
 :modified: 2026-04-24
 :tags: 3D; RNA-protein interaction; AI
 :category: publications

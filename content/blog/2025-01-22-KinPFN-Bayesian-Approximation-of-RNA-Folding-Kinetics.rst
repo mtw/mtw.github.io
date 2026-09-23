@@ -1,7 +1,7 @@
 KinPFN: Bayesian Approximation of RNA Folding Kinetics
 ######################################################
 
-:date: 2025-01-01
+:date: 2025-01-22
 :modified: 2026-04-24
 :tags: RNA folding kinetics; AI
 :category: publications
@@ -51,6 +51,6 @@ That is also why it fits naturally with kinetics-aware RNA design. In both cases
 Citation
 ========
 
-  | :link-flat-strong:`KinPFN: Bayesian Approximation of RNA Folding Kinetics using Prior-Data Fitted Networks <{filename}/blog/2025-01-01-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst>`
+  | :link-flat-strong:`KinPFN: Bayesian Approximation of RNA Folding Kinetics using Prior-Data Fitted Networks <{filename}/blog/2025-01-22-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst>`
   | Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, :ul:`Michael T. Wolfinger`, Christoph Flamm, Frank Hutter
   | *The Thirteenth International Conference on Learning Representations (ICLR'25)* (2025) | :doi:`doi:10.5281/zenodo.15233965 <https://doi.org/10.5281/zenodo.15233965>` | :link-flat:`PDF <{static}/files/papers/Scheuer-2025.pdf>`

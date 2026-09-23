@@ -1,6 +1,5 @@
 User-agent: *
 Disallow: /blog/category/*
-Disallow: /legal
 Disallow: /services
 
 # AI and answer-engine crawlers are welcome to index the whole site.

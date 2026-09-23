@@ -1,6 +1,6 @@
 Papers
 ######
-:summary: This page holds the complete scholarly record of Michael T. Wolfinger, including journal articles, conference contributions, and preprints. RNA Forecast lists the subset of this work carrying the RNA Forecast affiliation.
+:summary: This page lists my publications from 2002 to today, newest first. It covers journal articles, conference papers, book chapters, and preprints, and every entry opens a page with the abstract and DOI.
 :title: Publications | Michael T. Wolfinger
 :hero_eyebrow: Publications
 :hero_title: Complete Publication Record
@@ -20,33 +20,26 @@ Papers
 .. role:: doi(link)
   :class: doi
 
-.. note-info::
-   Download :link-flat:`my publication list as PDF <{static}/files/MTW_PublicationList.pdf>`
+.. role:: btn(link)
+  :class: btn
 
-Submitted Manuscripts / Preprints
-=================================
+.. container:: btn-row
 
-.. container:: preprints
+   :btn:`Publication list (PDF) <{static}/files/MTW_PublicationList.pdf>` :btn:`Google Scholar <https://scholar.google.at/citations?user=w0PHGnEAAAAJ&hl=en>` :btn:`ORCID <https://orcid.org/0000-0003-0925-5205>`
 
-  .. container:: m-row
+The subset of this work carrying the RNA Forecast affiliation is also listed on
+:link-flat:`rnaforecast.com <https://rnaforecast.com/publications/>`.
 
-    .. container::  m-col-t-8
+Manuscripts under review
+========================
 
-      | 58. :strong:`Identification of a region within the 5’UTR of Interleukin–2 mRNA offers a promising strategy for drug development for autoimmune disorders`
-      | Katarzyna M. Gluchowska, Krzysztofa Odzywol, Agnieszka Zagozdzon, Tomasz K. Wirecki, Chandran Nithin, Bartlomiej Surpeta, Xiaobing Zhang, Jannan Zhao, Lukasz Joachimiak, Bartlomiej Hofman, Joanna Sztuba-Solinska, Katarzyna Drzewicka, Angelika Muchowicz, :ul:`Michael T. Wolfinger`, Roman Blaszczyk, Irina Tuszynska, Janusz M. Bujnicki, and Zbigniew Zaslona
-      | Submitted manuscript (2026)
+.. container:: under-review
 
-  .. container:: m-row
+   | :strong:`“Circle of Life” – Zika virus genomic cyclization is controlled by sequence specificity`
+   | Liam Kerr, Danielle L. Gemmill, Higor S. Pereira, :ul:`Michael T. Wolfinger`, Trushar R. Patel · submitted 2026
 
-    .. container::  m-col-t-8
-
-      | 57. :strong:`“Circle ofLife” - Zika virus genomic cyclization is controlled by sequence specificity`
-      | Liam Kerr, Danielle L. Gemmill, Higor S. Pereira, :ul:`Michael T. Wolfinger`, Trushar R. Patel
-      | Submitted manuscript (2026)
-
-
-.. transition::  - - -
-
+   | :strong:`Identification of a region within the 5’UTR of Interleukin-2 mRNA offers a promising strategy for drug development for autoimmune disorders`
+   | Martyna Nowacka, Julita Nowicka, Joanna Grochowska, Magdalena Kulma, Agnieszka Belczyk-Ciesielska, Katarzyna M. Gluchowska, Krzysztofa Odrzywol, Agnieszka Zagozdzon, Tomasz K. Wirecki, Chandran Nithin, Bartlomiej Surpeta, Xiaobing Zhang, Jiannan Zhao, Wojciech Czestkowski, Sylwia Olejniczak, Lukasz Joachimiak, Bartlomiej Hofman, Joanna Sztuba-Solinska, Katarzyna Drzewicka, Angelika Muchowicz, :ul:`Michael T. Wolfinger`, Roman Blaszczyk, Irina Tuszynska, Janusz M. Bujnicki, Zbigniew Zaslona · submitted 2026
 
 Peer-reviewed journal / conference articles and book chapters
 =============================================================
@@ -72,7 +65,23 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container::  m-col-t-8
 
-      | 55. :link-flat-strong:`Rational design of mechanically active RNAs: de novo engineering of functional exoribonuclease-resistant RNAs <{filename}/blog/2026-05-12-Rational-design-of-mechanically-active-RNAs-in-Nucleic-Acids-Research.rst>`
+      | 55. :link-flat-strong:`Identification of conserved RNA regulatory switches in living cells using RNA secondary structure ensemble mapping and covariation analysis <{filename}/blog/2025-06-17-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst>`
+      | Ivana Borovská, Chundan Zhang, Sarah-Luisa J. Dülk, Edoardo Morandi, Marta F. S. Cardoso, Billal M. Bourkia, Daphne A. L. van den Homberg, :ul:`Michael T. Wolfinger`, Willem A. Velema, Danny Incarnato
+      | *Nat. Biotechnol.* 44(6):989–1001 (2026)
+      | :doi:`doi:10.1038/s41587-025-02739-0 <https://doi.org/10.1038/s41587-025-02739-0>` | :label-flat-info:`Journal article`
+
+    .. container:: m-col-t-4
+
+      .. figure:: {static}/files/papers/preview/Preview__Borovska-2025.001small.webp
+          :alt: Ensemble deconvolution and temperature dependencey of RNA structure
+          :figclass: m-figure m-flat
+          :target: {filename}/blog/2025-06-17-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst
+
+  .. container:: m-row
+
+    .. container::  m-col-t-8
+
+      | 54. :link-flat-strong:`Rational design of mechanically active RNAs: de novo engineering of functional exoribonuclease-resistant RNAs <{filename}/blog/2026-05-12-Rational-design-of-mechanically-active-RNAs-in-Nucleic-Acids-Research.rst>`
       | Jule Walter, Leonhard Sidl, Katrin Gutenbrunner, Denis Skibinski, Tim Kolberg, Ivo L. Hofacker, Hua-Ting Yao, Mario Mörl, :ul:`Michael T. Wolfinger`
       | *Nucleic Acids Res.* 54(9):gkag473 (2026)
       | :doi:`doi:10.1093/nar/gkag473 <https://doi.org/10.1093/nar/gkag473>` | :link-flat:`Article <https://academic.oup.com/nar/article/54/9/gkag473/8676204>` | :label-flat-info:`Journal article`
@@ -96,23 +105,7 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container::  m-col-t-8
 
-      | 54. :link-flat-strong:`Identification of conserved RNA regulatory switches in living cells using RNA secondary structure ensemble mapping and covariation analysis <{filename}/blog/2025-01-01-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst>`
-      | Ivana Borovská, Chundan Zhang, Sarah-Luisa J. Dülk, Edoardo Morandi, Marta F. S. Cardoso, Billal M. Bourkia, Daphne A. L. van den Homberg, :ul:`Michael T. Wolfinger`, Willem A. Velema, Danny Incarnato
-      | *Nat. Biotechnol.* 44(6):989–1001 (2025)
-      | :doi:`doi:10.1038/s41587-025-02739-0 <https://doi.org/10.1038/s41587-025-02739-0>` | :label-flat-info:`Journal article`
-
-    .. container:: m-col-t-4
-
-      .. figure:: {static}/files/papers/preview/Preview__Borovska-2025.001small.webp
-          :alt: Ensemble deconvolution and temperature dependencey of RNA structure
-          :figclass: m-figure m-flat
-          :target: {filename}/blog/2025-01-01-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst
-
-  .. container:: m-row
-
-    .. container::  m-col-t-8
-
-      | 53. :link-flat-strong:`From Structure to Function: Computational Insights into Musashi-RNA Complexes in the Context of Viral Pathogenesis and Beyond <{filename}/blog/2025-01-01-From-Structure-to-Function-Computational-Insights-into-Musashi-RNA-Complexes.rst>`
+      | 53. :link-flat-strong:`From Structure to Function: Computational Insights into Musashi-RNA Complexes in the Context of Viral Pathogenesis and Beyond <{filename}/blog/2025-06-25-From-Structure-to-Function-Computational-Insights-into-Musashi-RNA-Complexes.rst>`
       | Nitchakan Darai, Leonhard Sidl, Thanyada Rungrotmongkol, Peter Wolschann, :ul:`Michael T. Wolfinger`
       | *Sci. Asia* 51S(1) 2025s013:1-10 (2025)
       | :doi:`doi:10.2306/scienceasia1513-1874.2025.s013 <https://doi.org/10.2306/scienceasia1513-1874.2025.s013>` | :label-flat-info:`Review article`
@@ -122,13 +115,13 @@ Peer-reviewed journal / conference articles and book chapters
       .. figure:: {static}/files/papers/preview/Preview__Darai-2025.001small.webp
           :alt: Structural overview of Musashi-RNA complexes in regulatory and viral contexts
           :figclass: m-figure m-flat
-          :target: {filename}/blog/2025-01-01-From-Structure-to-Function-Computational-Insights-into-Musashi-RNA-Complexes.rst
+          :target: {filename}/blog/2025-06-25-From-Structure-to-Function-Computational-Insights-into-Musashi-RNA-Complexes.rst
 
   .. container:: m-row
 
     .. container::  m-col-t-8
 
-      | 52. :link-flat-strong:`Bayesian Approximation of RNA Folding Times <{filename}/blog/2025-01-01-Bayesian-Approximation-of-RNA-Folding-Times.rst>`
+      | 52. :link-flat-strong:`Bayesian Approximation of RNA Folding Times <{filename}/blog/2025-03-05-Bayesian-Approximation-of-RNA-Folding-Times.rst>`
       | Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, :ul:`Michael T. Wolfinger`, Christoph Flamm, Frank Hutter
       | *ICLR 2025 Workshop on AI for Nucleic Acids* (2025)
       | :doi:`doi:10.5281/zenodo.15228717 <https://doi.org/10.5281/zenodo.15228717>` | :label-flat-info:`Conference article`
@@ -138,13 +131,13 @@ Peer-reviewed journal / conference articles and book chapters
       .. figure:: {static}/files/papers/preview/Preview__Scheuer-2025__AI4NA.001small.webp
           :alt: KinPFN: Training on a synthetic prior
           :figclass: m-figure m-flat
-          :target: {filename}/blog/2025-01-01-Bayesian-Approximation-of-RNA-Folding-Times.rst
+          :target: {filename}/blog/2025-03-05-Bayesian-Approximation-of-RNA-Folding-Times.rst
 
   .. container:: m-row
 
     .. container::  m-col-t-8
 
-      | 51. :link-flat-strong:`KinPFN: Bayesian Approximation of RNA Folding Kinetics using Prior-Data Fitted Networks <{filename}/blog/2025-01-01-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst>`
+      | 51. :link-flat-strong:`KinPFN: Bayesian Approximation of RNA Folding Kinetics using Prior-Data Fitted Networks <{filename}/blog/2025-01-22-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst>`
       | Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, :ul:`Michael T. Wolfinger`, Christoph Flamm, Frank Hutter
       | *The Thirteenth International Conference on Learning Representations (ICLR'25)* (2025)
       | :doi:`doi:10.5281/zenodo.15233965 <https://doi.org/10.5281/zenodo.15233965>` | :label-flat-info:`Conference article`
@@ -154,7 +147,7 @@ Peer-reviewed journal / conference articles and book chapters
       .. figure:: {static}/files/papers/preview/Preview__Scheuer-2025.001small.webp
           :alt: KinPFN: Training on a synthetic prior
           :figclass: m-figure m-flat
-          :target: {filename}/blog/2025-01-01-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst
+          :target: {filename}/blog/2025-01-22-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst
 
 .. _year2024:
 
