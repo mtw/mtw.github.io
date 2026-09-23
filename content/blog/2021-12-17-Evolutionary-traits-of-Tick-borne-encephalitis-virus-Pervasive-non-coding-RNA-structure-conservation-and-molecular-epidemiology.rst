@@ -37,7 +37,7 @@ Tick-borne encephalitis virus is a good test case for comparative RNA virology b
 
 That point matters because it shifts the interpretation of TBEV diversity. If the architecture is built from a restricted set of conserved RNA modules, then lineage differences are not just a matter of "more" or "less" sequence divergence. They reflect different combinations, duplications, and losses of structured elements that are likely under functional constraint. In other words, the paper argues that 3' UTR evolution in TBEV is better understood at the level of RNA architecture than at the level of raw sequence identity alone.
 
-The work fits naturally after the broader :link-flat:`comparative flavivirus 3' UTR analysis <{filename}/blog/2019-03-24-Functional_RNA_Structures_in_the_3UTR_of_Tick-Borne_Insect-Specific_and_No_Known_Vector_Flaviviruses.rst>` and alongside the later :link-flat:`mosquito-borne flavivirus 3' UTR synthesis <{filename}/blog/2021-09-06-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`. Those papers establish the larger structural vocabulary of flavivirus untranslated regions. This TBEV study then zooms in on one medically important lineage and asks how that vocabulary is reused within a single viral species complex. The narrower scope makes it easier to connect comparative RNA structure directly to questions of subtype diversification and geographic spread.
+The work fits naturally after the broader :link-flat:`comparative flavivirus 3' UTR analysis <{filename}/blog/2019-03-25-Functional_RNA_Structures_in_the_3UTR_of_Tick-Borne_Insect-Specific_and_No_Known_Vector_Flaviviruses.rst>` and alongside the later :link-flat:`mosquito-borne flavivirus 3' UTR synthesis <{filename}/blog/2021-09-02-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`. Those papers establish the larger structural vocabulary of flavivirus untranslated regions. This TBEV study then zooms in on one medically important lineage and asks how that vocabulary is reused within a single viral species complex. The narrower scope makes it easier to connect comparative RNA structure directly to questions of subtype diversification and geographic spread.
 
 The molecular epidemiology part is therefore not an add-on. By introducing `TBEVnext <https://nextstrain.org/groups/ViennaRNA/TBEVnext>`_, the paper places the structural observations into an explicitly spatiotemporal framework. The resulting phylogeny shows that subtype labels and geographic occurrence do not map onto each other in a simple one-to-one way. That makes the dataset useful beyond visualization. It links particular 3' UTR architectures to the broader history of lineage expansion, ecological movement, and sampling across Europe and Asia.
 
@@ -80,10 +80,10 @@ Citation
 See Also
 ========
 
-  | :link-flat-strong:`Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No Known Vector Flaviviruses <{filename}/blog/2019-03-24-Functional_RNA_Structures_in_the_3UTR_of_Tick-Borne_Insect-Specific_and_No_Known_Vector_Flaviviruses.rst>`
+  | :link-flat-strong:`Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No Known Vector Flaviviruses <{filename}/blog/2019-03-25-Functional_RNA_Structures_in_the_3UTR_of_Tick-Borne_Insect-Specific_and_No_Known_Vector_Flaviviruses.rst>`
   | Roman Ochsenreiter, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`
   | *Viruses* 11:298 (2019) | :doi:`doi:10.3390/v11030298 <https://doi.org/10.3390/v11030298>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2019.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Ochsenreiter-2019.pdf>`
 
-  | :link-flat-strong:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <{filename}/blog/2021-09-06-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`
+  | :link-flat-strong:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <{filename}/blog/2021-09-02-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`
   | :ul:`Michael T. Wolfinger`, Roman Ochsenreiter, Ivo L. Hofacker
   | In *Virus Bioinformatics*, edited by Dmitrij Frishman and Manja Marz, pp65–100. Chapman and Hall/CRC Press (2021) | :doi:`doi:10.1201/9781003097679-5 <https://doi.org/10.1201/9781003097679-5>` | :link-flat:`Preprint PDF <{static}/files/papers/Wolfinger-2021.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Wolfinger-2021.pdf>`

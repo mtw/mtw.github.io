@@ -59,7 +59,7 @@ Selected Posters
 | :link-flat-strong:`Design of synthetic riboswitches to regulate RNA stability <{static}/files/posters/2023-10-04-RNA_Biochemistry_Bonn.pdf>`
 | Jule Walter, Heike Betat, Denis Skibinski, :ul:`Michael T. Wolfinger`, Mario Mörl
 | Presented at the *RNA Biochemistry Meeting 2023*
-| Bonn, Germany. September 2023
+| Bonn, Germany. October 2023
 
 .. _rnabiol2021:
 

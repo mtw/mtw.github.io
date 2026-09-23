@@ -3,7 +3,7 @@ Genomic Epidemiology of Superspreading Events in Austria Reveals Mutational Dyna
 
 :date: 2020-12-10
 :modified: 2024-04-21
-:tags: molecular epidemiology; One Health; virology
+:tags: molecular epidemiology; One Health; virus bioinformatics
 :category: publications
 :doi: 10.1126/scitranslmed.abe2555
 :journal: Sci. Transl. Med.

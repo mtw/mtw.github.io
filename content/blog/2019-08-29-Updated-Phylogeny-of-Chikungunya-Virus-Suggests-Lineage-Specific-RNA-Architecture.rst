@@ -3,7 +3,7 @@ Updated Phylogeny of Chikungunya Virus Suggests Lineage-Specific RNA Architectur
 
 :date: 2019-08-29
 :modified: 2024-10-10
-:tags: molecular epidemiology; virus bioinformatics; alphavirus; virology; RNA structure conservation
+:tags: molecular epidemiology; virus bioinformatics; alphavirus; RNA structure conservation
 :category: publications
 :doi: 10.3390/v11090798
 :journal: Viruses
