@@ -6,7 +6,7 @@ Home
 :hide_navbar_brand: True
 :summary: Computational RNA biology, RNA structure, and design research by Michael T. Wolfinger
 :title: Michael T. Wolfinger | RNA Structure, Function, and Design
-:description: I am Michael T. Wolfinger, an independent Principal Investigator in computational RNA biology in Vienna. Explore my research, publications, teaching, and RNA Forecast.
+:description: Michael T. Wolfinger, independent Principal Investigator in computational RNA biology in Vienna. Research, publications, teaching, and RNA Forecast.
 :extrahead: mtw_ldjson
 :landing:
 

@@ -2,7 +2,7 @@ Discoveries of Exoribonuclease-Resistant Structures of Insect-Specific Flaviviru
 ######################################################################################################
 :summary: A novel dual-host affiliated insect-specific flavivirus discovered in Zambia
 :title: Barkedji-like virus: A novel insect-specific flavivirus isolated in Zambia
-:description: Characterizing Barkedji-like virus: A new insect-specific flavivirus from Culex spp. with conserved RNA structures in its 3'UTR that stall exoribonuclease Xrn1
+:description: Barkedji-like virus: a new insect-specific flavivirus from Culex spp. with conserved 3'UTR RNA structures that stall the exoribonuclease Xrn1.
 :canonical_url: https://michaelwolfinger.com/blog/2020/Discoveries-of-Exoribonuclease-Resistant-Structures-of-Insect-Specific-Flaviviruses-Isolated-in-Zambia/
 
 

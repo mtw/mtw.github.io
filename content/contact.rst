@@ -1,7 +1,7 @@
 Contact
 #######
 :summary: Contact Michael T. Wolfinger
-:title: Contact Michael T. Wolfinger
+:title: Contact | Michael T. Wolfinger
 :description: Contact Michael T. Wolfinger about research questions, academic collaboration, and supervision in computational RNA biology.
 :hero_eyebrow: Contact
 :hero_title: Get in touch
@@ -38,16 +38,16 @@ Contact
        <div class="card-panel">
          <div class="eyebrow">Find me online</div>
          <div class="links">
-           <a href="https://orcid.org/0000-0003-0925-5205">ORCID &rarr; 0000-0003-0925-5205</a>
-           <a href="https://scholar.google.at/citations?user=w0PHGnEAAAAJ">Google Scholar &rarr;</a>
-           <a href="https://github.com/mtw">GitHub &rarr;</a>
-           <a href="https://www.linkedin.com/in/michaelwolfinger/">LinkedIn &rarr;</a>
-           <a href="https://bsky.app/profile/mtwolfinger.bsky.social">Bluesky &rarr;</a>
-           <a href="https://twitter.com/mtwolfinger">Twitter &rarr;</a>
-           <a href="https://www.researchgate.net/profile/Michael-Wolfinger">ResearchGate &rarr;</a>
-           <a href="https://www.webofscience.com/wos/author/record/N-9538-2014">Web of Science &rarr;</a>
-           <a href="https://www.scopus.com/authid/detail.uri?authorId=6508361997">Scopus &rarr;</a>
-           <a href="https://loop.frontiersin.org/people/485709/overview">Loop &rarr;</a>
+           <a href="https://orcid.org/0000-0003-0925-5205" rel="me">ORCID &rarr; 0000-0003-0925-5205</a>
+           <a href="https://scholar.google.at/citations?user=w0PHGnEAAAAJ" rel="me">Google Scholar &rarr;</a>
+           <a href="https://github.com/mtw" rel="me">GitHub &rarr;</a>
+           <a href="https://www.linkedin.com/in/michaelwolfinger/" rel="me">LinkedIn &rarr;</a>
+           <a href="https://bsky.app/profile/mtwolfinger.bsky.social" rel="me">Bluesky &rarr;</a>
+           <a href="https://twitter.com/mtwolfinger" rel="me">Twitter &rarr;</a>
+           <a href="https://www.researchgate.net/profile/Michael-Wolfinger" rel="me">ResearchGate &rarr;</a>
+           <a href="https://www.webofscience.com/wos/author/record/N-9538-2014" rel="me">Web of Science &rarr;</a>
+           <a href="https://www.scopus.com/authid/detail.uri?authorId=6508361997" rel="me">Scopus &rarr;</a>
+           <a href="https://loop.frontiersin.org/people/485709/overview" rel="me">Loop &rarr;</a>
            <a href="https://rnaforecast.com">RNA Forecast &rarr;</a>
          </div>
        </div>
