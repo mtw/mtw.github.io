@@ -25,6 +25,8 @@ Lecture and course directory
 
 .. class:: m-diary
 
+2026W
+  UNIVIE 270159 VU `Structure and Dynamics of Biopolymers (2026W) <https://ufind.univie.ac.at/en/course.html?lv=270159&semester=2026W>`_
 2025W
   UNIVIE 270159 VU `Structure and Dynamics of Biopolymers (2025W) <https://ufind.univie.ac.at/en/course.html?lv=270159&semester=2025W>`_
 2025S

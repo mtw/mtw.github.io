@@ -30,7 +30,7 @@ sense, but which level of inference it addresses in a given problem.
 Candidate prioritization is one example. If a project already has a
 meaningful objective function and a sensible representation of
 uncertainty, AI can compare far more possibilities than exhaustive
-simulation or manual review would allow. :link-flat:`KinPFN for RNA folding kinetics <{filename}/blog/2025-01-01-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst>` is relevant in that respect. The method does not claim to
+simulation or manual review would allow. :link-flat:`KinPFN for RNA folding kinetics <{filename}/blog/2025-01-22-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst>` is relevant in that respect. The method does not claim to
 rediscover folding physics from sequence alone. It acts as an
 approximation layer on top of an existing kinetics problem.
 
