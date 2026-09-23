@@ -2,7 +2,6 @@ What Virus Bioinformatics Can and Cannot Tell Us About RNA Viruses
 ##################################################################
 
 :date: 2023-11-03
-:modified: 2026-04-23
 :tags: virus bioinformatics; One Health
 :category: outreach
 :section: talks

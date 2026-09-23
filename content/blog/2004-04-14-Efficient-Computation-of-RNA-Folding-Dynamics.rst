@@ -2,7 +2,6 @@ Efficient Computation of RNA Folding Dynamics
 #############################################
 
 :date: 2004-04-14
-:modified: 2026-04-24
 :tags: RNA folding kinetics; energy landscapes
 :category: publications
 :doi: 10.1088/0305-4470/37/17/005

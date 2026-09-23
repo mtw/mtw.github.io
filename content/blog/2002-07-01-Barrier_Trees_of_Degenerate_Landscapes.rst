@@ -2,7 +2,6 @@ Barrier Trees of Degenerate Landscapes
 ######################################
 
 :date: 2002-07-01
-:modified: 2026-04-24
 :tags: energy landscapes; new method; tools
 :category: publications
 :doi: 10.1524/zpch.2002.216.2.155

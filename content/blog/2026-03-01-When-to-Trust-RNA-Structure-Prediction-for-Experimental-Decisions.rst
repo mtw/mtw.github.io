@@ -10,7 +10,7 @@ When to trust RNA structure prediction for experimental decisions
 :slug: When-to-trust-RNA-structure-prediction-for-experimental-decisions
 :summary: RNA structure prediction is most useful when it narrows the experimental space, exposes uncertainty clearly, and helps determine when the available structural evidence is sufficient for the next step.
 :title: When to trust RNA structure prediction for experimental decisions
-:description: A practical guide to when RNA secondary structure prediction is reliable enough to support experimental choices, and when additional probing, comparative evidence, or more careful modeling is needed.
+:description: When RNA secondary structure prediction is reliable enough to guide experiments, and when probing, comparative evidence, or better modeling is needed.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong

@@ -2,14 +2,13 @@ Indications for a moonlighting role of archaeal aIF5A
 #####################################################
 
 :date: 2019-03-05
-:modified: 2026-04-29
 :tags: RNA-Protein interaction
 :category: publications
 :doi: 10.1080/15476286.2019.1582953
 :slug: Indications-for-a-Moonlighting-Function-of-Translation-Factor-aIF5A-in-the-Crenarchaeum-Sulfolobus-Solfataricus
 :summary: This paper suggests that the archaeal translation factor aIF5A in Sulfolobus solfataricus is not limited to translation, but may also act directly in RNA metabolism through endoribonucleolytic activity.
 :title: A moonlighting role for archaeal aIF5A
-:description: A study of Sulfolobus solfataricus aIF5A combining CRISPR knockdown and biochemical assays to argue that the conserved translation factor also contributes to RNA metabolism.
+:description: CRISPR knockdown and biochemical assays of Sulfolobus solfataricus aIF5A suggest the conserved translation factor also contributes to RNA metabolism.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong

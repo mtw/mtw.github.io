@@ -2,13 +2,12 @@ Caveats to deep learning approaches to RNA secondary structure prediction
 #########################################################################
 
 :date: 2021-12-16
-:modified: 2026-04-24
 :tags: ViennaRNA; AI
 :category: publications
 :doi: 10.3389/fbinf.2022.835422
 :slug: Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction
 :title: Caveats in deep learning for RNA secondary structure prediction
-:description: A closer look at why many deep learning models for RNA secondary structure prediction appear to work well, yet often fail to generalize beyond biased benchmark datasets.
+:description: Why many deep learning models for RNA secondary structure prediction appear to work well, yet fail to generalize beyond biased benchmark datasets.
 :summary: This paper shows that many deep learning models for RNA secondary structure prediction learn dataset bias more readily than RNA folding rules, and explains why that matters for the future of AI in RNA biology.
 
 .. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m

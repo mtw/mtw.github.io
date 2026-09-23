@@ -10,7 +10,7 @@ How to review an RNA design before synthesis
 :slug: How-to-review-an-RNA-design-before-synthesis
 :summary: Many RNA designs fail for reasons that are visible long before the first synthesis order is placed. A careful review can expose mismatched objectives, weak structural assumptions, and overlooked kinetic failure modes before they become expensive.
 :title: How to review an RNA design before synthesis
-:description: A practical guide to evaluating RNA constructs before synthesis, with attention to structure prediction, folding kinetics, mechanism, and candidate prioritization.
+:description: How to evaluate RNA constructs before synthesis: structure prediction, folding kinetics, mechanism, and candidate prioritization.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong

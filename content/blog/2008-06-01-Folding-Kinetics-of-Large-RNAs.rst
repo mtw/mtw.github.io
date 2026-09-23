@@ -2,7 +2,6 @@ Folding Kinetics of Large RNAs
 ##############################
 
 :date: 2008-06-01
-:modified: 2026-04-24
 :tags: RNA folding kinetics; co-transcriptional RNA folding
 :category: publications
 :doi: 10.1016/j.jmb.2008.02.064

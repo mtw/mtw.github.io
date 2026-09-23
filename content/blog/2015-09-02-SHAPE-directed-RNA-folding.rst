@@ -2,14 +2,13 @@ SHAPE directed RNA folding
 ##########################
 
 :date: 2015-09-02
-:modified: 2026-04-24
 :tags: ViennaRNA; SHAPE; new method; tools; RNA structure prediction
 :category: publications
 :doi: 10.1093/bioinformatics/btv523
 :slug: SHAPE-directed-RNA-folding
 :summary: This paper shows how SHAPE-guided RNA folding is implemented in the ViennaRNA Package, comparing three widely used strategies for turning nucleotide reactivities into soft constraints that improve thermodynamic structure prediction.
 :title: SHAPE directed RNA folding with the ViennaRNA Package
-:description: A practical and methodological overview of how SHAPE probing data can be integrated into ViennaRNA to improve RNA secondary structure prediction without abandoning thermodynamic models.
+:description: How SHAPE probing data can be integrated into ViennaRNA to improve RNA secondary structure prediction without abandoning thermodynamic models.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -69,7 +68,7 @@ RNA-structure field, and :link-flat:`Caveats to deep learning approaches to RNA 
 carries the discussion into the later AI period, where the same
 inference problem reappears in a different modeling language.
 
-For a deeper methodological breakdown, the `Supplementary Data <http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523/suppl/DC1>`_ remain worth reading. They contain the detailed parameter choices, benchmark setup, and implementation notes behind the SHAPE-directed folding routines.
+For a deeper methodological breakdown, the `Supplementary Data <https://doi.org/10.1093/bioinformatics/btv523>`_ remain worth reading. They contain the detailed parameter choices, benchmark setup, and implementation notes behind the SHAPE-directed folding routines.
 
 
 .. frame:: Abstract
@@ -94,7 +93,7 @@ For a deeper methodological breakdown, the `Supplementary Data <http://bioinform
 Citation
 ========
 
-  | :link-flat-strong:`SHAPE directed RNA folding <http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523.abstract>`
+  | :link-flat-strong:`SHAPE directed RNA folding <https://doi.org/10.1093/bioinformatics/btv523>`
   | Ronny Lorenz, Dominik Luntzer, Ivo L. Hofacker, Peter F. Stadler, Michael T. Wolfinger
   | *Bioinformatics* 32: 145–47 (2016) | :doi:`doi:10.1093/bioinformatics/btv523 <https://doi.org/10.1093/bioinformatics/btv523>` | :link-flat:`PDF <{static}/files/papers/Lorenz-2016a.pdf>`
 

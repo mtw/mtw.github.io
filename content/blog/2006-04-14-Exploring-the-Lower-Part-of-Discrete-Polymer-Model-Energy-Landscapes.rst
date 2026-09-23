@@ -2,7 +2,6 @@ Exploring the Lower Part of Discrete Polymer Model Energy Landscapes
 ####################################################################
 
 :date: 2006-04-14
-:modified: 2026-04-24
 :tags: energy landscapes; new method; tools
 :category: publications
 :doi: 10.1209/epl/i2005-10577-0

@@ -10,7 +10,7 @@ What AI is genuinely useful for in RNA biology
 :slug: What-AI-Is-Genuinely-Useful-for-in-RNA-Biology
 :summary: AI enters RNA biology at several distinct levels, including candidate ranking, kinetics approximation, geometry generation, and large-scale classification, but the underlying biological question remains different in each case.
 :title: What AI is genuinely useful for in RNA biology
-:description: A view of how AI operates across candidate ranking, kinetics approximation, structural modeling, and viral-genomic classification, and why those tasks should not be collapsed into a single claim about “AI for RNA”.
+:description: How AI operates across candidate ranking, kinetics approximation, structural modeling, and viral-genome classification, and why these are separate tasks.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong

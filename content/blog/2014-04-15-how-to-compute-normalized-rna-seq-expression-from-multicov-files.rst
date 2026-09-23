@@ -96,10 +96,10 @@ present in a reference annotation.
 Practically, TPM values for individual genes can be computed from read
 count tables, ie. tables that give the number of reads overlapping a
 specific gene. Typical programs for obtaining read count tables are
-`htseq-count <http://htseq.readthedocs.io/>`_
+`htseq-count <https://htseq.readthedocs.io/>`_
 or
-`multiBamCov <http://bedtools.readthedocs.org/en/latest/content/tools/multicov.html>`_
-(see `bedtools <http://bedtools.readthedocs.org/en/latest/index.html>`_ multicov).
+`multiBamCov <https://bedtools.readthedocs.io/en/latest/content/tools/multicov.html>`_
+(see `bedtools <https://bedtools.readthedocs.io/en/latest/index.html>`_ multicov).
 
 I have recently implemented
 `normalize_multicov.pl <https://github.com/mtw/ViennaNGS/blob/master/scripts/normalize_multicov.pl>`_,

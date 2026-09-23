@@ -2,13 +2,12 @@ TSSAR: TSS annotation regime for dRNA-seq data
 ##############################################
 
 :date: 2014-04-13
-:modified: 2026-04-24
 :tags: NGS; bacteria; new method; tools
 :category: publications
 :doi: 10.1186/1471-2105-15-89
 :slug: TSSAR-tss-annotation-regime-for-drna-seq-data
 :summary: TSSAR introduced statistically grounded, automated annotation of bacterial transcription start sites from dRNA-seq data and packaged it as both a RESTful web service and a standalone tool.
-:description: Automated bacterial TSS annotation from dRNA-seq data using a statistical model of TEX-treated versus untreated libraries, exposed through both web and command-line workflows.
+:description: Automated bacterial TSS annotation from dRNA-seq data with a statistical model of TEX-treated versus untreated libraries, via web and command line.
 :title: Bacterial transcription start site annotation from dRNA-seq data
 
 .. role:: link-flat-strong(link)
@@ -91,6 +90,6 @@ This paper is clearly a different topic from RNA folding or landscape analysis, 
 Citation
 ========
 
-  | :link-flat-strong:`TSSAR: TSS annotation regime for dRNA-seq data <http://www.biomedcentral.com/1471-2105/15/89>`
+  | :link-flat-strong:`TSSAR: TSS annotation regime for dRNA-seq data <https://doi.org/10.1186/1471-2105-15-89>`
   | Fabian Amman, Michael T. Wolfinger, Ronny Lorenz, Ivo L. Hofacker, Peter F. Stadler, Sven Findeiß
   | *BMC Bioinformatics* 15:89 (2014) | :doi:`doi: 10.1186/1471-2105-15-89 <https://doi.org/10.1186/1471-2105-15-89>` | :link-flat:`PDF <{static}/files/papers/Amman-2014.pdf>`
