@@ -188,6 +188,17 @@ def test_figure_images_carry_dimensions_and_lazy_loading(output_dir):
     assert checked >= 1
 
 
+def test_fonts_are_self_hosted(output_dir):
+    css = (output_dir / "static" / "m-mtw.css").read_text(encoding="utf-8")
+    fonts = set(re.findall(r"url\((fonts/[^)]+\.woff2)\)", css))
+    assert len(fonts) >= 6
+    for font in fonts:
+        assert (output_dir / "static" / font).is_file(), font
+    for page in list(output_dir.rglob("*.html")) + [output_dir / "static" / "m-mtw.css"]:
+        assert "fonts.googleapis.com" not in page.read_text(encoding="utf-8"), page
+        assert "fonts.gstatic.com" not in page.read_text(encoding="utf-8"), page
+
+
 def test_commercial_pages_stay_hidden(output_dir):
     # AGENTS.md: nothing commercial before the December 2026 launch.
     services = (output_dir / "services" / "index.html").read_text(encoding="utf-8")
