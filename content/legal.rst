@@ -32,6 +32,7 @@ Kontakt
 
 | E-Mail: michael.wolfinger@rnaforecast.com
 | Weitere Kontaktmöglichkeiten: :link-flat:`Kontaktseite <{filename}contact.rst>`
+| Datenschutz: :link-flat:`Privacy policy <{filename}privacy.rst>`
 
 .. Unternehmensdaten (ab Aufnahme der geschäftlichen Tätigkeit, § 5 ECG / § 14 UGB):
    | Firma: RNA Forecast e.U.

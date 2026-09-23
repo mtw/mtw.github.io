@@ -756,3 +756,14 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 .article-body blockquote:has(a.doi,a.m-strong) .m-ul{text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:3px;color:var(--ink)}
 .article-body blockquote:has(a.doi,a.m-strong) em{color:var(--ink)}
 .article-body blockquote:has(a.doi,a.m-strong) a.doi{font-size:.78rem}
+
+/* ---- consent banner ---- */
+.consent{position:fixed;left:16px;right:16px;bottom:16px;z-index:50;max-width:640px;margin:0 auto;background:var(--panel);border:1px solid var(--border);border-radius:4px;box-shadow:0 8px 30px rgba(28,28,26,.14);padding:16px 18px;font-size:.9rem;line-height:1.5}
+.consent[hidden]{display:none}
+.consent p{margin:0 0 12px}
+.consent a{color:var(--accent)}
+.consent-actions{display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap}
+.consent-btn{font:inherit;font-size:.85rem;font-weight:600;padding:9px 18px;border-radius:2px;border:1px solid var(--dark);background:#fff;color:var(--dark);cursor:pointer}
+.consent-btn:hover{background:var(--hair)}
+.consent-accept{background:var(--dark);color:#fff}
+.consent-accept:hover{background:var(--accent-dark)}
