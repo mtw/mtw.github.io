@@ -5,8 +5,11 @@ An African Tick Flavivirus Forming an Independent Clade Exhibits Unique Exoribon
 :modified: 2023-11-02
 :tags: novel viruses; xrRNA; flavivirus; virology; RNA structure conservation
 :category: publications
+:doi: 10.1099/jgv.0.001991
+:journal: J. Gen. Virol.
+:year: 2024
+:paper_authors: Lan-Lan Wang, Qia Cheng, Natalee D. Newton, Michael T. Wolfinger, Mahali S. Morgan, Andrii Slonchak, Alexander A. Khromykh, Tian-Yin Cheng, Rhys H. Parry
 :slug: Mpulungu_Virus_is_a_novel_tick_flavivirus_from_Africa
-:author: mtw
 :title: Mpulungu virus and unique xrRNAs in a novel African tick flavivirus
 :summary: This study describes Mpulungu virus, a novel African tick flavivirus, and characterizes unusual exoribonuclease-resistant RNA structures in its 3' UTR.
 :description: Genome analysis of Mpulungu virus reveals an independent flavivirus lineage and distinctive xrRNA structures in the 3' UTR.
@@ -36,13 +39,13 @@ What gives the paper lasting value is the structural analysis of the untranslate
 
 The central result is the identification of two exoribonuclease-resistant RNA elements in the 3' UTR of MPFV. These xrRNA structures are not just predicted computationally. The study shows biochemically that both can stall Xrn1, providing direct evidence that this unusual African lineage retains a key flaviviral strategy for generating protected decay intermediates and, likely, subgenomic flaviviral RNAs. That tied the new lineage back to a conserved mechanistic theme in flavivirus RNA biology even while the surrounding genomic context looked quite distinctive.
 
-Seen this way, MPFV was an early sign that unusual tick-associated flaviviruses could preserve the broader flaviviral RNA toolkit while following different ecological trajectories. The later :link-flat:`Xinyang flavivirus paper <{filename}/blog/2024-05-29-Xingyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade.rst>` sharpened that interpretation by showing that the lineage was not confined to Africa and by strengthening the case for a basal, likely tick-only clade. Read together, the two papers make more sense than either one does alone. MPFV established the branch and its unusual xrRNA features. XiFV then broadened the clade and shifted the ecological argument away from a vertebrate-centered default.
+Seen this way, MPFV was an early sign that unusual tick-associated flaviviruses could preserve the broader flaviviral RNA toolkit while following different ecological trajectories. The later :link-flat:`Xinyang flavivirus paper <{filename}/blog/2024-05-29-Xinyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade.rst>` sharpened that interpretation by showing that the lineage was not confined to Africa and by strengthening the case for a basal, likely tick-only clade. Read together, the two papers make more sense than either one does alone. MPFV established the branch and its unusual xrRNA features. XiFV then broadened the clade and shifted the ecological argument away from a vertebrate-centered default.
 
 This also places MPFV naturally beside the :link-flat:`Zambian insect-specific flavivirus xrRNA study <{filename}/blog/2020-09-14-Discoveries-of-Exoribonuclease-Resistant-Structures-of-Insect-Specific-Flaviviruses-Isolated-in-Zambia.rst>`. In both cases, virus discovery becomes much more informative once it is connected to comparative RNA structure and functional validation. The broader lesson is that understudied flavivirus lineages often reveal their deepest commonalities not through obvious sequence identity, but through preserved structured RNA elements in the untranslated regions.
 
 I would now read this paper less as a warning about an immediate public-health threat and more as a foundational comparative RNA virology study. It identified a novel lineage, mapped its structured 3' UTR, and showed that even in a phylogenetically unusual branch, xrRNA function remains central enough to be retained. That is the kind of result that makes later ecological and evolutionary reinterpretation possible.
 
-It is also a good example of the argument in :link-flat:`When sequence conservation is not enough to find functional RNA structure <{filename}/blog/2026-04-05-When-Sequence-Conservation-Is-Not-Enough-to-Find-Functional-RNA-Structure.rst>`, because the deeper commonality here emerges from preserved structured-RNA logic rather than from easy sequence similarity alone.
+It is also a good example of why sequence conservation alone is not enough to find functional RNA structure: the deeper commonality here emerges from preserved structured-RNA logic rather than from easy sequence similarity alone.
 
 .. frame:: Abstract
 
@@ -60,6 +63,6 @@ Citation
 See Also
 ========
 
-  | :link-flat-strong:`Xinyang flavivirus, from Haemaphysalis flava ticks in Henan province, China, defines a basal, likely tick-only flavivirus clade <{filename}/blog/2024-05-29-Xingyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade.rst>`
+  | :link-flat-strong:`Xinyang flavivirus, from Haemaphysalis flava ticks in Henan province, China, defines a basal, likely tick-only flavivirus clade <{filename}/blog/2024-05-29-Xinyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade.rst>`
   | Lan-Lan Wang, Qia Cheng, Natalee D. Newton, :ul:`Michael T. Wolfinger`, Mahali S. Morgan, Andrii Slonchak, Alexander A. Khromykh, Tian-Yin Cheng, Rhys H. Parry
   | *J. Gen. Virol.* 105(5) (2024) | :doi:`doi:10.1099/jgv.0.001991 <https://doi.org/10.1099/jgv.0.001991>` | :link-flat:`PDF <{static}/files/papers/Wang-2024.pdf>`

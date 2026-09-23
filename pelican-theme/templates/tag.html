@@ -1,8 +1,10 @@
 {% extends "archives.html" %}
-{% block blog_title %}{{ tag|e }} | {{ M_BLOG_NAME|e }}{% endblock %}
+{% set _self_url = (articles_page.url if articles_page and articles_page.number > 1 else tag.url) %}
+{% block blog_title %}Posts tagged {{ tag|e }} | {{ SITENAME|e }}{% endblock %}
 {% block blog_eyebrow %}Tag{% endblock %}
 {% block blog_heading %}{{ tag|e }}{% endblock %}
 {% block blog_lede %}<p class="page-lede" style="max-width:66ch">Posts tagged &ldquo;{{ tag|e }}&rdquo;.</p>{% endblock %}
-{% block social_url %}<meta property="og:url" content="{{ tag.url|format_siteurl|e }}" />{% endblock %}
-{% block blog_canonical %}<link rel="canonical" href="{{ (articles_page.url if articles_page and articles_page.number > 1 else tag.url)|format_siteurl|e }}" />{% endblock %}
-{% block blog_ldjson %}{% import '_ldjson.html' as ld with context %}{{ ld.listing_graph(tag|string, SITEURL ~ '/' ~ tag.url, 'Posts tagged ' ~ tag|string, false) }}{% endblock %}
+{% block social_url %}<meta property="og:url" content="{{ _self_url|format_siteurl|e }}" />{% endblock %}
+{% block blog_canonical %}<link rel="canonical" href="{{ _self_url|format_siteurl|e }}" />{% endblock %}
+{% block blog_description %}Posts tagged “{{ tag }}” on the michaelwolfinger.com blog: computational RNA biology, RNA structure, folding kinetics, and RNA design.{% endblock %}
+{% block blog_ldjson %}{% import '_ldjson.html' as ld with context %}{{ ld.listing_graph(tag|string, SITEURL ~ '/' ~ _self_url, self.blog_description(), false) }}{% endblock %}

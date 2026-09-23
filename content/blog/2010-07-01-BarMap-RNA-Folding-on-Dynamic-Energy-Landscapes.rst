@@ -2,11 +2,13 @@ BarMap: RNA Folding on Dynamic Energy Landscapes
 ################################################
 
 :date: 2010-07-01
-:modified: 2026-04-24
 :tags: co-transcriptional RNA folding; RNA folding kinetics; energy landscapes
 :category: publications
+:doi: 10.1261/rna.2093310
+:journal: RNA
+:year: 2010
+:paper_authors: Ivo L. Hofacker, Christoph Flamm, Christian Heine, Michael T. Wolfinger, Gerik Scheuermann, Peter F. Stadler
 :slug: barmap-rna-folding-dynamic-energy-landscapes
-:author: mtw
 :summary: BarMap models RNA folding on changing energy landscapes by linking macrostates between landscape snapshots, enabling efficient analysis of co-transcriptional and externally perturbed folding scenarios.
 :title: BarMap and RNA folding on dynamic energy landscapes
 :description: A coarse-grained approach to RNA folding kinetics on changing landscapes, including co-transcriptional folding and other nonstationary scenarios.

@@ -5,8 +5,11 @@ Pervasive non-coding RNA structure conservation and molecular epidemiology of TB
 :modified: 2022-10-29
 :tags: virus bioinformatics; non-coding RNA; One Health; xrRNA; molecular epidemiology; flavivirus; RNA structure conservation
 :category: publications
+:doi: 10.3390/v11030298
+:journal: Viruses
+:year: 2019
+:paper_authors: Roman Ochsenreiter, Ivo L. Hofacker, Michael T. Wolfinger
 :slug: Evolutionary-traits-of-Tick-borne-encephalitis-virus-Pervasive-non-coding-RNA-structure-conservation-and-molecular-epidemiology
-:author: mtw
 :summary: This study combines comparative RNA structure analysis with molecular epidemiology to characterize conserved and variable 3' UTR architectures across tick-borne encephalitis virus lineages.
 :description: Comparative analysis of 3' UTR RNA structure conservation and molecular epidemiology across tick-borne encephalitis virus lineages.
 :title: RNA structure conservation and molecular epidemiology of TBEV
@@ -42,7 +45,6 @@ What I find most compelling here is the combination of scales. The paper examine
 
 For TBEV specifically, the paper provides a more coherent picture of how structural conservation and epidemiological diversification coexist. The genome is not frozen, and the 3' UTR is certainly not uniform. Even so, the range of viable architectures appears constrained enough to reveal recurring principles. That makes the study a useful bridge between comparative structure prediction and phylodynamic surveillance, and gives the TBEV system a clearer place within the larger flavivirus RNA-structure landscape.
 
-That broader point is exactly what I make more explicitly in :link-flat:`When sequence conservation is not enough to find functional RNA structure <{filename}/blog/2026-04-05-When-Sequence-Conservation-Is-Not-Enough-to-Find-Functional-RNA-Structure.rst>`.
 
 .. frame:: Abstract
 

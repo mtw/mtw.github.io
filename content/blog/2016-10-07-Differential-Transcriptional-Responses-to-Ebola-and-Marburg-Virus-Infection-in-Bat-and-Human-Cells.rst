@@ -2,15 +2,17 @@ Why bats and humans respond differently to filovirus infection
 ##############################################################
 
 :date: 2016-10-07
-:modified: 2026-04-30
 :tags: virology; virus bioinformatics
 :category: publications
+:doi: 10.1038/srep34589
+:journal: Sci. Rep.
+:year: 2016
+:paper_authors: Martin Hölzer, Verena Krähling, Fabian Amman, Emanuel Barth, Stephan H. Bernhart, Victor Carmelo, Maximilian Collatz, Gero Doose, Florian Eggenhofer, Jan Ewald, Jörg Fallmann, Lasse M. Feldhahn, Markus Fricke, Juliane Gebauer, Andreas J. Gruber, Franziska Hufsky, Henrike Indrischek, Sabina Kanton, Jörg Linde, Nelly Mostajo, Roman Ochsenreiter, Konstantin Riege, Lorena Rivarola-Duarte, Abdullah H. Sahyoun, Sita J. Saunders, Stefan E. Seemann, Andrea Tanzer, Bertram Vogel, Stefanie Wehner, Michael T. Wolfinger, Rolf Backofen, Jan Gorodkin, Ivo Grosse, Ivo L. Hofacker, Steve Hoffmann, Christoph Kaleta, Peter F. Stadler, Stephan Becker, Manja Marz
 :frontpage: no
 :slug: Differential-Transcriptional-Responses-to-Ebola-and-Marburg-Virus-Infection-in-Bat-and-Human-Cells
-:author: mtw
 :summary: This paper compares Ebola and Marburg virus infection in bat and human cells and shows that the transcriptional response, pathway activation, and replication dynamics differ substantially between the natural host and a susceptible human system.
 :title: Why bats and humans respond differently to filovirus infection
-:description: A comparative transcriptomics study of Ebola and Marburg virus infection in bat and human cells, focusing on replication kinetics, host-response pathways, and candidate determinants of tolerance.
+:description: Comparative transcriptomics of Ebola and Marburg virus infection in bat and human cells: replication kinetics, host-response pathways, and tolerance.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong

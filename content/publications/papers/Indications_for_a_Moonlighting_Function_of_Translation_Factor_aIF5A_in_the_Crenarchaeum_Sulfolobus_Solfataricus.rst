@@ -24,7 +24,7 @@ Indications for a Moonlighting Function of Translation Factor aIF5A in the Crena
 
         Flavia Bassani, Isabelle Anna Zink, Thomas Pribasnig, :ul:`Michael T. Wolfinger`, Alice Romagnoli, Armin Resch, Christa Schleper, Udo Bläsi, Anna La Teana
 
-        *RNA Biol.* 16 (5):675–85 (2019) | doi: :doi:`10.1080/15476286.2019.1582953  <https://doi.org/10.1080/15476286.2019.1582953 >`
+        *RNA Biol.* 16 (5):675–85 (2019) | doi: :doi:`10.1080/15476286.2019.1582953  <https://doi.org/10.1080/15476286.2019.1582953>`
 
         Download: :link-flat-strong:`PDF <{static}/files/papers/Bassani-2019.pdf>`
 

@@ -2,11 +2,13 @@ Efficient Computation of RNA Folding Dynamics
 #############################################
 
 :date: 2004-04-14
-:modified: 2026-04-24
 :tags: RNA folding kinetics; energy landscapes
 :category: publications
+:doi: 10.1088/0305-4470/37/17/005
+:journal: J. Phys. A: Math. Gen.
+:year: 2004
+:paper_authors: Michael T. Wolfinger, W. Andreas Svrcek-Seiler, Christoph Flamm, Ivo L. Hofacker, Peter F. Stadler
 :slug: efficient-computation-rna-folding-dynamics
-:author: mtw
 :summary: This paper shows how barrier trees and numerical integration can approximate RNA folding dynamics efficiently enough to analyze bistable molecules and RNA switches on biologically relevant timescales.
 :title: Efficient computation of RNA folding dynamics
 :description: A barrier-tree based approach for efficient approximation of RNA folding dynamics within the secondary structure energy landscape.

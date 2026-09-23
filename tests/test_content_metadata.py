@@ -12,7 +12,7 @@ from pathlib import Path
 import pytest
 
 BLOG_DIR = Path(__file__).resolve().parents[1] / "content" / "blog"
-REQUIRED = ("date", "slug", "category", "tags", "summary", "description", "author")
+REQUIRED = ("date", "slug", "category", "tags", "summary", "description")
 SECTIONS = {"guides", "essays", "talks"}
 FIELD_RE = re.compile(r"^:(?P<key>[a-z_]+):\s*(?P<value>.*?)\s*$", re.MULTILINE)
 
@@ -34,7 +34,7 @@ def _date(value: str) -> date:
 
 
 def test_blog_directory_has_posts():
-    assert len(_posts()) >= 71
+    assert len(_posts()) >= 67
 
 
 @pytest.mark.parametrize("post", _posts(), ids=lambda p: p.name)
@@ -68,3 +68,12 @@ def test_canonical_urls_on_paper_stubs_point_at_existing_posts():
         match = re.search(r"/blog/(\d{4})/([^/]+)/?$", canonical)
         assert match, f"{stub.name}: unexpected canonical {canonical}"
         assert (int(match.group(1)), match.group(2)) in slugs, f"{stub.name}: canonical does not match a post: {canonical}"
+
+
+STATUSES = {"published", "draft", "hidden", "skip"}
+
+
+@pytest.mark.parametrize("source", sorted((BLOG_DIR.parent).rglob("*.rst")), ids=lambda p: p.name)
+def test_status_values_are_known(source):
+    status = _fields(source).get("status")
+    assert status is None or status in STATUSES, f"{source.name}: unknown :status: {status!r}"

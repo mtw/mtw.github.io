@@ -2,11 +2,13 @@ Distinctive Regulation of Carbapenem Susceptibility in Pseudomonas Aeruginosa by
 ####################################################################################
 
 :date: 2020-05-26
-:modified: 2026-04-24
 :tags: bacteria; One Health
 :category: publications
+:doi: 10.3389/fmicb.2020.01001
+:journal: Front. Microbiol.
+:year: 2020
+:paper_authors: Elisabeth Sonnleitner, Petra Pusic, Michael T. Wolfinger, Udo Blasi
 :slug: Distinctive-Regulation-of-Carbapenem-Susceptibility-in-Pseudomonas-Aeruginosa-by-Hfq
-:author: mtw
 :summary: This paper shows that the RNA chaperone Hfq controls carbapenem susceptibility in Pseudomonas aeruginosa through two different post-transcriptional routes acting on the porins OprD and OpdP.
 :title: Hfq regulates carbapenem susceptibility in Pseudomonas aeruginosa
 :description: A mechanistic study of how Hfq, small RNAs, Crc, and CrcZ shape carbapenem uptake through differential regulation of oprD and opdP.

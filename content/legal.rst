@@ -1,8 +1,8 @@
 Legal Information / Impressum
 ######################################
-:summary: Legal Information / Impressum
-:title: Legal Information / Impressum
-:description: Legal Information
+:summary: Legal notice (Impressum) for michaelwolfinger.com
+:title: Legal Note | Michael T. Wolfinger
+:description: Legal notice (Impressum) for michaelwolfinger.com: site operator, contact, copyright, and liability information.
 
 
 .. role:: link-flat-strong(link)
@@ -27,7 +27,7 @@ Kontaktdaten
 Anwendbare Rechtsvorschrift
 ---------------------------
 
-http://www.ris.bka.gv.at
+https://www.ris.bka.gv.at
 
 
 Urheberrecht

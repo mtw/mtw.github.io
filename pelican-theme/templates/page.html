@@ -20,6 +20,7 @@
 {% endblock %}
 
 {% block meta %}
+  {% if page.robots %}<meta name="robots" content="{{ page.robots|e }}" />{% endif %}
   {% if page.description %}<meta name="description" content="{{ page.description|dehyphenate|striptags|e }}" />{% endif %}
 {% endblock %}
 
@@ -44,6 +45,8 @@
   <meta name="twitter:card" content="summary" />
   {% endif %}
   <meta property="og:type" content="{% if page.slug == 'about' %}profile{% else %}website{% endif %}" />
+  {% if page.slug == 'about' %}<meta property="profile:first_name" content="Michael" />
+  <meta property="profile:last_name" content="Wolfinger" />{% endif %}
 {% endblock %}
 
 {% block extra %}

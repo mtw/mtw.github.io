@@ -4,14 +4,13 @@ What AI can and cannot do for RNA structure and RNA-protein modeling
 :status: skip
 :date: 2025-02-01
 :modified: 2026-04-30
-:tags: AI; RNA structure prediction; RNA-Protein interaction; 3D
+:tags: AI; RNA structure prediction; RNA-protein interaction; 3D
 :category: outreach
 :section: essays
 :slug: What-AI-Can-and-Cannot-Do-for-RNA-Structure-and-RNA-Protein-Modeling
-:author: mtw
 :summary: AI affects RNA structure and RNA-protein modeling in very different ways depending on whether the task concerns ranking, geometry generation, or mechanistic inference, and whether the output remains anchored in physics and experiment.
 :title: What AI can and cannot do for RNA structure and RNA-protein modeling
-:description: A researcher’s view on which AI-based models address ranking or geometry generation in RNA biology, and where mechanistic inference still depends on physical and experimental constraints.
+:description: Which AI models handle ranking or geometry generation in RNA biology, and where mechanistic inference still needs physical and experimental constraints.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong

@@ -2,11 +2,13 @@ A framework for automated scalable designation of viral pathogen lineages from g
 ###########################################################################################
 
 :date: 2024-02-12
-:modified: 2026-04-23
 :tags: virus bioinformatics; new method; tools; molecular epidemiology; One Health
 :category: publications
+:doi: 10.1038/s41564-023-01587-5
+:journal: Nature Microbiol.
+:year: 2024
+:paper_authors: Jakob McBroome, Adriano de Bernardi Schneider, Cornelius Roemer, Michael T. Wolfinger, Angie S. Hinrichs, Aine N. O’Toole, Chris Ruis, Yatish Turakhia, Andrew Rambaut, Russell Corbett-Detig
 :slug: automated-viral-lineage-designation
-:author: mtw
 :summary: This study describes an automated framework for lineage designation from phylogenetic and genomic data, designed to scale to very large viral datasets while remaining consistent and interpretable.
 :title: Automated lineage designation from viral genomic data
 :description: A scalable framework for automated viral lineage designation from genomic and phylogenetic data.

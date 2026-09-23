@@ -5,11 +5,15 @@
   <meta charset="UTF-8" />
   <title>{% block title %}{% endblock title %}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" href="{{ 'static/fonts/ibm-plex-sans-latin.woff2'|format_siteurl }}" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="{{ 'static/fonts/archivo-latin.woff2'|format_siteurl }}" as="font" type="font/woff2" crossorigin />
   {% for href in M_CSS_FILES %}
   <link rel="stylesheet" href="{{ href|format_siteurl|e }}" />
   {% endfor %}
+  <link rel="icon" href="{{ SITEURL }}/favicon.ico" sizes="32x32" />
+  <link rel="icon" href="{{ SITEURL }}/static/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="{{ SITEURL }}/static/apple-touch-icon.png" />
+  <link rel="manifest" href="{{ SITEURL }}/site.webmanifest" />
   {% block head_links %}{% endblock head_links %}
   {% if FEED_ALL_ATOM_URL %}
   <link href="{{ FEED_ALL_ATOM_URL|format_siteurl|e }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME|e }}" />
@@ -99,14 +103,15 @@
       {% for group in [M_LINKS_FOOTER1, M_LINKS_FOOTER2, M_LINKS_FOOTER3, M_LINKS_FOOTER4] %}
       {% if group %}
       <div class="foot-col">
-        <h3>
+        {#- column captions, not document headings: keeps the outline h1 > h2 on every page -#}
+        <div class="foot-head">
           {%- if group[0][1] %}<a href="{{ group[0][1]|format_siteurl|e }}">{% endif %}
           {{- group[0][0]|e -}}
           {% if group[0][1] %}</a>{% endif -%}
-        </h3>
+        </div>
         <ul>
           {% for title, link in group %}{% if loop.index0 != 0 %}
-          <li>{% if title %}<a href="{{ link|format_siteurl|e }}">{{ title|e }}</a>{% else %}&nbsp;{% endif %}</li>
+          <li>{% if title %}<a href="{{ link|format_siteurl|e }}"{% if link.startswith('http') %} rel="me"{% endif %}>{{ title|e }}</a>{% else %}&nbsp;{% endif %}</li>
           {% endif %}{% endfor %}
         </ul>
       </div>

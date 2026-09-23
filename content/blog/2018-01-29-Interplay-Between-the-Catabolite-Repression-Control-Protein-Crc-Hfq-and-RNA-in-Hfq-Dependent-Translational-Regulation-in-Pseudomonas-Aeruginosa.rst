@@ -2,11 +2,13 @@ Interplay Between the Catabolite Repression Control Protein Crc, Hfq and RNA in 
 #######################################################################################################################################################################
 
 :date: 2018-01-29
-:modified: 2026-04-29
 :tags: bacteria; non-coding RNA
 :category: publications
+:doi: 10.1093/nar/gkx1245
+:journal: Nucleic Acids Res.
+:year: 2018
+:paper_authors: Elisabeth Sonnleitner, Alexander Wulf, Sebastien Campagne, Xue-Yuan Pei, Michael T. Wolfinger, Giada Forlani, Konstantin Prindl, Laetitia Abdou, Armin Resch, Frederic Allain, Ben Luisi, Henning Urlaub, Udo Blasi
 :slug: Interplay-Between-the-Catabolite-Repression-Control-Protein-Crc-Hfq-and-RNA-in-Hfq-Dependent-Translational-Regulation-in-Pseudomonas-Aeruginosa
-:author: mtw
 :summary: This paper explains how the catabolite repression protein Crc modulates Hfq-dependent translational control in Pseudomonas aeruginosa by stabilizing Hfq/RNA assemblies and competing with sRNA access to Hfq.
 :title: How Crc modulates Hfq-dependent RNA regulation in Pseudomonas aeruginosa
 :description: A mechanistic study of the Hfq/Crc/RNA complex during carbon catabolite repression in Pseudomonas aeruginosa.

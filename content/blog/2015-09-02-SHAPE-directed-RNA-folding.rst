@@ -2,14 +2,16 @@ SHAPE directed RNA folding
 ##########################
 
 :date: 2015-09-02
-:modified: 2026-04-24
 :tags: ViennaRNA; SHAPE; new method; tools; RNA structure prediction
 :category: publications
+:doi: 10.1093/bioinformatics/btv523
+:journal: Bioinformatics
+:year: 2016
+:paper_authors: Ronny Lorenz, Dominik Luntzer, Ivo L. Hofacker, Peter F. Stadler, Michael T. Wolfinger
 :slug: SHAPE-directed-RNA-folding
-:author: mtw
 :summary: This paper shows how SHAPE-guided RNA folding is implemented in the ViennaRNA Package, comparing three widely used strategies for turning nucleotide reactivities into soft constraints that improve thermodynamic structure prediction.
 :title: SHAPE directed RNA folding with the ViennaRNA Package
-:description: A practical and methodological overview of how SHAPE probing data can be integrated into ViennaRNA to improve RNA secondary structure prediction without abandoning thermodynamic models.
+:description: How SHAPE probing data can be integrated into ViennaRNA to improve RNA secondary structure prediction without abandoning thermodynamic models.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -63,14 +65,13 @@ This SHAPE paper belongs squarely in that territory, because its value
 lies in changing which structural hypotheses remain plausible once
 experimental data are brought in.
 
-For a more direct discussion of what SHAPE and related chemical probing results can and cannot justify in practice, see :link-flat:`How to interpret SHAPE and chemical probing data for RNA structure decisions <{filename}/blog/2026-05-09-How-to-Interpret-SHAPE-and-Chemical-Probing-Data-for-RNA-Structure-Decisions.rst>`.
 
 :link-flat:`Predicting RNA structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>` places SHAPE integration into the larger classical
 RNA-structure field, and :link-flat:`Caveats to deep learning approaches to RNA secondary structure prediction <{filename}/blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>`
 carries the discussion into the later AI period, where the same
 inference problem reappears in a different modeling language.
 
-For a deeper methodological breakdown, the `Supplementary Data <http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523/suppl/DC1>`_ remain worth reading. They contain the detailed parameter choices, benchmark setup, and implementation notes behind the SHAPE-directed folding routines.
+For a deeper methodological breakdown, the `Supplementary Data <https://doi.org/10.1093/bioinformatics/btv523>`_ remain worth reading. They contain the detailed parameter choices, benchmark setup, and implementation notes behind the SHAPE-directed folding routines.
 
 
 .. frame:: Abstract
@@ -95,7 +96,7 @@ For a deeper methodological breakdown, the `Supplementary Data <http://bioinform
 Citation
 ========
 
-  | :link-flat-strong:`SHAPE directed RNA folding <http://bioinformatics.oxfordjournals.org/content/early/2015/09/23/bioinformatics.btv523.abstract>`
+  | :link-flat-strong:`SHAPE directed RNA folding <https://doi.org/10.1093/bioinformatics/btv523>`
   | Ronny Lorenz, Dominik Luntzer, Ivo L. Hofacker, Peter F. Stadler, Michael T. Wolfinger
   | *Bioinformatics* 32: 145–47 (2016) | :doi:`doi:10.1093/bioinformatics/btv523 <https://doi.org/10.1093/bioinformatics/btv523>` | :link-flat:`PDF <{static}/files/papers/Lorenz-2016a.pdf>`
 

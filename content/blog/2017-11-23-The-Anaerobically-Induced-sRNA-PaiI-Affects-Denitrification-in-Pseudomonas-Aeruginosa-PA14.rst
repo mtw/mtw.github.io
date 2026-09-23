@@ -2,14 +2,16 @@ The Anaerobically Induced sRNA PaiI Affects Denitrification in Pseudomonas Aerug
 ###########################################################################################
 
 :date: 2017-11-23
-:modified: 2026-04-29
 :tags: bacteria; non-coding RNA
 :category: publications
+:doi: 10.3389/fmicb.2017.02312
+:journal: Front. Microbiol.
+:year: 2017
+:paper_authors: Muralidhar Tata, Fabian Amman, Vinay Pawar, Michael T. Wolfinger, Siegfried Weiss, Susanne Haussler, Udo Blasi
 :slug: The-Anaerobically-Induced-sRNA-PaiI-Affects-Denitrification-in-Pseudomonas-Aeruginosa-PA14
-:author: mtw
 :summary: This paper identifies the small RNA PaiI as an anaerobically induced regulator in Pseudomonas aeruginosa PA14 and shows that it is needed for efficient denitrification under nitrate-respiring conditions.
 :title: PaiI links anaerobic small-RNA regulation to denitrification in Pseudomonas aeruginosa
-:description: A study of the nitrate-induced sRNA PaiI in Pseudomonas aeruginosa PA14, its NarXL-dependent expression, and its role in nitrite reduction and anaerobic growth.
+:description: The nitrate-induced sRNA PaiI in Pseudomonas aeruginosa PA14: NarXL-dependent expression and its role in nitrite reduction and anaerobic growth.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong

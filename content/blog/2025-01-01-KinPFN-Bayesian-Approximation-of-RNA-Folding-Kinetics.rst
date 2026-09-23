@@ -5,8 +5,11 @@ KinPFN: Bayesian Approximation of RNA Folding Kinetics
 :modified: 2026-04-24
 :tags: RNA folding kinetics; AI
 :category: publications
+:doi: 10.5281/zenodo.15233965
+:journal: The Thirteenth International Conference on Learning Representations (ICLR'25)
+:year: 2025
+:paper_authors: Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, Michael T. Wolfinger, Christoph Flamm, Frank Hutter
 :slug: kinpfn-rna-folding-kinetics
-:author: mtw
 :summary: KinPFN uses prior-data fitted networks to approximate first-passage-time distributions for RNA folding kinetics orders of magnitude faster than direct simulation.
 :title: KinPFN for RNA folding kinetics
 :description: A deep-learning approach to approximate RNA folding-time distributions from a few simulated examples.
@@ -39,7 +42,7 @@ The real value of the approach is that it makes distribution-level reasoning abo
 
 For RNA folding kinetics this is a useful conceptual shift. It shows that machine learning can accelerate kinetic analysis without having to learn RNA folding from scratch. By focusing on posterior approximation rather than direct structure prediction, KinPFN becomes a practical tool for kinetic RNA design workflows, where many candidate sequences need to be compared quickly but full simulation remains computationally restrictive.
 
-That is also why it fits naturally with :link-flat:`Why kinetic folding matters in RNA design <{filename}/blog/2025-01-20-Why-Kinetic-Folding-Matters-in-RNA-Design.rst>`. In both cases, the practical value comes from deciding which candidates deserve closer attention before a project becomes expensive.
+That is also why it fits naturally with kinetics-aware RNA design. In both cases, the practical value comes from deciding which candidates deserve closer attention before a project becomes expensive.
 
 .. frame:: Abstract
 
