@@ -20,6 +20,7 @@
 {% endblock %}
 
 {% block meta %}
+  {% if page.robots %}<meta name="robots" content="{{ page.robots|e }}" />{% endif %}
   {% if page.description %}<meta name="description" content="{{ page.description|dehyphenate|striptags|e }}" />{% endif %}
 {% endblock %}
 
