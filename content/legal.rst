@@ -1,6 +1,7 @@
 Impressum
 #########
 :title: Impressum | Michael T. Wolfinger
+:hero_title: Impressum
 :summary: Impressum und Offenlegung gemäß § 5 ECG und § 25 MedienG
 :description: Impressum von michaelwolfinger.com: Medieninhaber, Kontakt, Blattlinie, Urheberrecht und Haftung gemäß § 5 ECG und § 25 MedienG.
 :html_lang: de
