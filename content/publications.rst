@@ -1,6 +1,6 @@
 Papers
 ######
-:summary: This page holds the complete scholarly record of Michael T. Wolfinger, including journal articles, conference contributions, and preprints. RNA Forecast lists the subset of this work carrying the RNA Forecast affiliation.
+:summary: This page lists my publications from 2002 to today, newest first. It covers journal articles, conference papers, book chapters, and preprints, and every entry opens a page with the abstract and DOI.
 :title: Publications | Michael T. Wolfinger
 :hero_eyebrow: Publications
 :hero_title: Complete Publication Record
@@ -20,33 +20,26 @@ Papers
 .. role:: doi(link)
   :class: doi
 
-.. note-info::
-   Download :link-flat:`my publication list as PDF <{static}/files/MTW_PublicationList.pdf>`
+.. role:: btn(link)
+  :class: btn
 
-Submitted Manuscripts / Preprints
-=================================
+.. container:: btn-row
 
-.. container:: preprints
+   :btn:`Publication list (PDF) <{static}/files/MTW_PublicationList.pdf>` :btn:`Google Scholar <https://scholar.google.at/citations?user=w0PHGnEAAAAJ&hl=en>` :btn:`ORCID <https://orcid.org/0000-0003-0925-5205>`
 
-  .. container:: m-row
+The subset of this work carrying the RNA Forecast affiliation is also listed on
+:link-flat:`rnaforecast.com <https://rnaforecast.com/publications/>`.
 
-    .. container::  m-col-t-8
+Manuscripts under review
+========================
 
-      | 58. :strong:`Identification of a region within the 5’UTR of Interleukin–2 mRNA offers a promising strategy for drug development for autoimmune disorders`
-      | Katarzyna M. Gluchowska, Krzysztofa Odzywol, Agnieszka Zagozdzon, Tomasz K. Wirecki, Chandran Nithin, Bartlomiej Surpeta, Xiaobing Zhang, Jannan Zhao, Lukasz Joachimiak, Bartlomiej Hofman, Joanna Sztuba-Solinska, Katarzyna Drzewicka, Angelika Muchowicz, :ul:`Michael T. Wolfinger`, Roman Blaszczyk, Irina Tuszynska, Janusz M. Bujnicki, and Zbigniew Zaslona
-      | Submitted manuscript (2026)
+.. container:: under-review
 
-  .. container:: m-row
+   | :strong:`“Circle of Life” – Zika virus genomic cyclization is controlled by sequence specificity`
+   | Liam Kerr, Danielle L. Gemmill, Higor S. Pereira, :ul:`Michael T. Wolfinger`, Trushar R. Patel · submitted 2026
 
-    .. container::  m-col-t-8
-
-      | 57. :strong:`“Circle ofLife” - Zika virus genomic cyclization is controlled by sequence specificity`
-      | Liam Kerr, Danielle L. Gemmill, Higor S. Pereira, :ul:`Michael T. Wolfinger`, Trushar R. Patel
-      | Submitted manuscript (2026)
-
-
-.. transition::  - - -
-
+   | :strong:`Identification of a region within the 5’UTR of Interleukin-2 mRNA offers a promising strategy for drug development for autoimmune disorders`
+   | Martyna Nowacka, Julita Nowicka, Joanna Grochowska, Magdalena Kulma, Agnieszka Belczyk-Ciesielska, Katarzyna M. Gluchowska, Krzysztofa Odrzywol, Agnieszka Zagozdzon, Tomasz K. Wirecki, Chandran Nithin, Bartlomiej Surpeta, Xiaobing Zhang, Jiannan Zhao, Wojciech Czestkowski, Sylwia Olejniczak, Lukasz Joachimiak, Bartlomiej Hofman, Joanna Sztuba-Solinska, Katarzyna Drzewicka, Angelika Muchowicz, :ul:`Michael T. Wolfinger`, Roman Blaszczyk, Irina Tuszynska, Janusz M. Bujnicki, Zbigniew Zaslona · submitted 2026
 
 Peer-reviewed journal / conference articles and book chapters
 =============================================================
