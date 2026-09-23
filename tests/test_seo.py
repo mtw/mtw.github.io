@@ -210,8 +210,8 @@ def test_analytics_are_consent_gated(output_dir):
         assert not re.search(r"<script[^>]*src=[\"']?https://www\.googletagmanager\.com", html), page
     home = (output_dir / "index.html").read_text(encoding="utf-8")
     assert "mtw-consent" in home and 'id=cookie-settings' in home.replace('"', "")
-    assert "#cookie-settings" in home and "/privacy/" in home
-    privacy = (output_dir / "privacy" / "index.html").read_text(encoding="utf-8")
+    assert "#cookie-settings" in home and "/datenschutz/" in home
+    privacy = (output_dir / "datenschutz" / "index.html").read_text(encoding="utf-8")
     assert "Google Analytics" in privacy and "Datenschutzbehörde" in privacy
 
 
