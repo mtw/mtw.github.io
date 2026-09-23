@@ -3,7 +3,7 @@ Pan-flavivirus analysis reveals sfRNA-independent 3' UTR-biased siRNA production
 
 :date: 2024-10-15
 :modified: 2024-10-31
-:tags: virus bioinformatics; xrRNA; flavivirus; virology
+:tags: virus bioinformatics; xrRNA; flavivirus
 :category: publications
 :doi: 10.1128/jvi.01215-24
 :journal: J. Virol.
@@ -42,7 +42,7 @@ The experiments show that this explanation is incomplete. For KRV, two major sfR
 
 Methodologically, that is an important distinction. It means the 3' UTR signal cannot be explained away as a trivial by-product of one already known pathway. Biologically, it suggests that KRV or related classical insect-specific flaviviruses generate another RNA species, or another structural context, that is especially accessible to the mosquito RNAi machinery. The 3' UTR may therefore act less like a conventional protected fragment and more like a structured decoy or processing hotspot that redirects the antiviral response.
 
-This fits well with a broader line of work on conserved RNA elements in flavivirus untranslated regions. The paper naturally connects to :link-flat:`the comparative analysis of flavivirus 3' UTR architectures <{filename}/blog/2019-03-24-Functional_RNA_Structures_in_the_3UTR_of_Tick-Borne_Insect-Specific_and_No_Known_Vector_Flaviviruses.rst>`, to the broader :link-flat:`mosquito-borne flavivirus 3' UTR synthesis <{filename}/blog/2021-09-06-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`, and to studies such as :link-flat:`the Zambia insect-specific flavivirus xrRNA paper <{filename}/blog/2020-09-14-Discoveries-of-Exoribonuclease-Resistant-Structures-of-Insect-Specific-Flaviviruses-Isolated-in-Zambia.rst>`. Those earlier papers established that structured 3' UTRs are central to flavivirus evolution and host interaction. This study adds a new layer by showing that the same region can also dominate mosquito siRNA production in a way that is not simply reducible to sfRNA biogenesis.
+This fits well with a broader line of work on conserved RNA elements in flavivirus untranslated regions. The paper naturally connects to :link-flat:`the comparative analysis of flavivirus 3' UTR architectures <{filename}/blog/2019-03-25-Functional_RNA_Structures_in_the_3UTR_of_Tick-Borne_Insect-Specific_and_No_Known_Vector_Flaviviruses.rst>`, to the broader :link-flat:`mosquito-borne flavivirus 3' UTR synthesis <{filename}/blog/2021-09-02-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`, and to studies such as :link-flat:`the Zambia insect-specific flavivirus xrRNA paper <{filename}/blog/2020-09-14-Discoveries-of-Exoribonuclease-Resistant-Structures-of-Insect-Specific-Flaviviruses-Isolated-in-Zambia.rst>`. Those earlier papers established that structured 3' UTRs are central to flavivirus evolution and host interaction. This study adds a new layer by showing that the same region can also dominate mosquito siRNA production in a way that is not simply reducible to sfRNA biogenesis.
 
 For insect-specific flaviviruses, that makes the result especially valuable. These viruses offer a setting in which mosquito-virus interactions can be studied without the vertebrate half of the arbovirus cycle complicating the picture. KRV therefore becomes more than an odd small-RNA outlier. It becomes a model for asking how structured viral RNAs shape, divert, or absorb antiviral RNAi in arthropod hosts.
 

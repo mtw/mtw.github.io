@@ -3,7 +3,7 @@ An African Tick Flavivirus Forming an Independent Clade Exhibits Unique Exoribon
 
 :date: 2021-03-01
 :modified: 2023-11-02
-:tags: novel viruses; xrRNA; flavivirus; virology; RNA structure conservation
+:tags: virus bioinformatics; xrRNA; flavivirus; RNA structure conservation
 :category: publications
 :doi: 10.1099/jgv.0.001991
 :journal: J. Gen. Virol.

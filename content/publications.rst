@@ -392,7 +392,7 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container::  m-col-t-8
 
-      | 37. :link-flat-strong:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <{filename}/blog/2021-09-06-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`
+      | 37. :link-flat-strong:`Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses <{filename}/blog/2021-09-02-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`
       | :ul:`Michael T. Wolfinger`, Roman Ochsenreiter, Ivo L. Hofacker
       | In *Virus Bioinformatics*, edited by Dmitrij Frishman and Manja Marz, pp65–100. Chapman and Hall/CRC Press (2021)
       | :doi:`doi:10.1201/9781003097679-5 <https://doi.org/10.1201/9781003097679-5>` | :label-flat-info:`Book chapter`
@@ -402,7 +402,7 @@ Peer-reviewed journal / conference articles and book chapters
       .. figure:: {static}/files/papers/preview/Preview__Wolfinger-2021.001small.webp
           :alt: Consenus RNA secondary sructures of evolutionary conserved elements in flavivirus 3'UTRs
           :figclass: m-figure m-flat
-          :target: {filename}/blog/2021-09-06-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst
+          :target: {filename}/blog/2021-09-02-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst
 
 
   .. container:: m-row
@@ -502,7 +502,7 @@ Peer-reviewed journal / conference articles and book chapters
   | *RNA Biol.* 16 (5):675–85 (2019)
   | :doi:`doi:10.1080/15476286.2019.1582953 <https://doi.org/10.1080/15476286.2019.1582953>` | :label-flat-info:`Journal article`
 
-  | 26. :link-flat-strong:`Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No Known Vector Flaviviruses <{filename}/blog/2019-03-24-Functional_RNA_Structures_in_the_3UTR_of_Tick-Borne_Insect-Specific_and_No_Known_Vector_Flaviviruses.rst>`
+  | 26. :link-flat-strong:`Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No Known Vector Flaviviruses <{filename}/blog/2019-03-25-Functional_RNA_Structures_in_the_3UTR_of_Tick-Borne_Insect-Specific_and_No_Known_Vector_Flaviviruses.rst>`
   | Roman Ochsenreiter, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`
   | *Viruses* 11:298 (2019)
   | :doi:`doi:10.3390/v11030298 <https://doi.org/10.3390/v11030298>` | :label-flat-info:`Journal article`

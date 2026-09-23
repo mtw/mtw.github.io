@@ -3,7 +3,7 @@ Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Vari
 
 :date: 2021-02-08
 :modified: 2022-10-28
-:tags: virus bioinformatics; molecular epidemiology; alphavirus; virology; RNA structure conservation
+:tags: virus bioinformatics; molecular epidemiology; alphavirus; RNA structure conservation
 :category: publications
 :doi: 10.3390/genes12020239
 :journal: Genes
