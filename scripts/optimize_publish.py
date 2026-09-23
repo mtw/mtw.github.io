@@ -41,11 +41,60 @@ def compact_ldjson(html: str) -> str:
     return LDJSON.sub(repl, html)
 
 
+IMG_TAG = re.compile(r"<img\b[^>]*>", re.I)
+ATTR = re.compile(r"""([a-zA-Z-]+)=(?:"([^"]*)"|'([^']*)'|([^\s>]+))""")
+SITE_PREFIX = "https://michaelwolfinger.com/"
+
+
+def _local_image(output_dir: Path, src: str) -> Path | None:
+    if src.startswith(SITE_PREFIX):
+        src = src[len(SITE_PREFIX):]
+    elif src.startswith("/"):
+        src = src[1:]
+    elif "://" in src or src.startswith("//"):
+        return None
+    path = output_dir / src.split("?", 1)[0]
+    return path if path.is_file() else None
+
+
+def annotate_images(html: str, output_dir: Path) -> str:
+    """Add width/height (no layout shift) and lazy loading to local images.
+
+    The first image of a page is the likeliest above-the-fold candidate and stays eager.
+    """
+    from PIL import Image
+
+    seen = 0
+
+    def repl(m):
+        nonlocal seen
+        tag = m.group(0)
+        attrs = {k.lower(): (a or b or c) for k, a, b, c in ATTR.findall(tag)}
+        seen += 1
+        extra = []
+        path = _local_image(output_dir, attrs.get("src", ""))
+        if path and "width" not in attrs and "height" not in attrs:
+            try:
+                with Image.open(path) as im:
+                    extra.append(f'width="{im.width}" height="{im.height}"')
+            except OSError:
+                pass
+        if seen > 1 and "loading" not in attrs:
+            extra.append('loading="lazy" decoding="async"')
+        if not extra:
+            return tag
+        end = "/>" if tag.endswith("/>") else ">"
+        return tag[: -len(end)].rstrip() + " " + " ".join(extra) + " " + end
+
+
+    return IMG_TAG.sub(repl, html)
+
+
 def minify_html_files(output_dir: Path) -> None:
     for path in output_dir.rglob("*.html"):
         path.write_text(
             minify_html.minify(
-                compact_ldjson(path.read_text(encoding="utf-8")),
+                annotate_images(compact_ldjson(path.read_text(encoding="utf-8")), output_dir),
                 minify_doctype=False,
                 minify_css=True,
                 minify_js=True,
