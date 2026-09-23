@@ -51,6 +51,7 @@ def test_new_sitemap_adds_no_unknown_urls_and_drops_only_hidden_pages(tmp_path):
     assert not dropped, f"URLs dropped from the sitemap: {sorted(dropped)}"
     # Pages added on purpose after the September 2026 snapshot.
     intended_additions = {"https://michaelwolfinger.com/collaborations/",
-                          "https://michaelwolfinger.com/blog/"}   # was missing: INDEX_URL now set
+                          "https://michaelwolfinger.com/blog/",     # was missing: INDEX_URL now set
+                          "https://michaelwolfinger.com/privacy/"}
     added = new - live - intended_additions
     assert not added, f"unexpected new sitemap URLs (fine if intended, then update the fixture): {sorted(added)}"

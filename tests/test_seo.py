@@ -202,6 +202,19 @@ def test_fonts_are_self_hosted(output_dir):
         assert "fonts.gstatic.com" not in page.read_text(encoding="utf-8"), page
 
 
+def test_analytics_are_consent_gated(output_dir):
+    """No Google request before consent: gtag.js is never a static <script src>, the banner
+    and the privacy page exist, and the footer offers a way to change the choice."""
+    for page in output_dir.rglob("*.html"):
+        html = page.read_text(encoding="utf-8")
+        assert not re.search(r"<script[^>]*src=[\"']?https://www\.googletagmanager\.com", html), page
+    home = (output_dir / "index.html").read_text(encoding="utf-8")
+    assert "mtw-consent" in home and 'id=cookie-settings' in home.replace('"', "")
+    assert "#cookie-settings" in home and "/privacy/" in home
+    privacy = (output_dir / "privacy" / "index.html").read_text(encoding="utf-8")
+    assert "Google Analytics" in privacy and "Datenschutzbehörde" in privacy
+
+
 def test_commercial_pages_stay_hidden(output_dir):
     # AGENTS.md: nothing commercial before the December 2026 launch.
     services = (output_dir / "services" / "index.html").read_text(encoding="utf-8")
