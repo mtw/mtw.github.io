@@ -757,3 +757,9 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 .article-body blockquote:has(a.doi,a.m-strong) .m-ul{text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:3px;color:var(--ink)}
 .article-body blockquote:has(a.doi,a.m-strong) em{color:var(--ink)}
 .article-body blockquote:has(a.doi,a.m-strong) a.doi{font-size:.78rem}
+
+/* ---- manuscripts under review: present but secondary to the peer-reviewed list ---- */
+.under-review{font-size:.88rem;line-height:1.5;color:var(--sub);border-left:2px solid var(--border);padding:2px 0 2px 16px;margin:1.4rem 0 2.4rem;max-width:var(--measure)}
+.under-review>p:first-child{font-family:'Archivo',sans-serif;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .6rem}
+.under-review p{margin:0 0 .7rem}
+.under-review .m-ul{text-decoration:underline;text-underline-offset:2px}
