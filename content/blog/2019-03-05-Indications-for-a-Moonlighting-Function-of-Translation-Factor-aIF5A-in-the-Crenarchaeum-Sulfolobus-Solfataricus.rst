@@ -2,7 +2,7 @@ Indications for a moonlighting role of archaeal aIF5A
 #####################################################
 
 :date: 2019-03-05
-:tags: RNA-Protein interaction
+:tags: RNA-protein interaction
 :category: publications
 :doi: 10.1080/15476286.2019.1582953
 :journal: RNA Biol.

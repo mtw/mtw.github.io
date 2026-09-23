@@ -2,7 +2,7 @@ The 3′ terminal region of Zika virus RNA contains a conserved G-quadruplex
 ################################################################################
 
 :date: 2023-10-23
-:tags: virus bioinformatics; RNA-Protein interaction; non-coding RNA; flavivirus; virology
+:tags: virus bioinformatics; RNA-protein interaction; non-coding RNA; flavivirus; virology
 :category: publications
 :doi: 10.1139/bcb-2023-0036
 :journal: Biochem. Cell Biol.

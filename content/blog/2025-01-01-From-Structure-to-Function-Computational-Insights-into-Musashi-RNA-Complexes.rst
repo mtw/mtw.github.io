@@ -3,7 +3,7 @@ From Structure to Function in Musashi-RNA Complexes
 
 :date: 2025-01-01
 :modified: 2026-04-24
-:tags: 3D; RNA-Protein interaction; AI
+:tags: 3D; RNA-protein interaction; AI
 :category: publications
 :doi: 10.2306/scienceasia1513-1874.2025.s013
 :journal: Sci. Asia
@@ -42,7 +42,7 @@ For that reason, the paper is best read as a bridge between atomistic modeling a
 
 The review also reflects a broader change in RNA structural biology. AlphaFold-class models, improved docking strategies, and longer-timescale simulation workflows have made it easier to generate mechanistic hypotheses for RNA-protein complexes, but the hard part remains interpretation. In the Musashi field, the important advance is not simply higher-confidence coordinates. It is the ability to move from static structural models toward more explicit explanations of specificity, competition, and context dependence in RNA recognition.
 
-From my perspective, that is what makes this article worthwhile. It consolidates a line of work spanning Musashi binding to cellular RNAs, structural refinement of Musashi-RNA complexes, and possible links to viral pathogenesis. For readers interested in `RNA-Protein interaction`, `3D` modeling, or the realistic use of `AI` in structural biology, it provides a compact map of the field and a clear rationale for where computation can genuinely add insight.
+From my perspective, that is what makes this article worthwhile. It consolidates a line of work spanning Musashi binding to cellular RNAs, structural refinement of Musashi-RNA complexes, and possible links to viral pathogenesis. For readers interested in `RNA-protein interaction`, `3D` modeling, or the realistic use of `AI` in structural biology, it provides a compact map of the field and a clear rationale for where computation can genuinely add insight.
 
 .. frame:: Abstract
 
