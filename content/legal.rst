@@ -14,7 +14,7 @@ Impressum
    auf rnaforecast.com, dessen Impressum die Unternehmensdaten enthält.
 
 | Medieninhaber: Dr. Michael T. Wolfinger
-| Wohnort: Purkersdorf, Österreich
+| Purkersdorf, Österreich
 | E-Mail: michael.wolfinger@rnaforecast.com
 
 Grundlegende Richtung: persönliche akademische Website mit Informationen über
