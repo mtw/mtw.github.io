@@ -130,6 +130,39 @@ def test_noindex_and_auxiliary_files(output_dir):
     assert (output_dir / "static" / "apple-touch-icon.png").is_file()
 
 
+def _meta(html: str, name: str) -> str | None:
+    m = re.search(r'<meta[^>]*name="?' + name + r'"?[^>]*>', html)
+    if not m:
+        return None
+    c = re.search(r'content="([^"]*)"', m.group(0)) or re.search(r"content=([^\s>]+)", m.group(0))
+    return c.group(1) if c else None
+
+
+def test_titles_and_descriptions(output_dir):
+    titles, descriptions = {}, {}
+    for page in _html_pages(output_dir):
+        html = page.read_text(encoding="utf-8")
+        title = re.search(r"<title>(.*?)</title>", html, re.S).group(1).strip()
+        assert title and title not in titles, f"{page}: duplicate/empty title ({titles.get(title)})"
+        titles[title] = page
+        desc = _meta(html, "description")
+        assert desc and 50 <= len(desc) <= 160, f"{page}: description of {len(desc or '')} chars"
+        assert desc not in descriptions, f"{page}: description duplicates {descriptions.get(desc)}"
+        descriptions[desc] = page
+
+
+def test_figure_images_carry_dimensions_and_lazy_loading(output_dir):
+    checked = 0
+    for post in sorted((output_dir / "blog").glob("20*/*/index.html")):
+        imgs = re.findall(r"<img\b[^>]*>", post.read_text(encoding="utf-8"))
+        if len(imgs) < 2:
+            continue
+        checked += 1
+        assert all("width=" in i and "height=" in i for i in imgs), (post, imgs)
+        assert "loading=lazy" in imgs[-1] and "loading=" not in imgs[0], (post, imgs)
+    assert checked >= 1
+
+
 def test_commercial_pages_stay_hidden(output_dir):
     # AGENTS.md: nothing commercial before the December 2026 launch.
     services = (output_dir / "services" / "index.html").read_text(encoding="utf-8")
