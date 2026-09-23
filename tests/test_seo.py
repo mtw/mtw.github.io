@@ -216,9 +216,10 @@ def test_analytics_are_consent_gated(output_dir):
 
 
 def test_commercial_pages_stay_hidden(output_dir):
-    # AGENTS.md: nothing commercial before the December 2026 launch.
+    # AGENTS.md: a personal academic site with no commercial offer; /services/ is only a redirect.
     services = (output_dir / "services" / "index.html").read_text(encoding="utf-8")
-    assert "noindex" in services
-    assert not (output_dir / "consulting").exists()
+    assert "noindex" in services and "http-equiv=refresh" in services
+    assert not (output_dir / "consulting").exists() and not (output_dir / "services" / "workshops").exists()
+    assert not list(output_dir.glob("content/services*"))
     for page in output_dir.rglob("*.html"):
         assert "hello@rnaforecast.com" not in page.read_text(encoding="utf-8"), page

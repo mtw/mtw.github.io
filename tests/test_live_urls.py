@@ -2,7 +2,7 @@
 
 tests/fixtures/live_sitemap_2026-09.xml is the sitemap taken from the live site in
 September 2026 (108 unique URLs). A URL may legitimately leave the *sitemap* (e.g. the
-services page is a no-index redirect until the business launch), but it must never stop
+former services page is now a no-index redirect), but it must never stop
 producing a file, because the site has a long search history.
 """
 import re

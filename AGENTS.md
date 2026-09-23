@@ -30,4 +30,6 @@ These instructions apply to the whole repository.
 - Stage and commit completed changes by default unless the user explicitly asks not to.
 - Keep changes focused; do not mix unrelated cleanup into the same commit.
 - Never add Claude attribution trailers to commit messages or pull requests.
-- Nothing about commercial services or workshops may be visible before December 2026.
+- This is a personal academic website with no commercial offer, now or later; consulting,
+  workshops and design reviews are published on rnaforecast.com only. `/services/` survives
+  solely as a no-index redirect because the URL is live.
