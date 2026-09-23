@@ -83,22 +83,13 @@ Peer-reviewed journal / conference articles and book chapters
           :alt: Graphical abstract of the 2026 xrRNA Design paper
           :figclass: m-figure m-flat
           :target: {filename}/blog/2026-05-12-Rational-design-of-mechanically-active-RNAs-in-Nucleic-Acids-Research.rst
-
-.. _year2025:
-
-`2025`_
--------
-
-
-.. container:: m-container-inflatable
-
   .. container:: m-row
 
     .. container::  m-col-t-8
 
       | 54. :link-flat-strong:`Identification of conserved RNA regulatory switches in living cells using RNA secondary structure ensemble mapping and covariation analysis <{filename}/blog/2025-06-17-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst>`
       | Ivana Borovská, Chundan Zhang, Sarah-Luisa J. Dülk, Edoardo Morandi, Marta F. S. Cardoso, Billal M. Bourkia, Daphne A. L. van den Homberg, :ul:`Michael T. Wolfinger`, Willem A. Velema, Danny Incarnato
-      | *Nat. Biotechnol.* 44(6):989–1001 (2025)
+      | *Nat. Biotechnol.* 44(6):989–1001 (2026)
       | :doi:`doi:10.1038/s41587-025-02739-0 <https://doi.org/10.1038/s41587-025-02739-0>` | :label-flat-info:`Journal article`
 
     .. container:: m-col-t-4
@@ -107,6 +98,15 @@ Peer-reviewed journal / conference articles and book chapters
           :alt: Ensemble deconvolution and temperature dependencey of RNA structure
           :figclass: m-figure m-flat
           :target: {filename}/blog/2025-06-17-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst
+
+
+.. _year2025:
+
+`2025`_
+-------
+
+
+.. container:: m-container-inflatable
 
   .. container:: m-row
 
