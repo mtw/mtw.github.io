@@ -4,6 +4,7 @@
 {% set _site = SITEURL ~ '/' %}
 {% set _person_id = SITEURL ~ '/#person' %}
 {% set _site_id = SITEURL ~ '/#website' %}
+{% set _org_id = 'https://rnaforecast.com/#organization' %}
 {% set _blog_url = (M_BLOG_URL or (SITEURL ~ '/blog')).rstrip('/') ~ '/' %}
 
 {%- macro person() -%}
@@ -20,9 +21,13 @@
  "address": {"@type": "PostalAddress", "addressLocality": "Vienna", "addressCountry": "AT"},
  "identifier": {"@type": "PropertyValue", "propertyID": "ORCID", "value": "https://orcid.org/0000-0003-0925-5205"},
  "knowsAbout": ["RNA structure", "RNA folding kinetics", "Functional RNA design", "Viral RNA biology", "RNA-protein recognition", "ViennaRNA", "Computational methods"],
- "affiliation": {"@type": "Organization", "name": "RNA Forecast", "url": "https://rnaforecast.com"},
+ "worksFor": {"@id": {{ _org_id|tojson }}},
+ "affiliation": {"@id": {{ _org_id|tojson }}},
+ "knowsLanguage": ["en", "de"],
  "sameAs": [
   "https://rnaforecast.com",
+  "https://twitter.com/mtwolfinger",
+  "https://www.webofscience.com/wos/author/record/N-9538-2014",
   "https://orcid.org/0000-0003-0925-5205",
   "https://scholar.google.at/citations?user=w0PHGnEAAAAJ&hl=en",
   "https://www.scopus.com/authid/detail.uri?authorId=6508361997",
@@ -33,6 +38,15 @@
   "https://bsky.app/profile/mtwolfinger.bsky.social",
   "https://github.com/mtw"
  ]}
+{%- endmacro -%}
+
+{%- macro organization() -%}
+{"@type": "Organization",
+ "@id": {{ _org_id|tojson }},
+ "name": "RNA Forecast",
+ "url": "https://rnaforecast.com",
+ "founder": {"@id": {{ _person_id|tojson }}},
+ "address": {"@type": "PostalAddress", "addressLocality": "Vienna", "addressCountry": "AT"}}
 {%- endmacro -%}
 
 {%- macro website() -%}
@@ -56,8 +70,20 @@
  "sameAs": {{ doi_url|tojson }},
  "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": {{ article.doi|tojson }}},
  "headline": {{ article.title|striptags|tojson }},
+ {%- if article.paper_authors %}
+ "author": [
+ {%- for name in (article.paper_authors|replace(' and ', ', ')).split(', ') %}
+  {%- set name = name.strip(' ,') %}{% if name %}
+  {% if name.replace('T.', 'T').startswith('Michael T Wolfinger') %}{"@id": {{ _person_id|tojson }}}{% else %}{"@type": "Person", "name": {{ name|tojson }}}{% endif %}{% if not loop.last %},{% endif %}
+  {%- endif %}{% endfor %}
+ ],
+ {%- else %}
  "author": {"@id": {{ _person_id|tojson }}},
- "datePublished": {{ article.date.strftime('%Y-%m-%d')|tojson }},
+ {%- endif %}
+ {%- if article.journal %}
+ "isPartOf": {"@type": "Periodical", "name": {{ article.journal|tojson }}},
+ {%- endif %}
+ "datePublished": {{ (article.year or article.date.strftime('%Y'))|string|tojson }},
  "subjectOf": {"@id": {{ (SITEURL ~ '/' ~ article.url)|tojson }}}}
 {%- endmacro -%}
 
@@ -76,11 +102,13 @@
 {% set is_home = page.save_as == 'index.html' %}
 {% set is_about = page.slug == 'about' %}
 {% set is_publications = page.slug == 'publications' %}
+{% set events = page.events if page.events is defined else [] %}
 {% set papers = articles|selectattr('doi', 'defined')|selectattr('category.name', 'equalto', 'publications')|list %}
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@graph": [
  {{ website() }},
  {{ person() }},
+ {{ organization() }},
  {"@type": {% if is_home %}["WebPage", "CollectionPage"]{% elif is_about %}["WebPage", "ProfilePage"]{% else %}"WebPage"{% endif %},
   "@id": {{ url|tojson }},
   "url": {{ url|tojson }},
@@ -92,6 +120,7 @@
   "about": {"@id": {{ _person_id|tojson }}},
   {% if is_about %}"mainEntity": {"@id": {{ _person_id|tojson }}},{% endif %}
   {% if is_publications %}"mainEntity": {"@id": {{ (url ~ '#papers')|tojson }}},{% endif %}
+  {% if events %}"mainEntity": {"@id": {{ (url ~ '#events')|tojson }}},{% endif %}
   "author": {"@id": {{ _person_id|tojson }}},
   "primaryImageOfPage": {"@type": "ImageObject", "url": {{ (M_SOCIAL_IMAGE|format_siteurl)|tojson }}}
   {%- if page.date %}, "datePublished": {{ page.date.isoformat()|tojson }}{% endif %}
@@ -108,6 +137,30 @@
    {"@type": "ListItem", "position": {{ loop.index }}, "item": {{ scholarly(paper) }}}{% if not loop.last %},{% endif %}
   {%- endfor %}
   ]}{% endif %}
+ {%- if events %},
+ {"@type": "ItemList",
+  "@id": {{ (url ~ '#events')|tojson }},
+  "name": {{ (page.hero_title or page.title)|striptags|tojson }},
+  "numberOfItems": {{ events|length }},
+  "itemListElement": [
+  {%- for ev in events %}
+   {"@type": "ListItem", "position": {{ loop.index }}, "item":
+    {"@type": "Event",
+     "name": {{ ev.name|tojson }},
+     "description": {{ ((ev.label or ('Poster' if ev.kind == 'poster' else 'Talk')) ~ ' at the ' ~ ev.venue)|tojson }},
+     "startDate": {{ ev.date|tojson }},
+     "eventStatus": "https://schema.org/EventScheduled",
+     "location": {"@type": "Place", "name": {{ ev.venue|tojson }}, "address": {{ ev.place|tojson }}},
+     "performer": {"@id": {{ _person_id|tojson }}},
+     "organizer": {"@type": "Organization", "name": {{ ev.venue|tojson }}}
+     {%- if ev.pdf or ev.doi %},
+     "workFeatured": {"@type": "PresentationDigitalDocument", "name": {{ ev.name|tojson }}, "author": {"@id": {{ _person_id|tojson }}}
+      {%- if ev.pdf %}, "url": {{ (ev.pdf|format_siteurl)|tojson }}{% endif %}
+      {%- if ev.doi %}, "sameAs": {{ ('https://doi.org/' ~ ev.doi)|tojson }}, "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": {{ ev.doi|tojson }}}{% endif %}}
+     {%- endif %}}
+   }{% if not loop.last %},{% endif %}
+  {%- endfor %}
+  ]}{% endif %}
 ]}
 </script>
 {%- endmacro -%}
@@ -118,11 +171,12 @@
 {% set desc = (article.description or article.summary or '')|dehyphenate|striptags|trim %}
 {% set blog_url = _blog_url %}
 {#- Without a per-post cover, offer the wide and the square site card (Google asks for several aspect ratios). -#}
-{% if article.cover %}{% set image = article.cover|expand_link(article) %}{% else %}{% set image = [M_SOCIAL_IMAGE|format_siteurl, '/static/og-square-1200x1200.png'|format_siteurl] %}{% endif %}
+{% if article.cover %}{% set image = article.cover|expand_link(article) %}{% else %}{% set image = [M_SOCIAL_IMAGE|format_siteurl, '/static/og-4x3-1200x900.png'|format_siteurl, '/static/og-square-1200x1200.png'|format_siteurl] %}{% endif %}
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@graph": [
  {{ website() }},
  {{ person() }},
+ {{ organization() }},
  {"@type": "BlogPosting",
   "@id": {{ url|tojson }},
   "url": {{ url|tojson }},
@@ -155,6 +209,7 @@
 {"@context": "https://schema.org", "@graph": [
  {{ website() }},
  {{ person() }},
+ {{ organization() }},
  {"@type": {% if is_blog_root %}["Blog", "CollectionPage"]{% else %}"CollectionPage"{% endif %},
   "@id": {{ url|tojson }},
   "url": {{ url|tojson }},

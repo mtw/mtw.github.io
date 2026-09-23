@@ -42,6 +42,7 @@
   <meta property="article:published_time" content="{{ article.date.isoformat() }}" />
   <meta property="article:modified_time" content="{{ (article.modified.isoformat() if article.modified else article.date.isoformat()) }}" />
   <meta property="article:author" content="{{ SITEURL }}/about/" />
+  {% if M_SOCIAL_TWITTER_SITE %}<meta name="twitter:creator" content="{{ M_SOCIAL_TWITTER_SITE }}" />{% endif %}
   {% if article.category %}<meta property="article:section" content="{{ article.category|e }}" />{% endif %}
   {% for tag in article.tags %}<meta property="article:tag" content="{{ tag|e }}" />
   {% endfor %}
