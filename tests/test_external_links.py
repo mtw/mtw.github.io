@@ -18,7 +18,8 @@ from tests.site_test_utils import build_site
 
 pytestmark = pytest.mark.skipif(not os.environ.get("CHECK_EXTERNAL_LINKS"), reason="set CHECK_EXTERNAL_LINKS=1")
 SITE_HOSTS = {"michaelwolfinger.com", "www.michaelwolfinger.com"}
-UA = "Mozilla/5.0 (compatible; michaelwolfinger.com link check)"
+# A browser-like UA: single-page apps (Bluesky, Loop) answer 404 to anything else.
+UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
 
 
 def _fetch(url):
