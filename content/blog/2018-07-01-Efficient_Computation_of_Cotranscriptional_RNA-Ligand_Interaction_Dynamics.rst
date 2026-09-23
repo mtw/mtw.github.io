@@ -2,7 +2,6 @@ Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics
 ##########################################################################
 
 :date: 2018-07-01
-:modified: 2026-04-24
 :tags: energy landscapes; new method; RNA folding kinetics; ViennaRNA; synthetic biology; co-transcriptional RNA folding
 :category: publications
 :doi: 10.1021/jacs.6b10429

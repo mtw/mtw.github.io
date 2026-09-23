@@ -2,7 +2,6 @@ RNA-Protein Complex Refinement using AI Modeling and Docking
 ############################################################
 
 :date: 2023-06-09
-:modified: 2026-04-23
 :tags: new method; 3D; RNA-Protein interaction; AI
 :category: publications
 :doi: 10.1038/s41598-022-16252-w

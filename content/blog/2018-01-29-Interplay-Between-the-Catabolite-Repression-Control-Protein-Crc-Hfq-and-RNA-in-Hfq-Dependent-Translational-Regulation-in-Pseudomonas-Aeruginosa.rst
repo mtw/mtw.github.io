@@ -2,7 +2,6 @@ Interplay Between the Catabolite Repression Control Protein Crc, Hfq and RNA in 
 #######################################################################################################################################################################
 
 :date: 2018-01-29
-:modified: 2026-04-29
 :tags: bacteria; non-coding RNA
 :category: publications
 :doi: 10.1093/nar/gkx1245

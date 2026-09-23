@@ -2,7 +2,6 @@ ViennaNGS: A toolbox for building efficient next-generation sequencing analysis 
 #########################################################################################
 
 :date: 2015-03-02
-:modified: 2026-04-24
 :tags: NGS; tools
 :category: publications
 :doi: 10.12688/f1000research.6157.2

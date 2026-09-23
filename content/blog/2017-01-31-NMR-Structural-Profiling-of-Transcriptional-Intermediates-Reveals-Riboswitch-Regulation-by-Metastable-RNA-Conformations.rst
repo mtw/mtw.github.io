@@ -2,7 +2,6 @@ NMR Structural Profiling of Transcriptional Intermediates Reveals Riboswitch Reg
 #######################################################################################################################
 
 :date: 2017-01-31
-:modified: 2026-04-24
 :tags: bacteria; energy landscapes; synthetic biology; co-transcriptional RNA folding
 :category: publications
 :doi: 10.1021/jacs.6b10429

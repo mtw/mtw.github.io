@@ -2,7 +2,6 @@ BarMap: RNA Folding on Dynamic Energy Landscapes
 ################################################
 
 :date: 2010-07-01
-:modified: 2026-04-24
 :tags: co-transcriptional RNA folding; RNA folding kinetics; energy landscapes
 :category: publications
 :doi: 10.1261/rna.2093310

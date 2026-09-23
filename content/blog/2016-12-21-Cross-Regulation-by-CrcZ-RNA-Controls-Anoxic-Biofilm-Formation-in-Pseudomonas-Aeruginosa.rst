@@ -2,7 +2,6 @@ Cross-Regulation by CrcZ RNA Controls Anoxic Biofilm Formation in Pseudomonas Ae
 ########################################################################################
 
 :date: 2016-12-21
-:modified: 2026-04-29
 :tags: bacteria; non-coding RNA
 :category: publications
 :doi: 10.1038/srep39621

@@ -2,7 +2,6 @@ Distinctive Regulation of Carbapenem Susceptibility in Pseudomonas Aeruginosa by
 ####################################################################################
 
 :date: 2020-05-26
-:modified: 2026-04-24
 :tags: bacteria; One Health
 :category: publications
 :doi: 10.3389/fmicb.2020.01001

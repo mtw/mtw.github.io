@@ -2,7 +2,6 @@ Harnessing Metabolic Regulation to Increase Hfq-Dependent Antibiotic Susceptibil
 #############################################################################################################
 
 :date: 2018-11-09
-:modified: 2026-04-24
 :tags: bacteria; One Health
 :category: publications
 :doi: 10.3389/fmicb.2018.02709

@@ -2,7 +2,6 @@ RNA–RNA interaction analysis of Japanese encephalitis virus
 ###########################################################
 
 :date: 2023-03-31
-:modified: 2026-04-23
 :tags: RNA-RNA interaction; non-coding RNA; virus bioinformatics; 3D; flavivirus
 :category: publications
 :doi: 10.1093/nar/gkad223

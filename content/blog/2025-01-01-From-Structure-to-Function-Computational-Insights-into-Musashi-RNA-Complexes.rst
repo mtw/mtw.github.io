@@ -9,7 +9,7 @@ From Structure to Function in Musashi-RNA Complexes
 :slug: From-Structure-to-Function-Computational-Insights-into-Musashi-RNA-Complexes
 :summary: This review article surveys how computational modeling, molecular dynamics, and AI-derived structures help explain Musashi-RNA recognition in both cellular regulation and viral pathogenesis.
 :title: From structure to function in Musashi-RNA complexes
-:description: A review of computational work on Musashi-RNA complexes, covering binding specificity, structural modeling, viral RNA interactions, and the functional implications of Musashi-mediated recognition.
+:description: Review of computational work on Musashi-RNA complexes: binding specificity, structural modeling, viral RNA interactions, and functional implications.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
