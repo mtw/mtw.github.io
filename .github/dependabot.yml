@@ -1,12 +1,26 @@
+# Weekly dependency updates, one grouped pull request per ecosystem.
+# Minor and patch bumps that pass the build are merged automatically
+# (.github/workflows/dependabot-auto-merge.yml); majors wait for a human.
 version: 2
 updates:
-  - package-ecosystem: pip
-    directory: "/"
-    schedule:
-      interval: weekly
-    open-pull-requests-limit: 5
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
       interval: weekly
-    open-pull-requests-limit: 5
+    groups:
+      actions:
+        patterns: ["*"]
+  - package-ecosystem: pip
+    directory: "/"
+    schedule:
+      interval: weekly
+    groups:
+      python:
+        patterns: ["*"]
+        update-types: ["minor", "patch"]
+    ignore:
+      # Pelican and docutils majors change templates and rst rendering; review by hand.
+      - dependency-name: pelican
+        update-types: ["version-update:semver-major"]
+      - dependency-name: docutils
+        update-types: ["version-update:semver-major"]
