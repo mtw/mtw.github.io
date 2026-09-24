@@ -77,3 +77,15 @@ STATUSES = {"published", "draft", "hidden", "skip"}
 def test_status_values_are_known(source):
     status = _fields(source).get("status")
     assert status is None or status in STATUSES, f"{source.name}: unknown :status: {status!r}"
+
+
+@pytest.mark.parametrize("post", [p for p in _posts() if _fields(p).get("doi")], ids=lambda p: p.name)
+def test_doi_belongs_to_the_posts_own_citation(post):
+    """The :doi: feeds the ScholarlyArticle node; it must be the paper's own DOI, i.e. appear in
+    the block under the post's 'Citation' heading (not in a related-papers list)."""
+    text = post.read_text(encoding="utf-8")
+    doi = _fields(post)["doi"]
+    # the block ends at the next section heading (a line underlined with = or -) or at the end
+    match = re.search(r"^Citation\n=+\n(.*?)(?=\n[^\n]+\n[=-]{3,}\n|\Z)", text, re.M | re.S)
+    assert match, f"{post.name}: no Citation section"
+    assert doi in match.group(1), f"{post.name}: :doi: {doi} is not in the Citation block"
