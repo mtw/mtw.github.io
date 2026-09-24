@@ -4,10 +4,10 @@ Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics
 :date: 2018-07-01
 :tags: energy landscapes; new method; RNA folding kinetics; ViennaRNA; synthetic biology; co-transcriptional RNA folding
 :category: publications
-:doi: 10.1021/jacs.6b10429
-:journal: J. Am. Chem. Soc.
-:year: 2017
-:paper_authors: Christina Helmling, Anna Wacker, Michael T. Wolfinger, Ivo L. Hofacker, Martin Hengsbach, Boris Fürtig, Harald Schwalbe
+:doi: 10.1016/j.ymeth.2018.04.036
+:journal: Methods
+:year: 2018
+:paper_authors: Michael T. Wolfinger, Christoph Flamm, Ivo L. Hofacker
 :slug: Efficient-Computation-of-Cotranscriptional-RNA-Ligand-Interaction-Dynamics
 :summary: A landscape-based method for modeling how cotranscriptional folding and ligand binding interact in kinetically controlled riboswitches, illustrated with the 2'dG riboswitch from Mesoplasma florum.
 :title: Co-transcriptional riboswitch modeling with ViennaRNA

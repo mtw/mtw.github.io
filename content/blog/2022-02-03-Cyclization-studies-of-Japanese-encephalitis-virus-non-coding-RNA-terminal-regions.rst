@@ -5,10 +5,10 @@ Cyclization studies of Japanese encephalitis virus non-coding RNA terminal regio
 :modified: 2023-04-09
 :tags: RNA-RNA interaction; non-coding RNA; 3D; flavivirus; virus bioinformatics
 :category: publications
-:doi: 10.1093/nar/gkad223
-:journal: Nucleic Acids Res.
-:year: 2023
-:paper_authors: Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke De Klerk, Borries Demeler, Ivo L. Hofacker, Michael T. Wolfinger, Trushar R. Patel
+:doi: 10.1101/2022.02.01.478553
+:journal: bioRxiv
+:year: 2022
+:paper_authors: Tyler Mrozowich, Sean M. Park, Maria Waldl, Amy Henrickson, Corey R. Nelson, Borries Demeler, Ivo L. Hofacker, Michael T. Wolfinger, Trushar R. Patel
 :slug: Cyclization-studies-of-Japanese-encephalitis-virus-non-coding-RNA-terminal-regions
 :title: Japanese encephalitis virus genome cyclization is kinetically driven
 :description: Biophysical and bioinformatic analysis of the long-range RNA-RNA interaction between the terminal regions of Japanese encephalitis virus.

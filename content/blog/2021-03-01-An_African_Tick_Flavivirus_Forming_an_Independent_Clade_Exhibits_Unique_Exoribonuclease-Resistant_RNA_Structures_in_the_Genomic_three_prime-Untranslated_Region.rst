@@ -5,10 +5,10 @@ An African Tick Flavivirus Forming an Independent Clade Exhibits Unique Exoribon
 :modified: 2023-11-02
 :tags: virus bioinformatics; xrRNA; flavivirus; RNA structure conservation
 :category: publications
-:doi: 10.1099/jgv.0.001991
-:journal: J. Gen. Virol.
-:year: 2024
-:paper_authors: Lan-Lan Wang, Qia Cheng, Natalee D. Newton, Michael T. Wolfinger, Mahali S. Morgan, Andrii Slonchak, Alexander A. Khromykh, Tian-Yin Cheng, Rhys H. Parry
+:doi: 10.1038/s41598-021-84365-9
+:journal: Sci. Rep.
+:year: 2021
+:paper_authors: Hayato Harima, Yasuko Orba, Shiho Torii, Yongjin Qiu, Masahiro Kajihara, Yoshiki Eto, Naoya Matsuta, Bernard M. Hang’ombe, Yuki Eshita, Kentaro Uemura, Keita Matsuno, Michihito Sasaki, Kentaro Yoshii, Ryo Nakao, William W. Hall, Ayato Takada, Takashi Abe, Michael T. Wolfinger, Martin Simuunza, Hirofumi Sawa
 :slug: Mpulungu_Virus_is_a_novel_tick_flavivirus_from_Africa
 :title: Mpulungu virus and unique xrRNAs in a novel African tick flavivirus
 :summary: This study describes Mpulungu virus, a novel African tick flavivirus, and characterizes unusual exoribonuclease-resistant RNA structures in its 3' UTR.

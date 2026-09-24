@@ -87,7 +87,7 @@
  "isPartOf": {"@type": "Periodical", "name": {{ article.journal|tojson }}},
  {%- endif %}
  "datePublished": {{ (article.year or article.date.strftime('%Y'))|string|tojson }},
- "subjectOf": {"@id": {{ (SITEURL ~ '/' ~ article.url)|tojson }}}}
+ "subjectOf": {"@id": {{ (SITEURL ~ '/' ~ article.url ~ '#article')|tojson }}}}
 {%- endmacro -%}
 
 {%- macro breadcrumbs(items) -%}
@@ -181,7 +181,7 @@
  {{ person() }},
  {{ organization() }},
  {"@type": "BlogPosting",
-  "@id": {{ url|tojson }},
+  "@id": {{ (url ~ '#article')|tojson }},
   "url": {{ url|tojson }},
   "mainEntityOfPage": {"@type": "WebPage", "@id": {{ url|tojson }}},
   "headline": {{ article.title|striptags|tojson }},
