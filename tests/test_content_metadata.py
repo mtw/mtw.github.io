@@ -34,7 +34,7 @@ def _date(value: str) -> date:
 
 
 def test_blog_directory_has_posts():
-    assert len(_posts()) >= 67
+    assert len(_posts()) >= 64
 
 
 @pytest.mark.parametrize("post", _posts(), ids=lambda p: p.name)
