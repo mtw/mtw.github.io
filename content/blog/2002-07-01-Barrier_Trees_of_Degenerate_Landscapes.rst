@@ -10,8 +10,8 @@ Barrier Trees of Degenerate Landscapes
 :paper_authors: Christoph Flamm, Ivo L. Hofacker, Peter F. Stadler, Michael T. Wolfinger
 :slug: Barrier-Trees-of-Degenerate-Landscapes
 :summary: This paper develops the barrier-tree formalism for degenerate landscapes and helped establish a general language for analyzing basins, saddle points, and transition barriers in complex discrete systems.
-:title: Barrier Trees of Degenerate Landscapes
-:description: A foundational paper on barrier trees for degenerate landscapes and on the barriers software for coarse-grained energy-landscape analysis.
+:title: Barrier trees: mapping minima, saddles and basins of energy landscapes
+:description: Barrier trees and the barriers program: how local minima, saddle points and basins of a degenerate energy landscape become an interpretable hierarchy.
 
 
 .. role:: link-flat-strong(link)
@@ -25,6 +25,8 @@ Barrier Trees of Degenerate Landscapes
 
 .. role:: doi(link)
   :class: doi
+
+**In short:** a barrier tree summarises a rugged landscape: leaves are local minima, internal nodes the lowest saddle points connecting them, branch lengths the barrier heights. The 2002 paper extends the formalism to degenerate landscapes, in which many states share the same energy, and implements it in the ``barriers`` program that later coarse-grained RNA folding kinetics (BarMap and others) build on.
 
 This is one of the earliest papers in the landscape-analysis thread that later became central to my work on RNA folding kinetics. It is also one of the most mathematical. But the reason it became widely cited is actually quite practical: it gave people a compact and rigorous way to describe the large-scale topology of complex discrete landscapes.
 

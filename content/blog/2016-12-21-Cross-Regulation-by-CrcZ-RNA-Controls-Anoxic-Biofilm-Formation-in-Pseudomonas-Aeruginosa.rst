@@ -31,6 +31,8 @@ Cross-Regulation by CrcZ RNA Controls Anoxic Biofilm Formation in Pseudomonas Ae
           :alt: CrcZ levels modulate viable biomass in anoxic Pseudomonas aeruginosa biofilms
           :figclass: m-figure m-flat
 
+**CrcZ** is a small regulatory RNA of *Pseudomonas aeruginosa* that acts as a decoy for the RNA chaperone Hfq: when carbon catabolite repression is relieved, abundant CrcZ sequesters Hfq and releases the mRNAs that Hfq would otherwise repress. This paper shows that the same decoy function limits biofilm formation under anoxic conditions.
+
 This paper is the point where the `CrcZ` story starts to expand beyond carbon metabolism. `CrcZ` was already known as the decoy RNA that sequesters `Hfq` when carbon catabolite repression is relieved, thereby allowing expression of genes needed for the use of less preferred carbon sources. What this study asks is whether that same competition for `Hfq` can spill over into a completely different physiological process: formation of anaerobic biofilms by *Pseudomonas aeruginosa* under cystic-fibrosis-like conditions.
 
 That question turns out to be well chosen. The paper shows that `CrcZ` is by far the most abundant `Hfq`-bound regulatory RNA in PA14 anoxic biofilms grown in synthetic cystic fibrosis sputum medium. Since `Hfq` itself proves to be important for anaerobic biofilm formation, this immediately suggests a potential cross-regulatory mechanism. If `CrcZ` soaks up a substantial fraction of `Hfq` under these conditions, then it may indirectly reshape a broad set of `Hfq`-dependent processes that have nothing to do with carbon uptake in the narrow sense.

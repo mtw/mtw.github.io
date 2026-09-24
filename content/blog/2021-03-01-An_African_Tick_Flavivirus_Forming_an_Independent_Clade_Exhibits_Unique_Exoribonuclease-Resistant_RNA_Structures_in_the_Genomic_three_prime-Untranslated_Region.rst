@@ -33,6 +33,8 @@ An African Tick Flavivirus Forming an Independent Clade Exhibits Unique Exoribon
         :alt: Exoribonuclease-resistant RNAs (xrRNAs) in the 3'UTR of Mpulungu virus
         :figclass: m-figure m-flat
 
+**Mpulungu virus (MPFV)** is a flavivirus recovered from a *Rhipicephalus* tick in Zambia. It groups with Ngoye virus in a lineage separate from the established tick-borne flaviviruses, and its 3′UTR contains two exoribonuclease-resistant RNA (xrRNA) elements that were confirmed biochemically to stall Xrn1.
+
 Mpulungu virus became important because it did not fit comfortably into the usual picture of tick-borne flaviviruses. The genome recovered from a *Rhipicephalus* tick in Zambia grouped with Ngoye virus from Senegal, defining an unusual African lineage that sat apart from the better known vertebrate-associated tick-borne flaviviruses. At the time, that alone made the paper notable. It expanded the geographic and phylogenetic range of the group and suggested that the ecological diversity of tick-associated flaviviruses had been underestimated.
 
 What gives the paper lasting value is the structural analysis of the untranslated regions. The 5' end of MPFV still looks recognizably flaviviral, but the 3' UTR is where the more interesting divergence appears. Instead of treating the non-coding region as an unusual sequence tail, the paper asks which structured RNA elements are preserved there and whether they remain functionally competent despite the lineage's broader divergence.

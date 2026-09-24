@@ -10,8 +10,8 @@ Theoretical studies on RNA recognition by Musashi 1 RNA-binding protein
 :paper_authors: Nitchakan Darai, Panupong Mahalapbutr, Peter Wolschann, Vannajan Sanghiran Lee, Michael T. Wolfinger, Thanyada Rungrotmongkol
 :slug: Theoretical-studies-on-RNA-recognition-by-Musashi1-RNA-binding-protein
 :summary: Molecular dynamics and binding-energy calculations are used here to compare how Musashi-1 recognizes different RNA motifs and to identify determinants of binding specificity.
-:title: RNA recognition by Musashi-1
-:description: Computational analysis of Musashi-1 RNA recognition using molecular dynamics simulations and binding-energy calculations.
+:title: How Musashi-1 recognizes RNA: molecular dynamics of RBD1 and RBD2 binding
+:description: Molecular dynamics and binding-energy calculations show how Musashi-1's two RNA-binding domains discriminate between closely related UAG-containing motifs.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -32,6 +32,8 @@ Theoretical studies on RNA recognition by Musashi 1 RNA-binding protein
           :figclass: m-figure m-flat
 
 
+
+**In short:** Musashi-1 binds short single-stranded UAG-containing motifs through two RNA-binding domains. Molecular dynamics and binding-energy calculations show that recognition is selective even among near-identical pentamers and identify the contacts responsible — a mechanistic basis for MSI1's role in post-transcriptional regulation and for its interaction with the Zika virus genome.
 
 Musashi-1 (MSI1) is an RNA-binding protein involved in stem-cell maintenance, neural development, and post-transcriptional regulation. It also became particularly interesting in the context of Zika virus biology, because Musashi proteins were proposed to interact with viral RNAs in ways that could affect replication and neuropathology. That makes the underlying recognition problem more than a narrow structural question. Understanding how Musashi binds RNA is relevant both for endogenous regulation and for virus-host interaction studies.
 

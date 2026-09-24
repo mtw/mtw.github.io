@@ -10,8 +10,8 @@ SHAPE directed RNA folding
 :paper_authors: Ronny Lorenz, Dominik Luntzer, Ivo L. Hofacker, Peter F. Stadler, Michael T. Wolfinger
 :slug: SHAPE-directed-RNA-folding
 :summary: This paper shows how SHAPE-guided RNA folding is implemented in the ViennaRNA Package, comparing three widely used strategies for turning nucleotide reactivities into soft constraints that improve thermodynamic structure prediction.
-:title: SHAPE directed RNA folding with the ViennaRNA Package
-:description: How SHAPE probing data can be integrated into ViennaRNA to improve RNA secondary structure prediction without abandoning thermodynamic models.
+:title: SHAPE-directed RNA folding with ViennaRNA: reactivities as soft constraints
+:description: How SHAPE reactivities enter ViennaRNA folding as soft constraints: the Deigan, Zarringhalam and Washietl methods compared, and what they can and cannot fix.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -30,6 +30,8 @@ SHAPE directed RNA folding
    .. figure:: {static}/files/figures/deigan_method.webp
           :alt: Deigan method adjusts the energetics of stacked base pairs
           :figclass: m-figure m-flat
+
+**In short:** ViennaRNA folds with SHAPE data through soft constraints: ``RNAfold --shape reactivities.dat`` with ``--shapeMethod=D``, ``Z`` or ``W`` selects the Deigan, Zarringhalam or Washietl conversion of reactivities into pseudo-energies. The data adjust the energy model rather than fix base pairs, so probing improves predictions where the thermodynamic model is uncertain and leaves the interpretation of the ensemble to you.
 
 This paper sits at a practical intersection. One has a sequence,
 probing data, and the need to combine both in a single folding model.
