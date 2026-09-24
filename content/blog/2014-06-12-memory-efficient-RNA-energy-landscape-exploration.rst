@@ -4,10 +4,10 @@ Memory-efficient-RNA-energy-landscape-exploration
 :date: 2014-06-12
 :tags: energy landscapes; new method; tools
 :category: publications
-:doi: 10.1524/zpch.2002.216.2.155
-:journal: Z. Phys. Chem.
-:year: 2002
-:paper_authors: Christoph Flamm, Ivo L. Hofacker, Peter F. Stadler, Michael T. Wolfinger
+:doi: 10.1093/bioinformatics/btu337
+:journal: Bioinformatics
+:year: 2014
+:paper_authors: Martin Mann, Marcel Kucharík, Christoph Flamm, Michael T. Wolfinger
 :slug: Memory-efficient-RNA-energy-landscape-exploration
 :summary: This paper revisits the earlier flooding-based landscape methods and adapts them to RNA secondary structures with a local, memory-efficient enumeration strategy.
 :description: A local flooding variant for memory-efficient exploration of RNA energy landscapes, building on the earlier barrier-tree and low-energy landscape work.

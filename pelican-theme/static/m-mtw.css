@@ -127,7 +127,7 @@ article>.m-container{padding-top:3.2rem;padding-bottom:3.2rem}
 .blog-item{display:grid;grid-template-columns:150px 1fr 120px;gap:32px;align-items:baseline;padding:24px 0;border-top:1px solid var(--border)}
 .blog-item .b-date, .blog-featured .b-date{font-size:.82rem;color:var(--muted);font-variant-numeric:tabular-nums}
 .blog-item .b-cat{font-family:'Archivo',sans-serif;font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-top:6px}
-.blog-item h3{font-size:1.35rem;font-weight:600;margin:0 0 .4rem}
+.blog-item h3,.blog-item .b-title{font-size:1.35rem;font-weight:600;margin:0 0 .4rem}
 .blog-item .b-summary{font-size:.92rem;color:var(--sub);margin:0}
 .blog-item .b-read{font-size:.82rem;color:var(--muted);text-align:right}
 

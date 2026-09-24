@@ -149,6 +149,8 @@
     {% endfor %}
     {% endif %}
     {% elif _rest %}
+    {#- paged copies have no featured h2, so their items are h2 to keep the outline intact -#}
+    {% set _h = 'h3' if featured is defined else 'h2' %}
     <div class="sec-label" style="margin:2rem 0 0">All posts</div>
     {% for article in _rest %}
     <a class="blog-item" href="{{ article.url|format_siteurl|e }}">
@@ -157,7 +159,7 @@
         {% if article.category %}<div class="b-cat">{{ (M_CATEGORY_LABELS or {}).get(article.category.name, article.category|string)|e }}</div>{% endif %}
       </div>
       <div>
-        <h3>{{ article.title }}</h3>
+        <{{ _h }} class="b-title">{{ article.title }}</{{ _h }}>
         {% if article.summary %}<p class="b-summary">{{ article.summary|striptags|truncate(220)|e }}</p>{% endif %}
       </div>
       <div class="b-read">{% if article.status == 'draft' %}<span class="m-label m-dim">draft</span> {% endif %}Read &rarr;</div>
