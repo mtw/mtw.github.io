@@ -61,7 +61,8 @@ def test_every_page_has_valid_jsonld_with_one_person(output_dir):
 
 
 def test_paper_posts_carry_scholarly_article_with_doi(output_dir):
-    posts = sorted((output_dir / "blog").glob("20*/*/index.html"))
+    posts = [p for p in sorted((output_dir / "blog").glob("20*/*/index.html"))
+             if "http-equiv=refresh" not in p.read_text(encoding="utf-8")]   # not the redirect stubs
     assert posts
     with_doi = 0
     for post in posts:
@@ -215,11 +216,30 @@ def test_analytics_are_consent_gated(output_dir):
     assert "Google Analytics" in privacy and "Datenschutzbehörde" in privacy
 
 
+def test_redirects_exist_and_point_at_live_targets(output_dir):
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("pelicanconf", Path(__file__).resolve().parents[1] / "pelicanconf.py")
+    conf = importlib.util.module_from_spec(spec); spec.loader.exec_module(conf)
+    assert len(conf.REDIRECTS) >= 30
+    for old, target in conf.REDIRECTS.items():
+        stub = output_dir / old.lstrip("/")
+        stub = stub / "index.html" if old.endswith("/") else stub
+        html = stub.read_text(encoding="utf-8")
+        assert "noindex" in html and "http-equiv=refresh" in html, old
+        if target.startswith("/"):
+            t = output_dir / target.lstrip("/")
+            t = t / "index.html" if target.endswith("/") else t
+            assert t.is_file(), f"{old} -> {target} does not exist"
+            assert SITEURL + target in html, old
+        else:
+            assert target in html, old
+
+
 def test_commercial_pages_stay_hidden(output_dir):
     # AGENTS.md: a personal academic site with no commercial offer; /services/ is only a redirect.
-    services = (output_dir / "services" / "index.html").read_text(encoding="utf-8")
-    assert "noindex" in services and "http-equiv=refresh" in services
-    assert not (output_dir / "consulting").exists() and not (output_dir / "services" / "workshops").exists()
-    assert not list(output_dir.glob("content/services*"))
+    for old_page in ("services", "services/workshops", "consulting"):
+        stub = (output_dir / old_page / "index.html").read_text(encoding="utf-8")
+        assert "noindex" in stub and "http-equiv=refresh" in stub and "rnaforecast.com" in stub, old_page
+        assert "hello@" not in stub and len(stub) < 1000, old_page   # a bare redirect, no content
     for page in output_dir.rglob("*.html"):
         assert "hello@rnaforecast.com" not in page.read_text(encoding="utf-8"), page

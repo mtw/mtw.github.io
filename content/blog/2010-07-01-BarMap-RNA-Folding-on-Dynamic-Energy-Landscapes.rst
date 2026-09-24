@@ -25,6 +25,8 @@ BarMap: RNA Folding on Dynamic Energy Landscapes
 .. role:: doi(link)
   :class: doi
 
+**BarMap** computes RNA folding kinetics on energy landscapes that change over time, for example while the molecule is being transcribed, by mapping the barrier trees of successive landscapes onto one another and propagating the population from one to the next.
+
 RNA folding rarely happens on a fixed energy landscape. During transcription, degradation, ligand binding, or temperature shifts, the available structure space changes over time, and with it the kinetic pathways. This paper addresses exactly that nonstationary setting by extending landscape-based RNA kinetics from a single static landscape to a sequence of related landscapes connected through time.
 
 The central idea of BarMap is to treat each time point or perturbation step as a snapshot landscape with its own macrostates, and then define a mapping between neighboring snapshots. Population densities can then be transferred from one coarse-grained landscape to the next instead of starting the kinetics calculation from scratch each time. In effect, the expensive landscape analysis becomes a preprocessing step, while the temporal evolution is handled by moving populations across linked barrier-tree representations.

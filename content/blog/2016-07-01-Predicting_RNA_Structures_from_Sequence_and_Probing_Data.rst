@@ -96,7 +96,7 @@ picks up the same problem from the later AI period.
 Citation
 ========
 
-  | :link-flat-strong:`Predicting RNA Structures from Sequence and Probing Data <https://doi.org/10.1016/j.ymeth.2016.04.004>`
+  | :link-flat-strong:`Predicting RNA Structures from Sequence and Probing Data <https://doi.org/10.1016/j.ymeth.2016.04.004>` | :link-flat:`Preprint PDF <{static}/files/papers/Lorenz-2016b__PREPRINT.pdf>`
   | Ronny Lorenz, :ul:`Michael T. Wolfinger`, Andrea Tanzer, Ivo L. Hofacker
   | *Methods* 103:86–98 (2016) | :doi:`doi:10.1016/j.ymeth.2016.04.004 <https://doi.org/10.1016/j.ymeth.2016.04.004>` | :link-flat:`PDF <{static}/files/papers/Lorenz-2016.pdf>`
 

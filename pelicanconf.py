@@ -43,7 +43,8 @@ PLUGINS = ['m.htmlsanity',
            'm.link',
            'm.sitemap',
            'm.images',
-           'mtw_meta']
+           'mtw_meta',
+           'mtw_redirects']
 
 # Category listings are disallowed in robots.txt and the publications/papers/ stubs are
 # canonicalised to their blog posts, so neither belongs in the sitemap. (Redirect stubs
@@ -117,21 +118,16 @@ M_LINKS_FOOTER4 = [('Social', ''),
 M_FINE_PRINT = "© %d Michael T. Wolfinger · Vienna, Austria · michael.wolfinger@rnaforecast.com" % datetime.date.today().year
 
 STATIC_PATHS = ['static', 'extra/CNAME', 'extra/robots.txt', 'extra/favicon.ico',
-                'extra/llms.txt', 'extra/site.webmanifest', 'extra/redirects']
+                'extra/llms.txt', 'extra/site.webmanifest', 'extra/legacy']
 EXTRA_PATH_METADATA = {
                         'extra/CNAME': {'path': 'CNAME'},
                         'extra/robots.txt': {'path': 'robots.txt'},
                         'extra/favicon.ico': {'path': 'favicon.ico'},
                         'extra/llms.txt': {'path': 'llms.txt'},
                         'extra/site.webmanifest': {'path': 'site.webmanifest'},
-                        # /services/ once existed; the URL stays alive as a no-index redirect to the home page
-                        'extra/redirects/services.html': {'path': 'services/index.html'},
-                        # merged tags: the old tag URLs redirect to the surviving tag
-                        'extra/redirects/tag-virology.html': {'path': 'blog/tag/virology.html'},
-                        'extra/redirects/tag-virology2.html': {'path': 'blog/tag/virology2.html'},
-                        'extra/redirects/tag-virology3.html': {'path': 'blog/tag/virology3.html'},
-                        'extra/redirects/tag-novel-viruses.html': {'path': 'blog/tag/novel-viruses.html'},
-                        'extra/redirects/tag-agents.html': {'path': 'blog/tag/agents.html'},
+                        # two talk PDFs were renamed after their real dates; the old names stay downloadable
+                        'extra/legacy/2020-10-15-Kent.pdf': {'path': 'files/presentations/2020-10-15-Kent.pdf'},
+                        'extra/legacy/2013-03-05-CIBIV.pdf': {'path': 'files/presentations/2013-03-05-CIBIV.pdf'},
                         }
 
 RELATIVE_URLS = False
@@ -179,3 +175,47 @@ PATH_METADATA = '(?P<slug>.+).rst'
 
 DEFAULT_PAGINATION = 5
 
+
+# URLs that once existed and still appear in search results or bookmarks. plugins/mtw_redirects.py
+# writes a no-index page with a meta refresh at each old path. Keys are site-relative old
+# paths; values are site-relative or absolute targets.
+REDIRECTS = {
+    # former commercial pages: the offers live on rnaforecast.com
+    '/services/': 'https://rnaforecast.com/',
+    '/services/workshops/': 'https://rnaforecast.com/',
+    '/consulting/': 'https://rnaforecast.com/',
+    # merged tags
+    '/blog/tag/virology.html': '/blog/tag/virus-bioinformatics.html',
+    '/blog/tag/virology2.html': '/blog/tag/virus-bioinformatics.html',
+    '/blog/tag/virology3.html': '/blog/tag/virus-bioinformatics.html',
+    '/blog/tag/novel-viruses.html': '/blog/tag/virus-bioinformatics.html',
+    '/blog/tag/agents.html': '/blog/tag/ai.html',
+    # tag pages from before the relaunch
+    '/blog/tag/rna-kinetics.html': '/blog/tag/rna-folding-kinetics.html',
+    '/blog/tag/co-transcriptional-rna-folding2.html': '/blog/tag/co-transcriptional-rna-folding.html',
+    '/blog/tag/rna-structure-prediction2.html': '/blog/tag/rna-structure-prediction.html',
+    '/blog/tag/viruses/index2.html': '/blog/tag/virus-bioinformatics.html',
+    # post URLs from before the relaunch (date-prefixed slugs under blog/<year>/blog/)
+    '/blog/2024/blog/2024-02-12-A-framework-for-automated-scalable-designation-of-viral-pathogen-lineages-from-genomic-data/': '/blog/2024/automated-viral-lineage-designation/',
+    '/blog/2023/blog/2023-06-09-A-Structural-Refinement-Technique-for-Protein-RNA-Complexes-Using-Combination-of-AI-based-Modeling-and-Flexible-Docking-A-Study-of-Musashi-1-Protein/': '/blog/2023/rna-protein-complex-refinement-musashi-1/',
+    '/blog/2024/blog/2024-05-29-Xingyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade/': '/blog/2024/xinyang-flavivirus-tick-only-orthoflavivirus-clade/',
+    '/blog/2024/blog/2024-10-15-Pan-flavivirus-analysis-reveals-sfRNA-independent-3-UTR-biased-siRNA-production-from-an-insect-specific-flavivirus/': '/blog/2024/pan-flavivirus-sirna-production-in-insect-specific-flavivirus/',
+    '/blog/2017/blog/2017-01-31-NMR-Structural-Profiling-of-Transcriptional-Intermediates-Reveals-Riboswitch-Regulation-by-Metastable-RNA-Conformations/': '/blog/2017/co-transcriptional-riboswitch-metastable-states/',
+    '/blog/2025/blog/2025-07-29-Functional-RNAs-in-Virology/': '/blog/2025/functional-rnas-in-virology/',
+    '/blog/2025/blog/2025-07-18-Exploring-RNA-Biology-with-Deep-Learning/': '/blog/2025/exploring-rna-biology-with-deep-learning/',
+    '/blog/2020/blog/2020-12-10-Genomic-Epidemiology-of-Superspreading-Events-in-Austria-Reveals-Mutational-Dynamics-and-Transmission-Properties-of-SARS-CoV-2/': '/blog/2020/genomic-epidemiology-sars-cov-2-austria/',
+    # legacy paper stubs that no longer exist
+    '/publications/papers/An_African_Tick_Flavivirus_Forming_an_Independent_Clade_Exhibits_Unique_Exoribonuclease-Resistant_RNA_Structures_in_the_Genomic_three_prime-Untranslated_Region/': '/blog/2021/Mpulungu_Virus_is_a_novel_tick_flavivirus_from_Africa/',
+    '/publications/papers/Musashi_Binding_Elements_in_Zika_and_Related_Flavivirus_3UTRs_A_Comparative_Study_in_Silico/': '/blog/2019/Musashi-Binding-Elements-in-Zika-and-Related-Flavivirus-3UTRs-A-Comparative-Study-in-Silico/',
+    '/publications/papers/Functional_RNA_Structures_in_the_3UTR_of_Tick-Borne_Insect-Specific_and_No_Known_Vector_Flaviviruses/': '/blog/2019/Functional_RNA_Structures_in_the_three_prime_UTR_of_Flaviviruses/',
+    '/publications/papers/Genomic_Epidemiology_of_Superspreading_Events_in_Austria_Reveals_Mutational_Dynamics_and_Transmission_Properties_of_SARS-CoV-2/': '/blog/2020/genomic-epidemiology-sars-cov-2-austria/',
+    # drafts and hidden posts that were removed; the nearest published post on the topic
+    '/blog/2026/How-to-Interpret-SHAPE-and-Chemical-Probing-Data-for-RNA-Structure-Decisions/': '/blog/2015/SHAPE-directed-RNA-folding/',
+    '/blog/2022/When-SHAPE-Data-Actually-Improves-RNA-Structure-Prediction/': '/blog/2015/SHAPE-directed-RNA-folding/',
+    '/blog/2025/Why-Kinetic-Folding-Matters-in-RNA-Design/': '/blog/2025/kinpfn-rna-folding-kinetics/',
+    '/blog/2026/When-to-trust-RNA-structure-prediction-for-experimental-decisions/': '/blog/2021/Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction/',
+    '/blog/2026/When-sequence-conservation-is-not-enough-to-find-functional-RNA-structure/': '/blog/2021/Functional-RNA-Structures-in-the-3UTR-of-Mosquito-Borne-Flaviviruses/',
+    '/blog/2025/What-AI-Can-and-Cannot-Do-for-RNA-Structure-and-RNA-Protein-Modeling/': '/blog/2021/Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction/',
+    '/blog/2026/What-AI-Is-Genuinely-Useful-for-in-RNA-Biology/': '/blog/2021/Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction/',
+    '/blog/2022/Cyclization-studies-of-Japanese-encephalitis-virus-non-coding-RNA-terminal-regions/': '/blog/2023/Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis/',
+}

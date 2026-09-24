@@ -45,4 +45,4 @@ Citation
 
   | :link-flat-strong:`Identification of conserved RNA regulatory switches in living cells using RNA secondary structure ensemble mapping and covariation analysis <{filename}/blog/2025-06-17-Conserved-RNA-Regulatory-Switches-in-Living-Cells.rst>`
   | Ivana Borovská, Chundan Zhang, Sarah-Luisa J. Dülk, Edoardo Morandi, Marta F. S. Cardoso, Billal M. Bourkia, Daphne A. L. van den Homberg, :ul:`Michael T. Wolfinger`, Willem A. Velema, Danny Incarnato
-  | *Nat. Biotechnol.* 44(6):989–1001 (2026) | :doi:`doi:10.1038/s41587-025-02739-0 <https://doi.org/10.1038/s41587-025-02739-0>` | :link-flat:`PDF <{static}/files/papers/Borovska-2025.pdf>`
+  | *Nat. Biotechnol.* 44(6):989–1001 (2026) | :doi:`doi:10.1038/s41587-025-02739-0 <https://doi.org/10.1038/s41587-025-02739-0>` | :link-flat:`PDF <{static}/files/papers/Borovska-2025.pdf>` | :link-flat:`bioRxiv preprint PDF <{static}/files/papers/Borkovska-2024__PREPRINT.pdf>`
