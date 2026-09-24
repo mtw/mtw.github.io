@@ -11,8 +11,8 @@ Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses
 :paper_authors: Michael T. Wolfinger, Roman Ochsenreiter, Ivo L. Hofacker
 :slug: Functional-RNA-Structures-in-the-3UTR-of-Mosquito-Borne-Flaviviruses
 :summary: This chapter compares conserved functional RNA elements in the 3' UTRs of mosquito-borne flaviviruses, including xrRNAs, dumbbells, and terminal stem-loops.
-:title: Functional RNA structures in the 3'UTR of Mosquito-Borne Flaviviruses
-:description: Comparative overview of conserved functional RNA elements in the 3' UTRs of mosquito-borne flaviviruses.
+:title: Functional RNA structures in flavivirus 3′UTRs: xrRNAs, dumbbells, stem-loops
+:description: Conserved RNA elements in the 3′UTRs of mosquito-borne flaviviruses such as dengue, Zika and West Nile: xrRNAs, dumbbell elements and the terminal stem-loop.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -31,6 +31,8 @@ Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses
     .. figure:: {static}/files/papers/preview/Preview__Wolfinger-2021.001small.webp
           :alt: Consensus RNA secondary structures of evolutionarily conserved elements in flavivirus 3' UTRs
           :figclass: m-figure m-flat
+
+**In short:** mosquito-borne flavivirus 3′UTRs are built from a small set of recurring structured modules — exoribonuclease-resistant RNAs (xrRNAs) that stall Xrn1 and give rise to sfRNA, dumbbell elements, and a terminal stem-loop — whose arrangement is conserved even where the sequence is not. This chapter maps that structural vocabulary across the group.
 
 This chapter asks a deceptively simple question: what is actually conserved in the 3' UTRs of mosquito-borne flaviviruses once one looks beyond primary sequence? For viruses such as dengue, West Nile, yellow fever, Japanese encephalitis, and Zika virus, the answer matters because the structured 3' UTR is not passive genomic baggage. It is part of the replication program and helps shape genome cyclization, sfRNA production, host adaptation, and the broader regulatory behavior of the viral RNA.
 

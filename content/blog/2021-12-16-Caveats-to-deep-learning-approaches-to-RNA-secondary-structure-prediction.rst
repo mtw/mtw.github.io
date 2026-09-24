@@ -9,8 +9,8 @@ Caveats to deep learning approaches to RNA secondary structure prediction
 :year: 2022
 :paper_authors: Christoph Flamm, Julia Wielach, Michael T. Wolfinger, Stefan Badelt, Ronny Lorenz, Ivo L. Hofacker
 :slug: Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction
-:title: Caveats in deep learning for RNA secondary structure prediction
-:description: Why many deep learning models for RNA secondary structure prediction appear to work well, yet fail to generalize beyond biased benchmark datasets.
+:title: Deep learning for RNA secondary structure prediction: the caveats
+:description: Neural networks trained on biased RNA data learn the dataset, not folding. What the 2022 paper tested with synthetic data, and what it means for AI in RNA.
 :summary: This paper shows that many deep learning models for RNA secondary structure prediction learn dataset bias more readily than RNA folding rules, and explains why that matters for the future of AI in RNA biology.
 
 .. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-6 m-right-m
@@ -30,6 +30,8 @@ Caveats to deep learning approaches to RNA secondary structure prediction
 
 .. role:: doi(link)
   :class: doi
+
+**In short:** deep-learning predictors of RNA secondary structure can score well on standard benchmarks while learning little about folding. Trained on biased data they fail on structures outside the training distribution, and even on unbiased synthetic data several architectures do not recover basic structural constraints. Evaluate on family-level splits, and prefer methods that keep physical or comparative priors.
 
 Deep learning for RNA secondary structure prediction has an obvious appeal. If neural networks can infer structure directly from sequence, perhaps they can move past some of the limitations of classical thermodynamic folding. That promise has made the area popular, but it has also brought in a familiar problem from other parts of machine learning. Strong benchmark numbers can hide the fact that a model has learned properties of the dataset rather than properties of the underlying biology.
 
