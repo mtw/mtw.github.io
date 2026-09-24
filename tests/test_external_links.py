@@ -18,6 +18,9 @@ from tests.site_test_utils import build_site
 
 pytestmark = pytest.mark.skipif(not os.environ.get("CHECK_EXTERNAL_LINKS"), reason="set CHECK_EXTERNAL_LINKS=1")
 SITE_HOSTS = {"michaelwolfinger.com", "www.michaelwolfinger.com"}
+# Single-page apps that answer 404 to non-browser or datacenter requests although the
+# profile exists (verified in a browser); reported as blocked rather than broken.
+UNRELIABLE_HOSTS = {"bsky.app", "loop.frontiersin.org"}
 # A browser-like UA: single-page apps (Bluesky, Loop) answer 404 to anything else.
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
 
@@ -46,8 +49,9 @@ def test_external_links_resolve(tmp_path):
                 urls.setdefault(href, page.relative_to(output_dir))
     with ThreadPoolExecutor(16) as pool:
         results = dict(zip(urls, pool.map(_fetch, urls)))
-    broken = {u: r for u, r in results.items() if r in (404, 410) or isinstance(r, str)}
-    blocked = {u: r for u, r in results.items() if r in (401, 403, 429, 503)}
+    unreliable = {u for u in results if urlparse(u).netloc in UNRELIABLE_HOSTS}
+    broken = {u: r for u, r in results.items() if u not in unreliable and (r in (404, 410) or isinstance(r, str))}
+    blocked = {u: r for u, r in results.items() if r in (401, 403, 429, 503) or (u in unreliable and r != 200)}
     print(f"\nchecked {len(urls)} URLs; {len(broken)} broken, {len(blocked)} blocked/rate-limited")
     for u, r in sorted(blocked.items()):
         print(f"  blocked  {r}  {u}  ({urls[u]})")
