@@ -42,7 +42,7 @@ The computational part of the workflow then builds on previously determined seco
 
 Biologically, that matters because the Alu inverted repeats are thought to contribute to how lincRNA-p21 interacts with protein partners and localizes within the cell. The study supports a picture in which both the sense and antisense regions form structured domains with conserved architectural features, while still retaining enough flexibility to make ensemble-based modeling more appropriate than a single rigid conformation.
 
-More broadly, this paper is useful as a methods example. Long non-coding RNAs are difficult structural targets: they are large, flexible, and hard to crystallize, while sequence-only tertiary prediction remains unreliable. The pipeline used here, combining prior secondary-structure information with AUC, SEC-MALS, SAXS, and restrained computational modeling, is a practical template for deriving experimentally grounded structural models of other lncRNAs as well.
+More broadly, this paper is useful as a methods example. Long non-coding RNAs are difficult structural targets: they are large, flexible, and hard to crystallize, while sequence-only tertiary prediction remains unreliable. The pipeline used here, combining prior secondary structure information with AUC, SEC-MALS, SAXS, and restrained computational modeling, is a practical template for deriving experimentally grounded structural models of other lncRNAs as well.
 
 .. frame:: Abstract
 

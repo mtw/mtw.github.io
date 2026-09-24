@@ -12,7 +12,7 @@ KinPFN: Bayesian Approximation of RNA Folding Kinetics
 :slug: kinpfn-rna-folding-kinetics
 :summary: KinPFN uses prior-data fitted networks to approximate first-passage-time distributions for RNA folding kinetics orders of magnitude faster than direct simulation.
 :title: KinPFN for RNA folding kinetics
-:description: A deep-learning approach to approximate RNA folding-time distributions from a few simulated examples.
+:description: A deep learning approach to approximate RNA folding-time distributions from a few simulated examples.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong

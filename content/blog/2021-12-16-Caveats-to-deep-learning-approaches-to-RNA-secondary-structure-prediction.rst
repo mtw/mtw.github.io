@@ -31,7 +31,7 @@ Caveats to deep learning approaches to RNA secondary structure prediction
 .. role:: doi(link)
   :class: doi
 
-**In short:** deep-learning predictors of RNA secondary structure can score well on standard benchmarks while learning little about folding. Trained on biased data they fail on structures outside the training distribution, and even on unbiased synthetic data several architectures do not recover basic structural constraints. Evaluate on family-level splits, and prefer methods that keep physical or comparative priors.
+**In short:** deep learning predictors of RNA secondary structure can score well on standard benchmarks while learning little about folding. Trained on biased data they fail on structures outside the training distribution, and even on unbiased synthetic data several architectures do not recover basic structural constraints. Evaluate on family-level splits, and prefer methods that keep physical or comparative priors.
 
 Deep learning for RNA secondary structure prediction has an obvious appeal. If neural networks can infer structure directly from sequence, perhaps they can move past some of the limitations of classical thermodynamic folding. That promise has made the area popular, but it has also brought in a familiar problem from other parts of machine learning. Strong benchmark numbers can hide the fact that a model has learned properties of the dataset rather than properties of the underlying biology.
 
