@@ -31,6 +31,8 @@ TSSAR: TSS annotation regime for dRNA-seq data
           :alt: Statistical classification and evaluation scheme used by TSSAR for dRNA-seq-based TSS annotation
           :figclass: m-figure m-flat
 
+**TSSAR** (TSS annotation regime) annotates transcription start sites from differential RNA-seq (dRNA-seq) data automatically: it models the read-count difference between the TEX-treated and the untreated library statistically instead of applying a fixed threshold, and is available as a web service and as a command-line tool.
+
 Identifying bacterial transcription start sites from differential RNA-seq data used to be a painfully manual task. Researchers would inspect mapped reads in genome browsers, compare TEX-treated and untreated libraries by eye, and then decide which positions looked like genuine primary transcript starts. That process was slow, difficult to reproduce, and inevitably shaped by user-specific thresholds and biases.
 
 TSSAR was designed to solve exactly that problem. The aim was not just to call more TSS automatically, but to provide a statistically principled way to do so. Differential RNA-seq enriches primary transcripts by treating one library with terminator exonuclease, so the key signal is an excess of read starts at a genomic position in the TEX-treated sample relative to the untreated control. TSSAR turns that intuition into a formal model instead of leaving it at the level of browser-based pattern recognition.
