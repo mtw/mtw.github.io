@@ -10,9 +10,11 @@ import pathlib
 
 from pelican import signals
 
+MARKER = "<!-- mtw-redirects -->"
 PAGE = """<!DOCTYPE html>
 <html lang="en">
 <head>
+  """ + MARKER + """
   <meta charset="UTF-8" />
   <title>Michael T. Wolfinger</title>
   <meta name="robots" content="noindex, follow" />
@@ -34,7 +36,9 @@ def write_redirects(pelican):
         path = pathlib.Path(pelican.output_path) / old.lstrip("/")
         if old.endswith("/") or not path.suffix:
             path = path / "index.html"
-        if path.exists():
+        # Never overwrite a real page. A stub from a previous run (the dev server keeps the
+        # output directory between rebuilds) is recognised by its marker and rewritten.
+        if path.exists() and MARKER not in path.read_text(encoding="utf-8", errors="ignore"):
             raise RuntimeError(f"redirect {old} would overwrite an existing page")
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(PAGE.format(target=html.escape(target, quote=True)), encoding="utf-8")
