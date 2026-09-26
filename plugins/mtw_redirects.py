@@ -37,9 +37,13 @@ def write_redirects(pelican):
         if old.endswith("/") or not path.suffix:
             path = path / "index.html"
         # Never overwrite a real page. A stub from a previous run (the dev server keeps the
-        # output directory between rebuilds) is recognised by its marker and rewritten.
-        if path.exists() and MARKER not in path.read_text(encoding="utf-8", errors="ignore"):
-            raise RuntimeError(f"redirect {old} would overwrite an existing page")
+        # output directory between rebuilds) is recognised by its marker, or, for stubs
+        # written before the marker existed, by being a small meta-refresh page.
+        if path.exists():
+            existing = path.read_text(encoding="utf-8", errors="ignore")
+            is_stub = MARKER in existing or ("http-equiv" in existing and "refresh" in existing and len(existing) < 2000)
+            if not is_stub:
+                raise RuntimeError(f"redirect {old} would overwrite an existing page")
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(PAGE.format(target=html.escape(target, quote=True)), encoding="utf-8")
 
