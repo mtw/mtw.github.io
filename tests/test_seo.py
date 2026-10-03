@@ -91,19 +91,18 @@ def test_publications_page_lists_papers(output_dir):
     assert all(i["item"]["@id"].startswith("https://doi.org/10.") for i in items)
 
 
-def test_talks_and_posters_are_event_lists(output_dir):
+def test_talks_and_posters_are_presentation_lists(output_dir):
     for path, minimum in (("presentations", 15), ("posters", 20)):
         nodes = _graph(output_dir / "publications" / path / "index.html")
         item_list = next(n for n in nodes if "ItemList" in _types(n))
         items = item_list["itemListElement"]
         assert len(items) >= minimum, (path, len(items))
         for entry in items:
-            event = entry["item"]
-            assert event["@type"] == "Event" and event["name"] and event["location"]["address"]
-            assert re.match(r"^\d{4}-\d{2}(-\d{2})?$", event["startDate"]), event
-            if "workFeatured" in event and "url" in event["workFeatured"]:
-                url = event["workFeatured"]["url"]
-                assert url.startswith(SITEURL) and (output_dir / url[len(SITEURL) + 1:]).is_file(), url
+            doc = entry["item"]
+            assert doc["@type"] == "PresentationDigitalDocument" and doc["name"] and doc["contentLocation"]["address"]
+            assert re.match(r"^\d{4}-\d{2}(-\d{2})?$", doc["datePublished"]), doc
+            if "url" in doc:
+                assert doc["url"].startswith(SITEURL) and (output_dir / doc["url"][len(SITEURL) + 1:]).is_file(), doc["url"]
 
 
 def test_llms_full_lists_papers_and_talks(output_dir):

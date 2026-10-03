@@ -148,20 +148,18 @@
   "itemListElement": [
   {%- for ev in events %}
    {"@type": "ListItem", "position": {{ loop.index }}, "item":
-    {"@type": "Event",
+    {#- a talk or poster is a presentation document, not a ticketed event: Google's Event
+        validator would keep asking for offers, images and organizers that do not apply -#}
+    {"@type": "PresentationDigitalDocument",
      "name": {{ ev.name|tojson }},
-     "description": {{ ((ev.label or ('Poster' if ev.kind == 'poster' else 'Talk')) ~ ' at the ' ~ ev.venue)|tojson }},
-     "startDate": {{ ev.date|tojson }},
-     "endDate": {{ ev.date|tojson }},
-     "eventStatus": "https://schema.org/EventScheduled",
-     "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-     "location": {"@type": "Place", "name": {{ ev.venue|tojson }}, "address": {{ ev.place|tojson }}},
-     "performer": {"@id": {{ _person_id|tojson }}}
-     {%- if ev.pdf or ev.doi %},
-     "workFeatured": {"@type": "PresentationDigitalDocument", "name": {{ ev.name|tojson }}, "author": {"@id": {{ _person_id|tojson }}}
-      {%- if ev.pdf %}, "url": {{ (ev.pdf|format_siteurl)|tojson }}{% endif %}
-      {%- if ev.doi %}, "sameAs": {{ ('https://doi.org/' ~ ev.doi)|tojson }}, "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": {{ ev.doi|tojson }}}{% endif %}}
-     {%- endif %}}
+     "genre": {{ (ev.label or ('Poster' if ev.kind == 'poster' else 'Talk'))|tojson }},
+     "description": {{ ((ev.label or ('Poster' if ev.kind == 'poster' else 'Talk')) ~ ' at the ' ~ ev.venue ~ ', ' ~ ev.place)|tojson }},
+     "datePublished": {{ ev.date|tojson }},
+     "author": {"@id": {{ _person_id|tojson }}},
+     "inLanguage": "en",
+     "contentLocation": {"@type": "Place", "name": {{ ev.venue|tojson }}, "address": {{ ev.place|tojson }}}
+     {%- if ev.pdf %}, "url": {{ (ev.pdf|format_siteurl)|tojson }}, "encodingFormat": "application/pdf"{% endif %}
+     {%- if ev.doi %}, "sameAs": {{ ('https://doi.org/' ~ ev.doi)|tojson }}, "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": {{ ev.doi|tojson }}}{% endif %}}
    }{% if not loop.last %},{% endif %}
   {%- endfor %}
   ]}{% endif %}
