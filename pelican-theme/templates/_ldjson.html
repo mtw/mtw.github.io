@@ -152,10 +152,11 @@
      "name": {{ ev.name|tojson }},
      "description": {{ ((ev.label or ('Poster' if ev.kind == 'poster' else 'Talk')) ~ ' at the ' ~ ev.venue)|tojson }},
      "startDate": {{ ev.date|tojson }},
+     "endDate": {{ ev.date|tojson }},
      "eventStatus": "https://schema.org/EventScheduled",
+     "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
      "location": {"@type": "Place", "name": {{ ev.venue|tojson }}, "address": {{ ev.place|tojson }}},
-     "performer": {"@id": {{ _person_id|tojson }}},
-     "organizer": {"@type": "Organization", "name": {{ ev.venue|tojson }}}
+     "performer": {"@id": {{ _person_id|tojson }}}
      {%- if ev.pdf or ev.doi %},
      "workFeatured": {"@type": "PresentationDigitalDocument", "name": {{ ev.name|tojson }}, "author": {"@id": {{ _person_id|tojson }}}
       {%- if ev.pdf %}, "url": {{ (ev.pdf|format_siteurl)|tojson }}{% endif %}
