@@ -13,7 +13,4 @@ output/
 output-publish/
 design_handoff/
 tags/*
-local_docs/*
-
-# local working notes and handoffs, never published
-/local/
+local/
