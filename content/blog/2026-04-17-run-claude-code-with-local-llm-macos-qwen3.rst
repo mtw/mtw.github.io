@@ -2,17 +2,21 @@ Run Claude Code with LM Studio: a local LLM on Apple Silicon
 ############################################################
 
 :date: 2026-04-17
-:modified: 2026-09-24
+:modified: 2026-10-18
 :tags: AI; tools
 :category: howto
 :section: guides
 :slug: claude-code-local-llm-apple-silicon
 :title: Run Claude Code with LM Studio: a local LLM on Apple Silicon
 :summary: Connect Claude Code to LM Studio's Anthropic-compatible endpoint and run a local model on Apple Silicon: setup, model choice, context length, and the errors you will actually meet.
-:description: How to connect Claude Code to LM Studio with ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN, run a local LLM on Apple Silicon, and fix the common errors.
+:description: Claude Code + LM Studio setup on Apple Silicon: ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN, which local model and context length to use, and the common errors.
 
 .. role:: link-flat(link)
   :class: m-flat m-text
+
+.. container:: series-note
+
+   Local AI coding tools, a short series: Claude Code with LM Studio (this post) · :link-flat:`Claude Code with Ollama <{filename}/blog/2026-09-24-run-claude-code-with-ollama.rst>` · :link-flat:`Codex CLI with a local model <{filename}/blog/2026-09-24-codex-cli-local-model-lm-studio-ollama.rst>`
 
 Claude Code can talk to any server that speaks Anthropic's Messages API, and since
 version 0.4.1 (January 2026) LM Studio serves exactly that on ``localhost:1234``. Two
