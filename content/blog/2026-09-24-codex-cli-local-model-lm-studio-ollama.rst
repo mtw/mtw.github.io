@@ -2,32 +2,64 @@ Run OpenAI Codex CLI with a local model (LM Studio or Ollama)
 #############################################################
 
 :date: 2026-09-24
+:modified: 2026-10-18
 :tags: AI; tools
 :category: howto
 :section: guides
 :slug: codex-cli-local-model-lm-studio-ollama
-:title: Run OpenAI Codex CLI with a local model via LM Studio or Ollama
-:summary: Codex CLI has a built-in local mode. One flag runs it against LM Studio or Ollama; a profile in config.toml makes the choice permanent. Setup, models, context length, and the Responses-API caveat.
-:description: How to run OpenAI's Codex CLI against a local model with --oss or a config.toml profile, using LM Studio or Ollama, and which models and contexts work.
+:title: Codex CLI with a local model: LM Studio and Ollama setup, models, troubleshooting
+:summary: Codex CLI has a built-in local mode. This guide covers the flag and the config profile, which local models work for agentic coding and what they need, Ollama's one-command launcher, Linux GPU notes, and the errors you will meet.
+:description: How to run OpenAI's Codex CLI with a local model: --oss with LM Studio or Ollama, config.toml profiles, which models work, context length, and the common errors.
 
 .. role:: link-flat(link)
   :class: m-flat m-text
 
-Codex, OpenAI's terminal coding agent, ships with a local mode: ``codex --oss`` talks
-to a local server instead of OpenAI's API. Both LM Studio and Ollama support it out of
-the box, so the setup is even shorter than for Claude Code. What differs from the
-Claude Code guides is the protocol: Codex uses OpenAI's *Responses* API, not the older
-Chat Completions API, and it is hungrier for context.
+.. container:: series-note
+
+   Local AI coding tools, a short series: :link-flat:`Claude Code with LM Studio <{filename}/blog/2026-04-17-run-claude-code-with-local-llm-macos-qwen3.rst>` · :link-flat:`Claude Code with Ollama <{filename}/blog/2026-09-24-run-claude-code-with-ollama.rst>` · Codex CLI with a local model (this post)
+
+Codex, OpenAI's terminal coding agent, has a local mode built in: ``codex --oss`` sends
+its requests to a model server on your machine instead of OpenAI's API. LM Studio and
+Ollama both support it, so the setup is a few commands. This guide was written in
+September 2026 and expanded in October 2026 after it became the page people reach for
+"codex local model"; it now covers the model choice, Ollama's launcher, a persistent
+configuration, Linux machines, and the failures I have seen. Codex differs from Claude
+Code in two ways that matter locally: it speaks OpenAI's *Responses* API rather than Chat
+Completions, and it uses more context.
 
 Prerequisites
 -------------
 
 - Codex CLI: ``npm install -g @openai/codex`` (``codex --version`` to confirm).
 - LM Studio 0.4 or newer, or Ollama 0.14 or newer.
-- A model with tool calling and, for Codex, a large context: Ollama recommends "at
-  least 64k tokens for Codex", LM Studio "more than ~25k". Memory follows the model:
-  ``gpt-oss:20b`` needs about 16 GB, ``qwen3-coder`` about 19 GB; ``gpt-oss:120b``
-  is a 65 GB download meant for an 80 GB GPU or a large-memory Mac.
+- A model with tool calling and a large context window; see the next section for
+  memory. Codex also wants a project directory to work in; it reads an ``AGENTS.md``
+  there if present, which is the right place for durable instructions.
+
+Choosing a local model
+----------------------
+
+Codex drives the model through tool calls (read, edit, run) and sends a long system
+prompt, so two properties decide whether a model is usable: reliable tool calling and a
+context of at least 64K tokens (Ollama's recommendation for Codex; LM Studio says "more
+than ~25k", which is the floor rather than a comfortable value). The models below have
+both; the memory figures are what the server needs with a 64K context loaded.
+
+``openai/gpt-oss-20b`` (Ollama: ``gpt-oss:20b``)
+   14 GB download, about 16 GB of memory, 128K context, tool calling and reasoning
+   built in. The default for ``codex --oss`` and the sensible first choice on a 24–32 GB
+   Mac or a 24 GB GPU.
+
+``qwen/qwen3-coder-30b`` (Ollama: ``qwen3-coder``)
+   19 GB, a 30B mixture-of-experts model with 3B active parameters, 256K context. In my
+   use the stronger coder of the two for edits across several files; needs 32 GB or more.
+
+``openai/gpt-oss-120b`` (Ollama: ``gpt-oss:120b``)
+   65 GB, meant for an 80 GB GPU or a 96–128 GB Mac. Noticeably better judgement on
+   larger tasks; out of reach on ordinary hardware.
+
+Smaller models (``ibm/granite-4-micro`` and similar) run on 16 GB machines but tend to
+narrate edits instead of making them; see the troubleshooting section.
 
 With LM Studio
 --------------
@@ -36,32 +68,61 @@ With LM Studio
 
    lms load openai/gpt-oss-20b --context-length 65536
    lms server start --port 1234
-   codex --oss                          # defaults to openai/gpt-oss-20b
-   codex --oss -m qwen/qwen3-coder-30b  # any other loaded model
+   codex --oss --local-provider lmstudio
+   codex --oss --local-provider lmstudio -m qwen/qwen3-coder-30b   # any other loaded model
 
-Codex talks to ``http://localhost:1234/v1/responses``. If the model is not loaded,
-LM Studio loads it on first use with the server's default context, which is usually too
-small; load it yourself with ``--context-length`` as above.
+Codex talks to ``http://localhost:1234/v1/responses``. Load the model yourself with
+``--context-length`` as above: if Codex's first request triggers the load, LM Studio uses
+the server's default context, which is usually far too small, and the session fails with
+a context error a few turns in. ``lms ps`` shows what is loaded and with which context.
 
 With Ollama
 -----------
 
 .. code-block:: bash
 
-   OLLAMA_CONTEXT_LENGTH=65536 ollama serve     # in one terminal (or the app setting)
+   OLLAMA_CONTEXT_LENGTH=65536 ollama serve     # one terminal (or the app's settings)
    ollama pull gpt-oss:20b
-   codex --oss -m gpt-oss:20b                   # in another
+   codex --oss --local-provider ollama -m gpt-oss:20b   # another terminal
 
-Ollama also offers ``ollama launch codex``, which writes a profile for you and starts
-Codex. The context-length note from the
+Ollama's default context depends on GPU memory and is 4K on most laptops, which is not
+enough for Codex; the context-length section of the
 :link-flat:`Ollama guide for Claude Code <{filename}/blog/2026-09-24-run-claude-code-with-ollama.rst>`
-applies unchanged: on a laptop Ollama's default context is 4K, and Codex needs far more.
+explains the setting for the app, the terminal and the Linux service. ``ollama ps`` must
+show 65536 in the CONTEXT column.
+
+``ollama launch codex``
+=======================
+
+Ollama ships a launcher that does the configuration for you:
+
+.. code-block:: bash
+
+   ollama launch codex                 # picks a model, writes a profile, starts Codex
+   codex --profile ollama-launch       # reuse that profile later
+
+The launcher writes ``~/.codex/ollama-launch.config.toml`` with a provider entry for
+Ollama (``base_url = "http://localhost:11434/v1/"``, ``wire_api = "responses"``) and the
+chosen model, and starts Codex with it. Two details: if you sign in with ``ollama signin``
+the profile can use Ollama's web search from inside Codex, and
+``codex --profile ollama-launch -c 'web_search="disabled"'`` turns that off for a fully
+local session. The launcher does not set the context length; that still comes from
+``OLLAMA_CONTEXT_LENGTH`` or the app.
 
 Make it permanent with a profile
 --------------------------------
 
-``~/.codex/config.toml`` can hold a provider and a profile so that ``codex --profile
-local`` does the right thing without flags:
+Instead of flags, put the choice in ``~/.codex/config.toml``. The simplest form sets the
+local provider for ``--oss``:
+
+.. code-block:: toml
+
+   oss_provider = "lmstudio"        # or "ollama"
+   model = "openai/gpt-oss-20b"
+
+With that, ``codex --oss`` needs no further flags (without it, the interactive CLI asks
+which provider to use, and ``codex exec`` exits with an error). For more than one setup,
+define providers and profiles:
 
 .. code-block:: toml
 
@@ -84,21 +145,71 @@ local`` does the right thing without flags:
    model = "gpt-oss:20b"
 
 Then ``codex --profile local`` or ``codex --profile local-ollama``. ``wire_api =
-"responses"`` is the important line: a provider entry without it, or an old server
-that only implements Chat Completions, answers Codex's requests with 404.
+"responses"`` is the line that matters: a provider entry without it, or a server that
+only implements Chat Completions, answers Codex's requests with 404. Model names must
+be the server's API identifiers (``ollama ls``, or LM Studio's Developer tab), not display
+names. Command-line flags override the file for a single run.
+
+On Linux
+--------
+
+Everything above works unchanged on Linux. What differs is where the model runs:
+
+- **Ollama** uses NVIDIA (CUDA) and AMD (ROCm) GPUs and falls back to the CPU when the
+  model does not fit; ``ollama ps`` shows the split (``100% GPU`` is what you want). A
+  20B model with a 64K context needs a 24 GB card; 16 GB cards run it partly on the CPU
+  and become slow. The service reads ``OLLAMA_CONTEXT_LENGTH`` from ``systemctl edit
+  ollama``, not from your shell.
+- **LM Studio** has a Linux build with CUDA and Vulkan backends; the same ``lms`` commands
+  apply. LM Studio's *LM Link* can also run the model on a remote machine while Codex
+  runs on your laptop, which is the practical answer when the GPU box is elsewhere.
+
+Troubleshooting
+---------------
+
+``404`` on every request
+   The provider speaks Chat Completions only, or the profile lacks ``wire_api =
+   "responses"``. Update the server (Ollama ≥ 0.14, LM Studio ≥ 0.4) and the profile.
+
+The model is reported as missing
+   The name is a display label, not the API identifier. Copy it from ``ollama ls`` or
+   LM Studio's Developer view (``qwen/qwen3-coder-30b``, not "Qwen3 Coder 30B").
+
+A context or token-limit error after a few turns
+   The server runs with its default context. Load the model with
+   ``--context-length 65536`` (LM Studio) or start Ollama with
+   ``OLLAMA_CONTEXT_LENGTH=65536``; verify with ``lms ps`` / ``ollama ps``.
+
+Codex says it edited a file but nothing changed, or prints tool calls as text
+   The model's tool calling is unreliable. Use ``gpt-oss:20b`` or ``qwen3-coder``; keep
+   tasks to one to three files; ask for the change, then ask for the test run, rather
+   than both in one prompt.
+
+Codex forgets a constraint you gave three turns ago
+   Local models hold instructions less firmly than the hosted ones. Put durable rules
+   in ``AGENTS.md`` in the project, and restate the critical constraint at the end of a
+   long prompt.
+
+Slow on Linux
+   The model spilled to the CPU. Smaller quantisation, smaller model, or a shorter
+   context; ``ollama ps`` tells you which.
+
+``Connection refused``
+   No server on the port in the profile. ``lms server status`` or ``ollama ps``; check
+   that the base URL in the profile matches.
 
 What to expect
 --------------
 
-The 20B models handle scoped tasks — a new function with tests, a refactor within a
-file, a script — and get lost in large multi-file changes. Give Codex a small,
-verifiable task, let it run the tests, and read the diff. If a model produces plans
-but no edits, it lacks tool calling; switch models.
-
-Related: :link-flat:`Claude Code with LM Studio on Apple Silicon <{filename}/blog/2026-04-17-run-claude-code-with-local-llm-macos-qwen3.rst>`
-and :link-flat:`Claude Code with Ollama <{filename}/blog/2026-09-24-run-claude-code-with-ollama.rst>`.
+The 20B models handle scoped work — a new function with tests, a refactor within a file,
+a script, documentation — and lose the thread in large multi-file changes. Give Codex a
+small, verifiable task, let it run the tests, and read the diff. Compared with Claude Code
+on the same local model, Codex is more demanding on context and a little more fragile with
+weak tool callers; with ``gpt-oss:20b`` and 64K of context both work well for the kind of
+scripting a research group does every day.
 
 Sources: `LM Studio, Codex integration <https://lmstudio.ai/docs/integrations/codex>`_;
 `Ollama, Codex CLI integration <https://docs.ollama.com/integrations/codex>`_;
 `Ollama library, gpt-oss <https://ollama.com/library/gpt-oss>`_ and
-`qwen3-coder <https://ollama.com/library/qwen3-coder>`_.
+`qwen3-coder <https://ollama.com/library/qwen3-coder>`_;
+`Codex CLI local mode with Ollama or LM Studio (ynaito.dev) <https://ynaito.dev/en/writing/codex-cli-local-models-oss/>`_.

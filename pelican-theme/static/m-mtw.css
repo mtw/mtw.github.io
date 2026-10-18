@@ -483,3 +483,7 @@ a{color:#000;text-decoration:underline}}
 .under-review p{margin:0 0 .7rem}
 .under-review strong{font-weight:600;color:var(--ink)}
 .under-review .m-ul{font-weight:600;color:var(--ink)}
+
+/* ---- series note at the top of guide posts ---- */
+.series-note{font-size:.85rem;color:var(--sub);border-left:2px solid var(--border);padding:4px 0 4px 14px;margin:0 0 1.6rem}
+.series-note p{margin:0}
