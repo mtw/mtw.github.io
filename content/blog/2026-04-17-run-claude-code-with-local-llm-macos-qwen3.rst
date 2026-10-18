@@ -208,10 +208,10 @@ A startup warning about two credential sources ("auth may not work as expected")
    A background call used the ``haiku`` alias. Set ``ANTHROPIC_DEFAULT_HAIKU_MODEL``
    (and the sonnet/opus ones) to your local model as above.
 
-``500 Error rendering prompt with jinja template`` ("Unknown StringValue filter: safe",
-"Cannot apply filter trim to type: Undefined")
-   The model file's chat template does not survive the tool definitions Claude Code
-   sends; the simple ``curl`` works because it sends none. I hit this with a
+``500 Error rendering prompt with jinja template``
+   Followed by "Unknown StringValue filter: safe" or "Cannot apply filter trim to type:
+   Undefined". The model file's chat template does not survive the tool definitions
+   Claude Code sends; the simple ``curl`` works because it sends none. I hit this with a
    community GGUF of Qwen3-Coder. Download the model again from LM Studio's catalog
    (``lms get qwen/qwen3-coder-30b``), which uses a corrected template, or override the
    template under *My Models → Prompt Template*. Nothing on the Claude Code side is wrong.
