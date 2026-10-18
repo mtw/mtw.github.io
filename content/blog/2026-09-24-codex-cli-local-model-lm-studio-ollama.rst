@@ -23,15 +23,16 @@ its requests to a model server on your machine instead of OpenAI's API. LM Studi
 Ollama both support it, so the setup is a few commands. This guide was written in
 September 2026 and expanded in October 2026 after it became the page people reach for
 "codex local model"; it now covers the model choice, Ollama's launcher, a persistent
-configuration, Linux machines, and the failures I have seen. Codex differs from Claude
-Code in two ways that matter locally: it speaks OpenAI's *Responses* API rather than Chat
-Completions, and it uses more context.
+configuration, Linux machines, and the failures I have seen; the commands were re-run
+with Codex 0.163, LM Studio 0.4.16 and Ollama 0.40. Codex differs from Claude Code in
+two ways that matter locally: it speaks OpenAI's *Responses* API only, and it uses more
+context.
 
 Prerequisites
 -------------
 
 - Codex CLI: ``npm install -g @openai/codex`` (``codex --version`` to confirm).
-- LM Studio 0.4 or newer, or Ollama 0.14 or newer.
+- A current LM Studio (0.3.29 added the Responses endpoint) or a current Ollama.
 - A model with tool calling and a large context window; see the next section for
   memory. Codex also wants a project directory to work in; it reads an ``AGENTS.md``
   there if present, which is the right place for durable instructions.
@@ -58,8 +59,15 @@ both; the memory figures are what the server needs with a 64K context loaded.
    65 GB, meant for an 80 GB GPU or a 96–128 GB Mac. Noticeably better judgement on
    larger tasks; out of reach on ordinary hardware.
 
-Smaller models (``ibm/granite-4-micro`` and similar) run on 16 GB machines but tend to
-narrate edits instead of making them; see the troubleshooting section.
+``google/gemma-4-12b`` (Ollama: ``gemma4``)
+   About 7 GB on disk, 12 GB loaded with a 32K context. The option for a 16 GB machine;
+   it completed file-editing tasks in my tests. Smaller models (``ibm/granite-4-micro``
+   and similar) run too, but tend to narrate edits instead of making them; see the
+   troubleshooting section.
+
+Measured on a 24 GB Mac with a 32K context: ``gpt-oss:20b`` loads fully on the GPU;
+``qwen3-coder`` fits only partly (16 of 19 GB) and slows down; a dense 27B model such as
+``qwen3.8`` runs out of GPU memory under Codex's prompt. 24 GB means gpt-oss-20b.
 
 With LM Studio
 --------------
@@ -72,9 +80,13 @@ With LM Studio
    codex --oss --local-provider lmstudio -m qwen/qwen3-coder-30b   # any other loaded model
 
 Codex talks to ``http://localhost:1234/v1/responses``. Load the model yourself with
-``--context-length`` as above: if Codex's first request triggers the load, LM Studio uses
-the server's default context, which is usually far too small, and the session fails with
-a context error a few turns in. ``lms ps`` shows what is loaded and with which context.
+``--context-length`` as above: if Codex's first request triggers the load (LM Studio
+does load on demand, and a short task then succeeds), the model gets the server's
+default context, which is usually far too small, and the session fails with a context
+error a few turns in. ``lms ps`` shows what is loaded and with which context. Download
+models through LM Studio's catalog (``lms get openai/gpt-oss-20b``): a GGUF from an
+arbitrary repository can carry a chat template that fails on Codex's tool definitions
+("Error rendering prompt with jinja template").
 
 With Ollama
 -----------
@@ -91,6 +103,12 @@ enough for Codex; the context-length section of the
 explains the setting for the app, the terminal and the Linux service. ``ollama ps`` must
 show 65536 in the CONTEXT column.
 
+Two things to know about the built-in ``ollama`` provider. It always talks to
+``localhost:11434`` and ignores ``OLLAMA_HOST``; for a model server on another machine,
+define your own provider (below). And if the model is not present, Codex pulls it
+without asking — ``codex --oss`` on a machine with an empty Ollama starts a 13 GB
+download of ``gpt-oss:20b``.
+
 ``ollama launch codex``
 =======================
 
@@ -101,10 +119,13 @@ Ollama ships a launcher that does the configuration for you:
    ollama launch codex                 # picks a model, writes a profile, starts Codex
    codex --profile ollama-launch       # reuse that profile later
 
-The launcher writes ``~/.codex/ollama-launch.config.toml`` with a provider entry for
-Ollama (``base_url = "http://localhost:11434/v1/"``, ``wire_api = "responses"``) and the
-chosen model, and starts Codex with it. Two details: if you sign in with ``ollama signin``
-the profile can use Ollama's web search from inside Codex, and
+The launcher writes ``~/.codex/ollama-launch.config.toml`` — a provider
+``ollama-launch`` (``base_url = "http://localhost:11434/v1/"``, ``wire_api =
+"responses"``), the chosen model and a ``model_catalog_json`` listing your local models
+so that ``/model`` inside Codex can switch between them — and starts Codex with that
+profile. ``ollama launch codex --config`` writes the profile without starting,
+``--restore`` removes it again. Two details: if you sign in with ``ollama signin`` the
+profile can use Ollama's web search from inside Codex, and
 ``codex --profile ollama-launch -c 'web_search="disabled"'`` turns that off for a fully
 local session. The launcher does not set the context length; that still comes from
 ``OLLAMA_CONTEXT_LENGTH`` or the app.
@@ -119,36 +140,32 @@ local provider for ``--oss``:
 
    oss_provider = "lmstudio"        # or "ollama"
    model = "openai/gpt-oss-20b"
+   model_context_window = 65536     # what you loaded; lets Codex compact in time
 
 With that, ``codex --oss`` needs no further flags (without it, the interactive CLI asks
-which provider to use, and ``codex exec`` exits with an error). For more than one setup,
-define providers and profiles:
+which provider to use, and ``codex exec`` exits with an error). The provider IDs
+``lmstudio``, ``ollama`` and ``openai`` are built in and cannot be redefined. A custom
+provider is needed only for a server that is not on ``localhost`` — a GPU box in the
+next room, say:
 
 .. code-block:: toml
 
-   [model_providers.lmstudio]
-   name = "LM Studio"
-   base_url = "http://localhost:1234/v1"
+   [model_providers.ollama-gpu]
+   name = "Ollama on the GPU box"
+   base_url = "http://gpubox.local:11434/v1"
    wire_api = "responses"
 
-   [model_providers.ollama]
-   name = "Ollama"
-   base_url = "http://localhost:11434/v1"
-   wire_api = "responses"
-
-   [profiles.local]
-   model_provider = "lmstudio"
-   model = "openai/gpt-oss-20b"
-
-   [profiles.local-ollama]
-   model_provider = "ollama"
+   [profiles.gpu]
+   model_provider = "ollama-gpu"
    model = "gpt-oss:20b"
+   model_context_window = 65536
 
-Then ``codex --profile local`` or ``codex --profile local-ollama``. ``wire_api =
-"responses"`` is the line that matters: a provider entry without it, or a server that
-only implements Chat Completions, answers Codex's requests with 404. Model names must
-be the server's API identifiers (``ollama ls``, or LM Studio's Developer tab), not display
-names. Command-line flags override the file for a single run.
+Then ``codex --profile gpu``. ``wire_api = "responses"`` is the default and the only value
+Codex accepts: a server that implements only Chat Completions (older llama.cpp, vLLM or
+``mlx_lm`` setups) answers Codex's requests with 404 and cannot be used directly; current
+LM Studio and Ollama serve ``/v1/responses``. Model names must be the server's API
+identifiers (``ollama ls``, or LM Studio's Developer tab), not display names. Command-line
+flags override the file for a single run.
 
 On Linux
 --------
@@ -168,8 +185,21 @@ Troubleshooting
 ---------------
 
 ``404`` on every request
-   The provider speaks Chat Completions only, or the profile lacks ``wire_api =
-   "responses"``. Update the server (Ollama ≥ 0.14, LM Studio ≥ 0.4) and the profile.
+   The server does not implement ``/v1/responses`` (Chat Completions only, or an old
+   version). Update LM Studio or Ollama, or point the profile at a server that does.
+
+A download starts that you did not ask for
+   The built-in Ollama provider pulls a model that is not present locally. Stop it
+   with Ctrl-C, ``ollama pull`` the model you want, and name it with ``-m``.
+
+``stream disconnected before completion: Error rendering prompt with jinja template``
+   The model file's chat template fails on Codex's tool definitions (LM Studio). Use
+   the catalog build of the model (``lms get …``) or override the template in LM Studio's
+   model settings; nothing on the Codex side is wrong.
+
+``stream disconnected … Insufficient Memory`` (Metal) or a CUDA out-of-memory error
+   The model plus KV cache does not fit the GPU. Smaller model or shorter context; on
+   24 GB that means ``gpt-oss:20b``.
 
 The model is reported as missing
    The name is a display label, not the API identifier. Copy it from ``ollama ls`` or
@@ -210,6 +240,7 @@ scripting a research group does every day.
 
 Sources: `LM Studio, Codex integration <https://lmstudio.ai/docs/integrations/codex>`_;
 `Ollama, Codex CLI integration <https://docs.ollama.com/integrations/codex>`_;
+`Codex configuration reference <https://developers.openai.com/codex/config-reference>`_;
 `Ollama library, gpt-oss <https://ollama.com/library/gpt-oss>`_ and
 `qwen3-coder <https://ollama.com/library/qwen3-coder>`_;
 `Codex CLI local mode with Ollama or LM Studio (ynaito.dev) <https://ynaito.dev/en/writing/codex-cli-local-models-oss/>`_.
