@@ -105,6 +105,7 @@
 {% set is_home = page.save_as == 'index.html' %}
 {% set is_about = page.slug == 'about' %}
 {% set is_publications = page.slug == 'publications' %}
+{% set is_glossary = page.slug == 'glossary' %}
 {% set events = page.events if page.events is defined else [] %}
 {% set papers = articles|selectattr('doi', 'defined')|selectattr('category.name', 'equalto', 'publications')|list %}
 <script type="application/ld+json">
@@ -124,12 +125,27 @@
   {% if is_about %}"mainEntity": {"@id": {{ _person_id|tojson }}},{% endif %}
   {% if is_publications %}"mainEntity": {"@id": {{ (url ~ '#papers')|tojson }}},{% endif %}
   {% if events %}"mainEntity": {"@id": {{ (url ~ '#events')|tojson }}},{% endif %}
+  {% if is_glossary %}"mainEntity": {"@id": {{ (url ~ '#terms')|tojson }}},{% endif %}
   "author": {"@id": {{ _person_id|tojson }}},
   "primaryImageOfPage": {"@type": "ImageObject", "url": {{ (M_SOCIAL_IMAGE|format_siteurl)|tojson }}}
   {%- if page.date %}, "datePublished": {{ page.date.isoformat()|tojson }}{% endif %}
   {%- if page.modified %}, "dateModified": {{ page.modified.isoformat()|tojson }}{% elif page.date %}, "dateModified": {{ page.date.isoformat()|tojson }}{% endif %}
  }{% if not is_home %},
  {{ breadcrumbs([('Home', _site), (page.title|striptags, url)]) }}{% endif %}
+ {%- if is_glossary %},
+ {#- one DefinedTerm per <dt id="…">…</dt><dd>…</dd> pair of the glossary page -#}
+ {"@type": "DefinedTermSet",
+  "@id": {{ (url ~ '#terms')|tojson }},
+  "name": {{ (page.hero_title or page.title)|striptags|tojson }},
+  "inLanguage": "en",
+  "hasDefinedTerm": [
+  {%- for chunk in page.content.split('<dt id="')[1:] %}
+   {%- set tid = chunk.split('"', 1)[0] %}
+   {%- set term = chunk.split('>', 1)[1].split('</dt>', 1)[0]|striptags|trim %}
+   {%- set tdesc = chunk.split('<dd>', 1)[1].split('</dd>', 1)[0]|striptags|trim %}
+   {"@type": "DefinedTerm", "@id": {{ (url ~ '#' ~ tid)|tojson }}, "url": {{ (url ~ '#' ~ tid)|tojson }}, "name": {{ term|tojson }}, "description": {{ tdesc|tojson }}, "inDefinedTermSet": {"@id": {{ (url ~ '#terms')|tojson }}}}{% if not loop.last %},{% endif %}
+  {%- endfor %}
+  ]}{% endif %}
  {%- if is_publications and papers %},
  {"@type": "ItemList",
   "@id": {{ (url ~ '#papers')|tojson }},
