@@ -17,7 +17,7 @@ Home
 
         <div class="hero-eyebrow">Independent Principal Investigator · Computational RNA Biology</div>
         <h1>RNA Structure, Function &amp; Design</h1>
-        <span class="m-landing-intro"><p>Much of RNA biology only comes into focus once structure, folding, and molecular context are taken seriously.</p></span>
+        <div class="m-landing-intro"><p>Much of RNA biology only comes into focus once structure, folding, and molecular context are taken seriously.</p></div>
         <div class="hero-links">
           <a href="/research/">Research</a>
           <a href="/publications/">Publications</a>

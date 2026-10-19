@@ -186,8 +186,8 @@ img,svg,video{max-width:100%;height:auto}
 /* mobile navigation (CSS-only :target toggle) */
 @media (max-width:767px){header nav#navigation .m-container>.m-row{flex-wrap:wrap;min-height:56px}
 #m-navbar-brand{flex:1 1 auto}
-#m-navbar-show{display:inline-block;font-size:22px;line-height:56px;color:var(--ink);text-decoration:none}
-#m-navbar-hide{display:none;font-size:20px;line-height:56px;color:var(--ink);text-decoration:none}
+#m-navbar-show{display:inline-block;font-size:22px;line-height:56px;min-width:44px;text-align:center;color:var(--ink);text-decoration:none}
+#m-navbar-hide{display:none;font-size:20px;line-height:56px;min-width:44px;text-align:center;color:var(--ink);text-decoration:none}
 #m-navbar-show:hover,#m-navbar-hide:hover{text-decoration:none}
 #m-navbar-collapse{display:none;flex-basis:100%;padding-bottom:10px}
 #navigation:target #m-navbar-collapse{display:block}
@@ -487,3 +487,5 @@ a{color:#000;text-decoration:underline}}
 /* ---- series note at the top of guide posts ---- */
 .series-note{font-size:.85rem;color:var(--sub);border-left:2px solid var(--border);padding:4px 0 4px 14px;margin:0 0 1.6rem}
 .series-note p{margin:0}
+.article-body p a,.article-body li a,.article-body dd a,.series-note a{text-decoration:underline;text-decoration-color:rgba(0,0,0,.28);text-decoration-thickness:1px;text-underline-offset:2px}
+.article-body p a:hover,.article-body li a:hover,.article-body dd a:hover,.series-note a:hover{text-decoration-color:currentColor}

@@ -192,7 +192,7 @@
   "publisher": {"@id": {{ _person_id|tojson }}},
   "isPartOf": {"@type": "Blog", "@id": {{ blog_url|tojson }}, "name": {{ (M_BLOG_NAME or SITENAME)|tojson }}},
   "inLanguage": {{ (article.lang or DEFAULT_LANG or 'en')|tojson }},
-  {% if article.category %}"articleSection": {{ article.category|string|tojson }},{% endif %}
+  {% if article.category %}"articleSection": {{ (M_CATEGORY_LABELS or {}).get(article.category.name, article.category|string)|tojson }},{% endif %}
   {% if article.tags %}"keywords": {{ article.tags|map('string')|join(', ')|tojson }},{% endif %}
   {% if article.doi %}"about": {"@id": {{ ('https://doi.org/' ~ article.doi)|tojson }}},
   "citation": {"@id": {{ ('https://doi.org/' ~ article.doi)|tojson }}},{% endif %}
