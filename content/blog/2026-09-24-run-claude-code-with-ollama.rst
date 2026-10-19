@@ -1,8 +1,8 @@
-Run Claude Code with Ollama on macOS and Linux
-##############################################
+Run Claude Code with Ollama on macOS, Linux and Windows
+#######################################################
 
 :date: 2026-09-24
-:modified: 2026-10-18
+:modified: 2026-10-19
 :tags: AI; tools
 :category: howto
 :section: guides
@@ -18,10 +18,10 @@ Run Claude Code with Ollama on macOS and Linux
 
    Local AI coding tools, a short series: :link-flat:`Claude Code with LM Studio <{filename}/blog/2026-04-17-run-claude-code-with-local-llm-macos-qwen3.rst>` · Claude Code with Ollama (this post) · :link-flat:`Codex CLI with a local model <{filename}/blog/2026-09-24-codex-cli-local-model-lm-studio-ollama.rst>`
 
-Since Ollama 0.14.0 (January 2026) the Ollama server answers Anthropic's Messages API
-on ``http://localhost:11434/v1/messages``. Claude Code therefore works against it with
-two environment variables, on a Mac or on a Linux box with an NVIDIA or AMD GPU. The
-setup is shorter than the :link-flat:`LM Studio variant <{filename}/blog/2026-04-17-run-claude-code-with-local-llm-macos-qwen3.rst>`;
+Claude Code runs against Ollama with two environment variables, because since Ollama
+0.14.0 (January 2026) the Ollama server answers Anthropic's Messages API on
+``http://localhost:11434/v1/messages``: on a Mac, on a Linux box with an NVIDIA or AMD
+GPU, or on Windows. The setup is shorter than the :link-flat:`LM Studio variant <{filename}/blog/2026-04-17-run-claude-code-with-local-llm-macos-qwen3.rst>`;
 the one thing that regularly goes wrong is the context length, which Ollama picks
 from your GPU memory and which is far too small by default on most machines. Revised in
 October 2026: all commands re-run with Ollama 0.40 and Claude Code 2.1.302, on a 24 GB
@@ -96,6 +96,12 @@ a terminal as above. On Linux with the systemd service, add the variable to the 
    # Environment="OLLAMA_CONTEXT_LENGTH=32768"
    sudo systemctl restart ollama
 
+On Windows, Ollama runs from the system tray and reads the variable from your account's
+environment: quit Ollama, open *Edit environment variables for your account* (search
+for "environment variables" in Settings), add ``OLLAMA_CONTEXT_LENGTH`` with the value
+``32768``, and start Ollama again from the Start menu. I have not run the Windows setup
+myself; this follows Ollama's documentation.
+
 Verify with ``ollama ps``: the ``CONTEXT`` column must show 32768 (or more) once a
 model is loaded. Ollama's own recommendation for coding agents is 64K; use it when the
 memory allows, 32K is the floor at which Claude Code works.
@@ -112,6 +118,10 @@ Step 3: Point Claude Code at Ollama
    export ANTHROPIC_DEFAULT_OPUS_MODEL=qwen3-coder
    export CLAUDE_CODE_MAX_CONTEXT_TOKENS=32768    # the context you set on the server
    claude --model qwen3-coder
+
+In PowerShell the same lines read ``$env:ANTHROPIC_BASE_URL = "http://localhost:11434"``
+and so on; or put them in ``.claude/settings.json`` as shown below, which is identical on
+every platform.
 
 ``CLAUDE_CODE_MAX_CONTEXT_TOKENS`` matters since Claude Code 2.1.193: for a model name it
 does not know it assumes a 200K window (and says so with a

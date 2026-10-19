@@ -210,7 +210,6 @@ REDIRECTS = {
     '/publications/papers/Functional_RNA_Structures_in_the_3UTR_of_Tick-Borne_Insect-Specific_and_No_Known_Vector_Flaviviruses/': '/blog/2019/Functional_RNA_Structures_in_the_three_prime_UTR_of_Flaviviruses/',
     '/publications/papers/Genomic_Epidemiology_of_Superspreading_Events_in_Austria_Reveals_Mutational_Dynamics_and_Transmission_Properties_of_SARS-CoV-2/': '/blog/2020/genomic-epidemiology-sars-cov-2-austria/',
     # drafts and hidden posts that were removed; the nearest published post on the topic
-    '/blog/2026/How-to-Interpret-SHAPE-and-Chemical-Probing-Data-for-RNA-Structure-Decisions/': '/blog/2015/SHAPE-directed-RNA-folding/',
     '/blog/2022/When-SHAPE-Data-Actually-Improves-RNA-Structure-Prediction/': '/blog/2015/SHAPE-directed-RNA-folding/',
     '/blog/2025/Why-Kinetic-Folding-Matters-in-RNA-Design/': '/blog/2025/kinpfn-rna-folding-kinetics/',
     '/blog/2026/When-to-trust-RNA-structure-prediction-for-experimental-decisions/': '/blog/2021/Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction/',

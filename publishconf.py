@@ -16,7 +16,8 @@ RELATIVE_URLS = False
 # The stylesheet list is the same as in pelicanconf.py (relaunch theme); no override here.
 
 FEED_DOMAIN = SITEURL
-FEED_ALL_ATOM = 'feeds/all.atom.xml'   # same file as before; this name is the one base.html advertises
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_MAX_ITEMS = 20   # the feed carried the full text of every post (575 KB)   # same file as before; this name is the one base.html advertises
 #FEED_ALL_ATOM = 'feeds/all.atom.xml'
 #CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
