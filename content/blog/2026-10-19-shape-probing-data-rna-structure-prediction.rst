@@ -7,48 +7,47 @@ SHAPE and chemical probing data in RNA structure prediction
 :section: guides
 :slug: How-to-Interpret-SHAPE-and-Chemical-Probing-Data-for-RNA-Structure-Decisions
 :title: SHAPE and chemical probing data in RNA structure prediction: how to fold with reactivities in ViennaRNA
-:summary: Chemical probing reports on nucleotide flexibility, not on base pairs. This tutorial shows how SHAPE reactivities enter RNAfold as soft constraints, what the three methods in ViennaRNA do with them, and, on a yeast tRNA as the worked example, what the data change in a prediction and what they leave alone.
+:summary: How SHAPE reactivities go into RNAfold, what the three methods in ViennaRNA do with them, and what probing data change in a prediction and what they do not. Worked example with yeast tRNA-Phe, all commands included.
 :description: How to use SHAPE and chemical probing reactivities in RNAfold: the input format, the Deigan, Zarringhalam and Washietl methods, and what the data change.
 
 .. role:: link-flat(link)
   :class: m-flat m-text
 
-For yeast tRNA-Phe, RNAfold's minimum free energy structure is the correct cloverleaf, but
-the thermodynamic model gives that structure only six percent of the Boltzmann ensemble.
-The model is missing information, and chemical probing supplies some of it. This post
-shows how SHAPE reactivities are given to RNAfold, what the three available methods do
-with them, and, the part that matters most in practice, what the data change and what they
-leave as they were. All outputs are from ViennaRNA 2.7.2.
+Chemical probing experiments such as SHAPE give you one number per nucleotide, and the
+question I get asked most often about them is how these numbers go into RNAfold and what
+they actually do to a prediction. This post is a hands-on answer. I use yeast tRNA-Phe as
+the example because everybody knows the cloverleaf, and I go through the three ways
+ViennaRNA has to fold with probing data. All commands were run with ViennaRNA 2.7.2, and
+copy and paste should reproduce every output shown here.
 
 What SHAPE measures
 -------------------
 
-SHAPE (selective 2′-hydroxyl acylation analysed by primer extension) treats the RNA with a
-reagent that reacts with the 2′-OH of flexible nucleotides. Nucleotides held in a helix
-react little; nucleotides in loops, bulges and unstructured regions react more. Reading the
-reaction sites out by reverse transcription gives one number per nucleotide, the
-reactivity, usually normalised so that most values lie between 0 and about 2. DMS and
-other probing chemistries deliver the same kind of per-nucleotide profile and enter RNAfold
-the same way.
+SHAPE (selective 2'-hydroxyl acylation analyzed by primer extension) uses a reagent that
+modifies the 2'-OH of flexible nucleotides. Nucleotides in a helix are modified rarely,
+nucleotides in loops, bulges and unstructured regions more often. Reverse transcription
+stops at the modified positions, and counting the stops gives a reactivity for every
+nucleotide, usually normalized such that most values fall between 0 and about 2.
 
-Two properties of these numbers decide how they should be used. First, a reactivity is not
-a pairing state: a low value says "probably constrained", not "paired with position j"; a
-high value says "flexible", which includes unpaired bases, bases in weak or dynamic pairs,
-and some bases at helix ends. Second, the values are noisy and their scale depends on the
-experiment. So the data are best used to *shift* the energy model rather than to dictate
-pairs. That is what all three methods in ViennaRNA do; they differ in how the shift is
-computed.
+Two things about these numbers are important. A reactivity is not a pairing state. A low
+value means the nucleotide is constrained somehow, not that it pairs with a particular
+partner; a high value means flexible, which is true for unpaired bases but also for bases
+in weak or dynamic pairs and at helix ends. And the values are noisy, with a scale that
+depends on the experiment. For these reasons ViennaRNA does not use reactivities to fix
+base pairs. It uses them to modify the energy model, as soft constraints, and the three
+methods implemented in RNAfold differ in how exactly they do that.
 
-The sequence and the baseline
------------------------------
+The example and the starting point
+----------------------------------
+
+Put the sequence of yeast tRNA-Phe in a FASTA file ``tRNA.fa``:
 
 .. code-block:: text
 
    >tRNA-Phe
    GCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
 
-Save this as ``tRNA.fa``. Without data, ``RNAfold -p`` gives the cloverleaf as the minimum
-free energy (MFE) structure and shows how weakly the model supports it:
+``RNAfold -p`` gives the MFE structure together with the ensemble properties:
 
 .. code-block:: bash
 
@@ -57,20 +56,24 @@ free energy (MFE) structure and shows how weakly the model supports it:
 .. code-block:: text
 
    (((((((..((((........)))).(((((.......))))).....(((((.......)))))))))))).... (-22.40)
+   (((((({...,(({{{{,({.,,,,.||,||}}},.,.||||..||||,,{{{...,,}}}})))))))))).... [-24.13]
    (((((((.....(((................)))...............................))))))).... { -3.01 d=16.21}
     frequency of mfe structure in ensemble 0.060652; ensemble diversity 23.38
 
-The first line is the MFE structure, the second the centroid of the ensemble (with its
-mean base-pair distance to the ensemble), the third the share of the ensemble the MFE
-structure has and the ensemble diversity. A frequency of 0.06 and a centroid with three
-pairs mean that the model considers many alternative folds almost as good as the
-cloverleaf. ``-p`` also writes ``tRNA-Phe_dp.ps``, the dot plot with every pair
-probability.
+The first line is the MFE structure, the cloverleaf. The second line gives the ensemble
+free energy, with symbols that code the pair probabilities. The third line is the centroid
+structure, here with three base pairs. The last line says that the MFE structure has a
+frequency of only 6% in the Boltzmann ensemble, and an ensemble diversity of 23 is huge
+for a 76 nt RNA. In other words, the energy model considers lots of alternatives nearly
+as good as the cloverleaf, and this is exactly the situation where probing data help.
+Note that ``-p`` also writes the dot plot ``tRNA-Phe_dp.ps`` with all pair probabilities;
+``--noPS`` only suppresses the structure drawing. I will use the dot plot below.
 
-The input file
---------------
+The input format
+----------------
 
-One line per nucleotide: position (1-based), the nucleotide, the reactivity.
+RNAfold expects one line per nucleotide with position (1-based), nucleotide and
+reactivity:
 
 .. code-block:: text
 
@@ -81,21 +84,20 @@ One line per nucleotide: position (1-based), the nucleotide, the reactivity.
    5 A 0.13
    ...
 
-Positions without a measurement can be left out; RNAfold treats them as having no data.
-Most probing pipelines (ShapeMapper, RNAFramework, QuShape) write this format or
-something a one-line ``awk`` turns into it.
+Positions without data can be omitted; RNAfold then simply has no information for them.
+Whatever your probing pipeline produces, a few lines of ``awk`` bring it into this form.
 
-**About the data in this post.** I do not have a SHAPE profile for this exact sequence at
-hand, and the point of the post is the mechanics, so the profile used below is
-*illustrative*: it was generated from the known cloverleaf by giving unpaired positions
-uniformly random reactivities between 0.7 and 1.6 and paired positions values between 0
-and 0.25. Real data are noisier and less clean at helix ends. Everything the commands show
-about how the program behaves holds for real data; the specific numbers do not. The file
-is :link-flat:`tRNA-Phe.shape <{static}/files/tutorials/tRNA-Phe.shape>` if you want to
-run the commands as they stand; save it as ``tRNA.shape``.
+A word on the data used here. I do not have a SHAPE profile for this particular sequence,
+and this post is about the mechanics, not about a specific experiment. The profile I use
+is therefore synthetic: I took the known cloverleaf and assigned uniformly random
+reactivities between 0.7 and 1.6 to unpaired positions and between 0 and 0.25 to paired
+positions. Real data are noisier, in particular at helix ends. The behavior of the
+programs is the same for real data, the numbers are not. The file is
+:link-flat:`tRNA-Phe.shape <{static}/files/tutorials/tRNA-Phe.shape>`; save it as
+``tRNA.shape`` to run the commands below.
 
-Method D (Deigan): a per-nucleotide energy bonus or penalty
------------------------------------------------------------
+Method D (Deigan): pseudo-energies for stacked pairs
+----------------------------------------------------
 
 .. code-block:: bash
 
@@ -105,18 +107,16 @@ Method D (Deigan): a per-nucleotide energy bonus or penalty
 
    (((((((..((((........)))).(((((.......))))).....(((((.......)))))))))))).... (-48.64)
 
-This is ViennaRNA's default method and the one to start with. Each reactivity *r* is turned
-into a pseudo-energy ΔG(r) = m · ln(r + 1) + b, with m = 1.8 and b = −0.6 kcal/mol by
-default (Deigan et al. 2009), and that term is added for every nucleotide that takes part
-in a stacked pair. A low reactivity gives a negative term, a bonus for pairing; a high
-reactivity gives a positive term, a penalty. The folding algorithm is unchanged; only the
-energies it sums are.
+This is the default method. Each reactivity *r* is converted into a pseudo-energy
+ΔG(r) = m · ln(r + 1) + b with m = 1.8 and b = −0.6 kcal/mol (Deigan et al. 2009), and
+this term is added for every nucleotide that is part of a stacked pair. Low reactivities
+give a negative contribution, i.e. a bonus for pairing, high reactivities a penalty. The
+recursions of the folding algorithm stay the same, only the energies change.
 
-Two consequences follow. The energy printed, −48.64, is no longer a physical free energy:
-it includes the pseudo-energies and cannot be compared with the −22.40 from the
-unconstrained run. And the structure is the cloverleaf, as before; the data did not change
-the answer. What they changed is how well supported it is, which the partition function
-shows:
+Note that the energy printed, −48.64, is not a free energy anymore. It contains the
+pseudo-energies and must not be compared with the −22.40 of the unconstrained prediction.
+The structure is the same cloverleaf as before, so the data did not change the MFE
+prediction at all. What they did change becomes visible with the partition function:
 
 .. code-block:: bash
 
@@ -129,21 +129,20 @@ shows:
    (((((((..((((........)))).(((((.......))))).....(((((.......)))))))))))).... {-48.64 d=0.56}
     frequency of mfe structure in ensemble 0.49869; ensemble diversity 0.88
 
-Without data: MFE frequency 0.06, diversity 23.4, a centroid with three pairs. With data:
-MFE frequency 0.50, diversity 0.88, and the centroid is the cloverleaf itself. In the dot
-plot, 20 of the 21 pairs of the cloverleaf now have probabilities of 0.98 or higher. The
-exception is the terminal pair of the T stem, 49–65, at 0.39: a terminal pair next to the
-multiloop takes part in only one stack and so receives the smallest share of the
-pseudo-energy. The prediction did not move; the ensemble collapsed onto it.
+Before: MFE frequency 0.06, diversity 23.4, a centroid with three pairs. After: MFE
+frequency 0.50, diversity 0.88, and the centroid is the cloverleaf. In the dot plot, 20 of
+the 21 cloverleaf pairs now have a probability above 0.98; the one exception is 49-65,
+the closing pair of the T stem next to the multiloop, at 0.97. So the data did not move
+the prediction, they removed the alternatives.
 
-The slope and intercept can be changed, for instance ``--shapeMethod="Dm1.9b-0.7"``, or one
-of them alone (``"Dm1.9"``, ``"Db-0.7"``). A larger m makes the data weigh more against
-the thermodynamic model. Unless you have calibrated your own experiment, keep the defaults;
-they were fitted to normalised reactivities on a 0–2 scale, and data on a different scale
-should be rescaled rather than compensated with m.
+Slope and intercept can be changed, e.g. ``--shapeMethod="Dm1.9b-0.7"``, or individually
+(``"Dm1.9"``, ``"Db-0.7"``). A larger slope gives the data more weight relative to the
+energy model. I would leave the defaults alone unless you have calibrated your own
+experiment. They were fitted for normalized reactivities on a 0–2 scale; data on a
+different scale should be rescaled, not compensated with m.
 
-Method Z (Zarringhalam): penalise deviation from the data
----------------------------------------------------------
+Method Z (Zarringhalam): penalize deviations from the data
+----------------------------------------------------------
 
 .. code-block:: bash
 
@@ -153,25 +152,26 @@ Method Z (Zarringhalam): penalise deviation from the data
 
    (((((((..((((........)))).(((((.......))))).....(((((.......)))))))))))).... (-14.30)
 
-Here the reactivities are first converted into a probability of being unpaired, and the
-recursion is then penalised for every nucleotide whose predicted state deviates from that
-probability. The strength of the penalty is set with ``--shapeMethod="Zb0.8"`` (β, default
-0.89). The conversion from reactivity to probability is chosen with ``--shapeConversion``:
-the default ``O`` fits a linear model to the logarithm of the reactivity; ``C0.25`` simply
-calls everything above 0.25 unpaired; ``S`` skips the conversion if your file already
-contains unpaired probabilities. For this profile Z gives the cloverleaf as well, with an
-energy that again contains penalty terms and is not a free energy. With ``-p`` the MFE
-structure has a frequency of 0.88 and the diversity is 0.27: on this clean profile Z
-narrows the ensemble even further than D.
+Here the reactivities are first converted into probabilities of being unpaired, and the
+recursion is penalized for every nucleotide whose predicted state deviates from that
+probability. The weight of the penalty is β, default 0.89, set with
+``--shapeMethod="Zb0.8"``. The conversion from reactivity to probability is selected with
+``--shapeConversion``: the default ``O`` fits a linear model to the log reactivities,
+``C0.25`` calls everything above 0.25 unpaired, and ``S`` skips the conversion if the
+file already contains unpaired probabilities. For our profile the result is again the
+cloverleaf, with an energy that includes penalty terms and is not a free energy. With
+``-p``, the MFE frequency is 0.88 and the diversity 0.27, i.e. on this clean profile Z
+narrows the ensemble even more than D.
 
-Method W (Washietl): a perturbation vector, computed first
-----------------------------------------------------------
+Method W (Washietl): a perturbation vector
+------------------------------------------
 
-Method W is different in kind. It does not convert reactivities on the fly; it expects a
-*perturbation vector*, a small energy correction for every nucleotide, chosen so that the
-predicted unpaired probabilities agree with the data as well as possible while changing the
-energy model as little as possible. That vector is computed by a separate program,
-``RNApvmin``, which solves an optimisation problem:
+W works differently. It does not convert reactivities on the fly but expects a
+*perturbation vector*, a small energy correction per nucleotide, chosen such that the
+predicted unpaired probabilities match the data as well as possible while the energy
+model is changed as little as possible. This vector is computed with ``RNApvmin``, which
+solves the corresponding optimization problem (progress goes to stderr, the vector to
+stdout):
 
 .. code-block:: bash
 
@@ -182,25 +182,26 @@ energy model as little as possible. That vector is computed by a separate progra
 
    (((((((..((((........)))).(((((.......))))).....(((((.......)))))))))))).... (-24.44)
 
-The perturbation vector for this profile holds corrections between −0.20 and +0.14
-kcal/mol per nucleotide, most of them far smaller, and the result is the cloverleaf with an
-energy close to the thermodynamic one; with ``-p`` the MFE frequency is 0.33 and the
-diversity 8.9, so W intervenes least of the three. If you pass raw reactivities to
-``--shapeMethod=W`` by mistake, RNAfold interprets them as energies and returns nonsense,
-a mistake easy to make and easy to recognise, because the resulting structure bears no
-relation to the data.
+For our profile the corrections are between about −0.2 and +0.15 kcal/mol, most of them
+much smaller, and RNAfold gives the cloverleaf with an energy close to the thermodynamic
+one. The minimization in ``RNApvmin`` does not end in exactly the same vector on repeated
+runs, so expect the second decimal to differ; in three runs I got −24.44 to −24.55. With
+``-p`` the MFE frequency is about 0.33 and the diversity between 8 and 9, so W is the
+least invasive of the three methods here. If you pass raw reactivities to ``--shapeMethod=W`` by
+mistake, RNAfold reads them as energies and the result is garbage. The structure then has
+nothing to do with the data, which makes the error easy to spot.
 
-Which method to use? D is the default, the fastest and the most widely used; Z and W are
-worth trying when you want to see how sensitive the result is to the way the data enter
-the model. If the three agree, the conclusion is robust to that choice. If they disagree,
-the data are not decisive for that region, which is itself worth knowing.
+Which method? D is the default, the fastest and the most widely used. Z and W are useful
+to see how much the result depends on the way the data enter the model. If all three
+agree, the conclusion does not depend on this choice. If they disagree, the data are not
+decisive for that region.
 
 What the data change, and what they do not
 ------------------------------------------
 
-Three small experiments make the behaviour concrete.
+Three small experiments show what probing data do and what they do not do.
 
-**Partial data.** Suppose only the anticodon loop, positions 32–38, was probed:
+**Partial data.** Assume only the anticodon loop, positions 32–38, was probed:
 
 .. code-block:: bash
 
@@ -211,12 +212,12 @@ Three small experiments make the behaviour concrete.
 
    (((((((..((((........)))).(((((.......))))).....(((((.......)))))))))))).... (-22.40)
 
-Nothing changes, and the energy is the thermodynamic one, because the data agree with the
-MFE structure at those positions and no other position received a term. Probing data only
-act where they exist and only where they disagree with what the model would do anyway.
+Nothing changes, and the energy is the thermodynamic one: the data agree with the MFE
+structure at these positions, and no other position got a pseudo-energy term. Probing
+data act only where they exist, and only where they contradict the model.
 
-**Data that contradict the model.** Now set the reactivities of positions 1–7, the 5′ side
-of the acceptor stem, to 1.2, as if those nucleotides had been found flexible:
+**Contradicting data.** Now set the reactivities of positions 1–7, the 5' side of the
+acceptor stem, to 1.2, as if these nucleotides had been found flexible:
 
 .. code-block:: bash
 
@@ -225,43 +226,65 @@ of the acceptor stem, to 1.2, as if those nucleotides had been found flexible:
 
 .. code-block:: text
 
-   (((......((((........)))).(((((.......))))).....(((((.......)))))....))).... (-34.29)
+   (((((((..((((........)))).(((((.......))))).....(((((.......)))))))))))).... (-34.29)
+   (((({{...((((........)))).(((((.....,.))))).....(((((.......))))),}})))).... [-35.46]
    ((((((...((((........)))).(((((.......))))).....(((((.......))))).)))))).... {-34.07 d=2.18}
     frequency of mfe structure in ensemble 0.149346; ensemble diversity 3.04
 
-The acceptor stem shrinks from seven pairs to three in the MFE structure. Positions 1–3
-still pair despite their high reactivity, because the stacking energy of those three GC
-pairs outweighs the penalty; and the centroid keeps six of the seven pairs, with the MFE
-structure at 15 percent of the ensemble. This is what "soft constraint" means: the data
-argue with the energy model, either side can win, and the ensemble shows how close the
-contest was. A stronger slope, ``--shapeMethod="Dm2.6b-0.8"``, removes the acceptor stem
-entirely. Hard constraints, which force positions to be unpaired (``RNAfold -C`` with a
-constraint string), are a different tool for a different question.
+The MFE structure is still the cloverleaf. A penalty of about 0.8 kcal/mol for every
+stack one of the nucleotides 1–7 takes part in is not enough to break a stem of seven
+pairs, three of them GC. The ensemble, however, has
+changed a lot: the MFE frequency drops from 0.50 to 0.15, the diversity rises from 0.88
+to 3.0, and the centroid has lost the pair 7-66. In the dot plot the acceptor stem pairs
+now have probabilities of 0.96, 0.97, 0.93, 0.73, 0.64, 0.53 and 0.31 from the outside
+in, down from 0.99 or better; the three other stems stay at 1.00. ``RNAsubopt`` shows the
+alternatives the data have pulled up:
 
-**Consistent data.** As shown above, a profile consistent with the MFE structure leaves the
-structure where it is and removes the alternatives from the ensemble. This is the common
-case with good data on a well-folded RNA, and it is the useful one: probing turns "the MFE
-structure, with 6 % support" into "the MFE structure, with half the ensemble behind it and
-every pair but one above 0.98", which is the statement an experiment can be planned on.
+.. code-block:: bash
+
+   RNAsubopt -e 0.5 --shape=contra.shape --shapeMethod=D < tRNA.fa
+
+.. code-block:: text
+
+   >tRNA-Phe [50]
+   GCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA -34.29   0.50
+   (((......((((........)))).(((((.......))))).....(((((.......)))))....))).... -33.95
+   ((((((...((((........)))).(((((.......))))).....(((((.......))))).)))))).... -34.07
+   (((((((..((((........)))).(((((.......))))).....(((((.......)))))))))))).... -34.29
+   (((((((..((((........)))).((((((....).))))).....(((((.......)))))))))))).... -33.99
+
+A structure with only the three GC pairs of the acceptor stem is 0.34 kcal/mol above the
+optimum; without the data it is 3.5 kcal/mol above. This is what soft constraints are:
+data and energy model pull in different directions, and the result is a shift in
+probabilities before it is a different structure. If you look at the MFE structure alone
+you miss this completely. A larger slope, ``--shapeMethod="Dm2.6b-0.8"``, removes the
+acceptor stem from the MFE structure altogether. If you want to force positions to be
+unpaired, use hard constraints (``RNAfold -C``), which is a different question.
+
+**Consistent data.** This is the case shown above with the full profile, and the common
+case with good data on a well-folded RNA: the structure stays, the alternatives disappear
+from the ensemble. Instead of "the MFE structure with 6% support" you get "the MFE
+structure with half the ensemble behind it and 20 of 21 pairs above 0.98". That is a
+statement you can base an experiment on.
 
 Practical notes
 ---------------
 
-- Normalise reactivities before use (the usual 2–8 % rule, or whatever your pipeline
-  applies), and look at the distribution: a profile with almost all values near zero, or
-  with a long tail above 3, is telling you about the experiment rather than the RNA.
-- Reactivities measured in cells report on the RNA in its cellular context: bound
-  proteins, ribosomes, ions. Folding such data with a model of the naked RNA is legitimate,
-  but the result describes what a protein-free RNA with those constraints would do, not the
-  cellular structure itself.
-- Always run the partition function with the data. The MFE structure alone hides the main
-  effect, which is on the probabilities.
-- Report which method and parameters you used; the energies are not comparable across
+- Normalize reactivities before use (the usual 2–8% rule, or whatever your pipeline
+  does) and look at the distribution. A profile with almost all values near zero, or with
+  a long tail above 3, tells you something about the experiment rather than the RNA.
+- Reactivities measured in cells report on the RNA in its cellular context, with bound
+  proteins, ribosomes and ions. Folding such data with a model of the naked RNA is
+  legitimate, but the result describes what a protein-free RNA with these constraints
+  would do, not the structure in the cell.
+- Always run the partition function with the data. The MFE structure alone hides the
+  main effect, which is on the probabilities.
+- Report which method and parameters you used. The energies are not comparable across
   methods or with unconstrained folding.
 - Keep the comparison to the unconstrained prediction. The regions where the data changed
-  the structure are the regions where the thermodynamic model was uncertain; those are also
-  the regions where the conclusion rests on the experiment, and where a second experiment
-  is most informative.
+  the structure are the regions where the thermodynamic model was uncertain. These are
+  also the regions where your conclusion rests on the experiment, and where a second
+  experiment is most informative.
 
 Further reading
 ---------------
