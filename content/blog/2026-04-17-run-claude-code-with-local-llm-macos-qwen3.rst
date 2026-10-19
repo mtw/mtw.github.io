@@ -2,7 +2,7 @@ Connect Claude Code to LM Studio: local LLM setup on Apple Silicon
 ##################################################################
 
 :date: 2026-04-17
-:modified: 2026-10-18
+:modified: 2026-10-19
 :tags: AI; tools
 :category: howto
 :section: guides
@@ -18,12 +18,12 @@ Connect Claude Code to LM Studio: local LLM setup on Apple Silicon
 
    Local AI coding tools, a short series: Claude Code with LM Studio (this post) · :link-flat:`Claude Code with Ollama <{filename}/blog/2026-09-24-run-claude-code-with-ollama.rst>` · :link-flat:`Codex CLI with a local model <{filename}/blog/2026-09-24-codex-cli-local-model-lm-studio-ollama.rst>`
 
-Claude Code can talk to any server that speaks Anthropic's Messages API, and since
-version 0.4.1 (January 2026) LM Studio serves exactly that on ``localhost:1234``. Two
-environment variables point Claude Code at it; no proxy, no provider file, no
-translation layer. This guide covers the setup on a Mac with Apple Silicon, how to
-choose a model and context length that actually work with an agent, and the failure
-modes I ran into. It was first written in April 2026 and revised in September and
+Claude Code connects to LM Studio with two environment variables, ``ANTHROPIC_BASE_URL``
+and ``ANTHROPIC_AUTH_TOKEN``, because LM Studio has served Anthropic's Messages API on
+``localhost:1234`` since version 0.4.1 (January 2026): no proxy, no provider file, no
+translation layer. This guide covers the setup on a Mac with Apple Silicon (with notes
+for Windows and Linux), how to choose a model and context length that actually work with
+an agent, and the failure modes I ran into. It was first written in April 2026 and revised in September and
 October 2026; every command below was re-run in October 2026 with LM Studio 0.4.16 and
 Claude Code 2.1.302.
 
@@ -176,6 +176,40 @@ projects):
 
 A settings-file value wins over a shell export of the same variable, which is worth
 remembering when a session ignores what you just exported.
+
+On Windows and Linux
+====================
+
+The server side and the variables are the same; what differs is how the variables are
+set. I have run this on macOS only; the notes below follow LM Studio's and Claude Code's
+documentation.
+
+- LM Studio has Windows and Linux builds with the same ``lms`` commands and the same
+  port. On Linux the model runs through CUDA or Vulkan, and the memory figures above
+  apply to the graphics card's memory rather than to unified memory.
+- Claude Code installs natively on Windows 10 (1809) or newer from PowerShell with
+  ``irm https://claude.ai/install.ps1 | iex`` or ``winget install Anthropic.ClaudeCode``;
+  Git for Windows is recommended so that the agent has a Bash tool. In PowerShell the
+  exports become
+
+  .. code-block:: powershell
+
+     $env:ANTHROPIC_BASE_URL = "http://localhost:1234"
+     $env:ANTHROPIC_AUTH_TOKEN = "lmstudio"
+     $env:ANTHROPIC_DEFAULT_HAIKU_MODEL = "qwen-local"
+     $env:ANTHROPIC_DEFAULT_SONNET_MODEL = "qwen-local"
+     $env:ANTHROPIC_DEFAULT_OPUS_MODEL = "qwen-local"
+     $env:CLAUDE_CODE_MAX_CONTEXT_TOKENS = "32768"
+     claude --model qwen-local
+
+  and last for that window. The ``settings.json`` above is identical on every platform
+  (``%USERPROFILE%\.claude\settings.json`` for all projects) and is the better choice on
+  Windows, because it sidesteps the shell question.
+- Claude Code inside WSL with LM Studio on the Windows side: ``localhost`` in WSL 2 is
+  not the Windows host unless WSL's mirrored networking mode is on
+  (``networkingMode=mirrored`` in ``.wslconfig``). Otherwise enable *Serve on Local
+  Network* in LM Studio's server settings and put the Windows host's address in
+  ``ANTHROPIC_BASE_URL``. Installing Claude Code natively on Windows avoids this.
 
 Step 4: Work
 ------------
