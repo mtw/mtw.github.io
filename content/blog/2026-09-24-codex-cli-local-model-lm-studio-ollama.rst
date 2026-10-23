@@ -6,6 +6,7 @@ Run OpenAI Codex CLI with a local model (LM Studio or Ollama)
 :tags: AI; tools
 :category: howto
 :section: guides
+:bridge: tools
 :slug: codex-cli-local-model-lm-studio-ollama
 :title: Codex CLI with a local model: LM Studio and Ollama setup, models, troubleshooting
 :summary: Codex CLI has a built-in local mode. This guide covers the flag and the config profile, which local models work for agentic coding and what they need, Ollama's one-command launcher, Linux GPU notes, and the errors you will meet.

@@ -99,6 +99,21 @@
   </div>
   {% endif %}
 
+  {#- Author note: one factual sentence pointing to the training page on rnaforecast.com,
+      switched on per post with ":bridge: rna" or ":bridge: tools". No price, no pitch. -#}
+  {% if article.bridge in ('rna', 'tools') %}
+  {% set bridge_url = 'https://rnaforecast.com/training/?utm_source=michaelwolfinger.com&utm_medium=author-note&utm_campaign=' ~ article.slug %}
+  <div class="article-body" style="padding-top:0">
+    <aside class="author-note" aria-label="Author note">
+      {% if article.bridge == 'rna' %}
+      <p>Michael T. Wolfinger works on computational RNA biology. A hands-on ViennaRNA training is in preparation at RNA Forecast; <a href="{{ bridge_url|e }}#viennarna">the waitlist is open</a>.</p>
+      {% else %}
+      <p>A workshop on local AI coding tools for research groups is in preparation at RNA Forecast; <a href="{{ bridge_url|e }}#waitlist">join the list</a>.</p>
+      {% endif %}
+    </aside>
+  </div>
+  {% endif %}
+
   <div class="article-footer">
     {% if article.tags %}
     <div class="tag-row">
