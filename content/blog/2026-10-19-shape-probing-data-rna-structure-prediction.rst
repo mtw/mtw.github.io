@@ -5,6 +5,7 @@ SHAPE and chemical probing data in RNA structure prediction
 :tags: ViennaRNA; SHAPE; RNA structure prediction; tools
 :category: howto
 :section: guides
+:bridge: rna
 :slug: How-to-Interpret-SHAPE-and-Chemical-Probing-Data-for-RNA-Structure-Decisions
 :title: SHAPE and chemical probing data in RNA structure prediction: how to fold with reactivities in ViennaRNA
 :summary: How SHAPE reactivities go into RNAfold, what the three methods in ViennaRNA do with them, and what probing data change in a prediction and what they do not. Worked example with yeast tRNA-Phe, all commands included.

@@ -183,7 +183,7 @@ DEFAULT_PAGINATION = 5
 REDIRECTS = {
     # former commercial pages: the offers live on rnaforecast.com
     '/services/': 'https://rnaforecast.com/',
-    '/services/workshops/': 'https://rnaforecast.com/',
+    '/services/workshops/': 'https://rnaforecast.com/training/',
     '/consulting/': 'https://rnaforecast.com/',
     # merged tags
     '/blog/tag/virology.html': '/blog/tag/virus-bioinformatics.html',
