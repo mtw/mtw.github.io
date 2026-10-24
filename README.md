@@ -12,9 +12,7 @@ through `pyproject.toml`.
 - `pelicanconf.py`: local development settings; `publishconf.py`: production settings
 - `scripts/`: the publish-time minification step
 - `tests/`: site tests (build, internal links, live URLs, content metadata)
-- `tools/`: source of the social-card images (`og-cards-source.html`) and `analytics_report.py`
-  (GA4 + Search Console summary; needs `pip install -e ".[analytics]"` and a service-account key
-  outside the repository, see the script docstring)
+- `tools/`: source of the social-card images (`og-cards-source.html`) and other scripts
 - `.github/workflows/build-deploy.yml`: build, test and GitHub Pages deployment
 
 ## Local Development
