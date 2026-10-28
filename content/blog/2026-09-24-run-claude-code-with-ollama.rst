@@ -22,7 +22,8 @@ Run Claude Code with Ollama on macOS, Linux and Windows
 Claude Code runs against Ollama with two environment variables, because since Ollama
 0.14.0 (January 2026) the Ollama server answers Anthropic's Messages API on
 ``http://localhost:11434/v1/messages``: on a Mac, on a Linux box with an NVIDIA or AMD
-GPU, or on Windows. The setup is shorter than the :link-flat:`LM Studio variant <{filename}/blog/2026-04-17-run-claude-code-with-local-llm-macos-qwen3.rst>`;
+GPU, or on Windows. The launcher ``ollama launch claude`` does the configuration in one command, and the
+manual setup is four lines. The setup is shorter than the :link-flat:`LM Studio variant <{filename}/blog/2026-04-17-run-claude-code-with-local-llm-macos-qwen3.rst>`;
 the one thing that regularly goes wrong is the context length, which Ollama picks
 from your GPU memory and which is far too small by default on most machines. Revised in
 October 2026: all commands re-run with Ollama 0.40 and Claude Code 2.1.302, on a 24 GB
@@ -37,7 +38,7 @@ Prerequisites
   ``qwen3-coder`` 19 GB (see the model section); on Linux that means GPU memory for full
   speed, otherwise Ollama falls back to the CPU and everything becomes slow.
 
-The short way: ``ollama launch claude``
+``ollama launch claude``: the short way
 ---------------------------------------
 
 Recent Ollama releases include a launcher that configures Claude Code for you:

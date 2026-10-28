@@ -90,8 +90,30 @@ model needs about 12 GB loaded, and LM Studio's resource guardrail refuses loads
 expects to freeze the machine. Use ``--context-length 16384`` or a smaller model there,
 and close memory-hungry applications.
 
-Step 2: Start the server
-------------------------
+Which model for which Mac
+=========================
+
+The same figures as a table, measured with the models loaded in LM Studio on Apple
+Silicon (the loaded size includes the KV cache for the given context).
+
+.. class:: m-table
+
+====================  ================================  ==============  ==================
+Unified memory        Model                             Context         Loaded size
+====================  ================================  ==============  ==================
+16 GB                 ``google/gemma-4-12b``            16K to 32K      about 12 GB at 32K
+24 GB                 ``openai/gpt-oss-20b``            32K             about 12 GB
+32 GB                 ``qwen/qwen3-coder-30b``          32K to 64K      about 19 GB at 32K
+32 GB                 ``qwen/qwen3.8-27b``              32K             about 18 GB plus cache
+48 GB and more        any of the above                  64K             headroom for other apps
+====================  ================================  ==============  ==================
+
+Memory is the hard limit, the rest is preference. On a 24 GB machine the 30B coder
+loads only partly and becomes slow, which is why the 20B model is listed there even
+though the 30B model is the better coder.
+
+Step 2: Start the server and check it with curl
+-----------------------------------------------
 
 .. code-block:: bash
 
@@ -103,14 +125,20 @@ before involving Claude Code — first the model list, then one message:
 
 .. code-block:: bash
 
-   curl http://localhost:1234/v1/models      # loaded identifiers, "qwen-local" among them
+   curl http://localhost:1234/v1/models      # "qwen-local" must be in the list
    curl http://localhost:1234/v1/messages \
      -H "content-type: application/json" \
      -H "x-api-key: lmstudio" \
      -d '{"model":"qwen-local","max_tokens":64,
           "messages":[{"role":"user","content":"Say hello in one line."}]}'
 
-A JSON reply with ``"type":"message"`` means the server side is done.
+A JSON reply with ``"type":"message"`` means the server side is done. Note that
+``/v1/models`` lists every downloaded model when LM Studio's just-in-time loading is on
+(the default), whether it is loaded or not, so a model name in that list does not mean
+the model is in memory. ``lms ps`` shows what is loaded and with which context, and
+``curl http://localhost:1234/api/v0/models`` reports a ``state`` of ``loaded`` or
+``not-loaded`` per model. The custom identifier (``qwen-local``) exists only while the
+model is loaded.
 
 Step 3: Point Claude Code at LM Studio
 --------------------------------------
@@ -262,6 +290,13 @@ A startup warning about two credential sources ("auth may not work as expected")
 ``400`` naming a token or context limit
    The loaded context is too small. Reload with ``--context-length 32768`` or more;
    ``lms ps`` shows the value in force.
+
+``curl http://localhost:1234/v1/models`` lists the model, Claude Code still fails
+   The model is downloaded but not loaded (``lms ps`` says so). With just-in-time
+   loading on, the first request loads it with the model's default settings, usually a
+   4K context, and the session fails with the ``400`` above; with just-in-time loading
+   off, the request gets a 404. Load the model yourself with ``lms load`` and
+   ``--context-length`` before starting Claude Code, as in step 1.
 
 The model explains what it would do but never edits a file
    No (working) tool calling. Switch to one of the models listed above.

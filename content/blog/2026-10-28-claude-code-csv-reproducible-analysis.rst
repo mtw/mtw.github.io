@@ -154,7 +154,7 @@ specification.
 Cloud run with Claude Opus
 --------------------------
 
-In the first turn (28 seconds) the agent listed the directory, printed the CSV, checked
+In the first turn (22 seconds) the agent listed the directory, printed the CSV, checked
 ``python3 --version`` and whether pandas and matplotlib were installed (they were not)
 and came back with a plan instead of code. The plan had the sample hierarchy right, with
 sample means first and condition means with *n* equal to the number of independent
@@ -167,7 +167,7 @@ question is a good one, as the prompt states the design without saying whether a
 deviation from it is an error, and the agent noticed this gap before implementing
 anything.
 
-In the second turn (160 seconds) the agent wrote ``analyze.py`` with validation and
+In the second turn (153 seconds) the agent wrote ``analyze.py`` with validation and
 calculations in the standard library, ran it, compared the printed numbers to its own
 hand calculation and added 22 unit tests, covering the expected result, row order, a
 byte-for-byte check that the input file is unchanged after a run, and one test per
@@ -176,7 +176,7 @@ not available. The agent reported this, wrote the plot as an SVG by hand instead
 remarked that nobody had looked at the figure yet, as it could not render the file
 either. This is clearly preferable to silently delivering no figure at all.
 
-The third turn (151 seconds) followed after I had installed matplotlib 3.11.2 into the
+The third turn (144 seconds) followed after I had installed matplotlib 3.11.2 into the
 environment. The agent replaced the SVG code with a matplotlib dot plot, rendered it,
 looked at the image, noticed that the line marking the condition mean ran through the
 labels of C2 and T2, moved the line to the right of the dots, and tested a throwaway
@@ -194,8 +194,9 @@ and the README commands updated accordingly.
           sample, condition mean as a line beside the dots, n = 3 under each condition,
           units on the axis.
 
-The three turns cost USD 2.53 and took about six minutes of wall time, most of it spent
-by the agent running its own tests. Independently of the agent, I then verified that the
+The three turns cost USD 2.53 and took a little over five minutes of model time, the
+test runs themselves account for about 20 seconds of that. Independently of the agent, I
+then verified that the
 script gives the reference numbers when run in a clean directory, that the sample means
 agree with the reference file, that the 22 tests pass, that a shuffled copy of the input
 yields an identical summary, and that copies with a ``NaN`` value or a duplicated row
@@ -207,8 +208,9 @@ Local run with gpt-oss:20b on Ollama
 
 The second run used the same prompt and the same Claude Code, with ``gpt-oss:20b``
 served by Ollama 0.40 on a 24 GB M4 Pro, i.e. the setup from the Ollama
-guide. The model occupies 12 GB on that machine and was loaded with a 64K context (see
-below for why 32K is not enough). The working directory was ``~/tmp/a1/gpt-oss-64k``, a
+guide. The model needs about 12 GB of memory with a 32K context (the figure measured for
+the Ollama guide) and was loaded here with a 64K context (see below for why 32K is not
+enough). The working directory was ``~/tmp/a1/gpt-oss-64k``, a
 virtual environment with matplotlib 3.11.2 and pandas 3.1.0 was first in the PATH, and
 Claude Code was started with a reduced tool set (read, write, edit, search and shell)
 and without the MCP servers configured on my laptop.
@@ -242,7 +244,7 @@ the instruction to create the files with the Write tool. It ran
 and a README, ran the script and read the two CSV files it had produced. On reading them
 it noticed that difference and percentage change appeared in both rows of the condition
 summary, edited the script such that the two columns are only filled for the treatment
-row, ran it again and read the files a second time. This amounted to 14 tool calls
+row, ran it again and read the files a second time. This amounted to 13 tool calls
 without any intervention from my side.
 
 .. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-8 m-center-m
@@ -272,17 +274,18 @@ The run above was my third attempt with this model. The first two attempts faile
 it turned out that every one of these failures was a setup problem rather than a
 reasoning problem, with a simple fix each.
 
-The first attempt ran in a scratch directory with a path of roughly 90 characters. The
+The first attempt ran in a scratch directory with a path of more than 100 characters. The
 first tool call of the model was a Read with that path, where it had replaced the middle
 part of the directory name with an ellipsis. The file was consequently not found, and
-instead of retrying with the relative path suggested by the error message, the model
-wrote a plan for a file it had never seen, with invented column names and packages that
-were not installed. The fix is a working directory with a short path, which is what one
-would use anyway outside such an experiment. Moreover, this attempt ran with the full
-tool list of the Claude Code installation on my laptop, including several MCP servers,
-which puts roughly 20K tokens of tool descriptions into every request and leaves little
-room in a 32K context for the actual work. The ``--tools`` and ``--strict-mcp-config``
-flags in the command above take care of that.
+instead of retrying with the relative path suggested by the error message, the model wrote
+a plan for a file it had never seen, with invented column names and packages that were not
+installed. The fix is a working directory with a short path, which is what one would use
+anyway outside such an experiment. Moreover, this attempt ran with the full tool list of
+the Claude Code installation on my laptop, including several MCP servers, which adds
+several thousand tokens of tool descriptions to every request (the first request of that
+attempt had 12.5K tokens, against 4.7K with the reduced tool list) and leaves
+correspondingly less room in a 32K context for the actual work. The ``--tools`` and
+``--strict-mcp-config`` flags in the command above take care of that.
 
 The second attempt, from a short path and with the reduced tool list but still at 32K,
 read the file and produced a correct plan in 52 seconds. It then printed the script into
@@ -312,18 +315,19 @@ and the result passed every check.
 
 For comparison I gave the same prompt and setup once to ``qwen3-coder:30b``, the other
 model recommended in the Ollama guide, which needs 22 GB at 64K and runs with a tenth of
-its weights on the CPU on that machine. It behaved rather differently in that it ignored
-the request to show the plan first and started writing files within the first minute.
-It got sample means and condition means right and reported three samples per condition,
-but spread the work over three scripts, printed the number of missing values instead of
-rejecting them, ended both plotting scripts with ``plt.show()``, which blocks without a
-display until Claude Code gives up on the command, and eventually crashed the session by
-trying to look at its own PNG, which a text-only model cannot do. On the ``NaN`` and
-duplicate copies its analysis runs through and reports 22.2 % and 26.2 %, respectively.
-This is one attempt and not a verdict on the model, but it illustrates the other failure
-mode, i.e. a script that is correct on clean data and answers a different question on
-flawed data, and it is the failure-case checks and not the correct numbers that reveal
-it.
+its weights on the CPU on that machine (an earlier attempt at 32K ended in the same
+compaction failure as the gpt-oss attempt and is not discussed further). It behaved rather
+differently in that it ignored the request to show the plan first and started writing
+files within the first minute. It got sample means and condition means right and reported
+three samples per condition, but spread the work over three scripts, printed the number of
+missing values instead of rejecting them, ended both plotting scripts with ``plt.show()``,
+which blocks without a display until Claude Code gives up on the command, and eventually
+crashed the session by trying to look at its own PNG, which a text-only model cannot do.
+On the ``NaN`` and duplicate copies its analysis runs through and reports 22.2 % and 26.2
+%, respectively. This is one attempt and not a verdict on the model, but it illustrates
+the other failure mode, i.e. a script that is correct on clean data and answers a
+different question on flawed data, and it is the failure-case checks and not the correct
+numbers that reveal it.
 
 Checking the results
 --------------------

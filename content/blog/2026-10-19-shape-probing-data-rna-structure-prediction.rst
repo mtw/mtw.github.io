@@ -2,6 +2,7 @@ SHAPE and chemical probing data in RNA structure prediction
 ###########################################################
 
 :date: 2026-10-19
+:modified: 2026-10-28
 :tags: ViennaRNA; SHAPE; RNA structure prediction; tools
 :category: howto
 :section: guides
@@ -13,6 +14,10 @@ SHAPE and chemical probing data in RNA structure prediction
 
 .. role:: link-flat(link)
   :class: m-flat m-text
+
+.. container:: series-note
+
+   ViennaRNA in practice, a series of tutorials. :link-flat:`RNAfold in practice <{filename}/blog/2026-10-28-rnafold-in-practice.rst>` · SHAPE and chemical probing data (this post)
 
 Chemical probing experiments such as SHAPE give you one reactivity number per nucleotide, and the
 question I get asked most often is how these numbers go into RNAfold, and what
@@ -266,6 +271,50 @@ from the ensemble. Instead of "the MFE structure with 6% support" you get "the M
 structure with half the ensemble behind it and 20 of 21 pairs above 0.98". That is a
 statement you can base an experiment on.
 
+Probing data from cells and from mutational profiling
+-----------------------------------------------------
+
+The reactivities above come from the classical readout, in which reverse transcription
+stops at a modified nucleotide and the stops are counted. Most data produced today come
+from mutational profiling (SHAPE-MaP, Siegfried et al. 2014), where the reverse
+transcriptase reads through the adduct and records it as a mismatch in the cDNA, such
+that the mutation rate at a position, corrected for the rate in an untreated control,
+becomes the reactivity. One library covers a long RNA or a whole transcriptome, and one
+molecule contributes several modification sites, hence the method is also applicable to
+RNAs of low abundance when combined with targeted amplification. ShapeMapper (Busan and
+Weeks 2018) turns the sequencing reads into a reactivity profile, and a few ``awk`` lines
+turn that profile into the three-column format above.
+
+The same readout is used in cells. Reagents that pass membranes, i.e. NAI, its azide
+derivative NAI-N3 (icSHAPE, Spitale et al. 2015) and 2A3 (Marinus et al. 2021), modify
+the RNA in the living cell, and DMS-MaPseq (Zubradt et al. 2017) does the same with
+dimethyl sulfate, which reports on adenosines and cytidines only. For RNAfold the
+difference between an in vitro and an in-cell profile is invisible, the file format is
+the same and so is the calculation. The interpretation differs in three respects.
+
+- In-cell reactivities report on the RNA together with everything bound to it. A
+  nucleotide protected by a protein, a ribosome or a ligand appears as unreactive, and
+  the folding algorithm takes that as evidence for pairing, although nothing in the
+  energy model describes the protein. Comparing an in-cell with an in vitro profile of
+  the same RNA (the "structural imprint" of Spitale et al.) separates the two effects,
+  folding each profile on its own does not.
+- A profile with data for A and C only, as from DMS, leaves the other half of the
+  sequence without information. This is exactly the situation of the partial-data
+  experiment above, i.e. the pseudo-energies act on the probed positions and the
+  thermodynamic model alone decides the rest, and it is worth keeping in mind when a
+  DMS-guided prediction looks almost identical to the unconstrained one.
+- Positions with insufficient read depth or a high background rate must be removed
+  from the file rather than set to zero. A reactivity of zero is a strong statement in
+  method D (it contributes the full bonus *b* for every stack the nucleotide takes
+  part in), whereas an omitted position contributes nothing. ShapeMapper flags such
+  positions, and the filter belongs in the ``awk`` step that produces the RNAfold
+  input.
+
+In practical terms, in-cell and MaP data are normalized and used like any other
+profile, with somewhat lower signal to noise than a clean in vitro experiment, and the
+pseudo-energy parameters of the D method, which were fitted on RT-stop data, are used
+unchanged by most groups.
+
 Practical notes
 ---------------
 
@@ -302,3 +351,15 @@ Further reading
 - Washietl S, Hofacker IL, Stadler PF, Kellis M. RNA folding with soft constraints:
   reconciliation of probing data and thermodynamic secondary structure prediction.
   *Nucleic Acids Res* 40:4261–4272 (2012).
+- Siegfried NA, Busan S, Rice GM, Nelson JAE, Weeks KM. RNA motif discovery by SHAPE and
+  mutational profiling (SHAPE-MaP). *Nat Methods* 11:959–965 (2014).
+- Busan S, Weeks KM. Accurate detection of chemical modifications in RNA by mutational
+  profiling (MaP) with ShapeMapper 2. *RNA* 24:143–148 (2018).
+- Spitale RC, Flynn RA, Zhang QC, Crisalli P, Lee B, Jung JW, Kuchelmeister HY, Batista PJ,
+  Torre EA, Kool ET, Chang HY. Structural imprints in vivo decode RNA regulatory
+  mechanisms. *Nature* 519:486–490 (2015).
+- Zubradt M, Gupta P, Persad S, Lambowitz AM, Weissman JS, Rouskin S. DMS-MaPseq for
+  genome-wide or targeted RNA structure probing in vivo. *Nat Methods* 14:75–82 (2017).
+- Marinus T, Fessler AB, Ogle CA, Incarnato D. A novel SHAPE reagent enables the analysis
+  of RNA structure in living cells with unprecedented accuracy. *Nucleic Acids Res*
+  49:e34 (2021).
