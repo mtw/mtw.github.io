@@ -89,15 +89,19 @@ energy of this structure in kcal/mol relative to the unfolded chain, and more ne
 means more stable. This is the cloverleaf, so far the program agrees with the textbook.
 
 RNAfold moreover writes ``tRNA-Phe_ss.ps``, a PostScript drawing of the structure. The
-option ``--noPS`` suppresses it in case one only wants the text output.
+option ``--noPS`` suppresses it in case one only wants the text output, and ``-t``
+selects the layout algorithm. The default is the Naview layout, whereas ``-t 4`` uses
+RNApuzzler (Wiegreffe et al. 2018), which produces the drawing below with
+``RNAfold -t 4 < tRNA.fa``.
 
 .. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-8 m-center-m
 
    .. figure:: {static}/files/figures/rnafold-trna-phe-structure.png
-          :alt: Secondary structure drawing of yeast tRNA-Phe as written by RNAfold, a cloverleaf with the acceptor stem at the top, the D arm on the left, the anticodon arm at the bottom and the T arm on the right
+          :alt: Secondary structure drawing of yeast tRNA-Phe as written by RNAfold with the RNApuzzler layout, a cloverleaf with the acceptor stem and the 3' ACCA end at the bottom, the D arm on the left, the anticodon arm at the top and the T arm on the right
           :figclass: m-figure m-flat
 
-          The structure drawing ``tRNA-Phe_ss.ps`` written by RNAfold, converted to PNG.
+          The structure drawing ``tRNA-Phe_ss.ps`` written by ``RNAfold -t 4``, converted
+          to PNG.
 
 The energy of a given structure
 -------------------------------
@@ -231,6 +235,26 @@ given probability can be extracted with a one-liner.
    14 33 0.55
    13 34 0.55
 
+The probabilities can also be painted onto the structure drawing. The script
+``relplot.pl``, which is installed together with ViennaRNA, reads the structure drawing
+and the dot plot and colours every nucleotide by the probability of its pair in the MFE
+structure (with ``-p``) or by its positional entropy (without).
+
+.. code-block:: bash
+
+   RNAfold -p -t 4 < tRNA.fa
+   relplot.pl -p tRNA-Phe_ss.ps tRNA-Phe_dp.ps > tRNA-Phe_rel.ps
+
+.. container:: m-col-t-10 m-center-t m-col-s-10 m-center-s m-col-m-8 m-center-m
+
+   .. figure:: {static}/files/figures/rnafold-trna-phe-structure-probabilities.png
+          :alt: The same cloverleaf drawing of yeast tRNA-Phe with every nucleotide coloured by the probability of its base pair, from violet for 0 to red for 1, the acceptor stem at the bottom in red, the T arm on the right in cyan, the D arm on the left and the anticodon arm at the top in blue, with a colour bar
+          :figclass: m-figure m-flat
+
+          The MFE structure coloured by pair probability with ``relplot.pl -p``. The
+          acceptor stem is red (probabilities above 0.9), the T arm is cyan (around
+          0.5), and the D arm and the anticodon arm are blue (below 0.5).
+
 Only ten pairs have a probability above one half, and only the six inner pairs of the
 acceptor stem are near certain. The three pairs at 0.55 (13 to 34, 14 to 33 and 15 to 32)
 are not even part of the MFE structure, they belong to the alternative D arm that shows
@@ -323,5 +347,8 @@ Further reading
   A review of the thermodynamic model, the ensemble quantities and the integration of
   probing data, on this site:
   :link-flat:`Predicting RNA structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>`.
+- Wiegreffe D, Alexander D, Stadler PF, Zeckzer D. RNApuzzler: efficient outerplanar
+  drawing of RNA-secondary structures. *Bioinformatics* 35:1342–1349 (2019).
+  doi:10.1093/bioinformatics/bty817.
 - The ViennaRNA manual pages for RNAfold, RNAeval and RNAsubopt
   (``RNAfold --detailed-help``).
