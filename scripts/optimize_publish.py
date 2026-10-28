@@ -137,6 +137,10 @@ def minify_html_files(output_dir: Path) -> None:
                     minify_doctype=False,
                     minify_css=True,
                     minify_js=True,
+                    # Keep <html>, <head> and the closing tags: social scrapers look for the
+                    # metadata inside an explicit <head>...</head>.
+                    keep_html_and_head_opening_tags=True,
+                    keep_closing_tags=True,
                 )
             ),
             encoding="utf-8",
