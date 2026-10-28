@@ -90,14 +90,54 @@ def annotate_images(html: str, output_dir: Path) -> str:
     return IMG_TAG.sub(repl, html)
 
 
+META_TAG = re.compile(r"<meta\b[^>]*>", re.I)
+META_ATTR = re.compile(r"""([A-Za-z:-]+)(?:\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s"'>]+)))?""")
+
+
+def normalize_meta_tags(html: str) -> str:
+    """Rewrite every <meta> tag as <meta property|name="..." content="..."> with quoted values.
+
+    The minifier sorts attributes alphabetically and drops quotes, which yields
+    <meta content=https://... property=og:image>. That is valid HTML, but LinkedIn's
+    scraper did not pick up any Open Graph tag from it (Post Inspector: "No image found",
+    description taken from the plain description tag). Social scrapers are written for the
+    conventional form, so the published pages use it.
+    """
+
+    def repl(m):
+        tag = m.group(0)
+        body = tag[5:].rstrip(">").rstrip("/").strip()
+        attrs = []
+        for k, a, b, c in META_ATTR.findall(body):
+            if not k:
+                continue
+            value = a if a != "" else (b if b != "" else c)
+            attrs.append((k.lower(), value))
+        if not attrs:
+            return tag
+        order = {"property": 0, "name": 1, "http-equiv": 2, "itemprop": 3, "charset": 4, "content": 5}
+        attrs.sort(key=lambda kv: order.get(kv[0], 6))
+        parts = []
+        for k, v in attrs:
+            if v is None or v == "":
+                parts.append(k if v is None else f'{k}=""')
+            else:
+                parts.append(f'{k}="{v.replace(chr(34), "&quot;")}"')
+        return "<meta " + " ".join(parts) + ">"
+
+    return META_TAG.sub(repl, html)
+
+
 def minify_html_files(output_dir: Path) -> None:
     for path in output_dir.rglob("*.html"):
         path.write_text(
-            minify_html.minify(
-                annotate_images(compact_ldjson(path.read_text(encoding="utf-8")), output_dir),
-                minify_doctype=False,
-                minify_css=True,
-                minify_js=True,
+            normalize_meta_tags(
+                minify_html.minify(
+                    annotate_images(compact_ldjson(path.read_text(encoding="utf-8")), output_dir),
+                    minify_doctype=False,
+                    minify_css=True,
+                    minify_js=True,
+                )
             ),
             encoding="utf-8",
         )
