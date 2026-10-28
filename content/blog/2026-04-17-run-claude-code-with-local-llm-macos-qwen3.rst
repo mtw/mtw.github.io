@@ -2,7 +2,7 @@ Connect Claude Code to LM Studio: local LLM setup on Apple Silicon
 ##################################################################
 
 :date: 2026-04-17
-:modified: 2026-10-19
+:modified: 2026-10-28
 :tags: AI; tools
 :category: howto
 :section: guides
@@ -17,7 +17,7 @@ Connect Claude Code to LM Studio: local LLM setup on Apple Silicon
 
 .. container:: series-note
 
-   Local AI coding tools, a short series: Claude Code with LM Studio (this post) · :link-flat:`Claude Code with Ollama <{filename}/blog/2026-09-24-run-claude-code-with-ollama.rst>` · :link-flat:`Codex CLI with a local model <{filename}/blog/2026-09-24-codex-cli-local-model-lm-studio-ollama.rst>`
+   Local AI coding tools, a short series: Claude Code with LM Studio (this post) · :link-flat:`Claude Code with Ollama <{filename}/blog/2026-09-24-run-claude-code-with-ollama.rst>` · :link-flat:`Codex CLI with a local model <{filename}/blog/2026-09-24-codex-cli-local-model-lm-studio-ollama.rst>` · :link-flat:`Claude Code for data analysis with a local model <{filename}/blog/2026-10-28-claude-code-csv-reproducible-analysis.rst>`
 
 Claude Code connects to LM Studio with two environment variables, ``ANTHROPIC_BASE_URL``
 and ``ANTHROPIC_AUTH_TOKEN``, because LM Studio has served Anthropic's Messages API on

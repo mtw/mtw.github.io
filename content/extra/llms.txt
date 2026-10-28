@@ -25,6 +25,13 @@ Identifiers: ORCID https://orcid.org/0000-0003-0925-5205 · Google Scholar https
 - [Sitemap](https://michaelwolfinger.com/sitemap.xml)
 - [llms-full.txt](https://michaelwolfinger.com/llms-full.txt): plain-text list of all papers (with DOIs), talks, posters, and posts
 
+## Selected guides
+
+- [Claude Code for data analysis with a cloud model and gpt-oss:20b on Ollama](https://michaelwolfinger.com/blog/2026/claude-code-scientific-data-analysis/): a twelve-row CSV with a known answer, analysed once with Claude Opus and once with gpt-oss:20b on a local Ollama server, with checks that do not rely on the agent
+- [Run Claude Code with Ollama](https://michaelwolfinger.com/blog/2026/claude-code-ollama-local-llm/): setup, context length, which models fit 16/24/32 GB, remote servers
+- [Connect Claude Code to LM Studio](https://michaelwolfinger.com/blog/2026/claude-code-local-llm-apple-silicon/): local LLM setup on Apple Silicon
+- [Codex CLI with a local model](https://michaelwolfinger.com/blog/2026/codex-cli-local-model-lm-studio-ollama/): Codex with LM Studio or Ollama
+
 ## Structured data
 
 Every page embeds schema.org JSON-LD: a Person node (https://michaelwolfinger.com/#person) with ORCID and profile links, BlogPosting nodes for posts, ScholarlyArticle nodes keyed by DOI for papers, and an ItemList of all papers on the publications page.

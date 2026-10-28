@@ -1,0 +1,13 @@
+sample_id,condition,technical_repeat,value
+C1,control,1,9
+C1,control,2,11
+C2,control,1,11
+C2,control,2,13
+C3,control,1,13
+C3,control,2,15
+T1,treatment,1,11
+T1,treatment,2,13
+T2,treatment,1,14
+T2,treatment,2,16
+T3,treatment,1,17
+T3,treatment,2,19

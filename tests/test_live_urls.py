@@ -58,6 +58,7 @@ def test_new_sitemap_adds_no_unknown_urls_and_drops_only_hidden_pages(tmp_path):
                           "https://michaelwolfinger.com/blog/2026/codex-cli-local-model-lm-studio-ollama/",
                           # the SHAPE tutorial took over the URL of a removed draft (was a redirect stub)
                           "https://michaelwolfinger.com/blog/2026/How-to-Interpret-SHAPE-and-Chemical-Probing-Data-for-RNA-Structure-Decisions/",
+                          "https://michaelwolfinger.com/blog/2026/claude-code-scientific-data-analysis/",
                           "https://michaelwolfinger.com/glossary/"}
     added = new - live - intended_additions
     assert not added, f"unexpected new sitemap URLs (fine if intended, then update the fixture): {sorted(added)}"

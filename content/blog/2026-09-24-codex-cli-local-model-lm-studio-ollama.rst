@@ -2,7 +2,7 @@ Run OpenAI Codex CLI with a local model (LM Studio or Ollama)
 #############################################################
 
 :date: 2026-09-24
-:modified: 2026-10-18
+:modified: 2026-10-28
 :tags: AI; tools
 :category: howto
 :section: guides
@@ -17,7 +17,7 @@ Run OpenAI Codex CLI with a local model (LM Studio or Ollama)
 
 .. container:: series-note
 
-   Local AI coding tools, a short series: :link-flat:`Claude Code with LM Studio <{filename}/blog/2026-04-17-run-claude-code-with-local-llm-macos-qwen3.rst>` · :link-flat:`Claude Code with Ollama <{filename}/blog/2026-09-24-run-claude-code-with-ollama.rst>` · Codex CLI with a local model (this post)
+   Local AI coding tools, a short series: :link-flat:`Claude Code with LM Studio <{filename}/blog/2026-04-17-run-claude-code-with-local-llm-macos-qwen3.rst>` · :link-flat:`Claude Code with Ollama <{filename}/blog/2026-09-24-run-claude-code-with-ollama.rst>` · Codex CLI with a local model (this post) · :link-flat:`Claude Code for data analysis with a local model <{filename}/blog/2026-10-28-claude-code-csv-reproducible-analysis.rst>`
 
 Codex, OpenAI's terminal coding agent, has a local mode built in: ``codex --oss`` sends
 its requests to a model server on your machine instead of OpenAI's API. LM Studio and

@@ -23,10 +23,12 @@
   <meta property="og:description" content="{{ article.summary|dehyphenate|striptags|e }}" />
   <meta name="twitter:description" content="{{ article.summary|dehyphenate|striptags|e }}" />
   {% endif %}
-  {% if article.cover %}
-  <meta property="og:image" content="{{ article.cover|expand_link(article)|e }}" />
+  {#- :social_image: sets the share image without the jumbo header that :cover: adds. -#}
+  {% set share_image = article.cover or article.social_image %}
+  {% if share_image %}
+  <meta property="og:image" content="{{ share_image|expand_link(article)|e }}" />
   <meta property="og:image:alt" content="{{ article.title|striptags|e }}" />
-  <meta name="twitter:image" content="{{ article.cover|expand_link(article)|e }}" />
+  <meta name="twitter:image" content="{{ share_image|expand_link(article)|e }}" />
   <meta name="twitter:image:alt" content="{{ article.title|striptags|e }}" />
   <meta name="twitter:card" content="summary_large_image" />
   {% elif M_SOCIAL_IMAGE %}
