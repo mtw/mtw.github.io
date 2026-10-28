@@ -9,7 +9,7 @@ ViennaRNA training and workshops for researchers, starting in 2027
 :title: ViennaRNA training and workshops for researchers, starting in 2027
 :summary: A series of practical ViennaRNA training modules and workshops is in preparation at RNA Forecast, planned to begin in early 2027. The training is for researchers who use RNA structure prediction in their own work and want to understand the results well enough to base decisions on them. The waiting list is open.
 :description: Practical ViennaRNA training modules and workshops for experimental and computational researchers, planned for early 2027 at RNA Forecast. Waiting list open.
-:social_image: {static}/static/og-viennarna-training-1200x630.png
+:social_image: {static}/static/og-viennarna-training-2027-1200x630.png
 
 .. role:: link-flat(link)
   :class: m-flat m-text
