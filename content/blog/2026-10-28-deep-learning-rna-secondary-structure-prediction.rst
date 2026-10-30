@@ -9,6 +9,7 @@ Deep learning for RNA secondary structure prediction
 :title: AI for RNA structure prediction: what deep learning models learn
 :summary: What neural networks trained on known RNA structures actually learn, why the usual benchmarks overstate their accuracy, what a test on synthetic data revealed about their outputs, and what has changed since 2022.
 :description: What AI models for RNA secondary structure prediction learn from biased data, how to evaluate them on unseen families, and what has changed since 2022.
+:social_image: {static}/static/og-ai-rna-structure-1200x630.png
 
 .. role:: link-flat(link)
   :class: m-flat m-text
