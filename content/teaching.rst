@@ -28,9 +28,21 @@ biology, the areas described on the :link-flat:`research page <{filename}/resear
 Current and former students are listed on the :link-flat:`team page <{filename}/team.rst>`.
 Students enrolled at the University of Vienna are supervised through the Theoretical
 Biochemistry Group, students of other universities through a collaboration with their
-home institution. If you are interested, the form below asks for the few things I need
-in order to answer: your programme, the kind of thesis or position, the earliest start,
-and a few sentences on what you would like to work on and what you bring, e.g. relevant
+home institution.
+
+.. class:: m-block m-primary
+
+   **No open positions.** I currently have no funded doctoral or postdoctoral positions,
+   and I do not accept doctoral candidates without secured funding. Generic requests for
+   PhD supervision, i.e. messages that name neither a specific topic from my research
+   nor a concrete source of funding, are not answered. This applies to the form below as
+   well as to email.
+
+The form is for bachelor and master theses and research internships of enrolled
+students, and for doctoral candidates who hold a scholarship or fellowship of their own,
+or have applied for one (name it in the message). It asks for the few things I need in
+order to answer: your programme, the kind of thesis, the funding, the earliest start, and
+a few sentences on what you would like to work on and what you bring, e.g. relevant
 courses, programming experience or laboratory background.
 
 .. raw:: html
@@ -57,10 +69,19 @@ courses, programming experience or laboratory background.
          <option value="">Choose one</option>
          <option value="bachelor">Bachelor thesis</option>
          <option value="master">Master thesis</option>
-         <option value="doctoral">Doctoral thesis</option>
+         <option value="doctoral">Doctoral thesis (own funding)</option>
          <option value="internship">Research internship</option>
-         <option value="postdoc">Postdoctoral position</option>
          <option value="other">Other</option>
+       </select>
+     </p>
+     <p class="field">
+       <label for="sv-funding">Funding <abbr title="required">*</abbr></label>
+       <select class="input" id="sv-funding" name="funding" required>
+         <option value="">Choose one</option>
+         <option value="enrolled">Thesis or internship within my degree programme, no funding needed</option>
+         <option value="granted">Scholarship or fellowship granted, named in the message</option>
+         <option value="applied">Scholarship application submitted or in preparation, named in the message</option>
+         <option value="none">No funding (the enquiry will not be answered)</option>
        </select>
      </p>
      <p class="field">
@@ -70,6 +91,10 @@ courses, programming experience or laboratory background.
      <p class="field">
        <label for="sv-message">What you would like to work on, and your background <abbr title="required">*</abbr></label>
        <textarea class="input" id="sv-message" name="message" rows="6" maxlength="5000" required></textarea>
+     </p>
+     <p class="field check">
+       <input type="checkbox" id="sv-ack" name="ack" value="yes" required>
+       <label for="sv-ack">I have read that there are no open positions. My enquiry names a specific topic and, for a doctoral thesis, the funding. <abbr title="required">*</abbr></label>
      </p>
      <p class="form-note">Fields marked <abbr title="required">*</abbr> are required. What you enter is stored for handling the enquiry and sent to me by email. See the <a href="/datenschutz/">privacy notice</a>.</p>
      <button class="form-submit" type="submit">Send enquiry</button>

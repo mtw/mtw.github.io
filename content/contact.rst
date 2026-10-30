@@ -26,7 +26,7 @@ Contact
          <div class="row"><span class="k">Mail</span><span class="v">Theoretical Biochemistry Group (TBI)<br>Department of Theoretical Chemistry, Faculty of Chemistry<br>University of Vienna<br>W&auml;hringer Strasse 17, 1090 Vienna, Austria</span></div>
        </div>
 
-       <p class="small-print" style="margin-top:22px">The primary address is <a href="mailto:michael.wolfinger@rnaforecast.com">michael.wolfinger@rnaforecast.com</a>. For matters that run through the University of Vienna, such as supervision of enrolled students and joint projects with the Theoretical Biochemistry Group, the university address can be used as well. If you are reaching out about a possible collaboration, a short note on the scientific context is enough. The form below reaches the same address.</p>
+       <p class="small-print" style="margin-top:22px">The primary address is <a href="mailto:michael.wolfinger@rnaforecast.com">michael.wolfinger@rnaforecast.com</a>. For matters that run through the University of Vienna, such as supervision of enrolled students and joint projects with the Theoretical Biochemistry Group, the university address can be used as well. If you are reaching out about a possible collaboration, a short note on the scientific context is enough. The form below reaches the same address. There are no open doctoral or postdoctoral positions at the moment; please read the <a href="/teaching/">teaching page</a> before sending a supervision request, generic requests are not answered.</p>
 
        <h2 class="form-head" id="write">Write a message</h2>
        <p class="form-sent" id="sent">Thank you, your message has arrived. A confirmation has gone to your address, and you will hear back from me, usually within a few working days.</p>
