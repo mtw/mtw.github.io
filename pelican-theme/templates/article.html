@@ -105,6 +105,8 @@
   </div>
   {% endif %}
 
+  {% if article.feedback == 'guide' %}{% include '_guide_feedback.html' %}{% endif %}
+
   {#- Author note: one factual sentence pointing to the training page on rnaforecast.com,
       switched on per post with ":bridge: rna" or ":bridge: tools". No price, no pitch. -#}
   {% if article.bridge in ('rna', 'tools') %}

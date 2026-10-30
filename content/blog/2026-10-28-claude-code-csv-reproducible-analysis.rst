@@ -7,6 +7,7 @@ From a CSV to a reproducible analysis with Claude Code
 :section: guides
 :bridge: tools
 :slug: claude-code-scientific-data-analysis
+:feedback: guide
 :title: Claude Code for data analysis with a cloud model and gpt-oss:20b on Ollama
 :summary: How to get a reproducible analysis of a small CSV file out of Claude Code, once with a cloud model and once with gpt-oss:20b on a local Ollama server, and how to check the result independently of the agent. Both runs were correct in the end, the local one required a few adjustments of the setup that are documented here.
 :description: A twelve-row CSV with a known answer, analysed by Claude Code with Claude Opus and with gpt-oss:20b on Ollama, with checks that do not rely on the agent.

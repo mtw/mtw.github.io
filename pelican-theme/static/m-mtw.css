@@ -500,3 +500,30 @@ a{color:#000;text-decoration:underline}}
 .author-note p{margin:0}
 .article-body p a,.article-body li a,.article-body dd a,.series-note a,.author-note a{text-decoration:underline;text-decoration-color:rgba(0,0,0,.28);text-decoration-thickness:1px;text-underline-offset:2px}
 .article-body p a:hover,.article-body li a:hover,.article-body dd a:hover,.series-note a:hover,.author-note a:hover{text-decoration-color:currentColor}
+
+/* ---- forms (contact, supervision, guide feedback): a plain POST to the form handler, no script.
+   The handler sends the browser back to #…-sent or #…-error; :target shows the line. ---- */
+.site-form{margin:0;max-width:560px}
+.site-form .field{display:block;margin:0 0 16px}
+.site-form label{display:block;font-family:"Archivo",sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.site-form abbr,.site-form .form-note abbr{color:var(--accent);text-decoration:none;border:0}
+.site-form .input{width:100%;box-sizing:border-box;min-height:40px;padding:9px 11px;font:inherit;font-size:.95rem;color:var(--ink);background:#fff;border:1px solid var(--border);border-radius:2px}
+.site-form .input:hover{border-color:var(--sub)}
+.site-form .input:focus-visible{border-color:var(--accent);outline:2px solid var(--accent);outline-offset:0}
+.site-form textarea.input{min-height:120px;resize:vertical;display:block}
+.site-form select.input{cursor:pointer}
+.site-form .input::placeholder{color:var(--faint)}
+.site-form .input:user-invalid{border-color:#a23b2a}
+.site-form .form-note{font-size:.82rem;line-height:1.6;color:var(--muted);margin:0 0 14px;max-width:none}
+.site-form .form-submit{cursor:pointer;font:inherit;font-family:"Archivo",sans-serif;font-size:.85rem;font-weight:600;color:#eef1f4;background:var(--dark);border:0;border-radius:2px;padding:12px 22px}
+.site-form .form-submit:hover{background:var(--accent-dark)}
+.hp{display:none}
+.form-sent,.form-error{display:none}
+.form-sent:target,.form-error:target{display:block;max-width:560px;margin:0 0 18px;padding:10px 14px;font-size:.92rem;line-height:1.6;color:var(--ink);background:var(--panel);border-left:3px solid var(--accent)}
+.form-error:target{border-left-color:#a23b2a}
+.contact-grid h2.form-head{font-family:"Archivo",sans-serif;font-size:1.05rem;margin:34px 0 14px}
+.article-body .guide-feedback{margin:2.6rem 0 0;padding:24px 28px;border:1px solid var(--border);background:var(--panel)}
+.article-body .guide-feedback h2{font-size:1.05rem;margin:0 0 .5rem}
+.article-body .guide-feedback>p{font-size:.95rem;line-height:1.65;color:#44433d;margin:0 0 16px}
+.article-body .guide-feedback .input{background:#fff}
+@media (max-width:720px){.article-body .guide-feedback{padding:18px 18px}}

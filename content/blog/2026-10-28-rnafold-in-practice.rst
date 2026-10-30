@@ -7,6 +7,7 @@ RNAfold in practice: MFE, pair probabilities and why the ensemble matters
 :section: guides
 :bridge: rna
 :slug: rnafold-in-practice
+:feedback: guide
 :title: RNAfold in practice: MFE, pair probabilities and ensemble in ViennaRNA
 :summary: How to read the output of RNAfold in the ViennaRNA Package, i.e. the minimum free energy structure, the pair probabilities, the centroid and MEA structures, the suboptimal structures from RNAsubopt, and how to tell whether an MFE structure is a robust prediction or one of many that the sequence could form. Worked example with yeast tRNA-Phe, all commands included.
 :description: How to read RNAfold output in ViennaRNA: minimum free energy structure, pair probabilities, centroid and MEA structures, and when the MFE structure misleads.

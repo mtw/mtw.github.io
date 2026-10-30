@@ -8,6 +8,7 @@ Connect Claude Code to LM Studio: local LLM setup on Apple Silicon
 :section: guides
 :bridge: tools
 :slug: claude-code-local-llm-apple-silicon
+:feedback: guide
 :title: Connect Claude Code to LM Studio: local LLM setup on Apple Silicon
 :summary: Connect Claude Code to LM Studio's Anthropic-compatible endpoint and run a local model on Apple Silicon: setup, model choice, context length, and the errors you will actually meet.
 :description: Claude Code + LM Studio setup on Apple Silicon: ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN, which local model and context length to use, common errors.

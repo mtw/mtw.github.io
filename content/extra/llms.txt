@@ -16,7 +16,7 @@ Identifiers: ORCID https://orcid.org/0000-0003-0925-5205 · Google Scholar https
 - [Teaching](https://michaelwolfinger.com/teaching/): university courses taught since 2005
 - [Team and supervision](https://michaelwolfinger.com/team/): supervised students and group members
 - [Collaborations](https://michaelwolfinger.com/collaborations/): academic collaboration partners
-- [Contact](https://michaelwolfinger.com/contact/): email addresses and profiles
+- [Contact](https://michaelwolfinger.com/contact/): email addresses, a contact form and profiles
 
 ## Writing
 

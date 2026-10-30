@@ -8,6 +8,7 @@ Run Claude Code with Ollama on macOS, Linux and Windows
 :section: guides
 :bridge: tools
 :slug: claude-code-ollama-local-llm
+:feedback: guide
 :title: Run Claude Code with Ollama: ollama launch claude, manual setup, context length, models
 :summary: Ollama serves Anthropic's Messages API since version 0.14, so Claude Code connects to it directly. The one-command launcher, the manual setup on macOS and Linux, the context-length trap, measured memory needs, a model on another machine, and what does not work.
 :description: Claude Code with Ollama on macOS or Linux: ollama launch claude or manual setup, context length, which models fit 16/24/32 GB, remote servers, common errors.

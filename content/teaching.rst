@@ -19,6 +19,62 @@ I am passionate about sharing knowledge and inspiring curiosity in **bioinformat
 Here is a compilation of the courses that I have given over the past years at renowned academic institutions like the :link-flat:`University of Vienna <https://www.univie.ac.at>` (UNIVIE), :link-flat:`Albert-Ludwigs-University Freiburg <https://uni-freiburg.de>` (UFR), and :link-flat:`University of Applied Sciences Vienna - Fachhochschule Campus Wien <https://fh-campuswien.ac.at>` (FHCW).
 
 
+Thesis and internship supervision
+=================================
+
+I supervise bachelor, master and doctoral theses as well as research internships on
+topics in RNA structure prediction, folding kinetics, functional RNA design and viral RNA
+biology, the areas described on the :link-flat:`research page <{filename}/research.rst>`.
+Current and former students are listed on the :link-flat:`team page <{filename}/team.rst>`.
+Students enrolled at the University of Vienna are supervised through the Theoretical
+Biochemistry Group, students of other universities through a collaboration with their
+home institution. If you are interested, the form below asks for the few things I need
+in order to answer: your programme, the kind of thesis or position, the earliest start,
+and a few sentences on what you would like to work on and what you bring, e.g. relevant
+courses, programming experience or laboratory background.
+
+.. raw:: html
+
+   <p class="form-sent" id="supervision-sent">Thank you, your enquiry has arrived. A confirmation has gone to your address, and you will hear back from me, usually within a few working days.</p>
+   <p class="form-error" id="supervision-error">The enquiry was not sent: a required field was empty or the email address was not valid. Please check the fields and send again.</p>
+   <form class="site-form" method="post" action="https://forms.rnaforecast.com/mtw-supervision">
+     <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+     <p class="field">
+       <label for="sv-name">Name <abbr title="required">*</abbr></label>
+       <input class="input" type="text" id="sv-name" name="name" autocomplete="name" maxlength="200" required>
+     </p>
+     <p class="field">
+       <label for="sv-email">Email <abbr title="required">*</abbr></label>
+       <input class="input" type="email" id="sv-email" name="email" autocomplete="email" maxlength="254" required>
+     </p>
+     <p class="field">
+       <label for="sv-programme">Programme and university</label>
+       <input class="input" type="text" id="sv-programme" name="programme" maxlength="200" placeholder="e.g. MSc Molecular Biology, University of Vienna">
+     </p>
+     <p class="field">
+       <label for="sv-level">Thesis or position <abbr title="required">*</abbr></label>
+       <select class="input" id="sv-level" name="level" required>
+         <option value="">Choose one</option>
+         <option value="bachelor">Bachelor thesis</option>
+         <option value="master">Master thesis</option>
+         <option value="doctoral">Doctoral thesis</option>
+         <option value="internship">Research internship</option>
+         <option value="postdoc">Postdoctoral position</option>
+         <option value="other">Other</option>
+       </select>
+     </p>
+     <p class="field">
+       <label for="sv-start">Earliest start</label>
+       <input class="input" type="text" id="sv-start" name="start" maxlength="100" placeholder="e.g. March 2027">
+     </p>
+     <p class="field">
+       <label for="sv-message">What you would like to work on, and your background <abbr title="required">*</abbr></label>
+       <textarea class="input" id="sv-message" name="message" rows="6" maxlength="5000" required></textarea>
+     </p>
+     <p class="form-note">Fields marked <abbr title="required">*</abbr> are required. What you enter is stored for handling the enquiry and sent to me by email. See the <a href="/datenschutz/">privacy notice</a>.</p>
+     <button class="form-submit" type="submit">Send enquiry</button>
+   </form>
+
 Lecture and course directory
 ============================
 

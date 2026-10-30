@@ -2,7 +2,7 @@ Datenschutzerklärung
 ####################
 :title: Datenschutzerklärung | Michael T. Wolfinger
 :hero_title: Datenschutzerklärung
-:summary: Datenschutzerklärung für michaelwolfinger.com: Hosting, Google Analytics nur mit Einwilligung, Ihre Rechte nach der DSGVO.
+:summary: Datenschutzerklärung für michaelwolfinger.com: Hosting, Google Analytics nur mit Einwilligung, Kontaktformulare, Ihre Rechte nach der DSGVO.
 :description: Datenschutzerklärung von michaelwolfinger.com: Verantwortlicher, Hosting auf GitHub Pages, Google Analytics nur nach Einwilligung, Betroffenenrechte nach DSGVO.
 :html_lang: de
 :breadcrumb: / Home
@@ -10,7 +10,7 @@ Datenschutzerklärung
 .. role:: link-flat(link)
   :class: m-flat m-text
 
-Stand: 23. September 2026
+Stand: 30. Oktober 2026
 
 1. Verantwortlicher
 ===================
@@ -74,28 +74,53 @@ und `Google-Datenschutzerklärung <https://policies.google.com/privacy?hl=de>`_.
 Analytics lässt sich zusätzlich mit dem `Browser-Add-on zur Deaktivierung
 <https://tools.google.com/dlpage/gaoptout?hl=de>`_ blockieren.
 
-5. Links zu anderen Websites
+5. Kontaktformulare
+===================
+
+Auf der Kontaktseite, auf der Teaching-Seite und am Ende einzelner Anleitungen stehen
+Formulare. Was Sie dort eingeben (je nach Formular Name, E-Mail-Adresse, Zugehörigkeit,
+Studiengang, Betreff und Nachricht, bei den Anleitungen die Adresse der Seite), wird beim
+Absenden an einen von mir betriebenen Formulardienst unter ``forms.rnaforecast.com``
+übermittelt. Er läuft als Cloudflare Worker bei Cloudflare, Inc. (Punkt 2) und speichert
+die Eingabe in einer Datenbank (Cloudflare D1), zusammen mit Datum und Uhrzeit, der
+Browserkennung und einem mit einem geheimen Zusatz gebildeten SHA-256-Hash der
+IP-Adresse, aus dem sich die Adresse nicht zurückrechnen lässt; der Hash dient allein der
+Begrenzung der Sendehäufigkeit und der Abwehr von Spam. Anschließend wird mir die Eingabe
+per E-Mail zugestellt und, wenn Sie eine Adresse angegeben haben, eine Eingangsbestätigung
+an Sie gesendet. Der Versand erfolgt über Resend (Resend, Inc., San Francisco, USA) auf
+Grundlage eines Auftragsverarbeitungsvertrags mit EU-Standardvertragsklauseln.
+
+Rechtsgrundlage ist die Beantwortung Ihrer Anfrage (Art. 6 Abs. 1 lit. b DSGVO) und das
+berechtigte Interesse an einem funktionierenden, spamfreien Kontaktweg (Art. 6 Abs. 1
+lit. f DSGVO). Die Einträge werden gelöscht, sobald die Anfrage erledigt ist, spätestens
+zwölf Monate nach Eingang; als Spam erkannte Einträge werden nicht zugestellt und
+innerhalb derselben Frist gelöscht. Die Nutzung der Formulare ist freiwillig, jedes
+Formular nennt eine E-Mail-Adresse als Alternative.
+
+6. Links zu anderen Websites
 ============================
 
 Die Website verlinkt auf Verlage, DOI-Resolver, Repositorien und Profilseiten. Für
 diese Angebote gelten die Datenschutzbestimmungen der jeweiligen Betreiber.
 
-6. Ihre Rechte
+7. Ihre Rechte
 ==============
 
 Nach der DSGVO haben Sie das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung
-der Verarbeitung, Datenübertragbarkeit und Widerspruch. Ich selbst speichere keine
-Daten, die sich einer Person zuordnen lassen: Die Server-Logfiles führen die
-Hosting-Anbieter, und die Google-Analytics-Daten sind pseudonym. Die Rechte nach
-Art. 15 bis 20 DSGVO können daher nur wahrgenommen werden, wenn Sie mir Angaben zur
-Identifizierung Ihrer Daten liefern (Art. 11 DSGVO). Wirksam in der Hand haben Sie
-Folgendes: Eine erteilte Einwilligung widerrufen Sie jederzeit über **Cookie
-settings** in der Fußzeile; die Google-Analytics-Cookies löschen Sie in Ihrem
-Browser. Fragen und Anträge richten Sie an die oben genannte E-Mail-Adresse.
+der Verarbeitung, Datenübertragbarkeit und Widerspruch. Abgesehen von Formulareingaben
+(Punkt 5) speichere ich selbst keine Daten, die sich einer Person zuordnen lassen: Die
+Server-Logfiles führen die Hosting-Anbieter, und die Google-Analytics-Daten sind
+pseudonym. Für diese Daten können die Rechte nach Art. 15 bis 20 DSGVO daher nur
+wahrgenommen werden, wenn Sie mir Angaben zur Identifizierung Ihrer Daten liefern
+(Art. 11 DSGVO). Wirksam in der Hand haben Sie Folgendes: Eine erteilte Einwilligung
+widerrufen Sie jederzeit über **Cookie settings** in der Fußzeile; die
+Google-Analytics-Cookies löschen Sie in Ihrem Browser; eine Formulareingabe lösche ich
+auf Ihre Nachricht hin. Fragen und Anträge richten Sie an die oben genannte
+E-Mail-Adresse.
 Beschwerden nimmt die Österreichische Datenschutzbehörde entgegen (Barichgasse 40–42,
 1030 Wien, `dsb.gv.at <https://www.dsb.gv.at>`_).
 
-7. Änderungen
+8. Änderungen
 =============
 
 Diese Erklärung wird angepasst, wenn sich die technische Ausgestaltung der Website

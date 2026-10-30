@@ -1,0 +1,26 @@
+{#- Feedback box at the end of a tutorial, switched on per post with ":feedback: guide".
+    A plain POST to the form handler (forms.rnaforecast.com, the same Worker that serves
+    rnaforecast.com); the page is a hidden field and the handler sends the browser back to
+    it, to #feedback-sent or #feedback-error. No script. -#}
+  <div class="article-body" style="padding-top:0">
+    <aside class="guide-feedback" id="feedback" aria-labelledby="feedback-head">
+      <h2 id="feedback-head">Did this guide leave a question open?</h2>
+      <p>If you came here with a question that the text did not answer, write it down below. A sentence is enough. I read every note and use them to extend the guides; an email address is only needed if you would like an answer.</p>
+      <p class="form-sent" id="feedback-sent">Thank you, the note has arrived.</p>
+      <p class="form-error" id="feedback-error">The note was not sent: the text field was empty or the email address was not valid. Please check and send again.</p>
+      <form class="site-form" method="post" action="https://forms.rnaforecast.com/mtw-guide-feedback">
+        <input type="hidden" name="page" value="{{ SITEURL }}/{{ article.url }}">
+        <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <p class="field">
+          <label for="fb-missing">What was missing or unclear <abbr title="required">*</abbr></label>
+          <textarea class="input" id="fb-missing" name="missing" rows="4" maxlength="3000" required></textarea>
+        </p>
+        <p class="field">
+          <label for="fb-email">Email, if you would like an answer</label>
+          <input class="input" type="email" id="fb-email" name="email" autocomplete="email" maxlength="254">
+        </p>
+        <p class="form-note">The note and, if given, the address are stored and sent to me by email; see the <a href="{{ SITEURL }}/datenschutz/">privacy notice</a>.</p>
+        <button class="form-submit" type="submit">Send note</button>
+      </form>
+    </aside>
+  </div>
