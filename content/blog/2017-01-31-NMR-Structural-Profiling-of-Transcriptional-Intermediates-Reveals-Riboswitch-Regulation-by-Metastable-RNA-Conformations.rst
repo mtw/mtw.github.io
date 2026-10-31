@@ -7,7 +7,7 @@ NMR Structural Profiling of Transcriptional Intermediates Reveals Riboswitch Reg
 :doi: 10.1021/jacs.6b10429
 :journal: J. Am. Chem. Soc.
 :year: 2017
-:paper_authors: Christina Helmling, Anna Wacker, Michael T. Wolfinger, Ivo L. Hofacker, Martin Hengsbach, Boris Fürtig, Harald Schwalbe
+:paper_authors: Christina Helmling, Anna Wacker, Michael T. Wolfinger, Ivo L. Hofacker, Martin Hengesbach, Boris Fürtig, Harald Schwalbe
 :slug: co-transcriptional-riboswitch-metastable-states
 :summary: This paper uses NMR spectroscopy to resolve transcription intermediates of the 2'dG riboswitch at single-nucleotide resolution, showing how transcript length and metastable states govern ligand-controlled switching.
 :title: Co-transcriptional folding and metastable states in riboswitch function
@@ -51,7 +51,7 @@ Citation
 ========
 
   | :link-flat-strong:`NMR Structural Profiling of Transcriptional Intermediates Reveals Riboswitch Regulation by Metastable RNA Conformations <https://doi.org/10.1021/jacs.6b10429>`
-  | Christina Helmling, Anna Wacker, :ul:`Michael T. Wolfinger`, Ivo L. Hofacker, Martin Hengsbach, Boris Fürtig, Harald Schwalbe
+  | Christina Helmling, Anna Wacker, :ul:`Michael T. Wolfinger`, Ivo L. Hofacker, Martin Hengesbach, Boris Fürtig, Harald Schwalbe
   | *J. Am. Chem. Soc.* 139 (7):2647–56 (2017) | :doi:`doi:10.1021/jacs.6b10429 <https://doi.org/10.1021/jacs.6b10429>`
 
 

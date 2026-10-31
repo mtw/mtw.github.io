@@ -72,5 +72,5 @@ See Also
   | *Front. Microbiol.* 11:1001 (2020) | :doi:`doi:10.3389/fmicb.2020.01001 <https://doi.org/10.3389/fmicb.2020.01001>` | :link-flat:`PDF <{static}/files/papers/Sonnleitner-2020.pdf>`
 
   | :link-flat-strong:`Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reveals an Indirect Regulation of the MexGHI-OpmD Efflux Pump by Hfq <{filename}/blog/2022-06-23-Rewiring-of-Gene-Expression-in-Pseudomonas-aeruginosa-During-Diauxic-Growth-Reveals-an-Indirect-Regulation-of-the-MexGHI-OpmD-Efflux-Pump-by-Hfq.rst>`
-  | Marlena Rozner, Ella Nukarinen, :ul:`Michael T. Wolfinger`, Fabian Amman, Wolfram Weckwerth, Udo Blaesi, Elisabeth Sonnleitner
+  | Marlena Rozner, Ella Nukarinen, :ul:`Michael T. Wolfinger`, Fabian Amman, Wolfram Weckwerth, Udo Bläsi, Elisabeth Sonnleitner
   | *Front. Microbiol.* 13:919539 (2022) | :doi:`doi:10.3389/fmicb.2022.919539 <https://doi.org/10.3389/fmicb.2022.919539>` | :link-flat:`PDF <{static}/files/papers/Rozner-2022.pdf>`

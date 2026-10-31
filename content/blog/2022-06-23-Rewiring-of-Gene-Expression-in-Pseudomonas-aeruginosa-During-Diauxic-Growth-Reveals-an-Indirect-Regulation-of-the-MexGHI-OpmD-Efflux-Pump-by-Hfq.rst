@@ -8,7 +8,7 @@ Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reve
 :doi: 10.3389/fmicb.2022.919539
 :journal: Front. Microbiol.
 :year: 2022
-:paper_authors: Marlena Rozner, Ella Nukarinen, Michael T. Wolfinger, Fabian Amman, Wolfram Weckwerth, Udo Blaesi, Elisabeth Sonnleitner
+:paper_authors: Marlena Rozner, Ella Nukarinen, Michael T. Wolfinger, Fabian Amman, Wolfram Weckwerth, Udo Bläsi, Elisabeth Sonnleitner
 :slug: Rewiring-of-Gene-Expression-in-Pseudomonas-aeruginosa
 :summary: This study examines carbon catabolite repression and its indirect effects on antibiotic susceptibility in Pseudomonas aeruginosa.
 :title: Hfq, Crc, and antibiotic resistance in P. aeruginosa
@@ -37,7 +37,7 @@ This paper extends the `Hfq/Crc/CrcZ` story in *Pseudomonas aeruginosa* from sin
 
 The paper asks what that transition looks like globally and whether it has consequences beyond nutrient utilization. To answer that, the study measures the transcriptome, translatome, and proteome in parallel during and after relief of `CCR`. That multi-omics design is the real strength of the work. It allows the authors to distinguish changes that occur at RNA abundance, translational efficiency, and protein output, rather than treating "gene expression" as a single layer.
 
-The main mechanistic result is that the `mexGHI-opmD` operon is upregulated after `CCR` is relieved, which in turn lowers susceptibility to norfloxacin. This is important because the operon encodes an efflux system with direct consequences for antibiotic response. The paper therefore shows that the shift from preferred to non-preferred carbon sources does not just alter metabolism. It also changes the antimicrobial phenotype of the cell.
+The main mechanistic result is that the `mexGHI-opmD` operon is upregulated after `CCR` is relieved, which in turn lowers susceptibility to norfloxacin. The operon encodes an efflux system. The shift from preferred to non-preferred carbon sources therefore does not only alter metabolism, it also changes the antimicrobial phenotype of the cell.
 
 That observation fits naturally into a broader line of work on how `Hfq`, `Crc`, and `CrcZ` link metabolism to RNA control in *Pseudomonas*. The mechanistic basis is laid out in :link-flat:`Interplay Between the Catabolite Repression Control Protein Crc, Hfq and RNA in Hfq-Dependent Translational Regulation in Pseudomonas aeruginosa <{filename}/blog/2018-01-29-Interplay-Between-the-Catabolite-Repression-Control-Protein-Crc-Hfq-and-RNA-in-Hfq-Dependent-Translational-Regulation-in-Pseudomonas-Aeruginosa.rst>`, and the link to carbapenem uptake is developed further in :link-flat:`Distinctive Regulation of Carbapenem Susceptibility in Pseudomonas aeruginosa by Hfq <{filename}/blog/2020-05-26-Distinctive-Regulation-of-Carbapenem-Susceptibility-in-Pseudomonas-Aeruginosa-by-Hfq.rst>`. This paper pushes that logic one step further by showing how the same network indirectly reshapes resistance-relevant output during diauxic growth. Nutrient-state sensing and antibiotic susceptibility are tightly coupled through the same RNA-centered regulatory architecture.
 
@@ -57,5 +57,5 @@ Citation
 ========
 
   | :link-flat-strong:`Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reveals an Indirect Regulation of the MexGHI-OpmD Efflux Pump by Hfq <https://doi.org/10.3389/fmicb.2022.919539>`
-  | Marlena Rozner, Ella Nukarinen, :ul:`Michael T. Wolfinger`, Fabian Amman, Wolfram Weckwerth, Udo Blaesi, Elisabeth Sonnleitner
+  | Marlena Rozner, Ella Nukarinen, :ul:`Michael T. Wolfinger`, Fabian Amman, Wolfram Weckwerth, Udo Bläsi, Elisabeth Sonnleitner
   | *Front. Microbiol.* (2022) 13:919539 | :doi:`doi:10.3389/fmicb.2022.919539 <https://doi.org/10.3389/fmicb.2022.919539>` | :link-flat:`PDF <{static}/files/papers/Rozner-2022.pdf>`

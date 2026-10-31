@@ -8,7 +8,7 @@ Cyclization studies of Japanese encephalitis virus non-coding RNA terminal regio
 :doi: 10.1101/2022.02.01.478553
 :journal: bioRxiv
 :year: 2022
-:paper_authors: Tyler Mrozowich, Sean M. Park, Maria Waldl, Amy Henrickson, Corey R. Nelson, Borries Demeler, Ivo L. Hofacker, Michael T. Wolfinger, Trushar R. Patel
+:paper_authors: Tyler Mrozowich, Sean M. Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke De Klerk, Borries Demeler, Ivo L. Hofacker, Michael T. Wolfinger, Trushar R. Patel
 :slug: Cyclization-studies-of-Japanese-encephalitis-virus-non-coding-RNA-terminal-regions
 :title: Japanese encephalitis virus genome cyclization is kinetically driven
 :description: Biophysical and bioinformatic analysis of the long-range RNA-RNA interaction between the terminal regions of Japanese encephalitis virus.
@@ -30,7 +30,7 @@ Cyclization studies of Japanese encephalitis virus non-coding RNA terminal regio
 .. frame:: Now published in Nucleic Acids Research:
 
   | :link-flat-strong:`Investigating RNA-RNA interactions through computational and biophysical analysis <{filename}/blog/2023-03-31-Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis.rst>`
-  | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke De Klerk, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
+  | Tyler Mrozowich, Sean M. Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke De Klerk, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
   | *Nucleic Acids Res.* gkad223 (2023) | :doi:`doi:10.1093/nar/gkad223 <https://doi.org/10.1093/nar/gkad223>` | :link-flat:`PDF <{static}/files/papers/Mrozowich-2023.pdf>` |  :link-flat:`Supplement <{static}/files/papers/Mrozowich-2023__SUPPLEMENT.pdf>`
 
 

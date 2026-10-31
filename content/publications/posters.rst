@@ -79,7 +79,7 @@ Selected Posters
 .. _iceid2020:
 
 | :link-flat-strong:`Discoveries of dual-host affiliated Insect-specific flaviviruses in Zambia <{static}/files/posters/2020-02-NIAID.pdf>`
-| Christida E. Wastika, Yasuko Orba, Michito Sasaki, Yuki Eshita, Bernard M. Hang'ombe, :ul:`Michael T. Wolfinger`, William W. Hall, Hirofumi Sawa
+| Christida E. Wastika, Yasuko Orba, Michito Sasaki, Yuki Eshita, Bernard M. Hang’ombe, :ul:`Michael T. Wolfinger`, William W. Hall, Hirofumi Sawa
 | Presented at the *22nd International Conference on Emerging Infectious Diseases in the Pacific Rim*
 | Bangkok, Thailand. February 2020
 

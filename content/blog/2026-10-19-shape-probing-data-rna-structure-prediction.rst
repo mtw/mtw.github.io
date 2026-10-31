@@ -305,8 +305,8 @@ the same and so is the calculation. The interpretation differs in three respects
 - A profile with data for A and C only, as from DMS, leaves the other half of the
   sequence without information. This is exactly the situation of the partial-data
   experiment above, i.e. the pseudo-energies act on the probed positions and the
-  thermodynamic model alone decides the rest, and it is worth keeping in mind when a
-  DMS-guided prediction looks almost identical to the unconstrained one.
+  thermodynamic model alone decides the rest. A DMS-guided prediction that looks almost
+  identical to the unconstrained one is often just that.
 - Positions with insufficient read depth or a high background rate must be removed
   from the file rather than set to zero. A reactivity of zero is a strong statement in
   method D (it contributes the full bonus *b* for every stack the nucleotide takes

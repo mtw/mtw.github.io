@@ -7,7 +7,7 @@ Discoveries of Exoribonuclease-Resistant Structures of Insect-Specific Flaviviru
 :doi: 10.3390/v12091017
 :journal: Viruses
 :year: 2020
-:paper_authors: Christida E. Wastika, Hayato Harima, Michihito Sasakai, Bernard M. Hang'ombe, Yuki Eshita, Qiu Yongjin, William W. Hall, Michael T. Wolfinger, Hirofumi Sawa, Yasuko Orba
+:paper_authors: Christida E. Wastika, Hayato Harima, Michihito Sasaki, Bernard M. Hang’ombe, Yuki Eshita, Yongjin Qiu, William W. Hall, Michael T. Wolfinger, Hirofumi Sawa, Yasuko Orba
 :slug: Discoveries-of-Exoribonuclease-Resistant-Structures-of-Insect-Specific-Flaviviruses-Isolated-in-Zambia
 :summary: This study isolates two insect-specific flaviviruses from mosquitoes in Zambia and shows that their 3'UTRs contain functional xrRNA-like elements that stall Xrn1.
 :title: Insect-specific flaviviruses from Zambia and their exoribonuclease-resistant RNAs
@@ -56,7 +56,7 @@ Citation
 ========
 
   | :link-flat-strong:`Discoveries of Exoribonuclease-Resistant Structures of Insect-Specific Flaviviruses Isolated in Zambia <https://doi.org/10.3390/v12091017>`
-  | Christida E. Wastika, Hayato Harima, Michihito Sasakai, Bernard M. Hang'ombe, Yuki Eshita, Qiu Yongjin, William W. Hall, :ul:`Michael T. Wolfinger`, Hirofumi Sawa, Yasuko Orba
+  | Christida E. Wastika, Hayato Harima, Michihito Sasaki, Bernard M. Hang’ombe, Yuki Eshita, Yongjin Qiu, William W. Hall, :ul:`Michael T. Wolfinger`, Hirofumi Sawa, Yasuko Orba
   | *Viruses* 12:1017 (2020) | :doi:`doi:10.3390/v12091017 <https://doi.org/10.3390/v12091017>` | :link-flat:`PDF <{static}/files/papers/Wastika-2020.pdf>`
 
 

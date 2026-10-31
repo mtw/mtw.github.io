@@ -36,7 +36,7 @@ Manuscripts under review
 .. container:: under-review
 
    | :strong:`“Circle of Life” – Zika virus genomic cyclization is controlled by sequence specificity`
-   | Liam Kerr, Danielle L. Gemmill, Higor S. Pereira, :ul:`Michael T. Wolfinger`, Trushar R. Patel · submitted 2026
+   | Liam Kerr, Dannielle L. Gemmill, Higor S. Pereira, :ul:`Michael T. Wolfinger`, Trushar R. Patel · submitted 2026
 
    | :strong:`Identification of a region within the 5’UTR of Interleukin-2 mRNA offers a promising strategy for drug development for autoimmune disorders`
    | Martyna Nowacka, Julita Nowicka, Joanna Grochowska, Magdalena Kulma, Agnieszka Belczyk-Ciesielska, Katarzyna M. Gluchowska, Krzysztofa Odrzywol, Agnieszka Zagozdzon, Tomasz K. Wirecki, Chandran Nithin, Bartlomiej Surpeta, Xiaobing Zhang, Jiannan Zhao, Wojciech Czestkowski, Sylwia Olejniczak, Lukasz Joachimiak, Bartlomiej Hofman, Joanna Sztuba-Solinska, Katarzyna Drzewicka, Angelika Muchowicz, :ul:`Michael T. Wolfinger`, Roman Blaszczyk, Irina Tuszynska, Janusz M. Bujnicki, Zbigniew Zaslona · submitted 2026
@@ -209,7 +209,7 @@ Peer-reviewed journal / conference articles and book chapters
     .. container:: m-col-t-8
 
       | 47. :link-flat-strong:`The 3’ terminal region of Zika virus RNA contains a conserved G-quadruplex and is unfolded by human DDX17 <{filename}/blog/2023-10-23-The-3-prime-terminal-region-of-Zika-virus-RNA-contains-a-conserved-G-quadruplex-and-is-unfolded-by-human-DDX17.rst>`
-      | Danielle L. Gemmill, Corey R. Nelson, Maulik D. Badmalia, Higor S. Pereira, :ul:`Michael T. Wolfinger`, and Trushar Patel
+      | Dannielle L. Gemmill, Corey R. Nelson, Maulik D. Badmalia, Higor S. Pereira, Liam Kerr, :ul:`Michael T. Wolfinger`, and Trushar R. Patel
       | *Biochem. Cell Biol.* 102(1):96–105 (2024)
       | :doi:`doi:10.1139/bcb-2023-0036 <https://doi.org/10.1139/bcb-2023-0036>` | :label-flat-info:`Journal article`
 
@@ -247,7 +247,7 @@ Peer-reviewed journal / conference articles and book chapters
     .. container::  m-col-t-8
 
       | 45. :link-flat-strong:`Investigating RNA-RNA interactions through computational and biophysical analysis <{filename}/blog/2023-03-31-Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis.rst>`
-      | Tyler Mrozowich, Sean Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke De Klerk, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
+      | Tyler Mrozowich, Sean M. Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke De Klerk, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
       | *Nucleic Acids Res.* 51(9):4588–4601 (2023)
       | :doi:`doi:10.1093/nar/gkad223 <https://doi.org/10.1093/nar/gkad223>` | :label-flat-info:`Journal article`
 
@@ -316,7 +316,7 @@ Peer-reviewed journal / conference articles and book chapters
     .. container::  m-col-t-8
 
       | 41. :link-flat-strong:`Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reveals an Indirect Regulation of the MexGHI-OpmD Efflux Pump by Hfq <{filename}/blog/2022-06-23-Rewiring-of-Gene-Expression-in-Pseudomonas-aeruginosa-During-Diauxic-Growth-Reveals-an-Indirect-Regulation-of-the-MexGHI-OpmD-Efflux-Pump-by-Hfq.rst>`
-      | Marlena Rozner, Ella Nukarinen, :ul:`Michael T. Wolfinger`, Fabian Amman, Wolfram Weckwerth, Udo Blaesi, Elisabeth Sonnleitner
+      | Marlena Rozner, Ella Nukarinen, :ul:`Michael T. Wolfinger`, Fabian Amman, Wolfram Weckwerth, Udo Bläsi, Elisabeth Sonnleitner
       | *Front. Microbiol.* 13:919539 (2022)
       | :doi:`doi:10.3389/fmicb.2022.919539 <https://doi.org/10.3389/fmicb.2022.919539>` | :label-flat-info:`Journal article`
 
@@ -465,7 +465,7 @@ Peer-reviewed journal / conference articles and book chapters
   | :doi:`doi:10.1126/scitranslmed.abe2555 <https://doi.org/10.1126/scitranslmed.abe2555>` | :label-flat-info:`Journal article`
 
   | 31. :link-flat-strong:`Discoveries of Exoribonuclease-Resistant Structures of Insect-Specific Flaviviruses Isolated in Zambia <{filename}/blog/2020-09-14-Discoveries-of-Exoribonuclease-Resistant-Structures-of-Insect-Specific-Flaviviruses-Isolated-in-Zambia.rst>`
-  | Christida E. Wastika, Hayato Harima, Michihito Sasakai, Bernard M. Hang’ombe, Yuki Eshita, Qiu Yongjin, William W. Hall, :ul:`Michael T. Wolfinger`, Hirofumi Sawa, Yasuko Orba
+  | Christida E. Wastika, Hayato Harima, Michihito Sasaki, Bernard M. Hang’ombe, Yuki Eshita, Yongjin Qiu, William W. Hall, :ul:`Michael T. Wolfinger`, Hirofumi Sawa, Yasuko Orba
   | *Viruses* 12:1017 (2020)
   | :doi:`doi:10.3390/v12091017 <https://doi.org/10.3390/v12091017>` | :label-flat-info:`Journal article`
 
@@ -546,7 +546,7 @@ Peer-reviewed journal / conference articles and book chapters
   | :doi:`doi:10.1093/nar/gkx437 <https://doi.org/10.1093/nar/gkx437>` | :label-flat-info:`Journal article`
 
   | 18. :link-flat-strong:`NMR Structural Profiling of Transcriptional Intermediates Reveals Riboswitch Regulation by Metastable RNA Conformations <{filename}/blog/2017-01-31-NMR-Structural-Profiling-of-Transcriptional-Intermediates-Reveals-Riboswitch-Regulation-by-Metastable-RNA-Conformations.rst>`
-  | Christina Helmling, Anna Wacker, :ul:`Michael T. Wolfinger`, Ivo L. Hofacker, Martin Hengsbach, Boris Fürtig, Harald Schwalbe
+  | Christina Helmling, Anna Wacker, :ul:`Michael T. Wolfinger`, Ivo L. Hofacker, Martin Hengesbach, Boris Fürtig, Harald Schwalbe
   | *J. Am. Chem. Soc.* 139 (7):2647–56 (2017)
   | :doi:`doi:10.1021/jacs.6b10429 <https://doi.org/10.1021/jacs.6b10429>` | :label-flat-info:`Journal article`
 
