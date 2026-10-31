@@ -132,7 +132,11 @@ Methods and further reading
 ===========================
 
 The structures on this page were found with comparative genomics and thermodynamic
-structure prediction and then tested in the laboratory. The methods behind the
+structure prediction. Some were then tested in the laboratory, e.g. the xrRNA candidates
+of the Zambian isolates and of Mpulungu virus, which were shown to stall Xrn1 in vitro,
+and the designed elements of the 2026 design paper. Others, e.g. the elements of Xinyang
+virus and the conserved architectures of the comparative studies, rest on prediction and
+comparison alone, and the posts say which is which. The methods behind the
 predictions are described in the tutorials on
 :link-flat-strong:`RNA structure prediction with ViennaRNA <{filename}/rna-structure-prediction.rst>`,
 and the terms used here, e.g. :link-flat:`3′ UTR <{filename}/glossary.rst#utr3>`,
