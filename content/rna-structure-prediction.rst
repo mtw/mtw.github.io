@@ -74,3 +74,6 @@ dot plots and dot-bracket strings, on accessibility with RNAplfold, on consensus
 structures from alignments with RNAalifold, and on comparing predicted structures. A
 series of hands-on :link-flat:`ViennaRNA training modules and workshops <{filename}/blog/2026-10-28-viennarna-training-workshops-2027.rst>`
 is planned for 2027.
+
+Questions about RNA structure prediction, or about working together?
+:link-flat-strong:`Write to me <{filename}/contact.rst#write>`.

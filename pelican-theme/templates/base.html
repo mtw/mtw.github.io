@@ -129,6 +129,9 @@
 {% if M_LINKS_FOOTER1 or M_LINKS_FOOTER2 or M_LINKS_FOOTER3 or M_LINKS_FOOTER4 or not M_FINE_PRINT is defined or M_FINE_PRINT %}
 <footer><nav aria-label="Footer">
   <div class="m-container">
+    {% if not (page and page.slug in ('contact', 'rna-structure-prediction')) %}
+    <p class="foot-invite">Questions about RNA structure prediction, or about working together? <a href="{{ SITEURL }}/contact/#write">Write to me &rarr;</a></p>
+    {% endif %}
     {% if M_LINKS_FOOTER1 or M_LINKS_FOOTER2 or M_LINKS_FOOTER3 or M_LINKS_FOOTER4 %}
     <div class="foot-grid">
       {% for group in [M_LINKS_FOOTER1, M_LINKS_FOOTER2, M_LINKS_FOOTER3, M_LINKS_FOOTER4] %}
