@@ -34,7 +34,9 @@
   {% if GOOGLE_ANALYTICS %}
   {#- Consent-gated analytics: nothing from Google is requested before the visitor accepts.
       The choice lives in localStorage for a year; "Cookie settings" in the footer reopens
-      the banner; a Global Privacy Control signal counts as a decline. -#}
+      the banner; a Global Privacy Control signal counts as a decline. The buttons are bound
+      here, not with onclick attributes, so a Content-Security-Policy can allow this one
+      script by its hash and nothing else. -#}
   <script>
   (function(){
     var KEY='mtw-consent', ID='{{GOOGLE_ANALYTICS}}', MAX=365*24*3600*1000;
@@ -55,6 +57,8 @@
     document.addEventListener('DOMContentLoaded',function(){
       var links=document.querySelectorAll('a[href$="#cookie-settings"]');
       for(var i=0;i<links.length;i++)links[i].addEventListener('click',function(e){e.preventDefault(); mtwConsent.open();});
+      var btns=document.querySelectorAll('[data-consent]');
+      for(var j=0;j<btns.length;j++)btns[j].addEventListener('click',function(){mtwConsent[this.getAttribute('data-consent')]();});
       var c=read();
       if(c===true)load();
       else if(c===null&&navigator.globalPrivacyControl!==true)mtwConsent.open();
@@ -121,8 +125,8 @@
 <div id="cookie-settings" class="consent" hidden role="dialog" aria-label="Cookie settings">
   <p><strong>May this site count your visit?</strong> Anonymous usage statistics help me see which pages are read. Your choice can be changed at any time. <a href="{{ SITEURL }}/datenschutz/">Privacy policy</a></p>
   <div class="consent-actions">
-    <button type="button" class="consent-btn" onclick="mtwConsent.decline()">Decline</button>
-    <button type="button" class="consent-btn consent-accept" onclick="mtwConsent.accept()">Accept</button>
+    <button type="button" class="consent-btn" data-consent="decline">Decline</button>
+    <button type="button" class="consent-btn consent-accept" data-consent="accept">Accept</button>
   </div>
 </div>
 {% endif %}
