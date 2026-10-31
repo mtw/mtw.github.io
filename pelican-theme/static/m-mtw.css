@@ -530,3 +530,42 @@ a{color:#000;text-decoration:underline}}
 .article-body .guide-feedback>p{font-size:.95rem;line-height:1.65;color:#44433d;margin:0 0 16px}
 .article-body .guide-feedback .input{background:#fff}
 @media (max-width:720px){.article-body .guide-feedback{padding:18px 18px}}
+
+/* ---- landing page (Oct 2026): slim band, guide tiles overlapping it, latest posts, trio ---- */
+.page-landing #m-landing-image{min-height:0;align-items:flex-start}
+.page-landing #m-landing-cover{padding:2.6rem 0 7.4rem}
+.page-landing #m-landing-cover h1{font-size:clamp(2.1rem,4.6vw,3.1rem);max-width:22ch;margin-bottom:.9rem;text-shadow:none}
+.page-landing #m-landing-cover .m-landing-intro p{font-size:clamp(1.05rem,2.1vw,1.2rem);max-width:56ch}
+.page-landing .hero-links{margin-top:1.3rem}
+
+.home-section{max-width:var(--maxw);margin:0 auto;padding:0 var(--gutter)}
+.home-tiles{position:relative;z-index:3;margin-top:-84px;padding-bottom:2.4rem}
+.tile-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.tile{display:flex;flex-direction:column;gap:12px;background:#fbfaf7;border:1px solid var(--border);padding:26px 26px 22px;color:var(--ink);text-decoration:none;min-height:230px;box-sizing:border-box;transition:border-color .15s}
+.tile:hover,.tile:focus-visible{text-decoration:none;border-color:var(--accent)}
+.tile .t-eyebrow{font-family:"Archivo",sans-serif;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.tile.t-muted .t-eyebrow{color:var(--muted)}
+.tile h3{font-family:"Archivo",sans-serif;font-size:1.3rem;font-weight:600;line-height:1.2;letter-spacing:-.01em;margin:0;text-transform:none;transition:color .15s}
+.tile:hover h3{color:var(--accent)}
+.tile p{margin:0;font-size:.92rem;line-height:1.55;color:var(--sub);flex-grow:1}
+.tile .t-foot{display:flex;justify-content:space-between;gap:12px;font-size:.8rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.tile.t-dark{background:var(--dark);border-color:var(--dark);color:#eef1f4}
+.tile.t-dark .t-eyebrow{color:#9dbfd8}.tile.t-dark h3,.tile.t-dark:hover h3{color:#fff}.tile.t-dark p{color:#d7dde3}
+.home-head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;padding:1.3rem 0 .4rem}
+.home-head .sec-label{margin:0;font-size:.82rem}
+.home-head a{font-family:"Archivo",sans-serif;font-size:.85rem;font-weight:600;color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(58,92,125,.35);padding-bottom:2px}
+.home-head a:hover{border-bottom-color:var(--accent)}
+.home-latest{padding-bottom:2.6rem}
+.home-latest .home-head{border-top:1px solid var(--border);padding-top:1.4rem}
+.home-latest .blog-item{color:var(--ink);text-decoration:none;padding:18px 0}
+.home-latest .blog-item:last-of-type{border-bottom:1px solid var(--border)}
+.home-latest .blog-item h3{font-family:"Archivo",sans-serif;font-size:1.1rem;letter-spacing:0;text-transform:none;transition:color .15s}
+.home-latest .blog-item:hover{text-decoration:none}.home-latest .blog-item:hover h3{color:var(--accent)}
+.home-trio{padding-bottom:3.5rem}
+.home-trio .tile{min-height:0}
+@media (max-width:640px){.home-tiles{margin-top:-56px}.page-landing #m-landing-cover{padding-bottom:5.2rem}}
+
+/* one-line invitation above the footer columns */
+.foot-invite{font-size:.92rem;font-weight:400;line-height:1.5;color:var(--sub);margin:0 0 30px;padding-bottom:24px;border-bottom:1px solid var(--border-2);max-width:60ch}
+.foot-invite a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(58,92,125,.35);padding-bottom:2px;white-space:nowrap}
+.foot-invite a:hover{border-bottom-color:var(--accent);text-decoration:none}

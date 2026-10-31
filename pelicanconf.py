@@ -146,6 +146,12 @@ AUTHOR_FEED_RSS = None
 # Display names for the blog categories (the category slug stays as it is).
 M_CATEGORY_LABELS = {'howto': 'How-to', 'outreach': 'Outreach', 'publications': 'Publications'}
 
+# The three guide tiles on the landing page, by article slug and in this order; the
+# "Latest writing" list below them skips these posts.
+HOME_GUIDES = ['rnafold-in-practice',
+               'How-to-Interpret-SHAPE-and-Chemical-Probing-Data-for-RNA-Structure-Decisions',
+               'deep-learning-rna-secondary-structure-prediction']
+
 M_BLOG_NAME = "Notes & Writing"   # matches the nav entry "Writing" and the blog H1
 M_BLOG_URL = 'https://michaelwolfinger.com/blog/'
 M_BLOG_DESCRIPTION = "Notes on computational RNA biology by Michael T. Wolfinger: RNA structure, folding dynamics, functional RNA design, and structured viral RNAs."

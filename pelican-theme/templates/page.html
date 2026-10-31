@@ -75,6 +75,67 @@
       </div>
     </div>
   </div>
+  {% if page.save_as == 'index.html' %}
+  {#- Landing page below the band: three guide tiles overlapping the band, the latest
+      posts as list rows, and three tiles for research, publications and RNA Forecast.
+      HOME_GUIDES (pelicanconf.py) names the tiles by slug; the latest list skips them. -#}
+  {% set _labels = M_CATEGORY_LABELS or {} %}
+  <section class="home-section home-tiles" aria-labelledby="home-guides-label">
+    <div class="tile-grid">
+      {% for _slug in HOME_GUIDES %}{% for article in articles if article.slug == _slug %}
+      <a class="tile" href="{{ article.url|format_siteurl|e }}">
+        <span class="t-eyebrow">{% if article.section == 'guides' %}Tutorial{% elif article.section == 'essays' %}Background{% else %}{{ _labels.get(article.category.name, article.category|string)|e }}{% endif %}</span>
+        <h3>{{ article.title|e }}</h3>
+        <p>{{ (article.description or article.summary)|dehyphenate|striptags|truncate(175)|e }}</p>
+        <span class="t-foot"><span>{{ article.date|strftime("%-d %B %Y") }}</span><span>Read &rarr;</span></span>
+      </a>
+      {% endfor %}{% endfor %}
+    </div>
+    <div class="home-head">
+      <h2 class="sec-label" id="home-guides-label">Guides &middot; RNA structure prediction with ViennaRNA</h2>
+      <a href="{{ SITEURL }}/rna-structure-prediction/">All tutorials and background reading &rarr;</a>
+    </div>
+  </section>
+  <section class="home-section home-latest" aria-labelledby="home-latest-label">
+    <div class="home-head">
+      <h2 class="sec-label" id="home-latest-label">Latest writing</h2>
+      <a href="{{ SITEURL }}/blog/">All posts &rarr;</a>
+    </div>
+    {% for article in (articles|rejectattr('slug', 'in', HOME_GUIDES)|list)[:3] %}
+    <a class="blog-item" href="{{ article.url|format_siteurl|e }}">
+      <div>
+        <div class="b-date">{{ article.date|strftime("%-d %B %Y") }}</div>
+        {% if article.category %}<div class="b-cat">{{ _labels.get(article.category.name, article.category|string)|e }}</div>{% endif %}
+      </div>
+      <div>
+        <h3>{{ article.title|e }}</h3>
+        {% if article.summary %}<p class="b-summary">{{ article.summary|dehyphenate|striptags|truncate(170)|e }}</p>{% endif %}
+      </div>
+      <div class="b-read">Read &rarr;</div>
+    </a>
+    {% endfor %}
+  </section>
+  <section class="home-section home-trio" aria-label="Research, publications and RNA Forecast">
+    <div class="tile-grid">
+      <a class="tile t-muted" href="{{ SITEURL }}/research/">
+        <span class="t-eyebrow">Research</span>
+        <h3>Computational RNA biology</h3>
+        <p>RNA structure prediction &middot; folding kinetics &middot; functional RNA design &middot; viral RNA biology &middot; RNA&ndash;protein recognition &middot; reproducible methods</p>
+      </a>
+      <a class="tile t-muted" href="{{ SITEURL }}/publications/">
+        <span class="t-eyebrow">Publications</span>
+        <h3>Papers, talks and posters</h3>
+        <p>The complete list since 2002, every paper with abstract, DOI and PDF.</p>
+      </a>
+      <a class="tile t-dark" href="https://rnaforecast.com">
+        <span class="t-eyebrow">Independent research platform</span>
+        <h3>RNA Forecast</h3>
+        <p>Current projects, software, and the ViennaRNA training in preparation for 2027. rnaforecast.com &rarr;</p>
+      </a>
+    </div>
+  </section>
+  {% endif %}
+  {% if page.content or (page.save_as == 'index.html' and not page.url and M_NEWS_ON_INDEX) %}
   <div class="m-container m-container-inflatable">
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
@@ -102,6 +163,7 @@
     </div>
     {% endif %}
   </div>
+  {% endif %}
   {% else %}
   {#- Compact interior page-head: eyebrow, optional breadcrumb, H1, lede. Spans the full
       container like the mockups (no pushed 10/12 column). -#}
