@@ -1,10 +1,14 @@
 {% extends "archives.html" %}
 {% set _self_url = (articles_page.url if articles_page and articles_page.number > 1 else tag.url) %}
-{% block blog_title %}Posts tagged {{ tag|e }} | {{ SITENAME|e }}{% endblock %}
-{% block blog_eyebrow %}Tag{% endblock %}
-{% block blog_heading %}{{ tag|e }}{% endblock %}
-{% block blog_lede %}<p class="page-lede" style="max-width:66ch">Posts tagged &ldquo;{{ tag|e }}&rdquo;.</p>{% endblock %}
+{#- A tag with an entry in M_TAG_INTROS is a topic page: own title, description and an
+    introduction above the list (first page only). Other tags stay plain listings. -#}
+{% set _topic = (M_TAG_INTROS or {}).get(tag.slug) %}
+{% set _first = not (articles_page and articles_page.number > 1) %}
+{% block blog_title %}{% if _topic %}{{ _topic.title|e }}{% else %}Posts tagged {{ tag|e }}{% endif %} | {{ SITENAME|e }}{% endblock %}
+{% block blog_eyebrow %}{% if _topic %}Topic{% else %}Tag{% endif %}{% endblock %}
+{% block blog_heading %}{% if _topic %}{{ _topic.heading|e }}{% else %}{{ tag|e }}{% endif %}{% endblock %}
+{% block blog_lede %}{% if _topic and _first %}<div class="topic-intro">{{ _topic.intro|replace('href="/', 'href="' ~ SITEURL ~ '/') }}</div>{% elif _topic %}<p class="page-lede" style="max-width:66ch">More posts on {{ _topic.heading|e }}; the introduction is on the <a href="{{ tag.url|format_siteurl|e }}">first page</a>.</p>{% else %}<p class="page-lede" style="max-width:66ch">Posts tagged &ldquo;{{ tag|e }}&rdquo;.</p>{% endif %}{% endblock %}
 {% block social_url %}<meta property="og:url" content="{{ _self_url|format_siteurl|e }}" />{% endblock %}
 {% block blog_canonical %}<link rel="canonical" href="{{ _self_url|format_siteurl|e }}" />{% endblock %}
-{% block blog_description %}Posts tagged “{{ tag }}” on the michaelwolfinger.com blog: computational RNA biology, RNA structure, folding kinetics, and RNA design.{% endblock %}
-{% block blog_ldjson %}{% import '_ldjson.html' as ld with context %}{{ ld.listing_graph(tag|string, SITEURL ~ '/' ~ _self_url, self.blog_description(), false) }}{% endblock %}
+{% block blog_description %}{% if _topic %}{{ _topic.description }}{% else %}Posts tagged “{{ tag }}” on the michaelwolfinger.com blog: computational RNA biology, RNA structure, folding kinetics, and RNA design.{% endif %}{% endblock %}
+{% block blog_ldjson %}{% import '_ldjson.html' as ld with context %}{{ ld.listing_graph((_topic.heading if _topic else tag)|string, SITEURL ~ '/' ~ _self_url, self.blog_description(), false) }}{% endblock %}

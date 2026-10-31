@@ -263,6 +263,7 @@ a.doi{font-family:"IBM Plex Mono",monospace;font-size:.82em;color:var(--accent);
 .page-eyebrow{font-family:"Archivo",sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:1.1rem}
 .page-head h1{font-size:clamp(2.1rem,6vw,3.25rem);font-weight:800;text-transform:uppercase;letter-spacing:-0.02em;line-height:1.0;margin:0 0 1.3rem}
 .page-head .page-lede{font-size:clamp(1.05rem,2.6vw,1.15rem);line-height:1.6;color:#33322d;max-width:66ch;margin:0}
+.page-head .topic-intro{max-width:66ch}.page-head .topic-intro p{font-size:clamp(1.02rem,2.5vw,1.1rem);line-height:1.6;color:#33322d;margin:0 0 .9rem}.page-head .topic-intro p:last-child{margin-bottom:0}
 .page-head .m-breadcrumb{display:block;font-family:"IBM Plex Sans",sans-serif;font-size:.8rem;font-weight:500;letter-spacing:.02em;text-transform:none;color:var(--muted);margin-bottom:.5rem}
 .page-head .m-breadcrumb a{color:var(--muted)}
 article>.m-container:first-child{padding-top:0}
