@@ -43,7 +43,7 @@ The ribosome-profiling component is especially valuable in the tobramycin case. 
 
 This study fits naturally beside the earlier anoxic CF-sputum transcriptomics work, which asked how the infection-like environment reshapes physiology over time. The 2021 paper starts from that already adapted state and asks what happens when the cells are hit with last-resort antibiotics. The later Hfq/Crc/CrcZ papers approach related questions from a regulatory angle and ask how metabolic and post-transcriptional control feed into drug susceptibility. Read together, these studies make it clear that antibiotic response in *Pseudomonas* is tightly interwoven with metabolism, envelope state, and translational control.
 
-From a practical perspective, the paper is a reminder that resistance and susceptibility are not static traits. Even when a strain carries known resistance determinants, the acute regulatory response to treatment can still expose weak points or compensatory pathways. That is why datasets like this are useful: they help identify which circuits are activated under drug pressure and which of them might be worth targeting in combination therapies.
+Resistance and susceptibility are not static traits. Even when a strain carries known resistance determinants, the acute regulatory response to treatment can expose weak points or compensatory pathways. Datasets like this one show which circuits are activated under drug pressure and which of them might be worth targeting in combination therapies.
 
 .. frame:: Abstract
 

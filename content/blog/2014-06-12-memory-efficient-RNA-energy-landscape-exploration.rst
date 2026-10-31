@@ -35,7 +35,7 @@ What makes this paper important is that it preserves exactness at the macrostate
 
 In the broader energy-landscape story, this article closes a loop. The early papers established the language of barrier trees and flooding-style exploration in abstract discrete systems and lattice polymers. This 2014 paper brings those ideas back to RNA in a way that is directly useful for folding kinetics. It shows that the older landscape concepts were not just mathematically interesting. They could be re-engineered into practical infrastructure for RNA analysis a decade later.
 
-That is why I still view this paper as an important bridge between theory and application. It does not propose a radically new conceptual framework. Instead, it makes an existing framework usable at a scale where it becomes relevant for real RNA questions. In computational biology, that kind of engineering step is often what determines whether a good idea remains a paper concept or becomes a durable method.
+The paper does not propose a new conceptual framework. It makes an existing one usable at the scale where real RNA questions live, and in computational biology this kind of engineering step often decides whether an idea stays a concept or becomes a method that is used.
 
 .. frame:: Abstract
 
