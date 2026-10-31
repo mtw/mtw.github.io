@@ -64,8 +64,9 @@ Earlier attempts had tried to learn the energy parameters of the thermodynamic m
 data instead (CONTRAfold and the work of Andronescu and colleagues), whereas the network
 approach drops the model altogether.
 
-The training data for all of these methods come from the same small pool of known
-structures. The most used collection, bpRNA, contains more than 100,000 sequences, which
+The training data for these methods come, with few exceptions, from the same small pool
+of known structures; Szikszai et al. (2022) list the sets in use. The most used
+collection, bpRNA, contains more than 100,000 sequences, which
 sounds like a lot. However, 55 % of them are ribosomal RNAs from the Comparative RNA
 Web site, and of the 43 % that come from Rfam, ribosomal RNAs and tRNAs again make up
 more than 90 %. In practical terms the set is dominated by four RNA families, and the

@@ -14,9 +14,11 @@ Teaching
   .. contents::
     :class: m-block m-default
 
-I am passionate about sharing knowledge and inspiring curiosity in **bioinformatics**, **computational biology**, and **data science**. My teaching highlights the interdisciplinary nature of these fields, integrating data analysis techniques into my courses. I aim to create an engaging and supportive learning environment that fosters critical thinking and encourages exploration. My goal is to empower students with the skills and confidence to analyze complex scientific problems and develop innovative solutions.
-
-Here is a compilation of the courses that I have given over the past years at renowned academic institutions like the :link-flat:`University of Vienna <https://www.univie.ac.at>` (UNIVIE), :link-flat:`Albert-Ludwigs-University Freiburg <https://uni-freiburg.de>` (UFR), and :link-flat:`University of Applied Sciences Vienna - Fachhochschule Campus Wien <https://fh-campuswien.ac.at>` (FHCW).
+My teaching covers bioinformatics, computational biology and data analysis, mostly in
+courses where the students work on actual data sets. Below is the list of courses,
+lectures and invited teaching at the :link-flat:`University of Vienna <https://www.univie.ac.at>`
+(UNIVIE), the :link-flat:`Albert-Ludwigs-University Freiburg <https://uni-freiburg.de>` (UFR)
+and the :link-flat:`FH Campus Wien <https://fh-campuswien.ac.at>` (FHCW).
 
 
 Thesis and internship supervision
