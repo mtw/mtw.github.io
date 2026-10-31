@@ -80,7 +80,11 @@ M_LINKS_NAVBAR1 = [
                         ('Posters', '/publications/posters/', 'publications/posters'),
                         ]),
                     ('Teaching', '/teaching/', 'teaching', []),
-                    ('Guides', '/rna-structure-prediction/', 'rna-structure-prediction', []),
+                    ('Guides', '/rna-structure-prediction/', 'rna-structure-prediction', [
+                        ('RNA structure prediction', '/rna-structure-prediction/', 'rna-structure-prediction'),
+                        ('Flavivirus RNA structures', '/flavivirus-rna-structures/', 'flavivirus-rna-structures'),
+                        ('RNA folding kinetics', '/rna-folding-kinetics/', 'rna-folding-kinetics'),
+                    ]),
                     ('Contact', '/contact/', 'contact', []),
                     ('Writing', '/blog/', '[blog]',[])]
 
@@ -97,6 +101,8 @@ M_LINKS_FOOTER1 = [('Home', '/'),
 
 M_LINKS_FOOTER2 = [('More', ''),
                     ('RNA structure guides', '/rna-structure-prediction/'),
+                   ('Flavivirus RNA structures', '/flavivirus-rna-structures/'),
+                   ('RNA folding kinetics', '/rna-folding-kinetics/'),
                     ('Glossary', '/glossary/'),
                     ('RNA Forecast', 'https://rnaforecast.com'),
                     ('Contact', '/contact/'),

@@ -75,5 +75,14 @@ structures from alignments with RNAalifold, and on comparing predicted structure
 series of hands-on :link-flat:`ViennaRNA training modules and workshops <{filename}/blog/2026-10-28-viennarna-training-workshops-2027.rst>`
 is planned for 2027.
 
+Related topics
+==============
+
+Two further pages collect the research on this site by subject rather than by paper:
+:link-flat-strong:`Structured RNAs in flavivirus genomes <{filename}/flavivirus-rna-structures.rst>`
+on exoribonuclease-resistant RNAs and the other elements of viral untranslated regions,
+and :link-flat-strong:`RNA folding kinetics and energy landscapes <{filename}/rna-folding-kinetics.rst>`
+on what happens before a molecule reaches its final structure.
+
 Questions about RNA structure prediction, or about working together?
 :link-flat-strong:`Write to me <{filename}/contact.rst#write>`.

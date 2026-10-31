@@ -106,7 +106,7 @@
 {% set is_about = page.slug == 'about' %}
 {% set is_publications = page.slug == 'publications' %}
 {% set is_glossary = page.slug == 'glossary' %}
-{% set is_guides = page.slug == 'rna-structure-prediction' %}
+{% set is_guides = page.slug in ('rna-structure-prediction', 'flavivirus-rna-structures', 'rna-folding-kinetics') %}
 {% set events = page.events if page.events is defined else [] %}
 {% set papers = articles|selectattr('doi', 'defined')|selectattr('category.name', 'equalto', 'publications')|list %}
 <script type="application/ld+json">

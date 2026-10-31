@@ -18,6 +18,8 @@ Identifiers: ORCID https://orcid.org/0000-0003-0925-5205 · Google Scholar https
 - [Collaborations](https://michaelwolfinger.com/collaborations/): academic collaboration partners
 - [Contact](https://michaelwolfinger.com/contact/): email addresses, a contact form and profiles
 - [RNA structure prediction guides](https://michaelwolfinger.com/rna-structure-prediction/): the tutorials on RNA secondary structure prediction with ViennaRNA and the background reading, in reading order
+- [Structured RNAs in flavivirus genomes](https://michaelwolfinger.com/flavivirus-rna-structures/): xrRNAs, dumbbells, cyclization and G-quadruplexes in flavivirus untranslated regions, with the papers behind each
+- [RNA folding kinetics and energy landscapes](https://michaelwolfinger.com/rna-folding-kinetics/): barrier trees, coarse-grained dynamics, co-transcriptional folding, riboswitches and folding time distributions, with the papers behind each
 - [Glossary](https://michaelwolfinger.com/glossary/): definitions of the terms used on this site, each with its own address
 
 ## Writing
