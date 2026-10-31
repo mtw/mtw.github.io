@@ -44,6 +44,7 @@ PLUGINS = ['m.htmlsanity',
            'm.sitemap',
            'm.images',
            'mtw_meta',
+           'mtw_doi',
            'mtw_redirects']
 
 # Category listings are disallowed in robots.txt and the publications/papers/ stubs are
@@ -79,6 +80,7 @@ M_LINKS_NAVBAR1 = [
                         ('Posters', '/publications/posters/', 'publications/posters'),
                         ]),
                     ('Teaching', '/teaching/', 'teaching', []),
+                    ('Guides', '/rna-structure-prediction/', 'rna-structure-prediction', []),
                     ('Contact', '/contact/', 'contact', []),
                     ('Writing', '/blog/', '[blog]',[])]
 
@@ -94,6 +96,7 @@ M_LINKS_FOOTER1 = [('Home', '/'),
                     ]
 
 M_LINKS_FOOTER2 = [('More', ''),
+                    ('RNA structure guides', '/rna-structure-prediction/'),
                     ('Glossary', '/glossary/'),
                     ('RNA Forecast', 'https://rnaforecast.com'),
                     ('Contact', '/contact/'),
@@ -213,9 +216,10 @@ REDIRECTS = {
     # drafts and hidden posts that were removed; the nearest published post on the topic
     '/blog/2022/When-SHAPE-Data-Actually-Improves-RNA-Structure-Prediction/': '/blog/2015/SHAPE-directed-RNA-folding/',
     '/blog/2025/Why-Kinetic-Folding-Matters-in-RNA-Design/': '/blog/2025/kinpfn-rna-folding-kinetics/',
-    '/blog/2026/When-to-trust-RNA-structure-prediction-for-experimental-decisions/': '/blog/2021/Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction/',
+    '/blog/2026/When-to-trust-RNA-structure-prediction-for-experimental-decisions/': '/blog/2026/rnafold-in-practice/',
     '/blog/2026/When-sequence-conservation-is-not-enough-to-find-functional-RNA-structure/': '/blog/2021/Functional-RNA-Structures-in-the-3UTR-of-Mosquito-Borne-Flaviviruses/',
-    '/blog/2025/What-AI-Can-and-Cannot-Do-for-RNA-Structure-and-RNA-Protein-Modeling/': '/blog/2021/Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction/',
-    '/blog/2026/What-AI-Is-Genuinely-Useful-for-in-RNA-Biology/': '/blog/2021/Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction/',
+    # the two AI essays were superseded by the 2026 explainer, which answers the same question
+    '/blog/2025/What-AI-Can-and-Cannot-Do-for-RNA-Structure-and-RNA-Protein-Modeling/': '/blog/2026/deep-learning-rna-secondary-structure-prediction/',
+    '/blog/2026/What-AI-Is-Genuinely-Useful-for-in-RNA-Biology/': '/blog/2026/deep-learning-rna-secondary-structure-prediction/',
     '/blog/2022/Cyclization-studies-of-Japanese-encephalitis-virus-non-coding-RNA-terminal-regions/': '/blog/2023/Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis/',
 }

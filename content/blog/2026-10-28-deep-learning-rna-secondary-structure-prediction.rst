@@ -17,7 +17,9 @@ Deep learning for RNA secondary structure prediction
 Whenever it comes to predicting RNA secondary structure from sequence, the question
 nowadays is whether one should still use a thermodynamic folding program or rather one
 of the neural networks that have been published for this task since about 2019. The
-networks report higher accuracies than RNAfold or RNAstructure on the standard
+networks report higher accuracies than
+:link-flat:`RNAfold <https://viennarna.readthedocs.io/en/latest/man/RNAfold.html>` or
+:link-flat:`RNAstructure <https://rna.urmc.rochester.edu/RNAstructure.html>` on the standard
 benchmarks, and the comparison looks settled at first glance. In this post I explain
 what these predictors compute, why the benchmark numbers say less than they seem to,
 what we found when we tested such networks on synthetic data with known properties
@@ -236,7 +238,7 @@ Further reading
   learning approaches to RNA secondary structure prediction. *Front Bioinform* 2:835422
   (2022). doi:10.3389/fbinf.2022.835422. On this site:
   :link-flat:`the paper page <{filename}/blog/2021-12-16-Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction.rst>`.
-  Data and code at github.com/ViennaRNA/rnadeep.
+  Data and code at :link-flat:`github.com/ViennaRNA/rnadeep <https://github.com/ViennaRNA/rnadeep>`.
 - Szikszai M, Wise M, Datta A, Ward M, Mathews DH. Deep learning models for RNA
   secondary structure prediction (probably) do not generalize across families.
   *Bioinformatics* 38:3892–3899 (2022). doi:10.1093/bioinformatics/btac415.

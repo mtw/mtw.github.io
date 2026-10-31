@@ -62,6 +62,7 @@ def test_new_sitemap_adds_no_unknown_urls_and_drops_only_hidden_pages(tmp_path):
                           "https://michaelwolfinger.com/blog/2026/rnafold-in-practice/",
                           "https://michaelwolfinger.com/blog/2026/deep-learning-rna-secondary-structure-prediction/",
                           "https://michaelwolfinger.com/blog/2026/viennarna-training-workshops-2027/",
-                          "https://michaelwolfinger.com/glossary/"}
+                          "https://michaelwolfinger.com/glossary/",
+                          "https://michaelwolfinger.com/rna-structure-prediction/"}
     added = new - live - intended_additions
     assert not added, f"unexpected new sitemap URLs (fine if intended, then update the fixture): {sorted(added)}"

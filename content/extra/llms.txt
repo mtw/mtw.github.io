@@ -17,6 +17,8 @@ Identifiers: ORCID https://orcid.org/0000-0003-0925-5205 · Google Scholar https
 - [Team and supervision](https://michaelwolfinger.com/team/): supervised students and group members
 - [Collaborations](https://michaelwolfinger.com/collaborations/): academic collaboration partners
 - [Contact](https://michaelwolfinger.com/contact/): email addresses, a contact form and profiles
+- [RNA structure prediction guides](https://michaelwolfinger.com/rna-structure-prediction/): the tutorials on RNA secondary structure prediction with ViennaRNA and the background reading, in reading order
+- [Glossary](https://michaelwolfinger.com/glossary/): definitions of the terms used on this site, each with its own address
 
 ## Writing
 
@@ -27,6 +29,9 @@ Identifiers: ORCID https://orcid.org/0000-0003-0925-5205 · Google Scholar https
 
 ## Selected guides
 
+- [RNAfold tutorial](https://michaelwolfinger.com/blog/2026/rnafold-in-practice/): how to read RNAfold output, i.e. the MFE structure, pair probabilities, centroid and MEA structures and RNAsubopt, on yeast tRNA-Phe
+- [SHAPE and chemical probing data in RNAfold](https://michaelwolfinger.com/blog/2026/How-to-Interpret-SHAPE-and-Chemical-Probing-Data-for-RNA-Structure-Decisions/): the reactivity file format, the Deigan, Zarringhalam and Washietl methods, and what the data change in a prediction
+- [AI for RNA structure prediction](https://michaelwolfinger.com/blog/2026/deep-learning-rna-secondary-structure-prediction/): what deep learning models learn from biased data, why the benchmarks overstate their accuracy, what changed since 2022
 - [Claude Code for data analysis with a cloud model and gpt-oss:20b on Ollama](https://michaelwolfinger.com/blog/2026/claude-code-scientific-data-analysis/): a twelve-row CSV with a known answer, analysed once with Claude Opus and once with gpt-oss:20b on a local Ollama server, with checks that do not rely on the agent
 - [Run Claude Code with Ollama](https://michaelwolfinger.com/blog/2026/claude-code-ollama-local-llm/): setup, context length, which models fit 16/24/32 GB, remote servers
 - [Connect Claude Code to LM Studio](https://michaelwolfinger.com/blog/2026/claude-code-local-llm-apple-silicon/): local LLM setup on Apple Silicon

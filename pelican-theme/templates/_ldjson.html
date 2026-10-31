@@ -106,6 +106,7 @@
 {% set is_about = page.slug == 'about' %}
 {% set is_publications = page.slug == 'publications' %}
 {% set is_glossary = page.slug == 'glossary' %}
+{% set is_guides = page.slug == 'rna-structure-prediction' %}
 {% set events = page.events if page.events is defined else [] %}
 {% set papers = articles|selectattr('doi', 'defined')|selectattr('category.name', 'equalto', 'publications')|list %}
 <script type="application/ld+json">
@@ -113,7 +114,7 @@
  {{ website() }},
  {{ person() }},
  {{ organization() }},
- {"@type": {% if is_home %}["WebPage", "CollectionPage"]{% elif is_about %}["WebPage", "ProfilePage"]{% else %}"WebPage"{% endif %},
+ {"@type": {% if is_home or is_guides %}["WebPage", "CollectionPage"]{% elif is_about %}["WebPage", "ProfilePage"]{% else %}"WebPage"{% endif %},
   "@id": {{ url|tojson }},
   "url": {{ url|tojson }},
   "name": {{ (page.hero_title or page.title)|striptags|tojson }},

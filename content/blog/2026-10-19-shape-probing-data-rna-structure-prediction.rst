@@ -2,14 +2,14 @@ SHAPE and chemical probing data in RNA structure prediction
 ###########################################################
 
 :date: 2026-10-19
-:modified: 2026-10-28
+:modified: 2026-10-31
 :tags: ViennaRNA; SHAPE; RNA structure prediction; tools
 :category: howto
 :section: guides
 :bridge: rna
 :slug: How-to-Interpret-SHAPE-and-Chemical-Probing-Data-for-RNA-Structure-Decisions
 :feedback: guide
-:title: SHAPE and chemical probing data in RNA structure prediction: how to fold with reactivities in ViennaRNA
+:title: SHAPE and chemical probing tutorial: folding with reactivities in RNAfold
 :summary: How SHAPE reactivities go into RNAfold, what the three methods in ViennaRNA do with them, and what probing data change in a prediction and what they do not. Worked example with yeast tRNA-Phe, all commands included.
 :description: How to use SHAPE and chemical probing reactivities in RNAfold: the input format, the Deigan, Zarringhalam and Washietl methods, and what the data change.
 
@@ -18,7 +18,7 @@ SHAPE and chemical probing data in RNA structure prediction
 
 .. container:: series-note
 
-   ViennaRNA in practice, a series of tutorials. :link-flat:`RNAfold in practice <{filename}/blog/2026-10-28-rnafold-in-practice.rst>` · SHAPE and chemical probing data (this post)
+   :link-flat:`ViennaRNA in practice <{filename}/rna-structure-prediction.rst>`, a series of tutorials. :link-flat:`RNAfold tutorial <{filename}/blog/2026-10-28-rnafold-in-practice.rst>` · SHAPE and chemical probing data (this post)
 
 Chemical probing experiments such as SHAPE give you one reactivity number per nucleotide, and the
 question I get asked most often is how these numbers go into RNAfold, and what
@@ -40,7 +40,8 @@ partner. Conversely, a high value means flexible, which is true for unpaired bas
 in weak or dynamic pairs and at helix ends. It is important to note that the values are noisy, with a scale that
 depends on the experiment. For these reasons ViennaRNA does not use reactivities to fix
 base pairs, but to modify the underlying energy model. Technically, this is achieved through so-called soft constraints, and the three
-methods implemented in RNAfold and the ViennaRNA Package differ in how exactly they do that.
+methods implemented in :link-flat:`RNAfold <https://viennarna.readthedocs.io/en/latest/man/RNAfold.html>`
+and the :link-flat:`ViennaRNA Package <https://www.tbi.univie.ac.at/RNA/>` differ in how exactly they do that.
 
 The tRNA example
 ----------------
@@ -174,7 +175,8 @@ Method W (Washietl): a perturbation vector
 The W method works differently. It does not convert reactivities on the fly but expects a
 *perturbation vector*, a small energy correction per nucleotide, chosen such that the
 predicted unpaired probabilities match the data as well as possible while the energy
-model is changed as little as possible. This vector is computed with ``RNApvmin``, which
+model is changed as little as possible. This vector is computed with
+:link-flat:`RNApvmin <https://viennarna.readthedocs.io/en/latest/man/RNApvmin.html>`, which
 solves the corresponding optimization problem (progress goes to stderr, the vector to
 stdout):
 
@@ -242,7 +244,8 @@ pairs, three of them GC. The ensemble, however, has
 changed a lot: the MFE frequency drops from 0.50 to 0.15, the diversity rises from 0.88
 to 3.0, and the centroid has lost the pair 7-66. In the dot plot the acceptor stem pairs
 now have probabilities of 0.96, 0.97, 0.93, 0.73, 0.64, 0.53 and 0.31 from the outside
-in, down from 0.99 or better; the three other stems stay at 1.00. ``RNAsubopt`` shows the
+in, down from 0.99 or better; the three other stems stay at 1.00.
+:link-flat:`RNAsubopt <https://viennarna.readthedocs.io/en/latest/man/RNAsubopt.html>` shows the
 alternatives the data have pulled up:
 
 .. code-block:: bash

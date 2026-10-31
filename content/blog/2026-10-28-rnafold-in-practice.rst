@@ -1,5 +1,5 @@
-RNAfold in practice: MFE, pair probabilities and why the ensemble matters
-#########################################################################
+RNAfold tutorial: MFE, pair probabilities and ensemble output
+#############################################################
 
 :date: 2026-10-28
 :tags: ViennaRNA; tools
@@ -8,7 +8,7 @@ RNAfold in practice: MFE, pair probabilities and why the ensemble matters
 :bridge: rna
 :slug: rnafold-in-practice
 :feedback: guide
-:title: RNAfold in practice: MFE, pair probabilities and ensemble in ViennaRNA
+:title: RNAfold tutorial: MFE, pair probabilities and ensemble output
 :summary: How to read the output of RNAfold in the ViennaRNA Package, i.e. the minimum free energy structure, the pair probabilities, the centroid and MEA structures, the suboptimal structures from RNAsubopt, and how to tell whether an MFE structure is a robust prediction or one of many that the sequence could form. Worked example with yeast tRNA-Phe, all commands included.
 :description: How to read RNAfold output in ViennaRNA: minimum free energy structure, pair probabilities, centroid and MEA structures, and when the MFE structure misleads.
 :social_image: {static}/static/og-rnafold-in-practice-1200x630.png
@@ -18,10 +18,12 @@ RNAfold in practice: MFE, pair probabilities and why the ensemble matters
 
 .. container:: series-note
 
-   ViennaRNA in practice, a series of tutorials. RNAfold (this post) · :link-flat:`SHAPE and chemical probing data in RNA structure prediction <{filename}/blog/2026-10-19-shape-probing-data-rna-structure-prediction.rst>`
+   :link-flat:`ViennaRNA in practice <{filename}/rna-structure-prediction.rst>`, a series of tutorials. RNAfold (this post) · :link-flat:`SHAPE and chemical probing data in RNA structure prediction <{filename}/blog/2026-10-19-shape-probing-data-rna-structure-prediction.rst>`
 
-Whenever it comes to RNA secondary structure prediction, RNAfold is the program most
-people have in mind when they say that they folded a sequence with ViennaRNA. It takes an
+Whenever it comes to RNA secondary structure prediction,
+:link-flat:`RNAfold <https://viennarna.readthedocs.io/en/latest/man/RNAfold.html>` is the
+program most people have in mind when they say that they folded a sequence with
+:link-flat:`ViennaRNA <https://www.tbi.univie.ac.at/RNA/>`. It takes an
 RNA sequence and returns a
 :link-flat:`secondary structure <{filename}/glossary.rst#secondary-structure>`, i.e. a
 list of base pairs, and what it returns by default is the
@@ -107,7 +109,8 @@ RNApuzzler (Wiegreffe et al. 2018), which produces the drawing below with
 The energy of a given structure
 -------------------------------
 
-RNAeval computes the free energy of a structure that is given as input, without any
+:link-flat:`RNAeval <https://viennarna.readthedocs.io/en/latest/man/RNAeval.html>` computes
+the free energy of a structure that is given as input, without any
 search for the optimum. This is the way to compare a predicted structure with a known or
 a proposed one.
 
@@ -267,7 +270,7 @@ and which are one alternative among several.
 Suboptimal structures
 ---------------------
 
-RNAsubopt enumerates all
+:link-flat:`RNAsubopt <https://viennarna.readthedocs.io/en/latest/man/RNAsubopt.html>` enumerates all
 :link-flat:`suboptimal structures <{filename}/glossary.rst#suboptimal-structures>` within
 an energy window above the MFE, and ``-s`` sorts them by energy.
 
