@@ -59,9 +59,10 @@
       for(var i=0;i<links.length;i++)links[i].addEventListener('click',function(e){e.preventDefault(); mtwConsent.open();});
       var btns=document.querySelectorAll('[data-consent]');
       for(var j=0;j<btns.length;j++)btns[j].addEventListener('click',function(){mtwConsent[this.getAttribute('data-consent')]();});
+      if(navigator.globalPrivacyControl===true)return;   // GPC counts as a refusal, also over a stored acceptance
       var c=read();
       if(c===true)load();
-      else if(c===null&&navigator.globalPrivacyControl!==true)mtwConsent.open();
+      else if(c===null)mtwConsent.open();
     });
   })();
   </script>
@@ -82,14 +83,16 @@
         <div class="m-row">
           <ol>
             {% for title, link, slug, sub in M_LINKS_NAVBAR1 %}
+            {% set _parent_current = (page and page.highlight == slug) or slug == page_slug %}
             {% if not sub %}
-            <li><a href="{{ link|format_siteurl|e }}"{% if (page and page.highlight == slug) or slug == page_slug %} id="m-navbar-current"{% endif %}>{{ title|e }}</a></li>
+            <li><a href="{{ link|format_siteurl|e }}"{% if _parent_current %} id="m-navbar-current"{% endif %}>{{ title|e }}</a></li>
             {% else %}
             <li>
-              <a href="{{ link|format_siteurl|e }}"{% if (page and page.highlight == slug) or slug == page_slug %} id="m-navbar-current"{% endif %}>{{ title|e }}</a>
+              <a href="{{ link|format_siteurl|e }}"{% if _parent_current %} id="m-navbar-current"{% endif %}>{{ title|e }}</a>
               <ol>
-                {% for title, link, slug in sub %}
-                <li><a href="{{ link|format_siteurl|e }}"{% if (page and page.highlight == slug) or slug == page_slug %} id="m-navbar-current"{% endif %}>{{ title|e }}</a></li>
+                {% for title, link, sub_slug in sub %}
+                {#- The parent may repeat as its own first sub-entry; only one element may carry the id. -#}
+                <li><a href="{{ link|format_siteurl|e }}"{% if ((page and page.highlight == sub_slug) or sub_slug == page_slug) and not _parent_current %} id="m-navbar-current"{% endif %}>{{ title|e }}</a></li>
                 {% endfor %}
               </ol>
             </li>

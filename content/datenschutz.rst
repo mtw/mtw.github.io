@@ -86,8 +86,10 @@ die Eingabe in einer Datenbank (Cloudflare D1), zusammen mit Datum und Uhrzeit, 
 Browserkennung und einem mit einem geheimen Zusatz gebildeten SHA-256-Hash der
 IP-Adresse, aus dem sich die Adresse nicht zurückrechnen lässt; der Hash dient allein der
 Begrenzung der Sendehäufigkeit und der Abwehr von Spam. Anschließend wird mir die Eingabe
-per E-Mail zugestellt und, wenn Sie eine Adresse angegeben haben, eine Eingangsbestätigung
-an Sie gesendet. Der Versand erfolgt über Resend (Resend, Inc., San Francisco, USA) auf
+per E-Mail zugestellt. Beim Kontakt- und beim Betreuungsformular erhalten Sie außerdem
+eine automatische Eingangsbestätigung an die angegebene Adresse; beim Formular am Ende
+der Anleitungen ist die Adresse freiwillig, dient nur einer allfälligen Antwort und löst
+keine Bestätigung aus. Der Versand erfolgt über Resend (Resend, Inc., San Francisco, USA) auf
 Grundlage eines Auftragsverarbeitungsvertrags mit EU-Standardvertragsklauseln.
 
 Rechtsgrundlage ist die Beantwortung Ihrer Anfrage (Art. 6 Abs. 1 lit. b DSGVO) und das

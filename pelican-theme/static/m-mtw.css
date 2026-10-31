@@ -407,7 +407,7 @@ article>.m-container.page-body>:first-child{margin-top:0}
 .person .n{font-family:"Archivo",sans-serif;font-size:.97rem;font-weight:600;color:var(--ink)}
 .person .r{font-size:.82rem;color:var(--muted);margin-top:2px}
 .person .y{font-size:.78rem;color:var(--muted);text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
-.small-print{font-size:.85rem;line-height:1.7;color:#79766d;max-width:64ch;margin:0 0 1.2rem}
+.small-print{font-size:.85rem;line-height:1.7;color:#6b6860;max-width:64ch;margin:0 0 1.2rem}
 .page-team h2.sec-head{margin-top:.4rem}
 /* contact: two-column grid, details card, dark card, links panel */
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}

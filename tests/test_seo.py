@@ -13,6 +13,8 @@ import pytest
 
 from tests.site_test_utils import build_site
 
+REPO_ROOT = Path(__file__).resolve().parents[1]
+
 SITEURL = "https://michaelwolfinger.com"
 LDJSON_RE = re.compile(r'<script type="?application/ld\+json"?>(.*?)</script>', re.S)
 LASTMOD_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(Z|[+-]\d{2}:00)$")
@@ -213,6 +215,19 @@ def test_analytics_are_consent_gated(output_dir):
     assert "#cookie-settings" in home and "/datenschutz/" in home
     privacy = (output_dir / "datenschutz" / "index.html").read_text(encoding="utf-8")
     assert "Google Analytics" in privacy and "Datenschutzbehörde" in privacy
+
+
+def test_global_privacy_control_outranks_a_stored_acceptance(output_dir):
+    """A visitor who accepted earlier and later turns GPC on must not get the Google tag.
+    The consent script therefore has to honour GPC before it acts on the stored choice.
+    Checked in the template, because the publish step rewrites the minified branches."""
+    template = (REPO_ROOT / "pelican-theme" / "templates" / "base.html").read_text(encoding="utf-8")
+    gpc = template.find("navigator.globalPrivacyControl===true)return")
+    load = template.find("if(c===true)load()")
+    assert gpc != -1, "the consent script no longer returns early on Global Privacy Control"
+    assert load != -1, "consent script shape changed; update this test"
+    assert gpc < load, "the stored choice is acted on before Global Privacy Control is honoured"
+    assert "globalPrivacyControl" in (output_dir / "index.html").read_text(encoding="utf-8")
 
 
 def test_redirects_exist_and_point_at_live_targets(output_dir):

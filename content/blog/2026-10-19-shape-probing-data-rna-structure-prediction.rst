@@ -37,7 +37,7 @@ nucleotide, usually normalized such that most values fall between 0 and about 2.
 Two things about these numbers are important. A reactivity is not a pairing state. A low
 value means the nucleotide is constrained somehow, not that it pairs with a particular
 partner. Conversely, a high value means flexible, which is true for unpaired bases but also for bases
-in weak or dynamic pairs and at helix ends. It is important to note that the values are noisy, with a scale that
+in weak or dynamic pairs and at helix ends. The values are also noisy, on a scale that
 depends on the experiment. For these reasons ViennaRNA does not use reactivities to fix
 base pairs, but to modify the underlying energy model. Technically, this is achieved through so-called soft constraints, and the three
 methods implemented in :link-flat:`RNAfold <https://viennarna.readthedocs.io/en/latest/man/RNAfold.html>`
@@ -213,15 +213,22 @@ Three small experiments show what probing data do and what they do not do.
 .. code-block:: bash
 
    awk '$1>=32 && $1<=38' tRNA.shape > partial.shape
-   RNAfold --noPS --shape=partial.shape --shapeMethod=D < tRNA.fa
+   RNAfold -p --noPS --shape=partial.shape --shapeMethod=D < tRNA.fa
 
 .. code-block:: text
 
    (((((((..((((........)))).(((((.......))))).....(((((.......)))))))))))).... (-22.40)
+   (((((((..((((........)))).(((((.......))))).....(((((.......)))))))))))).... {-22.40 d=4.75}
+    frequency of mfe structure in ensemble 0.223517; ensemble diversity 7.95
 
-Nothing changes, and the energy is the thermodynamic one: the data agree with the MFE
-structure at these positions, and no other position got a pseudo-energy term. Probing
-data act only where they exist, and only where they contradict the model.
+The MFE structure is unchanged, and so is its energy: the seven probed positions lie in
+the anticodon loop, they are unpaired in this structure, and method D adds its term only
+to nucleotides in a stacked pair. The ensemble, however, is not unchanged. The MFE
+frequency rises from 0.06 to 0.22 and the diversity falls from 23.4 to 7.9, because the
+high reactivities penalise every alternative structure that would pair these seven
+positions. Seven measurements that merely confirm what the model already predicted still
+remove a large part of the ensemble. Probing data act only where they exist, but they act
+on every structure, not only on the one the model prefers.
 
 **Contradicting data.** Now set the reactivities of positions 1–7, the 5' side of the
 acceptor stem, to 1.2, as if these nucleotides had been found flexible:

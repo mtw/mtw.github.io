@@ -254,7 +254,7 @@ M_TAG_INTROS = {
         'title': 'Exoribonuclease-resistant RNAs (xrRNAs)',
         'description': 'Exoribonuclease-resistant RNAs in flavivirus 3′UTRs: how xrRNAs stall Xrn1, where they occur across flavivirus lineages, and how they can be designed.',
         'intro': '''<p>Exoribonuclease-resistant RNAs (xrRNAs) are structured elements in the 3&prime; untranslated region of flavivirus genomes that stall the host 5&prime;&ndash;3&prime; exoribonuclease Xrn1. The viral RNA downstream of the stall survives as subgenomic flaviviral RNA (sfRNA), which interferes with the antiviral response of the host. The resistance is mechanical: a ring-like fold with a pseudoknot closes over the 5&prime; end of the element and holds against the pulling enzyme.</p>
-<p>Comparative studies of xrRNAs across mosquito-borne, tick-borne and insect-specific flaviviruses, the discovery of new variants in viruses from Zambia and in a novel African tick flavivirus, their conservation within tick-borne encephalitis virus, and recent work on designing mechanically active RNAs from scratch. The terms are defined in the glossary under <a href="/glossary/#xrrna">xrRNA</a> and <a href="/glossary/#sfrna">sfRNA</a>.</p>''',
+<p>These posts compare xrRNAs across mosquito-borne, tick-borne and insect-specific flaviviruses, describe new variants found in viruses from Zambia and in a novel African tick flavivirus, trace their conservation within tick-borne encephalitis virus, and end with recent work on designing mechanically active RNAs from scratch. The terms are defined in the glossary under <a href="/glossary/#xrrna">xrRNA</a> and <a href="/glossary/#sfrna">sfRNA</a>.</p>''',
     },
     'flavivirus': {
         'heading': 'Flavivirus RNA structures',

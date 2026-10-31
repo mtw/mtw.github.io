@@ -39,8 +39,10 @@ make clean              # remove output/ and output-publish/
 `pelican -lr` from the root does the same as `make devserver`. On macOS `make` needs the Xcode
 command line tools (`xcode-select --install`).
 
-The development build uses relative URLs and goes to `output/`; the production build
-carries absolute URLs and goes to `output-publish/`, so the two never mix.
+The development build leaves `SITEURL` empty, so its links are root-relative (`/about/`),
+and it goes to `output/`; the production build carries absolute URLs and goes to
+`output-publish/`, so the two never mix. Serve `output/` from its root when previewing,
+e.g. with `python -m http.server`, not from a subdirectory.
 
 ## Tests
 

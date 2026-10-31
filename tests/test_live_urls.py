@@ -14,6 +14,28 @@ from tests.site_test_utils import build_site
 FIXTURE = Path(__file__).resolve().parent / "fixtures" / "live_sitemap_2026-09.xml"
 SITE_HOSTS = {"michaelwolfinger.com", "www.michaelwolfinger.com"}
 
+# URLs published on purpose after the September 2026 snapshot. They are as binding as the
+# fixture: once a URL is here it must keep producing a file, because it is live and
+# indexed. Add a line only when a new page goes online, never to silence a failure.
+INTENDED_ADDITIONS = {
+    "https://michaelwolfinger.com/collaborations/",
+    "https://michaelwolfinger.com/flavivirus-rna-structures/",
+    "https://michaelwolfinger.com/rna-folding-kinetics/",
+    "https://michaelwolfinger.com/blog/",     # was missing: INDEX_URL now set
+    "https://michaelwolfinger.com/datenschutz/",
+    "https://michaelwolfinger.com/legal/",   # Impressum no longer hidden
+    "https://michaelwolfinger.com/blog/2026/claude-code-ollama-local-llm/",
+    "https://michaelwolfinger.com/blog/2026/codex-cli-local-model-lm-studio-ollama/",
+    # the SHAPE tutorial took over the URL of a removed draft (was a redirect stub)
+    "https://michaelwolfinger.com/blog/2026/How-to-Interpret-SHAPE-and-Chemical-Probing-Data-for-RNA-Structure-Decisions/",
+    "https://michaelwolfinger.com/blog/2026/claude-code-scientific-data-analysis/",
+    "https://michaelwolfinger.com/blog/2026/rnafold-in-practice/",
+    "https://michaelwolfinger.com/blog/2026/deep-learning-rna-secondary-structure-prediction/",
+    "https://michaelwolfinger.com/blog/2026/viennarna-training-workshops-2027/",
+    "https://michaelwolfinger.com/glossary/",
+    "https://michaelwolfinger.com/rna-structure-prediction/",
+}
+
 
 def _live_urls() -> list[str]:
     urls = sorted(set(re.findall(r"<loc>([^<]+)</loc>", FIXTURE.read_text(encoding="utf-8"))))
@@ -36,6 +58,13 @@ def test_every_live_url_still_resolves(tmp_path):
     assert not missing, f"{len(missing)} live URL(s) no longer produce a file: {missing[:10]}"
 
 
+def test_every_url_published_since_the_fixture_still_resolves(tmp_path):
+    """The fixture is from September 2026; pages published later are just as live."""
+    output_dir = build_site(tmp_path, "publishconf.py")
+    missing = [url for url in sorted(INTENDED_ADDITIONS) if not _output_file(output_dir, url).exists()]
+    assert not missing, f"{len(missing)} URL(s) added after the fixture no longer produce a file: {missing}"
+
+
 def test_new_sitemap_adds_no_unknown_urls_and_drops_only_hidden_pages(tmp_path):
     output_dir = build_site(tmp_path, "publishconf.py")
     new = set(re.findall(r"<loc>([^<]+)</loc>", (output_dir / "sitemap.xml").read_text(encoding="utf-8")))
@@ -49,22 +78,5 @@ def test_new_sitemap_adds_no_unknown_urls_and_drops_only_hidden_pages(tmp_path):
     allowed_to_leave |= {f"https://michaelwolfinger.com/blog/tag/{t}.html" for t in ("virology", "novel-viruses", "agents")}
     dropped = live - new - allowed_to_leave
     assert not dropped, f"URLs dropped from the sitemap: {sorted(dropped)}"
-    # Pages added on purpose after the September 2026 snapshot.
-    intended_additions = {"https://michaelwolfinger.com/collaborations/",
-                          "https://michaelwolfinger.com/flavivirus-rna-structures/",
-                          "https://michaelwolfinger.com/rna-folding-kinetics/",
-                          "https://michaelwolfinger.com/blog/",     # was missing: INDEX_URL now set
-                          "https://michaelwolfinger.com/datenschutz/",
-                          "https://michaelwolfinger.com/legal/",   # Impressum no longer hidden
-                          "https://michaelwolfinger.com/blog/2026/claude-code-ollama-local-llm/",
-                          "https://michaelwolfinger.com/blog/2026/codex-cli-local-model-lm-studio-ollama/",
-                          # the SHAPE tutorial took over the URL of a removed draft (was a redirect stub)
-                          "https://michaelwolfinger.com/blog/2026/How-to-Interpret-SHAPE-and-Chemical-Probing-Data-for-RNA-Structure-Decisions/",
-                          "https://michaelwolfinger.com/blog/2026/claude-code-scientific-data-analysis/",
-                          "https://michaelwolfinger.com/blog/2026/rnafold-in-practice/",
-                          "https://michaelwolfinger.com/blog/2026/deep-learning-rna-secondary-structure-prediction/",
-                          "https://michaelwolfinger.com/blog/2026/viennarna-training-workshops-2027/",
-                          "https://michaelwolfinger.com/glossary/",
-                          "https://michaelwolfinger.com/rna-structure-prediction/"}
-    added = new - live - intended_additions
+    added = new - live - INTENDED_ADDITIONS
     assert not added, f"unexpected new sitemap URLs (fine if intended, then update the fixture): {sorted(added)}"
