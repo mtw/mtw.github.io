@@ -22,7 +22,6 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-analytics = ["google-analytics-data>=0.18", "google-api-python-client>=2.100", "google-auth>=2.30"]
 dev = [
   "ghp-import>=2.1",
   "invoke>=2.2",
