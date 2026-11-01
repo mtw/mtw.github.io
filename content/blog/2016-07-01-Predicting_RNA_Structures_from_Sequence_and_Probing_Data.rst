@@ -29,7 +29,7 @@ Predicting RNA Structures from Sequence and Probing Data
 
 RNA secondary structure prediction is sometimes presented as if there
 were a clean historical break between "old biophysics" and "new AI".
-The field did not develop that way. Long before the current
+The field did not develop that way, because long before the current
 machine-learning wave, RNA bioinformatics had already built a
 sophisticated toolkit around thermodynamic folding, ensemble analysis,
 comparative evidence, and experimental structure probing. This review
@@ -51,7 +51,7 @@ obvious limits. Energy parameters are imperfect, tertiary interactions
 are usually treated only indirectly, and the energetically optimal
 structure is not always the biologically realized one. This becomes
 especially clear for regulatory RNAs, long transcripts, and systems
-shaped by kinetics, ligand binding, proteins, or cellular context. The
+shaped by kinetics, ligand binding, proteins, or cellular context, and the
 review lays out these limitations clearly.
 
 The article provides an overview of how chemical and enzymatic
@@ -98,7 +98,7 @@ picks up the same problem from the later AI period.
 Citation
 ========
 
-  | :link-flat-strong:`Predicting RNA Structures from Sequence and Probing Data <https://doi.org/10.1016/j.ymeth.2016.04.004>` | :link-flat:`Preprint PDF <{static}/files/papers/Lorenz-2016b__PREPRINT.pdf>`
+  | :link-flat-strong:`Predicting RNA secondary structures from sequence and probing data <https://doi.org/10.1016/j.ymeth.2016.04.004>` | :link-flat:`Preprint PDF <{static}/files/papers/Lorenz-2016b__PREPRINT.pdf>`
   | Ronny Lorenz, :ul:`Michael T. Wolfinger`, Andrea Tanzer, Ivo L. Hofacker
   | *Methods* 103:86–98 (2016) | :doi:`doi:10.1016/j.ymeth.2016.04.004 <https://doi.org/10.1016/j.ymeth.2016.04.004>` | :link-flat:`PDF <{static}/files/papers/Lorenz-2016.pdf>`
 

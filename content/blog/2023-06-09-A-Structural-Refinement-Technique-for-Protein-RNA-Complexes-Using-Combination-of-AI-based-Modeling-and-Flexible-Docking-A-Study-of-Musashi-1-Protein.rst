@@ -38,11 +38,11 @@ Modeling protein-RNA complexes remains difficult even when reasonably good struc
 
 This study addresses that problem with a two-step workflow. First, AlphaFold2 was used to generate a structural model for the RNA-binding domains of the human Musashi-1 (MSI1) protein. Second, the resulting model was refined in the presence of RNA using flexible docking based on parallel cascade selection molecular dynamics (PaCS-MD). The point of the method is not simply to place RNA near a protein surface, but to sample interface rearrangements that matter for complex formation.
 
-Musashi-1 is a useful test case because its RNA recognition has been studied experimentally, which means the resulting models can be checked against known interaction patterns. In the refined complexes, the analysis recovered a core set of residues and nucleotides that are consistent with previous work on MSI1-RNA recognition. That matters more than raw structural novelty. A refinement method is only useful if it recovers contacts that make biochemical sense.
+Musashi-1 is a useful test case because its RNA recognition has been studied experimentally, which means the resulting models can be checked against known interaction patterns. In the refined complexes, the analysis recovered a core set of residues and nucleotides that are consistent with previous work on MSI1-RNA recognition. That matters more than raw structural novelty, because a refinement method is only useful if it recovers contacts that make biochemical sense.
 
 Compared with a more standard template-based workflow built around Phyre2, the PaCS-MD approach produced better-supported association complexes in this system. The main reason is that enhanced sampling gives flexible RNA regions more room to explore realistic conformations during docking, instead of forcing the final model to depend too heavily on manual assembly or rigid starting assumptions.
 
-The method still has clear limits. It depends on having useful initial structural information, and the quality of the final complex remains tied to the quality of both the starting model and the sampling protocol. This is not a general solution to protein-RNA structure prediction from sequence alone. It is a refinement strategy that becomes valuable when there is already enough structural context to make flexible docking meaningful.
+The method still has clear limits, since it depends on having useful initial structural information, and the quality of the final complex remains tied to the quality of both the starting model and the sampling protocol. This is not a general solution to protein-RNA structure prediction from sequence alone. It is a refinement strategy that becomes valuable when there is already enough structural context to make flexible docking meaningful.
 
 That makes the study best understood as a methods contribution. It shows that AI-derived protein models can be combined with enhanced-sampling docking to improve protein-RNA complex refinement, at least for systems like MSI1 where independent evidence exists for the binding interface. For researchers working on RNA-binding proteins, this is a more realistic and useful claim than broad promises about drug discovery.
 
@@ -54,9 +54,9 @@ That makes the study best understood as a methods contribution. It shows that AI
 Citation
 ========
 
-  | :link-flat-strong:`A Structural Refinement Technique for Protein-RNA Complexes Using a Combination of AI-based Modeling and Flexible Docking: A Study of Musashi-1 Protein <https://doi.org/10.1246/bcsj.20230092>`
+  | :link-flat-strong:`A Structural Refinement Technique for Protein-RNA Complexes Based on a Combination of AI-based Modeling and Flexible Docking: A Study of Musashi-1 Protein <https://doi.org/10.1246/bcsj.20230092>`
   | Nitchakan Darai, Kowit Hengphasatporn, Peter Wolschann, :ul:`Michael T. Wolfinger`, Yasuteru Shigeta, Thanyada Rungrotmongkol, Ryuhei Harada
-  | *B. Chem. Soc. Jpn.* (2023)
+  | *B. Chem. Soc. Jpn.* 96(7):677–685 (2023) | :doi:`doi:10.1246/bcsj.20230092 <https://doi.org/10.1246/bcsj.20230092>` | :link-flat:`PDF <{static}/files/papers/Darai-2023.pdf>`
 
 See Also
 ========

@@ -67,6 +67,6 @@ See Also
   | Marlena Rozner, Ella Nukarinen, :ul:`Michael T. Wolfinger`, Fabian Amman, Wolfram Weckwerth, Udo Bläsi, Elisabeth Sonnleitner
   | *Front. Microbiol.* 13:919539 (2022) | :doi:`doi:10.3389/fmicb.2022.919539 <https://doi.org/10.3389/fmicb.2022.919539>` | :link-flat:`PDF <{static}/files/papers/Rozner-2022.pdf>`
 
-  | :link-flat-strong:`RNA-Seq Based Transcriptional Profiling of Pseudomonas Aeruginosa Pa14 After Short- and Long-Term Anoxic Cultivation in Synthetic Cystic Fibrosis Sputum Medium <{filename}/blog/2016-01-28-RNA-Seq-Based-Transcriptional-Profiling-of-Pseudomonas-Aeruginosa-Pa14-After-Short-and-Long-Term-Anoxic-Cultivation-in-Synthetic-Cystic-Fibrosis-Sputum-Medium.rst>`
+  | :link-flat-strong:`RNA-Seq Based Transcriptional Profiling of Pseudomonas aeruginosa PA14 after Short- and Long-Term Anoxic Cultivation in Synthetic Cystic Fibrosis Sputum Medium <{filename}/blog/2016-01-28-RNA-Seq-Based-Transcriptional-Profiling-of-Pseudomonas-Aeruginosa-Pa14-After-Short-and-Long-Term-Anoxic-Cultivation-in-Synthetic-Cystic-Fibrosis-Sputum-Medium.rst>`
   | Karin Tata, Sarah G. Paltnig, Ewald H. Schwarz, Marija Mair, :ul:`Michael T. Wolfinger`, Elisabeth Sonnleitner, Wolfgang Schuster, Udo Blasi
   | *PLoS ONE* 11:e0147811 (2016) | :doi:`doi:10.1371/journal.pone.0147811 <https://doi.org/10.1371/journal.pone.0147811>` | :link-flat:`PDF <{static}/files/papers/Tata-2016.pdf>`

@@ -64,7 +64,7 @@ Citation
 See Also
 ========
 
-  | :link-flat-strong:`RNA-Seq Based Transcriptional Profiling of Pseudomonas Aeruginosa Pa14 After Short- and Long-Term Anoxic Cultivation in Synthetic Cystic Fibrosis Sputum Medium <{filename}/blog/2016-01-28-RNA-Seq-Based-Transcriptional-Profiling-of-Pseudomonas-Aeruginosa-Pa14-After-Short-and-Long-Term-Anoxic-Cultivation-in-Synthetic-Cystic-Fibrosis-Sputum-Medium.rst>`
+  | :link-flat-strong:`RNA-Seq Based Transcriptional Profiling of Pseudomonas aeruginosa PA14 after Short- and Long-Term Anoxic Cultivation in Synthetic Cystic Fibrosis Sputum Medium <{filename}/blog/2016-01-28-RNA-Seq-Based-Transcriptional-Profiling-of-Pseudomonas-Aeruginosa-Pa14-After-Short-and-Long-Term-Anoxic-Cultivation-in-Synthetic-Cystic-Fibrosis-Sputum-Medium.rst>`
   | Muralidhar Tata, :ul:`Michael T. Wolfinger`, Fabian Amman, Nicole Roschanski, Andreas Dotsch, Elisabeth Sonnleitner, Susanne Haussler, Udo Blasi
   | *PLoS ONE* 11:e0147811 (2016) | :doi:`doi:10.1371/journal.pone.0147811 <https://doi.org/10.1371/journal.pone.0147811>` | :link-flat:`PDF <{static}/files/papers/Tata-2016.pdf>`
 

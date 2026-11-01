@@ -54,12 +54,12 @@ package.
 Source packages and binaries for Linux and Windows are available from the
 :link-flat:`ViennaRNA <{filename}/glossary.rst#viennarna>` website, and
 ``pip install ViennaRNA`` installs the Python bindings only, i.e. without the command
-line tools. ``RNAfold --version`` shows which version is installed.
+line tools. ``RNAfold --version`` shows which version is installed on your machine.
 
 The example sequence
 --------------------
 
-Put the sequence in a FASTA file. The first word after ``>`` becomes the prefix of the
+Put the sequence into a FASTA file first. The first word after ``>`` becomes the prefix of the
 plot files that RNAfold writes.
 
 .. code-block:: text

@@ -29,10 +29,10 @@ I will be serving as Guest Editor for the :strong:`RNA Biology article collectio
 .. image:: {static}/files/figures/RNABiolDL2025_banner.jpg
   :alt: Exploring RNA Biology with Deep Learning Algorithms banner image
 
-Why This Collection Matters
----------------------------
+What the collection is about
+----------------------------
 
-RNA plays a central role in virtually every biological process, from gene regulation to the assembly of protein complexes. Yet its complexity poses formidable analytical challenges. Over the past few years, deep learning has transformed the way we decode protein structures and genomic data. Now, we stand on the edge of a similar revolution in RNA biology:
+RNA is involved in gene regulation, in the assembly of protein complexes and in most other cellular processes, and it is hard to analyse: sequence alone rarely determines function, and structure is dynamic. Deep learning has changed how protein structures and genomic data are analysed, and the same methods are now being applied to RNA. This collection asks what they are good for:
 
 - **Uncover hidden patterns** in high‑throughput sequencing data
 - **Predict RNA modifications** and their functional impacts

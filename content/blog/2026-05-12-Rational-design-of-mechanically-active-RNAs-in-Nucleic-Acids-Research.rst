@@ -46,8 +46,8 @@ To my knowledge, this is the first example of a fully *de novo* designed RNA in 
 
 For synthetic biology and therapeutic RNA engineering, this opens the possibility of tuning decay resistance and transcript stability without importing long native viral sequence segments wholesale. At the same time, the work remains fundamentally a study in RNA architecture. The main result is that mechanical function can be preserved even after evolutionary sequence ancestry has effectively been removed.
 
-The broader implications extend well beyond flavivirus RNA biology. If
-mechanically active RNA elements can be specified de novo, then decay
+The result is not specific to flaviviruses, because if
+mechanically active RNA elements can be specified de novo, decay
 control becomes an engineering variable rather than a borrowed viral
 feature. That changes how one can think about stabilizing synthetic
 transcripts, shaping RNA lifetime in therapeutic settings, or

@@ -35,7 +35,7 @@ Gene Expression Profiling of Pseudomonas Aeruginosa Upon Exposure to Colistin an
 
 This paper looks at a clinically important problem from a systems-biology angle. In cystic fibrosis infections, *Pseudomonas aeruginosa* is often treated with colistin or tobramycin once many other antibiotics have become ineffective. Both are last-resort drugs, but they stress the cell in very different ways. Colistin primarily targets the envelope, whereas tobramycin disrupts translation after energy-dependent uptake into the cytoplasm. The question behind the paper is therefore not just which resistance genes are already known, but how the bacterium reorganizes its physiology when it is actually exposed to these two drugs under a host-relevant growth condition.
 
-The experimental design is what makes the study particularly useful. PA14 was grown in synthetic cystic fibrosis sputum medium and then challenged with inhibitory concentrations of colistin or tobramycin. Instead of measuring transcript levels alone, the paper combined RNA-seq with ribosome profiling in parallel. That matters because antibiotic stress often perturbs translation directly, and a transcriptome alone can miss the distinction between genes that are transcribed more strongly and genes that are actually being translated more efficiently. In that sense, the study moves one level closer to the physiological response of the cell.
+The experimental design carries the study: PA14 was grown in synthetic cystic fibrosis sputum medium and then challenged with inhibitory concentrations of colistin or tobramycin. Instead of measuring transcript levels alone, the paper combined RNA-seq with ribosome profiling in parallel. That matters because antibiotic stress often perturbs translation directly, and a transcriptome alone can miss the distinction between genes that are transcribed more strongly and genes that are actually being translated more efficiently. In that sense, the study moves one level closer to the physiological response of the cell.
 
 The two antibiotics trigger markedly different expression programs. Colistin elicits a response centered on envelope and oxidative-stress adaptation, including well-known pathways connected to lipid A modification and polymyxin resistance, but also broader changes involving the MexT and AlgU regulons. Tobramycin, by contrast, produces a response that is much more tied to translational stress and metabolic rewiring. The cells alter amino-acid catabolism, lower-TCA-cycle genes, secretion systems, and functions linked to motility and attachment, while at the same time increasing expression of systems involved in stalled-ribosome rescue, tRNA methylation, and toxin-antitoxin modules.
 
@@ -45,7 +45,7 @@ The ribosome-profiling component is especially valuable in the tobramycin case. 
 
 This study fits naturally beside the earlier anoxic CF-sputum transcriptomics work, which asked how the infection-like environment reshapes physiology over time. The 2021 paper starts from that already adapted state and asks what happens when the cells are hit with last-resort antibiotics. The later Hfq/Crc/CrcZ papers approach related questions from a regulatory angle and ask how metabolic and post-transcriptional control feed into drug susceptibility. Read together, these studies make it clear that antibiotic response in *Pseudomonas* is tightly interwoven with metabolism, envelope state, and translational control.
 
-Resistance and susceptibility are not static traits. Even when a strain carries known resistance determinants, the acute regulatory response to treatment can expose weak points or compensatory pathways. Datasets like this one show which circuits are activated under drug pressure and which of them might be worth targeting in combination therapies.
+Resistance and susceptibility are not static traits, since even when a strain carries known resistance determinants, the acute regulatory response to treatment can expose weak points or compensatory pathways. Datasets like this one show which circuits are activated under drug pressure and which of them might be worth targeting in combination therapies.
 
 .. frame:: Abstract
 
@@ -63,7 +63,7 @@ Citation
 See Also
 ========
 
-  | :link-flat-strong:`RNA-Seq Based Transcriptional Profiling of Pseudomonas Aeruginosa Pa14 After Short- and Long-Term Anoxic Cultivation in Synthetic Cystic Fibrosis Sputum Medium <{filename}/blog/2016-01-28-RNA-Seq-Based-Transcriptional-Profiling-of-Pseudomonas-Aeruginosa-Pa14-After-Short-and-Long-Term-Anoxic-Cultivation-in-Synthetic-Cystic-Fibrosis-Sputum-Medium.rst>`
+  | :link-flat-strong:`RNA-Seq Based Transcriptional Profiling of Pseudomonas aeruginosa PA14 after Short- and Long-Term Anoxic Cultivation in Synthetic Cystic Fibrosis Sputum Medium <{filename}/blog/2016-01-28-RNA-Seq-Based-Transcriptional-Profiling-of-Pseudomonas-Aeruginosa-Pa14-After-Short-and-Long-Term-Anoxic-Cultivation-in-Synthetic-Cystic-Fibrosis-Sputum-Medium.rst>`
   | Muralidhar Tata, :ul:`Michael T. Wolfinger`, Fabian Amman, Nicole Roschanski, Andreas Dotsch, Elisabeth Sonnleitner, Susanne Haussler, Udo Blasi
   | *PLoS ONE* 11:e0147811 (2016) | :doi:`doi:10.1371/journal.pone.0147811 <https://doi.org/10.1371/journal.pone.0147811>` | :link-flat:`PDF <{static}/files/papers/Tata-2016.pdf>`
 

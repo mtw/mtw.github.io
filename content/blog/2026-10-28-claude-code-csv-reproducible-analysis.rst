@@ -366,13 +366,13 @@ a clean output directory without asking the agent to fix anything. If reproducti
 depends on undocumented edits, or on the agent remembering what happened in the
 conversation, the analysis is not self-contained yet.
 
-Both runs ended with such a directory. The cloud model asked the one question I had left
+Both of the runs ended with such a directory. The cloud model asked the one question I had left
 open and wrote tests on its own initiative, at a cost of USD 2.53 for the session. The
 local model got there with a better setup and one explicit instruction, in about the
 same time and at no cost per run, on hardware many labs already have. In both cases the
 scientific decisions had to come from me, the answer had to be established outside the
 agent, and the result needed a check that did not rely on the agent's own assurance.
-Twelve rows are sufficient to practise this.
+Twelve rows are enough to practise the whole workflow.
 
 Tested with Claude Code 2.1.310 on macOS, Python 3.15.1, matplotlib 3.11.2 and pandas
 3.1.0, with claude-opus-5-5 through a claude.ai login as the cloud model and gpt-oss:20b

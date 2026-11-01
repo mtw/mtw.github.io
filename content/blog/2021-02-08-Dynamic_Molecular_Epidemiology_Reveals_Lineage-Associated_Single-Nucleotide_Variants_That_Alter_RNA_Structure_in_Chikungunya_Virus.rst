@@ -35,13 +35,31 @@ Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Vari
           :figclass: m-figure m-flat
 
 
-Chikungunya virus, an emerging Alphavirus, causes millions of human infections annually and has witnessed outbreaks in Africa and Asia since the 1950s. The research presented here delves into the molecular epidemiology of CHIKV, revealing how single nucleotide variants can impact the virus's RNA structures. Utilizing more than 1000 publicly available CHIKV genomes, the study provides an interactive phylodynamics dataset using Nextstrain, a tool for real-time tracking of pathogen evolution. The data set, publicly available through `CHIKVnext <https://nextstrain.org/groups/ViennaRNA/CHIKVnext>`_, enables the tracking of spatiotemporal and epidemiological aspects of the CHIKV global spread.
+Chikungunya virus is an *Alphavirus* with millions of human infections per year. Outbreaks
+have been described since the 1950s for three lineages, i.e. West African, East Central South
+African and Asian Urban, and strains carried into the Americas have since formed further
+monophyletic groups that were again named after the region where they were first seen. This
+paper assembles more than 900 public CHIKV genomes into a phylodynamic data set and publishes
+it as an interactive Nextstrain build, `CHIKVnext <https://nextstrain.org/groups/ViennaRNA/CHIKVnext>`_,
+so that the spread can be followed in space and time instead of in a static tree.
 
-The study addresses genotype/phenotype associations in CHIKV by employing comparative approaches, molecular epidemiology concepts, phylogeny reconstruction, and computational RNA biology. The nucleotide divergence within CHIKV lineages is found to be relatively low, often due to geographical constraints and a limited collection period for newer lineages. However, the divergence between different lineages can be considerable, with the West African lineage showing the highest divergence compared to others.
+The second half of the work connects that phylogeny with RNA structure prediction. Divergence
+within a lineage is low, in part because the younger lineages were sampled over a short period
+and in a limited area, while divergence between lineages is considerable, with the West African
+lineage furthest from the rest. Against that background, single nucleotide variants that occur
+in one lineage and not in the others become visible.
 
-This publication questions the current nomenclature of CHIKV lineages, and suggests that a new system, independent of geography, might be more coherent and beneficial for drug and vaccine development. Despite the low divergence in some established lineages, mutations like A226V in E1 can significantly impact the virus's capacity to replicate. The study further highlights the importance of increased surveillance to identify the virus at the time of introduction rather than during a pandemic.
+The structural question is what such a variant does to the fold around it. For more than a
+dozen locally stable elements the prediction changes with a single nucleotide: the structure
+ensemble shifts, and different lineages are predicted to form different structures at the same
+position of the genome. These are predictions from sequence data, so they say where to look
+rather than what the virus does.
 
-This research exemplifies the importance of a holistic, interdisciplinary approach in understanding and combating infectious diseases such as CHIKV. The findings, which combine molecular epidemiology and RNA structure prediction, not only pave the way for better diagnostic and treatment methods but also underscore the necessity of a timely response to prevent outbreaks. The One Health approach is particularly pertinent here. By adopting a unified perspective, scientists, healthcare professionals, and policymakers can work together to address the multifaceted challenges posed by CHIKV and similar infectious diseases, ultimately contributing to the well-being of our global ecosystem.
+Two consequences follow for practice: naming lineages after the region of first detection stops
+being useful once strains move between continents, so a nomenclature independent of geography
+would describe the diversity better. And single substitutions can matter for the phenotype, the
+adaptive E1 A226V mutation being the known example, which is an argument for sequencing at the
+time a virus is introduced rather than during an outbreak.
 
 .. frame:: Abstract
 

@@ -35,7 +35,7 @@ SHAPE directed RNA folding
 
 **In short:** ViennaRNA folds with SHAPE data through soft constraints: ``RNAfold --shape reactivities.dat`` with ``--shapeMethod=D``, ``Z`` or ``W`` selects the Deigan, Zarringhalam or Washietl conversion of reactivities into pseudo-energies. The data adjust the energy model rather than fix base pairs, so probing improves predictions where the thermodynamic model is uncertain and leaves the interpretation of the ensemble to you. A step-by-step tutorial with a worked example is :link-flat:`SHAPE and chemical probing data in RNA structure prediction <{filename}/blog/2026-10-19-shape-probing-data-rna-structure-prediction.rst>`.
 
-This paper sits at a practical intersection. One has a sequence,
+This paper sits at a practical intersection, where one has a sequence,
 probing data, and the need to combine both in a single folding model.
 Rather than introducing a wholly new formalism, the paper shows how
 SHAPE reactivities can be incorporated into the ViennaRNA Package
@@ -53,9 +53,9 @@ space between experiment and model.
 
 Methodologically, the paper compares three influential SHAPE-integration strategies and implements them in a common ViennaRNA framework. The Deigan approach converts reactivities into pseudo-energies that act mainly on stacked pairs, which makes it direct and relatively light. The Zarringhalam method reads reactivities in terms of paired and unpaired propensities and spreads penalties more broadly across the structure. The Washietl approach takes a more global view and infers a perturbation of the energy model that reconciles thermodynamic folding with the probing signal while keeping the intervention small. Seeing these methods side by side in one software environment makes their assumptions much easier to compare.
 
-That comparative aspect is one of the strongest features of the paper. It does not argue for one universal recipe. Instead, it shows the choices that matter. How strongly should experimental data push against the default energy model? Is it better to treat reactivities locally, or to interpret them at the ensemble level? What should happen when SHAPE data favor a structure the default parameterization would otherwise underweight? These are the real inference questions behind experiment-guided RNA folding.
+That comparative aspect is one of the strongest features of the paper. It does not argue for one universal recipe, but shows the choices that matter. How strongly should experimental data push against the default energy model? Is it better to treat reactivities locally, or to interpret them at the ensemble level? What should happen when SHAPE data favor a structure the default parameterization would otherwise underweight? These are the real inference questions behind experiment-guided RNA folding.
 
-The benchmark section matters for the same reason. The paper evaluates the methods on RNAs with known reference structures and looks not only at minimum free energy predictions but also at ensemble properties derived from partition function calculations. That broader view is important. SHAPE data do not simply improve one final fold. Very often they sharpen the whole distribution of plausible structures, which makes base-pair probabilities and structural uncertainty more informative. In practice, careful SHAPE-guided folding does better than sequence-only thermodynamic prediction, particularly when several folds are close in free energy.
+The benchmark section matters for the same reason. The paper evaluates the methods on RNAs with known reference structures and looks not only at minimum free energy predictions but also at ensemble properties derived from partition function calculations. That broader view matters, because SHAPE data do not simply improve one final fold. Very often they sharpen the whole distribution of plausible structures, which makes base-pair probabilities and structural uncertainty more informative. In practice, careful SHAPE-guided folding does better than sequence-only thermodynamic prediction, particularly when several folds are close in free energy.
 
 The paper also makes clear that ViennaRNA is more than a set of folding
 executables. It is a framework in which the energy model can be
@@ -63,7 +63,7 @@ extended in a controlled way. Published SHAPE datasets can be
 reanalyzed, methods can be compared under the same machinery, and users
 are not forced into one opaque implementation.
 
-The paper is also a reminder that some of the best progress in RNA structure prediction comes from combining different kinds of evidence rather than replacing one paradigm with another. Even now, that lesson still holds. Experimental probing, ensemble thinking, and physically interpretable constraints remain central when the goal is biological understanding rather than a better benchmark number.
+The paper is also a reminder that some of the best progress in RNA structure prediction comes from combining different kinds of evidence rather than replacing one paradigm with another, and that lesson still holds: experimental probing, ensemble thinking, and physically interpretable constraints remain central when the goal is biological understanding rather than a better benchmark number.
 
 This SHAPE paper belongs squarely in that territory, because its value
 lies in changing which structural hypotheses remain plausible once
@@ -108,7 +108,7 @@ Citation
 See also
 ========
 
-  | :link-flat-strong:`Predicting RNA Structures from Sequence and Probing Data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>`
+  | :link-flat-strong:`Predicting RNA secondary structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>`
   | Ronny Lorenz, :ul:`Michael T. Wolfinger`, Andrea Tanzer, Ivo L. Hofacker
   | *Methods* 103:86–98 (2016) | :doi:`doi:10.1016/j.ymeth.2016.04.004 <https://doi.org/10.1016/j.ymeth.2016.04.004>` | :link-flat:`PDF <{static}/files/papers/Lorenz-2016.pdf>`
 

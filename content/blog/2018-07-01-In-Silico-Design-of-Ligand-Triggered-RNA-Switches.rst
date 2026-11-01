@@ -32,11 +32,11 @@ This work lays out a concrete in silico workflow for that problem. It starts fro
 
 One useful contribution of the paper is that it makes the objective function explicit. Instead of treating switch design as a vague search for "good" sequences, the workflow defines quantitative criteria for what the sequence should do. That matters because RNA design tends to fail when the desired mechanism is underspecified. If the design objective does not encode the structural logic of the switch, ranking candidate sequences quickly becomes guesswork.
 
-The other key point is kinetics. For many RNA design problems, equilibrium structure alone is not enough. A candidate may satisfy static structural constraints and still perform poorly if the switching pathway is too slow, too indirect, or dominated by off-target intermediates. The workflow therefore includes an analysis of folding kinetics instead of stopping at secondary structure prediction.
+The other key point is kinetics, because for many RNA design problems equilibrium structure alone is not enough. A candidate may satisfy static structural constraints and still perform poorly if the switching pathway is too slow, too indirect, or dominated by off-target intermediates. The workflow therefore includes an analysis of folding kinetics instead of stopping at secondary structure prediction.
 
 The result is a design pipeline that helps filter and rank candidate sequences before any experimental work begins. It does not guarantee that a proposed switch will function in a cellular context, and it does not replace experimental validation. It does offer a principled way to reduce the search space and focus attention on sequences whose structures and dynamic behavior are at least consistent with the intended design.
 
-For computational RNA biology, that is the real value of this kind of work. It turns riboswitch design from an intuition-led exercise into an optimization problem with explicit structural and kinetic criteria. That framing also makes the workflow adaptable. Once the design assumptions are clear, the same logic can be extended to other aptamers, other switching scenarios, and more elaborate regulatory mechanisms.
+For computational RNA biology, that is the real value of this kind of work. It turns riboswitch design from an intuition-led exercise into an optimization problem with explicit structural and kinetic criteria. That framing also makes the workflow adaptable: once the design assumptions are clear, the same logic can be extended to other aptamers, other switching scenarios, and more elaborate regulatory mechanisms.
 
 The same pre-synthesis question appears whenever design objectives,
 competing folds, and likely failure modes have to be examined before a

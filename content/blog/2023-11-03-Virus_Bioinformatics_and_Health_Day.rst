@@ -47,7 +47,7 @@ Genomic Epidemiology Is About Context
 
 Genomic epidemiology adds another dimension: time, geography, and lineage history. Instead of asking only what a genome contains, it asks how genomes are changing across outbreaks, hosts, and regions. For many viral systems, that context is essential for interpreting sequence variation sensibly.
 
-This is particularly important when sequence changes overlap with structured RNA regions. A mutation that looks minor at the amino-acid level can have a larger effect on local RNA folding, and the opposite is also true. Bringing phylogenetic and structural perspectives together is one of the more interesting strengths of virus bioinformatics.
+That matters when sequence changes fall into structured RNA regions. A mutation that looks minor at the amino-acid level can have a larger effect on local RNA folding, and the opposite is also true. Bringing phylogenetic and structural perspectives together is one of the more interesting strengths of virus bioinformatics.
 
 What Good Virus Bioinformatics Looks Like
 -----------------------------------------

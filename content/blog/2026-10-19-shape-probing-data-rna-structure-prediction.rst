@@ -23,7 +23,7 @@ SHAPE and chemical probing data in RNA structure prediction
 Chemical probing experiments such as SHAPE give you one reactivity number per nucleotide, and the
 question I get asked most often is how these numbers go into RNAfold, and what
 they actually do to a prediction. This post is a hands-on answer, using yeast tRNA-Phe as
-an example. I go through the three approaches to fold with probing data in ViennaRNA. All commands were run with ViennaRNA 2.7.2.
+an example. I go through the three approaches to fold with probing data in ViennaRNA, and all commands below were run with ViennaRNA 2.7.2.
 
 What SHAPE measures
 -------------------
@@ -34,9 +34,9 @@ nucleotides in loops, bulges and unstructured regions are modified more often. R
 stops at the modified positions, and counting the stops gives a reactivity for every
 nucleotide, usually normalized such that most values fall between 0 and about 2.
 
-Two things about these numbers are important. A reactivity is not a pairing state. A low
-value means the nucleotide is constrained somehow, not that it pairs with a particular
-partner. Conversely, a high value means flexible, which is true for unpaired bases but also for bases
+Two things about these numbers matter for what follows. The first is that a reactivity is
+not a pairing state, i.e. a low value means the nucleotide is constrained somehow, not
+that it pairs with a particular partner. Conversely, a high value means flexible, which is true for unpaired bases but also for bases
 in weak or dynamic pairs and at helix ends. The values are also noisy, on a scale that
 depends on the experiment. For these reasons ViennaRNA does not use reactivities to fix
 base pairs, but to modify the underlying energy model. Technically, this is achieved through so-called soft constraints, and the three
@@ -67,13 +67,13 @@ Put the sequence of yeast tRNA-Phe in a FASTA file ``tRNA.fa``:
     frequency of mfe structure in ensemble 0.060652; ensemble diversity 23.38
 
 The first line is the MFE cloverleaf structure. The second line gives the ensemble
-free energy, with symbols that code the pair probabilities. The third line is the centroid
-structure. The last line says that the MFE structure has a
+free energy, with symbols that code the pair probabilities. The third line gives the centroid
+structure of the ensemble. The last line says that the MFE structure has a
 frequency of only 6% in the Boltzmann ensemble, and an ensemble diversity of 23 is huge
 for a 76 nt RNA. In other words, the energy model considers many alternative structures,
 and this is exactly the situation where probing data are most informative.
 Note that ``-p`` also writes the dot plot ``tRNA-Phe_dp.ps`` with all pair probabilities.
-``--noPS`` only suppresses the structure drawing. I will use the dot plot below.
+``--noPS`` only suppresses the structure drawing. I will use that dot plot further below.
 
 The probing data input format
 -----------------------------
@@ -90,17 +90,17 @@ reactivity:
    5 A 0.13
    ...
 
-Positions without data can be omitted. RNAfold then simply has no information for them.
+Positions without data can be omitted, and RNAfold then simply has no information for them.
 Whatever your probing pipeline produces, a few ``sed`` or ``awk`` lines bring it into this form.
 
-A word on the data used here. I do not have a SHAPE profile for this particular sequence,
+A word on the data used here: I do not have a SHAPE profile for this particular sequence,
 and this post is about the mechanics, not about a specific experiment. The profile I use
 is therefore synthetic: I took the known cloverleaf and assigned uniformly random
 reactivities between 0.7 and 1.6 to unpaired positions and between 0 and 0.25 to paired
 positions. Real data are noisier, in particular at helix ends. The behavior of the
-programs is the same for real data, the numbers are not. The file is
-:link-flat:`tRNA-Phe.shape <{static}/files/tutorials/tRNA-Phe.shape>`. Save it as
-``tRNA.shape`` to run the commands below.
+programs is the same for real data, the numbers are not. The profile used below is the file
+:link-flat:`tRNA-Phe.shape <{static}/files/tutorials/tRNA-Phe.shape>`, which you can save
+as ``tRNA.shape`` to run the commands.
 
 Method D (Deigan): pseudo-energies for stacked pairs
 ----------------------------------------------------
@@ -113,7 +113,7 @@ Method D (Deigan): pseudo-energies for stacked pairs
 
    (((((((..((((........)))).(((((.......))))).....(((((.......)))))))))))).... (-48.64)
 
-This is the default method. Each reactivity *r* is converted into a pseudo-energy
+This is the default method, in which each reactivity *r* is converted into a pseudo-energy
 ΔG(r) = m · ln(r + 1) + b with m = 1.8 and b = −0.6 kcal/mol (Deigan et al. 2009), and
 this term is added for every nucleotide that is part of a stacked pair. Low reactivities
 give a negative contribution, i.e. a bonus for pairing, high reactivities a penalty.
@@ -137,15 +137,15 @@ prediction at all. What they did change becomes visible with the partition funct
 
 Before: MFE frequency 0.06, diversity 23.4, a centroid with three inner base pairs. After: MFE
 frequency 0.50, diversity 0.88, and the centroid is the cloverleaf. In the dot plot, 20 of
-the 21 cloverleaf pairs now have a probability above 0.98; the one exception is 49-65,
+the 21 cloverleaf pairs now have a probability above 0.98, and the one exception is 49-65,
 the closing pair of the T stem next to the multiloop, at 0.97. So the data did not move
 the prediction, they removed the alternatives.
 
 Slope and intercept can be changed, e.g. ``--shapeMethod="Dm1.9b-0.7"``, or individually
 (``"Dm1.9"``, ``"Db-0.7"``). A larger slope gives the data more weight relative to the
 energy model. I would leave the defaults alone unless you have calibrated your own
-experiment. They were fitted for normalized reactivities on a 0–2 scale; data on a
-different scale should be rescaled, not compensated with m.
+experiment. They were fitted for normalized reactivities on a 0–2 scale, so data on a
+different scale should be rescaled rather than compensated with m.
 
 Method Z (Zarringhalam): penalize deviations from the data
 ----------------------------------------------------------
@@ -172,7 +172,7 @@ narrows the ensemble even more than D.
 Method W (Washietl): a perturbation vector
 ------------------------------------------
 
-The W method works differently. It does not convert reactivities on the fly but expects a
+The W method works differently, since it does not convert reactivities on the fly but expects a
 *perturbation vector*, a small energy correction per nucleotide, chosen such that the
 predicted unpaired probabilities match the data as well as possible while the energy
 model is changed as little as possible. This vector is computed with
@@ -198,7 +198,7 @@ least invasive of the three methods here. If you pass raw reactivities to ``--sh
 mistake, RNAfold reads them as energies and the result is garbage. The structure then has
 nothing to do with the data, which makes the error easy to spot.
 
-Which method? D is the default, the fastest and the most widely used. Z and W are useful
+As for the choice between them, D is the default, the fastest and the most widely used. Z and W are useful
 to see how much the result depends on the way the data enter the model. If all three
 agree, the conclusion does not depend on this choice. If they disagree, the data are not
 decisive for that region.
@@ -208,7 +208,7 @@ What the data (do not) change
 
 Three small experiments show what probing data do and what they do not do.
 
-**Partial data.** Assume only the anticodon loop, positions 32–38, was probed:
+**Partial data** is the first case: assume only the anticodon loop, positions 32–38, was probed:
 
 .. code-block:: bash
 
@@ -223,14 +223,14 @@ Three small experiments show what probing data do and what they do not do.
 
 The MFE structure is unchanged, and so is its energy: the seven probed positions lie in
 the anticodon loop, they are unpaired in this structure, and method D adds its term only
-to nucleotides in a stacked pair. The ensemble, however, is not unchanged. The MFE
+to nucleotides in a stacked pair. The ensemble, however, does change: the MFE
 frequency rises from 0.06 to 0.22 and the diversity falls from 23.4 to 7.9, because the
 high reactivities penalise every alternative structure that would pair these seven
 positions. Seven measurements that merely confirm what the model already predicted still
 remove a large part of the ensemble. Probing data act only where they exist, but they act
 on every structure, not only on the one the model prefers.
 
-**Contradicting data.** Now set the reactivities of positions 1–7, the 5' side of the
+**Contradicting data** is the second case: now set the reactivities of positions 1–7, the 5' side of the
 acceptor stem, to 1.2, as if these nucleotides had been found flexible:
 
 .. code-block:: bash
@@ -245,13 +245,13 @@ acceptor stem, to 1.2, as if these nucleotides had been found flexible:
    ((((((...((((........)))).(((((.......))))).....(((((.......))))).)))))).... {-34.07 d=2.18}
     frequency of mfe structure in ensemble 0.149346; ensemble diversity 3.04
 
-The MFE structure is still the cloverleaf. A penalty of about 0.8 kcal/mol for every
+The MFE structure is still the cloverleaf, because a penalty of about 0.8 kcal/mol for every
 stack one of the nucleotides 1–7 takes part in is not enough to break a stem of seven
 pairs, three of them GC. The ensemble, however, has
 changed a lot: the MFE frequency drops from 0.50 to 0.15, the diversity rises from 0.88
 to 3.0, and the centroid has lost the pair 7-66. In the dot plot the acceptor stem pairs
 now have probabilities of 0.96, 0.97, 0.93, 0.73, 0.64, 0.53 and 0.31 from the outside
-in, down from 0.99 or better; the three other stems stay at 1.00.
+in, down from 0.99 or better, while the three other stems stay at 1.00.
 :link-flat:`RNAsubopt <https://viennarna.readthedocs.io/en/latest/man/RNAsubopt.html>` shows the
 alternatives the data have pulled up:
 
@@ -276,7 +276,7 @@ you miss this completely. A larger slope, ``--shapeMethod="Dm2.6b-0.8"``, remove
 acceptor stem from the MFE structure altogether. If you want to force positions to be
 unpaired, use hard constraints (``RNAfold -C``), which is a different question.
 
-**Consistent data.** This is the case shown above with the full profile, and the common
+**Consistent data** is the third case, the one shown above with the full profile and the common
 case with good data on a well-folded RNA: the structure stays, the alternatives disappear
 from the ensemble. Instead of "the MFE structure with 6% support" you get "the MFE
 structure with half the ensemble behind it and 20 of 21 pairs above 0.98". That is a
@@ -296,12 +296,12 @@ RNAs of low abundance when combined with targeted amplification. ShapeMapper (Bu
 Weeks 2018) turns the sequencing reads into a reactivity profile, and a few ``awk`` lines
 turn that profile into the three-column format above.
 
-The same readout is used in cells. Reagents that pass membranes, i.e. NAI, its azide
-derivative NAI-N3 (icSHAPE, Spitale et al. 2015) and 2A3 (Marinus et al. 2021), modify
-the RNA in the living cell, and DMS-MaPseq (Zubradt et al. 2017) does the same with
+The same readout is used in living cells, where reagents that pass membranes, i.e. NAI,
+its azide derivative NAI-N3 (icSHAPE, Spitale et al. 2015) and 2A3 (Marinus et al. 2021),
+modify the RNA inside the cell, and DMS-MaPseq (Zubradt et al. 2017) does the same with
 dimethyl sulfate, which reports on adenosines and cytidines only. For RNAfold the
 difference between an in vitro and an in-cell profile is invisible, the file format is
-the same and so is the calculation. The interpretation differs in three respects.
+the same and so is the calculation. What differs is the interpretation, in three respects.
 
 - In-cell reactivities report on the RNA together with everything bound to it. A
   nucleotide protected by a protein, a ribosome or a ligand appears as unreactive, and

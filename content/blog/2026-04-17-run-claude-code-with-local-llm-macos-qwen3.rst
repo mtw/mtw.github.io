@@ -26,14 +26,14 @@ and ``ANTHROPIC_AUTH_TOKEN``, because LM Studio has served Anthropic's Messages 
 translation layer. This guide covers the setup on a Mac with Apple Silicon (with notes
 for Windows and Linux), how to choose a model and context length that actually work with
 an agent, and the failure modes I ran into. It was first written in April 2026 and revised in September and
-October 2026; every command below was re-run in October 2026 with LM Studio 0.4.16 and
+October 2026, and every command below was re-run in October 2026 with LM Studio 0.4.16 and
 Claude Code 2.1.302.
 
 I use this for the same reason many scientists will: unpublished sequence data and
 manuscripts should not leave the machine, and a local model costs nothing per token.
-The trade-off is capability. A 20–30B local model is a competent assistant for scripts,
-refactoring, and documentation; it is not a substitute for the frontier models on large
-multi-file tasks.
+The trade-off is capability, because a 20–30B local model is a competent assistant for
+scripts, refactoring and documentation, but not a substitute for the frontier models on
+large multi-file tasks.
 
 Prerequisites
 -------------
@@ -48,7 +48,7 @@ Prerequisites
 Step 1: Load a model in LM Studio
 ---------------------------------
 
-LM Studio ships a command-line tool, ``lms``. If your shell does not find it, run the
+LM Studio ships a command-line tool called ``lms``. If your shell does not find it, run the
 bootstrap step from the LM Studio app (Developer tab) and reopen the terminal.
 
 .. code-block:: bash
@@ -59,14 +59,15 @@ bootstrap step from the LM Studio app (Developer tab) and reopen the terminal.
    lms load qwen/qwen3-coder-30b --context-length 32768 --identifier qwen-local
    lms ps                         # what is loaded, with its context length
 
-Two settings matter more than anything else:
+Two settings matter more than anything else here:
 
-**Context length.** Claude Code sends a system prompt and tool definitions of roughly
-20K tokens before your first word. LM Studio's own guidance is "more than ~25k"; the
-model's default in LM Studio is often 4K, and with that the session fails on the first
-request. Use 32K as the floor and 64K if memory allows; the KV cache grows with it.
+**Context length** is the first of them: Claude Code sends a system prompt and tool
+definitions of roughly 20K tokens before your first word. LM Studio's own guidance is
+"more than ~25k", while the model's default in LM Studio is often 4K, and with that the
+session fails on the first request. Use 32K as the floor and 64K if memory allows,
+because the KV cache grows with it.
 
-**Tool calling.** The agent edits files and runs commands through tool calls. A model
+**Tool calling** is the second: the agent edits files and runs commands through tool calls. A model
 without reliable tool use will chat about your code and never touch it. Coding models
 with tool support that run well on Apple Silicon:
 
@@ -79,14 +80,15 @@ with tool support that run well on Apple Silicon:
 - ``google/gemma-4-12b`` (about 7 GB on disk, 12 GB loaded with 32K) — the practical
   option for a 16 GB Mac; it completed file-editing tasks reliably in my tests.
 
-**Where the model comes from matters.** Download through LM Studio's catalog
+**Where the model comes from matters**, so download through LM Studio's catalog
 (``lms get <model>`` or the app's Discover tab), which carries chat templates LM Studio has
 tested. A GGUF taken from an arbitrary Hugging Face repository can have a template that
-LM Studio's Jinja engine cannot render once an agent sends its tool definitions; the
-plain ``curl`` test below then works and Claude Code fails with a 500 (see
+LM Studio's Jinja engine cannot render once an agent sends its tool definitions, and the
+plain ``curl`` test below then works while Claude Code fails with a 500 (see
 troubleshooting).
 
-**Memory on a 16 GB Mac.** The KV cache for a 32K context adds several gigabytes: a 7 GB
+**Memory on a 16 GB Mac** is the limiting factor: the KV cache for a 32K context adds
+several gigabytes, so a 7 GB
 model needs about 12 GB loaded, and LM Studio's resource guardrail refuses loads it
 expects to freeze the machine. Use ``--context-length 16384`` or a smaller model there,
 and close memory-hungry applications.
@@ -121,7 +123,7 @@ Step 2: Start the server and check it with curl
    lms server start --port 1234
    lms server status
 
-The Anthropic-compatible endpoint is ``http://localhost:1234/v1/messages``. Check it
+The Anthropic-compatible endpoint of LM Studio is ``http://localhost:1234/v1/messages``. Check it
 before involving Claude Code — first the model list, then one message:
 
 .. code-block:: bash
@@ -154,7 +156,7 @@ Step 3: Point Claude Code at LM Studio
    export CLAUDE_CODE_MAX_CONTEXT_TOKENS=32768
    claude --model qwen-local
 
-What each line does:
+The lines in that snippet do the following:
 
 - ``ANTHROPIC_BASE_URL`` sends every request to LM Studio.
 - ``ANTHROPIC_AUTH_TOKEN`` is the credential. LM Studio ignores its value unless
@@ -172,13 +174,13 @@ What each line does:
 - ``--model qwen-local`` selects the model for this session; ``ANTHROPIC_MODEL`` does
   the same from the environment.
 
-Older guides mention ``ANTHROPIC_SMALL_FAST_MODEL`` for the background model; it is
+Older guides mention ``ANTHROPIC_SMALL_FAST_MODEL`` for the background model, which is
 deprecated in favour of ``ANTHROPIC_DEFAULT_HAIKU_MODEL``.
 
 For a fully offline session add ``DISABLE_TELEMETRY=1``, ``DISABLE_ERROR_REPORTING=1``
-and ``CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1``; Claude Code reads only whether
-these are set, so any value works. LM Studio's integration page also suggests
-``CLAUDE_CODE_ATTRIBUTION_HEADER=0``.
+and ``CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1``. Claude Code reads only whether
+these are set, so any value works. LM Studio's integration page also suggests the
+variable ``CLAUDE_CODE_ATTRIBUTION_HEADER=0``.
 
 Inside Claude Code, ``/status`` shows which base URL and credential source are in
 use — the first thing to check when something is off.
@@ -210,17 +212,17 @@ remembering when a session ignores what you just exported.
 On Windows and Linux
 ====================
 
-The server side and the variables are the same; what differs is how the variables are
-set. I have run this on macOS only; the notes below follow LM Studio's and Claude Code's
-documentation.
+The server side and the variables are the same, and only the way the variables are set
+differs. I have run this on macOS only, so the notes below follow LM Studio's and Claude
+Code's documentation.
 
 - LM Studio has Windows and Linux builds with the same ``lms`` commands and the same
   port. On Linux the model runs through CUDA or Vulkan, and the memory figures above
   apply to the graphics card's memory rather than to unified memory.
 - Claude Code installs natively on Windows 10 (1809) or newer from PowerShell with
-  ``irm https://claude.ai/install.ps1 | iex`` or ``winget install Anthropic.ClaudeCode``;
+  ``irm https://claude.ai/install.ps1 | iex`` or ``winget install Anthropic.ClaudeCode``.
   Git for Windows is recommended so that the agent has a Bash tool. In PowerShell the
-  exports become
+  exports below replace the shell exports used above and look like this:
 
   .. code-block:: powershell
 
@@ -232,7 +234,7 @@ documentation.
      $env:CLAUDE_CODE_MAX_CONTEXT_TOKENS = "32768"
      claude --model qwen-local
 
-  and last for that window. The ``settings.json`` above is identical on every platform
+  They last for that window only, while the ``settings.json`` above is identical on every platform
   (``%USERPROFILE%\.claude\settings.json`` for all projects) and is the better choice on
   Windows, because it sidesteps the shell question.
 - Claude Code inside WSL with LM Studio on the Windows side: ``localhost`` in WSL 2 is
@@ -250,7 +252,7 @@ Step 4: Work
    claude --model qwen-local
 
 Ask it to inspect the repository, propose edits, run the tests, and review the diff
-before you commit. Keep tasks small and concrete; local models do far better with
+before you commit. Keep tasks small and concrete, because local models do far better with
 "add a ``--dry-run`` flag to this script" than with "clean up the project".
 
 Troubleshooting
@@ -325,7 +327,7 @@ Summary
 Related guides: :link-flat:`Claude Code with Ollama on macOS and Linux <{filename}/blog/2026-09-24-run-claude-code-with-ollama.rst>`
 and :link-flat:`OpenAI Codex CLI with a local model <{filename}/blog/2026-09-24-codex-cli-local-model-lm-studio-ollama.rst>`.
 
-Sources: `LM Studio, Claude Code integration <https://lmstudio.ai/docs/integrations/claude-code>`_;
-`LM Studio, Anthropic compatibility endpoints <https://lmstudio.ai/docs/developer/anthropic-compat>`_;
-`Claude Code, connect to an LLM gateway <https://code.claude.com/docs/en/llm-gateway-connect>`_;
+Sources: `LM Studio, Claude Code integration <https://lmstudio.ai/docs/integrations/claude-code>`_ ·
+`LM Studio, Anthropic compatibility endpoints <https://lmstudio.ai/docs/developer/anthropic-compat>`_ ·
+`Claude Code, connect to an LLM gateway <https://code.claude.com/docs/en/llm-gateway-connect>`_ ·
 `Claude Code, model configuration <https://code.claude.com/docs/en/model-config>`_.

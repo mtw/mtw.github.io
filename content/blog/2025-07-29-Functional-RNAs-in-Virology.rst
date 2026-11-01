@@ -31,17 +31,17 @@ I’m honored to serve as Guest Editor of the :link-flat-strong:`Functional RNAs
 Understanding the Role of RNA in Viruses
 ----------------------------------------
 
-Far beyond acting as genetic messengers, viral RNAs have emerged as active regulators that shape virtually every step of the infection cycle. From modulating protein synthesis to regulating host interactions and genome replication, these RNAs form a molecular toolkit that viruses rely on for survival and success.
+Viral RNAs are not only messengers. They regulate steps of the infection cycle directly, from protein synthesis to genome replication and the interaction with host factors.
 
-Structured elements such as IRESs, frame-shifting pseudoknots, and exoribonuclease-resistant RNAs (xrRNAs), together with unstructured sequence motifs, form an intricate regulatory network that allows viruses to thrive in diverse cellular environments. Recent discoveries, including computational predictions of highly conserved RNA elements across viral families, emphasize the evolutionary significance of RNA-based regulation.
+Structured elements such as internal ribosome entry sites, frame-shifting pseudoknots and exoribonuclease-resistant RNAs (xrRNAs), together with unstructured sequence motifs, make up that regulatory layer. Comparative work across viral families keeps finding such elements conserved as a fold rather than as a sequence, which is an argument that they are under selection.
 
-Understanding how viruses exploit RNA structure and sequence is essential not only to decode their infection strategies but also to identify novel targets for antiviral intervention.
+Understanding how viruses use RNA structure and sequence is needed both to describe their infection strategies and to find targets for antiviral intervention.
 
 
 Scope of the Special Issue
 --------------------------
 
-The **Functional RNAs in Virology** Special Issue aims to provide a comprehensive overview of how RNA acts as a regulatory molecule in viral infection. We welcome both original research articles and reviews that explore well-characterized RNA elements as well as emerging discoveries. Topics of interest include, but are not limited to:
+The **Functional RNAs in Virology** Special Issue collects work on how RNA acts as a regulatory molecule in viral infection. We welcome both original research articles and reviews that explore well-characterized RNA elements as well as emerging discoveries. Topics of interest include, but are not limited to:
 
 -  **Functional RNA structures** involved in translation, replication, and genome packaging
 -  **Long-range RNA–RNA interactions** and RNA conformational switches

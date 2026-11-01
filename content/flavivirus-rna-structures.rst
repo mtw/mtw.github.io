@@ -17,11 +17,13 @@ Structured RNAs in flavivirus genomes
 
 The genome of a flavivirus is a single positive-strand RNA of about eleven kilobases
 with one long open reading frame and two untranslated regions. The untranslated regions
-are not spacers. They carry structured elements that the virus depends on, i.e. elements
+are not spacers: they carry structured elements that the virus depends on, i.e. elements
 that resist a host enzyme, that bring the two ends of the genome together, or that bind
 host proteins, and most of them are conserved as a fold rather than as a sequence. This
 page collects the work on this site on these elements, from comparative analyses across
-virus lineages to the design of such a fold from scratch.
+virus lineages to the design of such a fold from scratch. Each paper is linked here by a
+short description of what it does, and the post behind the link gives its title, the full
+citation and the DOI.
 
 How an RNA stops an enzyme
 ==========================
@@ -32,8 +34,8 @@ enzyme stalls at a defined position in the 3′ untranslated region, and the RNA
 of that position survives as :link-flat:`subgenomic flaviviral RNA <{filename}/glossary.rst#sfrna>`
 (sfRNA), which interferes with the antiviral response of the host.
 
-The resistance is mechanical, not chemical. The element folds into a ring whose closure
-is held by a pseudoknot, the 5′ end of the element is threaded through that ring, and the
+The resistance is mechanical rather than chemical: the element folds into a ring whose
+closure is held by a pseudoknot, the 5′ end of the element is threaded through that ring, and the
 construction holds against the enzyme pulling on it. Sequence identity matters only where
 it maintains this topology, which is why xrRNAs are hard to find by sequence comparison
 alone and why they were found by looking for the fold.
@@ -44,19 +46,19 @@ What is conserved across the lineages
 Mosquito-borne flaviviruses such as dengue, Zika, West Nile, Japanese encephalitis and
 yellow fever virus build their 3′ untranslated regions from a small set of recurring
 modules: one or more xrRNAs, dumbbell elements and a terminal stem-loop. The number of
-copies and their arrangement differ between lineages, the vocabulary does not. The book
-chapter :link-flat-strong:`Functional RNA structures in the 3′UTR of mosquito-borne flaviviruses <{filename}/blog/2021-09-02-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`
-describes that vocabulary for the group.
+copies and their arrangement differ between lineages, the vocabulary does not. A book
+chapter on :link-flat-strong:`the structured modules of mosquito-borne flavivirus 3′UTRs <{filename}/blog/2021-09-02-Functional-RNA-structures-in-the-3UTR-of-MBFV.rst>`
+(*Virus Bioinformatics* 2021) describes that vocabulary for the group.
 
-The comparative analysis :link-flat-strong:`Comparative genomics of flavivirus 3′ UTR RNA structures <{filename}/blog/2019-03-25-Functional_RNA_Structures_in_the_3UTR_of_Tick-Borne_Insect-Specific_and_No_Known_Vector_Flaviviruses.rst>`
+A :link-flat-strong:`comparative analysis of flavivirus 3′ UTR structures <{filename}/blog/2019-03-25-Functional_RNA_Structures_in_the_3UTR_of_Tick-Borne_Insect-Specific_and_No_Known_Vector_Flaviviruses.rst>`
 (*Viruses* 2019) extends the question to tick-borne, insect-specific and no-known-vector
 flaviviruses. It found xrRNA-like elements distributed far more widely than the
 lineage-specific view had suggested, and a repeated, cascaded organisation of duplicated
-elements in insect-specific viruses. Within one virus species the same logic applies:
-:link-flat-strong:`RNA structure conservation and molecular epidemiology of TBEV <{filename}/blog/2021-12-17-Evolutionary-traits-of-Tick-borne-encephalitis-virus-Pervasive-non-coding-RNA-structure-conservation-and-molecular-epidemiology.rst>`
-(*Virus Evolution* 2022) shows a strongly conserved core domain near the 3′ end of
-tick-borne encephalitis virus and a variable region upstream of it that is still built
-from the same modules, combined with a phylogeny of the virus in space and time.
+elements in insect-specific viruses. Within one virus species the same logic applies: a
+study of :link-flat-strong:`structure conservation and molecular epidemiology in tick-borne encephalitis virus <{filename}/blog/2021-12-17-Evolutionary-traits-of-Tick-borne-encephalitis-virus-Pervasive-non-coding-RNA-structure-conservation-and-molecular-epidemiology.rst>`
+(*Virus Evolution* 2022) shows a strongly conserved core domain near the 3′ end of the
+genome and a variable region upstream of it that is still built from the same modules,
+combined with a phylogeny of the virus in space and time.
 
 New viruses, same toolkit
 =========================
@@ -65,19 +67,19 @@ Several of the papers here start in the field rather than at the computer, with 
 isolated from mosquitoes or ticks, and then ask whether the new genome carries the known
 elements.
 
-- :link-flat-strong:`Insect-specific flaviviruses from Zambia and their exoribonuclease-resistant RNAs <{filename}/blog/2020-09-14-Discoveries-of-Exoribonuclease-Resistant-Structures-of-Insect-Specific-Flaviviruses-Isolated-in-Zambia.rst>`
-  (*Viruses* 2020). Two viruses from *Culex* mosquitoes that replicate in mosquito cells
-  but not in mammalian or avian cells. Their 3′ untranslated regions carry xrRNA-like
+- A :link-flat-strong:`survey of insect-specific flaviviruses from Zambia <{filename}/blog/2020-09-14-Discoveries-of-Exoribonuclease-Resistant-Structures-of-Insect-Specific-Flaviviruses-Isolated-in-Zambia.rst>`
+  (*Viruses* 2020) describes two viruses from *Culex* mosquitoes that replicate in mosquito
+  cells but not in mammalian or avian cells. Their 3′ untranslated regions carry xrRNA-like
   folds, dumbbells and a terminal stem-loop, and the predicted xrRNAs stall Xrn1 in vitro.
-- :link-flat-strong:`Mpulungu virus and unique xrRNAs in a novel African tick flavivirus <{filename}/blog/2021-03-01-An_African_Tick_Flavivirus_Forming_an_Independent_Clade_Exhibits_Unique_Exoribonuclease-Resistant_RNA_Structures_in_the_Genomic_three_prime-Untranslated_Region.rst>`
-  (*Scientific Reports* 2021). A virus from a *Rhipicephalus* tick in Zambia that groups
-  with Ngoye virus outside the established tick-borne flaviviruses. Two xrRNA elements in
-  its 3′ untranslated region, both confirmed biochemically.
-- :link-flat-strong:`Xinyang flavivirus and a likely tick-only orthoflavivirus clade <{filename}/blog/2024-05-29-Xinyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade.rst>`
-  (*Journal of General Virology* 2024). A virus from ticks in Henan Province, China, that
-  joins the same branch. Its dinucleotide composition and a missing furin cleavage site
-  in prM argue for a lineage without a vertebrate host, yet the 3′ untranslated region
-  keeps the usual architecture of pseudoknot-containing stem-loops and a dumbbell.
+- The :link-flat-strong:`description of Mpulungu virus, a novel African tick flavivirus <{filename}/blog/2021-03-01-An_African_Tick_Flavivirus_Forming_an_Independent_Clade_Exhibits_Unique_Exoribonuclease-Resistant_RNA_Structures_in_the_Genomic_three_prime-Untranslated_Region.rst>`
+  (*Scientific Reports* 2021) reports a virus from a *Rhipicephalus* tick in Zambia that
+  groups with Ngoye virus outside the established tick-borne flaviviruses. Two xrRNA
+  elements sit in its 3′ untranslated region, both confirmed biochemically.
+- The :link-flat-strong:`report on Xinyang flavivirus and a likely tick-only clade <{filename}/blog/2024-05-29-Xinyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade.rst>`
+  (*Journal of General Virology* 2024) adds a virus from ticks in Henan Province, China,
+  that joins the same branch. Its dinucleotide composition and a missing furin cleavage
+  site in prM argue for a lineage without a vertebrate host, yet the 3′ untranslated
+  region keeps the usual architecture of pseudoknot-containing stem-loops and a dumbbell.
 
 Taken together these three viruses say something that no single genome could: the
 structured 3′ untranslated region belongs to the core of the flavivirus genome, not to
@@ -88,27 +90,27 @@ Other elements, other hosts
 
 Not every structure in these genomes is an xrRNA.
 
-- :link-flat-strong:`RNA–RNA interaction analysis of Japanese encephalitis virus <{filename}/blog/2023-03-31-Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis.rst>`
+- An :link-flat-strong:`analysis of RNA–RNA interactions in Japanese encephalitis virus <{filename}/blog/2023-03-31-Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis.rst>`
   (*Nucleic Acids Research* 2023) measures the long-range interaction that
   :link-flat:`cyclizes <{filename}/glossary.rst#cyclization>` the genome. The two terminal
   regions bind with nanomolar affinity in a one-to-one complex, and the affinity drops
   when the conserved cyclization sequence is disrupted.
-- :link-flat-strong:`A conserved G-quadruplex in the Zika virus 3′ terminal region <{filename}/blog/2023-10-23-The-3-prime-terminal-region-of-Zika-virus-RNA-contains-a-conserved-G-quadruplex-and-is-unfolded-by-human-DDX17.rst>`
+- A :link-flat-strong:`study of the Zika virus 3′ terminal region <{filename}/blog/2023-10-23-The-3-prime-terminal-region-of-Zika-virus-RNA-contains-a-conserved-G-quadruplex-and-is-unfolded-by-human-DDX17.rst>`
   (*Biochemistry and Cell Biology* 2024) shows that a conserved G-rich segment forms a
   quadruplex in the context of a longer transcript and that the human helicase DDX17
   unfolds it.
-- :link-flat-strong:`Musashi binding elements in Zika virus 3′UTR <{filename}/blog/2019-05-06-Musashi-Binding-Elements-in-Zika-and-Related-Flavivirus-3UTRs-A-Comparative-Study-in-Silico.rst>`
+- A :link-flat-strong:`comparison of Musashi binding elements in flavivirus 3′UTRs <{filename}/blog/2019-05-06-Musashi-Binding-Elements-in-Zika-and-Related-Flavivirus-3UTRs-A-Comparative-Study-in-Silico.rst>`
   (*Scientific Reports* 2019) asks where the binding motif of the host protein
   :link-flat:`Musashi-1 <{filename}/glossary.rst#musashi>` is accessible rather than
   merely present, using opening energies against shuffled controls.
-- :link-flat-strong:`3′ UTR-biased siRNA production in an insect-specific flavivirus <{filename}/blog/2024-10-15-Pan-flavivirus-analysis-reveals-sfRNA-independent-3-UTR-biased-siRNA-production-from-an-insect-specific-flavivirus.rst>`
+- A :link-flat-strong:`pan-flavivirus analysis of small interfering RNA production <{filename}/blog/2024-10-15-Pan-flavivirus-analysis-reveals-sfRNA-independent-3-UTR-biased-siRNA-production-from-an-insect-specific-flavivirus.rst>`
   (*Journal of Virology* 2024) finds that more than 95 % of the small interfering RNAs
   derived from Kamiti River virus map to its long 3′ untranslated region, and that this
   bias does not disappear when sfRNA production is reduced. The region dominates the
   antiviral RNA interference response for a reason that sfRNA biogenesis does not explain.
 
 A related element outside the 3′ untranslated region is the internal ribosome entry site
-of bovine viral diarrhea virus, a pestivirus. :link-flat-strong:`Secondary and tertiary structure of the BVDV IRES <{filename}/blog/2021-05-15-Insights-into-the-secondary-and-tertiary-structure-of-the-Bovine-Viral-Diarrhea-Virus-Internal-Ribosome-Entry-Site.rst>`
+of bovine viral diarrhea virus, a pestivirus. A :link-flat-strong:`structural study of the BVDV IRES <{filename}/blog/2021-05-15-Insights-into-the-secondary-and-tertiary-structure-of-the-Bovine-Viral-Diarrhea-Virus-Internal-Ribosome-Entry-Site.rst>`
 (*RNA Biology* 2022) combines :link-flat:`SHAPE <{filename}/glossary.rst#shape>` probing
 with structure modelling and supports a pseudoknot in its domain III.
 
@@ -116,7 +118,7 @@ From comparison to design
 =========================
 
 If the function of an xrRNA follows from its topology, the fold should be designable.
-:link-flat-strong:`Rational design of mechanically active RNAs <{filename}/blog/2026-05-12-Rational-design-of-mechanically-active-RNAs-in-Nucleic-Acids-Research.rst>`
+The :link-flat-strong:`de novo design of mechanically active RNAs <{filename}/blog/2026-05-12-Rational-design-of-mechanically-active-RNAs-in-Nucleic-Acids-Research.rst>`
 (*Nucleic Acids Research* 2026) reduces natural mosquito-borne xrRNAs to a symbolic
 description that keeps the three-way junction, the two pseudoknots and the length
 constraints between them, generates sequences under those constraints, and filters the

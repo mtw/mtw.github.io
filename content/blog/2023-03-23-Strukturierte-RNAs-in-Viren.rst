@@ -5,6 +5,12 @@ Strukturierte RNAs in Viren (in German)
 :modified: 2023-04-07
 :tags: virus bioinformatics; RNA design; xrRNA; synthetic biology
 :category: publications
+:doi: 10.1007/s12268-023-1907-x
+:paper_title: Strukturierte RNAs in Viren
+:journal: Biospektrum
+:year: 2023
+:paper_license: CC BY 4.0
+:paper_authors: Roman Ochsenreiter, Michael T. Wolfinger
 :slug: Strukturierte-RNAs-in-Viren
 :summary: In this mini-review we discuss the concept of RNA structure conservation in viruses, using exoribonuclease-resistant RNAs from flaviviruses as prominent examples
 :description: Exploring exoribonuclease-resistant RNAs in flaviviruses' 3'UTRs and their role in antiviral RNA therapies and mRNA vaccines in this mini-review
@@ -30,11 +36,11 @@ Strukturierte RNAs in Viren (in German)
 
 This article is a short review, but it covers a central idea that has become increasingly important across virology: many viral genomes do not just encode proteins, they also encode structured RNA elements that actively control the infection cycle. In flaviviruses, the `3'UTR` is a particularly rich example because it contains conserved folds that regulate replication, translation, host adaptation, and immune evasion.
 
-The focus here is on exoribonuclease-resistant RNAs, or `xrRNAs`. These elements are interesting because they do not merely bind a host factor or present a passive recognition site. They act mechanically. Their three-dimensional fold stalls the cellular `XRN1` exoribonuclease and thereby generates subgenomic flaviviral RNAs (`sfRNAs`). Those `sfRNAs` are now known to contribute to pathogenicity, host-range effects, and immune modulation in multiple flavivirus groups.
+The focus here is on exoribonuclease-resistant RNAs, or `xrRNAs`. These elements are interesting because they do not merely bind a host factor or present a passive recognition site. They act mechanically, i.e. their three-dimensional fold stalls the cellular `XRN1` exoribonuclease and thereby generates subgenomic flaviviral RNAs (`sfRNAs`). Those `sfRNAs` are now known to contribute to pathogenicity, host-range effects, and immune modulation in multiple flavivirus groups.
 
 What makes `xrRNAs` especially attractive from a structural-biology perspective is that they illustrate RNA function in a very direct way. Their activity depends on conserved topology rather than simple sequence identity. That means they are an ideal example of why RNA structure conservation matters in virology: two viral RNAs can diverge substantially at sequence level while preserving a fold that continues to perform the same mechanistic task.
 
-The review therefore works on two levels. At the biological level, it summarizes why structured `3'UTR` elements matter for the viral life cycle and how `xrRNAs` help viruses manipulate host RNA decay pathways. At the conceptual level, it argues that RNA structures should be treated as evolvable functional modules, not just decorative features of untranslated regions. That framing connects this short piece to a much broader body of comparative work on conserved viral RNAs.
+The review therefore works on two levels: at the biological level, it summarizes why structured `3'UTR` elements matter for the viral life cycle and how `xrRNAs` help viruses manipulate host RNA decay pathways. At the conceptual level, it argues that RNA structures should be treated as evolvable functional modules, not just decorative features of untranslated regions. That framing connects this short piece to a much broader body of comparative work on conserved viral RNAs.
 
 Another useful aspect of the article is that it points beyond natural virus biology toward design. If an RNA fold can reliably block an exoribonuclease in nature, then the same principle can potentially be repurposed in synthetic systems. That is where the connection to `RNA design` and future therapeutic applications comes in. `xrRNAs` are interesting not only because they explain flavivirus biology, but because they may serve as modular regulatory parts in engineered RNAs.
 
@@ -66,4 +72,4 @@ Citation
 
   | :link-flat-strong:`Strukturierte RNAs in Viren <https://www.biospektrum.de/magazinartikel/strukturierte-rnas-viren>` (in German)
   | Roman Ochsenreiter, :ul:`Michael T. Wolfinger`
-  | *Biospektrum* 29(2):156-158 (2023) | | :doi:`doi:10.1007/s12268-023-1907-x <https://www.biospektrum.de/magazinartikel/strukturierte-rnas-viren>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2023.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Ochsenreiter-2023.pdf>`
+  | *Biospektrum* 29(2):156–158 (2023) | :doi:`doi:10.1007/s12268-023-1907-x <https://doi.org/10.1007/s12268-023-1907-x>` | :link-flat:`PDF <{static}/files/papers/Ochsenreiter-2023.pdf>` | :link-flat:`Figures <{static}/files/QuickSlide/QuickSlide__Ochsenreiter-2023.pdf>`

@@ -5,9 +5,11 @@ Cyclization studies of Japanese encephalitis virus non-coding RNA terminal regio
 :modified: 2023-04-09
 :tags: RNA-RNA interaction; non-coding RNA; 3D; flavivirus; virus bioinformatics
 :category: publications
-:doi: 10.1101/2022.02.01.478553
-:journal: bioRxiv
-:year: 2022
+:doi: 10.1093/nar/gkad223
+:paper_title: Investigating RNA-RNA interactions through computational and biophysical analysis
+:journal: Nucleic Acids Res.
+:year: 2023
+:paper_license: CC BY-NC 4.0
 :paper_authors: Tyler Mrozowich, Sean M. Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke De Klerk, Borries Demeler, Ivo L. Hofacker, Michael T. Wolfinger, Trushar R. Patel
 :slug: Cyclization-studies-of-Japanese-encephalitis-virus-non-coding-RNA-terminal-regions
 :title: Japanese encephalitis virus genome cyclization is kinetically driven
@@ -41,6 +43,6 @@ Cyclization studies of Japanese encephalitis virus non-coding RNA terminal regio
 Citation
 ========
 
-  | :link-flat-strong:`Cyclization studies of Japanese encephalitis virus non-coding RNA terminal regions <https://doi.org/10.1101/2022.02.01.478553>`
-  | Tyler Mrozowich,  Sean M. Park,  Maria Waldl,  Amy Henrickson,  Corey R. Nelson,  Borries Demeler,  Ivo L. Hofacker,  Michael T. Wolfinger, Trushar R. Patel
-  | *bioRxiv* 2022.02.01.478553 (2022) | :doi:`doi: 10.1101/2022.02.01.478553 <https://doi.org/10.1101/2022.02.01.478553>` | :link-flat:`Preprint PDF <{static}/files/papers/Mrozovich-2022__PREPRINT.pdf>`
+  | :link-flat-strong:`Investigating RNA-RNA interactions through computational and biophysical analysis <https://doi.org/10.1093/nar/gkad223>`
+  | Tyler Mrozowich, Sean M. Park, Maria Waldl, Amy Henrickson, Scott Tersteeg, Corey R. Nelson, Anneke De Klerk, Borries Demeler, Ivo L. Hofacker, :ul:`Michael T. Wolfinger`, Trushar R. Patel
+  | *Nucleic Acids Res.* gkad223 (2023) | :doi:`doi:10.1093/nar/gkad223 <https://doi.org/10.1093/nar/gkad223>` | :link-flat:`PDF <{static}/files/papers/Mrozowich-2023.pdf>` | :link-flat:`Preprint PDF <{static}/files/papers/Mrozovich-2022__PREPRINT.pdf>`

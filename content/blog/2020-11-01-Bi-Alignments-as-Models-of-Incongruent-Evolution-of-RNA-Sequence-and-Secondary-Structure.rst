@@ -26,7 +26,7 @@ Bi-Alignments as Models of Incongruent Evolution of RNA Sequence and Secondary S
 .. role:: doi(link)
   :class: doi
 
-This paper addresses a subtle but important problem in comparative RNA analysis. Many RNA alignment methods assume that sequence evolution and secondary structure evolution are congruent, meaning that homologous nucleotides also remain in corresponding structural roles. That assumption is often useful, and for many classical RNA families it works well enough to support consensus-structure prediction, covariance modeling, and structure-aware multiple alignment. But biology is not always that tidy.
+This paper addresses a subtle but important problem in comparative RNA analysis. Many RNA alignment methods assume that sequence evolution and secondary structure evolution are congruent, meaning that homologous nucleotides also remain in corresponding structural roles. That assumption is often useful, and for many classical RNA families it works well enough to support consensus-structure prediction, covariance modeling, and structure-aware multiple alignment, but biology is not always that tidy.
 
 The motivating observation here is that structured RNAs can preserve a recognizable fold even when the exact pairing register has shifted relative to the underlying sequence. In that situation, analogous base pairs are no longer formed by homologous nucleotides, and a single alignment cannot simultaneously do justice to both sequence similarity and structural correspondence. If one insists on aligning the homologous sequence blocks, the structural match degrades. If one instead aligns the analogous stem or loop positions, the sequence alignment begins to look wrong. That is the kind of incongruence this paper sets out to model explicitly.
 
@@ -36,7 +36,7 @@ That framing is useful because it captures evolutionary scenarios that standard 
 
 The paper is also interesting as a reminder that comparative RNA bioinformatics depends on modeling assumptions that are easy to forget once they become standard. Tools based on the Sankoff idea, consensus folding, or covariance models have been extremely successful, but they are built around the expectation that conserved structure and conserved sequence can be reconciled in one coherent alignment. Bi-alignments are valuable not because that assumption is usually wrong, but because they define what to do in the cases where it is not quite right.
 
-Methodologically, this was a deliberately formal paper. It does not present a flashy biological case study so much as it tries to sharpen the mathematical language for a real comparative-genomics phenomenon. The discussion of miRNA precursors and the exploratory scan through Rfam are there to show that incongruent evolution is not just a pathological corner case. Structured RNAs can drift in ways that preserve shape better than position, and once that happens, the distinction between homology and structural analogy becomes computationally relevant.
+Methodologically, this was a deliberately formal paper, which does not present a flashy biological case study so much as it tries to sharpen the mathematical language for a real comparative-genomics phenomenon. The discussion of miRNA precursors and the exploratory scan through Rfam are there to show that incongruent evolution is not just a pathological corner case. Structured RNAs can drift in ways that preserve shape better than position, and once that happens, the distinction between homology and structural analogy becomes computationally relevant.
 
 Seen from the broader arc of RNA bioinformatics, this work fits into a longer effort to make our models better reflect how RNAs actually evolve. Some papers focus on thermodynamics, some on kinetics, some on experimental constraints, and others on machine learning. This one is about representation: what exactly are we aligning when we compare two structured RNAs? That is a foundational question, and although the paper is mathematically flavored, it speaks to a very biological issue.
 
@@ -58,7 +58,7 @@ Citation
 See Also
 ========
 
-  | :link-flat-strong:`Predicting RNA Structures from Sequence and Probing Data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>`
+  | :link-flat-strong:`Predicting RNA secondary structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>`
   | Ronny Lorenz, :ul:`Michael T. Wolfinger`, Andrea Tanzer, Ivo L. Hofacker
   | *Methods* 103:86-98 (2016) | :doi:`doi:10.1016/j.ymeth.2016.04.004 <https://doi.org/10.1016/j.ymeth.2016.04.004>` | :link-flat:`PDF <{static}/files/papers/Lorenz-2016.pdf>`
 

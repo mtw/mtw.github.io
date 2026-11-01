@@ -68,7 +68,7 @@ its own address and can be linked directly.
 Questions and further tutorials
 ===============================
 
-Each tutorial ends with a short form for questions that the text left open; these
+Each tutorial ends with a short form for questions that the text left open, and those
 questions decide what gets written next. Further tutorials are in preparation on reading
 dot plots and dot-bracket strings, on accessibility with RNAplfold, on consensus
 structures from alignments with RNAalifold, and on comparing predicted structures. A
@@ -84,5 +84,5 @@ on exoribonuclease-resistant RNAs and the other elements of viral untranslated r
 and :link-flat-strong:`RNA folding kinetics and energy landscapes <{filename}/rna-folding-kinetics.rst>`
 on what happens before a molecule reaches its final structure.
 
-Questions about RNA structure prediction, or about working together?
-:link-flat-strong:`Write to me <{filename}/contact.rst#write>`.
+If you have questions about RNA structure prediction, or about working together,
+:link-flat-strong:`write to me <{filename}/contact.rst#write>`.

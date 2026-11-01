@@ -32,7 +32,7 @@ computational decisions.
 From running RNAfold to interpreting the result
 -----------------------------------------------
 
-ViennaRNA provides a comprehensive set of tools for RNA secondary structure prediction,
+ViennaRNA provides a large set of tools for RNA secondary structure prediction,
 however, obtaining an output is only the first step. A predicted structure is a model,
 and its usefulness depends on the biological question, the sequence, the assumptions of
 the calculation and the evidence available to support it. The training will therefore

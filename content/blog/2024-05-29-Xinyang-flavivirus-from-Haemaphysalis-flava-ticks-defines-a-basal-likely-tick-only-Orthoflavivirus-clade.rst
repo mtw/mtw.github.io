@@ -55,7 +55,7 @@ XiFV also reinforces how much of the informative signal sits at the level of con
 Citation
 ========
 
-  | :link-flat-strong:`Xinyang flavivirus, from Haemaphysalis flava ticks in Henan province, China, defines a basal, likely tick-only flavivirus clade <https://doi.org/10.1099/jgv.0.001991>`
+  | :link-flat-strong:`Xinyang flavivirus, from Haemaphysalis flava ticks in Henan Province, China, defines a basal, likely tick-only Orthoflavivirus clade <https://doi.org/10.1099/jgv.0.001991>`
   | Lan-Lan Wang, Qia Cheng, Natalee D. Newton, :ul:`Michael T. Wolfinger`, Mahali S. Morgan, Andrii Slonchak, Alexander A. Khromykh, Tian-Yin Cheng, Rhys H. Parry
   | *J. Gen. Virol.* 105(5) (2024) | :doi:`doi:10.1099/jgv.0.001991 <https://doi.org/10.1099/jgv.0.001991>` | :link-flat:`PDF <{static}/files/papers/Wang-2024.pdf>`
 
