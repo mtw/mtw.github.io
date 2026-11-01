@@ -107,10 +107,13 @@ M_LINKS_FOOTER2 = [('More', ''),
                     ('Glossary', '/glossary/'),
                     ('RNA Forecast', 'https://rnaforecast.com'),
                     ('Contact', '/contact/'),
-                    ('Impressum', '/legal/'),
-                    ('Datenschutz', '/datenschutz/'),
-                    ('Cookie settings', '#cookie-settings'),
                     ]
+
+# Legal links: not a footer column but the bottom row, next to the fine print.
+M_LINKS_LEGAL = [('Impressum', '/legal/'),
+                 ('Datenschutz', '/datenschutz/'),
+                 ('Cookie settings', '#cookie-settings'),
+                 ]
 
 M_LINKS_FOOTER3 = [('My Profiles', ''),
                     ('Google Scholar', 'https://scholar.google.at/citations?user=w0PHGnEAAAAJ&hl=en'),

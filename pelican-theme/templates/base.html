@@ -160,9 +160,14 @@
       {% endfor %}
     </div>
     {% endif %}
-    {% if not M_FINE_PRINT is defined or M_FINE_PRINT %}
+    {% if not M_FINE_PRINT is defined or M_FINE_PRINT or M_LINKS_LEGAL %}
     <div class="fine-print">
       {{ (M_FINE_PRINT or SITENAME + ". Powered by `Pelican <https://getpelican.com>`_.")|render_rst|rtrim|indent(6) }}
+      {%- if M_LINKS_LEGAL %}
+      <p class="legal-links">
+        {%- for title, link in M_LINKS_LEGAL %}<a href="{{ link|format_siteurl|e }}">{{ title|e }}</a>{% if not loop.last %}<span aria-hidden="true">|</span>{% endif %}{% endfor -%}
+      </p>
+      {%- endif %}
     </div>
     {% endif %}
   </div>

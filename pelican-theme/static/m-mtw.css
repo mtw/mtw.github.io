@@ -142,10 +142,14 @@ footer .m-container{padding-top:48px;padding-bottom:44px}
 .foot-col li{margin:9px 0;font-size:.85rem;line-height:1.4}
 .foot-col li a{color:var(--sub)}
 .foot-col li a:hover{color:var(--ink)}
-.fine-print{border-top:1px solid var(--border);margin-top:32px;padding-top:22px;font-size:.78rem;color:var(--faint)}
+.fine-print{border-top:1px solid var(--border);margin-top:32px;padding-top:22px;font-size:.78rem;color:var(--muted);display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 20px}
+.fine-print .legal-links{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-left:auto}
+.fine-print .legal-links span{color:var(--border);user-select:none}
 .fine-print p{margin:0}
 .fine-print a{color:inherit}
-@media (max-width:720px){.foot-grid{grid-template-columns:1fr 1fr;gap:24px}}
+@media (max-width:720px){.foot-grid{grid-template-columns:1fr 1fr;gap:24px}
+.fine-print{justify-content:flex-start}
+.fine-print .legal-links{margin-left:0}}
 @media (max-width:420px){.foot-grid{grid-template-columns:1fr}}
 .fine-print p{margin:0}
 /* ---- m-grid shim (mobile-first; larger breakpoints override) ---- */
