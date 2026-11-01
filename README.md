@@ -51,6 +51,14 @@ the live site (fixture in `tests/fixtures/`) still resolves, that internal links
 anchors exist, that content metadata is complete, and that publish-time minification
 works. No output URL may change; the tests are the gate.
 
+## Conventions
+
+- A new page means a new URL: add it to the allow-list in `tests/test_live_urls.py` in the
+  same commit, so the guard stays binding for every page that is already live.
+- The served stylesheet keeps the path `pelican-theme/static/m-mtw.css`. The name predates
+  the 2026 relaunch and is kept so that no asset URL changes.
+- Structured data for every page is built in `pelican-theme/templates/_ldjson.html`.
+
 ## Deployment
 
 GitHub Actions builds, tests and deploys. Every push and pull request runs the build and
