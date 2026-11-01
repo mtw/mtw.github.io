@@ -55,7 +55,7 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container::  m-col-t-8
 
-      | 56. :link-flat-strong:`Computational Analysis of Sequence Editability in the Theophylline RNA Aptamer as a Functional RNA Module <https://doi.org/10.3390/ijms27167228>`
+      | 56. :link-flat-strong:`Computational Analysis of Sequence Editability in the Theophylline RNA Aptamer as a Functional RNA Module <{filename}/blog/2026-08-13-sequence-editability-theophylline-rna-aptamer.rst>`
       | Aamir Aman, Leonhard Sidl, Nitchakan Darai, Peter Wolschann, Thanyada Rungrotmongkol, :ul:`Michael T. Wolfinger`
       | *Int. J. Mol. Sci.* 27(16):7228 (2026)
       | :doi:`doi:10.3390/ijms27167228 <https://doi.org/10.3390/ijms27167228>` | :link-flat:`Article <https://www.mdpi.com/1422-0067/27/16/7228>` | :label-flat-info:`Journal article`

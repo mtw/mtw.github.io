@@ -34,6 +34,7 @@ INTENDED_ADDITIONS = {
     "https://michaelwolfinger.com/blog/2026/viennarna-training-workshops-2027/",
     "https://michaelwolfinger.com/glossary/",
     "https://michaelwolfinger.com/rna-structure-prediction/",
+    "https://michaelwolfinger.com/blog/2026/theophylline-aptamer-sequence-editability/",
 }
 
 
