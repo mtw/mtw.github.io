@@ -1,10 +1,13 @@
 People & Supervision
 ####################
 :title: People & Supervision | Michael T. Wolfinger
-:summary: I supervise and mentor researchers at doctoral and Master level. The people below are grouped by their current relationship to my work.
-:description: Current supervision, collaborators, and former group members associated with my work in computational RNA biology. Michael T. Wolfinger, Vienna.
+:summary: The people I supervise and have supervised, and how supervision of theses and research internships works, including the conditions and the enquiry form.
+:description: Supervision by Michael T. Wolfinger: current and former students, the conditions for bachelor, master and doctoral theses, and the enquiry form.
 :hero_eyebrow: People & Supervision
 :hero_title: People & Supervision
+
+.. role:: link-flat(link)
+  :class: m-flat m-text
 
 .. Layout note: the three people groups (title + note on a 2px rule, then a two-column
    grid of name / role / affiliation rows) are one raw-HTML block on purpose. The prose
@@ -42,8 +45,82 @@ People & Supervision
      </div>
    </div>
 
-   <h2 class="sec-head">Supervision inquiries</h2>
+Thesis and internship supervision
+=================================
 
-   <p>I regularly supervise students on topics in RNA structure prediction, folding kinetics, functional RNA design, viral RNA biology, and RNA&ndash;protein recognition, the areas described on the <a href="/research/">research page</a>. Good fits usually bring an interest in RNA structure and function, comfort with quantitative or computational work, and a willingness to work across disciplinary boundaries.</p>
+I supervise bachelor, master and doctoral theses as well as research internships on
+topics in RNA structure prediction, folding kinetics, functional RNA design and viral RNA
+biology, the areas described on the :link-flat:`research page <{filename}/research.rst>`,
+and the people I currently supervise are listed above. Students enrolled at the University of Vienna are supervised through the Theoretical
+Biochemistry Group, students of other universities through a collaboration with their
+home institution.
 
-   <p>If you are interested, briefly describe your background, current stage, and the directions most relevant to you. A thesis topic in computational RNA biology, virology, or RNA design is a typical starting point. Please <a href="/contact/">get in touch</a>.</p>
+.. class:: m-block m-primary
+
+   **No open positions.** I currently have no funded doctoral or postdoctoral positions,
+   and I do not accept doctoral candidates without secured funding. Generic requests for
+   PhD supervision, i.e. messages that name neither a specific topic from my research
+   nor a concrete source of funding, are not answered. This applies to the form below as
+   well as to email.
+
+The form is for bachelor and master theses and research internships of enrolled
+students, and for doctoral candidates who hold a scholarship or fellowship of their own,
+or have applied for one (name it in the message). It asks for the few things I need in
+order to answer: your programme, the kind of thesis, the funding, the earliest start, and
+a few sentences on what you would like to work on and what you bring, e.g. relevant
+courses, programming experience or laboratory background.
+
+.. raw:: html
+
+   <p class="form-sent" id="supervision-sent">Thank you, your enquiry has arrived. A confirmation has gone to your address, and you will hear back from me, usually within a few working days.</p>
+   <p class="form-error" id="supervision-error">The enquiry was not sent: a required field was empty or the email address was not valid. Please check the fields and send again.</p>
+   <form class="site-form" method="post" action="https://forms.rnaforecast.com/mtw-supervision">
+     <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+     <p class="field">
+       <label for="sv-name">Name <abbr title="required">*</abbr></label>
+       <input class="input" type="text" id="sv-name" name="name" autocomplete="name" maxlength="200" required>
+     </p>
+     <p class="field">
+       <label for="sv-email">Email <abbr title="required">*</abbr></label>
+       <input class="input" type="email" id="sv-email" name="email" autocomplete="email" maxlength="254" required>
+     </p>
+     <p class="field">
+       <label for="sv-programme">Programme and university</label>
+       <input class="input" type="text" id="sv-programme" name="programme" maxlength="200" placeholder="e.g. MSc Molecular Biology, University of Vienna">
+     </p>
+     <p class="field">
+       <label for="sv-level">Thesis or position <abbr title="required">*</abbr></label>
+       <select class="input" id="sv-level" name="level" required>
+         <option value="">Choose one</option>
+         <option value="bachelor">Bachelor thesis</option>
+         <option value="master">Master thesis</option>
+         <option value="doctoral">Doctoral thesis (own funding)</option>
+         <option value="internship">Research internship</option>
+         <option value="other">Other</option>
+       </select>
+     </p>
+     <p class="field">
+       <label for="sv-funding">Funding <abbr title="required">*</abbr></label>
+       <select class="input" id="sv-funding" name="funding" required>
+         <option value="">Choose one</option>
+         <option value="enrolled">Thesis or internship within my degree programme, no funding needed</option>
+         <option value="granted">Scholarship or fellowship granted, named in the message</option>
+         <option value="applied">Scholarship application submitted or in preparation, named in the message</option>
+         <option value="none">No funding (the enquiry will not be answered)</option>
+       </select>
+     </p>
+     <p class="field">
+       <label for="sv-start">Earliest start</label>
+       <input class="input" type="text" id="sv-start" name="start" maxlength="100" placeholder="e.g. March 2027">
+     </p>
+     <p class="field">
+       <label for="sv-message">What you would like to work on, and your background <abbr title="required">*</abbr></label>
+       <textarea class="input" id="sv-message" name="message" rows="6" maxlength="5000" required></textarea>
+     </p>
+     <p class="field check">
+       <input type="checkbox" id="sv-ack" name="ack" value="yes" required>
+       <label for="sv-ack">I have read that there are no open positions. My enquiry names a specific topic and, for a doctoral thesis, the funding. <abbr title="required">*</abbr></label>
+     </p>
+     <p class="form-note">Fields marked <abbr title="required">*</abbr> are required. What you enter is stored for handling the enquiry and sent to me by email. See the <a href="/datenschutz/">privacy notice</a>.</p>
+     <button class="form-submit" type="submit">Send enquiry</button>
+   </form>

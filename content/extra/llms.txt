@@ -13,8 +13,8 @@ Identifiers: ORCID https://orcid.org/0000-0003-0925-5205 · Google Scholar https
 - [Publications](https://michaelwolfinger.com/publications/): complete list of peer-reviewed papers, each linking to a dedicated page with abstract and DOI
 - [Presentations](https://michaelwolfinger.com/publications/presentations/): invited and conference talks
 - [Posters](https://michaelwolfinger.com/publications/posters/): conference posters
-- [Teaching](https://michaelwolfinger.com/teaching/): university courses taught since 2005
-- [Team and supervision](https://michaelwolfinger.com/team/): supervised students and group members
+- [Teaching](https://michaelwolfinger.com/teaching/): university courses, lectures and invited teaching since 2005
+- [People and supervision](https://michaelwolfinger.com/team/): supervised students and group members, and how thesis and internship supervision works, with the enquiry form
 - [Collaborations](https://michaelwolfinger.com/collaborations/): academic collaboration partners
 - [Contact](https://michaelwolfinger.com/contact/): email addresses, a contact form and profiles
 - [RNA structure prediction guides](https://michaelwolfinger.com/rna-structure-prediction/): the tutorials on RNA secondary structure prediction with ViennaRNA and the background reading, in reading order

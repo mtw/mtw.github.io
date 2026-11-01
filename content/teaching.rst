@@ -21,86 +21,9 @@ lectures and invited teaching at the :link-flat:`University of Vienna <https://w
 and the :link-flat:`FH Campus Wien <https://fh-campuswien.ac.at>` (FHCW).
 
 
-Thesis and internship supervision
-=================================
-
-I supervise bachelor, master and doctoral theses as well as research internships on
-topics in RNA structure prediction, folding kinetics, functional RNA design and viral RNA
-biology, the areas described on the :link-flat:`research page <{filename}/research.rst>`.
-Current and former students are listed on the :link-flat:`team page <{filename}/team.rst>`.
-Students enrolled at the University of Vienna are supervised through the Theoretical
-Biochemistry Group, students of other universities through a collaboration with their
-home institution.
-
-.. class:: m-block m-primary
-
-   **No open positions.** I currently have no funded doctoral or postdoctoral positions,
-   and I do not accept doctoral candidates without secured funding. Generic requests for
-   PhD supervision, i.e. messages that name neither a specific topic from my research
-   nor a concrete source of funding, are not answered. This applies to the form below as
-   well as to email.
-
-The form is for bachelor and master theses and research internships of enrolled
-students, and for doctoral candidates who hold a scholarship or fellowship of their own,
-or have applied for one (name it in the message). It asks for the few things I need in
-order to answer: your programme, the kind of thesis, the funding, the earliest start, and
-a few sentences on what you would like to work on and what you bring, e.g. relevant
-courses, programming experience or laboratory background.
-
-.. raw:: html
-
-   <p class="form-sent" id="supervision-sent">Thank you, your enquiry has arrived. A confirmation has gone to your address, and you will hear back from me, usually within a few working days.</p>
-   <p class="form-error" id="supervision-error">The enquiry was not sent: a required field was empty or the email address was not valid. Please check the fields and send again.</p>
-   <form class="site-form" method="post" action="https://forms.rnaforecast.com/mtw-supervision">
-     <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
-     <p class="field">
-       <label for="sv-name">Name <abbr title="required">*</abbr></label>
-       <input class="input" type="text" id="sv-name" name="name" autocomplete="name" maxlength="200" required>
-     </p>
-     <p class="field">
-       <label for="sv-email">Email <abbr title="required">*</abbr></label>
-       <input class="input" type="email" id="sv-email" name="email" autocomplete="email" maxlength="254" required>
-     </p>
-     <p class="field">
-       <label for="sv-programme">Programme and university</label>
-       <input class="input" type="text" id="sv-programme" name="programme" maxlength="200" placeholder="e.g. MSc Molecular Biology, University of Vienna">
-     </p>
-     <p class="field">
-       <label for="sv-level">Thesis or position <abbr title="required">*</abbr></label>
-       <select class="input" id="sv-level" name="level" required>
-         <option value="">Choose one</option>
-         <option value="bachelor">Bachelor thesis</option>
-         <option value="master">Master thesis</option>
-         <option value="doctoral">Doctoral thesis (own funding)</option>
-         <option value="internship">Research internship</option>
-         <option value="other">Other</option>
-       </select>
-     </p>
-     <p class="field">
-       <label for="sv-funding">Funding <abbr title="required">*</abbr></label>
-       <select class="input" id="sv-funding" name="funding" required>
-         <option value="">Choose one</option>
-         <option value="enrolled">Thesis or internship within my degree programme, no funding needed</option>
-         <option value="granted">Scholarship or fellowship granted, named in the message</option>
-         <option value="applied">Scholarship application submitted or in preparation, named in the message</option>
-         <option value="none">No funding (the enquiry will not be answered)</option>
-       </select>
-     </p>
-     <p class="field">
-       <label for="sv-start">Earliest start</label>
-       <input class="input" type="text" id="sv-start" name="start" maxlength="100" placeholder="e.g. March 2027">
-     </p>
-     <p class="field">
-       <label for="sv-message">What you would like to work on, and your background <abbr title="required">*</abbr></label>
-       <textarea class="input" id="sv-message" name="message" rows="6" maxlength="5000" required></textarea>
-     </p>
-     <p class="field check">
-       <input type="checkbox" id="sv-ack" name="ack" value="yes" required>
-       <label for="sv-ack">I have read that there are no open positions. My enquiry names a specific topic and, for a doctoral thesis, the funding. <abbr title="required">*</abbr></label>
-     </p>
-     <p class="form-note">Fields marked <abbr title="required">*</abbr> are required. What you enter is stored for handling the enquiry and sent to me by email. See the <a href="/datenschutz/">privacy notice</a>.</p>
-     <button class="form-submit" type="submit">Send enquiry</button>
-   </form>
+Thesis and internship supervision, the conditions under which I take students and the
+enquiry form are on the
+:link-flat:`People & Supervision page <{filename}/team.rst>`.
 
 Lecture and course directory
 ============================
