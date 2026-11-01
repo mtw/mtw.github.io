@@ -5,8 +5,10 @@ Memory-efficient-RNA-energy-landscape-exploration
 :tags: energy landscapes; new method; tools
 :category: publications
 :doi: 10.1093/bioinformatics/btu337
+:paper_title: Memory-efficient RNA energy landscape exploration
 :journal: Bioinformatics
 :year: 2014
+:paper_license: CC BY 3.0
 :paper_authors: Martin Mann, Marcel Kucharík, Christoph Flamm, Michael T. Wolfinger
 :slug: Memory-efficient-RNA-energy-landscape-exploration
 :summary: This paper revisits the earlier flooding-based landscape methods and adapts them to RNA secondary structures with a local, memory-efficient enumeration strategy.

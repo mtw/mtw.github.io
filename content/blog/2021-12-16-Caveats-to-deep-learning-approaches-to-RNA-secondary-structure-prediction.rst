@@ -6,8 +6,10 @@ Caveats to deep learning approaches to RNA secondary structure prediction
 :tags: ViennaRNA; AI
 :category: publications
 :doi: 10.3389/fbinf.2022.835422
+:paper_title: Caveats to deep learning approaches to RNA secondary structure prediction
 :journal: Front. Bioinform.
 :year: 2022
+:paper_license: CC BY 4.0
 :paper_authors: Christoph Flamm, Julia Wielach, Michael T. Wolfinger, Stefan Badelt, Ronny Lorenz, Ivo L. Hofacker
 :slug: Caveats-to-deep-learning-approaches-to-RNA-secondary-structure-prediction
 :title: Deep learning for RNA secondary structure prediction: the caveats

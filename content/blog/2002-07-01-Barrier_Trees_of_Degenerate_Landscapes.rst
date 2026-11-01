@@ -5,6 +5,7 @@ Barrier Trees of Degenerate Landscapes
 :tags: energy landscapes; new method; tools
 :category: publications
 :doi: 10.1524/zpch.2002.216.2.155
+:paper_title: Barrier Trees of Degenerate Landscapes
 :journal: Z. Phys. Chem.
 :year: 2002
 :paper_authors: Christoph Flamm, Ivo L. Hofacker, Peter F. Stadler, Michael T. Wolfinger

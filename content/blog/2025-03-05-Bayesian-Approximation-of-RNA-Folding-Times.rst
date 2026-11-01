@@ -6,6 +6,7 @@ Bayesian Approximation of RNA Folding Times
 :tags: RNA folding kinetics; AI
 :category: publications
 :doi: 10.5281/zenodo.15228717
+:paper_title: Bayesian Approximation of RNA Folding Times
 :journal: ICLR 2025 Workshop on AI for Nucleic Acids
 :year: 2025
 :paper_authors: Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, Michael T. Wolfinger, Christoph Flamm, Frank Hutter

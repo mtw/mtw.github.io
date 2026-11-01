@@ -4,6 +4,7 @@ The JSON-LD in pelican-theme/templates/_ldjson.html is hand-written JSON, and th
 plugin builds its own XML; nothing else would notice a stray comma, a duplicate <loc>, or a
 lastmod with a bogus timezone offset.
 """
+import html
 import json
 import re
 from pathlib import Path
@@ -47,6 +48,28 @@ def _types(node: dict) -> set[str]:
     return set(t if isinstance(t, list) else [t])
 
 
+
+def _source_citation_fields() -> dict:
+    """{DOI: {"journal": …, "paper_title": …}} read from the post sources.
+
+    docutils reads a field body that begins with a single letter and a period as an
+    enumerated list, so ":journal: J. Mol. Biol." can reach the template as "Mol. Biol.";
+    plugins/mtw_meta.py restores the raw line and this is what checks that it did.
+    """
+    fields = {}
+    for post in (REPO_ROOT / "content" / "blog").glob("*.rst"):
+        text = post.read_text(encoding="utf-8")
+        doi = re.search(r"^:doi:\s*(\S+)$", text, re.M)
+        if not doi:
+            continue
+        entry = fields.setdefault(doi.group(1), {"journal": set(), "paper_title": set()})
+        for key in ("journal", "paper_title"):
+            value = re.search(r"^:%s:\s*(.+?)\s*$" % key, text, re.M)
+            if value:
+                entry[key].add(value.group(1))
+    return fields
+
+
 def test_every_page_has_valid_jsonld_with_one_person(output_dir):
     persons = set()
     for page in _html_pages(output_dir):
@@ -63,6 +86,7 @@ def test_every_page_has_valid_jsonld_with_one_person(output_dir):
 
 
 def test_paper_posts_carry_scholarly_article_with_doi(output_dir):
+    sources = _source_citation_fields()
     posts = [p for p in sorted((output_dir / "blog").glob("20*/*/index.html"))
              if "http-equiv=\"refresh\"" not in p.read_text(encoding="utf-8")]   # not the redirect stubs
     assert posts
@@ -81,6 +105,14 @@ def test_paper_posts_carry_scholarly_article_with_doi(output_dir):
             assert posting["about"]["@id"] == scholarly[0]["@id"]
             assert isinstance(scholarly[0]["author"], list) and len(scholarly[0]["author"]) >= 1
             assert scholarly[0]["isPartOf"]["name"] and re.match(r"^\d{4}$", scholarly[0]["datePublished"])
+            # the headline belongs to the paper, not to the post: it is the title the page cites
+            assert scholarly[0]["headline"] in html.unescape(post.read_text(encoding="utf-8")), (
+                f"{post}: ScholarlyArticle headline is not the cited paper title")
+            source = sources.get(doi, {})
+            assert scholarly[0]["headline"] in source.get("paper_title", set()), (
+                f"{post}: headline {scholarly[0]['headline']!r} is not the :paper_title: of {doi}")
+            assert scholarly[0]["isPartOf"]["name"] in source.get("journal", set()), (
+                f"{post}: journal {scholarly[0]['isPartOf']['name']!r} is not the :journal: of {doi}")
     assert with_doi >= 50, with_doi
 
 
@@ -257,3 +289,87 @@ def test_commercial_pages_stay_hidden(output_dir):
         assert "hello@" not in stub and len(stub) < 1000, old_page   # a bare redirect, no content
     for page in output_dir.rglob("*.html"):
         assert "hello@rnaforecast.com" not in page.read_text(encoding="utf-8"), page
+
+
+PAPER_REF_RE = re.compile(
+    r'<p class="?paper-ref"?>\s*(?P<lead>Published as|Preprint:)\s*'
+    r'<a href="?(?P<doi>https://doi\.org/[^\s">]+)"?\s*>\s*<em>(?P<title>.*?)</em>\s*</a>'
+    r'(?:\s*,\s*<em>(?P<journal>.*?)</em>)?\s*(?P<year>\d{4})\s*\.\s*</p>', re.S)
+CITATION_RE = re.compile(r'<section id="?citation"?>.*?<blockquote>\s*<p>(?P<body>.*?)</p>', re.S)
+DOI_LINK_RE = re.compile(r'<a class="?doi"?\s+href="?(?P<url>https://doi\.org/[^\s">]+)"?', re.S)
+
+
+def _plain(fragment: str) -> str:
+    return html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", fragment))).strip()
+
+
+def test_published_as_line_and_citation_name_the_same_paper(output_dir):
+    """The line under the lede and the citation block at the foot of a paper post are
+    built from different sources (the metadata and the hand-written line block), so they
+    can drift apart. DOI, title, journal and year have to agree."""
+    checked, problems = 0, []
+    for post in sorted((output_dir / "blog").glob("20*/*/index.html")):
+        page = post.read_text(encoding="utf-8")
+        ref = PAPER_REF_RE.search(page)
+        if not ref:
+            continue
+        name = "/".join(post.parts[-3:-1])
+        citation = CITATION_RE.search(page)
+        if not citation:
+            problems.append(f"{name}: a 'Published as' line but no citation block")
+            continue
+        checked += 1
+        lines = re.split(r"<br\s*/?>", citation.group("body"))
+        # the line that carries the journal: the one with an italic name and a year
+        data = next((l for l in lines if re.search(r"<em>.*?</em>", l, re.S)
+                     and re.search(r"\(\d{4}\)", l)), None)
+        title = re.search(r"<a [^>]*>(.*?)</a>", lines[0], re.S)
+        if data is None or title is None:
+            problems.append(f"{name}: the citation block has no title or no journal line")
+            continue
+        doi = DOI_LINK_RE.search(citation.group("body"))
+        cited = {
+            "doi": doi.group("url") if doi else None,
+            "title": _plain(title.group(1)),
+            "journal": _plain(re.search(r"<em>(.*?)</em>", data, re.S).group(1)),
+            "year": (re.findall(r"\((\d{4})\)", data) or [None])[-1],
+        }
+        shown = {
+            "doi": ref.group("doi"),
+            "title": _plain(ref.group("title")),
+            "journal": _plain(ref.group("journal") or ""),
+            "year": ref.group("year"),
+        }
+        for key in ("doi", "title", "journal", "year"):
+            if shown[key] != cited[key]:
+                problems.append(f"{name}: {key} {shown[key]!r} in the line, {cited[key]!r} in the citation")
+    assert checked >= 45, f"only {checked} posts carried a 'Published as' line"
+    assert not problems, "\n".join(problems)
+
+
+def test_quoted_abstract_is_attributed_to_the_paper(output_dir):
+    """The abstract is the publisher's text, reproduced verbatim. It has to be rendered as
+    a quotation that cites the DOI, and it belongs to the ScholarlyArticle node (the paper),
+    not to the BlogPosting node (the post), so that it is not read as the post's own text."""
+    checked = 0
+    for post in sorted((output_dir / "blog").glob("20*/*/index.html")):
+        page = post.read_text(encoding="utf-8")
+        if "paper-abstract" not in page:
+            continue
+        checked += 1
+        block = re.search(r'<section class="?paper-abstract"?>\s*<h2>Abstract of the paper</h2>'
+                          r'\s*<blockquote(?P<attrs>[^>]*)>(?P<body>.*?)</blockquote>', page, re.S)
+        assert block, f"{post}: the quoted abstract is not in the expected shape"
+        quote, _, footer = block.group("body").partition("<footer>")
+        nodes = _graph(post)
+        scholarly = next((n for n in nodes if "ScholarlyArticle" in _types(n)), None)
+        assert scholarly, f"{post}: a quoted abstract without a ScholarlyArticle node"
+        assert scholarly["@id"] in block.group("attrs"), \
+            f"{post}: the blockquote does not cite {scholarly['@id']}"
+        assert scholarly["@id"] in footer, f"{post}: the quotation does not name its source"
+        squeeze = lambda text: re.sub(r"\s+", "", text or "")
+        assert squeeze(scholarly.get("abstract")) == squeeze(_plain(quote)), \
+            f"{post}: the ScholarlyArticle abstract is not the quoted text"
+        posting = next(n for n in nodes if "BlogPosting" in _types(n))
+        assert "abstract" not in posting, f"{post}: the post node claims the paper's abstract"
+    assert checked >= 50, f"only {checked} posts quote an abstract"

@@ -6,6 +6,7 @@ Pan-flavivirus analysis reveals sfRNA-independent 3' UTR-biased siRNA production
 :tags: virus bioinformatics; xrRNA; flavivirus
 :category: publications
 :doi: 10.1128/jvi.01215-24
+:paper_title: Pan-flavivirus analysis reveals sfRNA-independent, 3’UTR-biased siRNA production from an Insect-Specific Flavivirus
 :journal: J. Virol.
 :year: 2024
 :paper_authors: Benoit Besson, Gijs J. Overheul, Michael T. Wolfinger, Sandra Junglen, Ronald P. van Rij

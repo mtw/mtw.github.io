@@ -469,11 +469,20 @@ a{color:#000;text-decoration:underline}}
    wants the opposite: small, quiet, panel-toned. Scoped to the "Citation" section so real
    pull quotes elsewhere keep their style. Applies to every blockquote that carries citation
    links (Citation, See Also, related-work sections); a plain quotation keeps the pull-quote look. -- */
-.article-body #citation>h2,.article-body #see-also>h2,.article-body #landscape-context>h2,.article-body #related-follow-up>h2{font-family:"Archivo",sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:2.6rem 0 .8rem;padding-top:.9rem;border-top:1px solid var(--border)}
+.article-body #citation>h2,.article-body #see-also>h2,.article-body #landscape-context>h2,.article-body #related-follow-up>h2,.article-body .paper-abstract>h2{font-family:"Archivo",sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:2.6rem 0 .8rem;padding-top:.9rem;border-top:1px solid var(--border)}
 .article-body blockquote:has(a.doi,a.m-strong){border:1px solid var(--border-2);border-left:1px solid var(--border-2);background:var(--panel);padding:16px 20px;margin:0 0 1.2rem}
 .article-body blockquote:has(a.doi,a.m-strong) p{font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.9rem;font-weight:400;line-height:1.65;color:var(--sub);margin:0}
 .article-body blockquote:has(a.doi,a.m-strong) p+p{margin-top:14px;padding-top:14px;border-top:1px solid var(--hair)}
 .article-body blockquote:has(a.doi,a.m-strong) a.m-strong{font-weight:600;font-size:.97rem;color:var(--ink);line-height:1.4}
+/* ---- quoted paper abstract: the publisher's words, set apart from the post's own text.
+   The text is reproduced verbatim, so it is marked up as a blockquote with the DOI in
+   cite= and a footer naming the paper (plugins/mtw_abstract.py builds it). -- */
+.article-body .paper-abstract blockquote{border:1px solid var(--border-2);border-left:3px solid var(--border-2);background:var(--panel);padding:18px 22px;margin:0}
+.article-body .paper-abstract blockquote p{font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.95rem;font-weight:400;line-height:1.7;color:var(--sub);margin:0 0 .9rem}
+.article-body .paper-abstract blockquote p:last-of-type{margin-bottom:0}
+.article-body .paper-abstract blockquote footer{font-size:.82rem;line-height:1.5;color:var(--muted);margin-top:14px;padding-top:12px;border-top:1px solid var(--hair)}
+.article-body .paper-abstract blockquote footer a{color:inherit;text-decoration:underline;text-decoration-color:rgba(0,0,0,.28);text-underline-offset:2px}
+.article-body .paper-abstract blockquote footer a:hover{color:var(--ink);text-decoration-color:currentColor}
 .article-body blockquote:has(a.doi,a.m-strong) a.m-strong:hover{color:var(--accent)}
 .article-body blockquote:has(a.doi,a.m-strong) .m-ul{text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:3px;color:var(--ink)}
 .article-body blockquote:has(a.doi,a.m-strong) em{color:var(--ink)}
@@ -497,10 +506,13 @@ a{color:#000;text-decoration:underline}}
 /* ---- series note at the top of guide posts ---- */
 .series-note{font-size:.85rem;color:var(--sub);border-left:2px solid var(--border);padding:4px 0 4px 14px;margin:0 0 1.6rem}
 .series-note p{margin:0}
+.paper-ref{font-size:.85rem;color:var(--sub);border-left:2px solid var(--border);padding:4px 0 4px 14px;margin:1.1rem 0 0}
+.paper-ref:first-child{margin-top:0}
+.paper-ref em{font-style:italic}
 .author-note{font-size:.9rem;color:var(--sub);border-top:1px solid var(--border);padding:1rem 0 0;margin:1.6rem 0 0}
 .author-note p{margin:0}
-.article-body p a,.article-body li a,.article-body dd a,.series-note a,.author-note a{text-decoration:underline;text-decoration-color:rgba(0,0,0,.28);text-decoration-thickness:1px;text-underline-offset:2px}
-.article-body p a:hover,.article-body li a:hover,.article-body dd a:hover,.series-note a:hover,.author-note a:hover{text-decoration-color:currentColor}
+.article-body p a,.article-body li a,.article-body dd a,.series-note a,.author-note a,.paper-ref a{text-decoration:underline;text-decoration-color:rgba(0,0,0,.28);text-decoration-thickness:1px;text-underline-offset:2px}
+.article-body p a:hover,.article-body li a:hover,.article-body dd a:hover,.series-note a:hover,.author-note a:hover,.paper-ref a:hover{text-decoration-color:currentColor}
 
 /* ---- forms (contact, supervision, guide feedback): a plain POST to the form handler, no script.
    The handler sends the browser back to #…-sent or #…-error; :target shows the line. ---- */

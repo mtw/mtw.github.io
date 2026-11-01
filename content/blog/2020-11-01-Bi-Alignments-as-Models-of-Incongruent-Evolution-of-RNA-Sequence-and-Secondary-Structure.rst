@@ -5,6 +5,7 @@ Bi-Alignments as Models of Incongruent Evolution of RNA Sequence and Secondary S
 :tags: non-coding RNA; new method; RNA structure conservation
 :category: publications
 :doi: 10.1007/978-3-030-63061-4_15
+:paper_title: Bi-Alignments as Models of Incongruent Evolution of RNA Sequence and Secondary Structure
 :journal: Computational Intelligence Methods for Bioinformatics and Biostatistics
 :year: 2020
 :paper_authors: Maria Waldl, Sebastian Will, Michael T. Wolfinger, Ivo L. Hofacker, Peter F. Stadler

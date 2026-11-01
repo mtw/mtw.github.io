@@ -6,6 +6,7 @@ KinPFN: Bayesian Approximation of RNA Folding Kinetics
 :tags: RNA folding kinetics; AI
 :category: publications
 :doi: 10.5281/zenodo.15233965
+:paper_title: KinPFN: Bayesian Approximation of RNA Folding Kinetics using Prior-Data Fitted Networks
 :journal: The Thirteenth International Conference on Learning Representations (ICLR'25)
 :year: 2025
 :paper_authors: Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, Michael T. Wolfinger, Christoph Flamm, Frank Hutter

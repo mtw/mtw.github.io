@@ -5,6 +5,7 @@ The Anaerobically Induced sRNA PaiI Affects Denitrification in Pseudomonas Aerug
 :tags: bacteria; non-coding RNA
 :category: publications
 :doi: 10.3389/fmicb.2017.02312
+:paper_title: The Anaerobically Induced sRNA PaiI Affects Denitrification in Pseudomonas aeruginosa PA14
 :journal: Front. Microbiol.
 :year: 2017
 :paper_authors: Muralidhar Tata, Fabian Amman, Vinay Pawar, Michael T. Wolfinger, Siegfried Weiss, Susanne Haussler, Udo Blasi

@@ -72,7 +72,11 @@
  "url": {{ doi_url|tojson }},
  "sameAs": {{ doi_url|tojson }},
  "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": {{ article.doi|tojson }}},
- "headline": {{ article.title|striptags|tojson }},
+ {#- the post title is written for readers and search; the paper's own title is :paper_title: -#}
+ "headline": {{ (article.paper_title or article.title)|striptags|tojson }},
+ {%- if article.paper_abstract %}
+ "abstract": {{ article.paper_abstract|tojson }},
+ {%- endif %}
  {%- if article.paper_authors %}
  "author": [
  {%- for name in (article.paper_authors|replace(' and ', ', ')).split(', ') %}

@@ -5,8 +5,10 @@ The 3′ terminal region of Zika virus RNA contains a conserved G-quadruplex
 :tags: virus bioinformatics; RNA-protein interaction; non-coding RNA; flavivirus
 :category: publications
 :doi: 10.1139/bcb-2023-0036
+:paper_title: The 3’ terminal region of Zika virus RNA contains a conserved G-quadruplex and is unfolded by human DDX17
 :journal: Biochem. Cell Biol.
 :year: 2024
+:paper_license: CC BY 4.0
 :paper_authors: Dannielle L. Gemmill, Corey R. Nelson, Maulik D. Badmalia, Higor S. Pereira, Liam Kerr, Michael T. Wolfinger, Trushar R. Patel
 :slug: zika-virus-g-quadruplex-ddx17
 :summary: This study examines evidence for a conserved G-quadruplex in the Zika virus 3' terminal region and discusses what the observed DDX17 interaction does, and does not, imply.

@@ -176,7 +176,7 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container:: m-col-t-8
 
-      | 49. :link-flat-strong:`Xinyang flavivirus, from Haemaphysalis flava ticks in Henan province, China, defines a basal, likely tick-only Orthoflavivirus clade <{filename}/blog/2024-05-29-Xinyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade.rst>`
+      | 49. :link-flat-strong:`Xinyang flavivirus, from Haemaphysalis flava ticks in Henan Province, China, defines a basal, likely tick-only Orthoflavivirus clade <{filename}/blog/2024-05-29-Xinyang-flavivirus-from-Haemaphysalis-flava-ticks-defines-a-basal-likely-tick-only-Orthoflavivirus-clade.rst>`
       | Lan-Lan Wang, Qia Cheng, Natalee D. Newton, :ul:`Michael T. Wolfinger`, Mahali S. Morgan, Andrii Slonchak, Alexander A. Khromykh, Tian-Yin Cheng, Rhys H. Parry
       | *J. Gen. Virol.* 105(5) (2024)
       | :doi:`doi:10.1099/jgv.0.001991 <https://doi.org/10.1099/jgv.0.001991>` | :label-flat-info:`Journal article`
@@ -230,7 +230,7 @@ Peer-reviewed journal / conference articles and book chapters
 
     .. container::  m-col-t-8
 
-      | 46. :link-flat-strong:`A Structural Refinement Technique for Protein-RNA Complexes Using a Combination of AI-based Modeling and Flexible Docking: A Study of Musashi-1 Protein <{filename}/blog/2023-06-09-A-Structural-Refinement-Technique-for-Protein-RNA-Complexes-Using-Combination-of-AI-based-Modeling-and-Flexible-Docking-A-Study-of-Musashi-1-Protein.rst>`
+      | 46. :link-flat-strong:`A Structural Refinement Technique for Protein-RNA Complexes Based on a Combination of AI-based Modeling and Flexible Docking: A Study of Musashi-1 Protein <{filename}/blog/2023-06-09-A-Structural-Refinement-Technique-for-Protein-RNA-Complexes-Using-Combination-of-AI-based-Modeling-and-Flexible-Docking-A-Study-of-Musashi-1-Protein.rst>`
       | Nitchakan Darai, Kowit Hengphasatporn, Peter Wolschann, :ul:`Michael T. Wolfinger`, Yasuteru Shigeta, Thanyada Rungrotmongkol, Ryuhei Harada
       | *B. Chem. Soc. Jpn.* 96(7):677–685 (2023)
       | :doi:`doi:10.1246/bcsj.20230092 <https://doi.org/10.1246/bcsj.20230092>` | :label-flat-info:`Journal article`
@@ -561,7 +561,7 @@ Peer-reviewed journal / conference articles and book chapters
   | :doi:`doi:10.1038/srep39621 <https://doi.org/10.1038/srep39621>` | :label-flat-info:`Journal article`
 
   | 16. :link-flat-strong:`Transcriptome-Wide Effects of Inverted SINEs on Gene Expression and Their Impact on RNA Polymerase II Activity <{filename}/blog/2016-10-25-Transcriptome-Wide-Effects-of-Inverted-SINEs-on-Gene-Expression-and-Their-Impact-on-RNA-Polymerase-II-Activity.rst>`
-  | Mansoured Tajadodd, Andrea Tanzer, Konstantin Licht, :ul:`Michael T. Wolfinger`, Stefan Badelt, Florian Huber, Oliver Pusch, Sandy Schopoff, Ivo L. Hofacker, Michael F. Jantsch
+  | Mansoureh Tajaddod, Andrea Tanzer, Konstantin Licht, :ul:`Michael T. Wolfinger`, Stefan Badelt, Florian Huber, Oliver Pusch, Sandy Schopoff, Michael Janisiw, Ivo L. Hofacker, Michael F. Jantsch
   | *Genome Biol.* 17:220 (2016)
   | :doi:`doi:10.1186/s13059-016-1083-0 <https://doi.org/10.1186/s13059-016-1083-0>` | :label-flat-info:`Journal article`
 
@@ -575,12 +575,12 @@ Peer-reviewed journal / conference articles and book chapters
   | *Nucleic Acids Res.* 44 (14):6660–75 (2016)
   | :doi:`doi:10.1093/nar/gkw115 <https://doi.org/10.1093/nar/gkw115>` | :label-flat-info:`Journal article`
 
-  | 13. :link-flat-strong:`Predicting RNA Structures from Sequence and Probing Data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>`
+  | 13. :link-flat-strong:`Predicting RNA secondary structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>`
   | Ronny Lorenz, :ul:`Michael T. Wolfinger`, Andrea Tanzer, Ivo L. Hofacker
   | *Methods* 103:86–98 (2016)
   | :doi:`doi:10.1016/j.ymeth.2016.04.004 <https://doi.org/10.1016/j.ymeth.2016.04.004>` | :label-flat-info:`Review article`
 
-  | 12. :link-flat-strong:`RNA-Seq Based Transcriptional Profiling of Pseudomonas Aeruginosa Pa14 After Short- and Long-Term Anoxic Cultivation in Synthetic Cystic Fibrosis Sputum Medium <{filename}/blog/2016-01-28-RNA-Seq-Based-Transcriptional-Profiling-of-Pseudomonas-Aeruginosa-Pa14-After-Short-and-Long-Term-Anoxic-Cultivation-in-Synthetic-Cystic-Fibrosis-Sputum-Medium.rst>`
+  | 12. :link-flat-strong:`RNA-Seq Based Transcriptional Profiling of Pseudomonas aeruginosa PA14 after Short- and Long-Term Anoxic Cultivation in Synthetic Cystic Fibrosis Sputum Medium <{filename}/blog/2016-01-28-RNA-Seq-Based-Transcriptional-Profiling-of-Pseudomonas-Aeruginosa-Pa14-After-Short-and-Long-Term-Anoxic-Cultivation-in-Synthetic-Cystic-Fibrosis-Sputum-Medium.rst>`
   | Muralidhar Tata, :ul:`Michael T. Wolfinger`, Fabian Amman, Nicole Roschanski, Andreas Dötsch, Elisabeth Sonnleitner, Susanne Häussler, Udo Bläsi
   | *PLoS ONE* 11 (1): e0147811 (2016)
   | :doi:`doi:10.1371/journal.pone.0147811 <https://doi.org/10.1371/journal.pone.0147811>` | :label-flat-info:`Journal article`
@@ -595,7 +595,7 @@ Peer-reviewed journal / conference articles and book chapters
 
 .. container:: refs-2015
 
-  | 10. :link-flat-strong:`General and miRNA-Mediated mRNA Degradation Occurs on Ribosome Complexes in Drosophila Cells <{filename}/blog/2015-08-12-general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells.rst>`
+  | 10. :link-flat-strong:`General and MicroRNA-Mediated mRNA Degradation Occurs on Ribosome Complexes in Drosophila Cells <{filename}/blog/2015-08-12-general-and-miRNA-mediated-mrna-degradation-occurs-on-ribosome-complexes-in-drosophila-cells.rst>`
   | Sanja Antic, :ul:`Michael T. Wolfinger`, Anna Skucha, Stefanie Hosiner, Silke Dorner
   | *Mol. Cell. Biol.* MCB–01346 (2015)
   | :doi:`doi:10.1128/MCB.01346-14 <https://doi.org/10.1128/MCB.01346-14>` | :label-flat-info:`Journal article`
@@ -626,7 +626,7 @@ Peer-reviewed journal / conference articles and book chapters
 .. container:: refs-2010
 
   | 6. :link-flat-strong:`BarMap: RNA Folding on Dynamic Energy Landscapes <{filename}/blog/2010-07-01-BarMap-RNA-Folding-on-Dynamic-Energy-Landscapes.rst>`
-  | Ivo L. Hofacker, Christoph Flamm, Michael Heine, :ul:`Michael T. Wolfinger`, Gerik Scheuermann, Peter F. Stadler
+  | Ivo L. Hofacker, Christoph Flamm, Christian Heine, :ul:`Michael T. Wolfinger`, Gerik Scheuermann, Peter F. Stadler
   | *RNA* 16:1308–16 (2010)
   | :doi:`doi:10.1261/rna.2093310 <https://doi.org/10.1261/rna.2093310>` | :label-flat-info:`Journal article`
 

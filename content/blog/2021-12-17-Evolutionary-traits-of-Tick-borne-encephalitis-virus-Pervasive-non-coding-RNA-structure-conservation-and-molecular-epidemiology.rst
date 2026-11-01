@@ -6,8 +6,10 @@ Pervasive non-coding RNA structure conservation and molecular epidemiology of TB
 :tags: virus bioinformatics; non-coding RNA; One Health; xrRNA; molecular epidemiology; flavivirus; RNA structure conservation
 :category: publications
 :doi: 10.1093/ve/veac051
+:paper_title: Evolutionary traits of Tick-borne encephalitis virus: Pervasive non-coding RNA structure conservation and molecular epidemiology
 :journal: Virus Evol.
 :year: 2022
+:paper_license: CC BY-NC 4.0
 :paper_authors: Lena S. Kutschera, Michael T. Wolfinger
 :slug: Evolutionary-traits-of-Tick-borne-encephalitis-virus-Pervasive-non-coding-RNA-structure-conservation-and-molecular-epidemiology
 :summary: This study combines comparative RNA structure analysis with molecular epidemiology to characterize conserved and variable 3' UTR architectures across tick-borne encephalitis virus lineages.

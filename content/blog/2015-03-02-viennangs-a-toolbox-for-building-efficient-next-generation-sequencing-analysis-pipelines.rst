@@ -5,8 +5,10 @@ ViennaNGS: A toolbox for building efficient next-generation sequencing analysis 
 :tags: NGS; tools
 :category: publications
 :doi: 10.12688/f1000research.6157.2
+:paper_title: ViennaNGS: A toolbox for building efficient next-generation sequencing analysis pipelines
 :journal: F1000Research
 :year: 2015
+:paper_license: CC BY 4.0
 :paper_authors: Michael T. Wolfinger, Jörg Fallmann, Florian Eggenhofer, Fabian Amman
 :slug: ViennaNGS-a-toolbox-for-building-efficient-next-generation-sequencing-analysis-pipelines
 :title: Building efficient NGS analysis pipelines with ViennaNGS

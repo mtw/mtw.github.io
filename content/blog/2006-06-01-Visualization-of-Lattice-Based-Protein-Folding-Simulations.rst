@@ -5,6 +5,7 @@ Visualization of Lattice-Based Protein Folding Simulations
 :tags: energy landscapes; tools
 :category: publications
 :doi: 10.1109/IV.2006.127
+:paper_title: Visualization of Lattice-Based Protein Folding Simulations
 :journal: IV '06 Proceedings of the Conference on Information Visualization
 :year: 2006
 :paper_authors: Sebastian Pötzsch, Gerik Scheuermann, Peter F. Stadler, Michael T. Wolfinger, Christoph Flamm

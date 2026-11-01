@@ -5,6 +5,7 @@ In Silico Design of Ligand Triggered RNA Switches
 :tags: energy landscapes; new method; RNA folding kinetics; RNA design; ViennaRNA; synthetic biology; co-transcriptional RNA folding
 :category: publications
 :doi: 10.1016/j.ymeth.2018.04.003
+:paper_title: In silico design of ligand triggered RNA switches
 :journal: Methods
 :year: 2018
 :paper_authors: Sven Findeiß, Stefan Hammer, Michael T. Wolfinger, Felix Kühnl, Christoph Flamm, Ivo L. Hofacker

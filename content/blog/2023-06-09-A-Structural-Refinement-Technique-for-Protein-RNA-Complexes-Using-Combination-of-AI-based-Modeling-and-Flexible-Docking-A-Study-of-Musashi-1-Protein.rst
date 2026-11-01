@@ -5,6 +5,7 @@ RNA-Protein Complex Refinement using AI Modeling and Docking
 :tags: new method; 3D; RNA-protein interaction; AI
 :category: publications
 :doi: 10.1246/bcsj.20230092
+:paper_title: A Structural Refinement Technique for Protein-RNA Complexes Based on a Combination of AI-based Modeling and Flexible Docking: A Study of Musashi-1 Protein
 :journal: B. Chem. Soc. Jpn.
 :year: 2023
 :paper_authors: Nitchakan Darai, Kowit Hengphasatporn, Peter Wolschann, Michael T. Wolfinger, Yasuteru Shigeta, Thanyada Rungrotmongkol, Ryuhei Harada

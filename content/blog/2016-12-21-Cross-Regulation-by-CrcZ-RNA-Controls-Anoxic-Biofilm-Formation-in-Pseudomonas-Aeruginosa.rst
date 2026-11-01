@@ -5,8 +5,10 @@ Cross-Regulation by CrcZ RNA Controls Anoxic Biofilm Formation in Pseudomonas Ae
 :tags: bacteria; non-coding RNA
 :category: publications
 :doi: 10.1038/srep39621
+:paper_title: Cross-Regulation by CrcZ RNA Controls Anoxic Biofilm Formation in Pseudomonas aeruginosa
 :journal: Sci. Rep.
 :year: 2016
+:paper_license: CC BY 4.0
 :paper_authors: Petra Pusic, Muralidhar Tata, Michael T. Wolfinger, Elisabeth Sonnleitner, Susanne Haussler, Udo Blasi
 :slug: Cross-Regulation-by-CrcZ-RNA-Controls-Anoxic-Biofilm-Formation-in-Pseudomonas-Aeruginosa
 :summary: This paper shows that the Hfq-binding RNA CrcZ is highly abundant in anoxic Pseudomonas aeruginosa biofilms and that competition for Hfq by CrcZ limits anaerobic biofilm formation.

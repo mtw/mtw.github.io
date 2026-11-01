@@ -6,6 +6,7 @@ From Structure to Function in Musashi-RNA Complexes
 :tags: 3D; RNA-protein interaction; AI
 :category: publications
 :doi: 10.2306/scienceasia1513-1874.2025.s013
+:paper_title: From Structure to Function: Computational Insights into Musashi-RNA Complexes in the Context of Viral Pathogenesis and Beyond
 :journal: Sci. Asia
 :year: 2025
 :paper_authors: Nitchakan Darai, Leonhard Sidl, Thanyada Rungrotmongkol, Peter Wolschann, Michael T. Wolfinger

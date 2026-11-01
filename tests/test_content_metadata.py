@@ -89,3 +89,51 @@ def test_doi_belongs_to_the_posts_own_citation(post):
     match = re.search(r"^Citation\n=+\n(.*?)(?=\n[^\n]+\n[=-]{3,}\n|\Z)", text, re.M | re.S)
     assert match, f"{post.name}: no Citation section"
     assert doi in match.group(1), f"{post.name}: :doi: {doi} is not in the Citation block"
+
+
+@pytest.mark.parametrize("post", [p for p in _posts() if _fields(p).get("doi")], ids=lambda p: p.name)
+def test_paper_title_repeats_the_title_from_the_citation(post):
+    """A post :title: is written for readers and for search and often differs from the title
+    of the paper, so the paper's own title lives in :paper_title: and feeds the headline of
+    the ScholarlyArticle node. It has to be the title in the post's own citation block."""
+    text = post.read_text(encoding="utf-8")
+    fields = _fields(post)
+    doi = fields["doi"]
+    assert fields.get("paper_title"), f"{post.name}: :doi: without :paper_title:"
+    block = next((b for b in re.findall(r"(?:^[ \t]*\|.*\n)+", text, re.M) if doi in b), None)
+    assert block, f"{post.name}: no citation block for {doi}"
+    link = re.search(r":link-flat(?:-strong)?:`\s*(.+?)\s*<[^<>`]+>`", block.splitlines()[0], re.S)
+    assert link, f"{post.name}: citation block does not start with the paper link"
+    cited = " ".join(link.group(1).split())
+    assert fields["paper_title"] == cited, (
+        f"{post.name}: :paper_title: {fields['paper_title']!r} != cited {cited!r}")
+
+
+ABSTRACT_RE = re.compile(r"^\.\. frame:: Abstract[ \t]*\n\n(?P<body>.*?)(?=\n\S|\Z)", re.M | re.S)
+
+
+def _own_words(text: str) -> int:
+    """Words of the post's own prose: the body before the abstract, without the metadata
+    block, the directives and their options, and the citation line blocks."""
+    body = text.split(".. frame:: Abstract")[0]
+    keep = [line for line in body.splitlines()
+            if line.strip() and not line.startswith((":", "..", "|"))
+            and not line.strip().startswith((":", "|", ".."))]
+    prose = re.sub(r"<\{?filename\}?[^>]*>|`|\*", " ", "\n".join(keep))
+    return len([w for w in prose.split() if re.search(r"[A-Za-z]", w)])
+
+
+@pytest.mark.parametrize("post", [p for p in _posts()
+                                  if "frame:: Abstract" in p.read_text(encoding="utf-8")
+                                  and _fields(p).get("status") != "skip"], ids=lambda p: p.name)
+def test_own_text_outweighs_the_quoted_abstract(post):
+    """A paper post reproduces the abstract of the paper. The post's own text has to stay
+    the larger part of the page: a page whose substance is the publisher's abstract adds
+    nothing that the publisher's own page does not already have."""
+    text = post.read_text(encoding="utf-8")
+    abstract = ABSTRACT_RE.search(text)
+    assert abstract, f"{post.name}: abstract frame not recognised"
+    quoted = len(abstract.group("body").split())
+    own = _own_words(text)
+    assert own >= 250, f"{post.name}: only {own} words of its own"
+    assert own >= 1.5 * quoted, f"{post.name}: {own} own words against {quoted} quoted"

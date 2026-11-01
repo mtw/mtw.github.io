@@ -5,6 +5,7 @@ Folding Kinetics of Large RNAs
 :tags: RNA folding kinetics; co-transcriptional RNA folding
 :category: publications
 :doi: 10.1016/j.jmb.2008.02.064
+:paper_title: Folding Kinetics of Large RNAs
 :journal: J. Mol. Biol.
 :year: 2008
 :paper_authors: Michael Geis, Christoph Flamm, Michael T. Wolfinger, Andrea Tanzer, Ivo L. Hofacker, Martin Middendorf, Christian Mandl, Peter F. Stadler, Caroline Thurner

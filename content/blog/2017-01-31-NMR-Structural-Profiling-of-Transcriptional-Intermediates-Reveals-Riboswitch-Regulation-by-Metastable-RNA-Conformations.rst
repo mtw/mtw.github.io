@@ -5,6 +5,7 @@ NMR Structural Profiling of Transcriptional Intermediates Reveals Riboswitch Reg
 :tags: bacteria; energy landscapes; synthetic biology; co-transcriptional RNA folding
 :category: publications
 :doi: 10.1021/jacs.6b10429
+:paper_title: NMR Structural Profiling of Transcriptional Intermediates Reveals Riboswitch Regulation by Metastable RNA Conformations
 :journal: J. Am. Chem. Soc.
 :year: 2017
 :paper_authors: Christina Helmling, Anna Wacker, Michael T. Wolfinger, Ivo L. Hofacker, Martin Hengesbach, Boris Fürtig, Harald Schwalbe

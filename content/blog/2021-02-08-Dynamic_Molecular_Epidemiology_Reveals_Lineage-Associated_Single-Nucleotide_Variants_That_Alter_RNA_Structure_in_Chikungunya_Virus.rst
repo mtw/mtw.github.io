@@ -6,8 +6,10 @@ Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Vari
 :tags: virus bioinformatics; molecular epidemiology; alphavirus; RNA structure conservation
 :category: publications
 :doi: 10.3390/genes12020239
+:paper_title: Dynamic Molecular Epidemiology Reveals Lineage-Associated Single-Nucleotide Variants That Alter RNA Structure in Chikungunya Virus
 :journal: Genes
 :year: 2021
+:paper_license: CC BY 4.0
 :paper_authors: Thomas Spicher, Markus Delitz, Adriano de Bernardi Schneider, Michael T. Wolfinger
 :slug: Lineage-specific-RNA-structures-in-Chikungunya-virus
 :title: Molecular epidemiology and RNA structure in Chikungunya virus

@@ -5,6 +5,7 @@ BarMap: RNA Folding on Dynamic Energy Landscapes
 :tags: co-transcriptional RNA folding; RNA folding kinetics; energy landscapes
 :category: publications
 :doi: 10.1261/rna.2093310
+:paper_title: BarMap: RNA Folding on Dynamic Energy Landscapes
 :journal: RNA
 :year: 2010
 :paper_authors: Ivo L. Hofacker, Christoph Flamm, Christian Heine, Michael T. Wolfinger, Gerik Scheuermann, Peter F. Stadler

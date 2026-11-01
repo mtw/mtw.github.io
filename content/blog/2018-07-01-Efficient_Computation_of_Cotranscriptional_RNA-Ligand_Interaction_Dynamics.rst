@@ -5,6 +5,7 @@ Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics
 :tags: energy landscapes; new method; RNA folding kinetics; ViennaRNA; synthetic biology; co-transcriptional RNA folding
 :category: publications
 :doi: 10.1016/j.ymeth.2018.04.036
+:paper_title: Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics
 :journal: Methods
 :year: 2018
 :paper_authors: Michael T. Wolfinger, Christoph Flamm, Ivo L. Hofacker

@@ -45,6 +45,7 @@ PLUGINS = ['m.htmlsanity',
            'm.images',
            'mtw_meta',
            'mtw_doi',
+           'mtw_abstract',
            'mtw_redirects']
 
 # Category listings are disallowed in robots.txt and the publications/papers/ stubs are

@@ -91,9 +91,16 @@
   </div>
   {% endif %}
 
-  {% if article.summary and ((article.hide_summary is defined and article.hide_summary != 'True') or (article.hide_summary is not defined and not M_HIDE_ARTICLE_SUMMARY)) %}
+  {#- A publication post carries a heading of its own, written for readers; the paper's own
+      title is :paper_title:. Where the two differ, the paper is named under the lede, so the
+      heading cannot be read as the title of the paper. -#}
+  {% set _paper = (article.paper_title or '')|striptags|trim %}
+  {% set _show_paper = _paper and article.doi and _paper|lower != article.title|striptags|trim|lower %}
+  {% set _show_lede = article.summary and ((article.hide_summary is defined and article.hide_summary != 'True') or (article.hide_summary is not defined and not M_HIDE_ARTICLE_SUMMARY)) %}
+  {% if _show_lede or _show_paper %}
   <div class="article-body" style="padding-bottom:0">
-    <p class="page-lede">{{ article.summary|striptags|e }}</p>
+    {% if _show_lede %}<p class="page-lede">{{ article.summary|striptags|e }}</p>{% endif %}
+    {% if _show_paper %}<p class="paper-ref">{% if article.journal in ('bioRxiv', 'arXiv') %}Preprint:{% else %}Published as{% endif %} <a href="https://doi.org/{{ article.doi|e }}"><em>{{ _paper|e }}</em></a>{% if article.journal %}, <em>{{ article.journal|e }}</em>{% endif %}{% if article.year %} {{ article.year|e }}{% endif %}.</p>{% endif %}
   </div>
   {% endif %}
 

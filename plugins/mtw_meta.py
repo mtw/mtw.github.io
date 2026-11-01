@@ -5,6 +5,9 @@
 * Pages without an explicit ``:modified:`` get the date of their last git commit, so that
   ``dateModified`` and the sitemap ``lastmod`` do not fall back to the build time. The
   deploy workflow checks out the full history for this.
+* The plain-text citation fields are read back from the source file, because docutils
+  parses a field body that starts with a single letter and a period as an enumerated
+  list: ``:journal: J. Mol. Biol.`` would otherwise arrive as "Mol. Biol.".
 """
 import html
 import re
@@ -21,6 +24,7 @@ MONTHS = {m: i for i, m in enumerate(
      "september", "october", "november", "december"], 1)}
 DATE_RE = re.compile(r"(?:(\d{1,2})\s+)?(" + "|".join(MONTHS) + r")\s+(\d{4})", re.I)
 TAG_RE = re.compile(r"<[^>]+>")
+RAW_FIELDS = ("journal", "paper_title", "paper_authors", "paper_license")
 _git_dates = {}
 
 
@@ -64,6 +68,22 @@ def _events(content, kind):
     return events
 
 
+def _restore_raw_fields(content):
+    """Take the citation fields verbatim from the source instead of from docutils."""
+    source = getattr(content, "source_path", None)
+    if not source or not str(source).endswith(".rst"):
+        return
+    try:
+        text = Path(source).read_text(encoding="utf-8")
+    except OSError:
+        return
+    for field in RAW_FIELDS:
+        match = re.search(r"^:%s:[ \t]*(\S.*?)[ \t]*$" % field, text, re.M)
+        if match and getattr(content, field, None) != match.group(1):
+            setattr(content, field, match.group(1))
+            content.metadata[field] = match.group(1)
+
+
 def _git_modified(path):
     path = Path(path)
     if path in _git_dates:
@@ -79,6 +99,7 @@ def _git_modified(path):
 
 
 def on_content(content):
+    _restore_raw_fields(content)   # articles and pages alike
     if not isinstance(content, Page):
         return
     kind = EVENT_PAGES.get(getattr(content, "slug", ""))

@@ -5,6 +5,7 @@ Transcriptome-Wide Effects of Inverted SINEs on Gene Expression and Their Impact
 :tags: non-coding RNA; RNA structure conservation
 :category: publications
 :doi: 10.1186/s13059-016-1083-0
+:paper_title: Transcriptome-Wide Effects of Inverted SINEs on Gene Expression and Their Impact on RNA Polymerase II Activity
 :journal: Genome Biol.
 :year: 2016
 :paper_authors: Mansoureh Tajaddod, Andrea Tanzer, Konstantin Licht, Michael T. Wolfinger, Stefan Badelt, Florian Huber, Oliver Pusch, Sandy Schopoff, Michael Janisiw, Ivo Hofacker, Michael F. Jantsch

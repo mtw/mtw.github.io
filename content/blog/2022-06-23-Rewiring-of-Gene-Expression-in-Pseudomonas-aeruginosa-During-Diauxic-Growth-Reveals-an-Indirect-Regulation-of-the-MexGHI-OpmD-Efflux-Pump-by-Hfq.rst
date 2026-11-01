@@ -6,8 +6,10 @@ Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reve
 :tags: bacteria; NGS; One Health
 :category: publications
 :doi: 10.3389/fmicb.2022.919539
+:paper_title: Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reveals an Indirect Regulation of the MexGHI-OpmD Efflux Pump by Hfq
 :journal: Front. Microbiol.
 :year: 2022
+:paper_license: CC BY 4.0
 :paper_authors: Marlena Rozner, Ella Nukarinen, Michael T. Wolfinger, Fabian Amman, Wolfram Weckwerth, Udo Bläsi, Elisabeth Sonnleitner
 :slug: Rewiring-of-Gene-Expression-in-Pseudomonas-aeruginosa
 :summary: This study examines carbon catabolite repression and its indirect effects on antibiotic susceptibility in Pseudomonas aeruginosa.

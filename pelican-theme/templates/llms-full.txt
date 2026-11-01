@@ -6,9 +6,9 @@ Independent Principal Investigator in computational RNA biology, Vienna, Austria
 ORCID: https://orcid.org/0000-0003-0925-5205 · Contact: michael.wolfinger@rnaforecast.com
 Site: https://michaelwolfinger.com/ · Blog feed: https://michaelwolfinger.com/feeds/all.atom.xml
 
-## Publications{{ NL }}{{ NL }}
+## Publications{{ NL }}{{ NL }}Each entry gives the title of the paper. The page linked below it is my own summary of that paper and carries a heading of its own.{{ NL }}{{ NL }}
 {%- for article in articles if article.doi and article.category.name == 'publications' %}
-- {{ article.year or article.date.year }}: {{ article.title|striptags }}{{ NL }}
+- {{ article.year or article.date.year }}: {{ (article.paper_title or article.title)|striptags }}{{ NL }}
 {{- '  ' }}{% if article.paper_authors %}{{ article.paper_authors }}. {% endif %}{% if article.journal %}{{ article.journal.rstrip('.') }}. {% endif %}https://doi.org/{{ article.doi }}{{ NL }}
 {{- '  Summary and abstract: ' }}{{ SITEURL }}/{{ article.url }}{{ NL }}
 {%- endfor %}
