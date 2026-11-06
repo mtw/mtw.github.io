@@ -214,6 +214,7 @@ REDIRECTS = {
     '/blog/tag/rna-kinetics.html': '/blog/tag/rna-folding-kinetics.html',
     '/blog/tag/co-transcriptional-rna-folding2.html': '/blog/tag/co-transcriptional-rna-folding.html',
     '/blog/tag/rna-structure-prediction2.html': '/blog/tag/rna-structure-prediction.html',
+    '/blog/tag/rna-structure-conservation3.html': '/blog/tag/rna-structure-conservation.html',
     '/blog/tag/viruses/index2.html': '/blog/tag/virus-bioinformatics.html',
     # post URLs from before the relaunch (date-prefixed slugs under blog/<year>/blog/)
     '/blog/2024/blog/2024-02-12-A-framework-for-automated-scalable-designation-of-viral-pathogen-lineages-from-genomic-data/': '/blog/2024/automated-viral-lineage-designation/',
@@ -233,6 +234,7 @@ REDIRECTS = {
     '/blog/2022/When-SHAPE-Data-Actually-Improves-RNA-Structure-Prediction/': '/blog/2015/SHAPE-directed-RNA-folding/',
     '/blog/2025/Why-Kinetic-Folding-Matters-in-RNA-Design/': '/blog/2025/kinpfn-rna-folding-kinetics/',
     '/blog/2026/When-to-trust-RNA-structure-prediction-for-experimental-decisions/': '/blog/2026/rnafold-in-practice/',
+    '/blog/2026/How-to-review-an-RNA-design-before-synthesis/': '/blog/2026/theophylline-aptamer-sequence-editability/',
     '/blog/2026/When-sequence-conservation-is-not-enough-to-find-functional-RNA-structure/': '/blog/2021/Functional-RNA-Structures-in-the-3UTR-of-Mosquito-Borne-Flaviviruses/',
     # the two AI essays were superseded by the 2026 explainer, which answers the same question
     '/blog/2025/What-AI-Can-and-Cannot-Do-for-RNA-Structure-and-RNA-Protein-Modeling/': '/blog/2026/deep-learning-rna-secondary-structure-prediction/',

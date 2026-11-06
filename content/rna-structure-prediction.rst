@@ -55,6 +55,34 @@ Background
   (Lorenz et al., *Bioinformatics* 2016). The comparison of the three methods on a set of
   RNAs with known structures.
 
+Which ViennaRNA paper to cite
+=============================
+
+For the package itself, i.e. for ``RNAfold``, ``RNAsubopt``, ``RNAplfold`` and the other
+programs, the reference is the paper that describes version 2.0:
+
+  | :link-flat-strong:`ViennaRNA Package 2.0 <https://doi.org/10.1186/1748-7188-6-26>`
+  | Ronny Lorenz, Stephan H. Bernhart, Christian Höner zu Siederdissen, Hakim Tafer,
+    Christoph Flamm, Peter F. Stadler, Ivo L. Hofacker
+  | *Algorithms Mol. Biol.* 6:26 (2011) | :doi:`doi:10.1186/1748-7188-6-26 <https://doi.org/10.1186/1748-7188-6-26>`
+
+Three later papers describe features that the package gained afterwards, and a paper that
+uses one of those features should cite it in addition. For folding with probing data as
+soft constraints, which is what the SHAPE tutorial above does, that is
+:link-flat:`Predicting RNA secondary structures from sequence and probing data <{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst>`
+(Lorenz et al., *Methods* 103:86–98, 2016, :doi:`doi:10.1016/j.ymeth.2016.04.004 <https://doi.org/10.1016/j.ymeth.2016.04.004>`),
+which introduces the three conversion methods and their parameters. The comparison of
+those methods on RNAs with known structures is
+:link-flat:`SHAPE directed RNA folding <{filename}/blog/2015-09-02-SHAPE-directed-RNA-folding.rst>`
+(Lorenz et al., *Bioinformatics* 32:145–47, 2016, :doi:`doi:10.1093/bioinformatics/btv523 <https://doi.org/10.1093/bioinformatics/btv523>`).
+For folding during transcription with a ligand present, the reference is
+:link-flat:`Efficient computation of cotranscriptional RNA-ligand interaction dynamics <{filename}/blog/2018-07-01-Efficient_Computation_of_Cotranscriptional_RNA-Ligand_Interaction_Dynamics.rst>`
+(Wolfinger et al., *Methods* 143:70–76, 2018, :doi:`doi:10.1016/j.ymeth.2018.04.036 <https://doi.org/10.1016/j.ymeth.2018.04.036>`).
+
+The energy parameters are a separate citation, since a prediction depends on them as much
+as on the program. ViennaRNA 2.x uses the Turner 2004 parameters by default, and a paper
+that compares predictions across parameter sets should say which set was used.
+
 Reference
 =========
 

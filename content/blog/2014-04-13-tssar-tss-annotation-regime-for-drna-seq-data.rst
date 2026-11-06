@@ -13,7 +13,7 @@ TSSAR: TSS annotation regime for dRNA-seq data
 :slug: TSSAR-tss-annotation-regime-for-drna-seq-data
 :summary: TSSAR introduced statistically grounded, automated annotation of bacterial transcription start sites from dRNA-seq data and packaged it as both a RESTful web service and a standalone tool.
 :description: Automated bacterial TSS annotation from dRNA-seq data with a statistical model of TEX-treated versus untreated libraries, via web and command line.
-:title: Bacterial transcription start site annotation from dRNA-seq data
+:title: TSSAR: bacterial transcription start site annotation from dRNA-seq data
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong

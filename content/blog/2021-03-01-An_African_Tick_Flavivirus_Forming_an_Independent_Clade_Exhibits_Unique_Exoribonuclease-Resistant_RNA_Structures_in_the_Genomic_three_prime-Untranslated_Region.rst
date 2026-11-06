@@ -12,7 +12,7 @@ An African Tick Flavivirus Forming an Independent Clade Exhibits Unique Exoribon
 :paper_license: CC BY 4.0
 :paper_authors: Hayato Harima, Yasuko Orba, Shiho Torii, Yongjin Qiu, Masahiro Kajihara, Yoshiki Eto, Naoya Matsuta, Bernard M. Hang’ombe, Yuki Eshita, Kentaro Uemura, Keita Matsuno, Michihito Sasaki, Kentaro Yoshii, Ryo Nakao, William W. Hall, Ayato Takada, Takashi Abe, Michael T. Wolfinger, Martin Simuunza, Hirofumi Sawa
 :slug: Mpulungu_Virus_is_a_novel_tick_flavivirus_from_Africa
-:title: Mpulungu virus and unique xrRNAs in a novel African tick flavivirus
+:title: Mpulungu virus (MPFV) and unique xrRNAs in a novel African tick flavivirus
 :summary: This study describes Mpulungu virus, a novel African tick flavivirus, and characterizes unusual exoribonuclease-resistant RNA structures in its 3' UTR.
 :description: Genome analysis of Mpulungu virus reveals an independent flavivirus lineage and distinctive xrRNA structures in the 3' UTR.
 
