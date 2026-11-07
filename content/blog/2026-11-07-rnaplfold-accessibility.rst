@@ -11,6 +11,7 @@ RNAplfold tutorial: accessibility in long RNAs
 :title: RNAplfold tutorial: accessibility in long RNAs
 :summary: How to compute the accessibility of a region with RNAplfold in the ViennaRNA Package, i.e. the probability that a stretch of nucleotides is unpaired, how to read the _lunp file, how to choose the maximum base pair span and the window size, and how far the accessibility of a region changes when it is cut out of its sequence context. Worked example with the Zika virus genome, all commands included.
 :description: How to compute RNA accessibility with RNAplfold: unpaired probabilities, the _lunp file, choosing span and window, and the border effect at sequence ends.
+:social_image: {static}/static/og-rnaplfold-accessibility-1200x630.png
 
 .. role:: link-flat(link)
   :class: m-flat m-text
