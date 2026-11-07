@@ -249,6 +249,48 @@ def test_analytics_are_consent_gated(output_dir):
     assert "Google Analytics" in privacy and "Datenschutzbehörde" in privacy
 
 
+# The Cloudflare CSP allows the one inline script by its sha256. The hash is of the
+# minified script, so any edit to it, or to the minifier, invalidates the policy. Keep this
+# value and the Cloudflare rule in step: when this test fails because the script changed on
+# purpose, paste the printed hash into the rule, then update the constant.
+CSP_SCRIPT_HASH = "sha256-jE29Xtc2hBcUFUPFc/Z2ymWsJjKkc2rwQNO/F2Bn0Bg="
+
+
+def _inline_script(html_text: str) -> str:
+    scripts = [
+        m.group(1)
+        for m in re.finditer(r"<script(?![^>]*\ssrc=)[^>]*>(.*?)</script>", html_text, re.S)
+        if "ld+json" not in m.group(0)[:60]
+    ]
+    assert len(scripts) == 1, f"expected one executable inline script, found {len(scripts)}"
+    return scripts[0]
+
+
+def test_the_consent_script_still_matches_the_hash_the_csp_allows(output_dir):
+    import base64
+    import hashlib
+
+    script = _inline_script((output_dir / "index.html").read_text(encoding="utf-8"))
+    digest = base64.b64encode(hashlib.sha256(script.encode()).digest()).decode()
+    assert f"sha256-{digest}" == CSP_SCRIPT_HASH, (
+        "the inline script changed, so the Cloudflare CSP no longer allows it. "
+        f"New hash: sha256-{digest}"
+    )
+
+
+def test_reading_depth_is_reported_only_after_consent(output_dir):
+    """The quarter-mark scroll events must sit inside load(), which runs only on acceptance."""
+    template = (REPO_ROOT / "pelican-theme" / "templates" / "base.html").read_text(encoding="utf-8")
+    assert "function depth()" in template, "the reading-depth tracker is gone"
+    for mark in (25, 50, 75):
+        assert f"'scroll_'+m" in template, "scroll events are no longer sent per mark"
+    assert template.index("depth();") > template.index("function load()"), (
+        "depth() must be called from load(), i.e. only after the visitor accepted"
+    )
+    home = (output_dir / "index.html").read_text(encoding="utf-8")
+    assert "scroll_" in home and "addEventListener(`scroll`" in home.replace('"', "`")
+
+
 def test_global_privacy_control_outranks_a_stored_acceptance(output_dir):
     """A visitor who accepted earlier and later turns GPC on must not get the Google tag.
     The consent script therefore has to honour GPC before it acts on the stored choice.

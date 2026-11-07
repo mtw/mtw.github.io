@@ -43,11 +43,34 @@
     function read(){try{var v=JSON.parse(localStorage.getItem(KEY));if(v&&v.t&&Date.now()-v.t<MAX)return v.analytics;}catch(e){}return null;}
     function write(v){try{localStorage.setItem(KEY,JSON.stringify({analytics:v,t:Date.now()}));}catch(e){}}
     function banner(){return document.getElementById('cookie-settings');}
+    {#- Reading depth: GA4's own enhanced measurement only reports a scroll at 90%, which
+        cannot tell a reader who worked through a tutorial from one who jumped to the end.
+        These three events add the quarter marks. They run only inside load(), i.e. only
+        after the visitor has accepted, and short pages are skipped because they would
+        report every mark on arrival. -#}
+    function depth(){
+      var el=document.documentElement, h=Math.max(document.body.scrollHeight,el.scrollHeight)-el.clientHeight;
+      if(h<el.clientHeight*0.6)return;   // a page that barely scrolls says nothing about reading
+      var marks=[25,50,75], sent={}, timer=0;
+      function check(){
+        var p=(window.pageYOffset||el.scrollTop)/h*100, done=true;
+        for(var i=0;i<marks.length;i++){
+          var m=marks[i];
+          if(!sent[m]&&p>=m){sent[m]=1; gtag('event','scroll_'+m);}
+          if(!sent[m])done=false;
+        }
+        if(done)window.removeEventListener('scroll',onScroll);
+      }
+      function onScroll(){if(timer)return; timer=setTimeout(function(){timer=0; check();},250);}
+      window.addEventListener('scroll',onScroll,{passive:true});
+      check();
+    }
     function load(){
       if(window.mtwGaLoaded)return; window.mtwGaLoaded=true;
       window.dataLayer=window.dataLayer||[]; window.gtag=function(){dataLayer.push(arguments);};
       gtag('js',new Date()); gtag('config',ID);
       var s=document.createElement('script'); s.async=true; s.src='https://www.googletagmanager.com/gtag/js?id='+ID; document.head.appendChild(s);
+      depth();
     }
     window.mtwConsent={
       accept:function(){write(true); banner().hidden=true; load();},
