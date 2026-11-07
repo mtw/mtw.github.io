@@ -32,7 +32,11 @@ Efficient Computation of Cotranscriptional RNA-Ligand Interaction Dynamics
           :alt: Population dynamics of competing riboswitch conformations during cotranscriptional folding
           :figclass: m-figure m-flat
 
-Riboswitches are a good reminder that RNA function is often kinetic rather than purely thermodynamic. For many ligand-sensing RNAs, the biologically relevant question is not simply which structure has the lowest free energy at equilibrium. What matters is which structures become available during transcription, how long they persist, and whether ligand binding happens early enough to redirect the folding pathway before an alternative conformation takes over.
+Riboswitches are a good reminder that RNA function is often kinetic rather than purely
+thermodynamic. For many ligand-sensing RNAs, the biologically relevant question is which
+structures become available during transcription, how long they persist, and whether ligand
+binding happens early enough to redirect the folding pathway before an alternative conformation
+takes over.
 
 That is the problem addressed in this paper. The goal is to model cotranscriptional RNA-ligand interaction dynamics efficiently enough to say something mechanistic about a kinetically controlled riboswitch, without having to rely entirely on huge numbers of direct folding trajectories. The approach builds on the energy-landscape framework developed in earlier work and extends it to a setting where both the RNA chain and the ligand-binding state change over time.
 
@@ -44,9 +48,18 @@ The case study is the I-A 2'-deoxyguanosine (2'dG) riboswitch from *Mesoplasma f
 
 The main result is that this landscape-based treatment reproduces the logic of a kinetically controlled riboswitch surprisingly well. The model shows how an early binding-competent aptamer state can capture ligand and thereby steer the RNA away from competing conformations that would otherwise dominate later. The riboswitch cannot be understood from a single end-state structure alone. Its behavior depends on the timing of transcription, the accessibility of intermediate states, and the concentration-dependent opportunity for ligand capture during folding.
 
-I still think this is one of the more useful methodological papers in the riboswitch area. It turns a vague statement like "cotranscriptional effects matter" into a concrete computational workflow. Instead of treating kinetics as an afterthought, the paper makes the dynamic landscape itself the object of study. This is relevant not only for natural riboswitches, but also for synthetic biology, where one often wants to know whether a designed switch is merely structurally plausible or actually kinetically workable.
+I still think this is one of the more useful methodological papers in the riboswitch area. It
+turns a vague statement like "cotranscriptional effects matter" into a concrete computational
+workflow. Instead of treating kinetics as an afterthought, the paper makes the dynamic
+landscape itself the object of study. This is relevant for natural riboswitches and for
+synthetic biology, where one often wants to know whether a designed switch is merely
+structurally plausible or actually kinetically workable.
 
-The paper also connects two strands of RNA research that are often discussed separately: landscape-based folding kinetics and ligand-regulated RNA control. Bringing them together makes it possible to use coarse-grained kinetics not just for descriptive folding studies, but for mechanism-aware analysis of regulatory RNAs. That is a meaningful step beyond equilibrium folding and a useful basis for later in silico screening of switch designs before experimental validation.
+The paper also connects two strands of RNA research that are often discussed separately:
+landscape-based folding kinetics and ligand-regulated RNA control. Bringing them together makes
+it possible to use coarse-grained kinetics for mechanism-aware analysis of regulatory RNAs.
+That is a meaningful step beyond equilibrium folding and a useful basis for later in silico
+screening of switch designs before experimental validation.
 
 That screening logic is exactly why kinetic folding matters in RNA design. A construct can look plausible at equilibrium and still fail once timing and pathway dependence are taken seriously.
 

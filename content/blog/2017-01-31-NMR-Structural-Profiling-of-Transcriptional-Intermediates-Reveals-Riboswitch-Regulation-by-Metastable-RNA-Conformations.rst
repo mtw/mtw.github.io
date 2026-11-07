@@ -35,7 +35,11 @@ The approach differs from the computational work on the same question. The RNA w
 
 The main finding is that ligand responsiveness is tightly coupled to transcript length and to the presence of metastable conformations. Certain intermediates transiently expose a binding-competent arrangement, while slightly longer transcripts can already open competing structural options that redirect the switch. In other words, the riboswitch operates within a narrow kinetic window. The regulatory outcome depends on whether ligand binding happens at the right moment, before alternative folds become dominant.
 
-That point matters well beyond this one riboswitch. The paper makes a broader argument that metastable RNA states are not just folding noise on the way to the “real” structure, but can be the mechanistically decisive states. For transcriptional riboswitches in particular, regulation emerges from the coupling of synthesis, folding, and binding, not from equilibrium thermodynamics alone. This is one of the clearest experimental demonstrations of that idea.
+That point matters well beyond this one riboswitch. The paper argues that metastable RNA states
+can be the mechanistically decisive ones, and treating them as folding noise on the way to the
+“real” structure misses the regulation. For transcriptional riboswitches in particular,
+regulation emerges from the coupling of synthesis, folding, and binding, not from equilibrium
+thermodynamics alone. This is one of the clearest experimental demonstrations of that idea.
 
 For readers interested in RNA design or synthetic biology, this is also the real lesson of the paper. If a regulatory RNA works by passing through a specific sequence of transient states, then designing only for the final minimum free energy structure is not enough. One has to think in terms of folding pathways and timing. That perspective became the basis for later computational work on the same 2'dG riboswitch system, including the follow-up landscape-based analysis linked below.
 

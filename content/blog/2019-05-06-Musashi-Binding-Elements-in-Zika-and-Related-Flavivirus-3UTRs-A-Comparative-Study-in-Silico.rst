@@ -36,7 +36,7 @@ Musashi Binding Elements in Zika Virus 3'UTR
           :alt: Accessibility of Musashi binding elements in Zika virus and related flaviviruses
           :figclass: m-figure m-flat
 
-Musashi-1 is an RNA-binding protein that is highly expressed in neural stem and progenitor cells, and earlier experimental work had suggested that it can bind the Zika virus 3' UTR and enhance viral replication. That makes the structural context of Musashi binding elements in viral RNA immediately relevant: binding depends not just on the presence of a `UAG` core motif, but on whether that motif is exposed in a single-stranded region that is accessible to the protein.
+Musashi-1 is an RNA-binding protein that is highly expressed in neural stem and progenitor cells, and earlier experimental work had suggested that it can bind the Zika virus 3' UTR and enhance viral replication. That makes the structural context of Musashi binding elements in viral RNA immediately relevant: binding depends on whether a `UAG` core motif is exposed in a single-stranded region that the protein can reach.
 
 This paper addresses exactly that question with a thermodynamic RNA-structure model. We screened curated flavivirus 3' UTRs for `UAG` motifs and evaluated how accessible each site is in its native sequence context. Rather than just folding a single minimum free energy structure, the analysis uses opening energies derived from ensemble calculations in sliding windows and compares them to dinucleotide-shuffled sequence controls. The resulting z scores make it possible to ask whether a given Musashi binding element is unusually exposed relative to what would be expected from local sequence composition alone.
 

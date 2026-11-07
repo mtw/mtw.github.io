@@ -26,7 +26,9 @@ In Silico Design of Ligand Triggered RNA Switches
 .. role:: doi(link)
   :class: doi
 
-Designing a useful ligand-triggered RNA switch is not just a matter of finding a sequence that can fold into two states. The real challenge is to engineer a sequence whose relevant conformations, ligand competence, and switching kinetics all fit the intended mechanism.
+Designing a useful ligand-triggered RNA switch means engineering a sequence whose relevant
+conformations, ligand competence and switching kinetics all fit the intended mechanism. Finding
+a sequence that folds into two states is the easy half.
 
 This work lays out a concrete in silico workflow for that problem. It starts from a well-characterized aptamer, exemplified here with the theophylline aptamer, and treats ligand binding as one structurally defined state of the switch. The design task then becomes balancing that binding-competent conformation against an alternative fold that disrupts it in the absence of ligand.
 

@@ -34,11 +34,17 @@ Xinyang flavivirus, from Haemaphysalis flava ticks in Henan Province, China, def
       :alt: Structural proteins of Xinyang flavivirus
       :figclass: m-figure m-flat
 
-**Xinyang flavivirus (XiFV)** is an orthoflavivirus detected in *Haemaphysalis flava* ticks in Henan Province, China. It sits at the base of the known tick-borne flaviviruses and, together with Mpulungu virus from Africa, likely defines a tick-only lineage without a vertebrate host — yet its 3′UTR keeps a recognisable orthoflavivirus xrRNA architecture.
+**Xinyang flavivirus (XiFV)** is an orthoflavivirus detected in *Haemaphysalis flava* ticks in Henan Province, China. It sits at the base of the known tick-borne flaviviruses and, together with Mpulungu virus from Africa, likely defines a tick-only lineage without a vertebrate host—yet its 3′UTR keeps a recognisable orthoflavivirus xrRNA architecture.
 
 This paper is interesting because it changes the comparative picture of tick-borne orthoflaviviruses in two ways at once. First, it adds a new geographic data point. Xinyang flavivirus was detected in *Haemaphysalis flava* ticks in China and groups with Mpulungu flavivirus from Zambia and Ngoye virus from Senegal. That means the basal clade defined earlier from African ticks is not a local curiosity. It extends at least into Asia and looks increasingly like a real, ecologically coherent lineage.
 
-Second, the paper sharpens the argument that this lineage may be vertebrate-independent. Most tick-borne flaviviruses are discussed in terms of transmission cycles involving ticks and vertebrate hosts. XiFV, MPFV, and NGOV do not fit that expectation well. Their dinucleotide composition is closer to classical insect-specific flaviviruses than to vertebrate-infecting tick-borne flaviviruses, and XiFV shares with MPFV the absence of a furin cleavage site in prM that is otherwise common in vertebrate-associated relatives. The picture that emerges is not merely “another unusual flavivirus,” but a basal branch that may have settled on a tick-only life cycle.
+Second, the paper sharpens the argument that this lineage may be vertebrate-independent. Most
+tick-borne flaviviruses are discussed in terms of transmission cycles involving ticks and
+vertebrate hosts. XiFV, MPFV, and NGOV do not fit that expectation well. Their dinucleotide
+composition is closer to classical insect-specific flaviviruses than to vertebrate-infecting
+tick-borne flaviviruses, and XiFV shares with MPFV the absence of a furin cleavage site in prM
+that is otherwise common in vertebrate-associated relatives. The picture that emerges is a
+basal branch that may have settled on a tick-only life cycle.
 
 That is where the structural work becomes important. The paper does not stop at phylogeny and host-range inference. It also examines the 3' UTR and shows that XiFV retains a recognizable orthoflaviviral RNA architecture, including multiple pseudoknot-containing stem-loops and a prototypical dumbbell element. In other words, even a lineage that may have abandoned vertebrate transmission still preserves a sophisticated structured non-coding region. That makes the system valuable for thinking about which RNA elements belong to the core flaviviral toolkit and which may be associated with particular host or transmission regimes.
 

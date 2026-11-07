@@ -60,8 +60,8 @@ Recent Ollama releases include a launcher that configures Claude Code for you:
    ollama launch claude --restore             # back to the defaults
 
 The launcher sets the environment variables described below for that session, so you
-do not have to. It does not set the context length — that is a server setting, and the
-next sections explain it — and it hides what happens, which is why the manual way is
+do not have to. It does not set the context length—that is a server setting, and the
+next sections explain it—and it hides what happens, which is why the manual way is
 worth knowing.
 
 Step 1: Pull a model that can call tools
@@ -140,7 +140,7 @@ conversation before Ollama rejects it. Ollama's documentation also sets
 ``ANTHROPIC_API_KEY=""`` so that no stale key competes with the token. The alias mapping matters: Claude Code uses its ``haiku`` alias for background work,
 and without the mapping that call asks Ollama for an Anthropic model name it does not
 have. (Ollama's documentation offers ``ollama cp qwen3-coder claude-3-5-sonnet`` as an
-alternative — copying the model under an Anthropic name — but the environment
+alternative—copying the model under an Anthropic name—but the environment
 variables are cleaner.) The same variables can live in ``.claude/settings.json`` under
 ``"env"`` for a per-project setup, and the LM Studio guide shows the JSON.
 
@@ -175,14 +175,14 @@ The rest is identical, and I run this setup over Tailscale, where the only diffe
 the hostname. Keep such a server off the open internet: Ollama has no authentication of
 its own.
 
-What Ollama's endpoint supports — and what it does not
+What Ollama's endpoint supports—and what it does not
 ------------------------------------------------------
 
 Supported: streaming, system prompts, multi-turn conversations, tool calling,
 extended thinking, base64 images. Not supported: forced ``tool_choice``, prompt
 caching, the token-counting endpoint, URL images, PDFs, batches. In practice the
 missing token counter means Claude Code's context indicator can be off, and the missing
-prompt cache means every turn re-processes the full prompt — the main reason local
+prompt cache means every turn re-processes the full prompt—the main reason local
 sessions feel slower than the API even on fast hardware.
 
 Troubleshooting

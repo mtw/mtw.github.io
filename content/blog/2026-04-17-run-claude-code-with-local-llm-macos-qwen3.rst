@@ -81,10 +81,10 @@ with tool support that run well on Apple Silicon:
 - ``qwen/qwen3-coder-30b`` (30B mixture-of-experts, 3B active; about 19 GB at 4-bit) —
   the best balance I have found for agentic work; wants 32 GB.
 - ``openai/gpt-oss-20b`` (about 12 GB loaded with a 32K context; LM Studio's and
-  Ollama's default suggestion) — the choice for 24 GB machines.
-- ``qwen/qwen3.8-27b`` (dense 27B, about 18 GB) — the current general model in LM
+  Ollama's default suggestion)—the choice for 24 GB machines.
+- ``qwen/qwen3.8-27b`` (dense 27B, about 18 GB)—the current general model in LM
   Studio's catalog, strong at tool use; needs 32 GB or more once the context is loaded.
-- ``google/gemma-4-12b`` (about 7 GB on disk, 12 GB loaded with 32K) — the practical
+- ``google/gemma-4-12b`` (about 7 GB on disk, 12 GB loaded with 32K)—the practical
   option for a 16 GB Mac; it completed file-editing tasks reliably in my tests.
 
 **Where the model comes from matters**, so download through LM Studio's catalog
@@ -131,7 +131,7 @@ Step 2: Start the server and check it with curl
    lms server status
 
 The Anthropic-compatible endpoint of LM Studio is ``http://localhost:1234/v1/messages``. Check it
-before involving Claude Code — first the model list, then one message:
+before involving Claude Code—first the model list, then one message:
 
 .. code-block:: bash
 
@@ -190,7 +190,7 @@ these are set, so any value works. LM Studio's integration page also suggests th
 variable ``CLAUDE_CODE_ATTRIBUTION_HEADER=0``.
 
 Inside Claude Code, ``/status`` shows which base URL and credential source are in
-use — the first thing to check when something is off.
+use—the first thing to check when something is off.
 
 Per-project instead of per-shell
 ================================

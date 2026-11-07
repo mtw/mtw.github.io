@@ -34,7 +34,12 @@ Once folding is treated as motion on an energy landscape, visualization is an an
 
 The methodological approach combines lattice-based folding simulations with interactive and comparative visual encodings of conformational change. Rather than reducing the problem to a single static snapshot, the paper considers how to represent discrete polymer conformations over time and how to connect structural states to their dynamic relationships. For a field that often depends on abstract state spaces, this matters. Visualization is one of the few ways to make model behavior legible enough to support debugging, hypothesis generation, and explanation.
 
-The paper also reminds us that bioinformatics is not only about prediction accuracy or algorithmic complexity. There is a downstream interpretability problem as well. Whether one studies lattice proteins, RNA folding landscapes, or modern molecular simulations, the question remains similar: how can complex structural dynamics be turned into a form that scientists can inspect, compare, and reason about effectively? This early work tackles that question for lattice protein simulations.
+The paper also reminds us that bioinformatics has a downstream interpretability problem, next
+to prediction accuracy and algorithmic complexity. Whether one studies lattice proteins, RNA
+folding landscapes, or modern molecular simulations, the question remains similar: how can
+complex structural dynamics be turned into a form that scientists can inspect, compare, and
+reason about effectively? This early work tackles that question for lattice protein
+simulations.
 
 The most natural context is the sequence of papers on :link-flat:`energy landscapes <{tag}energy-landscapes>`. Those articles develop the computational machinery for coarse-graining, exploring, and simulating folding landscapes. This one addresses the complementary issue of how to visualize such processes once the computations are done. It is best read as part of that early methodological cluster rather than as an isolated visualization exercise.
 

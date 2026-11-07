@@ -35,7 +35,7 @@ Theoretical studies on RNA recognition by Musashi 1 RNA-binding protein
 
 
 
-**In short:** Musashi-1 binds short single-stranded UAG-containing motifs through two RNA-binding domains. Molecular dynamics and binding-energy calculations show that recognition is selective even among near-identical pentamers and identify the contacts responsible — a mechanistic basis for MSI1's role in post-transcriptional regulation and for its interaction with the Zika virus genome.
+**In short:** Musashi-1 binds short single-stranded UAG-containing motifs through two RNA-binding domains. Molecular dynamics and binding-energy calculations show that recognition is selective even among near-identical pentamers and identify the contacts responsible—a mechanistic basis for MSI1's role in post-transcriptional regulation and for its interaction with the Zika virus genome.
 
 Musashi-1 (MSI1) is an RNA-binding protein involved in stem-cell maintenance, neural development, and post-transcriptional regulation. It also became particularly interesting in the context of Zika virus biology, because Musashi proteins were proposed to interact with viral RNAs in ways that could affect replication and neuropathology. That makes the underlying recognition problem more than a narrow structural question. Understanding how Musashi binds RNA is relevant both for endogenous regulation and for virus-host interaction studies.
 

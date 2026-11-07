@@ -33,7 +33,14 @@ Harnessing Metabolic Regulation to Increase Hfq-Dependent Antibiotic Susceptibil
           :alt: Increased CrcZ levels correlate with increased gentamicin susceptibility in Pseudomonas aeruginosa
           :figclass: m-figure m-flat
 
-This paper takes the Hfq story in *Pseudomonas aeruginosa* one step further. Instead of asking only which genes are controlled by Hfq, it asks whether that regulatory layer can be exploited to make the bacterium more susceptible to antibiotics. That is a more intervention-oriented question, and it gives the work a slightly different flavor from the mechanistic porin paper that followed later. The central idea is that Hfq is not just another global regulator. Because it sits at the intersection of carbon catabolite repression, RNA-mediated control, membrane physiology, and stress adaptation, changing Hfq availability could shift several antibiotic-relevant traits at once.
+This paper takes the Hfq story in *Pseudomonas aeruginosa* one step further. Instead of asking
+only which genes are controlled by Hfq, it asks whether that regulatory layer can be exploited
+to make the bacterium more susceptible to antibiotics. That is a more intervention-oriented
+question, and it gives the work a slightly different flavor from the mechanistic porin paper
+that followed later. The central idea is that Hfq occupies a particular place among the global
+regulators. Because it sits at the intersection of carbon catabolite repression, RNA-mediated
+control, membrane physiology, and stress adaptation, changing Hfq availability could shift
+several antibiotic-relevant traits at once.
 
 The starting point is the observation that deletion of `hfq` increases susceptibility of *P. aeruginosa* to multiple classes of clinically relevant antibiotics. The paper then asks why that happens and whether the same effect can be reproduced in a less drastic and more physiologically meaningful way. That second question is where `CrcZ` becomes important. `CrcZ` is an RNA decoy that sequesters Hfq and thereby counteracts Hfq/Crc-mediated repression. If higher `CrcZ` levels reduce effective Hfq activity, then metabolic conditions that induce `CrcZ`, or artificial overexpression of `CrcZ`, might sensitize cells to antibiotics without deleting a global regulator outright.
 

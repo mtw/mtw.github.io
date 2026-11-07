@@ -36,9 +36,16 @@ Functional RNA Structures in the 3’UTR of Tick-Borne, Insect-Specific and No K
 
 The 3' untranslated regions of flaviviruses contain far more than generic sequence context. They carry structured RNA elements involved in cyclization, replication, encapsidation, and resistance to host exonucleases. That makes them a natural target for comparative analysis, especially in viral groups where functional annotation is still sparse.
 
-This paper takes a comparative genomics approach to the 3' UTRs of tick-borne, insect-specific, and no-known-vector flaviviruses. The question is not simply whether these viruses contain structured RNA, but how conserved architectures are distributed across lineages and where different flavivirus groups seem to have arrived at different structural solutions.
+This paper takes a comparative genomics approach to the 3' UTRs of tick-borne, insect-specific,
+and no-known-vector flaviviruses. The question is how conserved architectures are distributed
+across lineages and where different flavivirus groups seem to have arrived at different
+structural solutions.
 
-One of the main results is that exoribonuclease-resistant RNAs (xrRNAs), which had already been characterized experimentally in other flavivirus contexts, are more widely distributed than a narrow lineage-specific view would suggest. The analysis supports their presence in tick-borne and no-known-vector flaviviruses, reinforcing the idea that resistance to 5' to 3' degradation is a broadly reused structural strategy in flavivirus evolution.
+One of the main results is that exoribonuclease-resistant RNAs (xrRNAs), which had already been
+characterized experimentally in other flavivirus contexts, are more widely distributed than a
+narrow lineage-specific view would suggest. The analysis supports their presence in tick-borne
+and no-known-vector flaviviruses, so resistance to 5' to 3' degradation looks like a broadly
+reused structural strategy in flavivirus evolution.
 
 The study also points to a repeated or cascaded organization of duplicated RNA structures in insect-specific flaviviruses. That observation matters because it suggests that flavivirus 3' UTRs are not static collections of conserved motifs. They are better viewed as flexible scaffolds on which evolution can duplicate, repurpose, and elaborate structured RNA elements while maintaining core functions.
 

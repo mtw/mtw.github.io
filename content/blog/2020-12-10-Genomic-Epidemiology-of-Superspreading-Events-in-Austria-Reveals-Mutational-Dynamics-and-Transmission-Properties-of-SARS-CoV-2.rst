@@ -30,7 +30,12 @@ Genomic Epidemiology of Superspreading Events in Austria Reveals Mutational Dyna
   :class: doi
 
 
-This paper captures one of the moments when genomic epidemiology became central to public-health interpretation in real time. During the first wave of SARS-CoV-2 in Europe, Austria occupied a particularly informative position because several major transmission chains, including tourism-associated outbreaks, could be linked to well-documented epidemiological contexts. That made the country a strong setting for asking not just where the virus spread, but how superspreading events shaped early pandemic dynamics.
+This paper captures one of the moments when genomic epidemiology became central to public-
+health interpretation in real time. During the first wave of SARS-CoV-2 in Europe, Austria
+occupied a particularly informative position because several major transmission chains,
+including tourism-associated outbreaks, could be linked to well-documented epidemiological
+contexts. That made the country a strong setting for asking how superspreading events shaped
+early pandemic dynamics.
 
 The study combines classical epidemiological tracing with deep whole-genome sequencing of more than 500 viral samples. That pairing is what gives the paper its strength. Sequencing alone can reveal related clusters, but without epidemiological context many details remain ambiguous. Conversely, case tracing alone cannot resolve the mutational microdynamics of transmission chains. Here, the two layers reinforce one another and allow the authors to reconstruct superspreading events with unusual confidence.
 

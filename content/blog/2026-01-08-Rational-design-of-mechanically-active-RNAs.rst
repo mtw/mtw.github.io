@@ -56,16 +56,13 @@ pseudoknot 2 behaves as the decisive gatekeeper of mechanical
 resistance, whereas pseudoknot 1 is important but less determinant on
 its own.
 
-Those observations were then turned into a design workflow. Natural
-mosquito-borne flavivirus xrRNAs were reduced to a symbolic
-representation that preserves the three-way junction, the two
-pseudoknots, and characteristic length constraints between structural
-elements. Sequence generation was carried out with explicit structural
-and topological constraints, followed by ensemble-based refinement,
-SimRNA modeling, and molecular dynamics screening for ring closure and
-directional force resistance. The point was not simply to inverse-fold a
-target secondary structure, but to make topology part of the design
-objective.
+Those observations were then turned into a design workflow. Natural mosquito-borne flavivirus
+xrRNAs were reduced to a symbolic representation that preserves the three-way junction, the two
+pseudoknots, and characteristic length constraints between structural elements. Sequence
+generation was carried out with explicit structural and topological constraints, followed by
+ensemble-based refinement, SimRNA modeling, and molecular dynamics screening for ring closure
+and directional force resistance. The point was to make topology part of the design objective,
+which inverse folding of a target secondary structure does not do.
 
 The synthetic constructs provide a useful progression. `syn-xrRNA1`
 captured the general architecture `in silico` but remained too weak

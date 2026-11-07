@@ -33,7 +33,7 @@ Functional RNA Structures in the 3’UTR of Mosquito-Borne Flaviviruses
           :alt: Consensus RNA secondary structures of evolutionarily conserved elements in flavivirus 3' UTRs
           :figclass: m-figure m-flat
 
-**In short:** mosquito-borne flavivirus 3′UTRs are built from a small set of recurring structured modules — exoribonuclease-resistant RNAs (xrRNAs) that stall Xrn1 and give rise to sfRNA, dumbbell elements, and a terminal stem-loop — whose arrangement is conserved even where the sequence is not. This chapter maps that structural vocabulary across the group.
+**In short:** mosquito-borne flavivirus 3′UTRs are built from a small set of recurring structured modules—exoribonuclease-resistant RNAs (xrRNAs) that stall Xrn1 and give rise to sfRNA, dumbbell elements, and a terminal stem-loop—whose arrangement is conserved even where the sequence is not. This chapter maps that structural vocabulary across the group.
 
 This chapter asks what is actually conserved in the 3' UTRs of mosquito-borne flaviviruses once one looks beyond primary sequence. For viruses such as dengue, West Nile, yellow fever, Japanese encephalitis, and Zika virus, the answer matters because the structured 3' UTR is not passive genomic baggage. It is part of the replication program and helps shape genome cyclization, sfRNA production, host adaptation, and the broader regulatory behavior of the viral RNA.
 

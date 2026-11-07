@@ -33,13 +33,25 @@ Gene Expression Profiling of Pseudomonas Aeruginosa Upon Exposure to Colistin an
           :alt: Pathways and functions dysregulated in Pseudomonas aeruginosa upon colistin treatment
           :figclass: m-figure m-flat
 
-This paper looks at a clinically important problem from a systems-biology angle. In cystic fibrosis infections, *Pseudomonas aeruginosa* is often treated with colistin or tobramycin once many other antibiotics have become ineffective. Both are last-resort drugs, but they stress the cell in very different ways. Colistin primarily targets the envelope, whereas tobramycin disrupts translation after energy-dependent uptake into the cytoplasm. The question behind the paper is therefore not just which resistance genes are already known, but how the bacterium reorganizes its physiology when it is actually exposed to these two drugs under a host-relevant growth condition.
+This paper looks at a clinically important problem from a systems-biology angle. In cystic
+fibrosis infections, *Pseudomonas aeruginosa* is often treated with colistin or tobramycin once
+many other antibiotics have become ineffective. Both are last-resort drugs, but they stress the
+cell in very different ways. Colistin primarily targets the envelope, whereas tobramycin
+disrupts translation after energy-dependent uptake into the cytoplasm. The question behind the
+paper is therefore how the bacterium reorganizes its physiology when it is exposed to these two
+drugs under a host-relevant growth condition.
 
 The experimental design carries the study: PA14 was grown in synthetic cystic fibrosis sputum medium and then challenged with inhibitory concentrations of colistin or tobramycin. Instead of measuring transcript levels alone, the paper combined RNA-seq with ribosome profiling in parallel. That matters because antibiotic stress often perturbs translation directly, and a transcriptome alone can miss the distinction between genes that are transcribed more strongly and genes that are actually being translated more efficiently. In that sense, the study moves one level closer to the physiological response of the cell.
 
 The two antibiotics trigger markedly different expression programs. Colistin elicits a response centered on envelope and oxidative-stress adaptation, including well-known pathways connected to lipid A modification and polymyxin resistance, but also broader changes involving the MexT and AlgU regulons. Tobramycin, by contrast, produces a response that is much more tied to translational stress and metabolic rewiring. The cells alter amino-acid catabolism, lower-TCA-cycle genes, secretion systems, and functions linked to motility and attachment, while at the same time increasing expression of systems involved in stalled-ribosome rescue, tRNA methylation, and toxin-antitoxin modules.
 
-One of the strengths of the paper is that it shows these are not merely generic stress signatures. The colistin and tobramycin responses diverge in ways that reflect the underlying drug mechanisms. Colistin mainly drives a membrane-protective and anti-oxidative program, while tobramycin pushes the bacterium into a state that appears designed to reduce uptake, manage translational damage, and compensate for ribosome disruption. That distinction makes the dataset more than a catalog of differentially expressed genes. It provides a mechanistic map of how *Pseudomonas* senses and reacts to two antibiotic classes that remain highly relevant in the clinic.
+One of the strengths of the paper is that the colistin and tobramycin responses diverge in ways
+that reflect the underlying drug mechanisms, well beyond a generic stress signature. Colistin
+mainly drives a membrane-protective and anti-oxidative program, while tobramycin pushes the
+bacterium into a state that appears designed to reduce uptake, manage translational damage, and
+compensate for ribosome disruption. That distinction makes the dataset more than a catalog of
+differentially expressed genes. It provides a mechanistic map of how *Pseudomonas* senses and
+reacts to two antibiotic classes that remain highly relevant in the clinic.
 
 The ribosome-profiling component is especially valuable in the tobramycin case. Since aminoglycosides act on the ribosome, direct translatome information helps reveal the countermeasures used by the cell to keep protein synthesis viable enough for survival. The upregulation of rescue factors, methylation-associated functions, and toxin-antitoxin systems reads as a translational damage-control program. That is precisely the kind of biology that would be harder to infer confidently from mRNA levels alone.
 

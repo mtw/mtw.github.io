@@ -32,7 +32,13 @@ The algorithm starts from a simple but powerful observation: many important meta
 
 That design gives the method a very different operating regime from exhaustive simulation. Instead of aiming for exact kinetics on all possible paths, it attempts to recover the dominant trajectory structure for much larger RNAs than earlier methods could handle. The paper reports applicability to sequences of roughly 1500 nucleotides, which was a substantial extension at the time and made many biologically relevant systems computationally accessible.
 
-The validation examples carry the argument here, because Kinwalker reproduces several experimentally studied folding scenarios, including delayed cloverleaf formation in bacteriophage RNAs, the ASR riboswitch, and the Hok system. These are exactly the kinds of RNAs where kinetic and co-transcriptional effects matter more than the equilibrium minimum free energy structure alone. In that sense, the paper is not just a scaling story. It is also a strong argument that useful kinetic prediction can come from carefully chosen heuristics when full landscape exploration is infeasible.
+The validation examples carry the argument here, because Kinwalker reproduces several
+experimentally studied folding scenarios, including delayed cloverleaf formation in
+bacteriophage RNAs, the ASR riboswitch, and the Hok system. These are exactly the kinds of RNAs
+where kinetic and co-transcriptional effects matter more than the equilibrium minimum free
+energy structure alone. In that sense the paper argues that useful kinetic prediction can come
+from carefully chosen heuristics when full landscape exploration is infeasible, which is more
+than a scaling story.
 
 This paper is a useful reference point for anyone interested in how to bridge thermodynamic RNA structure prediction with folding-pathway analysis for longer molecules.
 

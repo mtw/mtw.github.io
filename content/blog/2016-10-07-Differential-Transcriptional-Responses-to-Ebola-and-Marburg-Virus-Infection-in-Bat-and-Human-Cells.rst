@@ -27,19 +27,34 @@ Why bats and humans respond differently to filovirus infection
 .. role:: doi(link)
   :class: doi
 
-This paper addresses one of the most important biological contrasts in filovirus research. Ebola and Marburg viruses cause severe, often fatal disease in humans, yet bats are thought to serve as natural hosts without showing the same destructive pathology. That difference is not just an ecological curiosity. It points to a host-response problem: what do bat cells do differently, and what does the human cell response look like when infection becomes damaging instead of tolerated?
+This paper addresses one of the most important biological contrasts in filovirus research.
+Ebola and Marburg viruses cause severe, often fatal disease in humans, yet bats are thought to
+serve as natural hosts without showing the same destructive pathology. That difference has
+consequences beyond ecology. It points to a host-response problem: what do bat cells do
+differently, and what does the human cell response look like when infection becomes damaging
+instead of tolerated?
 
 The study approaches that question through comparative transcriptomics. Human `HuH7` cells and bat `R06E-J` cells were infected with either Ebola virus or Marburg virus, and RNA-seq profiles were collected across several time points representing early, intermediate, and later phases of the infection cycle. That design matters because host response is dynamic. A single endpoint would blur together primary responses, downstream stress programs, and viral amplification effects. By sampling the time course, the paper can distinguish faster from slower trajectories and compare how two related filoviruses reshape host transcription in two very different cellular backgrounds.
 
-One of the clearest results is kinetic: filovirus replication proceeds more rapidly in the human cells than in the bat cells. That observation already hints at a mechanistic difference in permissiveness or control. The transcriptomic analysis then shows that the infected cells do not simply differ in the magnitude of a common response. They differ in which genes, motifs, and pathways become most strongly engaged. Among the most prominent regulated classes are chemokine ligands and transcription factors, indicating that immune signaling and regulatory rewiring are central features of the infection response.
+One of the clearest results is kinetic: filovirus replication proceeds more rapidly in the
+human cells than in the bat cells. That observation already hints at a mechanistic difference
+in permissiveness or control. The transcriptomic analysis then shows that the infected cells
+differ in which genes, motifs and pathways become most strongly engaged, beyond any difference
+in the magnitude of a common response. Among the most prominent regulated classes are chemokine
+ligands and transcription factors, indicating that immune signaling and regulatory rewiring are
+central features of the infection response.
 
-The pathway-level results are the most useful part, because the paper reports strong activation of the `JAK/STAT` axis, induction of several dual-specificity phosphatases (`DUSP` genes) linked to MAP kinase regulation, and upregulation of `PPP1R15A`, a marker connected to endoplasmic-reticulum stress and stress-induced cell-death programs. That combination is informative because it suggests that the host response is not only antiviral in a narrow sense. It also involves broader stress adaptation and signaling-control modules that may shape whether infection remains contained or progresses toward pathology.
+The pathway-level results are the most useful part, because the paper reports strong activation of the `JAK/STAT` axis, induction of several dual-specificity phosphatases (`DUSP` genes) linked to MAP kinase regulation, and upregulation of `PPP1R15A`, a marker connected to endoplasmic-reticulum stress and stress-induced cell-death programs. That combination is informative because it suggests that the host response reaches past antiviral defence in the narrow sense. It also involves broader stress adaptation and signaling-control modules that may shape whether infection remains contained or progresses toward pathology.
 
 Another important contribution is infrastructural rather than purely biological. At the time, the transcriptional response of bat cells to filovirus infection had not been characterized in comparable depth, and even the human-cell picture was incomplete. The study therefore had to do more than differential-expression testing alone. It also established a transcriptomic resource, including de novo assembly work for the bat system, to make cross-species comparison possible. That resource-building aspect is easy to miss, but it is a major reason why the paper has remained useful.
 
 What makes the study compelling is that it treats the bat-human contrast as a systems-level problem. The question is not reduced to one receptor, one interferon gene, or one viral antagonist. Instead, the authors look at coordinated host programs: transcription factors, activity motifs, pathways, and infection-stage-dependent responses. That is the right scale for a problem where tolerance likely emerges from network behavior rather than a single switch.
 
-Seen from today’s perspective, the paper also illustrates an approach that has only become more important: using comparative host transcriptomics to identify candidate cellular states associated with tolerance, resilience, or severe disease. In that sense, this is not just a filovirus paper. It is part of a broader shift toward understanding infection through host regulatory landscapes rather than viral replication alone.
+Seen from today’s perspective, the paper also illustrates an approach that has only become more
+important: using comparative host transcriptomics to identify candidate cellular states
+associated with tolerance, resilience, or severe disease. In that sense the paper belongs to a
+shift toward understanding infection through host regulatory landscapes rather than viral
+replication alone.
 
 The article stands apart from structure-centered virology because it shows a different register of virus bioinformatics: large-scale RNA-seq analysis, de novo transcriptome reconstruction, pathway interpretation, and cross-species comparison. That broader systems perspective matters because host response, viral evolution, and structured RNA biology often end up informing one another even when the immediate question is different.
 

@@ -281,7 +281,7 @@ part of the directory name with an ellipsis. The file was consequently not found
 instead of retrying with the relative path suggested by the error message, the model wrote
 a plan for a file it had never seen, with invented column names and packages that were not
 installed. The fix is a working directory with a short path, which is what one would use
-anyway outside such an experiment. Moreover, this attempt ran with the full tool list of
+anyway outside such an experiment. This attempt also ran with the full tool list of
 the Claude Code installation on my laptop, including several MCP servers, which adds
 several thousand tokens of tool descriptions to every request (the first request of that
 attempt had 12.5K tokens, against 4.7K with the reduced tool list) and leaves

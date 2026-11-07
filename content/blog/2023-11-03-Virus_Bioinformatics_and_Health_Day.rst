@@ -36,7 +36,10 @@ In practical terms, this means we can use viral genome collections to identify c
 Where RNA Structure Prediction Helps
 ------------------------------------
 
-RNA viruses do not just encode proteins. They also encode structure. Terminal regions, internal regulatory elements, long-range interactions, and exoribonuclease-resistant RNAs can all shape replication, translation, packaging, or immune evasion. That makes RNA structure prediction a useful layer on top of sequence analysis.
+RNA viruses encode structure as well as proteins. Terminal regions, internal regulatory
+elements, long-range interactions, and exoribonuclease-resistant RNAs can all shape
+replication, translation, packaging, or immune evasion. That makes RNA structure prediction a
+useful layer on top of sequence analysis.
 
 What computation does well is narrowing the search space. It can help prioritize candidate structures, compare homologous elements across related viruses, estimate how mutations may perturb an ensemble, and point to regions where compensatory change or unusual conservation suggests functional constraint.
 
@@ -60,9 +63,12 @@ In my view, good computational work on RNA viruses has three properties:
 
 That standard matters because viral RNA analyses are easy to oversell. It is tempting to move too quickly from sequence conservation to function, or from predicted structure to therapeutic relevance. The more useful approach is slower and more explicit: identify a signal, test whether it is robust, and then decide what biological interpretation is warranted.
 
-Why This Matters
-----------------
+What this means for RNA virology
+--------------------------------
 
-For RNA virology, computation is no longer just a supporting activity. It is often the layer that connects large public sequence collections, mechanistic RNA hypotheses, and experimental prioritization. Done carefully, it helps us decide which genomes to compare, which structures to test, and which lineage-specific patterns are worth following up.
+For RNA virology, computation is often the layer that connects large public sequence
+collections, mechanistic RNA hypotheses, and experimental prioritization. Done carefully, it
+helps us decide which genomes to compare, which structures to test, and which lineage-specific
+patterns are worth following up.
 
 That is also where a broader One Health perspective becomes genuinely relevant. When viruses move across hosts, vectors, and ecological settings, sequence data alone are not enough and isolated mechanistic results are not enough either. The useful view comes from connecting evolutionary context with molecular interpretation.

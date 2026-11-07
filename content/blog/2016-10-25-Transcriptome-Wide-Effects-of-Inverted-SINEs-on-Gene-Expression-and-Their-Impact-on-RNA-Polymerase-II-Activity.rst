@@ -36,11 +36,23 @@ This paper takes a familiar genome-annotation object, the short interspersed ele
 
 The first part of the paper therefore looks at the genome and transcriptome at scale. Using human annotation data and ENCODE RNA-seq profiles, the study shows two related patterns. First, closely spaced inverted Alu pairs are less common than tandemly arranged pairs, suggesting that they are disfavored over evolutionary time. Second, transcripts carrying inverted SINE arrangements are expressed at lower levels than comparable transcripts with tandem or single SINEs. That matters because it turns a collection of anecdotal locus-specific observations into a broader statistical signal.
 
-The paper then does the more important thing and tests mechanism directly. Reporter constructs carrying natural or engineered SINE arrangements in their 3'UTRs were compared in cell culture. These experiments show that inverted SINEs reduce both reporter protein output and RNA abundance, whereas tandem arrangements have a weaker effect. The repression also scales with the quality of the double-stranded structure: constructs that can form more perfect intramolecular duplexes show stronger loss of expression. So the phenomenon is not simply “having an Alu” but having an arrangement that favors structured pairing within the transcript.
+The paper then does the more important thing and tests mechanism directly. Reporter constructs
+carrying natural or engineered SINE arrangements in their 3'UTRs were compared in cell culture.
+These experiments show that inverted SINEs reduce both reporter protein output and RNA
+abundance, whereas tandem arrangements have a weaker effect. The repression also scales with
+the quality of the double-stranded structure: constructs that can form more perfect
+intramolecular duplexes show stronger loss of expression. So the phenomenon depends on an
+arrangement that favors structured pairing within the transcript, and having an Alu is by
+itself no predictor.
 
 The mechanism is where the paper ends up, and it was not the expected one. The authors tested several obvious double-stranded-RNA explanations and found that they do not account for the effect. The repression was not explained by ADAR-mediated editing, not by STAUFEN binding, and not by the classical cytoplasmic dsRNA sensors one might first suspect. Instead, the evidence pointed toward a different mechanism: transcriptional elongation by RNA polymerase II becomes less efficient across constructs carrying inverted SINEs, leading to reduced transcript output. That is a different conclusion from the usual one, that dsRNA structures destabilize mature RNA.
 
-In other words, the paper moves the problem upstream. The crucial effect of inverted SINEs is not only on the fate of an already completed transcript, but on the process of making that transcript in the first place. If the polymerase is slowed or impaired by the sequence and structural context associated with inverted repeats, then the cell pays a transcriptional cost for placing too much intramolecular pairing potential into transcribed regions. That provides a plausible mechanistic reason why such arrangements are comparatively underrepresented in the genome.
+In other words, the paper moves the problem upstream. The main effect of inverted SINEs falls
+on the process of making the transcript in the first place. If the polymerase is slowed or
+impaired by the sequence and structural context associated with inverted repeats, then the cell
+pays a transcriptional cost for placing too much intramolecular pairing potential into
+transcribed regions. That provides a plausible mechanistic reason why such arrangements are
+comparatively underrepresented in the genome.
 
 The paper connects RNA structure, repetitive-sequence organization, and transcriptional control. Genome evolution is usually discussed in terms of sequence composition and selection on coding potential, but here the selective pressure may also act through the physical behavior of the transcribed RNA and its effect on Pol II.
 

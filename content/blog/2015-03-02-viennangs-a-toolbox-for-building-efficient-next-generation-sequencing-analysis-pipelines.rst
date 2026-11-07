@@ -35,11 +35,20 @@ ViennaNGS: A toolbox for building efficient next-generation sequencing analysis 
 
 In the early years of NGS bioinformatics, many analyses were still held together by ad hoc lab scripts. That worked for one project at a time, but it did not scale well: code was hard to reuse, pipelines were difficult to document, and routine file-format handling often had to be reimplemented over and over again. ViennaNGS grew out of that environment, and the goal was not to offer yet another one-click analysis suite, but to provide reusable building blocks for people who needed to assemble their own workflows.
 
-That distinction matters, because ViennaNGS is not a fixed pipeline in the narrow sense. It is a toolbox: a collection of Perl modules and utility scripts intended to support the development of custom next-generation sequencing workflows. In practical terms, that meant exposing common operations as reusable library code while also shipping command-line utilities that served as both reference implementations and ready-to-use helpers for everyday tasks.
+That is the sense in which ViennaNGS is no fixed pipeline. It is a toolbox: a collection of
+Perl modules and utility scripts intended to support the development of custom next-generation
+sequencing workflows. In practical terms, that meant exposing common operations as reusable
+library code while also shipping command-line utilities that served as both reference
+implementations and ready-to-use helpers for everyday tasks.
 
 The scope of the package reflects the pain points of early NGS data analysis. ViennaNGS included support for feature extraction and format conversion across common genomics file types, mapping statistics, expression quantification and normalization, splice-junction analysis, motif-data handling, and the automated construction of Assembly and Track Hubs for the UCSC genome browser. It also wrapped widely used command-line tools, which helped make larger pipelines less repetitive and easier to script consistently.
 
-What I still like about this paper is that it treats software architecture as a scientific problem rather than an afterthought. The key issue was not only whether one could write a script for a given analysis step, but whether that step could be turned into a reusable, composable module that fit into a larger workflow. That is a very different mindset from publishing a single-purpose utility. It is closer to infrastructure design, and that is why the project remained useful after specific assays or preferred file formats evolved.
+What I still like about this paper is that it treats software architecture as a scientific
+problem rather than an afterthought. The key issue was whether an analysis step could be turned
+into a reusable, composable module that fit into a larger workflow. That is a very different
+mindset from publishing a single-purpose utility. It is closer to infrastructure design, and
+that is why the project remained useful after specific assays or preferred file formats
+evolved.
 
 The paper also pays attention to usability in a way that was easy to overlook at the time. ViennaNGS was distributed through familiar community channels, including GitHub and CPAN, and it came with tutorials that demonstrated real pipeline construction rather than isolated API calls. That may sound mundane, but it was important. For many academic bioinformatics tools, the bottleneck is not raw capability. It is whether anyone besides the original author can actually deploy the software in a real analysis environment.
 

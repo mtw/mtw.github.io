@@ -117,7 +117,7 @@ This is the default method, in which each reactivity *r* is converted into a pse
 ΔG(r) = m · ln(r + 1) + b with m = 1.8 and b = −0.6 kcal/mol (Deigan et al. 2009), and
 this term is added for every nucleotide that is part of a stacked pair. Low reactivities
 give a negative contribution, i.e. a bonus for pairing, high reactivities a penalty.
-Importantly, the folding recursions inside ViennaRNA stay the same, only the energies change.
+The folding recursions inside ViennaRNA stay the same, only the energies change.
 
 Note that the energy printed, −48.64, is not a bona fidae free energy anymore. It contains the
 pseudo-energies and must not be compared with the −22.40 of the unconstrained prediction.

@@ -39,7 +39,11 @@ This study approaches the problem from both sides. Computational analysis was us
 
 The result is a stronger case for the long-range interaction than computation alone could provide. The 5' and 3' terminal regions interact directly with nanomolar affinity and a 1:1 stoichiometry, and that interaction weakens substantially when the conserved cyclization sequence is disrupted. That is a useful mechanistic result because it ties the predicted long-range pairing to an experimentally measurable binding event.
 
-Just as importantly, the kinetic analysis supports the idea that the cyclization sequence is not merely one possible pairing among many. It appears to be the dominant interaction pathway under the conditions examined, with an advantage over competing self-association states. For flavivirus biology, that matters because genome cyclization is closely tied to replication, and the computational ranking of alternative structures becomes much more informative once it is backed by binding measurements.
+Just as importantly, the kinetic analysis supports the idea that the cyclization sequence is
+the dominant interaction pathway under the conditions examined, with an advantage over
+competing self-association states. For flavivirus biology, that matters because genome
+cyclization is closely tied to replication, and the computational ranking of alternative
+structures becomes much more informative once it is backed by binding measurements.
 
 The SAXS-based structural model adds another piece of the picture. It does not deliver atomic resolution, but it does suggest that the complex is flexible while still maintaining a stable overall association in solution. That kind of low-resolution structural information is valuable when interpreting long viral RNAs, where conformational heterogeneity is often part of the biology rather than a nuisance to be averaged away.
 

@@ -116,7 +116,7 @@ show 65536 in the CONTEXT column.
 Two things to know about the built-in ``ollama`` provider. It always talks to
 ``localhost:11434`` and ignores ``OLLAMA_HOST``, so for a model server on another machine,
 define your own provider (below). And if the model is not present, Codex pulls it
-without asking — ``codex --oss`` on a machine with an empty Ollama starts a 13 GB
+without asking—``codex --oss`` on a machine with an empty Ollama starts a 13 GB
 download of ``gpt-oss:20b``.
 
 ``ollama launch codex``
@@ -129,10 +129,10 @@ Ollama ships a launcher that does the configuration for you:
    ollama launch codex                 # picks a model, writes a profile, starts Codex
    codex --profile ollama-launch       # reuse that profile later
 
-The launcher writes ``~/.codex/ollama-launch.config.toml`` — a provider
+The launcher writes ``~/.codex/ollama-launch.config.toml``—a provider
 ``ollama-launch`` (``base_url = "http://localhost:11434/v1/"``, ``wire_api =
 "responses"``), the chosen model and a ``model_catalog_json`` listing your local models
-so that ``/model`` inside Codex can switch between them — and starts Codex with that
+so that ``/model`` inside Codex can switch between them—and starts Codex with that
 profile. ``ollama launch codex --config`` writes the profile without starting,
 ``--restore`` removes it again. Two details: if you sign in with ``ollama signin`` the
 profile can use Ollama's web search from inside Codex, and
@@ -155,7 +155,7 @@ local provider for ``--oss``:
 With that, ``codex --oss`` needs no further flags (without it, the interactive CLI asks
 which provider to use, and ``codex exec`` exits with an error). The provider IDs
 ``lmstudio``, ``ollama`` and ``openai`` are built in and cannot be redefined. A custom
-provider is needed only for a server that is not on ``localhost`` — a GPU box in the
+provider is needed only for a server that is not on ``localhost``—a GPU box in the
 next room, say:
 
 .. code-block:: toml
@@ -241,8 +241,8 @@ Slow on Linux
 What to expect
 --------------
 
-The 20B models handle scoped work — a new function with tests, a refactor within a file,
-a script, documentation — and lose the thread in large multi-file changes. Give Codex a
+The 20B models handle scoped work—a new function with tests, a refactor within a file,
+a script, documentation—and lose the thread in large multi-file changes. Give Codex a
 small, verifiable task, let it run the tests, and read the diff. Compared with Claude Code
 on the same local model, Codex is more demanding on context and a little more fragile with
 weak tool callers, but with ``gpt-oss:20b`` and 64K of context both work well for the kind of

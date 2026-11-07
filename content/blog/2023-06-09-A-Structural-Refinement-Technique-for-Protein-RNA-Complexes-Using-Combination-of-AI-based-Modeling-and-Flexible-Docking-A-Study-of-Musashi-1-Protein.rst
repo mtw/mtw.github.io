@@ -34,9 +34,17 @@ RNA-Protein Complex Refinement using AI Modeling and Docking
         :figclass: m-figure m-flat
 
 
-Modeling protein-RNA complexes remains difficult even when reasonably good structures for the individual components are available. The hardest part is often not generating a starting model, but refining the interface in a way that captures flexible RNA segments and produces a biologically plausible binding geometry.
+Modeling protein-RNA complexes remains difficult even when reasonably good structures for the
+individual components are available. The hardest part is usually the refinement of the
+interface in a way that captures flexible RNA segments and produces a biologically plausible
+binding geometry.
 
-This study addresses that problem with a two-step workflow. First, AlphaFold2 was used to generate a structural model for the RNA-binding domains of the human Musashi-1 (MSI1) protein. Second, the resulting model was refined in the presence of RNA using flexible docking based on parallel cascade selection molecular dynamics (PaCS-MD). The point of the method is not simply to place RNA near a protein surface, but to sample interface rearrangements that matter for complex formation.
+This study addresses that problem with a two-step workflow. First, AlphaFold2 was used to
+generate a structural model for the RNA-binding domains of the human Musashi-1 (MSI1) protein.
+Second, the resulting model was refined in the presence of RNA using flexible docking based on
+parallel cascade selection molecular dynamics (PaCS-MD). The point of the method is to sample
+the interface rearrangements that matter for complex formation, which goes beyond placing RNA
+near a protein surface.
 
 Musashi-1 is a useful test case because its RNA recognition has been studied experimentally, which means the resulting models can be checked against known interaction patterns. In the refined complexes, the analysis recovered a core set of residues and nucleotides that are consistent with previous work on MSI1-RNA recognition. That matters more than raw structural novelty, because a refinement method is only useful if it recovers contacts that make biochemical sense.
 

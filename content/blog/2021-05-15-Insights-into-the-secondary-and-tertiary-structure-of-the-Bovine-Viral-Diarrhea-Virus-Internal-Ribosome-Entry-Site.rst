@@ -13,7 +13,7 @@ Insights into the secondary and tertiary structure of the BVDV Internal Ribosome
 :slug: Insights-into-the-secondary-and-tertiary-structure-of-the-Bovine-Viral-Diarrhea-Virus-Internal-Ribosome-Entry-Site
 :description: Characterization of a pseudoknot in the 5'UTR Internal Ribosome Entry Site (IRES) of Bovine Viral Diarrhea Virus (BVDV)
 :title: Secondary and tertiary structure of the BVDV IRES
-:summary: This post summarizes what SHAPE-guided modeling and 3D analysis reveal about a pseudoknot in the BVDV internal ribosome entry site and why that matters for IRES function.
+:summary: This post summarizes what SHAPE-guided modeling and 3D analysis reveal about a pseudoknot in the BVDV internal ribosome entry site and what that means for IRES function.
 
 .. role:: link-flat-strong(link)
   :class: m-flat m-text m-strong
@@ -41,7 +41,12 @@ This study combined SHAPE-MaP probing with secondary structure analysis and tert
 
 The resulting model supports a modular IRES architecture with three major domains. Much of the secondary structure agrees with earlier work, but the analysis also points to flexibility in domain II and a comparatively stable arrangement in domain III. That contrast is useful: it suggests that not all parts of the IRES contribute in the same way, and that local structural stability may be concentrated in the regions most critical for tertiary organization.
 
-The most important result concerns domain III, where the data support an H-type pseudoknot and a specific local arrangement of helices. The tertiary modeling suggests quasi-coaxial stacking between motifs associated with the pseudoknot, which provides a structural explanation for why this region appears unusually stable. Comparative analysis across Pestivirus genomes further supports the idea that the pseudoknot is not an isolated feature of a single strain, but part of a conserved functional architecture.
+The most important result concerns domain III, where the data support an H-type pseudoknot and
+a specific local arrangement of helices. The tertiary modeling suggests quasi-coaxial stacking
+between motifs associated with the pseudoknot, which provides a structural explanation for why
+this region appears unusually stable. Comparative analysis across Pestivirus genomes further
+supports the idea that the pseudoknot belongs to a conserved functional architecture and is no
+feature of a single strain.
 
 That does not mean the computational model alone proves mechanism. What it does provide is a more concrete structural hypothesis for how the BVDV IRES is arranged and why certain elements are likely to matter for translation. In other words, the work narrows the space of plausible architectures and gives experimentalists a clearer basis for targeted perturbation.
 
@@ -51,7 +56,7 @@ For RNA virology, this is a good example of where structure probing and computat
 
 .. frame :: Abstract
 
-    The Internal Ribosome Entry Site (IRES) RNA of Bovine viral diarrhea virus (BVDV), an economically significant Pestivirus, is required for the cap-independent translation of viral genomic RNA. Thus, it is essential for viral replication and pathogenesis. We applied a combination of high-throughput biochemical RNA structure probing (SHAPE-MaP) and in silico modeling approaches to gain insight into the secondary and tertiary structures of BVDV IRES RNA. Our study demonstrated that BVDV IRES RNA forms in solution a modular architecture composed of three distinct structural domains (I-III). Two regions within domain III are engaged in tertiary interactions to form an H-type pseudoknot. Computational modeling of the pseudoknot motif provided a fine-grained picture of the tertiary structure and local arrangement of helices in the BVDV IRES. Furthermore, comparative genomics and consensus structure predictions revealed that the pseudoknot is evolutionarily conserved among many Pestivirus species. These studies provide detailed insight into the structural arrangement of BVDV IRES RNA H-type pseudoknot and encompassing motifs that likely contribute to the optimal functionality of viral cap-independent translation element.
+    The Internal Ribosome Entry Site (IRES) RNA of Bovine viral diarrhea virus (BVDV), an economically significant Pestivirus, is required for the cap-independent translation of viral genomic RNA. Thus, it is essential for viral replication and pathogenesis. We applied a combination of high-throughput biochemical RNA structure probing (SHAPE-MaP) and in silico modeling approaches to gain insight into the secondary and tertiary structures of BVDV IRES RNA. Our study demonstrated that BVDV IRES RNA forms in solution a modular architecture composed of three distinct structural domains (I-III). Two regions within domain III are engaged in tertiary interactions to form an H-type pseudoknot. Computational modeling of the pseudoknot motif provided a fine-grained picture of the tertiary structure and local arrangement of helices in the BVDV IRES. Comparative genomics and consensus structure predictions revealed that the pseudoknot is evolutionarily conserved among many Pestivirus species. These studies provide detailed insight into the structural arrangement of BVDV IRES RNA H-type pseudoknot and encompassing motifs that likely contribute to the optimal functionality of viral cap-independent translation element.
 
 Figures and Data
 ================

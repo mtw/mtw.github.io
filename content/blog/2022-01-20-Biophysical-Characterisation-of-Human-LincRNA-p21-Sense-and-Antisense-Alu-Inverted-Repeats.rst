@@ -34,7 +34,12 @@ Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Invert
           :alt: Structural characterization of sense and antisense lincRNA-p21 Alu inverted repeats
           :figclass: m-figure m-flat
 
-Human lincRNA-p21 is a regulatory long non-coding RNA in the p53 pathway and plays an important role in apoptosis. Its activity depends in part on its interaction with the RNA-binding protein hnRNP-K, and that interaction is likely shaped by RNA tertiary structure rather than sequence alone. Earlier work had already defined the secondary structure of the sense and antisense AluSx1 inverted repeats, but the three-dimensional organization of these RNA domains remained unclear.
+Human lincRNA-p21 is a regulatory long non-coding RNA in the p53 pathway and is involved in
+apoptosis. Its activity depends in part on its interaction with the RNA-binding protein
+hnRNP-K, and that interaction is likely shaped by RNA tertiary structure rather than sequence
+alone. Earlier work had already defined the secondary structure of the sense and antisense
+AluSx1 inverted repeats, but the three-dimensional organization of these RNA domains remained
+unclear.
 
 This study closes that gap with an integrated biophysical and computational workflow. The sense and antisense AluSx1 regions were transcribed in vitro and first checked for sample quality and homogeneity using size-exclusion chromatography, analytical ultracentrifugation, and SEC-MALS. That part matters because long RNAs are structurally heterogeneous by default, and any useful SAXS model depends on showing that the sample is behaving as a monomeric full-length transcript rather than a mixture of fragments or aggregates.
 

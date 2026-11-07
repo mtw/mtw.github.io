@@ -2,7 +2,7 @@ RNA folding kinetics and energy landscapes
 ##########################################
 :slug: rna-folding-kinetics
 :title: RNA folding kinetics and energy landscapes: barrier trees, co-transcriptional folding | Michael T. Wolfinger
-:summary: Why an RNA molecule does not simply adopt its lowest-energy structure, how energy landscapes are summarised by barrier trees, how folding is computed on a landscape that changes during transcription, and how fast a structure is reached.
+:summary: Why an RNA molecule can end up in a structure other than its lowest-energy one, how energy landscapes are summarised by barrier trees, how folding is computed on a landscape that changes during transcription, and how fast a structure is reached.
 :description: RNA folding kinetics: energy landscapes and barrier trees, coarse-grained dynamics, co-transcriptional folding, riboswitches, and folding time distributions.
 :hero_eyebrow: Topic
 :hero_title: RNA folding kinetics and energy landscapes

@@ -33,9 +33,17 @@ That is the problem addressed here, where RNA folding dynamics are modeled as mo
 
 The methodological contribution of this paper is a local flooding variant of the earlier global flooding strategy. Instead of trying to hold a much larger explored region in memory all at once, the algorithm constructs exact macrostate transition models in a more localized and memory-efficient way. That sounds like an implementation detail, but it is the sort of implementation detail that determines whether a mathematically elegant method can actually be used on realistic RNA examples.
 
-What makes this paper important is that it preserves exactness at the macrostate level while reducing the computational cost enough to widen the range of tractable systems. The work also compares exact transition models with two barrier-based approximations, showing where coarse approximations can become misleading. In other words, this is not just an optimization paper. It is also a paper about when approximation is acceptable and when a more faithful landscape representation changes the conclusions.
+What makes this paper important is that it preserves exactness at the macrostate level while
+reducing the computational cost enough to widen the range of tractable systems. The work also
+compares exact transition models with two barrier-based approximations, showing where coarse
+approximations can become misleading. In other words, this is a paper about when approximation
+is acceptable and when a more faithful landscape representation changes the conclusions.
 
-In the broader energy-landscape story, this article closes a loop. The early papers established the language of barrier trees and flooding-style exploration in abstract discrete systems and lattice polymers. This 2014 paper brings those ideas back to RNA in a way that is directly useful for folding kinetics. It shows that the older landscape concepts were not just mathematically interesting. They could be re-engineered into practical infrastructure for RNA analysis a decade later.
+In the broader energy-landscape story, this article closes a loop. The early papers established
+the language of barrier trees and flooding-style exploration in abstract discrete systems and
+lattice polymers. This 2014 paper brings those ideas back to RNA in a way that is directly
+useful for folding kinetics. It shows that the older landscape concepts could be re-engineered
+into practical infrastructure for RNA analysis a decade later.
 
 The paper does not propose a new conceptual framework. It makes an existing one usable at the scale where real RNA questions live, and in computational biology this kind of engineering step often decides whether an idea stays a concept or becomes a method that is used.
 

@@ -34,13 +34,29 @@ The methodological contribution is the idea of a bi-alignment. Instead of forcin
 
 That framing is useful because it captures evolutionary scenarios that standard consensus models tend to flatten away. One example discussed in the paper is stem sliding, where a stem can effectively move by losing a pair at one end while gaining a new one at the other. The overall hairpin remains recognizable and functionally similar, but the base pairs are no longer anchored to the same homologous nucleotides. A conventional structure-aware alignment tends to overcommit to one notion of correspondence or the other. Bi-alignments provide a way to represent the mismatch between those two notions directly instead of treating it as noise.
 
-The paper is also interesting as a reminder that comparative RNA bioinformatics depends on modeling assumptions that are easy to forget once they become standard. Tools based on the Sankoff idea, consensus folding, or covariance models have been extremely successful, but they are built around the expectation that conserved structure and conserved sequence can be reconciled in one coherent alignment. Bi-alignments are valuable not because that assumption is usually wrong, but because they define what to do in the cases where it is not quite right.
+The paper is also interesting as a reminder that comparative RNA bioinformatics depends on
+modeling assumptions that are easy to forget once they become standard. Tools based on the
+Sankoff idea, consensus folding, or covariance models have been extremely successful, but they
+are built around the expectation that conserved structure and conserved sequence can be
+reconciled in one coherent alignment. Bi-alignments earn their place by defining what to do in
+the cases where that assumption is not quite right, which are the minority.
 
-Methodologically, this was a deliberately formal paper, which does not present a flashy biological case study so much as it tries to sharpen the mathematical language for a real comparative-genomics phenomenon. The discussion of miRNA precursors and the exploratory scan through Rfam are there to show that incongruent evolution is not just a pathological corner case. Structured RNAs can drift in ways that preserve shape better than position, and once that happens, the distinction between homology and structural analogy becomes computationally relevant.
+Methodologically, this was a deliberately formal paper, which does not present a flashy
+biological case study so much as it tries to sharpen the mathematical language for a real
+comparative-genomics phenomenon. The discussion of miRNA precursors and the exploratory scan
+through Rfam are there to show that incongruent evolution occurs widely enough to matter.
+Structured RNAs can drift in ways that preserve shape better than position, and once that
+happens, the distinction between homology and structural analogy becomes computationally
+relevant.
 
 Seen from the broader arc of RNA bioinformatics, this work fits into a longer effort to make our models better reflect how RNAs actually evolve. Some papers focus on thermodynamics, some on kinetics, some on experimental constraints, and others on machine learning. This one is about representation: what exactly are we aligning when we compare two structured RNAs? That is a foundational question, and although the paper is mathematically flavored, it speaks to a very biological issue.
 
-For readers interested in RNA methods, the value of the paper is therefore twofold. First, it introduces a concrete framework for handling sequence-structure incongruence. Second, it sharpens the intuition that "RNA structure conservation" is not always equivalent to "the same nucleotides occupy the same structural roles". That distinction matters whenever we try to infer evolutionary relationships from structured non-coding RNAs, especially in families where local motifs can shift while the overall fold remains recognizable.
+For readers interested in RNA methods, the value of the paper is therefore twofold. First, it
+introduces a concrete framework for handling sequence-structure incongruence. Second, it
+sharpens the intuition that "RNA structure conservation" is not always equivalent to "the same
+nucleotides occupy the same structural roles". That difference shows up whenever we try to
+infer evolutionary relationships from structured non-coding RNAs, especially in families where
+local motifs can shift while the overall fold remains recognizable.
 
 .. frame:: Abstract
 

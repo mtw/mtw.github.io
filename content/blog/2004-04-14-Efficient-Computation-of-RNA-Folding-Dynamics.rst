@@ -36,11 +36,16 @@ This paper addresses a classical problem in RNA folding kinetics: exact or near-
 
 Within that framework, RNA folding dynamics can be approximated by a master-equation approach on macrostates rather than on the full structure space. Instead of simulating huge numbers of trajectories, one numerically integrates the population flow between barrier-separated basins of attraction. This makes it possible to recover the folding behavior of bistable RNAs and metastable switches with much higher computational efficiency than direct trajectory-based simulations.
 
-The important point is not just speed: barrier trees provide a natural way to connect energy landscapes with kinetics, because they preserve the local minima, the barriers between them, and therefore the transitions most relevant for folding pathways. In the paper, the resulting dynamics agree reasonably well with stochastic folding simulations while extending the accessible timescales and molecule sizes. At the time, this was a significant step toward making RNA folding kinetics computationally tractable beyond toy examples.
+The important point beyond speed is that barrier trees connect energy landscapes with kinetics,
+because they preserve the local minima, the barriers between them, and therefore the
+transitions most relevant for folding pathways. In the paper, the resulting dynamics agree
+reasonably well with stochastic folding simulations while extending the accessible timescales
+and molecule sizes. At the time, this was a significant step toward making RNA folding kinetics
+computationally tractable beyond toy examples.
 
 This work is also foundational for later developments in RNA energy-landscape analysis. Many subsequent approaches to metastability, coarse-grained kinetics, and dynamic landscape mapping build on the same idea that one can separate the enormous RNA structure space into kinetically meaningful basins and work at that level instead of trying to resolve every elementary step directly.
 
-For today’s readers, the paper remains relevant because it frames `RNA folding kinetics` as an energy-landscape problem rather than just a simulation problem. That perspective is still central when thinking about RNA switches, delayed folding, metastable intermediates, and the design of molecules whose function depends on how they move through structure space rather than only on where they end up.
+For today’s readers, the paper remains relevant because it frames `RNA folding kinetics` as an energy-landscape problem and not only as a simulation problem. That perspective is still central when thinking about RNA switches, delayed folding, metastable intermediates, and the design of molecules whose function depends on how they move through structure space rather than only on where they end up.
 
 .. frame:: Abstract
 

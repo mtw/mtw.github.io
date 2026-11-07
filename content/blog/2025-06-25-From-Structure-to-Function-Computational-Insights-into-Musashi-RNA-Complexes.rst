@@ -33,15 +33,31 @@ From Structure to Function in Musashi-RNA Complexes
           :alt: Structural overview of Musashi-RNA complexes in regulatory and viral contexts
           :figclass: m-figure m-flat
 
-Musashi proteins sit at an interesting intersection of RNA biology, structural modeling, and disease relevance. They are sequence-selective RNA-binding proteins that regulate translation and cell-state decisions, but they have also emerged in viral contexts, most notably through proposed interactions with structured flaviviral RNAs. That combination makes Musashi a good example of a system where the mechanistic question is not just whether binding occurs, but how structural recognition translates into biological function.
+Musashi proteins sit at an interesting intersection of RNA biology, structural modeling, and
+disease relevance. They are sequence-selective RNA-binding proteins that regulate translation
+and cell-state decisions, but they have also emerged in viral contexts, most notably through
+proposed interactions with structured flaviviral RNAs. That combination makes Musashi a good
+example of a system where the mechanistic question is how structural recognition translates
+into biological function.
 
 This review brings together the computational work on that question. Rather than presenting a single new simulation pipeline, it synthesizes what molecular modeling, docking, molecular dynamics, and recent AI-assisted structure prediction have taught us about Musashi-RNA recognition. The focus is on how the two RNA-binding domains of Musashi engage short sequence motifs, how local RNA context modulates accessibility, and how these interactions can be interpreted in both endogenous regulatory RNAs and viral genomes.
 
 One useful contribution of the article is that it connects several strands of prior work that are often read separately. On one side are studies of canonical Musashi recognition, where the problem is binding specificity and domain-level interaction geometry. On the other are virus-oriented analyses asking whether Musashi can plausibly recognize motifs embedded in flaviviral untranslated regions, and what that could imply for replication or neuropathology. The review argues that these are not isolated topics: the same structural principles have to explain both classes of observations.
 
-For that reason, the paper is best read as a bridge between atomistic modeling and functional interpretation. It emphasizes that Musashi-RNA recognition depends on more than a short consensus motif in sequence space. RNA presentation, local fold, and dynamic rearrangement all influence whether a candidate site is likely to be bound in a biologically meaningful way. That is exactly where computational approaches remain useful: not as substitutes for experiment, but as tools for ranking plausible binding modes, testing structural hypotheses, and identifying which motifs deserve deeper validation.
+For that reason, the paper is best read as a bridge between atomistic modeling and functional
+interpretation. It emphasizes that Musashi-RNA recognition depends on more than a short
+consensus motif in sequence space. RNA presentation, local fold, and dynamic rearrangement all
+influence whether a candidate site is likely to be bound in a biologically meaningful way. That
+is exactly where computational approaches remain useful, for ranking plausible binding modes,
+testing structural hypotheses and identifying which motifs deserve deeper validation. They
+stand beside the experiment and replace none of it.
 
-The review also reflects a broader change in RNA structural biology. AlphaFold-class models, improved docking strategies, and longer-timescale simulation workflows have made it easier to generate mechanistic hypotheses for RNA-protein complexes, but the hard part remains interpretation. In the Musashi field, the important advance is not simply higher-confidence coordinates. It is the ability to move from static structural models toward more explicit explanations of specificity, competition, and context dependence in RNA recognition.
+The review also follows a change in RNA structural biology. AlphaFold-class models, improved
+docking strategies, and longer-timescale simulation workflows have made it easier to generate
+mechanistic hypotheses for RNA-protein complexes, but the hard part remains interpretation. In
+the Musashi field, the important advance goes beyond higher-confidence coordinates. It is the
+ability to move from static structural models toward more explicit explanations of specificity,
+competition, and context dependence in RNA recognition.
 
 From my perspective, that is what makes this article worthwhile. It consolidates a line of work spanning Musashi binding to cellular RNAs, structural refinement of Musashi-RNA complexes, and possible links to viral pathogenesis. For readers interested in `RNA-protein interaction`, `3D` modeling, or the realistic use of `AI` in structural biology, it provides a compact map of the field and a clear rationale for where computation can genuinely add insight.
 

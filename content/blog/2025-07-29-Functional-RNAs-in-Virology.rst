@@ -31,7 +31,8 @@ I’m honored to serve as Guest Editor of the :link-flat-strong:`Functional RNAs
 Understanding the Role of RNA in Viruses
 ----------------------------------------
 
-Viral RNAs are not only messengers. They regulate steps of the infection cycle directly, from protein synthesis to genome replication and the interaction with host factors.
+Viral RNAs regulate steps of the infection cycle directly, next to their role as messengers,
+from protein synthesis to genome replication and the interaction with host factors.
 
 Structured elements such as internal ribosome entry sites, frame-shifting pseudoknots and exoribonuclease-resistant RNAs (xrRNAs), together with unstructured sequence motifs, make up that regulatory layer. Comparative work across viral families keeps finding such elements conserved as a fold rather than as a sequence, which is an argument that they are under selection.
 

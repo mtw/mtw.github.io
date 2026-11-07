@@ -33,7 +33,12 @@ Distinctive Regulation of Carbapenem Susceptibility in Pseudomonas Aeruginosa by
           :alt: Model for differential regulation of oprD and opdP translation by Hfq, sRNAs, Crc, and CrcZ
           :figclass: m-figure m-flat
 
-This paper addresses a clinically relevant question through a very RNA-centered mechanism. In *Pseudomonas aeruginosa*, carbapenem susceptibility depends in part on whether the antibiotics can enter the cell through outer-membrane porins. Two of the important entry points are OprD and OpdP. What this study shows is that these two porins are not regulated in the same way, even though both are under the influence of the RNA chaperone Hfq. That distinction matters because it links antibiotic susceptibility not just to gene expression in general, but to specific post-transcriptional circuits.
+This paper addresses a clinically relevant question through a very RNA-centered mechanism. In
+*Pseudomonas aeruginosa*, carbapenem susceptibility depends in part on whether the antibiotics
+can enter the cell through outer-membrane porins. Two of the important entry points are OprD
+and OpdP. What this study shows is that these two porins are not regulated in the same way,
+even though both are under the influence of the RNA chaperone Hfq. That is what links
+antibiotic susceptibility to specific post-transcriptional circuits.
 
 The central result is that Hfq governs *oprD* and *opdP* through different regulatory mechanisms. Translation of *oprD* is repressed through Hfq-dependent riboregulation involving the small RNAs ErsA and Sr0161. By contrast, *opdP* is not best explained by the same sRNA route. Instead, the data support direct translational repression by an Hfq/Crc complex, the same regulatory logic that is already known from carbon catabolite repression in *Pseudomonas*. In other words, the two carbapenem entry ports sit under related but clearly distinct post-transcriptional control systems.
 
@@ -41,9 +46,18 @@ Methodologically, the paper disentangles these routes with a clean genetic desig
 
 The mechanistic picture is specific. *oprD* behaves like a classic Hfq-assisted sRNA target: the porin is repressed through the action of ErsA and Sr0161, especially under conditions such as envelope stress, low oxygen, or stationary phase. *opdP*, on the other hand, fits better into the carbon-catabolite-repression framework, where Hfq and Crc assemble a repressive complex on target mRNAs. One global RNA-binding protein thus shapes antibiotic susceptibility through different regulatory strategies on different mRNA targets.
 
-An especially useful part of the paper is the integration of CrcZ into this story. CrcZ is an Hfq-sequestering RNA whose abundance depends on carbon source and growth state. When CrcZ levels rise, Hfq and Hfq/Crc repression are relieved, which increases translation of both *oprD* and *opdP*. That gives the study a broader physiological meaning: susceptibility to carbapenems is not fixed, but can shift with metabolic state because the regulatory RNAs and RNA-protein complexes controlling porin synthesis also respond to nutrient conditions.
+An especially useful part of the paper is the integration of CrcZ into this story. CrcZ is an
+Hfq-sequestering RNA whose abundance depends on carbon source and growth state. When CrcZ
+levels rise, Hfq and Hfq/Crc repression are relieved, which increases translation of both
+*oprD* and *opdP*. That gives the study a broader physiological meaning: susceptibility to
+carbapenems can shift with metabolic state because the regulatory RNAs and RNA-protein
+complexes controlling porin synthesis also respond to nutrient conditions.
 
-This makes the paper relevant beyond one antibiotic class. It is a good example of how bacterial metabolism, RNA regulation, and antimicrobial susceptibility intersect. The most interesting point is not simply that Hfq affects drug response. It is that the effect can be rationalized mechanistically, through differential control of uptake channels and through the antagonistic action of a regulatory RNA that senses the carbon regime of the cell.
+This makes the paper relevant beyond one antibiotic class. It is a good example of how
+bacterial metabolism, RNA regulation, and antimicrobial susceptibility intersect. The most
+interesting point goes past the fact that Hfq affects drug response. It is that the effect can
+be rationalized mechanistically, through differential control of uptake channels and through
+the antagonistic action of a regulatory RNA that senses the carbon regime of the cell.
 
 This study helps define a recurring theme in *Pseudomonas* RNA biology: carbon catabolite repression and Hfq-dependent regulation are not abstract layers sitting above physiology. They have direct consequences for traits that matter clinically, including biofilm behavior, nutrient adaptation, and susceptibility to antibiotics. This 2020 paper is one of the clearest demonstrations of that connection at the level of individual uptake systems. It also connects naturally to :link-flat:`Interplay Between the Catabolite Repression Control Protein Crc, Hfq and RNA in Hfq-Dependent Translational Regulation in Pseudomonas aeruginosa <{filename}/blog/2018-01-29-Interplay-Between-the-Catabolite-Repression-Control-Protein-Crc-Hfq-and-RNA-in-Hfq-Dependent-Translational-Regulation-in-Pseudomonas-Aeruginosa.rst>` and to :link-flat:`Rewiring of Gene Expression in Pseudomonas aeruginosa During Diauxic Growth Reveals an Indirect Regulation of the MexGHI-OpmD Efflux Pump by Hfq <{filename}/blog/2022-06-23-Rewiring-of-Gene-Expression-in-Pseudomonas-aeruginosa-During-Diauxic-Growth-Reveals-an-Indirect-Regulation-of-the-MexGHI-OpmD-Efflux-Pump-by-Hfq.rst>`.
 

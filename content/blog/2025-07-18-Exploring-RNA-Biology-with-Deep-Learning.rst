@@ -24,7 +24,7 @@ Exploring RNA Biology with Deep Learning Algorithms
   :class: doi
 
 
-I will be serving as Guest Editor for the :strong:`RNA Biology article collection “Exploring RNA Biology with Deep Learning Algorithms”`. My aim is to curate articles that showcase how machine learning models can reveal hidden patterns in sequencing data, predict complex three dimensional RNA shapes with high accuracy and guide the design of novel RNA molecules for both research and therapeutic use.
+I will be serving as Guest Editor for the :strong:`RNA Biology article collection “Exploring RNA Biology with Deep Learning Algorithms”`. My aim is to curate articles that show how machine learning models can reveal hidden patterns in sequencing data, predict complex three dimensional RNA shapes with high accuracy and guide the design of novel RNA molecules for both research and therapeutic use.
 
 .. image:: {static}/files/figures/RNABiolDL2025_banner.jpg
   :alt: Exploring RNA Biology with Deep Learning Algorithms banner image
