@@ -37,6 +37,12 @@ Tutorials
    ViennaRNA (Deigan, Zarringhalam and Washietl) do with the data, and what probing data
    change in a prediction and what they do not. Same tRNA, so the two tutorials can be
    read side by side.
+3. :link-flat-strong:`RNAplfold tutorial: accessibility in long RNAs <{filename}/blog/2026-11-07-rnaplfold-accessibility.rst>`.
+   How to compute the probability that a region is unpaired, which is what decides whether
+   an siRNA, an antisense oligo or a probe can reach its target, how to read the ``_lunp``
+   file, and how to choose the base pair span and the window size. The example is the Zika
+   virus genome, because the question only arises for sequences too long to fold as a
+   whole, and the border effect at an artificial sequence end is measured on it.
 
 Background
 ==========

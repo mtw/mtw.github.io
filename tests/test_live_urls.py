@@ -35,6 +35,7 @@ INTENDED_ADDITIONS = {
     "https://michaelwolfinger.com/glossary/",
     "https://michaelwolfinger.com/rna-structure-prediction/",
     "https://michaelwolfinger.com/blog/2026/theophylline-aptamer-sequence-editability/",
+    "https://michaelwolfinger.com/blog/2026/rnaplfold-accessibility/",
 }
 
 

@@ -18,7 +18,7 @@ SHAPE and chemical probing data in RNA structure prediction
 
 .. container:: series-note
 
-   :link-flat:`ViennaRNA in practice <{filename}/rna-structure-prediction.rst>`, a series of tutorials. :link-flat:`RNAfold tutorial <{filename}/blog/2026-10-28-rnafold-in-practice.rst>` · SHAPE and chemical probing data (this post)
+   :link-flat:`ViennaRNA in practice <{filename}/rna-structure-prediction.rst>`, a series of tutorials. :link-flat:`RNAfold tutorial <{filename}/blog/2026-10-28-rnafold-in-practice.rst>` · SHAPE and chemical probing data (this post) · :link-flat:`RNAplfold and accessibility <{filename}/blog/2026-11-07-rnaplfold-accessibility.rst>`
 
 Chemical probing experiments such as SHAPE give you one reactivity number per nucleotide, and the
 question I get asked most often is how these numbers go into RNAfold, and what
