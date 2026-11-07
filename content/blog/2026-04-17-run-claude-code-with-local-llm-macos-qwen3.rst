@@ -35,6 +35,13 @@ The trade-off is capability, because a 20–30B local model is a competent assis
 scripts, refactoring and documentation, but not a substitute for the frontier models on
 large multi-file tasks.
 
+.. frame:: Workshop in preparation
+
+   These setup notes are what a half-day workshop for research groups is built on, for
+   groups whose unpublished data and code must not leave their own machines. It has no
+   date yet. The `waiting list at RNA Forecast <https://rnaforecast.com/training/?utm_source=michaelwolfinger&utm_medium=referral&utm_campaign=local-ai-tools&utm_content=apple-silicon#local-ai-tools>`_
+   sends one e-mail when a first date exists, and nothing else.
+
 Prerequisites
 -------------
 

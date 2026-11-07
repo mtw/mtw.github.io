@@ -30,6 +30,13 @@ from your GPU memory and which is far too small by default on most machines. Rev
 October 2026: all commands re-run with Ollama 0.40 and Claude Code 2.1.302, on a 24 GB
 M4 Pro acting as the model server.
 
+.. frame:: Workshop in preparation
+
+   These setup notes are what a half-day workshop for research groups is built on, for
+   groups whose unpublished data and code must not leave their own machines. It has no
+   date yet. The `waiting list at RNA Forecast <https://rnaforecast.com/training/?utm_source=michaelwolfinger&utm_medium=referral&utm_campaign=local-ai-tools&utm_content=ollama#local-ai-tools>`_
+   sends one e-mail when a first date exists, and nothing else.
+
 Prerequisites
 -------------
 

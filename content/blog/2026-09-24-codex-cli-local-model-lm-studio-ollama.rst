@@ -30,6 +30,13 @@ with Codex 0.163, LM Studio 0.4.16 and Ollama 0.40. Codex differs from Claude Co
 two ways that matter locally: it speaks OpenAI's *Responses* API only, and it uses more
 context.
 
+.. frame:: Workshop in preparation
+
+   These setup notes are what a half-day workshop for research groups is built on, for
+   groups whose unpublished data and code must not leave their own machines. It has no
+   date yet. The `waiting list at RNA Forecast <https://rnaforecast.com/training/?utm_source=michaelwolfinger&utm_medium=referral&utm_campaign=local-ai-tools&utm_content=codex-cli#local-ai-tools>`_
+   sends one e-mail when a first date exists, and nothing else.
+
 Prerequisites
 -------------
 
