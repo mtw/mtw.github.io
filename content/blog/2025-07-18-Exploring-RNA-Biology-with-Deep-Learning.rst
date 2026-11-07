@@ -86,6 +86,9 @@ I’m pleased to be joined by two leading experts in RNA science as Guest Adviso
 
           <a href="mailto:chao.xiao@tayloranfrancis.com">Ms. Chao Xiao</a> <br/>
 
+What such models do and do not learn from the available structure data, and how to evaluate
+them, is the subject of :link-flat:`AI for RNA structure prediction: what deep learning models learn <{filename}/blog/2026-10-28-deep-learning-rna-secondary-structure-prediction.rst>`.
+
 Join the Conversation
 ---------------------
 

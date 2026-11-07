@@ -79,7 +79,7 @@ Research
        <span class="num">06</span>
        <div>
          <h2>Computational methods &amp; reproducibility</h2>
-         <p>Selected projects use machine learning where it provides a clear technical advantage, for example in kinetic approximation or in well-scoped inference problems. In those cases my interest is less in generic claims than in whether a method actually improves what can be said about a specific RNA system. Alongside this sits reproducible, open scientific software so that RNA analyses can be run, audited, and reused at scale.</p>
+         <p>Selected projects use machine learning where it provides a clear technical advantage, for example in kinetic approximation or in well-scoped inference problems. In those cases my interest is less in generic claims than in whether a method actually improves what can be said about a specific RNA system, which is the question I work through for structure prediction in <a href="/blog/2026/deep-learning-rna-secondary-structure-prediction/">AI for RNA structure prediction: what deep learning models learn</a>. Alongside this sits reproducible, open scientific software so that RNA analyses can be run, audited, and reused at scale.</p>
          <div class="meta-1">
            <div class="k">Collaboration</div><div>Theoretical Biochemistry Group (TBI), University of Vienna</div>
          </div>
