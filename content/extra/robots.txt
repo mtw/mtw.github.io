@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /blog/category/*
 Disallow: /services
 # Cloudflare's email-obfuscation endpoint: linked from every rewritten address,
 # serves nothing on its own.

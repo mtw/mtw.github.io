@@ -1,5 +1,5 @@
-RNAplfold tutorial: accessibility in long RNAs
-##############################################
+RNAplfold tutorial: accessibility and opening energy on long RNAs
+#################################################################
 
 :date: 2026-11-07
 :tags: ViennaRNA; RNA structure prediction; flavivirus; tools
