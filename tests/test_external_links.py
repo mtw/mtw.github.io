@@ -1,9 +1,11 @@
 """Outbound links of the production build resolve (opt-in: needs the network).
 
 Run with  CHECK_EXTERNAL_LINKS=1 pytest tests/test_external_links.py -s
+A redirect loop (urllib exhausts its redirect limit and reports the 3xx) counts as broken.
 Hosts that answer 403/429 to non-browser clients are reported but do not fail the test;
 404/410 and connection failures do.
 """
+import http.cookiejar
 import os
 import re
 import socket
@@ -26,10 +28,14 @@ UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, li
 
 
 def _fetch(url):
+    # Keep cookies while following redirects. A HISinOne course page and Elsevier's OAuth
+    # bounce both set a session cookie and redirect; without a jar the same request repeats
+    # until urllib gives up, which is indistinguishable from a redirect loop.
+    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
     for method in ("HEAD", "GET"):
         req = urllib.request.Request(url, method=method, headers={"User-Agent": UA, "Accept": "*/*"})
         try:
-            with urllib.request.urlopen(req, timeout=20) as resp:
+            with opener.open(req, timeout=20) as resp:
                 return resp.status
         except urllib.error.HTTPError as e:
             if method == "HEAD" and e.code in (400, 403, 405, 501):
@@ -50,7 +56,15 @@ def test_external_links_resolve(tmp_path):
     with ThreadPoolExecutor(16) as pool:
         results = dict(zip(urls, pool.map(_fetch, urls)))
     unreliable = {u for u in results if urlparse(u).netloc in UNRELIABLE_HOSTS}
-    broken = {u: r for u, r in results.items() if u not in unreliable and (r in (404, 410) or isinstance(r, str))}
+    # A 3xx can only reach us when urllib exhausted its redirect limit, i.e. a redirect
+    # loop: the browser shows an error page, so it counts as broken. Ordinary redirects
+    # are followed by urlopen and come back as the final status.
+    broken = {
+        u: r
+        for u, r in results.items()
+        if u not in unreliable
+        and (r in (404, 410) or isinstance(r, str) or (isinstance(r, int) and 300 <= r < 400))
+    }
     blocked = {u: r for u, r in results.items() if r in (401, 403, 429, 503) or (u in unreliable and r != 200)}
     print(f"\nchecked {len(urls)} URLs; {len(broken)} broken, {len(blocked)} blocked/rate-limited")
     for u, r in sorted(blocked.items()):
