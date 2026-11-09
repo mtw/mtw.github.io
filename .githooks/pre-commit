@@ -1,0 +1,59 @@
+#!/bin/bash
+#
+# Refuse a commit that would not build or that fails the test suite.
+#
+# Both gates existed before this hook and both were skipped once, which committed a
+# screen report over a blog post (a2d529f0, restored in 7ed77f69). The build takes
+# about 4 s and the suite about 30 s, so the hook runs both rather than a subset.
+#
+# Install:      git config core.hooksPath .githooks
+# Uninstall:    git config --unset core.hooksPath
+# Skip once:    git commit --no-verify
+#
+# Two things this deliberately does not do:
+#   - It checks the working tree, not the staged snapshot. A partially staged commit
+#     is therefore validated against the files on disk. Catching that properly needs a
+#     temporary checkout, which is not worth the complexity here.
+#   - It does not check outbound links, which needs the network and would make every
+#     commit depend on other people's servers. Run that separately:
+#         CHECK_EXTERNAL_LINKS=1 pytest tests/test_external_links.py -s
+
+set -uo pipefail
+
+root="$(git rev-parse --show-toplevel)" || exit 1
+cd "$root" || exit 1
+
+# Nothing that can affect the build or the tests is staged: let the commit through.
+# /usr/bin/grep explicitly, because .venv/bin shadows grep with a wrapper that errors.
+if ! git diff --cached --name-only --diff-filter=ACMR \
+     | /usr/bin/grep -qE '^(content/|pelican-theme/|tests/|pelicanconf\.py|publishconf\.py|Makefile|\.githooks/)'; then
+  exit 0
+fi
+
+if [ ! -x .venv/bin/python ]; then
+  echo "pre-commit: .venv is missing; run 'make venv' or skip with --no-verify" >&2
+  exit 1
+fi
+
+# pelican and pytest come from the virtualenv.
+export PATH="$root/.venv/bin:$PATH"
+
+log="${TMPDIR:-/tmp}/mtw-pre-commit.log"
+
+printf 'pre-commit: build  ... '
+if ! make check >"$log" 2>&1; then
+  printf 'FAILED\n\n'
+  tail -20 "$log"
+  printf '\nfull log: %s\nrerun:    make check\n' "$log"
+  exit 1
+fi
+printf 'ok\n'
+
+printf 'pre-commit: tests  ... '
+if ! python -m pytest -q >"$log" 2>&1; then
+  printf 'FAILED\n\n'
+  tail -20 "$log"
+  printf '\nfull log: %s\nrerun:    make test\n' "$log"
+  exit 1
+fi
+printf 'ok\n'
