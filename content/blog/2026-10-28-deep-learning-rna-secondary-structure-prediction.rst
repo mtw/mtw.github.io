@@ -18,7 +18,7 @@ Whenever it comes to predicting RNA secondary structure from sequence, the quest
 nowadays is whether one should still use a thermodynamic folding program or rather one
 of the neural networks that have been published for this task since about 2019. The
 networks report higher accuracies than
-:link-flat:`RNAfold <https://viennarna.readthedocs.io/en/latest/man/RNAfold.html>` or
+:link-flat:`RNAfold <https://viennarna.readthedocs.io/latest/usage/man/RNAfold.html>` or
 :link-flat:`RNAstructure <https://rna.urmc.rochester.edu/RNAstructure.html>` on the standard
 benchmarks, and the comparison looks settled at first glance. In this post I explain
 what these predictors compute, why the benchmark numbers say less than they seem to,

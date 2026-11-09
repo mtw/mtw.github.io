@@ -25,7 +25,7 @@ siRNA, an antisense oligo, a probe or a miRNA seed match, the sequence of the ta
 is only half of the question. The other half is whether the site is accessible, because a
 region that is locked inside a helix most of the time cannot be bound without opening that
 helix first, and the energy for that has to come from somewhere.
-:link-flat:`RNAplfold <https://viennarna.readthedocs.io/en/latest/man/RNAplfold.html>` in
+:link-flat:`RNAplfold <https://viennarna.readthedocs.io/latest/usage/man/RNAplfold.html>` in
 the :link-flat:`ViennaRNA Package <{filename}/glossary.rst#viennarna>` addresses this question.
 It reports, for every position and for every stretch up to a chosen length, the probability
 that the region is unpaired. This quantity is typically called accessibility.

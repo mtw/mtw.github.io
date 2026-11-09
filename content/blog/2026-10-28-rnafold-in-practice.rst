@@ -21,7 +21,7 @@ RNAfold tutorial: MFE, pair probabilities and ensemble output
    :link-flat:`ViennaRNA in practice <{filename}/rna-structure-prediction.rst>`, a series of tutorials. RNAfold (this post) · :link-flat:`SHAPE and chemical probing data in RNA structure prediction <{filename}/blog/2026-10-19-shape-probing-data-rna-structure-prediction.rst>` · :link-flat:`RNAplfold and accessibility <{filename}/blog/2026-11-07-rnaplfold-accessibility.rst>`
 
 Whenever it comes to RNA secondary structure prediction,
-:link-flat:`RNAfold <https://viennarna.readthedocs.io/en/latest/man/RNAfold.html>` is the
+:link-flat:`RNAfold <https://viennarna.readthedocs.io/latest/usage/man/RNAfold.html>` is the
 program most people have in mind when they say that they folded a sequence with
 :link-flat:`ViennaRNA <https://www.tbi.univie.ac.at/RNA/>`. It takes an
 RNA sequence and returns a
@@ -109,7 +109,7 @@ RNApuzzler (Wiegreffe et al. 2018), which produces the drawing below with
 The energy of a given structure
 -------------------------------
 
-:link-flat:`RNAeval <https://viennarna.readthedocs.io/en/latest/man/RNAeval.html>` computes
+:link-flat:`RNAeval <https://viennarna.readthedocs.io/latest/usage/man/RNAeval.html>` computes
 the free energy of a structure that is given as input, without any
 search for the optimum. This is the way to compare a predicted structure with a known or
 a proposed one.
@@ -270,7 +270,7 @@ and which are one alternative among several.
 Suboptimal structures
 ---------------------
 
-:link-flat:`RNAsubopt <https://viennarna.readthedocs.io/en/latest/man/RNAsubopt.html>` enumerates all
+:link-flat:`RNAsubopt <https://viennarna.readthedocs.io/latest/usage/man/RNAsubopt.html>` enumerates all
 :link-flat:`suboptimal structures <{filename}/glossary.rst#suboptimal-structures>` within
 an energy window above the MFE, and ``-s`` sorts them by energy.
 
