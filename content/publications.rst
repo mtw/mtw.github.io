@@ -35,6 +35,9 @@ Manuscripts under review
 
 .. container:: under-review
 
+   | :strong:`A conserved alphacoronavirus 3’-UTR RNA element is essential for viral replication`
+   | Ramakanth Madhugiri, Nadja Karl, Devadatta Gosavi, Sarah Krautwurst, Tatjana Koob, Kevin Lamkiewicz, Nora Goldmann, Heiko Slanina, Anna Wacker, Arnold Grünweller, Roland K. Hartmann, :ul:`Michael T. Wolfinger`, Manja Marz, Harald Schwalbe, Joanna Sztuba-Solinska, John Ziebuhr · submitted 2026
+
    | :strong:`“Circle of Life” – Zika virus genomic cyclization is controlled by sequence specificity`
    | Liam Kerr, Dannielle L. Gemmill, Higor S. Pereira, :ul:`Michael T. Wolfinger`, Trushar R. Patel · submitted 2026
 
