@@ -218,6 +218,14 @@ Very slow on Linux
 Related: :link-flat:`Claude Code with LM Studio on Apple Silicon <{filename}/blog/2026-04-17-run-claude-code-with-local-llm-macos-qwen3.rst>`
 and :link-flat:`OpenAI Codex CLI with a local model <{filename}/blog/2026-09-24-codex-cli-local-model-lm-studio-ollama.rst>`.
 
+.. frame:: On your own code
+
+   The setup above is the easy half. Whether a local model is good enough for the code
+   your group actually works with is a question that can only be answered on that code,
+   with the tasks you run and the hardware you have. If that is the question in front of
+   you, the `same waiting list <https://rnaforecast.com/training/?utm_source=michaelwolfinger&utm_medium=referral&utm_campaign=local-ai-tools&utm_content=ollama-end#local-ai-tools>`_
+   takes a note of it, and I will know what to prepare.
+
 Sources: `Ollama, Claude Code integration <https://docs.ollama.com/integrations/claude-code>`_ ·
 `Ollama, Anthropic compatibility <https://docs.ollama.com/api/anthropic-compatibility>`_ ·
 `Ollama blog, Claude Code with Anthropic API compatibility (16 January 2026) <https://ollama.com/blog/claude>`_ ·

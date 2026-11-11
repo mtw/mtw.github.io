@@ -334,6 +334,14 @@ Summary
 Related guides: :link-flat:`Claude Code with Ollama on macOS and Linux <{filename}/blog/2026-09-24-run-claude-code-with-ollama.rst>`
 and :link-flat:`OpenAI Codex CLI with a local model <{filename}/blog/2026-09-24-codex-cli-local-model-lm-studio-ollama.rst>`.
 
+.. frame:: On your own code
+
+   The setup above is the easy half. Whether a local model is good enough for the code
+   your group actually works with is a question that can only be answered on that code,
+   with the tasks you run and the hardware you have. If that is the question in front of
+   you, the `same waiting list <https://rnaforecast.com/training/?utm_source=michaelwolfinger&utm_medium=referral&utm_campaign=local-ai-tools&utm_content=apple-silicon-end#local-ai-tools>`_
+   takes a note of it, and I will know what to prepare.
+
 Sources: `LM Studio, Claude Code integration <https://lmstudio.ai/docs/integrations/claude-code>`_ ·
 `LM Studio, Anthropic compatibility endpoints <https://lmstudio.ai/docs/developer/anthropic-compat>`_ ·
 `Claude Code, connect to an LLM gateway <https://code.claude.com/docs/en/llm-gateway-connect>`_ ·

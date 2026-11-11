@@ -374,6 +374,14 @@ scientific decisions had to come from me, the answer had to be established outsi
 agent, and the result needed a check that did not rely on the agent's own assurance.
 Twelve rows are enough to practise the whole workflow.
 
+.. frame:: On your own data
+
+   The setup above is the easy half. Whether a local model is good enough for the data
+   your group actually works with is a question that can only be answered on that data,
+   with the tasks you run and the hardware you have. If that is the question in front of
+   you, the `same waiting list <https://rnaforecast.com/training/?utm_source=michaelwolfinger&utm_medium=referral&utm_campaign=local-ai-tools&utm_content=csv-analysis-end#local-ai-tools>`_
+   takes a note of it, and I will know what to prepare.
+
 Tested with Claude Code 2.1.310 on macOS, Python 3.15.1, matplotlib 3.11.2 and pandas
 3.1.0, with claude-opus-5-5 through a claude.ai login as the cloud model and gpt-oss:20b
 and qwen3-coder:30b on Ollama 0.40.2 as the local models. Transcripts of all runs were

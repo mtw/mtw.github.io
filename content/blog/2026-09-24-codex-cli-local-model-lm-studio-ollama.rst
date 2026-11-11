@@ -385,6 +385,14 @@ on the same local model, Codex is more demanding on context and a little more fr
 weak tool callers, but with ``gpt-oss:20b`` and 64K of context both work well for the kind of
 scripting a research group does every day.
 
+.. frame:: On your own code
+
+   The setup above is the easy half. Whether a local model is good enough for the code
+   your group actually works with is a question that can only be answered on that code,
+   with the tasks you run and the hardware you have. If that is the question in front of
+   you, the `same waiting list <https://rnaforecast.com/training/?utm_source=michaelwolfinger&utm_medium=referral&utm_campaign=local-ai-tools&utm_content=codex-cli-end#local-ai-tools>`_
+   takes a note of it, and I will know what to prepare.
+
 Sources: `LM Studio, Codex integration <https://lmstudio.ai/docs/integrations/codex>`_ ·
 `Ollama, Codex CLI integration <https://docs.ollama.com/integrations/codex>`_ ·
 `Codex configuration reference <https://developers.openai.com/codex/config-reference>`_ ·
