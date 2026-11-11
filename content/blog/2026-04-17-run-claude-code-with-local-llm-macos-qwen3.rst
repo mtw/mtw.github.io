@@ -78,8 +78,8 @@ because the KV cache grows with it.
 without reliable tool use will chat about your code and never touch it. Coding models
 with tool support that run well on Apple Silicon:
 
-- ``qwen/qwen3-coder-30b`` (30B mixture-of-experts, 3B active; about 19 GB at 4-bit) —
-  the best balance I have found for agentic work; wants 32 GB.
+- ``qwen/qwen3-coder-30b`` (30B mixture-of-experts, 3B active; about 19 GB at
+  4-bit)—the best balance I have found for agentic work; wants 32 GB.
 - ``openai/gpt-oss-20b`` (about 12 GB loaded with a 32K context; LM Studio's and
   Ollama's default suggestion)—the choice for 24 GB machines.
 - ``qwen/qwen3.8-27b`` (dense 27B, about 18 GB)—the current general model in LM

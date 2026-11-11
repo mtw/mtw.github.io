@@ -21,8 +21,8 @@ From a CSV to a reproducible analysis with Claude Code
    Companion to the setup guides :link-flat:`Claude Code with LM Studio <{filename}/blog/2026-04-17-run-claude-code-with-local-llm-macos-qwen3.rst>` and :link-flat:`Claude Code with Ollama <{filename}/blog/2026-09-24-run-claude-code-with-ollama.rst>`. Those two posts get the agent running, this one is about using it for a small data analysis.
 
 Whenever it comes to analyzing experimental data with a coding agent, the tedious part is
-not getting a script and a plot, but making sure that the script computes what was
-intended. Consider a scenario where a CSV file contains measurements from two conditions
+making sure that the script computes what was intended. Getting a script and a plot is the
+easy half. Consider a scenario where a CSV file contains measurements from two conditions
 and the agent is asked for a summary, a comparison and a figure. Claude Code will write
 the script, install the required packages and come back with a plausible result within
 minutes. The relevant decisions, i.e. which rows constitute independent samples, how
@@ -325,10 +325,10 @@ missing values instead of rejecting them, ended both plotting scripts with ``plt
 which blocks without a display until Claude Code gives up on the command, and eventually
 crashed the session by trying to look at its own PNG, which a text-only model cannot do.
 On the ``NaN`` and duplicate copies its analysis runs through and reports 22.2 % and 26.2
-%, respectively. This is one attempt and not a verdict on the model, but it illustrates
-the other failure mode, i.e. a script that is correct on clean data and answers a
-different question on flawed data, and it is the failure-case checks and not the correct
-numbers that reveal it.
+%, respectively. This is one attempt, so it settles nothing about the model in general. It
+does illustrate the other failure mode, i.e. a script that is correct on clean data and
+answers a different question on flawed data, and the failure-case checks are what reveal
+it.
 
 Checking the results
 --------------------
