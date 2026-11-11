@@ -51,6 +51,23 @@ the live site (fixture in `tests/fixtures/`) still resolves, that internal links
 anchors exist, that content metadata is complete, and that publish-time minification
 works. No output URL may change; the tests are the gate.
 
+Checks that need the network or installed tooling are opt-in, so `make test` stays offline
+and fast:
+
+```
+CHECK_EXTERNAL_LINKS=1 pytest tests/test_external_links.py -s   # every outbound link
+CHECK_CROSSREF=1       pytest tests/test_paper_authors.py       # author lists vs Crossref
+CHECK_AI_COMMANDS=1    pytest tests/test_howto_commands.py -s   # how-to flags vs the real CLIs
+CHECK_AI_MODELS=1      pytest tests/test_howto_commands.py      # model ids still published
+```
+
+`tests/test_howto_commands.py` also runs offline, where it parses every `toml`, `json` and
+`bash` block in the how-to posts, checks the config keys against the ones Codex reads, and
+refuses a shell line that invokes a command the post never introduces. With
+`CHECK_AI_COMMANDS=1` it additionally lists the posts whose quoted tool version has moved
+on and are therefore due a re-run. Running a how-to's commands end to end stays manual:
+no test substitutes for a model download and a real agent session.
+
 ## Conventions
 
 - A new page means a new URL: add it to the allow-list in `tests/test_live_urls.py` in the
