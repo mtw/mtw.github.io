@@ -16,7 +16,7 @@ ViennaRNA training and workshops for researchers, starting in 2027
 
 Whenever it comes to RNA secondary structure prediction, running the calculation is the
 easy part. RNAfold returns a predicted structure, a minimum free energy and, on request,
-a dot plot with the base pair probabilities, and it does so within a second for most
+a dot plot with the base pair probabilities. It does so within a second for most
 sequences. Understanding what this result means for the research question at hand takes
 considerably more practice. Which features of the output deserve attention, how
 confidently can a predicted structure be interpreted, when is one structure sufficient,

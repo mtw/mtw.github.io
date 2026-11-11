@@ -67,7 +67,7 @@ H3-M2 and H3-M4 weaken the binding signature without touching the binding site: 
 acceptor contact shifts from U24 to U23, the stacking occupancies drop, and the ligand
 becomes more exposed (105 Å² for H3-M4). H3-M1 is the instructive case in between, because its
 mutations clearly destabilise helix 3, where the hydrogen bond occupancies of the edited
-pairs fall, and that distortion does not reach the pocket: binding energies, contacts and
+pairs fall. That distortion does not reach the pocket: binding energies, contacts and
 the interaction network remain comparable to the native aptamer. A deformed scaffold
 therefore does not automatically break recognition, and an untouched binding site does not
 guarantee that recognition survives.
@@ -81,7 +81,7 @@ which is the reason to trust it: H3-M3 and H1-M1 with the native, H3-M2 and H3-M
 A principal component analysis of the six pocket nucleotides puts a number on the
 difference. In the native complex the first component accounts for about 19 % of the
 variance, i.e. the pocket moves in many small and partly compensating ways. For H3-M4 the
-first component accounts for 57 % and for H3-M2 for 65 %, and that dominant motion points
+first component accounts for 57 % and for H3-M2 for 65 %. That dominant motion points
 outward at U24 and A28, away from the ligand. The two tolerated variants stay near the
 native value (27 % for H1-M1, 30 % for H3-M3), and the Mg²⁺-depleted and caffeine controls
 fall in between with inward-directed and rotated motions. A single dominant mode that
@@ -100,8 +100,8 @@ of the five variants has been tested in the laboratory yet.
 For the design of ligand-triggered switches this is the step that was usually skipped. The
 established workflows either keep the aptamer sequence intact, which limits the alternative
 structures one can build around it, or they protect only the binding pocket and assume the
-rest is free. The results here say that the rest is not free, but that it is also not
-uniformly constrained, and that the difference can be worked out per variant. How the
+rest is free. The results here say that the rest is constrained unevenly: some positions
+tolerate change and others do not. That the difference can be worked out per variant. How the
 design objective itself is set up, and why a candidate has to be checked kinetically as
 well, is the subject of
 :link-flat:`In silico design of ligand-triggered RNA switches <{filename}/blog/2018-07-01-In-Silico-Design-of-Ligand-Triggered-RNA-Switches.rst>`.

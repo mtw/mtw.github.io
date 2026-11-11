@@ -37,7 +37,7 @@ Long-range RNA-RNA interactions are central to the replication cycle of many fla
 
 This study approaches the problem from both sides. Computational analysis was used to identify the most plausible interaction site and to evaluate whether the conserved cyclization sequence is kinetically favored over competing alternatives such as homodimer formation. The predicted interaction was then tested biophysically using SEC-MALS, analytical ultracentrifugation, microscale thermophoresis, and SAXS.
 
-The result is a stronger case for the long-range interaction than computation alone could provide. The 5' and 3' terminal regions interact directly with nanomolar affinity and a 1:1 stoichiometry, and that interaction weakens substantially when the conserved cyclization sequence is disrupted. That is a useful mechanistic result because it ties the predicted long-range pairing to an experimentally measurable binding event.
+The result is a stronger case for the long-range interaction than computation alone could provide. The 5' and 3' terminal regions interact directly with nanomolar affinity and a 1:1 stoichiometry. That interaction weakens substantially when the conserved cyclization sequence is disrupted. That is a useful mechanistic result because it ties the predicted long-range pairing to an experimentally measurable binding event.
 
 Just as importantly, the kinetic analysis supports the idea that the cyclization sequence is
 the dominant interaction pathway under the conditions examined, with an advantage over
@@ -45,7 +45,7 @@ competing self-association states. For flavivirus biology, that matters because 
 cyclization is closely tied to replication, and the computational ranking of alternative
 structures becomes much more informative once it is backed by binding measurements.
 
-The SAXS-based structural model adds another piece of the picture. It does not deliver atomic resolution, but it does suggest that the complex is flexible while still maintaining a stable overall association in solution. That kind of low-resolution structural information is valuable when interpreting long viral RNAs, where conformational heterogeneity is often part of the biology rather than a nuisance to be averaged away.
+The SAXS-based structural model adds another piece of the picture. It stops short of atomic resolution while still suggesting that the complex is flexible while still maintaining a stable overall association in solution. That kind of low-resolution structural information is valuable when interpreting long viral RNAs, where conformational heterogeneity is often part of the biology rather than a nuisance to be averaged away.
 
 More broadly, this paper is a good example of how RNA-RNA interaction studies should be done. Sequence analysis alone is too weak, and biophysical characterization without a clear computational hypothesis is inefficient. The combination is what makes the result persuasive: comparative and thermodynamic reasoning narrow the search space, and orthogonal biophysical methods test whether the predicted interaction actually exists and behaves as expected.
 

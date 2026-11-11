@@ -36,7 +36,7 @@ Biophysical Characterisation of Human LincRNA-p21 Sense and Antisense Alu Invert
 
 Human lincRNA-p21 is a regulatory long non-coding RNA in the p53 pathway and is involved in
 apoptosis. Its activity depends in part on its interaction with the RNA-binding protein
-hnRNP-K, and that interaction is likely shaped by RNA tertiary structure rather than sequence
+hnRNP-K. That interaction is likely shaped by RNA tertiary structure rather than sequence
 alone. Earlier work had already defined the secondary structure of the sense and antisense
 AluSx1 inverted repeats, but the three-dimensional organization of these RNA domains remained
 unclear.

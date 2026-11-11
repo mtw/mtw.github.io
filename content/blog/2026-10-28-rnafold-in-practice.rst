@@ -192,7 +192,7 @@ the mean base pair distance between two structures drawn from the ensemble, and 
 nucleotide RNA with 21 pairs in its MFE structure this is a very wide distribution.
 
 In practical terms, the first answer of RNAfold was correct, and its second answer says
-that the first one is only weakly supported by the model, and both statements are true at
+that the first one is only weakly supported by the model. Both statements are true at
 the same time. The thermodynamic model of an unmodified tRNA sequence in the absence of
 magnesium and tertiary interactions does not strongly prefer the cloverleaf, whereas the
 real molecule folds into it with the help of modified nucleotides, ions and the tertiary

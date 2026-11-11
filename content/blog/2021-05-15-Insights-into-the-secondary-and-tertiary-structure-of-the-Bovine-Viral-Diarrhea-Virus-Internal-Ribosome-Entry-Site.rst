@@ -39,7 +39,7 @@ Bovine viral diarrhea virus (BVDV) relies on an internal ribosome entry site (IR
 
 This study combined SHAPE-MaP probing with secondary structure analysis and tertiary modeling to ask a specific question: how is the BVDV IRES organized in solution, and what evidence supports the proposed pseudoknot in domain III? That is the central structural feature of the post, because pseudoknot architecture is likely to be directly relevant to how the IRES maintains a translation-competent state.
 
-The resulting model supports a modular IRES architecture with three major domains. Much of the secondary structure agrees with earlier work, but the analysis also points to flexibility in domain II and a comparatively stable arrangement in domain III. That contrast is useful: it suggests that not all parts of the IRES contribute in the same way, and that local structural stability may be concentrated in the regions most critical for tertiary organization.
+The resulting model supports a modular IRES architecture with three major domains. Much of the secondary structure agrees with earlier work, but the analysis also points to flexibility in domain II and a comparatively stable arrangement in domain III. That contrast is useful: it suggests that not all parts of the IRES contribute in the same way. That local structural stability may be concentrated in the regions most critical for tertiary organization.
 
 The most important result concerns domain III, where the data support an H-type pseudoknot and
 a specific local arrangement of helices. The tertiary modeling suggests quasi-coaxial stacking

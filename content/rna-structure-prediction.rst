@@ -19,7 +19,7 @@ This page collects the posts on this site that explain how to predict the second
 structure of an RNA with the :link-flat:`ViennaRNA Package <https://www.tbi.univie.ac.at/RNA/>`
 and how far such a prediction can be trusted, in the order in which I would read them.
 They are written for researchers who use structure predictions in their own work, i.e.
-for experimentalists and computational biologists alike, and each tutorial works through
+for experimentalists and computational biologists alike. Each tutorial works through
 a complete example with all commands included, so that the results can be reproduced on
 any computer with ViennaRNA installed.
 

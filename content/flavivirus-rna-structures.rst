@@ -19,7 +19,7 @@ The genome of a flavivirus is a single positive-strand RNA of about eleven kilob
 with one long open reading frame and two untranslated regions. The untranslated regions
 are not spacers: they carry structured elements that the virus depends on, i.e. elements
 that resist a host enzyme, that bring the two ends of the genome together, or that bind
-host proteins, and most of them are conserved as a fold rather than as a sequence. This
+host proteins. Most of them are conserved as a fold rather than as a sequence. This
 page collects the work on this site on these elements, from comparative analyses across
 virus lineages to the design of such a fold from scratch. Each paper is linked here by a
 short description of what it does, and the post behind the link gives its title, the full
@@ -105,7 +105,7 @@ Not every structure in these genomes is an xrRNA.
   merely present, using opening energies against shuffled controls.
 - A :link-flat-strong:`pan-flavivirus analysis of small interfering RNA production <{filename}/blog/2024-10-15-Pan-flavivirus-analysis-reveals-sfRNA-independent-3-UTR-biased-siRNA-production-from-an-insect-specific-flavivirus.rst>`
   (*Journal of Virology* 2024) finds that more than 95 % of the small interfering RNAs
-  derived from Kamiti River virus map to its long 3′ untranslated region, and that this
+  derived from Kamiti River virus map to its long 3′ untranslated region. That this
   bias does not disappear when sfRNA production is reduced. The region dominates the
   antiviral RNA interference response for a reason that sfRNA biogenesis does not explain.
 

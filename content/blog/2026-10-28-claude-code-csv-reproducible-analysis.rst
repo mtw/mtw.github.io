@@ -159,7 +159,7 @@ In the first turn (22 seconds) the agent listed the directory, printed the CSV, 
 ``python3 --version`` and whether pandas and matplotlib were installed (they were not)
 and came back with a plan instead of code. The plan had the sample hierarchy right, with
 sample means first and condition means with *n* equal to the number of independent
-samples, and it computed the expected result by hand (12 vs. 15, difference 3, change
+samples. It computed the expected result by hand (12 vs. 15, difference 3, change
 25 %) before writing any code. It then asked three questions, namely what the units are,
 whether it may create a virtual environment and install matplotlib, and whether the
 script should also reject a sample with a different number of repeats or a condition
@@ -200,7 +200,7 @@ test runs themselves account for about 20 seconds of that. Independently of the 
 then verified that the
 script gives the reference numbers when run in a clean directory, that the sample means
 agree with the reference file, that the 22 tests pass, that a shuffled copy of the input
-yields an identical summary, and that copies with a ``NaN`` value or a duplicated row
+yields an identical summary. That copies with a ``NaN`` value or a duplicated row
 are rejected with the offending line number and without writing any output. The checksum
 of the input file is unchanged.
 
@@ -233,7 +233,7 @@ samples appearing under two conditions), sample means come first, the condition 
 counts unique sample identifiers rather than rows, and difference and percentage change
 were defined correctly. The plan also noted that the units were unspecified and proposed
 a generic axis label, which is where I would have provided the units anyway. Two things
-were wrong, and both were visible before any code existed. The example README pinned
+were wrong. Both were visible before any code existed. The example README pinned
 ``pandas==1.5.3`` and ``matplotlib==3.7.1``, versions the model had made up, and the
 model did not ask any questions. A smaller model does not ask, so the review of the plan
 has to supply what a larger model would have asked for.
@@ -304,7 +304,7 @@ session went through without any compaction. The script left behind by the secon
 attempt rejected the ``NaN`` copy but not the duplicated row, as it tested for distinct
 repeat numbers per sample rather than for repeated rows. On the duplicate copy it
 reported a control mean of 11.889 and exited normally. This is exactly the kind of bug
-the failure-case checks are meant to find, and it did not survive into the third attempt.
+the failure-case checks are meant to find. It did not survive into the third attempt.
 
 In practical terms, the local run needed four things. A working directory with a short
 path, a 64K context on the server together with ``CLAUDE_CODE_MAX_CONTEXT_TOKENS`` set

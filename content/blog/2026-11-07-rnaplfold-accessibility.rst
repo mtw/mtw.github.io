@@ -59,7 +59,7 @@ What RNAplfold computes, and the two options that decide it
 
 RNAfold folds the whole sequence at once. RNAplfold slides a window along the sequence,
 folds each window, and averages the result over all windows that contain a given pair or
-region. Two options control this, and both have to be set deliberately:
+region. Two options control this. Both have to be set deliberately:
 
 - ``-L`` (``--span``) is the largest separation a base pair may have.
 - ``-W`` (``--winsize``) is the size of the averaging window, 70 by default. When ``-L`` is
@@ -141,7 +141,7 @@ two calculations, by distance from the cut:
 At the 3' end the two calculations agree to three decimal places, because there the context
 is the same in both. At the 5' cut they disagree completely, and single positions still
 differ by 0.46 at 150 nucleotides from the cut. The practical rule follows from the shape
-of that table, and this is exactly what I tell students in practical courses: give a region
+of that table. This is exactly what I tell students in practical courses: give a region
 a reasonable sequence context, ideally a few hundred nucleotides of real flanking sequence
 on each side, and read no accessibility from the first or last window of whatever was
 handed to the program. Where the ends cannot be avoided, LocalFold from the paper above was

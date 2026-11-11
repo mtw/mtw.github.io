@@ -16,7 +16,7 @@ RNA folding kinetics and energy landscapes
   :class: m-flat m-text m-strong
 
 An RNA molecule does not fall into its lowest-energy structure. It moves through a space
-of alternative structures, one base pair at a time, and it can get stuck on the way. In
+of alternative structures, one base pair at a time. It can get stuck on the way. In
 the cell it starts to fold while it is still being made, so the first part of the chain
 has already chosen a structure before the rest exists. For a riboswitch, for a designed
 switch and for many regulatory RNAs this is not a detail. The structure that matters is
@@ -129,8 +129,7 @@ molecule needs to reach a target structure for the first time. Obtaining that di
 normally requires many simulation runs.
 The :link-flat-strong:`KinPFN model <{filename}/blog/2025-01-22-KinPFN-Bayesian-Approximation-of-RNA-Folding-Kinetics.rst>`
 (ICLR 2025) approximates the whole distribution from a handful of example folding times
-with a prior-data fitted network trained on synthetic multi-modal priors. It does not
-replace the simulator, but sits on top of it, reports the cumulative distribution in one
+with a prior-data fitted network trained on synthetic multi-modal priors. It sits on top of the simulator instead of replacing it, reports the cumulative distribution in one
 forward pass, and saves most of the simulation effort, which makes it possible to compare
 many candidates rather than a few. The
 :link-flat:`workshop paper <{filename}/blog/2025-03-05-Bayesian-Approximation-of-RNA-Folding-Times.rst>`

@@ -59,7 +59,7 @@ RNA secondary structure and the thermodynamic model
    <dd>Base pairs between a loop and a region outside the loop, so that two pairs cross when the structure is drawn as an arc diagram. Pseudoknots are excluded from the standard secondary structure algorithms because they break the nested decomposition. They are common in viral RNAs: the <a href="#xrrna">xrRNA</a> fold and the <a href="#dumbbell">dumbbell element</a> depend on them.</dd>
 
    <dt id="accessibility">Accessibility</dt>
-   <dd>The probability that a stretch of nucleotides is unpaired in the ensemble. <code>RNAplfold</code> computes it locally along long sequences. It is the thermodynamic part of whether an siRNA, an antisense oligonucleotide or a protein can bind a site, and it is the quantity the <a href="{filename}/blog/2023-03-31-Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis.rst">RNA–RNA interaction</a> work starts from.</dd>
+   <dd>The probability that a stretch of nucleotides is unpaired in the ensemble. <code>RNAplfold</code> computes it locally along long sequences. It is the thermodynamic part of whether an siRNA, an antisense oligonucleotide or a protein can bind a site. It is the quantity the <a href="{filename}/blog/2023-03-31-Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis.rst">RNA–RNA interaction</a> work starts from.</dd>
 
    <dt id="ensemble-defect">Ensemble defect</dt>
    <dd>The expected number of nucleotides whose pairing state in the Boltzmann ensemble differs from a target structure. A sequence with an ensemble defect of zero folds into the target and nothing else. It is the standard objective in computational RNA design, more informative than asking whether the MFE structure equals the target.</dd>
@@ -72,7 +72,7 @@ Folding kinetics and energy landscapes
 
    <dl class="glossary">
    <dt id="energy-landscape">Energy landscape</dt>
-   <dd>All secondary structures of a sequence, each with its free energy, together with a move set that says which structures are neighbors, usually the opening or closing of a single base pair. Folding is a walk on this landscape, and most of the kinetics work on this site is about describing landscapes compactly enough to compute on them.</dd>
+   <dd>All secondary structures of a sequence, each with its free energy, together with a move set that says which structures are neighbors, usually the opening or closing of a single base pair. Folding is a walk on this landscape. Most of the kinetics work on this site is about describing landscapes compactly enough to compute on them.</dd>
 
    <dt id="local-minimum">Local minimum</dt>
    <dd>A structure that has no neighbor with lower free energy. A molecule that reaches it stays until thermal fluctuations carry it over a barrier. Local minima are the metastable states of an RNA, and a landscape of a 100 nt RNA has many thousands of them.</dd>
@@ -112,7 +112,7 @@ Chemical probing data
    <dd>Selective 2'-hydroxyl acylation analyzed by primer extension. A reagent acylates the 2'-OH of nucleotides that are flexible, mostly unpaired ones; reverse transcription stops at the modified positions and the stops are counted. The result is one reactivity per nucleotide. How these numbers enter structure prediction is the subject of <a href="{filename}/blog/2015-09-02-SHAPE-directed-RNA-folding.rst">SHAPE directed RNA folding</a> and of the <a href="{filename}/blog/2026-10-19-shape-probing-data-rna-structure-prediction.rst">step-by-step tutorial</a>.</dd>
 
    <dt id="dms">DMS probing</dt>
-   <dd>Dimethyl sulfate methylates the Watson-Crick face of unpaired adenines and cytosines. Like SHAPE it reports flexibility per nucleotide, but only for two of the four bases, and it works in living cells. The ViennaRNA soft-constraint methods accept DMS reactivities the same way as SHAPE reactivities.</dd>
+   <dd>Dimethyl sulfate methylates the Watson-Crick face of unpaired adenines and cytosines. Like SHAPE it reports flexibility per nucleotide, but only for two of the four bases. It works in living cells. The ViennaRNA soft-constraint methods accept DMS reactivities the same way as SHAPE reactivities.</dd>
 
    <dt id="reactivity">Reactivity</dt>
    <dd>The per-nucleotide number a probing experiment produces after normalization, typically between 0 and about 2. A reactivity is not a pairing state: a low value means the nucleotide is constrained in some way, a high value means it is flexible, which is true for unpaired nucleotides but also for nucleotides at helix ends and in dynamic pairs. The values are noisy and their scale depends on the experiment.</dd>
@@ -149,7 +149,7 @@ Structured RNA elements in viral genomes
    <dd>A conserved element of the flavivirus 3'UTR whose secondary structure, a stem carrying two hairpins, looks like a dumbbell. Mosquito-borne flaviviruses have one or two copies; the top loop forms a pseudoknot with a downstream sequence. Dumbbell elements carry conserved UAG motifs, the <a href="#musashi">Musashi binding element</a>, and are among the elements that even the basal tick-associated <a href="#xifv">Xinyang flavivirus</a> retains.</dd>
 
    <dt id="cyclization">Genome cyclization</dt>
-   <dd>Long-range base pairing between the 5' and 3' ends of the flavivirus genome, mediated by complementary cyclization sequences and neighboring elements. The circular form is required for replication, and it competes with the local structures of both ends. The <a href="{filename}/blog/2023-03-31-Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis.rst">Japanese encephalitis virus study</a> ranks the candidate interactions computationally and tests them by binding measurements.</dd>
+   <dd>Long-range base pairing between the 5' and 3' ends of the flavivirus genome, mediated by complementary cyclization sequences and neighboring elements. The circular form is required for replication. It competes with the local structures of both ends. The <a href="{filename}/blog/2023-03-31-Investigating-RNA-RNA-interactions-through-computational-and-biophysical-analysis.rst">Japanese encephalitis virus study</a> ranks the candidate interactions computationally and tests them by binding measurements.</dd>
 
    <dt id="musashi">Musashi binding element (MBE)</dt>
    <dd>A UAG-containing motif in a single-stranded context, recognized by the Musashi family of RNA-binding proteins (MSI1, MSI2), which regulate translation in neural progenitor cells. Zika virus and related flaviviruses carry such motifs in their 3'UTRs, often in dumbbell elements, as mapped in <a href="{filename}/blog/2019-05-06-Musashi-Binding-Elements-in-Zika-and-Related-Flavivirus-3UTRs-A-Comparative-Study-in-Silico.rst">this comparative study</a>.</dd>

@@ -53,7 +53,7 @@ space between experiment and model.
 
 Methodologically, the paper compares three influential SHAPE-integration strategies and implements them in a common ViennaRNA framework. The Deigan approach converts reactivities into pseudo-energies that act mainly on stacked pairs, which makes it direct and relatively light. The Zarringhalam method reads reactivities in terms of paired and unpaired propensities and spreads penalties more broadly across the structure. The Washietl approach takes a more global view and infers a perturbation of the energy model that reconciles thermodynamic folding with the probing signal while keeping the intervention small. Seeing these methods side by side in one software environment makes their assumptions much easier to compare.
 
-That comparative aspect is one of the strongest features of the paper. It does not argue for one universal recipe, but shows the choices that matter. How strongly should experimental data push against the default energy model? Is it better to treat reactivities locally, or to interpret them at the ensemble level? What should happen when SHAPE data favor a structure the default parameterization would otherwise underweight? These are the real inference questions behind experiment-guided RNA folding.
+That comparative aspect is one of the strongest features of the paper. It lays out the choices that matter instead of arguing for one universal recipe. How strongly should experimental data push against the default energy model? Is it better to treat reactivities locally, or to interpret them at the ensemble level? What should happen when SHAPE data favor a structure the default parameterization would otherwise underweight? These are the real inference questions behind experiment-guided RNA folding.
 
 The benchmark section matters for the same reason. The paper evaluates the methods on RNAs with
 known reference structures and looks at minimum free energy predictions and at ensemble
@@ -70,7 +70,7 @@ extended in a controlled way. Published SHAPE datasets can be
 reanalyzed, methods can be compared under the same machinery, and users
 are not forced into one opaque implementation.
 
-The paper is also a reminder that some of the best progress in RNA structure prediction comes from combining different kinds of evidence rather than replacing one paradigm with another, and that lesson still holds: experimental probing, ensemble thinking, and physically interpretable constraints remain central when the goal is biological understanding rather than a better benchmark number.
+The paper is also a reminder that some of the best progress in RNA structure prediction comes from combining different kinds of evidence rather than replacing one paradigm with another. That lesson still holds: experimental probing, ensemble thinking, and physically interpretable constraints remain central when the goal is biological understanding rather than a better benchmark number.
 
 This SHAPE paper belongs squarely in that territory, because its value
 lies in changing which structural hypotheses remain plausible once

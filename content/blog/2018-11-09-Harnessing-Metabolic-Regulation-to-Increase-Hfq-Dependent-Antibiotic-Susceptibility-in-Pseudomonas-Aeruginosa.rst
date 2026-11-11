@@ -36,7 +36,7 @@ Harnessing Metabolic Regulation to Increase Hfq-Dependent Antibiotic Susceptibil
 This paper takes the Hfq story in *Pseudomonas aeruginosa* one step further. Instead of asking
 only which genes are controlled by Hfq, it asks whether that regulatory layer can be exploited
 to make the bacterium more susceptible to antibiotics. That is a more intervention-oriented
-question, and it gives the work a slightly different flavor from the mechanistic porin paper
+question. It gives the work a slightly different flavor from the mechanistic porin paper
 that followed later. The central idea is that Hfq occupies a particular place among the global
 regulators. Because it sits at the intersection of carbon catabolite repression, RNA-mediated
 control, membrane physiology, and stress adaptation, changing Hfq availability could shift

@@ -47,7 +47,7 @@ accompanied the 2004 Turner parameters, the
 of the known base pairs on average, which is hardly more than with the 1999
 parameters. It turned out that the limiting factor is the model itself
 rather than the precision of the melting experiments, i.e. the simplifications that make
-the dynamic programming possible are what costs accuracy, and this is the opening for
+the dynamic programming possible are what costs accuracy. This is the opening for
 machine learning, since a model that does not have to be a sum of loop energies is free
 to learn whatever regularities the known structures contain.
 
@@ -154,7 +154,7 @@ reached a Matthews coefficient of 0.86 on a test set with the same structure bia
 0.52 on a test set of dinucleotide-shuffled sequences with the same composition but the
 structural diversity of random RNA. In other words, novel sequences were no obstacle for
 the network, whereas novel structures were. A network trained on bpRNA generalizes well to
-sequences it has never seen as long as their structure is in the training set, and this is
+sequences it has never seen as long as their structure is in the training set. This is
 precisely what the usual benchmark rewards.
 
 What has changed since 2022
@@ -206,7 +206,7 @@ Prediction from sequence is for the remaining cases, and these are by definition
 cases on which networks trained on bpRNA have not been tested in a meaningful way.
 
 For such sequences, the thermodynamic ensemble is still the reference point. Its errors
-are understood, it does not depend on what happened to be in a database, and it produces
+are understood, it does not depend on what happened to be in a database. It produces
 base pair probabilities that state which parts of the prediction are supported and which
 are not (how to read them is the subject of the
 :link-flat:`RNAfold tutorial <{filename}/blog/2026-10-28-rnafold-in-practice.rst>`).
@@ -227,7 +227,7 @@ When a paper about a network is read, the first thing to look for is the split, 
 test set that shares families with the training set measures recognition of known
 structures, which is a legitimate task but a different one. Accuracy on families withheld
 entirely from training, or on structures determined after the training set was
-assembled, is the number that matters, and it is usually much lower. None of this is an
+assembled, is the number that matters. It is usually much lower. None of this is an
 argument against learning from data. The 2022 paper argued for testing architectures on
 synthetic data first and for benchmarks that separate memorization from generalization,
 and the developments since then point in the same direction.

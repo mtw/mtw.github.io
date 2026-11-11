@@ -28,7 +28,7 @@ September 2026 and expanded in October 2026 after it became the page people reac
 "codex local model". It now covers the model choice, Ollama's launcher, a persistent
 configuration, Linux machines and the failures I have seen, and the commands were re-run
 with Codex 0.163, LM Studio 0.4.16 and Ollama 0.40. Codex differs from Claude Code in
-two ways that matter locally: it speaks OpenAI's *Responses* API only, and it uses more
+two ways that matter locally. It speaks OpenAI's *Responses* API only. It uses more
 context.
 
 .. frame:: Workshop in preparation
@@ -44,7 +44,7 @@ Prerequisites
 - Codex CLI: ``npm install -g @openai/codex`` (``codex --version`` to confirm).
 - A current LM Studio (0.3.29 added the Responses endpoint) or a current Ollama.
 - A model with tool calling and a large context window; see the next section for
-  memory. Codex also wants a project directory to work in, and it reads an ``AGENTS.md``
+  memory. Codex also wants a project directory to work in. It reads an ``AGENTS.md``
   there if present, which is the right place for durable instructions.
 
 Choosing a local model
@@ -63,14 +63,14 @@ have both, and the memory figures are what the server needs with a 64K context l
 
 ``qwen/qwen3-coder-30b`` (Ollama: ``qwen3-coder``)
    19 GB, a 30B mixture-of-experts model with 3B active parameters, 256K context. In my
-   use the stronger coder of the two for edits across several files, and it needs 32 GB or more.
+   use the stronger coder of the two for edits across several files. Wants 32 GB or more.
 
 ``openai/gpt-oss-120b`` (Ollama: ``gpt-oss:120b``)
    65 GB, meant for an 80 GB GPU or a 96–128 GB Mac. Noticeably better judgement on
    larger tasks, but out of reach on ordinary hardware.
 
 ``google/gemma-4-12b`` (Ollama: ``gemma4``)
-   About 7 GB on disk, 12 GB loaded with a 32K context, and it completed file-editing
+   About 7 GB on disk, 12 GB loaded with a 32K context. It completed file-editing
    tasks in my tests. This is the one that works on a smaller machine, though on 16 GB it
    is a Claude Code answer rather than a Codex one: see the measurements above for why.
    Smaller models (``ibm/granite-4-micro`` and similar) run too, but tend to narrate edits
@@ -101,9 +101,10 @@ models through LM Studio's catalog (``lms get openai/gpt-oss-20b``): a GGUF from
 arbitrary repository can carry a chat template that fails on Codex's tool definitions
 ("Error rendering prompt with jinja template").
 
-On a 16 GB Mac this does not work, and it is worth saying so with numbers because a 16 GB
-MacBook Pro is the machine most readers have. LM Studio refuses a load it expects to
-exhaust the machine, and what it reports on an M1 Pro with 16 GB is:
+On a 16 GB Mac this does not work. The numbers are worth having, because 16 GB is the
+entry configuration of every Apple laptop and the one a reader is most likely to be told
+is enough. LM Studio refuses a load it expects to exhaust the machine. On an M1 Pro with
+16 GB it reports:
 
 .. code-block:: text
 
@@ -115,7 +116,7 @@ exhaust the machine, and what it reports on an M1 Pro with 16 GB is:
    google/gemma-4-12b-qat   16K   loads, 7.15 GB
 
 The limit is the model plus the KV cache for the context you ask for, so the context is
-what pushes it over. 16K is the largest that loads here, and that is below the floor Codex
+what pushes it over. 16K is the largest that loads here, which is below the floor Codex
 needs, so a 16 GB machine is short of what this costs. Three ways out: raise the guardrail
 in LM Studio's settings and accept that the machine swaps when anything else wants memory;
 use Ollama, which has no such guardrail and spills to swap instead of refusing; or add a
@@ -245,7 +246,7 @@ than either holds alone, exo splits the tensors over a Thunderbolt RDMA link, an
 it answers at 13 to 14 tokens a second with the first token back in about a tenth of a
 second. Give it a Codex session and it falls over. The session reached about 7,500 tokens,
 the server stopped returning tool results while the model reasoned aloud that its tool
-output was empty, and both runners went down. A plain ``curl`` with a prompt of several
+output was empty. Both runners went down. A plain ``curl`` with a prompt of several
 thousand tokens does the same thing.
 
 The 19 GB model ran the same task on the same cluster and finished it. It edited the file.

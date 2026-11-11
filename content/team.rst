@@ -72,7 +72,7 @@ courses, programming experience or laboratory background.
 
 .. raw:: html
 
-   <p class="form-sent" id="supervision-sent">Thank you, your enquiry has arrived. A confirmation has gone to your address, and you will hear back from me, usually within a few working days.</p>
+   <p class="form-sent" id="supervision-sent">Thank you, your enquiry has arrived. A confirmation has gone to your address. You will hear back from me, usually within a few working days.</p>
    <p class="form-error" id="supervision-error">The enquiry was not sent: a required field was empty or the email address was not valid. Please check the fields and send again.</p>
    <form class="site-form" method="post" action="https://forms.rnaforecast.com/mtw-supervision">
      <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">

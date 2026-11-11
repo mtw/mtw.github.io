@@ -45,7 +45,7 @@ intramolecular duplexes show stronger loss of expression. So the phenomenon depe
 arrangement that favors structured pairing within the transcript, and having an Alu is by
 itself no predictor.
 
-The mechanism is where the paper ends up, and it was not the expected one. The authors tested several obvious double-stranded-RNA explanations and found that they do not account for the effect. The repression was not explained by ADAR-mediated editing, not by STAUFEN binding, and not by the classical cytoplasmic dsRNA sensors one might first suspect. Instead, the evidence pointed toward a different mechanism: transcriptional elongation by RNA polymerase II becomes less efficient across constructs carrying inverted SINEs, leading to reduced transcript output. That is a different conclusion from the usual one, that dsRNA structures destabilize mature RNA.
+The mechanism is where the paper ends up. It was not the expected one. The authors tested several obvious double-stranded-RNA explanations and found that they do not account for the effect. The repression was not explained by ADAR-mediated editing, not by STAUFEN binding, and not by the classical cytoplasmic dsRNA sensors one might first suspect. Instead, the evidence pointed toward a different mechanism: transcriptional elongation by RNA polymerase II becomes less efficient across constructs carrying inverted SINEs, leading to reduced transcript output. That is a different conclusion from the usual one, that dsRNA structures destabilize mature RNA.
 
 In other words, the paper moves the problem upstream. The main effect of inverted SINEs falls
 on the process of making the transcript in the first place. If the polymerase is slowed or

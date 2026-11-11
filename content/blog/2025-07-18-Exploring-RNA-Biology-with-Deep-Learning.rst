@@ -32,7 +32,7 @@ I will be serving as Guest Editor for the :strong:`RNA Biology article collectio
 What the collection is about
 ----------------------------
 
-RNA is involved in gene regulation, in the assembly of protein complexes and in most other cellular processes, and it is hard to analyse: sequence alone rarely determines function, and structure is dynamic. Deep learning has changed how protein structures and genomic data are analysed, and the same methods are now being applied to RNA. This collection asks what they are good for:
+RNA is involved in gene regulation, in the assembly of protein complexes and in most other cellular processes. It is hard to analyse: sequence alone rarely determines function, and structure is dynamic. Deep learning has changed how protein structures and genomic data are analysed, and the same methods are now being applied to RNA. This collection asks what they are good for:
 
 - **Uncover hidden patterns** in high‑throughput sequencing data
 - **Predict RNA modifications** and their functional impacts

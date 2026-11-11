@@ -60,7 +60,7 @@ offers a plausible transcriptional explanation for altered susceptibility patter
 chronic-growth conditions. The anoxic biofilm state reshapes how the bacterium may respond to
 antimicrobial pressure, on top of what it does to metabolism.
 
-The study also identified candidate functions required for sustained anoxic biofilm growth through follow-up mutant analysis. That part is important because it turns the paper from a descriptive RNA-seq survey into a resource for bacterial physiology. Transcriptome profiling is most useful when it helps prioritize which genes or pathways deserve closer functional study, and this paper does that well in the context of chronic *Pseudomonas* adaptation.
+The study also identified candidate functions required for sustained anoxic biofilm growth through follow-up mutant analysis. That part is important because it turns the paper from a descriptive RNA-seq survey into a resource for bacterial physiology. Transcriptome profiling is most useful when it helps prioritize which genes or pathways deserve closer functional study. This paper does that well in the context of chronic *Pseudomonas* adaptation.
 
 From today’s perspective, the paper is an early example of a style of infection-related transcriptomics that has become standard: move closer to the host-relevant environment, distinguish transient from persistent states, and interpret gene-expression change in terms of physiology rather than as an undifferentiated list of up- and downregulated genes. For *P. aeruginosa*, that is especially important because oxygen limitation, nitrate respiration, biofilm formation, and drug tolerance are deeply entangled in chronic infection.
 

@@ -1,7 +1,7 @@
 Collaborations
 ##############
 :title: Collaborations | Michael T. Wolfinger
-:summary: Selected research collaborations with groups in Europe, Asia and Australia. Each is a project with its own timeline, and each has produced joint publications.
+:summary: Selected research collaborations with groups in Europe, Asia and Australia. Each is a project with its own timeline. Each has produced joint publications.
 :description: Research collaborations of Michael T. Wolfinger: TBI Vienna and partner groups in Leipzig, Groningen, Nijmegen, Freiburg, Bangkok, and Queensland.
 :hero_eyebrow: Research
 :hero_title: Collaborations
