@@ -1,17 +1,17 @@
-Run OpenAI Codex CLI with a local model (LM Studio or Ollama)
-#############################################################
+Run OpenAI Codex CLI with a local model (LM Studio, Ollama or exo)
+##################################################################
 
 :date: 2026-09-24
-:modified: 2026-10-28
+:modified: 2026-11-11
 :tags: AI; tools
 :category: howto
 :section: guides
 :bridge: tools
 :slug: codex-cli-local-model-lm-studio-ollama
 :feedback: guide
-:title: Codex CLI with a local model: LM Studio and Ollama setup, models, troubleshooting
-:summary: Codex CLI has a built-in local mode. This guide covers the flag and the config profile, which local models work for agentic coding and what they need, Ollama's one-command launcher, Linux GPU notes, and the errors you will meet.
-:description: How to run OpenAI's Codex CLI with a local model: --oss with LM Studio or Ollama, config.toml profiles, which models work, context length, common errors.
+:title: Codex CLI with a local model: LM Studio, Ollama and exo setup, models, troubleshooting
+:summary: Codex CLI has a built-in local mode. This guide covers the flag and the config profile, which local models work for agentic coding and what they need, Ollama's one-command launcher, exo for pooling several machines into one server, Linux GPU notes, and the errors you will meet.
+:description: Run OpenAI's Codex CLI on a local model: --oss with LM Studio or Ollama, an exo cluster, config profiles, which models work, context, common errors.
 
 .. role:: link-flat(link)
   :class: m-flat m-text
@@ -22,7 +22,8 @@ Run OpenAI Codex CLI with a local model (LM Studio or Ollama)
 
 Codex, OpenAI's terminal coding agent, can use a local model, the mode is built in: ``codex --oss`` sends
 its requests to a model server on your machine instead of OpenAI's API. LM Studio and
-Ollama both support it, so the setup is a few commands. This guide was written in
+Ollama both support it, so the setup is a few commands, and exo serves the same API
+across several machines at once. This guide was written in
 September 2026 and expanded in October 2026 after it became the page people reach for
 "codex local model". It now covers the model choice, Ollama's launcher, a persistent
 configuration, Linux machines and the failures I have seen, and the commands were re-run
@@ -77,7 +78,8 @@ have both, and the memory figures are what the server needs with a 64K context l
 Measured on a 24 GB Mac with a 32K context: ``gpt-oss:20b`` loads fully on the GPU, while
 ``qwen3-coder`` fits only partly (16 of 19 GB) and slows down, and a dense 27B model such
 as ``qwen3.8`` runs out of GPU memory under Codex's prompt. On 24 GB that leaves
-gpt-oss-20b as the working choice.
+gpt-oss-20b as the working choice. That ceiling is a property of the single machine
+rather than of Codex, and pooling several machines with exo is the way past it.
 
 With LM Studio
 --------------
@@ -140,6 +142,54 @@ profile can use Ollama's web search from inside Codex, and
 local session. The launcher does not set the context length, which still comes from
 ``OLLAMA_CONTEXT_LENGTH`` or the app.
 
+With exo
+--------
+
+`exo <https://github.com/exo-explore/exo>`_ pools several machines into one model server,
+which is the way around the memory ceiling above: a model too large for any single Mac runs
+across two or three of them. It answers ``POST /v1/responses`` on port 52415, so Codex
+drives it like any other provider.
+
+.. code-block:: bash
+
+   brew install --cask exo        # Apple silicon, macOS 15.1 or later
+   exo                            # or `uv run exo` from a source checkout
+
+Port 52415 is not one of the built-in provider IDs, so it needs a provider block in
+``~/.codex/config.toml``:
+
+.. code-block:: toml
+
+   [model_providers.exo]
+   name = "exo cluster"
+   base_url = "http://localhost:52415/v1"
+   wire_api = "responses"
+
+   [profiles.exo]
+   model_provider = "exo"
+   model = "mlx-community/Qwen3-235B-A22B-Instruct-8bit"   # an id from GET /models
+   model_context_window = 65536
+
+Then ``codex --profile exo``. The model name has to be the id the cluster reports, and
+``curl http://localhost:52415/models?status=downloaded`` lists what is actually on disk
+rather than what could be fetched. The dashboard sits on the same port.
+
+What exo adds, and what it asks in return:
+
+- Nodes discover each other on the same network when they run **the same build** and the
+  same cluster name (``--namespace``, or ``EXO_ZENOH_NAMESPACE``; the default is ``exo``).
+  A Mac and a Linux machine do not join the same cluster.
+- On macOS the GPU is used. **On Linux exo runs on the CPU**, with GPU support described as
+  under development, so an NVIDIA box is still Ollama's job.
+- RDMA over Thunderbolt is what makes a cluster fast. It wants macOS Tahoe 26.2 or later,
+  Thunderbolt 5, and every device cabled to every other.
+- The same server also answers ``/v1/chat/completions``, Claude's ``/v1/messages`` and
+  Ollama's ``/ollama/api/chat``, so one cluster can serve Codex and Claude Code together.
+
+Models come from the MLX community repositories, and a model outside the catalogue can be
+added with ``POST /models/add``; anything that needs ``trust_remote_code`` has to be
+enabled deliberately.
+
 Make it permanent with a profile
 --------------------------------
 
@@ -196,7 +246,16 @@ Troubleshooting
 
 ``404`` on every request
    The server does not implement ``/v1/responses`` (Chat Completions only, or an old
-   version). Update LM Studio or Ollama, or point the profile at a server that does.
+   version). Update LM Studio or Ollama, or point the profile at a server that does. exo
+   serves ``/v1/responses`` and is not the cause of this one.
+
+The exo cluster has fewer machines than it should
+   The nodes are running different builds, or a different ``--namespace``. Both have to
+   match exactly, and a Linux node never joins a Mac cluster.
+
+exo reports a model Codex cannot select
+   Codex needs the API id, which ``GET /models?status=downloaded`` gives, and a model that
+   appears in a search but has not been downloaded is not yet selectable.
 
 A download starts that you did not ask for
    The built-in Ollama provider pulls a model that is not present locally. Stop it
