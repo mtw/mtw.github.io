@@ -18,7 +18,7 @@ RNAplfold tutorial: accessibility and opening energy on long RNAs
 
 .. container:: series-note
 
-   :link-flat:`ViennaRNA in practice <{filename}/rna-structure-prediction.rst>`, a series of tutorials. :link-flat:`RNAfold tutorial <{filename}/blog/2026-10-28-rnafold-in-practice.rst>` · :link-flat:`SHAPE and chemical probing data <{filename}/blog/2026-10-19-shape-probing-data-rna-structure-prediction.rst>` · RNAplfold and accessibility (this post)
+   :link-flat:`ViennaRNA in practice <{filename}/rna-structure-prediction.rst>`, a series of tutorials. :link-flat:`RNAfold tutorial <{filename}/blog/2026-10-28-rnafold-in-practice.rst>` · :link-flat:`SHAPE and chemical probing data <{filename}/blog/2026-10-19-shape-probing-data-rna-structure-prediction.rst>` · RNAplfold and accessibility (this post) · :link-flat:`ViennaRNA 2.8.0 release note <{filename}/blog/2026-11-12-viennarna-2-8-0.rst>`
 
 Whenever an oligonucleotide has to find its target in a longer RNA, whether it is an
 siRNA, an antisense oligo, a probe or a miRNA seed match, the sequence of the target site

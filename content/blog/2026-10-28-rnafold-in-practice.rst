@@ -18,7 +18,7 @@ RNAfold tutorial: MFE, pair probabilities and ensemble output
 
 .. container:: series-note
 
-   :link-flat:`ViennaRNA in practice <{filename}/rna-structure-prediction.rst>`, a series of tutorials. RNAfold (this post) · :link-flat:`SHAPE and chemical probing data in RNA structure prediction <{filename}/blog/2026-10-19-shape-probing-data-rna-structure-prediction.rst>` · :link-flat:`RNAplfold and accessibility <{filename}/blog/2026-11-07-rnaplfold-accessibility.rst>`
+   :link-flat:`ViennaRNA in practice <{filename}/rna-structure-prediction.rst>`, a series of tutorials. RNAfold (this post) · :link-flat:`SHAPE and chemical probing data in RNA structure prediction <{filename}/blog/2026-10-19-shape-probing-data-rna-structure-prediction.rst>` · :link-flat:`RNAplfold and accessibility <{filename}/blog/2026-11-07-rnaplfold-accessibility.rst>` · :link-flat:`ViennaRNA 2.8.0 release note <{filename}/blog/2026-11-12-viennarna-2-8-0.rst>`
 
 Whenever it comes to RNA secondary structure prediction,
 :link-flat:`RNAfold <https://viennarna.readthedocs.io/latest/usage/man/RNAfold.html>` is the

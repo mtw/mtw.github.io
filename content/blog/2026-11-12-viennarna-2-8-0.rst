@@ -43,8 +43,7 @@ a number per position, the input is a pair of stretches that an experiment says 
 enough to be joined, and the prediction is guided towards structures consistent with that.
 
 For anyone sitting on data from a proximity-ligation method this is the first time the
-evidence goes into the folding itself rather than into a figure beside it. The manual
-attributes the method to Lorenz et al. 2026.
+evidence goes into the folding itself rather than into a figure beside it.
 
 Underneath it is a new constraint type of its own, **interacting interval pair soft
 constraints**, reachable from command files and from the library as well as through the

@@ -44,6 +44,19 @@ Tutorials
    virus genome, because the question only arises for sequences too long to fold as a
    whole, and the border effect at an artificial sequence end is measured on it.
 
+The package itself
+==================
+
+- :link-flat-strong:`ViennaRNA 2.8.0: cross-linking data, global probabilities, modified RNA <{filename}/blog/2026-11-12-viennarna-2-8-0.rst>`
+  (November 2026). What the release adds, i.e. interval pairs from cross-linking
+  experiments as probing input, equilibrium probabilities for base pairs, unpaired
+  stretches and whole helices without a sliding window, and parameter files for
+  pseudouridine and N1-methylpseudouridine inside the library. It also lists the fixes
+  that change results for G-quadruplexes, modified bases and Wuchty-style ``RNAsubopt``.
+- The package's own :link-flat:`documentation <https://viennarna.readthedocs.io/latest/>`,
+  rebuilt as a stand-alone site in November 2026, with the man pages, the API reference
+  and tutorials for eleven of the programs.
+
 Background
 ==========
 
