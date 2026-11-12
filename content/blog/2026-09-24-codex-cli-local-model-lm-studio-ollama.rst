@@ -140,8 +140,7 @@ show 65536 in the CONTEXT column.
 
 Two things to know about the built-in ``ollama`` provider. It always talks to
 ``localhost:11434`` and ignores ``OLLAMA_HOST``, so for a model server on another machine,
-define your own provider (below). And if the model is not present, Codex pulls it
-without asking—``codex --oss`` on a machine with an empty Ollama starts a 13 GB
+define your own provider (below). If the model is not present, Codex pulls it without asking—``codex --oss`` on a machine with an empty Ollama starts a 13 GB
 download of ``gpt-oss:20b``.
 
 ``ollama launch codex``
@@ -232,41 +231,44 @@ Models come from the MLX community repositories, and a model outside the catalog
 added with ``POST /models/add``; anything that needs ``trust_remote_code`` has to be
 enabled deliberately.
 
-What this looks like in practice, on the two-machine cluster above. The same hardware,
-two models:
+What this looks like in practice, on the two-machine cluster above, is that Codex is the
+problem rather than the cluster. Four coding agents, the same one-file edit, the same
+model (``gemma-4-31b-it-4bit``), the same two machines:
 
 .. code-block:: text
 
-                            weights   free per node   generation    Codex edit task
-   gemma-4-31b-it-6bit      24.3 GB          5.5 GB   13-14 tok/s   failed
-   Qwen3.5-35B-A3B-4bit     19.0 GB          8.5 GB   61-64 tok/s   completed
+   agent         API it speaks           result
+   Codex         /v1/responses           failed, both runners went down
+   Claude Code   /v1/messages            completed the edit
+   OpenCode      /v1/chat/completions    completed the edit
+   pi            /v1/chat/completions    completed the edit
 
-The first model loads and serves: 24.3 GB of weights across two 24 GB machines is more
-than either holds alone, exo splits the tensors over a Thunderbolt RDMA link, and for chat
-it answers at 13 to 14 tokens a second with the first token back in about a tenth of a
-second. Give it a Codex session and it falls over. The session reached about 7,500 tokens,
-the server stopped returning tool results while the model reasoned aloud that its tool
-output was empty. Both runners went down. A plain ``curl`` with a prompt of several
-thousand tokens does the same thing.
+Three of the four do the work. Codex does not. It took the model instance down with it on
+every attempt: the server stopped returning tool results while the model reasoned aloud
+that its tool output was empty, and the runners failed. The same thing happened on
+``gemma-4-31b-it-6bit`` (24.3 GB of weights), on ``gemma-4-31b-it-4bit`` (17.1 GB) and on
+``gpt-oss-20b-MXFP4-Q8`` (11.2 GB), at roughly 7,500, 13,000 and 5,600 tokens of session.
 
-The 19 GB model ran the same task on the same cluster and finished it. It edited the file.
-When its first ``sed`` command failed it said so, rewrote it and verified the result, and
-the nodes gave up less than half a gigabyte of memory over the whole session.
+Setting ``model_context_window`` smaller does not help. At 16384 the session died at 12,545
+tokens against 12,985 at 65536, which is the same place: the ceiling belongs to the server,
+and Codex never reaches the point where a smaller window would make it compact.
 
-What decides this is what the weights leave behind for the context, since the model that
-works is the larger one in parameters. A Codex session needs a KV cache of gigabytes, and
-5.5 GB per node does not hold one. The rule for a cluster is the rule for a single machine,
-which the 16 GB measurements above show at a smaller scale: size the model so the weights
-leave several gigabytes per node free, instead of sizing them to just fit.
+Why it happens I do not know. I rebuilt Codex's requests by hand and sent nine variants
+against both endpoints, with tool definitions, a second turn that feeds a tool result back,
+streaming, and an eleven thousand token prompt. All nine worked and the cluster was healthy
+afterwards. Whatever Codex sends that does the damage is therefore none of those on its
+own. Finding it needs a logging proxy between the two rather than more guessing.
 
-The speed gap has a separate cause. Qwen3.5-35B-A3B is a mixture of experts with 3B active
-parameters, so it generates several times faster than a dense 31B at a higher precision on
-the same machines.
+For chat the cluster is unremarkable and useful. ``gemma-4-31b-it-4bit`` generates at 20
+tokens a second, the 6-bit at 13 to 14, and ``Qwen3.5-35B-A3B-4bit`` at 61 to 64 because it
+is a mixture of experts with 3B active parameters. First token comes back in about a tenth
+of a second in each case.
 
-One honest limit. On a single-file edit the local model is good. Asked to read several
-files, count something in each and write the answer to a file, it read everything, planned
-sensibly and then stopped without writing the file, which is the failure the
-troubleshooting section describes rather than anything to do with the cluster.
+Two practical notes from the same runs. A model small enough for one machine is placed on
+one machine: exo asked for 11.2 GB on a single node for ``gpt-oss-20b`` and left the other
+idle, so below roughly 20 GB a second machine does nothing. And
+``Qwen2.5-Coder-14B-Instruct-abliterated-8bit`` reports ``supports_tensor: false``, so it
+cannot be split at all and has to fit on one node whatever the cluster has.
 
 Make it permanent with a profile
 --------------------------------
