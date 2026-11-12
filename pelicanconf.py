@@ -213,7 +213,6 @@ REDIRECTS = {
     # tag pages from before the relaunch
     '/blog/tag/rna-kinetics.html': '/blog/tag/rna-folding-kinetics.html',
     '/blog/tag/co-transcriptional-rna-folding2.html': '/blog/tag/co-transcriptional-rna-folding.html',
-    '/blog/tag/rna-structure-prediction2.html': '/blog/tag/rna-structure-prediction.html',
     '/blog/tag/rna-structure-conservation3.html': '/blog/tag/rna-structure-conservation.html',
     '/blog/tag/viruses/index2.html': '/blog/tag/virus-bioinformatics.html',
     # post URLs from before the relaunch (date-prefixed slugs under blog/<year>/blog/)

@@ -1,0 +1,168 @@
+ViennaRNA 2.8.0: cross-linking data, global equilibrium probabilities, modified RNA
+####################################################################################
+
+:date: 2026-11-12
+:tags: ViennaRNA; RNA structure prediction; tools
+:category: howto
+:section: guides
+:bridge: rna
+:slug: viennarna-2-8-0
+:feedback: guide
+:title: ViennaRNA 2.8.0: cross-linking data, global probabilities, modified RNA
+:summary: ViennaRNA 2.8.0 was released on 6 November 2026. Cross-linking experiments can now guide a structure prediction through interval-pair constraints, equilibrium probabilities for base pairs, unpaired stretches and whole helices are available over an entire sequence without a sliding window, and the parameter files for pseudouridine and N1-methylpseudouridine ship inside the library. The release also brings a new documentation site, design seeds for RNAinverse, and a set of fixes that are worth knowing about if you work with G-quadruplexes or modified bases.
+:description: ViennaRNA 2.8.0: cross-linking data as probing input, equilibrium probabilities without a window, helix probabilities, and modified-base parameters.
+
+.. role:: link-flat(link)
+  :class: m-flat m-text
+
+.. container:: series-note
+
+   :link-flat:`ViennaRNA in practice <{filename}/rna-structure-prediction.rst>`, a series of tutorials. :link-flat:`RNAfold tutorial <{filename}/blog/2026-10-28-rnafold-in-practice.rst>` · :link-flat:`SHAPE and chemical probing data <{filename}/blog/2026-10-19-shape-probing-data-rna-structure-prediction.rst>` · :link-flat:`RNAplfold and accessibility <{filename}/blog/2026-11-07-rnaplfold-accessibility.rst>` · 2.8.0 release note (this post)
+
+.. frame:: Training in preparation
+
+   A hands-on ViennaRNA course for research groups is being prepared, covering what a
+   prediction tells you, how probing data go into it and where the limits are. It has no
+   date yet. The `ViennaRNA training waiting list at RNA Forecast <https://rnaforecast.com/training/?utm_source=michaelwolfinger&utm_medium=referral&utm_campaign=viennarna&utm_content=release-2-8-0#viennarna>`_
+   sends one e-mail when a first date exists, and the form has a field for topics you
+   would like covered.
+
+`ViennaRNA 2.8.0 <https://github.com/ViennaRNA/ViennaRNA/releases/tag/v2.8.0>`_ was released
+on 6 November 2026. Twenty-six additions, and three of them change what kinds of
+experimental evidence a folding calculation can take and what questions you can ask of an
+ensemble. This is a short tour of what the release makes possible, written for people who
+use the package rather than build it.
+
+Cross-linking experiments can now guide a prediction
+----------------------------------------------------
+
+Probing data have been usable in ViennaRNA for a decade, in the form of per-nucleotide
+reactivities from SHAPE or DMS. 2.8.0 adds a second kind of evidence: **interval pairs from
+cross-linking experiments**, selected with ``--sp-strategy=X`` in ``RNAfold``. Rather than
+a number per position, the input is a pair of stretches that an experiment says were close
+enough to be joined, and the prediction is guided towards structures consistent with that.
+
+For anyone sitting on data from a proximity-ligation method this is the first time the
+evidence goes into the folding itself rather than into a figure beside it. The manual
+attributes the method to Lorenz et al. 2026.
+
+Underneath it is a new constraint type of its own, **interacting interval pair soft
+constraints**, reachable from command files and from the library as well as through the
+``RNAfold`` flag. Anything that produces evidence about two regions rather than one
+position can use the same machinery.
+
+The structure probing input is also tidier than it was. ``--sp-strategy`` now selects how
+reactivities become energies, ``--sp-preprocess`` selects how the data are prepared first,
+and both take their parameters more flexibly on the command line. The three SHAPE methods
+the :link-flat:`probing-data tutorial <{filename}/blog/2026-10-19-shape-probing-data-rna-structure-prediction.rst>`
+works through are still there and are now members of a family. One related change is worth
+having: fractional soft constraints are preserved for partition function calculations,
+where reactivity-derived pseudo-energies used to be rounded to integers.
+
+Equilibrium probabilities over a whole sequence, and for whole helices
+----------------------------------------------------------------------
+
+Three new functions, ``vrna_eqm_probs_bp()``, ``vrna_eqm_probs_up()`` and
+``vrna_eqm_probs_hx()``, return equilibrium probabilities for base pairs, unpaired
+stretches and helices across an entire sequence, with a callback-based API for the same
+quantities. The release notes describe this as accessibility computations in global scope.
+
+Two things here are new rather than rearranged. The first is the word global. The
+:link-flat:`RNAplfold tutorial <{filename}/blog/2026-11-07-rnaplfold-accessibility.rst>`
+in this series computes accessibility in a sliding window, where the window size and the
+maximum base pair span are part of the answer and a region cut out of its context stops
+being the same object. These functions compute the quantity over the whole molecule with
+no window to choose. For a sequence short enough to fold as a whole that removes two
+parameters from the result.
+
+The second is helix probabilities. Base pair probabilities and unpaired probabilities have
+been available for years. The probability that a *helix* is formed is a different question,
+and closer to how people actually reason about a structure than a dot plot of individual
+pairs. Having it as a primitive rather than something to assemble by hand removes a step from a
+lot of scripts.
+
+These are library functions rather than new command-line flags, so they are for people
+writing against ``RNAlib`` or its Python bindings. The callback form is there because the
+quantities get large and collecting them all into memory is not always what you want.
+
+Modified nucleotides are no longer a side quest
+-----------------------------------------------
+
+2.8.0 ships parameter files for **pseudouridine and N1-methylpseudouridine**, adds
+dihydrouridine parameters for pairs with G, adds G to the pairing partners of
+pseudouridine, and includes every modification parameter file inside ``RNAlib`` instead of
+leaving them as separate downloads.
+
+The last part is the one that changes daily practice. A calculation on modified RNA used to
+begin with finding the right parameter file; it now begins with asking for it. For
+therapeutic mRNA the relevance is immediate, since a drug substance fully substituted with
+N1-methylpseudouridine, folded against uridine parameters, is a calculation about a
+molecule nobody will make.
+
+Design, suboptimal folding, benchmarks
+--------------------------------------
+
+``RNAinverse`` gains **LinearBPDesign sequence seeds** through a new ``--init-strategy``
+option, which changes where an inverse folding run starts rather than how it searches.
+Wuchty-style ``RNAsubopt`` now supports hi-motifs. The structure benchmark in ``RNAfold``
+and ``RNAalifold`` gained relaxed metrics, an option to ignore compatible base pairs, and a
+changed output format, which makes it more useful for comparing predictors honestly.
+
+A documentation site worth reading
+----------------------------------
+
+The documentation was rewritten into a stand-alone website, built with
+``pydata-sphinx-theme``, ``sphinx-design`` and ``sphinx-contributors``. It now carries
+tutorials for eleven of the programs alongside the man pages and the API reference, which
+is a considerable step up from a manual.
+
+One practical note: it moved every URL. The man pages that used to live at
+``viennarna.readthedocs.io/en/latest/man/`` are now at
+``viennarna.readthedocs.io/latest/usage/man/``, and the old paths return 404 rather than
+redirecting, so any bookmarks and any links in your own notes need updating. Every link in
+this series was changed for it.
+
+What is different in the numbers
+--------------------------------
+
+Twenty-eight fixes came with the release, and a handful of them change results rather than
+behaviour. If one of these describes your work, it is worth recomputing before citing an
+older number.
+
+**G-quadruplexes.** The energy parameters had the wrong units, and two further
+G-quadruplex problems in Wuchty-style ``RNAsubopt`` were fixed in the same release.
+
+**Modified bases.** The dangling-end and mismatch corrections were wrong, the correction
+for bulges of length one was wrong, and base pair hard constraints were applied
+incorrectly. ``RNAfold`` also differed from the equivalent API calls, because the
+executable was passing the unmodified sequence.
+
+**Wuchty-style suboptimal folding** was wrong with G-quadruplexes, with circular RNAs, and
+for ``dangles=1`` and ``dangles=3``. Multibranch loop soft constraints in the same code
+path were fixed too.
+
+**Energy evaluation.** The split of internal loops into stacks, bulges and real internal
+loops was corrected, which touches ``RNAeval`` and anything that scores a given structure.
+Separately, parameter retrieval after reloading parameters from a file returned the wrong
+data structures, so a pipeline that switches parameter sets mid-run was not necessarily
+using the set it asked for.
+
+Two deprecations are worth planning for. **Python 2 support is gone** from the SWIG
+interface, so 2.7.2 is the last release that builds those bindings. **All global
+variables are deprecated** as well. They still work today, and code that sets ``dangles`` or
+``temperature`` through a global rather than through a model details structure should be
+migrated while the deprecation is only a warning.
+
+Worth the upgrade
+-----------------
+
+Take 2.8.0. The cross-linking strategy is the headline if you have interval data, the
+global equilibrium probabilities are the one to look at if you work through the library,
+and the modification parameters matter to anyone whose RNA is not made of four standard
+nucleotides. Then ask whether you have used G-quadruplexes, modified bases, Wuchty-style
+``RNAsubopt`` or ``RNAeval``, and recompute those results if you have.
+
+Sources: `ViennaRNA 2.8.0 release notes <https://github.com/ViennaRNA/ViennaRNA/releases/tag/v2.8.0>`_ ·
+`ViennaRNA documentation <https://viennarna.readthedocs.io/latest/>`_ ·
+`RNAfold man page, structure probing options <https://viennarna.readthedocs.io/latest/usage/man/RNAfold.html>`_ ·
+`changelog <https://viennarna.readthedocs.io/latest/changelog.html>`_.
