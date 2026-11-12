@@ -41,8 +41,7 @@ carrying natural or engineered SINE arrangements in their 3'UTRs were compared i
 These experiments show that inverted SINEs reduce both reporter protein output and RNA
 abundance, whereas tandem arrangements have a weaker effect. The repression also scales with
 the quality of the double-stranded structure: constructs that can form more perfect
-intramolecular duplexes show stronger loss of expression. So the phenomenon depends on an
-arrangement that favors structured pairing within the transcript, and having an Alu is by
+intramolecular duplexes show stronger loss of expression. The phenomenon therefore depends on an arrangement that favors structured pairing within the transcript, and having an Alu is by
 itself no predictor.
 
 The mechanism is where the paper ends up. It was not the expected one. The authors tested several obvious double-stranded-RNA explanations and found that they do not account for the effect. The repression was not explained by ADAR-mediated editing, not by STAUFEN binding, and not by the classical cytoplasmic dsRNA sensors one might first suspect. Instead, the evidence pointed toward a different mechanism: transcriptional elongation by RNA polymerase II becomes less efficient across constructs carrying inverted SINEs, leading to reduced transcript output. That is a different conclusion from the usual one, that dsRNA structures destabilize mature RNA.

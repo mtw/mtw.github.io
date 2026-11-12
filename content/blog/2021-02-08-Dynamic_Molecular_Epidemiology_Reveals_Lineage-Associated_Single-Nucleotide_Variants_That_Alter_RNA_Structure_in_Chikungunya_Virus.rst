@@ -57,7 +57,7 @@ rather than what the virus does.
 
 Two consequences follow for practice: naming lineages after the region of first detection stops
 being useful once strains move between continents, so a nomenclature independent of geography
-would describe the diversity better. And single substitutions can matter for the phenotype, the
+would describe the diversity better. Single substitutions can matter for the phenotype, the
 adaptive E1 A226V mutation being the known example, which is an argument for sequencing at the
 time a virus is introduced rather than during an outbreak.
 

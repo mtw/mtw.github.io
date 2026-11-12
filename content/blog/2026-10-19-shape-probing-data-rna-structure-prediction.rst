@@ -138,8 +138,7 @@ prediction at all. What they did change becomes visible with the partition funct
 Before: MFE frequency 0.06, diversity 23.4, a centroid with three inner base pairs. After: MFE
 frequency 0.50, diversity 0.88, and the centroid is the cloverleaf. In the dot plot, 20 of
 the 21 cloverleaf pairs now have a probability above 0.98, and the one exception is 49-65,
-the closing pair of the T stem next to the multiloop, at 0.97. So the data did not move
-the prediction, they removed the alternatives.
+the closing pair of the T stem next to the multiloop, at 0.97. The data did not move the prediction, they removed the alternatives.
 
 Slope and intercept can be changed, e.g. ``--shapeMethod="Dm1.9b-0.7"``, or individually
 (``"Dm1.9"``, ``"Db-0.7"``). A larger slope gives the data more weight relative to the

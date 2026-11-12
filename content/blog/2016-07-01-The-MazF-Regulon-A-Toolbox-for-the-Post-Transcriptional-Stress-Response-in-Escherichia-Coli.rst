@@ -59,7 +59,7 @@ Another important aspect is the connection to persistence. Toxin-antitoxin syste
 
 From my perspective, one of the strengths of this paper is that it combines a fairly elegant conceptual model with a method that can actually test it. The figure from the paper captures the logic well: MazF induction, separation of total and polysome-associated RNA, sequencing-based identification of processed transcripts, and direct evidence for MazF-dependent remodeling of the ribosome itself. That is what turns the “MazF regulon” from a loose idea into something experimentally definable.
 
-So although the title uses the word “toolbox”, the main message goes beyond a list of genes
+Although the title uses the word “toolbox”, the main message goes beyond a list of genes
 that MazF controls. It is that bacteria can implement a fast post-transcriptional stress
 response by simultaneously editing the message pool and the translation machinery. For anyone
 interested in bacterial RNA biology, translational control, or stress-induced phenotypic

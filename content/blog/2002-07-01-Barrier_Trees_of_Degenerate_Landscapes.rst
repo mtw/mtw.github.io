@@ -43,7 +43,7 @@ Another reason the paper has aged well is that it is not specific to RNA. The fo
 
 For readers coming from RNA biology, the significance of this paper is easiest to appreciate in hindsight. Many later methods in this blog, including coarse-grained RNA folding kinetics and the exploration of dynamic landscapes, rely on the assumption that one can meaningfully partition structure space into basins connected by barriers. This 2002 paper is one of the places where that assumption was made rigorous for degenerate discrete systems.
 
-So while the article is mathematically inclined, the underlying message is simple and still relevant: if you want to understand a complex landscape, you need more than a list of low-energy states. You need a representation of how those states are connected. Barrier trees provided exactly that representation, and the `barriers` tool made it computationally usable.
+The article is mathematically inclined, though the underlying message is simple and still relevant: if you want to understand a complex landscape, you need more than a list of low-energy states. You need a representation of how those states are connected. Barrier trees provided exactly that representation, and the `barriers` tool made it computationally usable.
 
 .. frame:: Abstract
 

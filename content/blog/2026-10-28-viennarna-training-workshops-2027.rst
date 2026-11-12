@@ -88,9 +88,9 @@ analyses with greater confidence.
 The material draws on my experience in developing RNA analysis methods and in teaching
 computational RNA biology. The focus will be practical and question-driven, i.e. how to
 use ViennaRNA appropriately, how to interpret its output critically and how to decide
-what the analysis contributes to the next research step. Participants should leave with
-a clearer understanding of RNA structure prediction, reusable analysis workflows and the
-ability to recognize both useful findings and important limitations.
+what the analysis contributes to the next research step. Participants should leave able to
+say whether a prediction is worth acting on, with the commands they ran still in their
+shell history and a note of what the method cannot tell them.
 
 Waiting list
 ------------

@@ -55,7 +55,7 @@ GW182 came out as factors connected to ribosome-associated decay states of targe
 
 Seen from later work on xrRNAs, this paper also sharpened the next question. If much of 5' to 3' decay is happening on ribosome-associated messenger complexes, then structured RNA elements that can impede exonucleases become even more interesting, because they do not act in an isolated degradation chamber. They act in the middle of an already crowded and highly coordinated post-transcriptional environment. In that sense, this study predates the xrRNA projects but helped define the decay-centered perspective from which those later questions became compelling.
 
-So although this is not an RNA structure paper, it is an important mechanistic one. It combines classical biochemical fractionation with a transcriptome-wide sequencing readout to make a fairly clean point: in *Drosophila* cells, both general and miRNA-mediated mRNA degradation are closely tied to ribosome-associated complexes. For anyone interested in how gene expression is controlled after transcription, that is a useful result to keep in mind.
+Although this is not an RNA structure paper, it is an important mechanistic one. It combines classical biochemical fractionation with a transcriptome-wide sequencing readout to make a fairly clean point: in *Drosophila* cells, both general and miRNA-mediated mRNA degradation are closely tied to ribosome-associated complexes. For anyone interested in how gene expression is controlled after transcription, that is a useful result to keep in mind.
 
 .. frame:: Abstract
 
