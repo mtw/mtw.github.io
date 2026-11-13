@@ -171,7 +171,8 @@ With exo
 which is the way around the memory ceiling above: a model too large for any single Mac runs
 across two or three of them. It answers ``POST /v1/responses`` on port 52415, so Codex
 drives it like any other provider. The setup behind the numbers below is two 24 GB Macs
-running ``mlx-community/gemma-4-31b-it-6bit``, which neither machine would hold alone.
+running ``mlx-community/gemma-4-31b-it-4bit`` split across both. The 6-bit loads as well,
+and the reason not to use it with an agent is below.
 
 .. code-block:: bash
 
@@ -188,13 +189,18 @@ Port 52415 is not one of the built-in provider IDs, so it needs a provider block
    base_url = "http://localhost:52415/v1"
    wire_api = "responses"
 
-   [profiles.exo]
+and the profile that selects it in its own file, ``~/.codex/exo.config.toml``:
+
+.. code-block:: toml
+
    model_provider = "exo"
-   model = "mlx-community/gemma-4-31b-it-6bit"   # an id from GET /models
+   model = "mlx-community/gemma-4-31b-it-4bit"   # an id from GET /models
    model_context_window = 65536
 
-Then ``codex --profile exo``. ``base_url`` stays on ``localhost`` when Codex runs on one of
-the cluster's own machines; from a laptop it is that node's address and port 52415 instead.
+Then ``codex --profile exo``. A ``[profiles.exo]`` table inside ``config.toml`` is the
+older form. Codex 0.167 refuses ``--profile`` while one is present and names the file
+above as the replacement. ``base_url`` stays on ``localhost`` when Codex runs on one of
+the cluster's own machines. From a laptop it is that node's address and port 52415 instead.
 
 exo's own integrations page writes the provider with ``env_key = "EXO_API_KEY"`` and
 launches Codex as ``EXO_API_KEY=x npx @openai/codex``, which is the same thing arranged
@@ -215,7 +221,7 @@ The model name has to be the id the cluster reports, and
 ``curl http://localhost:52415/models?status=downloaded`` lists what is actually on disk
 rather than what could be fetched. The dashboard sits on the same port.
 
-What exo adds, and what it asks in return:
+What exo adds and what it asks in return:
 
 - Nodes discover each other on the same network when they run **the same build** and the
   same cluster name (``--namespace``, or ``EXO_ZENOH_NAMESPACE``; the default is ``exo``).
@@ -231,9 +237,9 @@ Models come from the MLX community repositories, and a model outside the catalog
 added with ``POST /models/add``; anything that needs ``trust_remote_code`` has to be
 enabled deliberately.
 
-What this looks like in practice, on the two-machine cluster above, is that Codex is the
-problem rather than the cluster. Four coding agents, the same one-file edit, the same
-model (``gemma-4-31b-it-4bit``), the same two machines:
+What this looks like in practice, on the two-machine cluster above, is that Codex and
+gemma 4 do not get along. Four coding agents, the same one-file edit, the same model
+(``gemma-4-31b-it-4bit``), the same two machines, repeated on three separate occasions:
 
 .. code-block:: text
 
@@ -243,21 +249,28 @@ model (``gemma-4-31b-it-4bit``), the same two machines:
    OpenCode      /v1/chat/completions    completed the edit
    pi            /v1/chat/completions    completed the edit
 
-Three of the four do the work. Codex does not. It took the model instance down with it on
-every attempt: the server stopped returning tool results while the model reasoned aloud
-that its tool output was empty, and the runners failed. The same thing happened on
-``gemma-4-31b-it-6bit`` (24.3 GB of weights), on ``gemma-4-31b-it-4bit`` (17.1 GB) and on
-``gpt-oss-20b-MXFP4-Q8`` (11.2 GB), at roughly 7,500, 13,000 and 5,600 tokens of session.
+Three of the four do the work. Codex does not. Within about thirty seconds of its first
+request both runners abort and the instance is gone, every time. The same Codex completes
+the same edit on ``Huihui-Qwen3.5-27B``, on ``Huihui-Qwen3.5-9B`` and on
+``GLM-4.7-Flash-5bit``, so its requests are not harmful as such. It is Codex together with
+this model family. ``gpt-oss-20b`` is the only other model on which Codex took a runner
+down, once, with a seven-minute hang on another attempt.
 
-Setting ``model_context_window`` smaller does not help. At 16384 the session died at 12,545
-tokens against 12,985 at 65536, which is the same place: the ceiling belongs to the server,
-and Codex never reaches the point where a smaller window would make it compact.
+The 6-bit gemma (24.3 GB of weights) fails for a different reason, which is not Codex. A
+plain chat completion of about 4,000 tokens kills its runners with no agent involved,
+while the 4-bit answers 16,000 tokens without complaint. Every coding agent except pi
+carries a system prompt and tool schema above that line, so on two 24 GB machines the
+6-bit is a chat model rather than an agent model. Setting ``model_context_window``
+smaller does not help in either case: for the 6-bit the first request is already too
+large, and for the 4-bit the size is not the problem.
 
-Why it happens I do not know. I rebuilt Codex's requests by hand and sent nine variants
-against both endpoints, with tool definitions, a second turn that feeds a tool result back,
-streaming, and an eleven thousand token prompt. All nine worked and the cluster was healthy
-afterwards. Whatever Codex sends that does the damage is therefore none of those on its
-own. Finding it needs a logging proxy between the two rather than more guessing.
+What in Codex's traffic does the damage is not pinned down. I rebuilt its requests by hand
+and sent nine variants against both endpoints, with tool definitions, a second turn that
+feeds a tool result back, streaming, and an eleven thousand token prompt, and all nine
+worked. Codex 0.169 adds a developer item to the Responses ``input`` that carries its
+code-mode ``exec`` tool (``codex features list`` shows it as ``code_mode_host``), and exo
+rejects that request outright with a 422. The tool definitions Codex sends are therefore
+the first thing to test, with ``code_mode_host`` switched off.
 
 For chat the cluster is unremarkable and useful. ``gemma-4-31b-it-4bit`` generates at 20
 tokens a second, the 6-bit at 13 to 14, and ``Qwen3.5-35B-A3B-4bit`` at 61 to 64 because it
@@ -265,10 +278,12 @@ is a mixture of experts with 3B active parameters. First token comes back in abo
 of a second in each case.
 
 Two practical notes from the same runs. A model small enough for one machine is placed on
-one machine: exo asked for 11.2 GB on a single node for ``gpt-oss-20b`` and left the other
-idle, so below roughly 20 GB a second machine does nothing. And
-``Qwen2.5-Coder-14B-Instruct-abliterated-8bit`` reports ``supports_tensor: false``, so it
-cannot be split at all and has to fit on one node whatever the cluster has.
+one machine by default: for ``gpt-oss-20b`` exo offers a one-node and a two-node placement
+and takes the single node unless told otherwise, so below roughly 20 GB the second machine
+only helps if you pick the two-runner placement yourself. And two models in the catalogue
+cannot drive an agent at all. ``Meta-Llama-3.1-8B-Instruct`` and
+``Qwen2.5-Coder-14B-Instruct`` write the tool call out as text instead of making it, under
+all four agents, each of which then reports success over an unchanged file.
 
 Make it permanent with a profile
 --------------------------------
@@ -295,7 +310,11 @@ next room, say:
    base_url = "http://gpubox.local:11434/v1"
    wire_api = "responses"
 
-   [profiles.gpu]
+with the profile in ``~/.codex/gpu.config.toml``, the same layout the launcher uses for
+``ollama-launch`` above:
+
+.. code-block:: toml
+
    model_provider = "ollama-gpu"
    model = "gpt-oss:20b"
    model_context_window = 65536
