@@ -2,7 +2,7 @@ Run OpenAI Codex CLI with a local model (LM Studio, Ollama or exo)
 ##################################################################
 
 :date: 2026-09-24
-:modified: 2026-11-11
+:modified: 2026-11-14
 :tags: AI; tools
 :category: howto
 :section: guides
