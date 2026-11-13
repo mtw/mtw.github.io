@@ -269,8 +269,12 @@ and sent nine variants against both endpoints, with tool definitions, a second t
 feeds a tool result back, streaming, and an eleven thousand token prompt, and all nine
 worked. Codex 0.169 adds a developer item to the Responses ``input`` that carries its
 code-mode ``exec`` tool (``codex features list`` shows it as ``code_mode_host``), and exo
-rejects that request outright with a 422. The tool definitions Codex sends are therefore
-the first thing to test, with ``code_mode_host`` switched off.
+rejects that request outright with a 422. Switching that feature off
+(``codex -c features.code_mode_host=false``) removes the fast failure on gemma: two of
+three sessions then ran to the end instead of dying at thirty seconds. Neither of them
+edited the file, both ran ``sed`` with a line break inside the pattern, and the third
+session's runners died four minutes in, so the tool definition is part of the cause and
+not all of it. What remains needs a logging proxy between Codex and exo.
 
 For chat the cluster is unremarkable and useful. ``gemma-4-31b-it-4bit`` generates at 20
 tokens a second, the 6-bit at 13 to 14, and ``Qwen3.5-35B-A3B-4bit`` at 61 to 64 because it
