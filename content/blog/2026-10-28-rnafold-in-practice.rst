@@ -340,6 +340,10 @@ Practical consequences
    conclusion. How experimental probing data are added to the model is the subject of the
    :link-flat:`companion post on SHAPE data <{filename}/blog/2026-10-19-shape-probing-data-rna-structure-prediction.rst>`.
 
+Working through this material with the people who wrote the package is the subject of a
+series of :link-flat:`ViennaRNA training modules and workshops <{filename}/blog/2026-10-28-viennarna-training-workshops-2027.rst>`
+in preparation for 2027.
+
 Further reading
 ---------------
 

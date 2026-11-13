@@ -344,6 +344,10 @@ Practical notes
   also the regions where your conclusion rests on the experiment, and where a second
   experiment is most informative.
 
+Deciding which experiment to run, and how far a constrained prediction can be trusted, is
+covered in the :link-flat:`ViennaRNA training modules and workshops <{filename}/blog/2026-10-28-viennarna-training-workshops-2027.rst>`
+in preparation for 2027.
+
 Further reading
 ---------------
 
