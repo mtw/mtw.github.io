@@ -23,4 +23,9 @@ FEED_MAX_ITEMS = 20   # the feed carried the full text of every post (575 KB)   
 
 DELETE_OUTPUT_DIRECTORY = True
 
+# Drafts (:status: draft) are not written to the production build at all. The development
+# server (pelicanconf.py) still renders them under drafts/ for reading.
+DRAFT_URL = ''
+DRAFT_SAVE_AS = ''
+
 GOOGLE_ANALYTICS = 'G-T2RW3VW55N'

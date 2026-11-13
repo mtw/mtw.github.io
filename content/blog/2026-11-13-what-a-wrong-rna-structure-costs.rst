@@ -7,6 +7,7 @@ What a wrong RNA structure costs
 :section: essays
 :bridge: rna
 :slug: what-a-wrong-rna-structure-costs
+:status: draft
 :feedback: guide
 :title: What a wrong RNA structure costs
 :summary: Computing an RNA secondary structure takes a second. Deciding what to do with the result is where a project's money goes. Seven ways a prediction gets used for something it did not say, what each one costs a project in months and experiments at Austrian public funding rates, and the check that would have caught it. Written for the person who signs the timesheet, with the central number computed on a real viral 5' UTR.

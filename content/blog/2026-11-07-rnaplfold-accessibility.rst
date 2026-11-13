@@ -223,9 +223,6 @@ Practical notes
 - ``-T`` rescales the energy parameters. An accessibility computed at 37 °C says little
   about a hybridisation carried out on ice.
 
-What each of these mistakes costs a project, in months and in experiments, is worked
-out in :link-flat:`What a wrong RNA structure costs <{filename}/blog/2026-11-13-what-a-wrong-rna-structure-costs.rst>`.
-
 Choosing a window and a span for a particular design problem is the kind of question the
 :link-flat:`ViennaRNA training modules and workshops <{filename}/blog/2026-10-28-viennarna-training-workshops-2027.rst>`
 in preparation for 2027 are built around.

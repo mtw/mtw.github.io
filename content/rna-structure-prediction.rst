@@ -44,16 +44,6 @@ Tutorials
    virus genome, because the question only arises for sequences too long to fold as a
    whole, and the border effect at an artificial sequence end is measured on it.
 
-Before the tutorials
-====================
-
-- :link-flat-strong:`What a wrong RNA structure costs <{filename}/blog/2026-11-13-what-a-wrong-rna-structure-costs.rst>`
-  (November 2026). Written for the person who signs the timesheet rather than the one
-  running the program: seven ways a prediction gets acted on that did not say what it was
-  taken to say, what each costs in months and experiments, and the one thing that prevents
-  each. The MFE structure of a real viral 5' UTR has a probability of about one percent in
-  its own ensemble; that number is the whole argument.
-
 The package itself
 ==================
 
