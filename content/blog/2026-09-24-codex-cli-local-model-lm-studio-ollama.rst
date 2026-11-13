@@ -18,7 +18,7 @@ Run OpenAI Codex CLI with a local model (LM Studio, Ollama or exo)
 
 .. container:: series-note
 
-   Local AI coding tools, a short series: :link-flat:`Claude Code with LM Studio <{filename}/blog/2026-04-17-run-claude-code-with-local-llm-macos-qwen3.rst>` · :link-flat:`Claude Code with Ollama <{filename}/blog/2026-09-24-run-claude-code-with-ollama.rst>` · Codex CLI with a local model (this post) · :link-flat:`Claude Code for data analysis with a local model <{filename}/blog/2026-10-28-claude-code-csv-reproducible-analysis.rst>`
+   Local AI coding tools, a short series: :link-flat:`Claude Code with LM Studio <{filename}/blog/2026-04-17-run-claude-code-with-local-llm-macos-qwen3.rst>` · :link-flat:`Claude Code with Ollama <{filename}/blog/2026-09-24-run-claude-code-with-ollama.rst>` · Codex CLI with a local model (this post) · :link-flat:`Claude Code for data analysis with a local model <{filename}/blog/2026-10-28-claude-code-csv-reproducible-analysis.rst>` · :link-flat:`four agents against ten models <{filename}/blog/2026-11-14-coding-agents-local-models-exo-cluster.rst>`
 
 Codex, OpenAI's terminal coding agent, can use a local model, the mode is built in: ``codex --oss`` sends
 its requests to a model server on your machine instead of OpenAI's API. LM Studio and
@@ -238,7 +238,8 @@ added with ``POST /models/add``; anything that needs ``trust_remote_code`` has t
 enabled deliberately.
 
 What this looks like in practice, on the two-machine cluster above, is that Codex and
-gemma 4 do not get along. Four coding agents, the same one-file edit, the same model
+gemma 4 do not get along. The full measurement, ten models against four agents, is in
+:link-flat:`its own post <{filename}/blog/2026-11-14-coding-agents-local-models-exo-cluster.rst>`. The short version follows. Four coding agents, the same one-file edit, the same model
 (``gemma-4-31b-it-4bit``), the same two machines, repeated on three separate occasions:
 
 .. code-block:: text

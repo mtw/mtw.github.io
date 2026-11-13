@@ -18,7 +18,7 @@ From a CSV to a reproducible analysis with Claude Code
 
 .. container:: series-note
 
-   Companion to the setup guides :link-flat:`Claude Code with LM Studio <{filename}/blog/2026-04-17-run-claude-code-with-local-llm-macos-qwen3.rst>` and :link-flat:`Claude Code with Ollama <{filename}/blog/2026-09-24-run-claude-code-with-ollama.rst>`. Those two posts get the agent running, this one is about using it for a small data analysis.
+   Companion to the setup guides :link-flat:`Claude Code with LM Studio <{filename}/blog/2026-04-17-run-claude-code-with-local-llm-macos-qwen3.rst>` and :link-flat:`Claude Code with Ollama <{filename}/blog/2026-09-24-run-claude-code-with-ollama.rst>`. Those two posts get the agent running, this one is about using it for a small data analysis. The :link-flat:`measurement of four agents against ten local models <{filename}/blog/2026-11-14-coding-agents-local-models-exo-cluster.rst>` is the companion on the model side.
 
 Whenever it comes to analyzing experimental data with a coding agent, the tedious part is
 making sure that the script computes what was intended. Getting a script and a plot is the

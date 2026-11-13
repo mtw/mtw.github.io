@@ -18,7 +18,7 @@ Run Claude Code with Ollama on macOS, Linux and Windows
 
 .. container:: series-note
 
-   Local AI coding tools, a short series: :link-flat:`Claude Code with LM Studio <{filename}/blog/2026-04-17-run-claude-code-with-local-llm-macos-qwen3.rst>` · Claude Code with Ollama (this post) · :link-flat:`Codex CLI with a local model <{filename}/blog/2026-09-24-codex-cli-local-model-lm-studio-ollama.rst>` · :link-flat:`Claude Code for data analysis with a local model <{filename}/blog/2026-10-28-claude-code-csv-reproducible-analysis.rst>`
+   Local AI coding tools, a short series: :link-flat:`Claude Code with LM Studio <{filename}/blog/2026-04-17-run-claude-code-with-local-llm-macos-qwen3.rst>` · Claude Code with Ollama (this post) · :link-flat:`Codex CLI with a local model <{filename}/blog/2026-09-24-codex-cli-local-model-lm-studio-ollama.rst>` · :link-flat:`Claude Code for data analysis with a local model <{filename}/blog/2026-10-28-claude-code-csv-reproducible-analysis.rst>` · :link-flat:`four agents against ten models <{filename}/blog/2026-11-14-coding-agents-local-models-exo-cluster.rst>`
 
 Claude Code runs against Ollama with two environment variables, because since Ollama
 0.14.0 (January 2026) the Ollama server answers Anthropic's Messages API on

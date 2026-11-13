@@ -37,6 +37,7 @@ INTENDED_ADDITIONS = {
     "https://michaelwolfinger.com/blog/2026/theophylline-aptamer-sequence-editability/",
     "https://michaelwolfinger.com/blog/2026/rnaplfold-accessibility/",
     "https://michaelwolfinger.com/blog/2026/viennarna-2-8-0/",
+    "https://michaelwolfinger.com/blog/2026/coding-agents-local-models-exo-cluster/",
 }
 
 
