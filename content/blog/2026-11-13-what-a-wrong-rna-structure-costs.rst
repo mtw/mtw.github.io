@@ -22,8 +22,8 @@ What a wrong RNA structure costs
 Computing a secondary structure is the cheapest step in RNA biology. What is done with
 the result is among the most consequential. ``RNAfold`` on a few hundred nucleotides
 finishes in well under a second on a laptop, and the output looks finished too: one line
-of brackets, one energy. Nothing about it signals that it is a summary of a population
-rather than a description of a molecule.
+of brackets, one energy. Nothing about it says that this is the most probable of many
+structures the molecule adopts, not the structure it has.
 
 The money is spent afterwards, when the line of brackets becomes a mutant series, a
 synthesis order, or a panel in a grant application. This is a list of the ways I have
@@ -255,9 +255,9 @@ What the arithmetic says
 
 Each item above costs more than the check that would have caught it, usually by a factor
 of a hundred or more. The check is a second command, or a second look at output that
-already exists. The expensive mistakes in RNA structure work happen when a summary of a
-population is read as a description of a molecule and an order form is signed on that
-reading.
+already exists. The expensive mistakes in RNA structure work happen when the most probable of
+many structures is read as the structure the molecule has, and an order form is signed
+on that reading.
 
 Sources: FWF `standard personnel costs <https://www.fwf.ac.at/en/funding/steps-to-your-fwf-project/further-information/personnel-costs>`_,
 rates for applications from January 2026 ·
