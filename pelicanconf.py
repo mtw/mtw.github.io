@@ -106,14 +106,9 @@ M_LINKS_FOOTER2 = [('More', ''),
                    ('RNA folding kinetics', '/rna-folding-kinetics/'),
                     ('Glossary', '/glossary/'),
                     ('RNA Forecast', 'https://rnaforecast.com'),
+                    ('Notes by e-mail', 'https://rnaforecast.com/list/'),
                     ('Contact', '/contact/'),
                     ]
-
-# Legal links: not a footer column but the bottom row, next to the fine print.
-M_LINKS_LEGAL = [('Impressum', '/legal/'),
-                 ('Datenschutz', '/datenschutz/'),
-                 ('Cookie settings', '#cookie-settings'),
-                 ]
 
 M_LINKS_FOOTER3 = [('My Profiles', ''),
                     ('Google Scholar', 'https://scholar.google.at/citations?user=w0PHGnEAAAAJ&hl=en'),
