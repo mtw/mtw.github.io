@@ -415,3 +415,37 @@ def test_quoted_abstract_is_attributed_to_the_paper(output_dir):
         posting = next(n for n in nodes if "BlogPosting" in _types(n))
         assert "abstract" not in posting, f"{post}: the post node claims the paper's abstract"
     assert checked >= 50, f"only {checked} posts quote an abstract"
+
+
+# --- Content-Security-Policy -------------------------------------------------------------
+# The consent gate is the only inline script the site runs, and the CSP served from the
+# edge (Cloudflare, Rules → Transform Rules, "csp report-only") allows it by the SHA-256 of
+# its exact bytes. If the script or the minifier changes, the hash changes, and with an
+# enforcing policy the consent banner would stop working on the live site. This pins the
+# hash so the change is noticed here first.
+CONSENT_SCRIPT_SHA256 = "sha256-jE29Xtc2hBcUFUPFc/Z2ymWsJjKkc2rwQNO/F2Bn0Bg="
+INLINE_SCRIPT_RE = re.compile(r"<script(?P<attrs>[^>]*)>(?P<body>.*?)</script>", re.S)
+
+
+def _inline_script_hashes(page: Path) -> set[str]:
+    import base64
+    import hashlib
+    hashes = set()
+    for m in INLINE_SCRIPT_RE.finditer(page.read_text(encoding="utf-8")):
+        if "src=" in m.group("attrs") or "ld+json" in m.group("attrs"):
+            continue
+        digest = hashlib.sha256(m.group("body").encode("utf-8")).digest()
+        hashes.add("sha256-" + base64.b64encode(digest).decode())
+    return hashes
+
+
+def test_the_only_inline_script_is_the_consent_gate_with_the_pinned_hash(output_dir):
+    seen = set()
+    for page in _html_pages(output_dir):
+        hashes = _inline_script_hashes(page)
+        assert len(hashes) <= 1, f"{page}: more than one inline script ({len(hashes)})"
+        seen |= hashes
+    assert seen == {CONSENT_SCRIPT_SHA256}, (
+        f"inline script hash is {sorted(seen)}, pinned {CONSENT_SCRIPT_SHA256}. The consent "
+        "script changed: update the Content-Security-Policy rule in Cloudflare for "
+        "michaelwolfinger.com with the new hash, then the constant here.")
