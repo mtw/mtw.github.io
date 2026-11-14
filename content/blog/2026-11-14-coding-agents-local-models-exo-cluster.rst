@@ -8,6 +8,7 @@ Four coding agents against ten local models on an exo cluster
 :bridge: tools
 :slug: coding-agents-local-models-exo-cluster
 :feedback: guide
+:social_image: {static}/static/og-agent-matrix-1200x630.png
 :title: Claude Code, Codex, OpenCode and pi against ten local models on a two-Mac exo cluster
 :summary: I ran Claude Code, Codex, OpenCode and pi against the ten models that are downloaded on my exo cluster (two Mac minis with 24 GB each), with the same one-line editing task for all of them, one model loaded at a time, and exo's runner states read after every run. The table shows which combinations completed the edit. The text explains the failures, which turned out to have four unrelated causes, i.e. two models that write the tool call as text instead of making it, the 6-bit gemma-4-31b, whose 24 GB of weights leave so little memory that a prompt of a few thousand tokens kills it, a problem specific to Codex with gemma 4, and ordinary mistakes by the models.
 :description: Claude Code, Codex CLI, OpenCode and pi measured against ten local models on an exo cluster of two 24 GB Macs, with the causes of the failures taken apart.
@@ -232,6 +233,5 @@ these tools.
   in into ``~/.codex/config.toml``.
 
 One lesson is more general than the others. What an agent says about its own work is no
-measurement of it. Three of the ten models above produced, with each of the four
-agents, a confident report that the edit had been made, over a file that had not
-changed.
+measurement of it. Two of the ten models above produced, with each of the four agents,
+a confident report that the edit had been made, over a file that had not changed.
