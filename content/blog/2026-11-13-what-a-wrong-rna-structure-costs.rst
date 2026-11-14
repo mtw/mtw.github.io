@@ -214,7 +214,7 @@ different structure becomes the MFE, with alternative D and anticodon arms. What
 real molecule in its shape is a network of tertiary contacts and a magnesium ion, neither
 of which is in the model.
 
-**Why the model produces it.** The nearest-neighbour model contains stacking energies,
+**Why the model produces it.** The nearest neighbour model contains stacking energies,
 loop penalties and the standard base pairs at 37 °C in 1 M NaCl. It does not contain
 pseudoknots, divalent ions, proteins, modified bases unless asked, or tertiary contacts.
 Where those decide the fold, the thermodynamic ensemble is the starting point of the

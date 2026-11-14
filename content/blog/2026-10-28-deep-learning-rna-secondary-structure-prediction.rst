@@ -32,7 +32,7 @@ The classical approach and its limits
 
 Energy directed folding, as implemented in RNAfold and related programs, computes the
 structure of lowest free energy under the
-:link-flat:`nearest-neighbor model <{filename}/glossary.rst#nearest-neighbor-model>`,
+:link-flat:`nearest neighbor model <{filename}/glossary.rst#nearest-neighbor-model>`,
 i.e. a table of free energies for small structural motifs (base pair stacks, hairpin,
 interior and multi loops) that was measured in UV melting experiments. Under the
 simplifying assumptions of that model, in particular the exclusion of

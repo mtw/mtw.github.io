@@ -28,11 +28,11 @@ RNA secondary structure and the thermodynamic model
    <dt id="dot-bracket">Dot-bracket notation</dt>
    <dd>A string with one character per nucleotide. A dot marks an unpaired position, a pair of matching parentheses a base pair. <code>(((((((..((((........)))).(((((.......))))).....(((((.......)))))))))))).... </code> is the cloverleaf of yeast tRNA-Phe. All ViennaRNA programs read and write this notation.</dd>
 
-   <dt id="nearest-neighbor-model">Nearest-neighbor energy model</dt>
+   <dt id="nearest-neighbor-model">Nearest neighbor energy model</dt>
    <dd>The free energy of a secondary structure is written as a sum over its loops: stacked pairs, hairpin loops, bulges, interior loops and multiloops, each with a tabulated contribution. The parameters (Turner 2004) were measured by optical melting of small RNAs at 37 °C in 1 M NaCl. Every prediction in ViennaRNA rests on this model, and every limitation of the predictions starts here.</dd>
 
    <dt id="mfe">Minimum free energy (MFE) structure</dt>
-   <dd>The secondary structure with the lowest free energy under the nearest-neighbor model, computed by dynamic programming (Zuker and Stiegler 1981) in <code>RNAfold</code>. It is one structure out of an astronomically large set, and its weight in the ensemble can be a few percent. How much to trust it is the question the <a href="{filename}/blog/2026-10-19-shape-probing-data-rna-structure-prediction.rst">SHAPE tutorial</a> works through on a tRNA.</dd>
+   <dd>The secondary structure with the lowest free energy under the nearest neighbor model, computed by dynamic programming (Zuker and Stiegler 1981) in <code>RNAfold</code>. It is one structure out of an astronomically large set, and its weight in the ensemble can be a few percent. How much to trust it is the question the <a href="{filename}/blog/2026-10-19-shape-probing-data-rna-structure-prediction.rst">SHAPE tutorial</a> works through on a tRNA.</dd>
 
    <dt id="partition-function">Partition function and Boltzmann ensemble</dt>
    <dd>The sum over all secondary structures of exp(−E/RT), computed by McCaskill's algorithm (1990), <code>RNAfold -p</code>. Dividing a structure's Boltzmann factor by the partition function gives its probability, and summing over structures gives the probability of each base pair. The ensemble, rather than a single structure, is what the energy model actually predicts.</dd>

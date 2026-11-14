@@ -29,7 +29,7 @@ RNA sequence and returns a
 list of base pairs, and what it returns by default is the
 :link-flat:`minimum free energy (MFE) structure <{filename}/glossary.rst#mfe>`, the single
 arrangement of base pairs with the lowest free energy under the
-:link-flat:`nearest-neighbor energy model <{filename}/glossary.rst#nearest-neighbor-model>`.
+:link-flat:`nearest neighbor energy model <{filename}/glossary.rst#nearest-neighbor-model>`.
 This structure is a useful first answer, and in many cases it is also the wrong place to
 stop. In this post I go through what RNAfold computes, how to read each line of its
 output, and how one can tell whether the MFE structure is a robust prediction or one of
@@ -332,7 +332,7 @@ Practical consequences
 3. When a specific structure matters, e.g. a proposed switch, a conserved element or a
    designed sequence, evaluate it with RNAeval and check how far it is from the MFE and
    how often its pairs occur in the ensemble.
-4. Keep in mind what the model contains, namely nearest-neighbor stacking energies, loop
+4. Keep in mind what the model contains, namely nearest neighbor stacking energies, loop
    penalties, canonical and GU pairs at 37 °C and 1 M NaCl. It does not contain
    :link-flat:`pseudoknots <{filename}/glossary.rst#pseudoknot>`, ions, modified
    nucleotides, proteins or tertiary contacts. Where those decide the fold, as they do for
