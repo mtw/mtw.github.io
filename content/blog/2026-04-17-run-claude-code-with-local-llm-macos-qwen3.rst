@@ -2,16 +2,16 @@ Connect Claude Code to LM Studio: local LLM setup on Apple Silicon
 ##################################################################
 
 :date: 2026-04-17
-:modified: 2026-10-28
+:modified: 2026-11-14
 :tags: AI; tools
 :category: howto
 :section: guides
 :bridge: tools
 :slug: claude-code-local-llm-apple-silicon
 :feedback: guide
-:title: Connect Claude Code to LM Studio: local LLM setup on Apple Silicon
+:title: Claude Code with a local LLM: LM Studio setup on Apple Silicon
 :summary: Connect Claude Code to LM Studio's Anthropic-compatible endpoint and run a local model on Apple Silicon: setup, model choice, context length, and the errors you will actually meet.
-:description: Claude Code + LM Studio setup on Apple Silicon: ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN, which local model and context length to use, common errors.
+:description: Claude Code with LM Studio on Apple Silicon: the two environment variables, which local model fits 16 or 24 GB, a context length that works, common errors.
 
 .. role:: link-flat(link)
   :class: m-flat m-text
