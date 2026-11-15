@@ -119,8 +119,8 @@ Chemical probing data
    <dt id="reactivity">Reactivity</dt>
    <dd>The per-nucleotide number a probing experiment produces after normalization, typically between 0 and about 2. A reactivity is not a pairing state: a low value means the nucleotide is constrained in some way, a high value means it is flexible, which is true for unpaired nucleotides but also for nucleotides at helix ends and in dynamic pairs. The values are noisy and their scale depends on the experiment.</dd>
 
-   <dt id="soft-constraints">Soft constraints and pseudo-energies</dt>
-   <dd>Experimental data enter the prediction as additional energy terms instead of fixed pairing states. A reactivity is converted into a pseudo-energy that rewards or penalizes the pairing of that nucleotide; the folding recursions stay the same, only the energies change. ViennaRNA implements three conversions, after Deigan, Zarringhalam and Washietl, compared in <a href="{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst">Predicting RNA structures from sequence and probing data</a>.</dd>
+   <dt id="soft-constraints">Soft constraints and pseudo energies</dt>
+   <dd>Experimental data enter the prediction as additional energy terms instead of fixed pairing states. A reactivity is converted into a pseudo energy that rewards or penalizes the pairing of that nucleotide; the folding recursions stay the same, only the energies change. ViennaRNA implements three conversions, after Deigan, Zarringhalam and Washietl, compared in <a href="{filename}/blog/2016-07-01-Predicting_RNA_Structures_from_Sequence_and_Probing_Data.rst">Predicting RNA structures from sequence and probing data</a>.</dd>
 
    <dt id="hard-constraints">Hard constraints</dt>
    <dd>Pairing states that are forced: a nucleotide must be unpaired, two nucleotides must pair, a region must not pair. <code>RNAfold -C</code> reads them in dot-bracket-like notation. Hard constraints remove structures from the ensemble; soft constraints reweight them. Probing data are too noisy to be used as hard constraints.</dd>

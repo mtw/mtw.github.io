@@ -33,7 +33,7 @@ SHAPE directed RNA folding
           :alt: Deigan method adjusts the energetics of stacked base pairs
           :figclass: m-figure m-flat
 
-**In short:** ViennaRNA folds with SHAPE data through soft constraints: ``RNAfold --shape reactivities.dat`` with ``--shapeMethod=D``, ``Z`` or ``W`` selects the Deigan, Zarringhalam or Washietl conversion of reactivities into pseudo-energies. The data adjust the energy model rather than fix base pairs, so probing improves predictions where the thermodynamic model is uncertain and leaves the interpretation of the ensemble to you. A step-by-step tutorial with a worked example is :link-flat:`SHAPE and chemical probing data in RNA structure prediction <{filename}/blog/2026-10-19-shape-probing-data-rna-structure-prediction.rst>`.
+**In short:** ViennaRNA folds with SHAPE data through soft constraints: ``RNAfold --shape reactivities.dat`` with ``--shapeMethod=D``, ``Z`` or ``W`` selects the Deigan, Zarringhalam or Washietl conversion of reactivities into pseudo energies. The data adjust the energy model rather than fix base pairs, so probing improves predictions where the thermodynamic model is uncertain and leaves the interpretation of the ensemble to you. A step-by-step tutorial with a worked example is :link-flat:`SHAPE and chemical probing data in RNA structure prediction <{filename}/blog/2026-10-19-shape-probing-data-rna-structure-prediction.rst>`.
 
 This paper sits at a practical intersection, where one has a sequence,
 probing data, and the need to combine both in a single folding model.
@@ -51,7 +51,7 @@ turn those measurements into something a folding algorithm can use
 without pretending the data are exact. The paper stays in that narrow
 space between experiment and model.
 
-Methodologically, the paper compares three influential SHAPE-integration strategies and implements them in a common ViennaRNA framework. The Deigan approach converts reactivities into pseudo-energies that act mainly on stacked pairs, which makes it direct and relatively light. The Zarringhalam method reads reactivities in terms of paired and unpaired propensities and spreads penalties more broadly across the structure. The Washietl approach takes a more global view and infers a perturbation of the energy model that reconciles thermodynamic folding with the probing signal while keeping the intervention small. Seeing these methods side by side in one software environment makes their assumptions much easier to compare.
+Methodologically, the paper compares three influential SHAPE-integration strategies and implements them in a common ViennaRNA framework. The Deigan approach converts reactivities into pseudo energies that act mainly on stacked pairs, which makes it direct and relatively light. The Zarringhalam method reads reactivities in terms of paired and unpaired propensities and spreads penalties more broadly across the structure. The Washietl approach takes a more global view and infers a perturbation of the energy model that reconciles thermodynamic folding with the probing signal while keeping the intervention small. Seeing these methods side by side in one software environment makes their assumptions much easier to compare.
 
 That comparative aspect is one of the strongest features of the paper. It lays out the choices that matter instead of arguing for one universal recipe. How strongly should experimental data push against the default energy model? Is it better to treat reactivities locally, or to interpret them at the ensemble level? What should happen when SHAPE data favor a structure the default parameterization would otherwise underweight? These are the real inference questions behind experiment-guided RNA folding.
 
@@ -91,7 +91,7 @@ For a deeper methodological breakdown, the `Supplementary Data <https://doi.org/
   assessment of RNA structure. We demonstrate that different strategies of
   integrating probing data with thermodynamics-based RNA secondary
   structure prediction algorithms can be implemented by means of soft
-  constraints. This amounts to incorporating suitable pseudo-energies into
+  constraints. This amounts to incorporating suitable pseudo energies into
   the standard energy model for RNA secondary structures. As a showcase
   application for this new feature of the ViennaRNA Package we compare
   three distinct, previously published strategies to utilize SHAPE

@@ -13,7 +13,7 @@ import pytest
 
 BLOG_DIR = Path(__file__).resolve().parents[1] / "content" / "blog"
 REQUIRED = ("date", "slug", "category", "tags", "summary", "description")
-SECTIONS = {"guides", "essays", "talks"}
+SECTIONS = {"guides", "essays", "releases", "talks"}
 FIELD_RE = re.compile(r"^:(?P<key>[a-z_]+):\s*(?P<value>.*?)\s*$", re.MULTILINE)
 
 

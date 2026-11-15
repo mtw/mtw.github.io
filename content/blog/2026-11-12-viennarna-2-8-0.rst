@@ -3,8 +3,8 @@ ViennaRNA 2.8.0: cross-linking data, global equilibrium probabilities, modified 
 
 :date: 2026-11-12
 :tags: ViennaRNA; RNA structure prediction; tools
-:category: howto
-:section: guides
+:category: releases
+:section: releases
 :bridge: rna
 :slug: viennarna-2-8-0
 :feedback: guide
@@ -56,7 +56,7 @@ and both take their parameters more flexibly on the command line. The three SHAP
 the :link-flat:`probing-data tutorial <{filename}/blog/2026-10-19-shape-probing-data-rna-structure-prediction.rst>`
 works through are still there and are now members of a family. One related change is worth
 having: fractional soft constraints are preserved for partition function calculations,
-where reactivity-derived pseudo-energies used to be rounded to integers.
+where reactivity-derived pseudo energies used to be rounded to integers.
 
 Equilibrium probabilities over a whole sequence, and for whole helices
 ----------------------------------------------------------------------

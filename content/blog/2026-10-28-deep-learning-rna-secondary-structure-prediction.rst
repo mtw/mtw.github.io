@@ -3,7 +3,7 @@ Deep learning for RNA secondary structure prediction
 
 :date: 2026-10-28
 :tags: AI; ViennaRNA
-:category: outreach
+:category: background
 :section: essays
 :slug: deep-learning-rna-secondary-structure-prediction
 :title: AI for RNA structure prediction: what deep learning models learn

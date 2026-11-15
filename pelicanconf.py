@@ -149,7 +149,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Display names for the blog categories (the category slug stays as it is).
-M_CATEGORY_LABELS = {'howto': 'How-to', 'outreach': 'Outreach', 'publications': 'Publications'}
+M_CATEGORY_LABELS = {'howto': 'Tutorial', 'background': 'Background', 'releases': 'Release notes',
+                     'outreach': 'Talks and outreach', 'publications': 'Publications'}
 
 # The three guide tiles on the landing page, by article slug and in this order; the
 # "Latest writing" list below them skips these posts.

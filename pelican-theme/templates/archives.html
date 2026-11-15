@@ -110,8 +110,8 @@
     {#- Group by the :section: field when we are on the plain index. Sections generate no
         URLs of their own, so this grouping is purely presentational. -#}
     {% if _hide_pubs %}
-    {% set _sections = [('guides', 'Guides'), ('essays', 'Essays'), ('talks', 'Talks &amp; events')] %}
-    {% set _known = ['guides', 'essays', 'talks'] %}
+    {% set _sections = [('guides', 'Guides'), ('essays', 'Essays'), ('releases', 'Release notes'), ('talks', 'Talks &amp; events')] %}
+    {% set _known = ['guides', 'essays', 'releases', 'talks'] %}
     {% for _key, _label in _sections %}
     {% set _group = _rest|selectattr('section', 'defined')|selectattr('section', 'equalto', _key)|list %}
     {% if _group %}

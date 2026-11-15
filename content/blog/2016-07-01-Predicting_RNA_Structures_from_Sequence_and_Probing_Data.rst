@@ -60,7 +60,7 @@ such as SHAPE, PARS, and related probing strategies provide
 nucleotide-resolution information about local flexibility. The
 computational question is how to convert those experimental readouts
 into something a folding algorithm can use. The review discusses
-approaches based on pseudo-energies and soft constraints, where probing
+approaches based on pseudo energies and soft constraints, where probing
 reactivities perturb the thermodynamic model rather than replacing it
 outright. That choice keeps the prediction grounded in base-pairing
 energetics while still allowing experimental evidence to influence the
