@@ -63,6 +63,8 @@ RNA secondary structure and the thermodynamic model
 
    <dt id="ensemble-defect">Ensemble defect</dt>
    <dd>The expected number of nucleotides whose pairing state in the Boltzmann ensemble differs from a target structure. A sequence with an ensemble defect of zero folds into the target and nothing else. It is the standard objective in computational RNA design, more informative than asking whether the MFE structure equals the target.</dd>
+   <dt id="structure-review">Structure review</dt>
+   <dd>Reading a predicted structure before anything is built on it: which helices are supported and by what, where the ensemble disagrees with the MFE structure, what the model does not contain, and what the next experiment would settle. By analogy to a code review or a design review, it is a judgement on a prediction rather than a new calculation, and it is written down so that it can be repeated.</dd>
    </dl>
 
 Folding kinetics and energy landscapes

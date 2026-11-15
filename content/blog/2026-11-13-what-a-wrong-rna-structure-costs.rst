@@ -256,7 +256,9 @@ What the arithmetic says
 
 Each item above costs more than the check that would have caught it, usually by a factor
 of a hundred or more. The check is a second command, or a second look at output that
-already exists. The expensive mistakes in RNA structure work happen when the most probable of
+already exists. Done deliberately, before anything is ordered, that check has a name, an
+:link-flat:`RNA structure review <{filename}/glossary.rst#structure-review>`, and it takes
+an afternoon. The expensive mistakes in RNA structure work happen when the most probable of
 many structures is read as the structure the molecule has, and an order form is signed
 on that reading.
 
