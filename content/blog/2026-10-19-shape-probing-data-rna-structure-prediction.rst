@@ -102,7 +102,7 @@ programs is the same for real data, the numbers are not. The profile used below 
 :link-flat:`tRNA-Phe.shape <{static}/files/tutorials/tRNA-Phe.shape>`, which you can save
 as ``tRNA.shape`` to run the commands.
 
-Method D (Deigan): pseudo-energies for stacked pairs
+Method D (Deigan): pseudo energies for stacked pairs
 ----------------------------------------------------
 
 .. code-block:: bash
@@ -113,14 +113,14 @@ Method D (Deigan): pseudo-energies for stacked pairs
 
    (((((((..((((........)))).(((((.......))))).....(((((.......)))))))))))).... (-48.64)
 
-This is the default method, in which each reactivity *r* is converted into a pseudo-energy
+This is the default method, in which each reactivity *r* is converted into a pseudo energy
 ΔG(r) = m · ln(r + 1) + b with m = 1.8 and b = −0.6 kcal/mol (Deigan et al. 2009), and
 this term is added for every nucleotide that is part of a stacked pair. Low reactivities
 give a negative contribution, i.e. a bonus for pairing, high reactivities a penalty.
 The folding recursions inside ViennaRNA stay the same, only the energies change.
 
 Note that the energy printed, −48.64, is not a bona fidae free energy anymore. It contains the
-pseudo-energies and must not be compared with the −22.40 of the unconstrained prediction.
+pseudo energies and must not be compared with the −22.40 of the unconstrained prediction.
 The structure is the same cloverleaf as before, so the data did not change the MFE
 prediction at all. What they did change becomes visible with the partition function:
 
@@ -310,7 +310,7 @@ the same and so is the calculation. What differs is the interpretation, in three
   folding each profile on its own does not.
 - A profile with data for A and C only, as from DMS, leaves the other half of the
   sequence without information. This is exactly the situation of the partial-data
-  experiment above, i.e. the pseudo-energies act on the probed positions and the
+  experiment above, i.e. the pseudo energies act on the probed positions and the
   thermodynamic model alone decides the rest. A DMS-guided prediction that looks almost
   identical to the unconstrained one is often just that.
 - Positions with insufficient read depth or a high background rate must be removed
@@ -322,7 +322,7 @@ the same and so is the calculation. What differs is the interpretation, in three
 
 In practical terms, in-cell and MaP data are normalized and used like any other
 profile, with somewhat lower signal to noise than a clean in vitro experiment, and the
-pseudo-energy parameters of the D method, which were fitted on RT-stop data, are used
+pseudo energy parameters of the D method, which were fitted on RT-stop data, are used
 unchanged by most groups.
 
 Practical notes
@@ -343,6 +343,9 @@ Practical notes
   the structure are the regions where the thermodynamic model was uncertain. These are
   also the regions where your conclusion rests on the experiment, and where a second
   experiment is most informative.
+
+What each of these mistakes costs a project, in months and in experiments, is worked
+out in :link-flat:`What a wrong RNA structure costs <{filename}/blog/2026-11-15-what-a-wrong-rna-structure-costs.rst>`.
 
 Deciding which experiment to run, and how far a constrained prediction can be trusted, is
 covered in the :link-flat:`ViennaRNA training modules and workshops <{filename}/blog/2026-10-28-viennarna-training-workshops-2027.rst>`
