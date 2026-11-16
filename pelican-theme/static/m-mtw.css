@@ -13,7 +13,7 @@
    Self-contained: styles the semantic HTML docutils/Pelican emits, plus a
    compact m-grid shim so existing .rst layouts keep working.
    ===================================================================== */
-:root{--bg:#f1f0ec; --ink:#1c1c1a; --sub:#55534c; --muted:#6b6860; --faint:#73706a;  /* darkened from the mockup tokens (#89867d, #a29f95) for WCAG AA contrast: 4.9:1 and 4.3:1 on the page ground */
+:root{--bg:#f1f0ec; --ink:#1c1c1a; --sub:#55534c; --muted:#6b6860; --faint:#6b6860;  /* darkened from the mockup tokens (#89867d, #a29f95) for WCAG AA contrast: 4.9:1 and 4.3:1 on the page ground */
   --accent:#3a5c7d; --accent-dark:#2a4560; --dark:#26333f; --panel:#f6f5f1;
   --border:#dedcd4; --border-2:#e6e4dc; --hair:#ecebe4;
   --maxw:1120px; --gutter:44px; --measure:70ch;}
@@ -524,7 +524,7 @@ a{color:#000;text-decoration:underline}}
 .site-form .field{display:block;margin:0 0 16px}
 .site-form label{display:block;font-family:"Archivo",sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
 .site-form abbr,.site-form .form-note abbr{color:var(--accent);text-decoration:none;border:0}
-.site-form .input{width:100%;box-sizing:border-box;min-height:40px;padding:9px 11px;font:inherit;font-size:.95rem;color:var(--ink);background:#fff;border:1px solid var(--border);border-radius:2px}
+.site-form .input{width:100%;box-sizing:border-box;min-height:44px;padding:9px 11px;font:inherit;font-size:.95rem;color:var(--ink);background:#fff;border:1px solid var(--border);border-radius:2px}
 .site-form .input:hover{border-color:var(--sub)}
 .site-form .input:focus-visible{border-color:var(--accent);outline:2px solid var(--accent);outline-offset:0}
 .site-form textarea.input{min-height:120px;resize:vertical;display:block}
@@ -562,12 +562,12 @@ a{color:#000;text-decoration:underline}}
 .tile:hover,.tile:focus-visible{text-decoration:none;border-color:var(--accent)}
 .tile .t-eyebrow{font-family:"Archivo",sans-serif;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
 .tile.t-muted .t-eyebrow{color:var(--muted)}
-.tile h3{font-family:"Archivo",sans-serif;font-size:1.3rem;font-weight:600;line-height:1.2;letter-spacing:-.01em;margin:0;text-transform:none;transition:color .15s}
-.tile:hover h3{color:var(--accent)}
+.tile h3,.tile h2{font-family:"Archivo",sans-serif;font-size:1.3rem;font-weight:600;line-height:1.2;letter-spacing:-.01em;margin:0;text-transform:none;transition:color .15s}
+.tile:hover h3,.tile:hover h2{color:var(--accent)}
 .tile p{margin:0;font-size:.92rem;line-height:1.55;color:var(--sub);flex-grow:1}
 .tile .t-foot{display:flex;justify-content:space-between;gap:12px;font-size:.8rem;color:var(--muted);font-variant-numeric:tabular-nums}
 .tile.t-dark{background:var(--dark);border-color:var(--dark);color:#eef1f4}
-.tile.t-dark .t-eyebrow{color:#9dbfd8}.tile.t-dark h3,.tile.t-dark:hover h3{color:#fff}.tile.t-dark p{color:#d7dde3}
+.tile.t-dark .t-eyebrow{color:#9dbfd8}.tile.t-dark h3,.tile.t-dark:hover h3,.tile.t-dark h2,.tile.t-dark:hover h2{color:#fff}.tile.t-dark p{color:#d7dde3}
 .home-head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;padding:1.3rem 0 .4rem}
 .home-head .sec-label{margin:0;font-size:.82rem}
 .home-head a{font-family:"Archivo",sans-serif;font-size:.85rem;font-weight:600;color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(58,92,125,.35);padding-bottom:2px}

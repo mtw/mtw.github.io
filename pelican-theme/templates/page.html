@@ -85,7 +85,7 @@
       {% for _slug in HOME_GUIDES %}{% for article in articles if article.slug == _slug %}
       <a class="tile" href="{{ article.url|format_siteurl|e }}">
         <span class="t-eyebrow">{% if article.section == 'guides' %}Tutorial{% elif article.section == 'essays' %}Background{% elif article.section == 'releases' %}Release note{% else %}{{ _labels.get(article.category.name, article.category|string)|e }}{% endif %}</span>
-        <h3>{{ article.title|e }}</h3>
+        <h2>{{ article.title|e }}</h2>
         <p>{{ (article.description or article.summary)|dehyphenate|striptags|truncate(175)|e }}</p>
         <span class="t-foot"><span>{{ article.date|strftime("%-d %B %Y") }}</span><span>Read &rarr;</span></span>
       </a>
