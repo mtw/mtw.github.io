@@ -11,7 +11,7 @@ Four coding agents against ten local models on an exo cluster
 :social_image: {static}/static/og-agent-matrix-1200x630.png
 :title: Claude Code, Codex, OpenCode and pi against ten local models on a two-Mac exo cluster
 :summary: I ran Claude Code, Codex, OpenCode and pi against the ten models that are downloaded on my exo cluster (two Mac minis with 24 GB each), with the same one-line editing task for all of them, one model loaded at a time, and exo's runner states read after every run. The table shows which combinations completed the edit. The text explains the failures, which turned out to have four unrelated causes, i.e. two models that write the tool call as text instead of making it, the 6-bit gemma-4-31b, whose 24 GB of weights leave so little memory that a prompt of a few thousand tokens kills it, a problem specific to Codex with gemma 4, and ordinary mistakes by the models.
-:description: Claude Code, Codex CLI, OpenCode and pi measured against ten local models on an exo cluster of two 24 GB Macs, with the causes of the failures taken apart.
+:description: Which coding agent works with which local model: Claude Code, Codex CLI, OpenCode and pi against ten models on two 24 GB Macs, with the failures explained.
 
 .. role:: link-flat(link)
   :class: m-flat m-text
