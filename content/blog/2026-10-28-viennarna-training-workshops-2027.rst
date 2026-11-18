@@ -103,3 +103,7 @@ The form has a field for topics, example questions or workflows you would like t
 covered, and these suggestions are welcome. Joining the list expresses interest only and
 does not commit you to anything, you will receive one email when the first dates are
 available.
+
+RNA Forecast is also developing a format for
+`RNA structure reviews <https://rnaforecast.com/structure-review/?utm_source=michaelwolfinger.com&utm_medium=referral&utm_campaign=structure-review&utm_content=workshops-post>`_,
+commissioned scientific assessments of a predicted structure before the experiment.
