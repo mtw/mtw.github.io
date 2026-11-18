@@ -41,8 +41,6 @@ Manuscripts under review
    | :strong:`“Circle of Life” – Zika virus genomic cyclization is controlled by sequence specificity`
    | Liam Kerr, Dannielle L. Gemmill, Higor S. Pereira, :ul:`Michael T. Wolfinger`, Trushar R. Patel · submitted 2026
 
-   | :strong:`Identification of a region within the 5’UTR of Interleukin-2 mRNA offers a promising strategy for drug development for autoimmune disorders`
-   | Martyna Nowacka, Julita Nowicka, Joanna Grochowska, Magdalena Kulma, Agnieszka Belczyk-Ciesielska, Katarzyna M. Gluchowska, Krzysztofa Odrzywol, Agnieszka Zagozdzon, Tomasz K. Wirecki, Chandran Nithin, Bartlomiej Surpeta, Xiaobing Zhang, Jiannan Zhao, Wojciech Czestkowski, Sylwia Olejniczak, Lukasz Joachimiak, Bartlomiej Hofman, Joanna Sztuba-Solinska, Katarzyna Drzewicka, Angelika Muchowicz, :ul:`Michael T. Wolfinger`, Roman Blaszczyk, Irina Tuszynska, Janusz M. Bujnicki, Zbigniew Zaslona · submitted 2026
 
 Peer-reviewed journal / conference articles and book chapters
 =============================================================
@@ -53,6 +51,16 @@ Peer-reviewed journal / conference articles and book chapters
 -------
 
 .. container:: m-container-inflatable
+
+  .. container:: m-row
+
+    .. container::  m-col-t-8
+
+      | 57. :strong:`Identification of a region within the 5′ UTR of Interleukin-2 mRNA offers a promising strategy for drug development for autoimmune disorders`
+      | Martyna Nowacka, Julita Nowicka, Joanna Grochowska, Magdalena Kulma, Agnieszka Belczyk-Ciesielska, Katarzyna M. Gluchowska, Krzysztofa Odrzywol, Agnieszka Zagozdzon, Tomasz K. Wirecki, Chandran Nithin, Bartlomiej Surpeta, Xiaobing Zhang, Jiannan Zhao, Wojciech Czestkowski, Sylwia Olejniczak, Lukasz Joachimiak, Bartlomiej Hofman, Joanna Sztuba-Solinska, Katarzyna Drzewicka, Angelika Muchowicz, :ul:`Michael T. Wolfinger`, Roman Blaszczyk, Irina Tuszynska, Janusz M. Bujnicki, Zbigniew Zaslona
+      | *iScience* (2026), in press
+      | :label-flat-info:`Journal article`
+
 
   .. container:: m-row
 
