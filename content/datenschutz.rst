@@ -10,7 +10,7 @@ Datenschutzerklärung
 .. role:: link-flat(link)
   :class: m-flat m-text
 
-Stand: 1. November 2026
+Stand: 17. November 2026
 
 1. Verantwortlicher
 ===================
@@ -28,10 +28,12 @@ Die Website wird bei **GitHub Pages** (GitHub, Inc., USA) gehostet und über **C
 in Server-Logfiles, um die Website bereitzustellen und abzusichern. Rechtsgrundlage ist
 das berechtigte Interesse am sicheren Betrieb der Website (Art. 6 Abs. 1 lit. f DSGVO).
 Die Speicherdauer dieser Logfiles richtet sich nach den Vorgaben der beiden Anbieter, die
-beide nach dem EU-US Data Privacy Framework zertifiziert sind.
+beide nach dem EU-US Data Privacy Framework zertifiziert sind. Cloudflare Web Analytics
+zählt außerdem Seitenaufrufe, ohne Cookies zu setzen oder etwas auf Ihrem Gerät zu
+speichern (Art. 6 Abs. 1 lit. f DSGVO).
 
-3. Nutzungsstatistik nur mit Einwilligung
-=========================================
+3. Google Analytics nur mit Einwilligung
+========================================
 
 Ohne Ihre Einwilligung setzt diese Website keine Cookies. Stimmen Sie im Banner zu, wird
 **Google Analytics 4** (Google Ireland Limited, Dublin) geladen und erhebt pseudonyme
