@@ -288,9 +288,10 @@ Each item above costs more than the check that would have caught it, usually by 
 of a hundred or more. The check is a second command, or a second look at output that
 already exists. Done deliberately, before anything is ordered, that check has a name, an
 :link-flat:`RNA structure review <{filename}/glossary.rst#structure-review>`, and it costs
-a small fraction of any item above. The expensive mistakes in RNA structure work happen when the most probable of
-many structures is read as the structure the molecule has, and an order form is signed
-on that reading.
+a small fraction of any item above. RNA Forecast is preparing such reviews as commissioned
+assessments, with pre-registration open at
+`rnaforecast.com/structure-review <https://rnaforecast.com/structure-review/?utm_source=michaelwolfinger.com&utm_medium=referral&utm_campaign=structure-review&utm_content=cost-piece>`__. The expensive mistakes in RNA structure work happen when the most probable of
+many structures is read as the structure the molecule has.
 
 Sources: FWF `standard personnel costs <https://www.fwf.ac.at/en/funding/steps-to-your-fwf-project/further-information/personnel-costs>`_,
 rates for applications from January 2026 ·
